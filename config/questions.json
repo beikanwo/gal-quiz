@@ -1,0 +1,237 @@
+{
+  "_说明": "题目、选项、标签映射、权重的唯一配置来源。标签写 VNDB 英文名，由 scripts/resolve-tags.mjs 解析成 ID（含子标签），结果写到 config/tag-ids.json。权重都是初始值，测试时再调。",
+
+  "questions": [
+    {
+      "id": "lang", "short": "中文", "relaxTo": "any",
+      "kind": "hard",
+      "text": "你只能玩中文的吗？",
+      "options": [
+        { "id": "zh", "label": "只要有官中或汉化", "filter": { "zh": true } },
+        { "id": "any", "label": "日文也行" }
+      ]
+    },
+    {
+      "id": "length", "short": "时长", "relaxTo": "any",
+      "kind": "hard",
+      "text": "一部 gal 你能接受玩多久？",
+      "_说明": "优先用 length_minutes，没有就用 VNDB 的 length 档位（1 <2h，2 2–10h，3 10–30h，4 30–50h，5 >50h）",
+      "options": [
+        { "id": "short", "label": "一个周末（10 小时内）", "filter": { "minutes": [0, 600], "lengthLevels": [1, 2] } },
+        { "id": "medium", "label": "两三周（10–30 小时）", "filter": { "minutes": [600, 1800], "lengthLevels": [3] } },
+        { "id": "long", "label": "越长越好（30 小时以上）", "filter": { "minutes": [1800, null], "lengthLevels": [4, 5] } },
+        { "id": "any", "label": "无所谓" }
+      ]
+    },
+    {
+      "id": "rating", "short": "全年龄", "relaxTo": "any",
+      "kind": "hard",
+      "text": "推荐范围？",
+      "options": [
+        { "id": "allAges", "label": "只要全年龄版", "filter": { "allAges": true } },
+        { "id": "any", "label": "不限" }
+      ]
+    },
+    {
+      "id": "pairing", "short": "恋爱组合", "relaxTo": "any",
+      "kind": "hard",
+      "text": "你想看什么样的恋爱组合？",
+      "_说明": "片库里约 7% 是乙女向、2.5% 是 BL、18% 是女主角视角。不问的话新人很容易抽到乙女游戏。",
+      "options": [
+        { "id": "classic", "label": "男主角和女孩子们（最常见的 gal）", "filter": { "excludeTags": ["Otome Game", "Boy x Boy Romance", "Girl x Girl Romance Only"] } },
+        { "id": "otome", "label": "女主角和男性角色（乙女向）", "filter": { "requireTags": ["Otome Game"] } },
+        { "id": "yuri", "label": "女孩子之间（百合）", "filter": { "requireTags": ["Girl x Girl Romance"] } },
+        { "id": "any", "label": "都可以" }
+      ]
+    },
+    {
+      "id": "experience", "short": "人气范围", "relaxTo": "some",
+      "kind": "popularity",
+      "text": "你玩过多少 gal？",
+      "options": [
+        { "id": "first", "label": "这是第一部", "popularity": { "onlyTopVotesPct": 20, "votesAlpha": 0.15 } },
+        { "id": "some", "label": "玩过几部", "popularity": { "votesAlpha": 0.15 } },
+        { "id": "many", "label": "已经玩过很多", "popularity": { "hotMultiplier": 0.6, "votesAlpha": 0.05 } },
+        { "id": "veteran", "label": "老资历了", "popularity": { "hotMultiplier": 0.3, "hiddenGemBonus": 0.3, "votesAlpha": 0 } }
+      ]
+    },
+
+    {
+      "id": "feeling", "weight": 1.5,
+      "kind": "taste",
+      "text": "通关后你最想留下什么感觉？",
+      "options": [
+        { "id": "cry", "label": "哭到停不下来", "tags": { "Nakige": 1, "Life and Death Drama": 0.5 } },
+        { "id": "twist", "label": "回头发现处处是伏笔", "tags": { "Mystery": 1, "Multiple Route Mystery": 1, "Suspense": 0.5, "Unreliable Narrator": 0.5 } },
+        { "id": "haunted", "label": "很久缓不过来", "tags": { "Utsuge": 1, "Desperation": 1, "Psychological Trauma": 0.5 } },
+        { "id": "sweet", "label": "甜到嘴角压不住", "tags": { "Slice of Life": 1, "Only Good Endings": 0.7 } },
+        { "id": "hype", "label": "燃", "tags": { "Action": 1, "Fighting Protagonist": 0.7, "War": 0.5 } },
+        { "id": "think", "label": "想了很多", "tags": { "Philosophy": 1, "Existential Crisis": 1, "Mind Screw": 0.7, "Identity Crisis": 0.7, "Coming-of-Age Drama": 0.5, "Metafiction": 0.5, "Dystopia": 0.5, "Surreal": 0.5, "Religion/Faith": 0.5 } }
+      ]
+    },
+    {
+      "id": "structure",
+      "kind": "taste",
+      "text": "你更喜欢哪种故事结构？",
+      "options": [
+        { "id": "linear", "label": "一条主线讲到底", "tags": { "Linear Plot": 1 } },
+        { "id": "routes", "label": "好几条线，自己选走哪条", "tags": { "Branching Plot": 1 } },
+        { "id": "ensemble", "label": "好几个主角，视角来回切换", "tags": { "Multiple Protagonists": 1, "Non-Chronological": 0.5 } },
+        { "id": "any", "label": "无所谓" }
+      ]
+    },
+    {
+      "id": "setting",
+      "kind": "taste",
+      "text": "舞台选哪里？",
+      "options": [
+        { "id": "school", "label": "校园", "tags": { "School": 1 } },
+        { "id": "scifi", "label": "科幻、时间线", "tags": { "Science Fiction": 1 } },
+        { "id": "fantasy", "label": "魔法、异能、异世界", "tags": { "Fantasy": 1 } },
+        { "id": "real", "label": "现实社会", "tags": { "Modern Day Earth": 0.3, "Adult Protagonist": 0.5, "Crime": 0.7 } },
+        { "id": "japan", "label": "和风、历史", "tags": { "Past Japan": 1, "Japanese Mythology": 1 } },
+        { "id": "any", "label": "不挑" }
+      ]
+    },
+    {
+      "id": "protagonist",
+      "kind": "taste",
+      "text": "你希望主角是什么样的人？",
+      "options": [
+        { "id": "student", "label": "普通的学生", "tags": { "Student Protagonist": 1, "Gentle Protagonist": 0.5 } },
+        { "id": "adult", "label": "已经工作的大人", "tags": { "Adult Protagonist": 1 } },
+        { "id": "fighter", "label": "能打", "tags": { "Fighting Protagonist": 1, "Superpowers": 0.5, "Hotblooded Protagonist": 0.5 } },
+        { "id": "brain", "label": "头脑派", "tags": { "Genius Protagonist": 1, "Pragmatic Protagonist": 1, "Detective Work": 0.7 } },
+        { "id": "dark", "label": "有阴暗面", "tags": { "Antihero Protagonist": 1, "Protagonist with Psychological Problems": 0.7 } },
+        { "id": "any", "label": "无所谓" }
+      ]
+    },
+    {
+      "id": "romance",
+      "kind": "taste",
+      "text": "恋爱在故事里占多少？",
+      "options": [
+        { "id": "core", "label": "恋爱就是核心", "tags": { "Romance": 1 } },
+        { "id": "spice", "label": "恋爱是调味" },
+        { "id": "none", "label": "没恋爱也行", "tags": { "Romance": -1, "No Romance Plot": 1 } }
+      ]
+    },
+    {
+      "id": "humor",
+      "kind": "taste",
+      "text": "想要多少笑点？",
+      "options": [
+        { "id": "lots", "label": "越多越好", "tags": { "Comedy": 1, "Tsukkomi Protagonist": 0.5 } },
+        { "id": "some", "label": "有就行" },
+        { "id": "serious", "label": "严肃一点", "tags": { "Comedy": -0.7 } }
+      ]
+    },
+    {
+      "id": "gameplay",
+      "kind": "taste",
+      "text": "除了读，还想要点玩法吗？",
+      "options": [
+        { "id": "read", "label": "只想读", "tags": { "Other Gameplay Elements": -1 } },
+        { "id": "play", "label": "来点战斗、策略或解谜", "tags": { "Other Gameplay Elements": 1 } },
+        { "id": "any", "label": "无所谓" }
+      ]
+    }
+  ],
+
+  "dealbreakers": {
+    "text": "有没有绝对不想碰的？（可多选）",
+    "_说明": "带对应标签（含子标签、任何剧透等级）且分数 ≥ minTagScore 就排除。softPenalty：玩家没勾这个雷点时，总分 × (1 − softPenalty × 标签分数/3)，标签分数取 softPenaltyTags（没写就用 tags）里最高的。",
+    "minTagScore": 1.5,
+    "options": [
+      { "id": "ntr", "label": "NTR", "tags": ["Netorare", "Netori"], "softPenalty": 0.9, "softPenaltyTags": ["Netori"] },
+      { "id": "gore", "label": "猎奇、血腥", "tags": ["Gore", "Guro"] },
+      { "id": "horror", "label": "恐怖", "tags": ["Horror"] },
+      { "id": "tragic", "label": "以悲剧为主", "tags": ["Utsuge", "Bad True End"] },
+      { "id": "harem", "label": "后宫结局", "tags": ["Harem Ending"] },
+      { "id": "nukige", "label": "拔作", "tags": ["Nukige"], "softPenalty": 0.9 },
+      { "id": "unvoiced", "label": "没有角色语音", "voiced": 1 }
+    ]
+  },
+
+  "tagText": {
+    "_说明": "口味标签的中文：[卡片上的短标签, 拼推荐理由用的短语]。只有正权重的标签需要。推荐理由 = 2–3 个短语用逗号连起来。",
+    "Nakige": ["催泪", "是公认的催泪作"],
+    "Life and Death Drama": ["生与死", "剧情围绕生与死展开"],
+    "Mystery": ["悬疑", "有贯穿全篇的谜团"],
+    "Multiple Route Mystery": ["多线拼真相", "要把几条线串起来才能看清真相"],
+    "Suspense": ["紧张感", "越往后越紧张"],
+    "Unreliable Narrator": ["不可靠叙述", "叙述者的话不能全信"],
+    "Utsuge": ["郁", "后劲很重"],
+    "Desperation": ["绝境", "角色被一路逼进绝境"],
+    "Psychological Trauma": ["心理创伤", "角色各自背着心理创伤"],
+    "Slice of Life": ["日常", "日常戏份很足"],
+    "Only Good Endings": ["没有坏结局", "没有坏结局"],
+    "Action": ["动作", "打斗场面多"],
+    "Fighting Protagonist": ["主角能打", "主角能打"],
+    "War": ["战争", "有战争题材"],
+    "Philosophy": ["哲学", "有不少哲学讨论"],
+    "Existential Crisis": ["怀疑现实", "会让人怀疑眼前的现实"],
+    "Coming-of-Age Drama": ["成长", "是个成长故事"],
+    "Mind Screw": ["烧脑", "会颠覆你对故事的认知"],
+    "Identity Crisis": ["身份认同", "角色会开始怀疑「我是谁」"],
+    "Metafiction": ["元叙事", "会打破游戏和现实的边界"],
+    "Dystopia": ["反乌托邦", "舞台是一个病态的社会"],
+    "Surreal": ["超现实", "气氛很超现实"],
+    "Religion/Faith": ["信仰", "会认真讨论信仰"],
+    "Linear Plot": ["单线剧情", "一条主线讲到底"],
+    "Branching Plot": ["多路线", "有好几条路线可以选"],
+    "Multiple Protagonists": ["多主角", "好几个主角轮流登场"],
+    "Non-Chronological": ["乱序叙事", "故事不按时间顺序讲"],
+    "School": ["校园", "舞台在校园"],
+    "Science Fiction": ["科幻", "是科幻设定"],
+    "Fantasy": ["奇幻", "是奇幻世界观"],
+    "Modern Day Earth": ["现代", "舞台在现代社会"],
+    "Adult Protagonist": ["社会人主角", "主角是已经工作的大人"],
+    "Crime": ["犯罪", "牵扯到犯罪事件"],
+    "Past Japan": ["日本历史", "舞台在过去的日本"],
+    "Japanese Mythology": ["和风神话", "有日本神话和妖怪元素"],
+    "Student Protagonist": ["学生主角", "主角是普通学生"],
+    "Gentle Protagonist": ["温柔主角", "主角很温柔"],
+    "Superpowers": ["异能", "有异能"],
+    "Hotblooded Protagonist": ["热血主角", "主角很热血"],
+    "Genius Protagonist": ["天才主角", "主角是天才"],
+    "Pragmatic Protagonist": ["理性主角", "主角冷静理性"],
+    "Detective Work": ["推理调查", "有推理调查的情节"],
+    "Antihero Protagonist": ["反英雄", "主角是个反英雄"],
+    "Protagonist with Psychological Problems": ["主角有心结", "主角自己也有心理上的问题"],
+    "Romance": ["恋爱", "恋爱是重头戏"],
+    "No Romance Plot": ["无恋爱", "没有恋爱线"],
+    "Comedy": ["搞笑", "笑点很多"],
+    "Tsukkomi Protagonist": ["吐槽役主角", "主角是吐槽役"],
+    "Other Gameplay Elements": ["有玩法", "除了读还有游戏玩法"]
+  },
+
+  "playerTypes": {
+    "_说明": "按第 6 题（通关感觉）的选项定玩家类型；跳过了就用 default。",
+    "cry": { "name": "纸巾消耗大户", "desc": "就想被一部作品弄哭，哭完还想再来一次。" },
+    "twist": { "name": "伏笔收集癖", "desc": "最爽的瞬间是真相揭开，回头一看全都对上了。" },
+    "haunted": { "name": "后劲受害者", "desc": "喜欢通关好几天还走不出来的那种作品。" },
+    "sweet": { "name": "糖分依赖症", "desc": "看角色们好好谈恋爱、好好过日子，就很满足。" },
+    "hype": { "name": "热血魂", "desc": "要的是一路燃到最后的爽快感。" },
+    "think": { "name": "想太多星人", "desc": "玩完一部 gal，还会盯着天花板想很久。" },
+    "default": { "name": "杂食玩家", "desc": "没什么特别执着的，好看就行。" }
+  },
+
+  "scoring": {
+    "childTagFactor": 0.7,
+    "_childTagFactor": "口味打分时，子标签分数打这个折扣再和父标签取最大；H 类（ero）子标签不算。雷点和硬条件不打折。",
+    "hotTopVotesPct": 5,
+    "defaultVotesAlpha": 0.15,
+    "_votesAlpha": "人气系数 = (投票数 ÷ 可推荐作品的投票中位数)^votesAlpha。口味分打平时把公认的作品排前面。第 5 题没答时用 defaultVotesAlpha。",
+    "hiddenGem": { "belowVotesPercentile": 50, "minRating": 75 },
+    "quality": { "base": 0.8, "span": 0.2, "ratingFloor": 65, "ratingRange": 35 },
+    "_formula": "每题得分 = 加分部分 − 减分部分（落在 -1~1）。加分部分按「任一命中」：1 − Π(1 − 权重/该选项最大正权重 × 标签分数/3)；减分部分 = Σ(|权重| × 标签分数/3) ÷ 负权重绝对值之和；总分 = e^(matchSharpness × Σ 题目权重 × 每题得分) × 人气系数 × 质量系数 × 拔作降权。",
+    "matchSharpness": 2,
+    "_matchSharpness": "总分里口味分的放大倍数：e^(matchSharpness × 口味分)。越大越偏向高匹配，抽取也越集中在前几名。",
+    "minMatch": 0.15,
+    "_minMatch": "答了口味题时，口味分低于这个值的作品排在所有达标作品后面（不够 poolSize 部时才会用到）。",
+    "minReasonTagScore": 1,
+    "poolSize": 15,
+    "pickCount": 3
+  }
+}

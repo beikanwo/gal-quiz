@@ -1,0 +1,29 @@
+# 测测你适合哪部 Gal
+
+闹游戏荒的时候用的：答 12 道题、勾一下雷点，从 VNDB 的高分作品里抽 3 部推荐给你，并说明为什么推荐。
+
+纯静态网站，没有后端。`site/` 文件夹就是整个网站，推送到 `main` 后由 GitHub Actions 自动部署到 GitHub Pages。
+
+## 数据
+
+作品数据来自 [VNDB](https://vndb.org/)，遵循 [Open Database License (ODbL)](https://opendatacommons.org/licenses/odbl/1-0/)。本站不提供任何资源下载，只链接到 VNDB 和 Bangumi 的作品页。
+
+重新生成数据（需要 Node 24）：
+
+```bash
+node scripts/fetch-vndb.mjs      # 从 VNDB API 抓作品和发行版，约 10 分钟，支持断点续抓
+node scripts/resolve-tags.mjs    # 把问卷里的标签名解析成 VNDB 标签 ID
+node scripts/build-data.mjs      # 生成 site/data/vns.json 和 site/data/quiz.json
+```
+
+本地预览：
+
+```bash
+node scripts/serve.mjs
+```
+
+然后打开 http://localhost:8080 。
+
+检查推荐结果：`node scripts/simulate.mjs`，结果写到 `data/test-runs.md`。
+
+题目、标签和权重都在 `config/questions.json`，打分规则见 `CLAUDE.md`。

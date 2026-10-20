@@ -1,0 +1,463 @@
+// 页面渲染和交互。推荐逻辑都在 engine.js。
+
+import { createEngine, formatLength } from './engine.js';
+
+const app = document.getElementById('app');
+const reduceMotion = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches ?? false;
+
+// ---------- 本地存储（读写失败也要能正常用） ----------
+
+const STORE_KEYS = { played: 'galquiz.played', skip: 'galquiz.notInterested', want: 'galquiz.want' };
+
+function loadSet(key) {
+  try {
+    const arr = JSON.parse(localStorage.getItem(key) ?? '[]');
+    return new Set(Array.isArray(arr) ? arr : []);
+  } catch {
+    return new Set();
+  }
+}
+
+function saveSet(key, set) {
+  try {
+    localStorage.setItem(key, JSON.stringify([...set]));
+  } catch {
+    // 存不了就只在这次访问里生效
+  }
+}
+
+const marks = {
+  played: loadSet(STORE_KEYS.played),
+  skip: loadSet(STORE_KEYS.skip),
+  want: loadSet(STORE_KEYS.want),
+};
+const blocked = () => new Set([...marks.played, ...marks.skip]);
+
+// ---------- 状态 ----------
+
+let engine;
+let quiz;
+let vnById;
+const state = {
+  screen: 'start',  // start | quiz | dealbreakers | result | wants
+  qIndex: 0,
+  answers: {},
+  dealbreakers: new Set(),
+  ranked: [],       // 当前条件下的排名（不含已屏蔽的）
+  current: [],      // 正在展示的 3 部
+  shown: new Set(), // 这轮已经展示过的，换一批时尽量不重复
+  back: 'start',    // 想玩清单返回到哪个画面
+};
+
+// ---------- 工具 ----------
+
+const esc = (s) =>
+  String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
+const pad = (n) => String(n).padStart(2, '0');
+
+let typing = null; // 正在逐字打出的题目
+
+function render() {
+  const screens = { start: renderStart, quiz: renderQuiz, dealbreakers: renderDealbreakers, result: renderResult, wants: renderWants };
+  stopTyping();
+  app.innerHTML = screens[state.screen]();
+  startTyping();
+}
+
+function go(screen) {
+  state.screen = screen;
+  if (screen === 'result') computeResult();
+  render();
+  window.scrollTo(0, 0);
+}
+
+// 题目像 gal 一样逐字打出；点文本框直接显示全文
+function startTyping() {
+  const el = app.querySelector('[data-type]');
+  if (!el || reduceMotion) return;
+  const full = el.dataset.type;
+  let i = 0;
+  el.textContent = '';
+  typing = { el, full, timer: setInterval(() => {
+    el.textContent = full.slice(0, ++i);
+    if (i >= full.length) stopTyping();
+  }, 45) };
+}
+
+function stopTyping() {
+  if (!typing) return;
+  clearInterval(typing.timer);
+  typing.el.textContent = typing.full;
+  typing = null;
+}
+
+// ---------- 封面 ----------
+
+// 数据里只有完全安全的封面才有 img（见 build-data）；没有的用标题首字做文字卡片
+function renderCover(vn) {
+  if (vn.img) return `<div class="cover"><img src="${esc(vn.img)}" alt="" loading="lazy" referrerpolicy="no-referrer"></div>`;
+  const first = Array.from(vn.title.trim())[0] ?? '?';
+  return `<div class="cover text" aria-hidden="true"><span>${esc(first)}</span></div>`;
+}
+
+const links = (vn) => `
+  <span class="links">
+    <a href="https://vndb.org/${esc(vn.id)}" target="_blank" rel="noopener">VNDB</a>
+    <a href="https://bgm.tv/subject_search/${encodeURIComponent(vn.orig)}?cat=4" target="_blank" rel="noopener">Bangumi</a>
+  </span>`;
+
+// ---------- 开始页 ----------
+
+function renderStart() {
+  const wants = marks.want.size;
+  return `
+    <section class="screen title-screen">
+      <div class="kicker">GALGAME 推荐</div>
+      <h1>测测你适合<br>哪部 Gal</h1>
+      <p class="lead">闹游戏荒了？答 12 道题，从 ${engine.stats.total} 部 VNDB 高分作品里给你挑 3 部，顺便说说为什么。每道题都能跳过。</p>
+      <nav class="menu">
+        <button class="first" data-action="begin"><span class="label">开始</span></button>
+        <button data-action="wants"><span class="label">想玩清单</span><small>${wants ? `${wants} 部` : '还是空的'}</small></button>
+      </nav>
+    </section>`;
+}
+
+// ---------- 答题页 ----------
+
+function renderQuestionScreen({ index, total, name, text, hint, options, footer }) {
+  return `
+    <section class="screen">
+      <div class="top">
+        <span class="count">${pad(index)} <span>/ ${total}</span></span>
+        <div class="bar"><i style="width:${(100 * index) / total}%"></i></div>
+      </div>
+      <div class="textbox" data-action="finish-typing">
+        <span class="name">${esc(name)}</span>
+        <p class="q" data-type="${esc(text)}">${esc(text)}</p>
+        <p class="hint">${hint}</p>
+      </div>
+      <div class="choices">${options}</div>
+      <div class="nav">${footer}</div>
+    </section>`;
+}
+
+function renderQuiz() {
+  const q = quiz.questions[state.qIndex];
+  const picked = state.answers[q.id];
+  const remain = engine.filterPool(state.answers, [], blocked()).length;
+  return renderQuestionScreen({
+    index: state.qIndex + 1,
+    total: quiz.questions.length + 1,
+    name: `第 ${state.qIndex + 1} 题`,
+    text: q.text,
+    hint: `目前符合条件：${remain} 部`,
+    options: q.options
+      .map((o, i) => `<button class="choice${picked === o.id ? ' picked' : ''}" data-action="answer" data-option="${esc(o.id)}"><kbd>${i + 1}</kbd>${esc(o.label)}</button>`)
+      .join(''),
+    footer: `
+      <button data-action="prev" ${state.qIndex === 0 ? 'disabled' : ''}>‹ 上一题</button>
+      <button data-action="skip">跳过 ›</button>`,
+  });
+}
+
+function answer(optionId) {
+  state.answers[quiz.questions[state.qIndex].id] = optionId;
+  nextQuestion();
+}
+
+function nextQuestion() {
+  if (state.qIndex < quiz.questions.length - 1) {
+    state.qIndex++;
+    render();
+  } else {
+    go('dealbreakers');
+  }
+}
+
+function skipQuestion() {
+  delete state.answers[quiz.questions[state.qIndex].id];
+  nextQuestion();
+}
+
+// ---------- 雷点页 ----------
+
+function renderDealbreakers() {
+  const db = quiz.dealbreakers;
+  const total = quiz.questions.length + 1;
+  const remain = engine.filterPool(state.answers, [...state.dealbreakers], blocked()).length;
+  return renderQuestionScreen({
+    index: total,
+    total,
+    name: '最后一题',
+    text: db.text,
+    hint: `勾上的会直接排除，宁可少推荐也不让你踩雷 · 目前符合条件：${remain} 部`,
+    options: db.options
+      .map((o, i) => `<button class="choice${state.dealbreakers.has(o.id) ? ' picked' : ''}" data-action="toggle-db" data-id="${esc(o.id)}" aria-pressed="${state.dealbreakers.has(o.id)}"><kbd>${i + 1}</kbd>${esc(o.label)}</button>`)
+      .join(''),
+    footer: `
+      <button data-action="back-to-quiz">‹ 上一题</button>
+      <button class="btn primary" data-action="show-result">看结果</button>`,
+  });
+}
+
+// ---------- 结果 ----------
+
+function computeResult() {
+  state.ranked = engine.rank(state.answers, [...state.dealbreakers], blocked());
+  state.shown = new Set();
+  state.current = engine.draw(state.ranked);
+  state.current.forEach((r) => state.shown.add(r.vn.id));
+}
+
+function reshuffle() {
+  let picks = engine.draw(state.ranked, undefined, state.shown);
+  if (!picks.length) {
+    // 全都看过一遍了，从头再来
+    state.shown = new Set();
+    picks = engine.draw(state.ranked, undefined, new Set(state.current.map((r) => r.vn.id)));
+  }
+  state.current = picks;
+  picks.forEach((r) => state.shown.add(r.vn.id));
+  render();
+  window.scrollTo(0, 0);
+}
+
+// 玩过了 / 不感兴趣：记下来，从排名里拿掉，单独换掉这一张
+function dismiss(id, kind) {
+  marks[kind].add(id);
+  saveSet(STORE_KEYS[kind], marks[kind]);
+  state.ranked = state.ranked.filter((r) => r.vn.id !== id);
+  const exclude = new Set([...state.shown, ...state.current.map((r) => r.vn.id)]);
+  const [next] = engine.draw(state.ranked, 1, exclude);
+  state.current = state.current.flatMap((r) => (r.vn.id !== id ? [r] : next ? [next] : []));
+  if (next) state.shown.add(next.vn.id);
+  render();
+}
+
+function toggleWant(id) {
+  if (marks.want.has(id)) marks.want.delete(id);
+  else marks.want.add(id);
+  saveSet(STORE_KEYS.want, marks.want);
+  render();
+}
+
+function relax(i) {
+  const r = engine.diagnose(state.answers, [...state.dealbreakers], blocked())[i];
+  if (!r) return;
+  if (r.kind === 'question') state.answers[r.qid] = r.relaxTo;
+  else state.dealbreakers.delete(r.id);
+  go('result');
+}
+
+function renderResult() {
+  const type = engine.playerType(state.answers);
+  const need = quiz.scoring.pickCount;
+  let notice = '';
+  if (state.ranked.length < need) {
+    const hints = engine.diagnose(state.answers, [...state.dealbreakers], blocked()).slice(0, 2);
+    notice = `
+      <div class="notice">
+        <p>${state.ranked.length ? `符合条件的只有 ${state.ranked.length} 部。` : '没有符合条件的作品。'}${
+          hints.length ? `主要是「${esc(hints[0].label)}」这个条件卡住了。` : ''
+        }</p>
+        <div class="relax">
+          ${hints.map((h, i) => `<button data-action="relax" data-index="${i}">放宽「${esc(h.label)}」，会有 ${h.count} 部</button>`).join('')}
+        </div>
+      </div>`;
+  }
+  const canShuffle = state.ranked.length > need;
+  return `
+    <section class="screen result">
+      <header class="ending">
+        <div class="kicker">— ENDING —</div>
+        <h2>${esc(type.name)}</h2>
+        <p>${esc(type.desc)}</p>
+        ${type.prefs.length ? `<div class="pills">${type.prefs.map((p) => `<span>${esc(p)}</span>`).join('')}</div>` : ''}
+      </header>
+      ${notice}
+      <div class="cards">${state.current.map(renderCard).join('')}</div>
+      <div class="actions">
+        ${canShuffle ? '<button class="btn primary" data-action="reshuffle">换一批</button>' : ''}
+        <button class="btn${canShuffle ? '' : ' full'}" data-action="edit">改答案</button>
+      </div>
+      <p class="restart">
+        <button data-action="wants">想玩清单（${marks.want.size}）</button> ·
+        <button data-action="restart">从头再来</button>
+      </p>
+    </section>`;
+}
+
+function renderCard({ vn }) {
+  const re = engine.reasons(vn, state.answers);
+  const reason = re.sentence || '在符合你条件的作品里口碑靠前。';
+  const want = marks.want.has(vn.id);
+  return `
+    <article class="card">
+      ${renderCover(vn)}
+      <div>
+        <h3>${esc(vn.title)}</h3>
+        ${vn.orig !== vn.title ? `<p class="orig">${esc(vn.orig)}</p>` : ''}
+        <p class="meta">${esc(formatLength(vn))} · VNDB ${(vn.rating / 10).toFixed(1)}（${vn.votes} 人评）${vn.year ? ` · ${vn.year}` : ''}</p>
+        <p class="why">${esc(reason)}</p>
+        ${re.labels.length ? `<ul class="chips">${re.labels.map((l) => `<li>${esc(l)}</li>`).join('')}</ul>` : ''}
+        <div class="row">
+          <button data-action="played" data-id="${esc(vn.id)}">玩过了</button>
+          <button data-action="not-interested" data-id="${esc(vn.id)}">不感兴趣</button>
+          <button class="${want ? 'on' : ''}" data-action="want" data-id="${esc(vn.id)}" aria-pressed="${want}">${want ? '♥ 想玩' : '♡ 想玩'}</button>
+          ${links(vn)}
+        </div>
+      </div>
+    </article>`;
+}
+
+// ---------- 想玩清单 ----------
+
+function renderWants() {
+  const items = [...marks.want].map((id) => vnById.get(id)).filter(Boolean).reverse();
+  const hidden = marks.played.size + marks.skip.size;
+  return `
+    <section class="screen">
+      <div class="list-head">
+        <h2>想玩清单</h2>
+        <button data-action="close-wants">‹ 返回</button>
+      </div>
+      ${items.length
+        ? `<div class="cards">${items.map(renderMini).join('')}</div>`
+        : '<p class="empty">还没有想玩的作品。在推荐结果里点「♡ 想玩」就会出现在这里。</p>'}
+      ${hidden
+        ? `<p class="reset">你标过 ${marks.played.size} 部「玩过了」、${marks.skip.size} 部「不感兴趣」，它们不会再被推荐。<button data-action="clear-hidden">全部恢复</button></p>`
+        : ''}
+    </section>`;
+}
+
+function renderMini(vn) {
+  return `
+    <article class="card mini">
+      ${renderCover(vn)}
+      <div>
+        <h3>${esc(vn.title)}</h3>
+        ${vn.orig !== vn.title ? `<p class="orig">${esc(vn.orig)}</p>` : ''}
+        <p class="meta">${esc(formatLength(vn))} · VNDB ${(vn.rating / 10).toFixed(1)}${vn.year ? ` · ${vn.year}` : ''}</p>
+        <div class="row">
+          <button data-action="want" data-id="${esc(vn.id)}">移出清单</button>
+          ${links(vn)}
+        </div>
+      </div>
+    </article>`;
+}
+
+function clearHidden() {
+  marks.played.clear();
+  marks.skip.clear();
+  saveSet(STORE_KEYS.played, marks.played);
+  saveSet(STORE_KEYS.skip, marks.skip);
+  render();
+}
+
+// ---------- 事件 ----------
+
+app.addEventListener('click', (e) => {
+  const btn = e.target.closest('[data-action]');
+  if (!btn || btn.disabled) return;
+  const { action, id } = btn.dataset;
+  switch (action) {
+    case 'finish-typing':
+      stopTyping();
+      break;
+    case 'begin':
+      state.qIndex = 0;
+      go('quiz');
+      break;
+    case 'answer':
+      answer(btn.dataset.option);
+      break;
+    case 'skip':
+      skipQuestion();
+      break;
+    case 'prev':
+      state.qIndex--;
+      render();
+      break;
+    case 'toggle-db':
+      if (state.dealbreakers.has(id)) state.dealbreakers.delete(id);
+      else state.dealbreakers.add(id);
+      render();
+      break;
+    case 'back-to-quiz':
+      state.qIndex = quiz.questions.length - 1;
+      go('quiz');
+      break;
+    case 'show-result':
+      go('result');
+      break;
+    case 'reshuffle':
+      reshuffle();
+      break;
+    case 'played':
+      dismiss(id, 'played');
+      break;
+    case 'not-interested':
+      dismiss(id, 'skip');
+      break;
+    case 'want':
+      toggleWant(id);
+      break;
+    case 'relax':
+      relax(Number(btn.dataset.index));
+      break;
+    case 'edit':
+      state.qIndex = 0;
+      go('quiz');
+      break;
+    case 'restart':
+      state.answers = {};
+      state.dealbreakers = new Set();
+      go('start');
+      break;
+    case 'wants':
+      state.back = state.screen;
+      go('wants');
+      break;
+    case 'close-wants':
+      // 从结果页进来的回结果页，但不重新抽
+      state.screen = state.back;
+      render();
+      break;
+    case 'clear-hidden':
+      clearHidden();
+      break;
+  }
+});
+
+// 数字键选选项，回车在雷点页看结果
+document.addEventListener('keydown', (e) => {
+  if (e.ctrlKey || e.metaKey || e.altKey) return;
+  if (state.screen !== 'quiz' && state.screen !== 'dealbreakers') return;
+  if (e.key === 'Enter' && state.screen === 'dealbreakers') {
+    go('result');
+    return;
+  }
+  const n = Number(e.key);
+  if (!n) return;
+  const choice = app.querySelectorAll('.choice')[n - 1];
+  if (choice) choice.click();
+});
+
+// ---------- 启动 ----------
+
+async function main() {
+  try {
+    const [vns, q] = await Promise.all(['data/vns.json', 'data/quiz.json'].map((u) => fetch(u).then((r) => {
+      if (!r.ok) throw new Error(`${u}: HTTP ${r.status}`);
+      return r.json();
+    })));
+    quiz = q;
+    engine = createEngine(vns, quiz);
+    vnById = new Map(vns.map((v) => [v.id, v]));
+    render();
+  } catch (err) {
+    app.innerHTML = `<p class="error">数据加载失败，刷新试试。（${esc(err.message)}）</p>`;
+  }
+}
+
+main();
