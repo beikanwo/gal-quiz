@@ -212,10 +212,18 @@ gal/
 
 1. ~~写 `fetch-vndb.mjs`，先抓 100 部试跑，确认字段都拿得到。~~
 2. ~~写 `resolve-tags.mjs`，核对所有标签，把核对结果给我看。~~
-3. 全量抓取，生成 `vns.json`，报告：作品总数、有中文的数量、全年龄的数量、JSON 文件大小。
-4. 做网页：先把功能做通，再做视觉。
-5. 用下面的测试用例走一遍，把结果给我看。
-6. 部署到 GitHub Pages。
+3. ~~全量抓取，生成 `vns.json`，报告：作品总数、有中文的数量、全年龄的数量、JSON 文件大小。~~
+4. ~~做网页：先把功能做通，再做视觉。~~
+5. ~~用下面的测试用例走一遍，把结果给我看。~~（`node scripts/simulate.mjs`，结果在 `data/test-runs.md`）
+6. ~~部署到 GitHub Pages。~~
+
+## 部署
+
+- 仓库：https://github.com/beikanwo/gal-quiz （公开），网站：https://beikanwo.github.io/gal-quiz/
+- 推送到 `main` 后，`.github/workflows/pages.yml` 自动把 `site/` 发布到 GitHub Pages，约 1 分钟生效。
+- 更新数据：重跑 fetch → resolve-tags → build-data，提交 `site/data/` 后推送。
+- `design/`（视觉稿和截图，含 VNDB 封面）和 `data/raw/` 不进仓库。
+- 本机已装 GitHub CLI（`C:\Program Files\GitHub CLI\gh.exe`），以 beikanwo 登录。
 
 ## 验证用的测试玩家
 
