@@ -62,7 +62,77 @@ function render() {
   stopTyping();
   app.innerHTML = screens[state.screen]();
   startTyping();
+  saveSession();
 }
+
+// ---------- 会话（点开 VNDB / Bangumi 再返回时恢复原来的页面） ----------
+// 手机浏览器和 App 内置浏览器常常在当前页打开外链，返回时整页重新加载。
+// 所以把当前画面存进 sessionStorage（只在这个标签页里有效），加载时恢复。
+
+const SESSION_KEY = 'galquiz.session';
+
+function saveSession() {
+  try {
+    sessionStorage.setItem(SESSION_KEY, JSON.stringify({
+      screen: state.screen,
+      qIndex: state.qIndex,
+      answers: state.answers,
+      dealbreakers: [...state.dealbreakers],
+      current: state.current.map((r) => r.vn.id),
+      shown: [...state.shown],
+      back: state.back,
+      scrollY: window.scrollY,
+    }));
+  } catch {
+    // 存不了就算了，返回时从开始页重来
+  }
+}
+
+function restoreSession() {
+  let s;
+  try {
+    s = JSON.parse(sessionStorage.getItem(SESSION_KEY) ?? 'null');
+  } catch {
+    return false;
+  }
+  if (!s || !['quiz', 'dealbreakers', 'result', 'wants'].includes(s.screen)) return false;
+  state.screen = s.screen;
+  state.qIndex = Math.min(Math.max(0, s.qIndex | 0), quiz.questions.length - 1);
+  state.answers = s.answers && typeof s.answers === 'object' ? s.answers : {};
+  state.dealbreakers = new Set(Array.isArray(s.dealbreakers) ? s.dealbreakers : []);
+  state.back = s.back === 'result' ? 'result' : 'start';
+  if (state.screen === 'result' || state.back === 'result') {
+    // 重新排名，但保留原来那 3 部；数据更新后找不到的就补抽
+    state.ranked = engine.rank(state.answers, [...state.dealbreakers], blocked());
+    const byId = new Map(state.ranked.map((r) => [r.vn.id, r]));
+    state.current = (s.current ?? []).map((id) => byId.get(id)).filter(Boolean);
+    state.shown = new Set([...(s.shown ?? []), ...state.current.map((r) => r.vn.id)]);
+    const missing = quiz.scoring.pickCount - state.current.length;
+    if (missing > 0) {
+      const more = engine.draw(state.ranked, missing, new Set([...state.shown]));
+      state.current.push(...more);
+      more.forEach((r) => state.shown.add(r.vn.id));
+    }
+  }
+  render();
+  const y = Number(s.scrollY) || 0;
+  window.scrollTo(0, y);
+  setTimeout(() => window.scrollTo(0, y), 50); // 版面稳定后再滚一次
+  return true;
+}
+
+// 滚动位置自己管：浏览器默认的恢复发生在数据加载完之前，那时页面还是空的，会被重置到顶部
+try {
+  history.scrollRestoration = 'manual';
+} catch {
+  // 老浏览器不支持就算了
+}
+
+// 离开页面（包括点外链在当前页打开）前记下滚动位置
+window.addEventListener('pagehide', saveSession);
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'hidden') saveSession();
+});
 
 function go(screen) {
   state.screen = screen;
@@ -454,7 +524,7 @@ async function main() {
     quiz = q;
     engine = createEngine(vns, quiz);
     vnById = new Map(vns.map((v) => [v.id, v]));
-    render();
+    if (!restoreSession()) render();
   } catch (err) {
     app.innerHTML = `<p class="error">数据加载失败，刷新试试。（${esc(err.message)}）</p>`;
   }
