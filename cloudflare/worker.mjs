@@ -1,10 +1,16 @@
-// gal.scurra.top 的 HTTPS 入口。固定读取 GitHub Pages 的静态文件，推荐逻辑仍在浏览器运行。
+// www.scurra.top 的 HTTPS 入口。固定读取 GitHub Pages 的静态文件，推荐逻辑仍在浏览器运行。
 const ORIGIN = 'https://beikanwo.github.io/gal-quiz/';
 const FILES = new Set(['', 'index.html', 'app.js', 'engine.js', 'style.css', 'robots.txt', 'sitemap.xml', 'data/vns.json', 'data/quiz.json']);
 
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
+    // 保留旧推广链接的路径和查询参数，将入口统一到正式域名。
+    if (url.hostname === 'gal.scurra.top') {
+      url.hostname = 'www.scurra.top';
+      url.protocol = 'https:';
+      return Response.redirect(url.href, 301);
+    }
     if (url.protocol !== 'https:') {
       url.protocol = 'https:';
       return Response.redirect(url.href, 308);
