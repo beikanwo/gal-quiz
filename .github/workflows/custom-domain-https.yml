@@ -1,0 +1,51 @@
+name: Enable custom-domain HTTPS
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+
+concurrency:
+  group: custom-domain-https
+  cancel-in-progress: false
+
+jobs:
+  enable-https:
+    runs-on: ubuntu-latest
+    timeout-minutes: 65
+    env:
+      GH_TOKEN: ${{ github.token }}
+      EXPECTED_DOMAIN: gal.scurra.top
+    steps:
+      - name: Wait for certificate and enforce HTTPS
+        shell: bash
+        run: |
+          set -euo pipefail
+          for attempt in $(seq 1 60); do
+            page=$(gh api "repos/$GITHUB_REPOSITORY/pages")
+            domain=$(jq -r '.cname // ""' <<< "$page")
+            if [ "$domain" != "$EXPECTED_DOMAIN" ]; then
+              echo "Expected domain $EXPECTED_DOMAIN; found $domain. Stopping without changing settings."
+              exit 1
+            fi
+            if [ "$(jq -r '.https_enforced' <<< "$page")" = "true" ]; then
+              echo "HTTPS already enforced for $domain."
+              exit 0
+            fi
+            if result=$(gh api --method PUT "repos/$GITHUB_REPOSITORY/pages" -F https_enforced=true 2>&1); then
+              confirmed=$(gh api "repos/$GITHUB_REPOSITORY/pages" --jq '.https_enforced')
+              test "$confirmed" = "true"
+              echo "HTTPS enabled for $domain."
+              exit 0
+            fi
+            if ! grep -qi 'certificate does not exist yet' <<< "$result"; then
+              echo "$result"
+              exit 1
+            fi
+            echo "Certificate pending for $domain ($attempt/60)."
+            if [ "$attempt" -lt 60 ]; then sleep 60; fi
+          done
+          echo "Certificate still pending. Check DNS and rerun this workflow."
+          exit 1

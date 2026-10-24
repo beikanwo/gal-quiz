@@ -222,6 +222,7 @@ gal/
 - 仓库：https://github.com/beikanwo/gal-quiz （公开），正式域名：https://gal.scurra.top/；原 Pages 地址：https://beikanwo.github.io/gal-quiz/。
 - 域名解析在 Cloudflare：`gal` 的 CNAME 指向 `beikanwo.github.io`，使用「仅 DNS」模式；根域名 `scurra.top` 保留。GitHub Pages 的 Custom domain 设为 `gal.scurra.top`，证书就绪后开启 Enforce HTTPS。
 - 使用 Actions 发布，不需要 `CNAME` 文件。首页的 canonical、Open Graph 正式网址，以及 `robots.txt` 和 `sitemap.xml` 均使用 `https://gal.scurra.top/`。搜索引擎的站点验证和收录提交需单独操作。
+- 首次绑定的证书可能需要等待；手动运行 `.github/workflows/custom-domain-https.yml` 会最多等待一小时，然后开启强制 HTTPS。它只操作 `gal.scurra.top`，不是定时任务。
 - 浏览器收藏、已玩记录和答题会话按域名隔离，旧 `github.io` 域名里的本地记录不会自动迁移到新域名。
 - 推送到 `main` 后，`.github/workflows/pages.yml` 自动把 `site/` 发布到 GitHub Pages，约 1 分钟生效。
 - 更新数据：重跑 fetch → resolve-tags → build-data，提交 `site/data/` 后推送。

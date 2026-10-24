@@ -8,6 +8,8 @@
 
 域名由 Cloudflare 管理：`gal` 的 CNAME 指向 `beikanwo.github.io`，使用「仅 DNS」模式；GitHub Pages 的 Custom domain 设为 `gal.scurra.top`，证书就绪后开启 Enforce HTTPS。本站使用 Actions 发布，域名配置保存在 Pages 设置中，不需要 `CNAME` 文件。
 
+首次绑定域名时，可手动运行 Actions 中的 `Enable custom-domain HTTPS`：仅对 `gal.scurra.top` 等待证书，最多一小时，签发后开启强制 HTTPS；不是定时任务。若超时，先检查 Pages 的域名诊断，再重新运行。
+
 搜索用的正式网址、网页简介在 `site/index.html`，抓取规则和站点地图分别在 `site/robots.txt`、`site/sitemap.xml`。换域名时需要一起更新；搜索引擎的站点验证和收录提交需单独在相应站长后台完成。
 
 ## 数据
