@@ -229,7 +229,8 @@ gal/
 - 必应站长工具已验证 `https://gal.scurra.top/`，已提交同一站点地图（处理中）及首页 URL，后台提交列表已确认收到 1 条。Cloudflare 的 `gal` TXT（Google 验证）和 `80a3de274eddf2fcbb6d47c7b5b84fd0.gal` CNAME（指向 `verify.bing.com`，仅 DNS）是所有权验证记录，需保留；网站入口原有的 `gal` CNAME 仍指向 Cloudflare Pages。
 - 同日切换 `www` 后，Google Search Console 新增并验证 `scurra.top` 网域资源（覆盖 `www`），根域 TXT 为新的 Google 所有权验证记录；新站点地图 `https://www.scurra.top/sitemap.xml` 已成功处理，发现 1 个网页。必应已验证 `https://www.scurra.top/` 并提交新首页及新站点地图（处理中），验证 CNAME 为 `fd32e114b1837c8bf184e1ed8d814a9b.scurra.top` → `verify.bing.com`（仅 DNS）。新旧验证记录均需保留，旧域名的提交记录仅作为迁移历史。
 - `www` 首页的 Google 单独“请求编入索引”在刷新重试后仍因“无法连接到 reCAPTCHA 服务”失败，尚未完成该优先抓取请求；不要沿用旧 `gal` 入口的成功回执。新站点地图已成功处理，Google 已通过它发现新首页，检查状态为“已发现 - 尚未编入索引”。
-- 百度搜索资源平台已登录，站主已完善账户资料并完成滑块验证，但平台仍要求账号实名认证才能添加站点。站主于 2026-10-24 决定先跳过百度；百度站点验证和收录提交暂缓，尚未完成，不可记为已提交。Google 和必应的已完成提交记录保留。
+- 百度搜索资源平台（2026-10-24）：站主完成实名认证后，已添加并验证 `https://www.scurra.top/`，领域选择“游戏”。首页 `site/index.html` 已部署 `<meta name="baidu-site-verification" content="codeva-6JF82PbTKI">`，百度显示“验证成功”；该标签需保留。普通收录手动提交正式首页，首次失败，重新载入并完成安全验证后显示“链接提交成功”。提交不等于已收录。
+- 百度 sitemap 工具当日提交上限与余额均为 0，输入框及提交按钮禁用，因此没有提交网站地图，不可记为地图已提交。站点地图已在网站及 robots.txt 中公开。官方推送接口的 HTTPS 连接在本机报告证书主机名不匹配，未取得 API 推送成功回执；最终通过网页手动提交成功，未降低证书校验，也未把推送密钥写入仓库。
 - 推送到 `main` 后，`.github/workflows/pages.yml` 自动把 `site/` 发布到 GitHub Pages，约 1 分钟生效。
 - 更新数据：重跑 fetch → resolve-tags → build-data，提交 `site/data/` 后推送。
 - `design/`（视觉稿和截图，含 VNDB 封面）和 `data/raw/` 不进仓库。

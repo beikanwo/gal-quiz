@@ -16,7 +16,7 @@
 
 搜索用的正式网址、网页简介在 `site/index.html`，抓取规则和站点地图分别在 `site/robots.txt`、`site/sitemap.xml`。换域名时需要一起更新；搜索引擎的站点验证和收录提交需单独在相应站长后台完成。
 
-2026-10-24 搜索提交记录：旧 `gal` 入口的 Google 和必应验证、站点地图及首页已提交。切换 `www` 后，Google Search Console 新增并验证覆盖该网址的 `scurra.top` 网域资源，已成功处理 `https://www.scurra.top/sitemap.xml`（发现 1 个网页）；必应已验证 `https://www.scurra.top/` 并重新提交新首页及站点地图（处理中）。Cloudflare 中新旧 Google TXT 与必应验证 CNAME 均需保留。提交不等于已收录，实际收录以站长后台为准。百度账户资料及滑块验证已完成，但添加站点仍需账号实名认证；站主决定先跳过百度，因此百度站点验证和收录提交暂缓，尚未完成。
+2026-10-24 搜索提交记录：旧 `gal` 入口的 Google 和必应验证、站点地图及首页已提交。切换 `www` 后，Google Search Console 新增并验证覆盖该网址的 `scurra.top` 网域资源，已成功处理 `https://www.scurra.top/sitemap.xml`（发现 1 个网页）；必应已验证 `https://www.scurra.top/` 并重新提交新首页及站点地图（处理中）。Cloudflare 中新旧 Google TXT 与必应验证 CNAME 均需保留。百度已完成实名认证和 `https://www.scurra.top/` 网站所有权验证，首页已通过普通收录手动提交，平台回执为“链接提交成功”；首页的百度验证标签需保留。百度 sitemap 当日提交配额为 0，尚未提交地图。提交不等于已收录，实际收录以站长后台为准。
 
 浏览器的想玩清单、已玩记录和答题会话按域名隔离；旧 `gal` 或 `github.io` 入口中的记录不会自动迁移到 `www`。
 
