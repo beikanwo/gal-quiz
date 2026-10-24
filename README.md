@@ -6,7 +6,11 @@
 
 纯静态网站，没有后端。`site/` 文件夹就是整个网站，推送到 `main` 后由 GitHub Actions 自动部署到 GitHub Pages。
 
-域名由 Cloudflare 管理：`gal` 的 CNAME 指向 `beikanwo.github.io`，使用「仅 DNS」模式；GitHub Pages 的 Custom domain 设为 `gal.scurra.top`，证书就绪后开启 Enforce HTTPS。本站使用 Actions 发布，域名配置保存在 Pages 设置中，不需要 `CNAME` 文件。
+域名由 Cloudflare 管理：`gal` 指向 Cloudflare Pages 项目 `gal-quiz-edge.pages.dev`，并在该项目绑定自定义域 `gal.scurra.top`。Cloudflare 提供 HTTPS 和边缘缓存，固定通过有效 HTTPS 连接读取 GitHub Pages 的静态文件。GitHub Pages 保留原生地址 `https://beikanwo.github.io/gal-quiz/`，Custom domain 必须留空，避免回源重定向循环。
+
+加速入口的代码是 `cloudflare/worker.mjs`，以 Pages 高级模式的 `_worker.js` 部署；只接受固定文件的 GET/HEAD 请求，不转发 Cookie 或认证信息。边缘缓存 5 分钟，浏览器缓存 1 分钟，支持 ETag 复用。日常网页更新仍提交 `site/` 并推送到 `main`，不需要重新上传 Cloudflare 项目；边缘缓存到期后会获取新版本。
+
+只有修改加速代码时，才运行 `./scripts/package-edge.ps1`，把生成的 `design/gal-quiz-edge.zip` 上传到 Cloudflare 的 `gal-quiz-edge` 项目，选择生产部署。部署压缩包不进 Git。
 
 搜索用的正式网址、网页简介在 `site/index.html`，抓取规则和站点地图分别在 `site/robots.txt`、`site/sitemap.xml`。换域名时需要一起更新；搜索引擎的站点验证和收录提交需单独在相应站长后台完成。
 
