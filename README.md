@@ -2,11 +2,11 @@
 
 闹游戏荒的时候用的：答 12 道题、勾一下雷点，从 VNDB 的高分作品里抽 3 部推荐给你，并说明为什么推荐。
 
-网站：https://gal.scurra.top/
+网站：https://www.scurra.top/
 
 纯静态网站，没有后端。`site/` 文件夹就是整个网站，推送到 `main` 后由 GitHub Actions 自动部署到 GitHub Pages。
 
-域名由 Cloudflare 管理：`gal` 指向 Cloudflare Pages 项目 `gal-quiz-edge.pages.dev`，并在该项目绑定自定义域 `gal.scurra.top`。Cloudflare 提供 HTTPS 和边缘缓存，固定通过有效 HTTPS 连接读取 GitHub Pages 的静态文件。GitHub Pages 保留原生地址 `https://beikanwo.github.io/gal-quiz/`，Custom domain 必须留空，避免回源重定向循环。
+域名由 Cloudflare 管理：`www` 和旧入口 `gal` 都指向 Cloudflare Pages 项目 `gal-quiz-edge.pages.dev`，两个自定义域均绑定在该项目。正式网址为 `https://www.scurra.top/`；旧 `gal.scurra.top` 通过 301 永久跳转到新网址，保留路径和查询参数。Cloudflare 提供 HTTPS 和边缘缓存，固定通过有效 HTTPS 连接读取 GitHub Pages 的静态文件。GitHub Pages 保留原生地址 `https://beikanwo.github.io/gal-quiz/`，Custom domain 必须留空，避免回源重定向循环。
 
 加速入口的代码是 `cloudflare/worker.mjs`，以 Pages 高级模式的 `_worker.js` 部署；只接受固定文件的 GET/HEAD 请求，不转发 Cookie 或认证信息。边缘缓存 5 分钟，浏览器缓存 1 分钟，支持 ETag 复用。日常网页更新仍提交 `site/` 并推送到 `main`，不需要重新上传 Cloudflare 项目；边缘缓存到期后会获取新版本。
 
@@ -16,7 +16,11 @@
 
 搜索用的正式网址、网页简介在 `site/index.html`，抓取规则和站点地图分别在 `site/robots.txt`、`site/sitemap.xml`。换域名时需要一起更新；搜索引擎的站点验证和收录提交需单独在相应站长后台完成。
 
-2026-10-24 搜索提交记录：Google Search Console 已完成域名验证，成功处理站点地图（发现 1 个网页），首页已加入优先抓取队列；必应已完成站点验证，提交站点地图及首页 URL，后台已确认收到。提交不等于已收录，实际收录以站长后台为准。Cloudflare 中新增的 Google TXT 与必应验证 CNAME 需要保留。百度账户资料及滑块验证已完成，但添加站点仍需账号实名认证；站主决定先跳过百度，因此百度站点验证和收录提交暂缓，尚未完成。
+2026-10-24 搜索提交记录：旧 `gal` 入口的 Google 和必应验证、站点地图及首页已提交。切换 `www` 后，Google Search Console 新增并验证覆盖该网址的 `scurra.top` 网域资源，已成功处理 `https://www.scurra.top/sitemap.xml`（发现 1 个网页）；必应已验证 `https://www.scurra.top/` 并重新提交新首页及站点地图（处理中）。Cloudflare 中新旧 Google TXT 与必应验证 CNAME 均需保留。提交不等于已收录，实际收录以站长后台为准。百度账户资料及滑块验证已完成，但添加站点仍需账号实名认证；站主决定先跳过百度，因此百度站点验证和收录提交暂缓，尚未完成。
+
+浏览器的想玩清单、已玩记录和答题会话按域名隔离；旧 `gal` 或 `github.io` 入口中的记录不会自动迁移到 `www`。
+
+Google 对新首页的单独优先抓取请求因 reCAPTCHA 服务连接失败，刷新重试后仍未完成；新站点地图已成功处理并发现首页，可等待常规抓取，或在 Google 服务恢复后重试首页索引请求。
 
 ## 数据
 

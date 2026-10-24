@@ -219,14 +219,16 @@ gal/
 
 ## 部署
 
-- 仓库：https://github.com/beikanwo/gal-quiz （公开），正式域名：https://gal.scurra.top/；原 Pages 地址：https://beikanwo.github.io/gal-quiz/。
-- 域名解析在 Cloudflare：`gal` 指向 Pages 项目 `gal-quiz-edge.pages.dev`，由该项目绑定自定义域 `gal.scurra.top`，提供有效 HTTPS 和边缘缓存；根域名 `scurra.top` 保留。
-- GitHub Pages 仍由 Actions 发布 `site/`，源站地址为 `https://beikanwo.github.io/gal-quiz/`。GitHub Pages 的 Custom domain 留空，不要再次绑定 `gal.scurra.top`，否则会造成回源重定向循环。入口从 Cloudflare 到 GitHub 也通过有效 HTTPS 连接，不关闭证书验证。
+- 仓库：https://github.com/beikanwo/gal-quiz （公开），正式域名：https://www.scurra.top/；原 Pages 地址：https://beikanwo.github.io/gal-quiz/。
+- 域名解析在 Cloudflare：`www` 和 `gal` 指向 Pages 项目 `gal-quiz-edge.pages.dev`，由该项目绑定自定义域 `www.scurra.top`、`gal.scurra.top`，均启用有效 HTTPS。`www` 提供网站和边缘缓存，旧 `gal` 入口由 Worker 301 永久跳转至 `https://www.scurra.top`，保留路径及查询参数；根域名 `scurra.top` 保留。
+- GitHub Pages 仍由 Actions 发布 `site/`，源站地址为 `https://beikanwo.github.io/gal-quiz/`。GitHub Pages 的 Custom domain 留空，不要绑定任何 Cloudflare 入口域名，否则会造成回源重定向循环。入口从 Cloudflare 到 GitHub 也通过有效 HTTPS 连接，不关闭证书验证。
 - 加速代码见 `cloudflare/worker.mjs`，以 Pages 高级模式 `_worker.js` 部署。只允许固定站点文件的 GET/HEAD，不转发 Cookie/认证；边缘缓存 5 分钟、浏览器缓存 1 分钟，支持 ETag。修改入口代码时运行 `scripts/package-edge.ps1`，在 Cloudflare 项目中上传生成的生产包；日常网页更新仍只需 Git 推送。
-- 首页预加载问卷、片库和入口模块，减少启动时的串行请求。小问卷就绪后即可开始答题，片库后台下载；数据到齐后只更新当前题目的数量提示，不重置答案、焦点和动画。恢复结果/想玩清单时，先等片库，再恢复并保存会话，防止首页覆盖旧记录。canonical、Open Graph、`robots.txt`、`sitemap.xml` 继续使用 `https://gal.scurra.top/`；搜索引擎的站点验证和收录提交需单独操作。
-- 浏览器收藏、已玩记录和答题会话按域名隔离，旧 `github.io` 域名里的本地记录不会自动迁移到新域名。
+- 首页预加载问卷、片库和入口模块，减少启动时的串行请求。小问卷就绪后即可开始答题，片库后台下载；数据到齐后只更新当前题目的数量提示，不重置答案、焦点和动画。恢复结果/想玩清单时，先等片库，再恢复并保存会话，防止首页覆盖旧记录。canonical、Open Graph、`robots.txt`、`sitemap.xml` 使用 `https://www.scurra.top/`；搜索引擎的站点验证和收录提交需单独操作。
+- 浏览器收藏、已玩记录和答题会话按域名隔离，旧 `gal` 和 `github.io` 域名里的本地记录不会自动迁移到 `www`。
 - 搜索提交进度（2026-10-24）：Google Search Console 已验证 `gal.scurra.top` 网域资源；`https://gal.scurra.top/sitemap.xml` 已成功处理，发现 1 个网页；首页已请求编入索引，进入优先抓取队列。提交时首页状态为“已发现 - 尚未编入索引”，不能把提交成功写成已经收录。
 - 必应站长工具已验证 `https://gal.scurra.top/`，已提交同一站点地图（处理中）及首页 URL，后台提交列表已确认收到 1 条。Cloudflare 的 `gal` TXT（Google 验证）和 `80a3de274eddf2fcbb6d47c7b5b84fd0.gal` CNAME（指向 `verify.bing.com`，仅 DNS）是所有权验证记录，需保留；网站入口原有的 `gal` CNAME 仍指向 Cloudflare Pages。
+- 同日切换 `www` 后，Google Search Console 新增并验证 `scurra.top` 网域资源（覆盖 `www`），根域 TXT 为新的 Google 所有权验证记录；新站点地图 `https://www.scurra.top/sitemap.xml` 已成功处理，发现 1 个网页。必应已验证 `https://www.scurra.top/` 并提交新首页及新站点地图（处理中），验证 CNAME 为 `fd32e114b1837c8bf184e1ed8d814a9b.scurra.top` → `verify.bing.com`（仅 DNS）。新旧验证记录均需保留，旧域名的提交记录仅作为迁移历史。
+- `www` 首页的 Google 单独“请求编入索引”在刷新重试后仍因“无法连接到 reCAPTCHA 服务”失败，尚未完成该优先抓取请求；不要沿用旧 `gal` 入口的成功回执。新站点地图已成功处理，Google 已通过它发现新首页，检查状态为“已发现 - 尚未编入索引”。
 - 百度搜索资源平台已登录，站主已完善账户资料并完成滑块验证，但平台仍要求账号实名认证才能添加站点。站主于 2026-10-24 决定先跳过百度；百度站点验证和收录提交暂缓，尚未完成，不可记为已提交。Google 和必应的已完成提交记录保留。
 - 推送到 `main` 后，`.github/workflows/pages.yml` 自动把 `site/` 发布到 GitHub Pages，约 1 分钟生效。
 - 更新数据：重跑 fetch → resolve-tags → build-data，提交 `site/data/` 后推送。
