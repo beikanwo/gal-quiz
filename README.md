@@ -10,6 +10,8 @@
 
 加速入口的代码是 `cloudflare/worker.mjs`，以 Pages 高级模式的 `_worker.js` 部署；只接受固定文件的 GET/HEAD 请求，不转发 Cookie 或认证信息。边缘缓存 5 分钟，浏览器缓存 1 分钟，支持 ETag 复用。日常网页更新仍提交 `site/` 并推送到 `main`，不需要重新上传 Cloudflare 项目；边缘缓存到期后会获取新版本。
 
+首页并行预加载模块、问卷和片库。小问卷就绪后即可开始答题，片库在后台下载；准备完毕后只更新当前题目的数量提示，不重置题号和答案。恢复推荐结果、想玩清单时仍等待片库，确保外链返回不会覆盖原记录。
+
 只有修改加速代码时，才运行 `./scripts/package-edge.ps1`，把生成的 `design/gal-quiz-edge.zip` 上传到 Cloudflare 的 `gal-quiz-edge` 项目，选择生产部署。部署压缩包不进 Git。
 
 搜索用的正式网址、网页简介在 `site/index.html`，抓取规则和站点地图分别在 `site/robots.txt`、`site/sitemap.xml`。换域名时需要一起更新；搜索引擎的站点验证和收录提交需单独在相应站长后台完成。

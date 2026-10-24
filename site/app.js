@@ -135,6 +135,7 @@ document.addEventListener('visibilitychange', () => {
 });
 
 function go(screen) {
+  if ((screen === 'result' || screen === 'wants') && !engine) return;
   state.screen = screen;
   if (screen === 'result') computeResult();
   render();
@@ -184,10 +185,10 @@ function renderStart() {
     <section class="screen title-screen">
       <div class="kicker">GALGAME 推荐</div>
       <h1>测测你适合<br>哪部 Gal</h1>
-      <p class="lead">闹游戏荒了？答 12 道题，从 ${engine.stats.total} 部 VNDB 高分作品里给你挑 3 部，顺便说说为什么。每道题都能跳过。</p>
+      <p class="lead">闹游戏荒了？答 12 道题，从 ${engine?.stats.total ?? '数千'} 部 VNDB 高分作品里给你挑 3 部，顺便说说为什么。每道题都能跳过。</p>
       <nav class="menu">
         <button class="first" data-action="begin"><span class="label">开始</span></button>
-        <button data-action="wants"><span class="label">想玩清单</span><small>${wants ? `${wants} 部` : '还是空的'}</small></button>
+        <button data-action="wants" ${engine ? '' : 'disabled'}><span class="label">想玩清单</span><small>${wants ? `${wants} 部` : '还是空的'}</small></button>
       </nav>
     </section>`;
 }
@@ -214,13 +215,13 @@ function renderQuestionScreen({ index, total, name, text, hint, options, footer 
 function renderQuiz() {
   const q = quiz.questions[state.qIndex];
   const picked = state.answers[q.id];
-  const remain = engine.filterPool(state.answers, [], blocked()).length;
+  const remain = engine?.filterPool(state.answers, [], blocked()).length;
   return renderQuestionScreen({
     index: state.qIndex + 1,
     total: quiz.questions.length + 1,
     name: `第 ${state.qIndex + 1} 题`,
     text: q.text,
-    hint: `目前符合条件：${remain} 部`,
+    hint: remain == null ? '你可以先答题，作品还在准备中…' : `目前符合条件：${remain} 部`,
     options: q.options
       .map((o, i) => `<button class="choice${picked === o.id ? ' picked' : ''}" data-action="answer" data-option="${esc(o.id)}"><kbd>${i + 1}</kbd>${esc(o.label)}</button>`)
       .join(''),
@@ -254,19 +255,19 @@ function skipQuestion() {
 function renderDealbreakers() {
   const db = quiz.dealbreakers;
   const total = quiz.questions.length + 1;
-  const remain = engine.filterPool(state.answers, [...state.dealbreakers], blocked()).length;
+  const remain = engine?.filterPool(state.answers, [...state.dealbreakers], blocked()).length;
   return renderQuestionScreen({
     index: total,
     total,
     name: '最后一题',
     text: db.text,
-    hint: `勾上的会直接排除，宁可少推荐也不让你踩雷 · 目前符合条件：${remain} 部`,
+    hint: `勾上的会直接排除，宁可少推荐也不让你踩雷 · ${remain == null ? '作品还在准备中…' : `目前符合条件：${remain} 部`}`,
     options: db.options
       .map((o, i) => `<button class="choice${state.dealbreakers.has(o.id) ? ' picked' : ''}" data-action="toggle-db" data-id="${esc(o.id)}" aria-pressed="${state.dealbreakers.has(o.id)}"><kbd>${i + 1}</kbd>${esc(o.label)}</button>`)
       .join(''),
     footer: `
       <button data-action="back-to-quiz">‹ 上一题</button>
-      <button class="btn primary" data-action="show-result">看结果</button>`,
+      <button class="btn primary" data-action="show-result" ${engine ? '' : 'disabled'}>${engine ? '看结果' : '正在准备作品…'}</button>`,
   });
 }
 
@@ -503,7 +504,7 @@ app.addEventListener('click', (e) => {
 document.addEventListener('keydown', (e) => {
   if (e.ctrlKey || e.metaKey || e.altKey) return;
   if (state.screen !== 'quiz' && state.screen !== 'dealbreakers') return;
-  if (e.key === 'Enter' && state.screen === 'dealbreakers') {
+  if (e.key === 'Enter' && state.screen === 'dealbreakers' && engine) {
     go('result');
     return;
   }
@@ -517,14 +518,39 @@ document.addEventListener('keydown', (e) => {
 
 async function main() {
   try {
-    const [vns, q] = await Promise.all(['data/vns.json', 'data/quiz.json'].map((u) => fetch(u).then((r) => {
+    const load = (u) => fetch(u).then((r) => {
       if (!r.ok) throw new Error(`${u}: HTTP ${r.status}`);
       return r.json();
-    })));
-    quiz = q;
+    });
+    const works = load('data/vns.json');
+    // 问卷尚未到齐时，片库请求也可能先失败，先接住拒绝，后面 await 仍会正常报错。
+    works.catch(() => {});
+    quiz = await load('data/quiz.json');
+    let needsWorks = false;
+    try {
+      const saved = JSON.parse(sessionStorage.getItem(SESSION_KEY) ?? 'null');
+      needsWorks = ['result', 'wants'].includes(saved?.screen) || saved?.back === 'result';
+    } catch {
+      // 没有可恢复的记录就从首页开始。
+    }
+    if (needsWorks) {
+      // 保留已存的结果，不能先渲染首页，否则 saveSession 会把原结果覆盖掉。
+      app.innerHTML = '<p class="loading">正在恢复上次的页面…</p>';
+    } else if (!restoreSession()) {
+      render();
+    }
+    const vns = await works;
     engine = createEngine(vns, quiz);
     vnById = new Map(vns.map((v) => [v.id, v]));
-    if (!restoreSession()) render();
+    if (needsWorks) {
+      if (!restoreSession()) render();
+    } else if (state.screen === 'quiz') {
+      // 后台准备完后只更新数量，不打断用户正在看的选项、焦点和题目动画。
+      const hint = app.querySelector('.hint');
+      if (hint) hint.textContent = `目前符合条件：${engine.filterPool(state.answers, [], blocked()).length} 部`;
+    } else {
+      render();
+    }
   } catch (err) {
     app.innerHTML = `<p class="error">数据加载失败，刷新试试。（${esc(err.message)}）</p>`;
   }

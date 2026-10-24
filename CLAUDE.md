@@ -223,7 +223,7 @@ gal/
 - 域名解析在 Cloudflare：`gal` 指向 Pages 项目 `gal-quiz-edge.pages.dev`，由该项目绑定自定义域 `gal.scurra.top`，提供有效 HTTPS 和边缘缓存；根域名 `scurra.top` 保留。
 - GitHub Pages 仍由 Actions 发布 `site/`，源站地址为 `https://beikanwo.github.io/gal-quiz/`。GitHub Pages 的 Custom domain 留空，不要再次绑定 `gal.scurra.top`，否则会造成回源重定向循环。入口从 Cloudflare 到 GitHub 也通过有效 HTTPS 连接，不关闭证书验证。
 - 加速代码见 `cloudflare/worker.mjs`，以 Pages 高级模式 `_worker.js` 部署。只允许固定站点文件的 GET/HEAD，不转发 Cookie/认证；边缘缓存 5 分钟、浏览器缓存 1 分钟，支持 ETag。修改入口代码时运行 `scripts/package-edge.ps1`，在 Cloudflare 项目中上传生成的生产包；日常网页更新仍只需 Git 推送。
-- 首页预加载问卷、片库和入口模块，减少启动时的串行请求。canonical、Open Graph、`robots.txt`、`sitemap.xml` 继续使用 `https://gal.scurra.top/`；搜索引擎的站点验证和收录提交需单独操作。
+- 首页预加载问卷、片库和入口模块，减少启动时的串行请求。小问卷就绪后即可开始答题，片库后台下载；数据到齐后只更新当前题目的数量提示，不重置答案、焦点和动画。恢复结果/想玩清单时，先等片库，再恢复并保存会话，防止首页覆盖旧记录。canonical、Open Graph、`robots.txt`、`sitemap.xml` 继续使用 `https://gal.scurra.top/`；搜索引擎的站点验证和收录提交需单独操作。
 - 浏览器收藏、已玩记录和答题会话按域名隔离，旧 `github.io` 域名里的本地记录不会自动迁移到新域名。
 - 推送到 `main` 后，`.github/workflows/pages.yml` 自动把 `site/` 发布到 GitHub Pages，约 1 分钟生效。
 - 更新数据：重跑 fetch → resolve-tags → build-data，提交 `site/data/` 后推送。
