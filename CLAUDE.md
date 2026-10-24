@@ -225,6 +225,9 @@ gal/
 - 加速代码见 `cloudflare/worker.mjs`，以 Pages 高级模式 `_worker.js` 部署。只允许固定站点文件的 GET/HEAD，不转发 Cookie/认证；边缘缓存 5 分钟、浏览器缓存 1 分钟，支持 ETag。修改入口代码时运行 `scripts/package-edge.ps1`，在 Cloudflare 项目中上传生成的生产包；日常网页更新仍只需 Git 推送。
 - 首页预加载问卷、片库和入口模块，减少启动时的串行请求。小问卷就绪后即可开始答题，片库后台下载；数据到齐后只更新当前题目的数量提示，不重置答案、焦点和动画。恢复结果/想玩清单时，先等片库，再恢复并保存会话，防止首页覆盖旧记录。canonical、Open Graph、`robots.txt`、`sitemap.xml` 继续使用 `https://gal.scurra.top/`；搜索引擎的站点验证和收录提交需单独操作。
 - 浏览器收藏、已玩记录和答题会话按域名隔离，旧 `github.io` 域名里的本地记录不会自动迁移到新域名。
+- 搜索提交进度（2026-10-24）：Google Search Console 已验证 `gal.scurra.top` 网域资源；`https://gal.scurra.top/sitemap.xml` 已成功处理，发现 1 个网页；首页已请求编入索引，进入优先抓取队列。提交时首页状态为“已发现 - 尚未编入索引”，不能把提交成功写成已经收录。
+- 必应站长工具已验证 `https://gal.scurra.top/`，已提交同一站点地图（处理中）及首页 URL，后台提交列表已确认收到 1 条。Cloudflare 的 `gal` TXT（Google 验证）和 `80a3de274eddf2fcbb6d47c7b5b84fd0.gal` CNAME（指向 `verify.bing.com`，仅 DNS）是所有权验证记录，需保留；网站入口原有的 `gal` CNAME 仍指向 Cloudflare Pages。
+- 百度搜索资源平台已登录，但新账号必须先完善真实姓名、职务、手机号/邮箱验证、QQ、微信、所在地及隐私声明；该步骤由站主自行完成。站点验证和收录提交尚未完成，不可记为已提交。
 - 推送到 `main` 后，`.github/workflows/pages.yml` 自动把 `site/` 发布到 GitHub Pages，约 1 分钟生效。
 - 更新数据：重跑 fetch → resolve-tags → build-data，提交 `site/data/` 后推送。
 - `design/`（视觉稿和截图，含 VNDB 封面）和 `data/raw/` 不进仓库。
