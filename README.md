@@ -2,7 +2,13 @@
 
 闹游戏荒的时候用的：答 12 道题、勾一下雷点，从 VNDB 的高分作品里抽 3 部推荐给你，并说明为什么推荐。
 
+网站：https://gal.scurra.top/
+
 纯静态网站，没有后端。`site/` 文件夹就是整个网站，推送到 `main` 后由 GitHub Actions 自动部署到 GitHub Pages。
+
+域名由 Cloudflare 管理：`gal` 的 CNAME 指向 `beikanwo.github.io`，使用「仅 DNS」模式；GitHub Pages 的 Custom domain 设为 `gal.scurra.top`，证书就绪后开启 Enforce HTTPS。本站使用 Actions 发布，域名配置保存在 Pages 设置中，不需要 `CNAME` 文件。
+
+搜索用的正式网址、网页简介在 `site/index.html`，抓取规则和站点地图分别在 `site/robots.txt`、`site/sitemap.xml`。换域名时需要一起更新；搜索引擎的站点验证和收录提交需单独在相应站长后台完成。
 
 ## 数据
 
