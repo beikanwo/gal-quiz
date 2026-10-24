@@ -1,6 +1,7 @@
 // 页面渲染和交互。推荐逻辑都在 engine.js。
 
-import { createEngine, formatLength } from './engine.js';
+import { createEngine, formatLength } from './engine.js?v=20261024-cn-feedback';
+import { initFeedback } from './feedback.js?v=20261024-cn-feedback';
 
 const app = document.getElementById('app');
 const reduceMotion = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches ?? false;
@@ -174,7 +175,7 @@ function renderCover(vn) {
 const links = (vn) => `
   <span class="links">
     <a href="https://vndb.org/${esc(vn.id)}" target="_blank" rel="noopener">VNDB</a>
-    <a href="https://bgm.tv/subject_search/${encodeURIComponent(vn.orig)}?cat=4" target="_blank" rel="noopener">Bangumi</a>
+    <a href="${vn.cn?.bangumi?.id ? `https://bgm.tv/subject/${vn.cn.bangumi.id}` : `https://bgm.tv/subject_search/${encodeURIComponent(vn.orig)}?cat=4`}" target="_blank" rel="noopener">Bangumi</a>
   </span>`;
 
 // ---------- 开始页 ----------
@@ -369,6 +370,7 @@ function renderCard({ vn }) {
         <h3>${esc(vn.title)}</h3>
         ${vn.orig !== vn.title ? `<p class="orig">${esc(vn.orig)}</p>` : ''}
         <p class="meta">${esc(formatLength(vn))} · VNDB ${(vn.rating / 10).toFixed(1)}（${vn.votes} 人评）${vn.year ? ` · ${vn.year}` : ''}</p>
+        ${vn.cn?.bangumi ? `<p class="meta">Bangumi ${vn.cn.bangumi.score.toFixed(1)}（${vn.cn.bangumi.votes} 人评）</p>` : ''}
         <p class="why">${esc(reason)}</p>
         ${re.labels.length ? `<ul class="chips">${re.labels.map((l) => `<li>${esc(l)}</li>`).join('')}</ul>` : ''}
         <div class="row">
@@ -409,6 +411,7 @@ function renderMini(vn) {
         <h3>${esc(vn.title)}</h3>
         ${vn.orig !== vn.title ? `<p class="orig">${esc(vn.orig)}</p>` : ''}
         <p class="meta">${esc(formatLength(vn))} · VNDB ${(vn.rating / 10).toFixed(1)}${vn.year ? ` · ${vn.year}` : ''}</p>
+        ${vn.cn?.bangumi ? `<p class="meta">Bangumi ${vn.cn.bangumi.score.toFixed(1)}（${vn.cn.bangumi.votes} 人评）</p>` : ''}
         <div class="row">
           <button data-action="want" data-id="${esc(vn.id)}">移出清单</button>
           ${links(vn)}
@@ -502,6 +505,7 @@ app.addEventListener('click', (e) => {
 
 // 数字键选选项，回车在雷点页看结果
 document.addEventListener('keydown', (e) => {
+  if (document.querySelector('#feedback-dialog[open]') || e.target.closest?.('input, textarea, select, [contenteditable="true"]')) return;
   if (e.ctrlKey || e.metaKey || e.altKey) return;
   if (state.screen !== 'quiz' && state.screen !== 'dealbreakers') return;
   if (e.key === 'Enter' && state.screen === 'dealbreakers' && engine) {
@@ -522,10 +526,10 @@ async function main() {
       if (!r.ok) throw new Error(`${u}: HTTP ${r.status}`);
       return r.json();
     });
-    const works = load('data/vns.json');
+    const works = load('data/vns.json?v=20261024-cn-feedback');
     // 问卷尚未到齐时，片库请求也可能先失败，先接住拒绝，后面 await 仍会正常报错。
     works.catch(() => {});
-    quiz = await load('data/quiz.json');
+    quiz = await load('data/quiz.json?v=20261024-cn-feedback');
     let needsWorks = false;
     try {
       const saved = JSON.parse(sessionStorage.getItem(SESSION_KEY) ?? 'null');
@@ -556,4 +560,5 @@ async function main() {
   }
 }
 
+initFeedback(() => ({ screen: state.screen, works: state.screen === 'result' ? state.current.map((r) => r.vn.id) : [] }));
 main();

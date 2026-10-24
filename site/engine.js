@@ -21,8 +21,10 @@ export function createEngine(vns, quiz) {
   const eligibleVotes = vns.filter((v) => !v.sequel).map((v) => v.votes).sort((a, b) => a - b);
   const medianVotes = eligibleVotes[Math.floor(eligibleVotes.length / 2)] ?? 1;
 
-  const isHot = (v) => v.votes >= hotVotes;
-  const isGem = (v) => v.votes < gemMaxVotes && v.rating >= S.hiddenGem.minRating;
+  const cn = S.chineseReception;
+  const locallyKnown = (v, votes) => cn && v.cn?.bangumi?.votes >= votes && v.cn.bangumi.score >= cn.scoreFloor;
+  const isHot = (v) => v.votes >= hotVotes || locallyKnown(v, cn?.hotVotes);
+  const isGem = (v) => v.votes < gemMaxVotes && !locallyKnown(v, cn?.hotVotes) && v.rating >= S.hiddenGem.minRating;
   const tagScore = (v, id) => v.tags[id]?.[0] ?? 0;
 
   const optionOf = (answers, qid) => {
@@ -49,7 +51,7 @@ export function createEngine(vns, quiz) {
   }
 
   function passPopularity(v, p) {
-    if (p.onlyTopVotesPct) return v.votes >= votesAtTopPct(p.onlyTopVotesPct);
+    if (p.onlyTopVotesPct) return v.votes >= votesAtTopPct(p.onlyTopVotesPct) || locallyKnown(v, cn?.firstMinVotes);
     return true;
   }
 
@@ -149,7 +151,8 @@ export function createEngine(vns, quiz) {
       const ids = d.softPenaltyTags ?? d.tags;
       penalty *= 1 - (d.softPenalty * Math.max(...ids.map((id) => tagScore(v, id)))) / 3;
     }
-    return { match, total: Math.exp(S.matchSharpness * match) * popularity * quality * penalty };
+    const reception = chineseReceptionFactor(v, cn);
+    return { match, reception, total: Math.exp(S.matchSharpness * match) * popularity * quality * penalty * reception };
   }
 
   // 返回按总分从高到低排好的 [{ vn, match, total }]。
@@ -220,6 +223,19 @@ export function createEngine(vns, quiz) {
   }
 
   return { filterPool, diagnose, rank, draw, reasons, playerType, stats: { hotVotes, gemMaxVotes, medianVotes, total: vns.length } };
+}
+
+// 中文社区只提供有上限的加分。缺数据中性；小样本收缩；同一平台镜像不重复计票。
+export function chineseReceptionFactor(v, config) {
+  if (!config || !v.cn) return 1;
+  let bonus = 0;
+  for (const key of ['bangumi', 'kungal']) {
+    const r = v.cn[key], rule = config[key];
+    if (!rule || !r || !Number.isFinite(r.score) || !Number.isFinite(r.votes) || r.votes < rule.minVotes || r.score > 10) continue;
+    const quality = Math.max(0, Math.min(1, (r.score - config.scoreFloor) / (config.scoreCeiling - config.scoreFloor)));
+    bonus += rule.maxBonus * quality * r.votes / (r.votes + rule.priorVotes);
+  }
+  return 1 + Math.min(config.maxBonus, bonus);
 }
 
 // ---------- 展示用小工具 ----------

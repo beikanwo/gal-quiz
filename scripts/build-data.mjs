@@ -233,6 +233,15 @@ async function main() {
     if (hasZhTitle) zhTitleIds.add(out.id);
   }
   const { vns, merged } = mergeAltVersions(raw, built);
+  // 可选的中文口碑快照通过明确 VNDB ID 对应，未匹配的作品不受影响。
+  let reception;
+  try { reception = await readJson('config/chinese-reception.json'); }
+  catch (e) { if (e.code !== 'ENOENT') throw e; }
+  for (const v of vns) {
+    const ratings = reception?.entries?.[v.id];
+    if (!ratings) continue;
+    v.cn = Object.fromEntries(Object.entries(ratings).map(([source, r]) => [source, { id: r.id, score: r.score, votes: r.votes }]));
+  }
   vns.sort((a, b) => b.votes - a.votes);
   const zhTitles = vns.filter((v) => zhTitleIds.has(v.id)).length;
   const zhNoTitle = vns.filter((v) => v.zh && !zhTitleIds.has(v.id)).length;
@@ -249,6 +258,7 @@ async function main() {
   const kb = (s) => `${(Buffer.byteLength(s) / 1024).toFixed(0)} KB（gzip 后 ${(gzipSync(s).length / 1024).toFixed(0)} KB）`;
   const count = (f) => vns.filter(f).length;
   console.log(`作品总数：${n}（另有 ${merged} 个重制 / 移植版本已合并进原作）`);
+  console.log(`有中文口碑数据：${count((v) => Boolean(v.cn))}`);
   console.log(`续作 / 外传 / FD（不直接推荐）：${pct(count((v) => v.sequel))}`);
   console.log(`有中文（官中或汉化）：${pct(count((v) => v.zh))}`);
   console.log(`有中文标题：${pct(zhTitles)}；能玩中文但 VNDB 没有中文标题：${zhNoTitle}`);

@@ -1,0 +1,21 @@
+import assert from 'node:assert/strict';
+import { submitFeedback } from '../cloudflare/worker.mjs';
+
+const values = new Map();
+const storage = { get: async (key) => values.get(key) ?? null, put: async (key, value) => values.set(key, value) };
+const body = { requestId: '12345678-1234-4123-8123-123456789abc', kind: '问题反馈', message: '测试：推荐卡片的外链返回需要保留原先结果。', contact: '', context: { screen: 'result', works: ['v17', 'v2002'] } };
+const req = (data = body, headers = {}) => new Request('https://www.scurra.top/api/feedback', { method: 'POST', headers: { Origin: 'https://www.scurra.top', 'Content-Type': 'application/json', 'CF-Connecting-IP': '192.0.2.20', ...headers }, body: JSON.stringify(data) });
+assert.equal((await submitFeedback(req(body, { Origin: 'https://example.com' }), { FEEDBACK: storage })).status, 403);
+assert.equal((await submitFeedback(req({ ...body, message: '太短' }), { FEEDBACK: storage })).status, 400);
+assert.equal((await submitFeedback(req({ ...body, website: 'spam' }), { FEEDBACK: storage })).status, 400);
+assert.equal((await submitFeedback(req(), {})).status, 503);
+assert.equal((await submitFeedback(req(), { FEEDBACK: storage })).status, 201);
+assert.equal((await submitFeedback(req(), { FEEDBACK: storage })).status, 200, '重试同一反馈应幂等');
+assert.equal([...values.keys()].filter((x) => x.startsWith('feedback:')).length, 1);
+assert.equal((await submitFeedback(req({ ...body, requestId: '22345678-1234-4123-8123-123456789abc' }), { FEEDBACK: storage })).status, 429);
+const saved = JSON.parse(values.get(`feedback:${body.requestId}`));
+assert.equal(saved.message, body.message);
+assert.deepEqual(saved.context.works, ['v17', 'v2002']);
+assert.ok(!JSON.stringify(saved).includes('192.0.2.20'));
+assert.equal((await submitFeedback(req(), { FEEDBACK: { get: async () => null, put: async () => { throw new Error('unavailable'); } } })).status, 503, '落库失败不能返回成功');
+console.log('反馈检查通过：来源、字段校验、防刷、重复请求、隐私字段及落库失败均符合预期。');

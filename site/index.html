@@ -12,11 +12,11 @@
   <meta property="og:title" content="Galgame 推荐测试｜测测你适合哪部 Gal">
   <meta property="og:description" content="闹游戏荒了？按口味和雷点找下一部 Galgame，看看你会抽到哪 3 部。">
   <meta property="og:url" content="https://www.scurra.top/">
-  <link rel="modulepreload" href="app.js?v=20261024-startup">
-  <link rel="modulepreload" href="engine.js">
-  <link rel="preload" href="data/quiz.json" as="fetch" crossorigin>
-  <link rel="preload" href="data/vns.json" as="fetch" crossorigin>
-  <link rel="stylesheet" href="style.css">
+  <link rel="modulepreload" href="app.js?v=20261024-cn-feedback">
+  <link rel="modulepreload" href="engine.js?v=20261024-cn-feedback">
+  <link rel="preload" href="data/quiz.json?v=20261024-cn-feedback" as="fetch" crossorigin>
+  <link rel="preload" href="data/vns.json?v=20261024-cn-feedback" as="fetch" crossorigin>
+  <link rel="stylesheet" href="style.css?v=20261024-cn-feedback">
 </head>
 <body>
   <main id="app">
@@ -29,9 +29,25 @@
     </section>
   </main>
   <footer class="site-footer">
+    <button class="feedback-open" id="feedback-open" type="button">有问题？提个建议</button><br>
     作品数据来自 <a href="https://vndb.org/" target="_blank" rel="noopener">VNDB</a>，
-    遵循 <a href="https://opendatacommons.org/licenses/odbl/1-0/" target="_blank" rel="noopener">ODbL</a> · 本站不提供任何资源下载
+    遵循 <a href="https://opendatacommons.org/licenses/odbl/1-0/" target="_blank" rel="noopener">ODbL</a> · 本站不提供任何资源下载<br>
+    中文口碑参考 <a href="https://bgm.tv/" target="_blank" rel="noopener">Bangumi</a>、<a href="https://www.kungal.com/doc/galgame-rating-guide" target="_blank" rel="noopener">KUN</a>
   </footer>
-  <script type="module" src="app.js?v=20261024-startup"></script>
+  <dialog class="feedback-dialog" id="feedback-dialog" aria-labelledby="feedback-title">
+    <div class="feedback-heading"><h2 id="feedback-title">说说你的想法</h2><button type="button" data-feedback-close aria-label="关闭反馈">关闭</button></div>
+    <p class="feedback-intro">推荐不对胃口，或者哪里用着别扭，都可以告诉我。</p>
+    <form>
+      <label>关于什么<select name="kind"><option>问题反馈</option><option>推荐不合口味</option><option>资料纠错</option><option>功能建议</option><option>其他</option></select></label>
+      <label>具体说说<textarea name="message" rows="5" minlength="10" maxlength="2000" required placeholder="例如：选了不接受恐怖，仍然推荐了某部恐怖作品…"></textarea></label>
+      <label><span class="feedback-label">联系方式 <small>（可不填）</small></span><input name="contact" maxlength="100" placeholder="如果希望收到回复，可以留邮箱或其他联系方式"></label>
+      <div class="feedback-trap" aria-hidden="true"><label>网站<input name="website" tabindex="-1" autocomplete="off"></label></div>
+      <label class="feedback-context"><input type="checkbox" name="includeContext">附上这次推荐的作品，方便排查</label>
+      <p class="feedback-privacy">不用注册。内容和你选填的联系方式仅供站主处理反馈；为防刷会保存短期的匿名限频记录。请勿填写密码、证件等敏感信息。</p>
+      <p class="feedback-status" role="status" aria-live="polite"></p>
+      <button class="feedback-send" type="submit">发送反馈</button>
+    </form>
+  </dialog>
+  <script type="module" src="app.js?v=20261024-cn-feedback"></script>
 </body>
 </html>

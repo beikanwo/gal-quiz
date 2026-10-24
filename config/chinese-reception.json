@@ -1,0 +1,4938 @@
+{
+  "updatedAt": "2026-10-24T08:40:57.419Z",
+  "method": "Exact titles with release-year check, or explicit VNDB identity; no fuzzy matches; one rating per platform per merged VN.",
+  "sources": [
+    {
+      "name": "Bangumi",
+      "url": "https://bgm.tv/game/browser?sort=rank",
+      "use": "Main numeric signal; >=100 ratings. API plus attributed Bangumi snapshots exposed by KUN."
+    },
+    {
+      "name": "KUN",
+      "url": "https://www.kungal.com/doc/galgame-rating-guide",
+      "use": "Native Bayesian rating, >=20 ratings; separate from mirrored Bangumi data."
+    },
+    {
+      "name": "TouchGal",
+      "url": "https://www.touchgal.ink/",
+      "use": "Qualitative audit only: public index shows ratings/views, detailed pages challenge automated access; vote counts unverified."
+    },
+    {
+      "name": "galgame吧",
+      "url": "https://tieba.baidu.com/p/10337946757?fr=good",
+      "use": "Qualitative annual-poll context only; full result blocked (403), no numeric bonus assigned."
+    }
+  ],
+  "stats": {
+    "bgmFetched": 621,
+    "kunFetched": 244,
+    "mapped": 470,
+    "bangumi": 470,
+    "kungal": 29
+  },
+  "entries": {
+    "v17": {
+      "bangumi": {
+        "id": 1126,
+        "score": 9.1,
+        "votes": 9968,
+        "url": "https://bgm.tv/subject/1126",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v2002": {
+      "bangumi": {
+        "id": 3154,
+        "score": 8.9,
+        "votes": 8647,
+        "url": "https://bgm.tv/subject/3154",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v13": {
+      "bangumi": {
+        "id": 1127,
+        "score": 8.9,
+        "votes": 4712,
+        "url": "https://bgm.tv/subject/1127",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v4": {
+      "bangumi": {
+        "id": 13,
+        "score": 8.9,
+        "votes": 6526,
+        "url": "https://bgm.tv/subject/13",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v92": {
+      "bangumi": {
+        "id": 4828,
+        "score": 8.8,
+        "votes": 4118,
+        "url": "https://bgm.tv/subject/4828",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v716": {
+      "bangumi": {
+        "id": 943,
+        "score": 8.8,
+        "votes": 4360,
+        "url": "https://bgm.tv/subject/943",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v2016": {
+      "bangumi": {
+        "id": 3243,
+        "score": 8.6,
+        "votes": 4522,
+        "url": "https://bgm.tv/subject/3243",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v37713": {
+      "bangumi": {
+        "id": 97911,
+        "score": 8.6,
+        "votes": 1556,
+        "url": "https://bgm.tv/subject/97911",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v777": {
+      "bangumi": {
+        "id": 5418,
+        "score": 8.6,
+        "votes": 7223,
+        "url": "https://bgm.tv/subject/5418",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v2153": {
+      "bangumi": {
+        "id": 109118,
+        "score": 8.6,
+        "votes": 1527,
+        "url": "https://bgm.tv/subject/109118",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v751": {
+      "bangumi": {
+        "id": 4022,
+        "score": 8.6,
+        "votes": 5363,
+        "url": "https://bgm.tv/subject/4022",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v1299": {
+      "bangumi": {
+        "id": 955,
+        "score": 8.5,
+        "votes": 3207,
+        "url": "https://bgm.tv/subject/955",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v38": {
+      "bangumi": {
+        "id": 1143,
+        "score": 8.5,
+        "votes": 3038,
+        "url": "https://bgm.tv/subject/1143",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v18397": {
+      "bangumi": {
+        "id": 144881,
+        "score": 8.5,
+        "votes": 1450,
+        "url": "https://bgm.tv/subject/144881",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v7679": {
+      "bangumi": {
+        "id": 39066,
+        "score": 8.5,
+        "votes": 5110,
+        "url": "https://bgm.tv/subject/39066",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v10": {
+      "bangumi": {
+        "id": 1167,
+        "score": 8.4,
+        "votes": 6651,
+        "url": "https://bgm.tv/subject/1167",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v19273": {
+      "bangumi": {
+        "id": 226956,
+        "score": 8.4,
+        "votes": 1392,
+        "url": "https://bgm.tv/subject/226956",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v24": {
+      "bangumi": {
+        "id": 1020,
+        "score": 8.4,
+        "votes": 2575,
+        "url": "https://bgm.tv/subject/1020",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v5": {
+      "bangumi": {
+        "id": 125131,
+        "score": 8.4,
+        "votes": 1054,
+        "url": "https://bgm.tv/subject/125131",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v12402": {
+      "bangumi": {
+        "id": 73806,
+        "score": 8.4,
+        "votes": 3120,
+        "url": "https://bgm.tv/subject/73806",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v3770": {
+      "bangumi": {
+        "id": 12280,
+        "score": 8.3,
+        "votes": 8183,
+        "url": "https://bgm.tv/subject/12280",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      },
+      "kungal": {
+        "id": "30",
+        "score": 8.6,
+        "votes": 30,
+        "url": "https://www.kungal.com/galgame/30",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v711": {
+      "bangumi": {
+        "id": 1111,
+        "score": 8.3,
+        "votes": 4579,
+        "url": "https://bgm.tv/subject/1111",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v11": {
+      "bangumi": {
+        "id": 935,
+        "score": 8.3,
+        "votes": 5593,
+        "url": "https://bgm.tv/subject/935",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v487": {
+      "bangumi": {
+        "id": 226254,
+        "score": 9.3,
+        "votes": 3678,
+        "url": "https://bgm.tv/subject/226254",
+        "via": "https://www.kungal.com/galgame/569",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v20424": {
+      "bangumi": {
+        "id": 200763,
+        "score": 8.2,
+        "votes": 5900,
+        "url": "https://bgm.tv/subject/200763",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      },
+      "kungal": {
+        "id": "4",
+        "score": 8.7,
+        "votes": 35,
+        "url": "https://www.kungal.com/galgame/4",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v21069": {
+      "bangumi": {
+        "id": 212376,
+        "score": 8.3,
+        "votes": 483,
+        "url": "https://bgm.tv/subject/212376",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v1358": {
+      "bangumi": {
+        "id": 7709,
+        "score": 8.3,
+        "votes": 211,
+        "url": "https://bgm.tv/subject/7709",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v18717": {
+      "bangumi": {
+        "id": 157916,
+        "score": 8.2,
+        "votes": 1565,
+        "url": "https://bgm.tv/subject/157916",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v70": {
+      "bangumi": {
+        "id": 1168,
+        "score": 8.2,
+        "votes": 3629,
+        "url": "https://bgm.tv/subject/1168",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v715": {
+      "bangumi": {
+        "id": 940,
+        "score": 8.2,
+        "votes": 3678,
+        "url": "https://bgm.tv/subject/940",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v22313": {
+      "bangumi": {
+        "id": 233030,
+        "score": 8.2,
+        "votes": 2767,
+        "url": "https://bgm.tv/subject/233030",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v21289": {
+      "bangumi": {
+        "id": 215470,
+        "score": 8.2,
+        "votes": 5704,
+        "url": "https://bgm.tv/subject/215470",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      },
+      "kungal": {
+        "id": "302",
+        "score": 8.4,
+        "votes": 23,
+        "url": "https://www.kungal.com/galgame/302",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v45": {
+      "bangumi": {
+        "id": 1041,
+        "score": 8.2,
+        "votes": 569,
+        "url": "https://bgm.tv/subject/1041",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v18152": {
+      "bangumi": {
+        "id": 167531,
+        "score": 8.1,
+        "votes": 1039,
+        "url": "https://bgm.tv/subject/167531",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v2888": {
+      "bangumi": {
+        "id": 7711,
+        "score": 8.2,
+        "votes": 191,
+        "url": "https://bgm.tv/subject/7711",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v15395": {
+      "bangumi": {
+        "id": 119895,
+        "score": 8.1,
+        "votes": 1311,
+        "url": "https://bgm.tv/subject/119895",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v96": {
+      "bangumi": {
+        "id": 1079,
+        "score": 8.1,
+        "votes": 1047,
+        "url": "https://bgm.tv/subject/1079",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v1153": {
+      "bangumi": {
+        "id": 1733,
+        "score": 8.1,
+        "votes": 1944,
+        "url": "https://bgm.tv/subject/1733",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v6656": {
+      "bangumi": {
+        "id": 20936,
+        "score": 8.1,
+        "votes": 248,
+        "url": "https://bgm.tv/subject/20936",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v3112": {
+      "bangumi": {
+        "id": 3863,
+        "score": 8,
+        "votes": 2465,
+        "url": "https://bgm.tv/subject/3863",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v7809": {
+      "bangumi": {
+        "id": 23491,
+        "score": 8,
+        "votes": 1237,
+        "url": "https://bgm.tv/subject/23491",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v683": {
+      "bangumi": {
+        "id": 846,
+        "score": 8,
+        "votes": 2010,
+        "url": "https://bgm.tv/subject/846",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v7721": {
+      "bangumi": {
+        "id": 32340,
+        "score": 8,
+        "votes": 1605,
+        "url": "https://bgm.tv/subject/32340",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v697": {
+      "bangumi": {
+        "id": 936,
+        "score": 8,
+        "votes": 193,
+        "url": "https://bgm.tv/subject/936",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v17102": {
+      "bangumi": {
+        "id": 129820,
+        "score": 7.9,
+        "votes": 3330,
+        "url": "https://bgm.tv/subject/129820",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v34": {
+      "bangumi": {
+        "id": 859,
+        "score": 7.9,
+        "votes": 4472,
+        "url": "https://bgm.tv/subject/859",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v1281": {
+      "bangumi": {
+        "id": 13210,
+        "score": 7.9,
+        "votes": 682,
+        "url": "https://bgm.tv/subject/13210",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v835": {
+      "bangumi": {
+        "id": 1013,
+        "score": 8,
+        "votes": 161,
+        "url": "https://bgm.tv/subject/1013",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v2099": {
+      "bangumi": {
+        "id": 2506,
+        "score": 7.9,
+        "votes": 650,
+        "url": "https://bgm.tv/subject/2506",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v26154": {
+      "bangumi": {
+        "id": 281992,
+        "score": 7.9,
+        "votes": 335,
+        "url": "https://bgm.tv/subject/281992",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v210": {
+      "bangumi": {
+        "id": 5916,
+        "score": 7.9,
+        "votes": 211,
+        "url": "https://bgm.tv/subject/5916",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v952": {
+      "bangumi": {
+        "id": 7708,
+        "score": 7.9,
+        "votes": 354,
+        "url": "https://bgm.tv/subject/7708",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v17959": {
+      "bangumi": {
+        "id": 185804,
+        "score": 7.9,
+        "votes": 253,
+        "url": "https://bgm.tv/subject/185804",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v38429": {
+      "bangumi": {
+        "id": 402650,
+        "score": 7.9,
+        "votes": 1356,
+        "url": "https://bgm.tv/subject/402650",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v1286": {
+      "bangumi": {
+        "id": 2288,
+        "score": 7.8,
+        "votes": 5701,
+        "url": "https://bgm.tv/subject/2288",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v434": {
+      "bangumi": {
+        "id": 1495,
+        "score": 7.8,
+        "votes": 848,
+        "url": "https://bgm.tv/subject/1495",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v18738": {
+      "bangumi": {
+        "id": 522738,
+        "score": 7.9,
+        "votes": 183,
+        "url": "https://bgm.tv/subject/522738",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v50": {
+      "bangumi": {
+        "id": 911,
+        "score": 7.8,
+        "votes": 1753,
+        "url": "https://bgm.tv/subject/911",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v94": {
+      "bangumi": {
+        "id": 1048,
+        "score": 7.8,
+        "votes": 358,
+        "url": "https://bgm.tv/subject/1048",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v2337": {
+      "bangumi": {
+        "id": 10635,
+        "score": 7.8,
+        "votes": 257,
+        "url": "https://bgm.tv/subject/10635",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v7014": {
+      "bangumi": {
+        "id": 10336,
+        "score": 7.8,
+        "votes": 4971,
+        "url": "https://bgm.tv/subject/10336",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v3890": {
+      "bangumi": {
+        "id": 7713,
+        "score": 7.9,
+        "votes": 137,
+        "url": "https://bgm.tv/subject/7713",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v33": {
+      "bangumi": {
+        "id": 142,
+        "score": 7.8,
+        "votes": 1505,
+        "url": "https://bgm.tv/subject/142",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v7724": {
+      "bangumi": {
+        "id": 46868,
+        "score": 7.8,
+        "votes": 1129,
+        "url": "https://bgm.tv/subject/46868",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v18498": {
+      "bangumi": {
+        "id": 150191,
+        "score": 7.7,
+        "votes": 3318,
+        "url": "https://bgm.tv/subject/150191",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v18685": {
+      "bangumi": {
+        "id": 156122,
+        "score": 7.7,
+        "votes": 271,
+        "url": "https://bgm.tv/subject/156122",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v5154": {
+      "bangumi": {
+        "id": 10869,
+        "score": 7.7,
+        "votes": 1532,
+        "url": "https://bgm.tv/subject/10869",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v7052": {
+      "bangumi": {
+        "id": 51705,
+        "score": 7.7,
+        "votes": 205,
+        "url": "https://bgm.tv/subject/51705",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v4936": {
+      "bangumi": {
+        "id": 10957,
+        "score": 7.7,
+        "votes": 471,
+        "url": "https://bgm.tv/subject/10957",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v5000": {
+      "bangumi": {
+        "id": 27914,
+        "score": 7.7,
+        "votes": 595,
+        "url": "https://bgm.tv/subject/27914",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v717": {
+      "bangumi": {
+        "id": 1114,
+        "score": 7.6,
+        "votes": 1786,
+        "url": "https://bgm.tv/subject/1114",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v18739": {
+      "bangumi": {
+        "id": 186568,
+        "score": 7.7,
+        "votes": 185,
+        "url": "https://bgm.tv/subject/186568",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v857": {
+      "bangumi": {
+        "id": 2717,
+        "score": 7.7,
+        "votes": 151,
+        "url": "https://bgm.tv/subject/2717",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v1171": {
+      "bangumi": {
+        "id": 1735,
+        "score": 7.6,
+        "votes": 1201,
+        "url": "https://bgm.tv/subject/1735",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v7723": {
+      "bangumi": {
+        "id": 24275,
+        "score": 7.6,
+        "votes": 1048,
+        "url": "https://bgm.tv/subject/24275",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v50081": {
+      "bangumi": {
+        "id": 486165,
+        "score": 7.6,
+        "votes": 860,
+        "url": "https://bgm.tv/subject/486165",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v58641": {
+      "bangumi": {
+        "id": 604105,
+        "score": 7.6,
+        "votes": 1321,
+        "url": "https://bgm.tv/subject/604105",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v4703": {
+      "bangumi": {
+        "id": 7870,
+        "score": 7.6,
+        "votes": 1076,
+        "url": "https://bgm.tv/subject/7870",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v36728": {
+      "bangumi": {
+        "id": 318704,
+        "score": 7.6,
+        "votes": 435,
+        "url": "https://bgm.tv/subject/318704",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v18736": {
+      "bangumi": {
+        "id": 524475,
+        "score": 7.6,
+        "votes": 147,
+        "url": "https://bgm.tv/subject/524475",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v13321": {
+      "bangumi": {
+        "id": 96373,
+        "score": 7.6,
+        "votes": 585,
+        "url": "https://bgm.tv/subject/96373",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v97": {
+      "bangumi": {
+        "id": 851,
+        "score": 7.5,
+        "votes": 7672,
+        "url": "https://bgm.tv/subject/851",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      },
+      "kungal": {
+        "id": "106",
+        "score": 7.5,
+        "votes": 26,
+        "url": "https://www.kungal.com/galgame/106",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v11858": {
+      "bangumi": {
+        "id": 70983,
+        "score": 7.5,
+        "votes": 400,
+        "url": "https://bgm.tv/subject/70983",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v1152": {
+      "bangumi": {
+        "id": 1732,
+        "score": 7.5,
+        "votes": 1277,
+        "url": "https://bgm.tv/subject/1732",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v32758": {
+      "bangumi": {
+        "id": 356983,
+        "score": 7.5,
+        "votes": 357,
+        "url": "https://bgm.tv/subject/356983",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v5844": {
+      "bangumi": {
+        "id": 14895,
+        "score": 7.6,
+        "votes": 123,
+        "url": "https://bgm.tv/subject/14895",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v26812": {
+      "bangumi": {
+        "id": 199185,
+        "score": 7.5,
+        "votes": 155,
+        "url": "https://bgm.tv/subject/199185",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v2567": {
+      "bangumi": {
+        "id": 93272,
+        "score": 7.5,
+        "votes": 201,
+        "url": "https://bgm.tv/subject/93272",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v20": {
+      "bangumi": {
+        "id": 1222,
+        "score": 7.5,
+        "votes": 287,
+        "url": "https://bgm.tv/subject/1222",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v29443": {
+      "bangumi": {
+        "id": 317675,
+        "score": 7.5,
+        "votes": 3229,
+        "url": "https://bgm.tv/subject/317675",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v15252": {
+      "bangumi": {
+        "id": 166034,
+        "score": 7.5,
+        "votes": 315,
+        "url": "https://bgm.tv/subject/166034",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v727": {
+      "bangumi": {
+        "id": 15292,
+        "score": 7.5,
+        "votes": 527,
+        "url": "https://bgm.tv/subject/15292",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v28297": {
+      "bangumi": {
+        "id": 304421,
+        "score": 7.5,
+        "votes": 3621,
+        "url": "https://bgm.tv/subject/304421",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      },
+      "kungal": {
+        "id": "10",
+        "score": 8.5,
+        "votes": 26,
+        "url": "https://www.kungal.com/galgame/10",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v1241": {
+      "bangumi": {
+        "id": 14761,
+        "score": 7.5,
+        "votes": 237,
+        "url": "https://bgm.tv/subject/14761",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v24299": {
+      "bangumi": {
+        "id": 227162,
+        "score": 7.5,
+        "votes": 560,
+        "url": "https://bgm.tv/subject/227162",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v13711": {
+      "bangumi": {
+        "id": 84495,
+        "score": 7.5,
+        "votes": 1017,
+        "url": "https://bgm.tv/subject/84495",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v26532": {
+      "bangumi": {
+        "id": 252657,
+        "score": 7.5,
+        "votes": 1608,
+        "url": "https://bgm.tv/subject/252657",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v19441": {
+      "bangumi": {
+        "id": 183217,
+        "score": 7.5,
+        "votes": 173,
+        "url": "https://bgm.tv/subject/183217",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v23448": {
+      "bangumi": {
+        "id": 254208,
+        "score": 7.4,
+        "votes": 1285,
+        "url": "https://bgm.tv/subject/254208",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v604": {
+      "bangumi": {
+        "id": 1088,
+        "score": 7.4,
+        "votes": 1616,
+        "url": "https://bgm.tv/subject/1088",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v19216": {
+      "bangumi": {
+        "id": 114304,
+        "score": 7.4,
+        "votes": 782,
+        "url": "https://bgm.tv/subject/114304",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v14878": {
+      "bangumi": {
+        "id": 91173,
+        "score": 7.5,
+        "votes": 302,
+        "url": "https://bgm.tv/subject/91173",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v1510": {
+      "bangumi": {
+        "id": 6233,
+        "score": 7.4,
+        "votes": 368,
+        "url": "https://bgm.tv/subject/6233",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v26987": {
+      "bangumi": {
+        "id": 295075,
+        "score": 7.4,
+        "votes": 1884,
+        "url": "https://bgm.tv/subject/295075",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v26902": {
+      "bangumi": {
+        "id": 291333,
+        "score": 7.4,
+        "votes": 2733,
+        "url": "https://bgm.tv/subject/291333",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v16560": {
+      "bangumi": {
+        "id": 121488,
+        "score": 7.4,
+        "votes": 1097,
+        "url": "https://bgm.tv/subject/121488",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v98": {
+      "bangumi": {
+        "id": 13276,
+        "score": 7.4,
+        "votes": 276,
+        "url": "https://bgm.tv/subject/13276",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v842": {
+      "bangumi": {
+        "id": 21021,
+        "score": 7.4,
+        "votes": 175,
+        "url": "https://bgm.tv/subject/21021",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v36674": {
+      "bangumi": {
+        "id": 364637,
+        "score": 7.4,
+        "votes": 752,
+        "url": "https://bgm.tv/subject/364637",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v44": {
+      "bangumi": {
+        "id": 838,
+        "score": 7.4,
+        "votes": 1071,
+        "url": "https://bgm.tv/subject/838",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v1027": {
+      "bangumi": {
+        "id": 1023,
+        "score": 7.4,
+        "votes": 481,
+        "url": "https://bgm.tv/subject/1023",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v4876": {
+      "bangumi": {
+        "id": 8029,
+        "score": 7.4,
+        "votes": 234,
+        "url": "https://bgm.tv/subject/8029",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v231": {
+      "bangumi": {
+        "id": 868,
+        "score": 7.4,
+        "votes": 481,
+        "url": "https://bgm.tv/subject/868",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v69": {
+      "bangumi": {
+        "id": 96128,
+        "score": 7.4,
+        "votes": 247,
+        "url": "https://bgm.tv/subject/96128",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v11029": {
+      "bangumi": {
+        "id": 70981,
+        "score": 7.3,
+        "votes": 672,
+        "url": "https://bgm.tv/subject/70981",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v1319": {
+      "bangumi": {
+        "id": 7400,
+        "score": 7.3,
+        "votes": 432,
+        "url": "https://bgm.tv/subject/7400",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v42561": {
+      "bangumi": {
+        "id": 419558,
+        "score": 7.3,
+        "votes": 1287,
+        "url": "https://bgm.tv/subject/419558",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v9093": {
+      "bangumi": {
+        "id": 29011,
+        "score": 7.3,
+        "votes": 819,
+        "url": "https://bgm.tv/subject/29011",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v29371": {
+      "bangumi": {
+        "id": 295004,
+        "score": 7.3,
+        "votes": 742,
+        "url": "https://bgm.tv/subject/295004",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v3360": {
+      "bangumi": {
+        "id": 3411,
+        "score": 7.3,
+        "votes": 243,
+        "url": "https://bgm.tv/subject/3411",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v38886": {
+      "bangumi": {
+        "id": 401772,
+        "score": 7.3,
+        "votes": 222,
+        "url": "https://bgm.tv/subject/401772",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v16862": {
+      "bangumi": {
+        "id": 55359,
+        "score": 7.3,
+        "votes": 235,
+        "url": "https://bgm.tv/subject/55359",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v62152": {
+      "bangumi": {
+        "id": 625770,
+        "score": 7.3,
+        "votes": 499,
+        "url": "https://bgm.tv/subject/625770",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v5691": {
+      "bangumi": {
+        "id": 12188,
+        "score": 7.3,
+        "votes": 192,
+        "url": "https://bgm.tv/subject/12188",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v50789": {
+      "bangumi": {
+        "id": 495135,
+        "score": 7.3,
+        "votes": 331,
+        "url": "https://bgm.tv/subject/495135",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v19654": {
+      "bangumi": {
+        "id": 193905,
+        "score": 7.3,
+        "votes": 577,
+        "url": "https://bgm.tv/subject/193905",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v50283": {
+      "bangumi": {
+        "id": 488392,
+        "score": 7.2,
+        "votes": 4729,
+        "url": "https://bgm.tv/subject/488392",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      },
+      "kungal": {
+        "id": "3260",
+        "score": 8.1,
+        "votes": 25,
+        "url": "https://www.kungal.com/galgame/3260",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v12694": {
+      "bangumi": {
+        "id": 121570,
+        "score": 7.2,
+        "votes": 393,
+        "url": "https://bgm.tv/subject/121570",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v1542": {
+      "bangumi": {
+        "id": 1504,
+        "score": 7.2,
+        "votes": 745,
+        "url": "https://bgm.tv/subject/1504",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v7576": {
+      "bangumi": {
+        "id": 22051,
+        "score": 7.2,
+        "votes": 146,
+        "url": "https://bgm.tv/subject/22051",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v13774": {
+      "bangumi": {
+        "id": 84520,
+        "score": 7.2,
+        "votes": 586,
+        "url": "https://bgm.tv/subject/84520",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v14267": {
+      "bangumi": {
+        "id": 90516,
+        "score": 7.2,
+        "votes": 1540,
+        "url": "https://bgm.tv/subject/90516",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v36687": {
+      "bangumi": {
+        "id": 389618,
+        "score": 7.2,
+        "votes": 226,
+        "url": "https://bgm.tv/subject/389618",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v12": {
+      "bangumi": {
+        "id": 3660,
+        "score": 7.2,
+        "votes": 1562,
+        "url": "https://bgm.tv/subject/3660",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v22310": {
+      "bangumi": {
+        "id": 237983,
+        "score": 7.2,
+        "votes": 148,
+        "url": "https://bgm.tv/subject/237983",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v6438": {
+      "bangumi": {
+        "id": 22228,
+        "score": 7.2,
+        "votes": 248,
+        "url": "https://bgm.tv/subject/22228",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v16858": {
+      "bangumi": {
+        "id": 126077,
+        "score": 7.2,
+        "votes": 394,
+        "url": "https://bgm.tv/subject/126077",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v11660": {
+      "bangumi": {
+        "id": 63973,
+        "score": 7.2,
+        "votes": 619,
+        "url": "https://bgm.tv/subject/63973",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v1173": {
+      "bangumi": {
+        "id": 1336,
+        "score": 7.2,
+        "votes": 565,
+        "url": "https://bgm.tv/subject/1336",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v21321": {
+      "bangumi": {
+        "id": 216929,
+        "score": 7.2,
+        "votes": 268,
+        "url": "https://bgm.tv/subject/216929",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v8020": {
+      "bangumi": {
+        "id": 23559,
+        "score": 7.2,
+        "votes": 1590,
+        "url": "https://bgm.tv/subject/23559",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v19453": {
+      "bangumi": {
+        "id": 183287,
+        "score": 7.2,
+        "votes": 115,
+        "url": "https://bgm.tv/subject/183287",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v2677": {
+      "bangumi": {
+        "id": 19291,
+        "score": 7.2,
+        "votes": 260,
+        "url": "https://bgm.tv/subject/19291",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v2585": {
+      "bangumi": {
+        "id": 1169,
+        "score": 7.2,
+        "votes": 1195,
+        "url": "https://bgm.tv/subject/1169",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v27457": {
+      "bangumi": {
+        "id": 297265,
+        "score": 7.2,
+        "votes": 764,
+        "url": "https://bgm.tv/subject/297265",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v21644": {
+      "bangumi": {
+        "id": 227977,
+        "score": 7.1,
+        "votes": 333,
+        "url": "https://bgm.tv/subject/227977",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v915": {
+      "bangumi": {
+        "id": 7979,
+        "score": 7.1,
+        "votes": 486,
+        "url": "https://bgm.tv/subject/7979",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v1325": {
+      "bangumi": {
+        "id": 1118,
+        "score": 7.1,
+        "votes": 683,
+        "url": "https://bgm.tv/subject/1118",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v248": {
+      "bangumi": {
+        "id": 1125,
+        "score": 7.1,
+        "votes": 968,
+        "url": "https://bgm.tv/subject/1125",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v27565": {
+      "bangumi": {
+        "id": 297996,
+        "score": 7.1,
+        "votes": 259,
+        "url": "https://bgm.tv/subject/297996",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v18334": {
+      "bangumi": {
+        "id": 146579,
+        "score": 7.1,
+        "votes": 2275,
+        "url": "https://bgm.tv/subject/146579",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v5258": {
+      "bangumi": {
+        "id": 10499,
+        "score": 7.1,
+        "votes": 170,
+        "url": "https://bgm.tv/subject/10499",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v139": {
+      "bangumi": {
+        "id": 5429,
+        "score": 7.1,
+        "votes": 217,
+        "url": "https://bgm.tv/subject/5429",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v7849": {
+      "bangumi": {
+        "id": 19388,
+        "score": 7.1,
+        "votes": 380,
+        "url": "https://bgm.tv/subject/19388",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v4137": {
+      "bangumi": {
+        "id": 1503,
+        "score": 7.1,
+        "votes": 295,
+        "url": "https://bgm.tv/subject/1503",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v27448": {
+      "bangumi": {
+        "id": 297264,
+        "score": 7.1,
+        "votes": 7192,
+        "url": "https://bgm.tv/subject/297264",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      },
+      "kungal": {
+        "id": "12",
+        "score": 7.9,
+        "votes": 43,
+        "url": "https://www.kungal.com/galgame/12",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v31469": {
+      "bangumi": {
+        "id": 340438,
+        "score": 7.1,
+        "votes": 779,
+        "url": "https://bgm.tv/subject/340438",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v21964": {
+      "bangumi": {
+        "id": 226660,
+        "score": 7.1,
+        "votes": 882,
+        "url": "https://bgm.tv/subject/226660",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v29908": {
+      "bangumi": {
+        "id": 380514,
+        "score": 7.1,
+        "votes": 611,
+        "url": "https://bgm.tv/subject/380514",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v45553": {
+      "bangumi": {
+        "id": 342841,
+        "score": 7.1,
+        "votes": 1205,
+        "url": "https://bgm.tv/subject/342841",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v24802": {
+      "bangumi": {
+        "id": 269178,
+        "score": 7.1,
+        "votes": 239,
+        "url": "https://bgm.tv/subject/269178",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v30438": {
+      "bangumi": {
+        "id": 314914,
+        "score": 7,
+        "votes": 201,
+        "url": "https://bgm.tv/subject/314914",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v5690": {
+      "bangumi": {
+        "id": 10895,
+        "score": 7.1,
+        "votes": 685,
+        "url": "https://bgm.tv/subject/10895",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v103": {
+      "bangumi": {
+        "id": 19702,
+        "score": 7,
+        "votes": 154,
+        "url": "https://bgm.tv/subject/19702",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v849": {
+      "bangumi": {
+        "id": 1095,
+        "score": 7,
+        "votes": 287,
+        "url": "https://bgm.tv/subject/1095",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v4429": {
+      "bangumi": {
+        "id": 11554,
+        "score": 7,
+        "votes": 409,
+        "url": "https://bgm.tv/subject/11554",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v1970": {
+      "bangumi": {
+        "id": 19459,
+        "score": 7,
+        "votes": 187,
+        "url": "https://bgm.tv/subject/19459",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v2023": {
+      "bangumi": {
+        "id": 11218,
+        "score": 7,
+        "votes": 281,
+        "url": "https://bgm.tv/subject/11218",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v7402": {
+      "bangumi": {
+        "id": 25122,
+        "score": 7,
+        "votes": 664,
+        "url": "https://bgm.tv/subject/25122",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v247": {
+      "bangumi": {
+        "id": 1736,
+        "score": 7,
+        "votes": 418,
+        "url": "https://bgm.tv/subject/1736",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v55286": {
+      "bangumi": {
+        "id": 559564,
+        "score": 7,
+        "votes": 453,
+        "url": "https://bgm.tv/subject/559564",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v33348": {
+      "bangumi": {
+        "id": 512789,
+        "score": 7,
+        "votes": 593,
+        "url": "https://bgm.tv/subject/512789",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v56343": {
+      "bangumi": {
+        "id": 558661,
+        "score": 7,
+        "votes": 375,
+        "url": "https://bgm.tv/subject/558661",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v19151": {
+      "bangumi": {
+        "id": 189484,
+        "score": 6.9,
+        "votes": 125,
+        "url": "https://bgm.tv/subject/189484",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v20264": {
+      "bangumi": {
+        "id": 186291,
+        "score": 7,
+        "votes": 528,
+        "url": "https://bgm.tv/subject/186291",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v37716": {
+      "bangumi": {
+        "id": 397111,
+        "score": 7,
+        "votes": 527,
+        "url": "https://bgm.tv/subject/397111",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v4194": {
+      "bangumi": {
+        "id": 14906,
+        "score": 6.9,
+        "votes": 236,
+        "url": "https://bgm.tv/subject/14906",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v430": {
+      "bangumi": {
+        "id": 4009,
+        "score": 6.9,
+        "votes": 567,
+        "url": "https://bgm.tv/subject/4009",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v3684": {
+      "bangumi": {
+        "id": 40135,
+        "score": 6.9,
+        "votes": 317,
+        "url": "https://bgm.tv/subject/40135",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v19843": {
+      "bangumi": {
+        "id": 247868,
+        "score": 6.9,
+        "votes": 223,
+        "url": "https://bgm.tv/subject/247868",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v5299": {
+      "bangumi": {
+        "id": 11222,
+        "score": 6.9,
+        "votes": 526,
+        "url": "https://bgm.tv/subject/11222",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v58103": {
+      "bangumi": {
+        "id": 504160,
+        "score": 6.9,
+        "votes": 161,
+        "url": "https://bgm.tv/subject/504160",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v2022": {
+      "bangumi": {
+        "id": 11219,
+        "score": 6.9,
+        "votes": 296,
+        "url": "https://bgm.tv/subject/11219",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v382": {
+      "bangumi": {
+        "id": 1410,
+        "score": 6.9,
+        "votes": 2357,
+        "url": "https://bgm.tv/subject/1410",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v32919": {
+      "bangumi": {
+        "id": 360350,
+        "score": 6.9,
+        "votes": 138,
+        "url": "https://bgm.tv/subject/360350",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v728": {
+      "bangumi": {
+        "id": 21073,
+        "score": 6.9,
+        "votes": 147,
+        "url": "https://bgm.tv/subject/21073",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v37179": {
+      "bangumi": {
+        "id": 396112,
+        "score": 6.9,
+        "votes": 146,
+        "url": "https://bgm.tv/subject/396112",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v24208": {
+      "bangumi": {
+        "id": 259471,
+        "score": 6.9,
+        "votes": 1120,
+        "url": "https://bgm.tv/subject/259471",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v49056": {
+      "bangumi": {
+        "id": 473828,
+        "score": 6.9,
+        "votes": 155,
+        "url": "https://bgm.tv/subject/473828",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v4185": {
+      "bangumi": {
+        "id": 10983,
+        "score": 6.9,
+        "votes": 181,
+        "url": "https://bgm.tv/subject/10983",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v1331": {
+      "bangumi": {
+        "id": 2330,
+        "score": 6.9,
+        "votes": 400,
+        "url": "https://bgm.tv/subject/2330",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v23742": {
+      "bangumi": {
+        "id": 256658,
+        "score": 6.9,
+        "votes": 783,
+        "url": "https://bgm.tv/subject/256658",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v30340": {
+      "bangumi": {
+        "id": 334753,
+        "score": 6.8,
+        "votes": 229,
+        "url": "https://bgm.tv/subject/334753",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v28915": {
+      "bangumi": {
+        "id": 309736,
+        "score": 6.9,
+        "votes": 616,
+        "url": "https://bgm.tv/subject/309736",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v49324": {
+      "bangumi": {
+        "id": 466742,
+        "score": 6.8,
+        "votes": 209,
+        "url": "https://bgm.tv/subject/466742",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v25413": {
+      "bangumi": {
+        "id": 248666,
+        "score": 6.8,
+        "votes": 1016,
+        "url": "https://bgm.tv/subject/248666",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v33493": {
+      "bangumi": {
+        "id": 328321,
+        "score": 6.8,
+        "votes": 2471,
+        "url": "https://bgm.tv/subject/328321",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v16842": {
+      "bangumi": {
+        "id": 172745,
+        "score": 6.8,
+        "votes": 199,
+        "url": "https://bgm.tv/subject/172745",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v16695": {
+      "bangumi": {
+        "id": 121971,
+        "score": 6.8,
+        "votes": 315,
+        "url": "https://bgm.tv/subject/121971",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v24209": {
+      "bangumi": {
+        "id": 233843,
+        "score": 6.8,
+        "votes": 138,
+        "url": "https://bgm.tv/subject/233843",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v427": {
+      "bangumi": {
+        "id": 7399,
+        "score": 6.8,
+        "votes": 177,
+        "url": "https://bgm.tv/subject/7399",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v1326": {
+      "bangumi": {
+        "id": 4572,
+        "score": 6.8,
+        "votes": 313,
+        "url": "https://bgm.tv/subject/4572",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v6618": {
+      "bangumi": {
+        "id": 19060,
+        "score": 6.8,
+        "votes": 882,
+        "url": "https://bgm.tv/subject/19060",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v21905": {
+      "bangumi": {
+        "id": 228086,
+        "score": 6.8,
+        "votes": 3129,
+        "url": "https://bgm.tv/subject/228086",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v7766": {
+      "bangumi": {
+        "id": 27513,
+        "score": 6.8,
+        "votes": 514,
+        "url": "https://bgm.tv/subject/27513",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v1646": {
+      "bangumi": {
+        "id": 1666,
+        "score": 6.8,
+        "votes": 928,
+        "url": "https://bgm.tv/subject/1666",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v18131": {
+      "bangumi": {
+        "id": 143128,
+        "score": 6.8,
+        "votes": 1144,
+        "url": "https://bgm.tv/subject/143128",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v24938": {
+      "bangumi": {
+        "id": 281189,
+        "score": 6.7,
+        "votes": 164,
+        "url": "https://bgm.tv/subject/281189",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v25197": {
+      "bangumi": {
+        "id": 271954,
+        "score": 6.7,
+        "votes": 216,
+        "url": "https://bgm.tv/subject/271954",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v10569": {
+      "bangumi": {
+        "id": 100391,
+        "score": 6.8,
+        "votes": 358,
+        "url": "https://bgm.tv/subject/100391",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v23190": {
+      "bangumi": {
+        "id": 246370,
+        "score": 6.7,
+        "votes": 186,
+        "url": "https://bgm.tv/subject/246370",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v18915": {
+      "bangumi": {
+        "id": 225424,
+        "score": 6.7,
+        "votes": 274,
+        "url": "https://bgm.tv/subject/225424",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v5549": {
+      "bangumi": {
+        "id": 12981,
+        "score": 6.7,
+        "votes": 800,
+        "url": "https://bgm.tv/subject/12981",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v24351": {
+      "bangumi": {
+        "id": 261765,
+        "score": 6.7,
+        "votes": 228,
+        "url": "https://bgm.tv/subject/261765",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v3939": {
+      "bangumi": {
+        "id": 7645,
+        "score": 6.7,
+        "votes": 278,
+        "url": "https://bgm.tv/subject/7645",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v22702": {
+      "bangumi": {
+        "id": 215480,
+        "score": 6.7,
+        "votes": 499,
+        "url": "https://bgm.tv/subject/215480",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v57718": {
+      "bangumi": {
+        "id": 567819,
+        "score": 6.7,
+        "votes": 224,
+        "url": "https://bgm.tv/subject/567819",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v17731": {
+      "bangumi": {
+        "id": 136179,
+        "score": 6.7,
+        "votes": 124,
+        "url": "https://bgm.tv/subject/136179",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v16610": {
+      "bangumi": {
+        "id": 122533,
+        "score": 6.7,
+        "votes": 169,
+        "url": "https://bgm.tv/subject/122533",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v22304": {
+      "bangumi": {
+        "id": 233197,
+        "score": 6.7,
+        "votes": 199,
+        "url": "https://bgm.tv/subject/233197",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v22791": {
+      "bangumi": {
+        "id": 214362,
+        "score": 6.7,
+        "votes": 221,
+        "url": "https://bgm.tv/subject/214362",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v31160": {
+      "bangumi": {
+        "id": 364770,
+        "score": 6.7,
+        "votes": 358,
+        "url": "https://bgm.tv/subject/364770",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v29444": {
+      "bangumi": {
+        "id": 317674,
+        "score": 6.7,
+        "votes": 673,
+        "url": "https://bgm.tv/subject/317674",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v49261": {
+      "bangumi": {
+        "id": 473184,
+        "score": 6.7,
+        "votes": 667,
+        "url": "https://bgm.tv/subject/473184",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v35": {
+      "bangumi": {
+        "id": 1657,
+        "score": 6.6,
+        "votes": 139,
+        "url": "https://bgm.tv/subject/1657",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v5883": {
+      "bangumi": {
+        "id": 20825,
+        "score": 6.6,
+        "votes": 181,
+        "url": "https://bgm.tv/subject/20825",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v34121": {
+      "bangumi": {
+        "id": 372015,
+        "score": 6.6,
+        "votes": 130,
+        "url": "https://bgm.tv/subject/372015",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v29062": {
+      "bangumi": {
+        "id": 311666,
+        "score": 6.6,
+        "votes": 936,
+        "url": "https://bgm.tv/subject/311666",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v18831": {
+      "bangumi": {
+        "id": 169766,
+        "score": 6.6,
+        "votes": 151,
+        "url": "https://bgm.tv/subject/169766",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v19072": {
+      "bangumi": {
+        "id": 169767,
+        "score": 6.6,
+        "votes": 142,
+        "url": "https://bgm.tv/subject/169767",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v22792": {
+      "bangumi": {
+        "id": 230796,
+        "score": 6.6,
+        "votes": 201,
+        "url": "https://bgm.tv/subject/230796",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v41815": {
+      "bangumi": {
+        "id": 414737,
+        "score": 6.5,
+        "votes": 134,
+        "url": "https://bgm.tv/subject/414737",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v19545": {
+      "bangumi": {
+        "id": 167532,
+        "score": 6.6,
+        "votes": 704,
+        "url": "https://bgm.tv/subject/167532",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v1543": {
+      "bangumi": {
+        "id": 363,
+        "score": 6.5,
+        "votes": 122,
+        "url": "https://bgm.tv/subject/363",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v433": {
+      "bangumi": {
+        "id": 18757,
+        "score": 6.6,
+        "votes": 211,
+        "url": "https://bgm.tv/subject/18757",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v32514": {
+      "bangumi": {
+        "id": 354705,
+        "score": 6.6,
+        "votes": 229,
+        "url": "https://bgm.tv/subject/354705",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v32747": {
+      "bangumi": {
+        "id": 324663,
+        "score": 6.6,
+        "votes": 637,
+        "url": "https://bgm.tv/subject/324663",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v22790": {
+      "bangumi": {
+        "id": 214188,
+        "score": 6.5,
+        "votes": 227,
+        "url": "https://bgm.tv/subject/214188",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v55357": {
+      "bangumi": {
+        "id": 548132,
+        "score": 6.5,
+        "votes": 108,
+        "url": "https://bgm.tv/subject/548132",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v10526": {
+      "bangumi": {
+        "id": 103077,
+        "score": 6.5,
+        "votes": 177,
+        "url": "https://bgm.tv/subject/103077",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v21647": {
+      "bangumi": {
+        "id": 254126,
+        "score": 6.5,
+        "votes": 325,
+        "url": "https://bgm.tv/subject/254126",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v9889": {
+      "bangumi": {
+        "id": 51602,
+        "score": 6.6,
+        "votes": 818,
+        "url": "https://bgm.tv/subject/51602",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v51102": {
+      "bangumi": {
+        "id": 414825,
+        "score": 6.5,
+        "votes": 465,
+        "url": "https://bgm.tv/subject/414825",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v16510": {
+      "bangumi": {
+        "id": 130051,
+        "score": 6.5,
+        "votes": 546,
+        "url": "https://bgm.tv/subject/130051",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v9047": {
+      "bangumi": {
+        "id": 144515,
+        "score": 6.5,
+        "votes": 114,
+        "url": "https://bgm.tv/subject/144515",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v9887": {
+      "bangumi": {
+        "id": 20544,
+        "score": 6.5,
+        "votes": 181,
+        "url": "https://bgm.tv/subject/20544",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v17388": {
+      "bangumi": {
+        "id": 131917,
+        "score": 6.5,
+        "votes": 558,
+        "url": "https://bgm.tv/subject/131917",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v32655": {
+      "bangumi": {
+        "id": 353905,
+        "score": 6.5,
+        "votes": 246,
+        "url": "https://bgm.tv/subject/353905",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v28114": {
+      "bangumi": {
+        "id": 302427,
+        "score": 6.5,
+        "votes": 318,
+        "url": "https://bgm.tv/subject/302427",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v10231": {
+      "bangumi": {
+        "id": 45413,
+        "score": 6.4,
+        "votes": 100,
+        "url": "https://bgm.tv/subject/45413",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v31212": {
+      "bangumi": {
+        "id": 337709,
+        "score": 6.4,
+        "votes": 237,
+        "url": "https://bgm.tv/subject/337709",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v26147": {
+      "bangumi": {
+        "id": 279346,
+        "score": 6.4,
+        "votes": 167,
+        "url": "https://bgm.tv/subject/279346",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v3767": {
+      "bangumi": {
+        "id": 12090,
+        "score": 6.5,
+        "votes": 570,
+        "url": "https://bgm.tv/subject/12090",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v54897": {
+      "bangumi": {
+        "id": 499874,
+        "score": 6.5,
+        "votes": 619,
+        "url": "https://bgm.tv/subject/499874",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v17101": {
+      "bangumi": {
+        "id": 129822,
+        "score": 6.4,
+        "votes": 284,
+        "url": "https://bgm.tv/subject/129822",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v34151": {
+      "bangumi": {
+        "id": 372523,
+        "score": 6.3,
+        "votes": 105,
+        "url": "https://bgm.tv/subject/372523",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v42944": {
+      "bangumi": {
+        "id": 430439,
+        "score": 6.3,
+        "votes": 100,
+        "url": "https://bgm.tv/subject/430439",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v25280": {
+      "bangumi": {
+        "id": 281188,
+        "score": 6.3,
+        "votes": 149,
+        "url": "https://bgm.tv/subject/281188",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v14270": {
+      "bangumi": {
+        "id": 93360,
+        "score": 6.3,
+        "votes": 197,
+        "url": "https://bgm.tv/subject/93360",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v4985": {
+      "bangumi": {
+        "id": 14138,
+        "score": 6.3,
+        "votes": 137,
+        "url": "https://bgm.tv/subject/14138",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v20194": {
+      "bangumi": {
+        "id": 196258,
+        "score": 6.3,
+        "votes": 280,
+        "url": "https://bgm.tv/subject/196258",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v79": {
+      "bangumi": {
+        "id": 18442,
+        "score": 6.3,
+        "votes": 204,
+        "url": "https://bgm.tv/subject/18442",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v30715": {
+      "bangumi": {
+        "id": 331070,
+        "score": 6.2,
+        "votes": 105,
+        "url": "https://bgm.tv/subject/331070",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v28151": {
+      "bangumi": {
+        "id": 302452,
+        "score": 6.3,
+        "votes": 146,
+        "url": "https://bgm.tv/subject/302452",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v31975": {
+      "bangumi": {
+        "id": 356198,
+        "score": 6.3,
+        "votes": 422,
+        "url": "https://bgm.tv/subject/356198",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v5481": {
+      "bangumi": {
+        "id": 51906,
+        "score": 6.2,
+        "votes": 147,
+        "url": "https://bgm.tv/subject/51906",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v27747": {
+      "bangumi": {
+        "id": 339372,
+        "score": 6.3,
+        "votes": 415,
+        "url": "https://bgm.tv/subject/339372",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v17863": {
+      "bangumi": {
+        "id": 137949,
+        "score": 6.3,
+        "votes": 493,
+        "url": "https://bgm.tv/subject/137949",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v26210": {
+      "bangumi": {
+        "id": 285687,
+        "score": 6.3,
+        "votes": 393,
+        "url": "https://bgm.tv/subject/285687",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v1099": {
+      "bangumi": {
+        "id": 867,
+        "score": 6.2,
+        "votes": 229,
+        "url": "https://bgm.tv/subject/867",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v24328": {
+      "bangumi": {
+        "id": 261193,
+        "score": 6.1,
+        "votes": 106,
+        "url": "https://bgm.tv/subject/261193",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v12600": {
+      "bangumi": {
+        "id": 80828,
+        "score": 6.3,
+        "votes": 579,
+        "url": "https://bgm.tv/subject/80828",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v18830": {
+      "bangumi": {
+        "id": 169764,
+        "score": 6.2,
+        "votes": 159,
+        "url": "https://bgm.tv/subject/169764",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v12630": {
+      "bangumi": {
+        "id": 67205,
+        "score": 6,
+        "votes": 124,
+        "url": "https://bgm.tv/subject/67205",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v19119": {
+      "bangumi": {
+        "id": 173533,
+        "score": 6.1,
+        "votes": 394,
+        "url": "https://bgm.tv/subject/173533",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v56342": {
+      "bangumi": {
+        "id": 558657,
+        "score": 5.9,
+        "votes": 115,
+        "url": "https://bgm.tv/subject/558657",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v29761": {
+      "bangumi": {
+        "id": 416869,
+        "score": 5.9,
+        "votes": 142,
+        "url": "https://bgm.tv/subject/416869",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v47172": {
+      "bangumi": {
+        "id": 448682,
+        "score": 6,
+        "votes": 1906,
+        "url": "https://bgm.tv/subject/448682",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v29724": {
+      "bangumi": {
+        "id": 314651,
+        "score": 6,
+        "votes": 2626,
+        "url": "https://bgm.tv/subject/314651",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v39": {
+      "bangumi": {
+        "id": 55299,
+        "score": 5.9,
+        "votes": 235,
+        "url": "https://bgm.tv/subject/55299",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v32598": {
+      "bangumi": {
+        "id": 335220,
+        "score": 5.9,
+        "votes": 282,
+        "url": "https://bgm.tv/subject/335220",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v29170": {
+      "bangumi": {
+        "id": 316369,
+        "score": 5.8,
+        "votes": 256,
+        "url": "https://bgm.tv/subject/316369",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v22020": {
+      "bangumi": {
+        "id": 255334,
+        "score": 5.8,
+        "votes": 432,
+        "url": "https://bgm.tv/subject/255334",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v54048": {
+      "bangumi": {
+        "id": 529662,
+        "score": 5.8,
+        "votes": 335,
+        "url": "https://bgm.tv/subject/529662",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v38430": {
+      "bangumi": {
+        "id": 402654,
+        "score": 5.8,
+        "votes": 1676,
+        "url": "https://bgm.tv/subject/402654",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v24779": {
+      "bangumi": {
+        "id": 268411,
+        "score": 5.6,
+        "votes": 103,
+        "url": "https://bgm.tv/subject/268411",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v31138": {
+      "bangumi": {
+        "id": 329440,
+        "score": 5.7,
+        "votes": 268,
+        "url": "https://bgm.tv/subject/329440",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v52780": {
+      "bangumi": {
+        "id": 513971,
+        "score": 5.5,
+        "votes": 151,
+        "url": "https://bgm.tv/subject/513971",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v31807": {
+      "bangumi": {
+        "id": 344272,
+        "score": 5.7,
+        "votes": 1001,
+        "url": "https://bgm.tv/subject/344272",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v28683": {
+      "bangumi": {
+        "id": 309435,
+        "score": 5.4,
+        "votes": 149,
+        "url": "https://bgm.tv/subject/309435",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v49859": {
+      "bangumi": {
+        "id": 524576,
+        "score": 5.5,
+        "votes": 458,
+        "url": "https://bgm.tv/subject/524576",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v46543": {
+      "bangumi": {
+        "id": 449937,
+        "score": 5.4,
+        "votes": 344,
+        "url": "https://bgm.tv/subject/449937",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v52778": {
+      "bangumi": {
+        "id": 513940,
+        "score": 5.4,
+        "votes": 374,
+        "url": "https://bgm.tv/subject/513940",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v47175": {
+      "bangumi": {
+        "id": 456680,
+        "score": 5.1,
+        "votes": 1019,
+        "url": "https://bgm.tv/subject/456680",
+        "via": "bangumi-api",
+        "match": "exact-title-and-year"
+      }
+    },
+    "v12849": {
+      "bangumi": {
+        "id": 76912,
+        "score": 7.8,
+        "votes": 4486,
+        "url": "https://bgm.tv/subject/76912",
+        "via": "https://www.kungal.com/galgame/24",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v63828": {
+      "bangumi": {
+        "id": 640635,
+        "score": 6.3,
+        "votes": 317,
+        "url": "https://bgm.tv/subject/640635",
+        "via": "https://www.kungal.com/galgame/5707",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v14018": {
+      "bangumi": {
+        "id": 88765,
+        "score": 8.4,
+        "votes": 4712,
+        "url": "https://bgm.tv/subject/88765",
+        "via": "https://www.kungal.com/galgame/3079",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v8213": {
+      "bangumi": {
+        "id": 25370,
+        "score": 7,
+        "votes": 2686,
+        "url": "https://bgm.tv/subject/25370",
+        "via": "https://www.kungal.com/galgame/205",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v47937": {
+      "bangumi": {
+        "id": 465493,
+        "score": 6.8,
+        "votes": 821,
+        "url": "https://bgm.tv/subject/465493",
+        "via": "https://www.kungal.com/galgame/4144",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v52702": {
+      "bangumi": {
+        "id": 512796,
+        "score": 6.8,
+        "votes": 712,
+        "url": "https://bgm.tv/subject/512796",
+        "via": "https://www.kungal.com/galgame/2085",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v8731": {
+      "bangumi": {
+        "id": 28400,
+        "score": 7.4,
+        "votes": 1510,
+        "url": "https://bgm.tv/subject/28400",
+        "via": "https://www.kungal.com/galgame/2458",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v25366": {
+      "bangumi": {
+        "id": 275265,
+        "score": 6.9,
+        "votes": 2261,
+        "url": "https://bgm.tv/subject/275265",
+        "via": "https://www.kungal.com/galgame/122",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v37": {
+      "bangumi": {
+        "id": 1012,
+        "score": 8.2,
+        "votes": 2437,
+        "url": "https://bgm.tv/subject/1012",
+        "via": "https://www.kungal.com/galgame/864",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v18636": {
+      "bangumi": {
+        "id": 151833,
+        "score": 6.4,
+        "votes": 1416,
+        "url": "https://bgm.tv/subject/151833",
+        "via": "https://www.kungal.com/galgame/4598",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v515": {
+      "bangumi": {
+        "id": 1129,
+        "score": 7.5,
+        "votes": 1878,
+        "url": "https://bgm.tv/subject/1129",
+        "via": "https://www.kungal.com/galgame/624",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v27449": {
+      "bangumi": {
+        "id": 295364,
+        "score": 6.8,
+        "votes": 3142,
+        "url": "https://bgm.tv/subject/295364",
+        "via": "https://www.kungal.com/galgame/17",
+        "match": "explicit-vndb-reference"
+      },
+      "kungal": {
+        "id": "17",
+        "score": 8.2,
+        "votes": 28,
+        "url": "https://www.kungal.com/galgame/17",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v34848": {
+      "bangumi": {
+        "id": 377476,
+        "score": 6.8,
+        "votes": 638,
+        "url": "https://bgm.tv/subject/377476",
+        "via": "https://www.kungal.com/galgame/439",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v3896": {
+      "bangumi": {
+        "id": 14114,
+        "score": 6.9,
+        "votes": 407,
+        "url": "https://bgm.tv/subject/14114",
+        "via": "https://www.kungal.com/galgame/872",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v15679": {
+      "bangumi": {
+        "id": 114735,
+        "score": 7.2,
+        "votes": 392,
+        "url": "https://bgm.tv/subject/114735",
+        "via": "https://www.kungal.com/galgame/479",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v32745": {
+      "bangumi": {
+        "id": 366450,
+        "score": 6.8,
+        "votes": 109,
+        "url": "https://bgm.tv/subject/366450",
+        "via": "https://www.kungal.com/galgame/4482",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v59409": {
+      "bangumi": {
+        "id": 586274,
+        "score": 6.5,
+        "votes": 246,
+        "url": "https://bgm.tv/subject/586274",
+        "via": "https://www.kungal.com/galgame/4516",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v470": {
+      "bangumi": {
+        "id": 17436,
+        "score": 7.9,
+        "votes": 2991,
+        "url": "https://bgm.tv/subject/17436",
+        "via": "https://www.kungal.com/galgame/110",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v50072": {
+      "bangumi": {
+        "id": 482850,
+        "score": 6.8,
+        "votes": 430,
+        "url": "https://bgm.tv/subject/482850",
+        "via": "https://www.kungal.com/galgame/855",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v60663": {
+      "bangumi": {
+        "id": 611546,
+        "score": 7.9,
+        "votes": 2004,
+        "url": "https://bgm.tv/subject/611546",
+        "via": "https://www.kungal.com/galgame/4829",
+        "match": "explicit-vndb-reference"
+      },
+      "kungal": {
+        "id": "4829",
+        "score": 8.2,
+        "votes": 73,
+        "url": "https://www.kungal.com/galgame/4829",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v61834": {
+      "bangumi": {
+        "id": 622968,
+        "score": 7,
+        "votes": 186,
+        "url": "https://bgm.tv/subject/622968",
+        "via": "https://www.kungal.com/galgame/4826",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v211": {
+      "bangumi": {
+        "id": 1385,
+        "score": 7.8,
+        "votes": 4615,
+        "url": "https://bgm.tv/subject/1385",
+        "via": "https://www.kungal.com/galgame/305",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v57252": {
+      "bangumi": {
+        "id": 566420,
+        "score": 7.5,
+        "votes": 1507,
+        "url": "https://bgm.tv/subject/566420",
+        "via": "https://www.kungal.com/galgame/4146",
+        "match": "explicit-vndb-reference"
+      },
+      "kungal": {
+        "id": "4146",
+        "score": 8,
+        "votes": 34,
+        "url": "https://www.kungal.com/galgame/4146",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v52031": {
+      "bangumi": {
+        "id": 526564,
+        "score": 5.5,
+        "votes": 262,
+        "url": "https://bgm.tv/subject/526564",
+        "via": "https://www.kungal.com/galgame/4134",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v701": {
+      "bangumi": {
+        "id": 10120,
+        "score": 7.2,
+        "votes": 1418,
+        "url": "https://bgm.tv/subject/10120",
+        "via": "https://www.kungal.com/galgame/203",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v62721": {
+      "bangumi": {
+        "id": 631826,
+        "score": 6.6,
+        "votes": 173,
+        "url": "https://bgm.tv/subject/631826",
+        "via": "https://www.kungal.com/galgame/5026",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v27519": {
+      "bangumi": {
+        "id": 297734,
+        "score": 7.4,
+        "votes": 3250,
+        "url": "https://bgm.tv/subject/297734",
+        "via": "https://www.kungal.com/galgame/571",
+        "match": "explicit-vndb-reference"
+      },
+      "kungal": {
+        "id": "571",
+        "score": 8,
+        "votes": 20,
+        "url": "https://www.kungal.com/galgame/571",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v60196": {
+      "bangumi": {
+        "id": 600317,
+        "score": 6,
+        "votes": 229,
+        "url": "https://bgm.tv/subject/600317",
+        "via": "https://www.kungal.com/galgame/4839",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v55281": {
+      "bangumi": {
+        "id": 545934,
+        "score": 6,
+        "votes": 278,
+        "url": "https://bgm.tv/subject/545934",
+        "via": "https://www.kungal.com/galgame/3360",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v1474": {
+      "bangumi": {
+        "id": 3650,
+        "score": 7.8,
+        "votes": 1831,
+        "url": "https://bgm.tv/subject/3650",
+        "via": "https://www.kungal.com/galgame/173",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v28633": {
+      "bangumi": {
+        "id": 308573,
+        "score": 6.4,
+        "votes": 1143,
+        "url": "https://bgm.tv/subject/308573",
+        "via": "https://www.kungal.com/galgame/881",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v29057": {
+      "bangumi": {
+        "id": 313964,
+        "score": 7.3,
+        "votes": 354,
+        "url": "https://bgm.tv/subject/313964",
+        "via": "https://www.kungal.com/galgame/1403",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v16802": {
+      "bangumi": {
+        "id": 124851,
+        "score": 6.9,
+        "votes": 1929,
+        "url": "https://bgm.tv/subject/124851",
+        "via": "https://www.kungal.com/galgame/1087",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v776": {
+      "bangumi": {
+        "id": 10767,
+        "score": 7.5,
+        "votes": 527,
+        "url": "https://bgm.tv/subject/10767",
+        "via": "https://www.kungal.com/galgame/4217",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v21552": {
+      "bangumi": {
+        "id": 220369,
+        "score": 7.4,
+        "votes": 2284,
+        "url": "https://bgm.tv/subject/220369",
+        "via": "https://www.kungal.com/galgame/135",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v16640": {
+      "bangumi": {
+        "id": 122928,
+        "score": 7.4,
+        "votes": 1816,
+        "url": "https://bgm.tv/subject/122928",
+        "via": "https://www.kungal.com/galgame/939",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v20860": {
+      "bangumi": {
+        "id": 210068,
+        "score": 7.9,
+        "votes": 2770,
+        "url": "https://bgm.tv/subject/210068",
+        "via": "https://www.kungal.com/galgame/45",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v26581": {
+      "bangumi": {
+        "id": 290343,
+        "score": 6.3,
+        "votes": 901,
+        "url": "https://bgm.tv/subject/290343",
+        "via": "https://www.kungal.com/galgame/18",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v11301": {
+      "bangumi": {
+        "id": 51517,
+        "score": 6,
+        "votes": 526,
+        "url": "https://bgm.tv/subject/51517",
+        "via": "https://www.kungal.com/galgame/291",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v32811": {
+      "bangumi": {
+        "id": 356907,
+        "score": 6.7,
+        "votes": 1848,
+        "url": "https://bgm.tv/subject/356907",
+        "via": "https://www.kungal.com/galgame/130",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v50153": {
+      "bangumi": {
+        "id": 487413,
+        "score": 5.9,
+        "votes": 342,
+        "url": "https://bgm.tv/subject/487413",
+        "via": "https://www.kungal.com/galgame/724",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v24689": {
+      "bangumi": {
+        "id": 266886,
+        "score": 6.8,
+        "votes": 813,
+        "url": "https://bgm.tv/subject/266886",
+        "via": "https://www.kungal.com/galgame/761",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v33036": {
+      "bangumi": {
+        "id": 360498,
+        "score": 7.4,
+        "votes": 1578,
+        "url": "https://bgm.tv/subject/360498",
+        "via": "https://www.kungal.com/galgame/1477",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v31813": {
+      "bangumi": {
+        "id": 345691,
+        "score": 7.9,
+        "votes": 1320,
+        "url": "https://bgm.tv/subject/345691",
+        "via": "https://www.kungal.com/galgame/517",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v48125": {
+      "bangumi": {
+        "id": 466861,
+        "score": 5.9,
+        "votes": 802,
+        "url": "https://bgm.tv/subject/466861",
+        "via": "https://www.kungal.com/galgame/527",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v26307": {
+      "bangumi": {
+        "id": 295350,
+        "score": 7.3,
+        "votes": 1869,
+        "url": "https://bgm.tv/subject/295350",
+        "via": "https://www.kungal.com/galgame/509",
+        "match": "explicit-vndb-reference"
+      },
+      "kungal": {
+        "id": "509",
+        "score": 8.7,
+        "votes": 20,
+        "url": "https://www.kungal.com/galgame/509",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v28283": {
+      "bangumi": {
+        "id": 304326,
+        "score": 7.1,
+        "votes": 1094,
+        "url": "https://bgm.tv/subject/304326",
+        "via": "https://www.kungal.com/galgame/182",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v20431": {
+      "bangumi": {
+        "id": 220921,
+        "score": 8.1,
+        "votes": 3555,
+        "url": "https://bgm.tv/subject/220921",
+        "via": "https://www.kungal.com/galgame/169",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v31055": {
+      "bangumi": {
+        "id": 347780,
+        "score": 8.6,
+        "votes": 3902,
+        "url": "https://bgm.tv/subject/347780",
+        "via": "https://www.kungal.com/galgame/58",
+        "match": "explicit-vndb-reference"
+      },
+      "kungal": {
+        "id": "58",
+        "score": 8.6,
+        "votes": 53,
+        "url": "https://www.kungal.com/galgame/58",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v729": {
+      "bangumi": {
+        "id": 1411,
+        "score": 7.2,
+        "votes": 1382,
+        "url": "https://bgm.tv/subject/1411",
+        "via": "https://www.kungal.com/galgame/59",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v56650": {
+      "bangumi": {
+        "id": 561526,
+        "score": 6.9,
+        "votes": 1872,
+        "url": "https://bgm.tv/subject/561526",
+        "via": "https://www.kungal.com/galgame/3817",
+        "match": "explicit-vndb-reference"
+      },
+      "kungal": {
+        "id": "3817",
+        "score": 7.7,
+        "votes": 38,
+        "url": "https://www.kungal.com/galgame/3817",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v18148": {
+      "bangumi": {
+        "id": 144518,
+        "score": 7.2,
+        "votes": 1761,
+        "url": "https://bgm.tv/subject/144518",
+        "via": "https://www.kungal.com/galgame/387",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v50215": {
+      "bangumi": {
+        "id": 518278,
+        "score": 7,
+        "votes": 989,
+        "url": "https://bgm.tv/subject/518278",
+        "via": "https://www.kungal.com/galgame/4145",
+        "match": "explicit-vndb-reference"
+      },
+      "kungal": {
+        "id": "4145",
+        "score": 8.1,
+        "votes": 42,
+        "url": "https://www.kungal.com/galgame/4145",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v13325": {
+      "bangumi": {
+        "id": 82389,
+        "score": 7.2,
+        "votes": 2705,
+        "url": "https://bgm.tv/subject/82389",
+        "via": "https://www.kungal.com/galgame/105",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v26523": {
+      "bangumi": {
+        "id": 290856,
+        "score": 7.7,
+        "votes": 4344,
+        "url": "https://bgm.tv/subject/290856",
+        "via": "https://www.kungal.com/galgame/37",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v21668": {
+      "bangumi": {
+        "id": 222145,
+        "score": 7.2,
+        "votes": 4871,
+        "url": "https://bgm.tv/subject/222145",
+        "via": "https://www.kungal.com/galgame/35",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v23740": {
+      "bangumi": {
+        "id": 256657,
+        "score": 6.9,
+        "votes": 4135,
+        "url": "https://bgm.tv/subject/256657",
+        "via": "https://www.kungal.com/galgame/36",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v19829": {
+      "bangumi": {
+        "id": 189739,
+        "score": 6.4,
+        "votes": 4973,
+        "url": "https://bgm.tv/subject/189739",
+        "via": "https://www.kungal.com/galgame/34",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v11856": {
+      "bangumi": {
+        "id": 58584,
+        "score": 7.8,
+        "votes": 2125,
+        "url": "https://bgm.tv/subject/58584",
+        "via": "https://www.kungal.com/galgame/184",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v1200": {
+      "bangumi": {
+        "id": 2719,
+        "score": 7.4,
+        "votes": 1745,
+        "url": "https://bgm.tv/subject/2719",
+        "via": "https://www.kungal.com/galgame/716",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v47458": {
+      "bangumi": {
+        "id": 459368,
+        "score": 6.8,
+        "votes": 367,
+        "url": "https://bgm.tv/subject/459368",
+        "via": "https://www.kungal.com/galgame/308",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v22880": {
+      "bangumi": {
+        "id": 243405,
+        "score": 7,
+        "votes": 658,
+        "url": "https://bgm.tv/subject/243405",
+        "via": "https://www.kungal.com/galgame/902",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v33175": {
+      "bangumi": {
+        "id": 363763,
+        "score": 7.2,
+        "votes": 1050,
+        "url": "https://bgm.tv/subject/363763",
+        "via": "https://www.kungal.com/galgame/55",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v1306": {
+      "bangumi": {
+        "id": 1457,
+        "score": 8.4,
+        "votes": 3185,
+        "url": "https://bgm.tv/subject/1457",
+        "via": "https://www.kungal.com/galgame/1944",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v1913": {
+      "bangumi": {
+        "id": 12098,
+        "score": 8.8,
+        "votes": 3264,
+        "url": "https://bgm.tv/subject/12098",
+        "via": "https://www.kungal.com/galgame/9",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v24717": {
+      "bangumi": {
+        "id": 267448,
+        "score": 7.4,
+        "votes": 2093,
+        "url": "https://bgm.tv/subject/267448",
+        "via": "https://www.kungal.com/galgame/28",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v53590": {
+      "bangumi": {
+        "id": 524427,
+        "score": 6.3,
+        "votes": 454,
+        "url": "https://bgm.tv/subject/524427",
+        "via": "https://www.kungal.com/galgame/2752",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v33205": {
+      "bangumi": {
+        "id": 364247,
+        "score": 6.7,
+        "votes": 1168,
+        "url": "https://bgm.tv/subject/364247",
+        "via": "https://www.kungal.com/galgame/16",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v22026": {
+      "bangumi": {
+        "id": 228216,
+        "score": 6.4,
+        "votes": 119,
+        "url": "https://bgm.tv/subject/228216",
+        "via": "https://www.kungal.com/galgame/736",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v30012": {
+      "bangumi": {
+        "id": 324621,
+        "score": 7.2,
+        "votes": 1056,
+        "url": "https://bgm.tv/subject/324621",
+        "via": "https://www.kungal.com/galgame/753",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v30228": {
+      "bangumi": {
+        "id": 325937,
+        "score": 6.8,
+        "votes": 621,
+        "url": "https://bgm.tv/subject/325937",
+        "via": "https://www.kungal.com/galgame/19",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v20144": {
+      "bangumi": {
+        "id": 195575,
+        "score": 6.7,
+        "votes": 836,
+        "url": "https://bgm.tv/subject/195575",
+        "via": "https://www.kungal.com/galgame/2220",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v47155": {
+      "bangumi": {
+        "id": 455944,
+        "score": 6.1,
+        "votes": 213,
+        "url": "https://bgm.tv/subject/455944",
+        "via": "https://www.kungal.com/galgame/70",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v23741": {
+      "bangumi": {
+        "id": 273493,
+        "score": 8.1,
+        "votes": 2797,
+        "url": "https://bgm.tv/subject/273493",
+        "via": "https://www.kungal.com/galgame/32",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v810": {
+      "bangumi": {
+        "id": 1130,
+        "score": 7.5,
+        "votes": 3739,
+        "url": "https://bgm.tv/subject/1130",
+        "via": "https://www.kungal.com/galgame/1084",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v19513": {
+      "bangumi": {
+        "id": 183179,
+        "score": 6.7,
+        "votes": 1225,
+        "url": "https://bgm.tv/subject/183179",
+        "via": "https://www.kungal.com/galgame/2152",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v36": {
+      "bangumi": {
+        "id": 232,
+        "score": 8.3,
+        "votes": 2717,
+        "url": "https://bgm.tv/subject/232",
+        "via": "https://www.kungal.com/galgame/2156",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v22045": {
+      "bangumi": {
+        "id": 228146,
+        "score": 6.8,
+        "votes": 1629,
+        "url": "https://bgm.tv/subject/228146",
+        "via": "https://www.kungal.com/galgame/682",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v14886": {
+      "bangumi": {
+        "id": 100308,
+        "score": 6.3,
+        "votes": 1134,
+        "url": "https://bgm.tv/subject/100308",
+        "via": "https://www.kungal.com/galgame/50",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v23863": {
+      "bangumi": {
+        "id": 257527,
+        "score": 7.1,
+        "votes": 2168,
+        "url": "https://bgm.tv/subject/257527",
+        "via": "https://www.kungal.com/galgame/244",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v18149": {
+      "bangumi": {
+        "id": 143834,
+        "score": 6.7,
+        "votes": 2650,
+        "url": "https://bgm.tv/subject/143834",
+        "via": "https://www.kungal.com/galgame/187",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v3938": {
+      "bangumi": {
+        "id": 7700,
+        "score": 7.5,
+        "votes": 2154,
+        "url": "https://bgm.tv/subject/7700",
+        "via": "https://www.kungal.com/galgame/201",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v54776": {
+      "bangumi": {
+        "id": 536562,
+        "score": 6,
+        "votes": 298,
+        "url": "https://bgm.tv/subject/536562",
+        "via": "https://www.kungal.com/galgame/2750",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v29383": {
+      "bangumi": {
+        "id": 316637,
+        "score": 7.5,
+        "votes": 1797,
+        "url": "https://bgm.tv/subject/316637",
+        "via": "https://www.kungal.com/galgame/210",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v41339": {
+      "bangumi": {
+        "id": 413620,
+        "score": 6.9,
+        "votes": 421,
+        "url": "https://bgm.tv/subject/413620",
+        "via": "https://www.kungal.com/galgame/20",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v15166": {
+      "bangumi": {
+        "id": 105787,
+        "score": 7.2,
+        "votes": 1140,
+        "url": "https://bgm.tv/subject/105787",
+        "via": "https://www.kungal.com/galgame/123",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v28666": {
+      "bangumi": {
+        "id": 309233,
+        "score": 7.1,
+        "votes": 939,
+        "url": "https://bgm.tv/subject/309233",
+        "via": "https://www.kungal.com/galgame/14",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v31262": {
+      "bangumi": {
+        "id": 322778,
+        "score": 7.2,
+        "votes": 1040,
+        "url": "https://bgm.tv/subject/322778",
+        "via": "https://www.kungal.com/galgame/288",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v19658": {
+      "bangumi": {
+        "id": 186675,
+        "score": 6.7,
+        "votes": 2348,
+        "url": "https://bgm.tv/subject/186675",
+        "via": "https://www.kungal.com/galgame/1",
+        "match": "explicit-vndb-reference"
+      },
+      "kungal": {
+        "id": "1",
+        "score": 8,
+        "votes": 33,
+        "url": "https://www.kungal.com/galgame/1",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v15871": {
+      "bangumi": {
+        "id": 111552,
+        "score": 7.8,
+        "votes": 4532,
+        "url": "https://bgm.tv/subject/111552",
+        "via": "https://www.kungal.com/galgame/127",
+        "match": "explicit-vndb-reference"
+      },
+      "kungal": {
+        "id": "127",
+        "score": 8.4,
+        "votes": 25,
+        "url": "https://www.kungal.com/galgame/127",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v1552": {
+      "bangumi": {
+        "id": 3306,
+        "score": 7.2,
+        "votes": 2130,
+        "url": "https://bgm.tv/subject/3306",
+        "via": "https://www.kungal.com/galgame/49",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v20471": {
+      "bangumi": {
+        "id": 202552,
+        "score": 7.2,
+        "votes": 2002,
+        "url": "https://bgm.tv/subject/202552",
+        "via": "https://www.kungal.com/galgame/211",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v7738": {
+      "bangumi": {
+        "id": 59842,
+        "score": 7.4,
+        "votes": 3865,
+        "url": "https://bgm.tv/subject/59842",
+        "via": "https://www.kungal.com/galgame/112",
+        "match": "explicit-vndb-reference"
+      },
+      "kungal": {
+        "id": "112",
+        "score": 8.2,
+        "votes": 30,
+        "url": "https://www.kungal.com/galgame/112",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v20196": {
+      "bangumi": {
+        "id": 196255,
+        "score": 6.8,
+        "votes": 1216,
+        "url": "https://bgm.tv/subject/196255",
+        "via": "https://www.kungal.com/galgame/2",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v1194": {
+      "bangumi": {
+        "id": 2388,
+        "score": 7,
+        "votes": 3963,
+        "url": "https://bgm.tv/subject/2388",
+        "via": "https://www.kungal.com/galgame/51",
+        "match": "explicit-vndb-reference"
+      },
+      "kungal": {
+        "id": "51",
+        "score": 7.9,
+        "votes": 27,
+        "url": "https://www.kungal.com/galgame/51",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v31002": {
+      "bangumi": {
+        "id": 333970,
+        "score": 6.1,
+        "votes": 700,
+        "url": "https://bgm.tv/subject/333970",
+        "via": "https://www.kungal.com/galgame/267",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v13631": {
+      "bangumi": {
+        "id": 84041,
+        "score": 6.9,
+        "votes": 896,
+        "url": "https://bgm.tv/subject/84041",
+        "via": "https://www.kungal.com/galgame/2219",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v10680": {
+      "bangumi": {
+        "id": 44123,
+        "score": 7.6,
+        "votes": 5331,
+        "url": "https://bgm.tv/subject/44123",
+        "via": "https://www.kungal.com/galgame/39",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v562": {
+      "bangumi": {
+        "id": 22423,
+        "score": 8.7,
+        "votes": 6761,
+        "url": "https://bgm.tv/subject/22423",
+        "via": "https://www.kungal.com/galgame/133",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v15637": {
+      "bangumi": {
+        "id": 107501,
+        "score": 7.2,
+        "votes": 2220,
+        "url": "https://bgm.tv/subject/107501",
+        "via": "https://www.kungal.com/galgame/172",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v23288": {
+      "bangumi": {
+        "id": 252050,
+        "score": 7.2,
+        "votes": 878,
+        "url": "https://bgm.tv/subject/252050",
+        "via": "https://www.kungal.com/galgame/738",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v10597": {
+      "bangumi": {
+        "id": 42554,
+        "score": 6.3,
+        "votes": 1336,
+        "url": "https://bgm.tv/subject/42554",
+        "via": "https://www.kungal.com/galgame/171",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v26414": {
+      "bangumi": {
+        "id": 289599,
+        "score": 6.4,
+        "votes": 3926,
+        "url": "https://bgm.tv/subject/289599",
+        "via": "https://www.kungal.com/galgame/139",
+        "match": "explicit-vndb-reference"
+      },
+      "kungal": {
+        "id": "139",
+        "score": 7.2,
+        "votes": 22,
+        "url": "https://www.kungal.com/galgame/139",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v31136": {
+      "bangumi": {
+        "id": 336983,
+        "score": 6,
+        "votes": 1003,
+        "url": "https://bgm.tv/subject/336983",
+        "via": "https://www.kungal.com/galgame/530",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v22230": {
+      "bangumi": {
+        "id": 231798,
+        "score": 6.5,
+        "votes": 4455,
+        "url": "https://bgm.tv/subject/231798",
+        "via": "https://www.kungal.com/galgame/43",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v47552": {
+      "bangumi": {
+        "id": 518277,
+        "score": 6.2,
+        "votes": 118,
+        "url": "https://bgm.tv/subject/518277",
+        "via": "https://www.kungal.com/galgame/3054",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v16044": {
+      "bangumi": {
+        "id": 113290,
+        "score": 7.1,
+        "votes": 5880,
+        "url": "https://bgm.tv/subject/113290",
+        "via": "https://www.kungal.com/galgame/53",
+        "match": "explicit-vndb-reference"
+      },
+      "kungal": {
+        "id": "53",
+        "score": 7.6,
+        "votes": 34,
+        "url": "https://www.kungal.com/galgame/53",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v18852": {
+      "bangumi": {
+        "id": 165894,
+        "score": 7.5,
+        "votes": 3145,
+        "url": "https://bgm.tv/subject/165894",
+        "via": "https://www.kungal.com/galgame/528",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v40520": {
+      "bangumi": {
+        "id": 409483,
+        "score": 5.8,
+        "votes": 2294,
+        "url": "https://bgm.tv/subject/409483",
+        "via": "https://www.kungal.com/galgame/23",
+        "match": "explicit-vndb-reference"
+      },
+      "kungal": {
+        "id": "23",
+        "score": 6.6,
+        "votes": 23,
+        "url": "https://www.kungal.com/galgame/23",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v19073": {
+      "bangumi": {
+        "id": 172612,
+        "score": 6.8,
+        "votes": 7493,
+        "url": "https://bgm.tv/subject/172612",
+        "via": "https://www.kungal.com/galgame/15",
+        "match": "explicit-vndb-reference"
+      },
+      "kungal": {
+        "id": "15",
+        "score": 7.5,
+        "votes": 49,
+        "url": "https://www.kungal.com/galgame/15",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v25144": {
+      "bangumi": {
+        "id": 202143,
+        "score": 7.4,
+        "votes": 631,
+        "url": "https://bgm.tv/subject/202143",
+        "via": "https://www.kungal.com/galgame/453",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v34041": {
+      "bangumi": {
+        "id": 403416,
+        "score": 6,
+        "votes": 189,
+        "url": "https://bgm.tv/subject/403416",
+        "via": "https://www.kungal.com/galgame/1574",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v240": {
+      "bangumi": {
+        "id": 486042,
+        "score": 7,
+        "votes": 319,
+        "url": "https://bgm.tv/subject/486042",
+        "via": "https://www.kungal.com/galgame/3830",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v17516": {
+      "bangumi": {
+        "id": 132528,
+        "score": 7.1,
+        "votes": 3662,
+        "url": "https://bgm.tv/subject/132528",
+        "via": "https://www.kungal.com/galgame/31",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v14826": {
+      "bangumi": {
+        "id": 105189,
+        "score": 7,
+        "votes": 549,
+        "url": "https://bgm.tv/subject/105189",
+        "via": "https://www.kungal.com/galgame/873",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v28712": {
+      "bangumi": {
+        "id": 309777,
+        "score": 6.9,
+        "votes": 789,
+        "url": "https://bgm.tv/subject/309777",
+        "via": "https://www.kungal.com/galgame/297",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v16070": {
+      "bangumi": {
+        "id": 113633,
+        "score": 6.9,
+        "votes": 998,
+        "url": "https://bgm.tv/subject/113633",
+        "via": "https://www.kungal.com/galgame/1233",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v21465": {
+      "bangumi": {
+        "id": 220149,
+        "score": 6.4,
+        "votes": 1854,
+        "url": "https://bgm.tv/subject/220149",
+        "via": "https://www.kungal.com/galgame/46",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v16166": {
+      "bangumi": {
+        "id": 115976,
+        "score": 7.5,
+        "votes": 1037,
+        "url": "https://bgm.tv/subject/115976",
+        "via": "https://www.kungal.com/galgame/183",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v53486": {
+      "bangumi": {
+        "id": 523497,
+        "score": 7,
+        "votes": 552,
+        "url": "https://bgm.tv/subject/523497",
+        "via": "https://www.kungal.com/galgame/1807",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v10557": {
+      "bangumi": {
+        "id": 41565,
+        "score": 7.7,
+        "votes": 1976,
+        "url": "https://bgm.tv/subject/41565",
+        "via": "https://www.kungal.com/galgame/278",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v5834": {
+      "bangumi": {
+        "id": 14435,
+        "score": 7.4,
+        "votes": 2538,
+        "url": "https://bgm.tv/subject/14435",
+        "via": "https://www.kungal.com/galgame/88",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v7302": {
+      "bangumi": {
+        "id": 19002,
+        "score": 7.4,
+        "votes": 3216,
+        "url": "https://bgm.tv/subject/19002",
+        "via": "https://www.kungal.com/galgame/124",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v22636": {
+      "bangumi": {
+        "id": 239680,
+        "score": 7.1,
+        "votes": 1344,
+        "url": "https://bgm.tv/subject/239680",
+        "via": "https://www.kungal.com/galgame/258",
+        "match": "explicit-vndb-reference"
+      },
+      "kungal": {
+        "id": "258",
+        "score": 7.9,
+        "votes": 20,
+        "url": "https://www.kungal.com/galgame/258",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v38037": {
+      "bangumi": {
+        "id": 398107,
+        "score": 6.8,
+        "votes": 1587,
+        "url": "https://bgm.tv/subject/398107",
+        "via": "https://www.kungal.com/galgame/384",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v20622": {
+      "bangumi": {
+        "id": 206741,
+        "score": 6.5,
+        "votes": 793,
+        "url": "https://bgm.tv/subject/206741",
+        "via": "https://www.kungal.com/galgame/647",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v37808": {
+      "bangumi": {
+        "id": 394763,
+        "score": 6.3,
+        "votes": 189,
+        "url": "https://bgm.tv/subject/394763",
+        "via": "https://www.kungal.com/galgame/220",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v26664": {
+      "bangumi": {
+        "id": 292024,
+        "score": 7.6,
+        "votes": 2362,
+        "url": "https://bgm.tv/subject/292024",
+        "via": "https://www.kungal.com/galgame/54",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v45510": {
+      "bangumi": {
+        "id": 447039,
+        "score": 7,
+        "votes": 465,
+        "url": "https://bgm.tv/subject/447039",
+        "via": "https://www.kungal.com/galgame/1148",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v18077": {
+      "bangumi": {
+        "id": 141572,
+        "score": 6.6,
+        "votes": 476,
+        "url": "https://bgm.tv/subject/141572",
+        "via": "https://www.kungal.com/galgame/259",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v23199": {
+      "bangumi": {
+        "id": 249705,
+        "score": 7,
+        "votes": 943,
+        "url": "https://bgm.tv/subject/249705",
+        "via": "https://www.kungal.com/galgame/455",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v21523": {
+      "bangumi": {
+        "id": 220311,
+        "score": 7.3,
+        "votes": 2117,
+        "url": "https://bgm.tv/subject/220311",
+        "via": "https://www.kungal.com/galgame/324",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v24803": {
+      "bangumi": {
+        "id": 253621,
+        "score": 7.3,
+        "votes": 961,
+        "url": "https://bgm.tv/subject/253621",
+        "via": "https://www.kungal.com/galgame/274",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v18778": {
+      "bangumi": {
+        "id": 161787,
+        "score": 7.2,
+        "votes": 948,
+        "url": "https://bgm.tv/subject/161787",
+        "via": "https://www.kungal.com/galgame/338",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v21667": {
+      "bangumi": {
+        "id": 222146,
+        "score": 6.1,
+        "votes": 975,
+        "url": "https://bgm.tv/subject/222146",
+        "via": "https://www.kungal.com/galgame/973",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v914": {
+      "bangumi": {
+        "id": 2722,
+        "score": 8.1,
+        "votes": 2287,
+        "url": "https://bgm.tv/subject/2722",
+        "via": "https://www.kungal.com/galgame/944",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v26530": {
+      "bangumi": {
+        "id": 290678,
+        "score": 6.9,
+        "votes": 461,
+        "url": "https://bgm.tv/subject/290678",
+        "via": "https://www.kungal.com/galgame/7414",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v20292": {
+      "bangumi": {
+        "id": 198306,
+        "score": 6.3,
+        "votes": 253,
+        "url": "https://bgm.tv/subject/198306",
+        "via": "https://www.kungal.com/galgame/766",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v14934": {
+      "bangumi": {
+        "id": 103305,
+        "score": 7.3,
+        "votes": 464,
+        "url": "https://bgm.tv/subject/103305",
+        "via": "https://www.kungal.com/galgame/646",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v28731": {
+      "bangumi": {
+        "id": 310158,
+        "score": 7.1,
+        "votes": 411,
+        "url": "https://bgm.tv/subject/310158",
+        "via": "https://www.kungal.com/galgame/615",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v43468": {
+      "bangumi": {
+        "id": 427109,
+        "score": 6.9,
+        "votes": 163,
+        "url": "https://bgm.tv/subject/427109",
+        "via": "https://www.kungal.com/galgame/575",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v22625": {
+      "bangumi": {
+        "id": 537213,
+        "score": 6.8,
+        "votes": 124,
+        "url": "https://bgm.tv/subject/537213",
+        "via": "https://www.kungal.com/galgame/5153",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v61246": {
+      "bangumi": {
+        "id": 583344,
+        "score": 6.3,
+        "votes": 164,
+        "url": "https://bgm.tv/subject/583344",
+        "via": "https://www.kungal.com/galgame/4846",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v33206": {
+      "bangumi": {
+        "id": 389532,
+        "score": 5.7,
+        "votes": 251,
+        "url": "https://bgm.tv/subject/389532",
+        "via": "https://www.kungal.com/galgame/478",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v26837": {
+      "bangumi": {
+        "id": 250900,
+        "score": 6.6,
+        "votes": 735,
+        "url": "https://bgm.tv/subject/250900",
+        "via": "https://www.kungal.com/galgame/4478",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v16266": {
+      "bangumi": {
+        "id": 116779,
+        "score": 7.4,
+        "votes": 728,
+        "url": "https://bgm.tv/subject/116779",
+        "via": "https://www.kungal.com/galgame/4258",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v55886": {
+      "bangumi": {
+        "id": 554941,
+        "score": 6.2,
+        "votes": 117,
+        "url": "https://bgm.tv/subject/554941",
+        "via": "https://www.kungal.com/galgame/3351",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v18806": {
+      "bangumi": {
+        "id": 166756,
+        "score": 6.7,
+        "votes": 1561,
+        "url": "https://bgm.tv/subject/166756",
+        "via": "https://www.kungal.com/galgame/318",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v55370": {
+      "bangumi": {
+        "id": 548299,
+        "score": 5.9,
+        "votes": 594,
+        "url": "https://bgm.tv/subject/548299",
+        "via": "https://www.kungal.com/galgame/3055",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v19233": {
+      "bangumi": {
+        "id": 178431,
+        "score": 6.2,
+        "votes": 2324,
+        "url": "https://bgm.tv/subject/178431",
+        "via": "https://www.kungal.com/galgame/293",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v54050": {
+      "bangumi": {
+        "id": 530511,
+        "score": 7.3,
+        "votes": 323,
+        "url": "https://bgm.tv/subject/530511",
+        "via": "https://www.kungal.com/galgame/2756",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v26232": {
+      "bangumi": {
+        "id": 287133,
+        "score": 5.3,
+        "votes": 1123,
+        "url": "https://bgm.tv/subject/287133",
+        "via": "https://www.kungal.com/galgame/209",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v52858": {
+      "bangumi": {
+        "id": 515624,
+        "score": 6.2,
+        "votes": 290,
+        "url": "https://bgm.tv/subject/515624",
+        "via": "https://www.kungal.com/galgame/1627",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v6589": {
+      "bangumi": {
+        "id": 15002,
+        "score": 6.1,
+        "votes": 1256,
+        "url": "https://bgm.tv/subject/15002",
+        "via": "https://www.kungal.com/galgame/107",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v3144": {
+      "bangumi": {
+        "id": 4639,
+        "score": 8.7,
+        "votes": 8613,
+        "url": "https://bgm.tv/subject/4639",
+        "via": "https://www.kungal.com/galgame/84",
+        "match": "explicit-vndb-reference"
+      },
+      "kungal": {
+        "id": "84",
+        "score": 8.5,
+        "votes": 33,
+        "url": "https://www.kungal.com/galgame/84",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v49274": {
+      "bangumi": {
+        "id": 476513,
+        "score": 5.7,
+        "votes": 738,
+        "url": "https://bgm.tv/subject/476513",
+        "via": "https://www.kungal.com/galgame/101",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v7771": {
+      "bangumi": {
+        "id": 424578,
+        "score": 9.3,
+        "votes": 222,
+        "url": "https://bgm.tv/subject/424578",
+        "via": "https://www.kungal.com/galgame/628",
+        "match": "explicit-vndb-reference"
+      },
+      "kungal": {
+        "id": "628",
+        "score": 8.7,
+        "votes": 32,
+        "url": "https://www.kungal.com/galgame/628",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v8158": {
+      "bangumi": {
+        "id": 24796,
+        "score": 7.4,
+        "votes": 2482,
+        "url": "https://bgm.tv/subject/24796",
+        "via": "https://www.kungal.com/galgame/654",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v60331": {
+      "bangumi": {
+        "id": 560072,
+        "score": 6.9,
+        "votes": 187,
+        "url": "https://bgm.tv/subject/560072",
+        "via": "https://www.kungal.com/galgame/6027",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v48724": {
+      "bangumi": {
+        "id": 470980,
+        "score": 6.7,
+        "votes": 1433,
+        "url": "https://bgm.tv/subject/470980",
+        "via": "https://www.kungal.com/galgame/2527",
+        "match": "explicit-vndb-reference"
+      },
+      "kungal": {
+        "id": "2527",
+        "score": 7.9,
+        "votes": 21,
+        "url": "https://www.kungal.com/galgame/2527",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v15538": {
+      "bangumi": {
+        "id": 107596,
+        "score": 6.1,
+        "votes": 1766,
+        "url": "https://bgm.tv/subject/107596",
+        "via": "https://www.kungal.com/galgame/94",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v6540": {
+      "bangumi": {
+        "id": 19385,
+        "score": 7.1,
+        "votes": 3596,
+        "url": "https://bgm.tv/subject/19385",
+        "via": "https://www.kungal.com/galgame/113",
+        "match": "explicit-vndb-reference"
+      },
+      "kungal": {
+        "id": "113",
+        "score": 7.7,
+        "votes": 29,
+        "url": "https://www.kungal.com/galgame/113",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v18486": {
+      "bangumi": {
+        "id": 149220,
+        "score": 7.4,
+        "votes": 808,
+        "url": "https://bgm.tv/subject/149220",
+        "via": "https://www.kungal.com/galgame/1995",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v8038": {
+      "bangumi": {
+        "id": 24866,
+        "score": 6.9,
+        "votes": 4676,
+        "url": "https://bgm.tv/subject/24866",
+        "via": "https://www.kungal.com/galgame/65",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v22899": {
+      "bangumi": {
+        "id": 243475,
+        "score": 7.4,
+        "votes": 4583,
+        "url": "https://bgm.tv/subject/243475",
+        "via": "https://www.kungal.com/galgame/33",
+        "match": "explicit-vndb-reference"
+      },
+      "kungal": {
+        "id": "33",
+        "score": 7.8,
+        "votes": 25,
+        "url": "https://www.kungal.com/galgame/33",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v19182": {
+      "bangumi": {
+        "id": 175467,
+        "score": 6.9,
+        "votes": 3116,
+        "url": "https://bgm.tv/subject/175467",
+        "via": "https://www.kungal.com/galgame/68",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v14365": {
+      "bangumi": {
+        "id": 92462,
+        "score": 7.1,
+        "votes": 3290,
+        "url": "https://bgm.tv/subject/92462",
+        "via": "https://www.kungal.com/galgame/67",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v14022": {
+      "bangumi": {
+        "id": 80316,
+        "score": 7,
+        "votes": 2845,
+        "url": "https://bgm.tv/subject/80316",
+        "via": "https://www.kungal.com/galgame/557",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v57358": {
+      "bangumi": {
+        "id": 548246,
+        "score": 7,
+        "votes": 273,
+        "url": "https://bgm.tv/subject/548246",
+        "via": "https://www.kungal.com/galgame/4460",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v11071": {
+      "bangumi": {
+        "id": 41128,
+        "score": 6.8,
+        "votes": 3507,
+        "url": "https://bgm.tv/subject/41128",
+        "via": "https://www.kungal.com/galgame/66",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v45247": {
+      "bangumi": {
+        "id": 440323,
+        "score": 6.4,
+        "votes": 904,
+        "url": "https://bgm.tv/subject/440323",
+        "via": "https://www.kungal.com/galgame/143",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v54791": {
+      "bangumi": {
+        "id": 541933,
+        "score": 7.1,
+        "votes": 495,
+        "url": "https://bgm.tv/subject/541933",
+        "via": "https://www.kungal.com/galgame/3061",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v37016": {
+      "bangumi": {
+        "id": 388414,
+        "score": 6.4,
+        "votes": 915,
+        "url": "https://bgm.tv/subject/388414",
+        "via": "https://www.kungal.com/galgame/769",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v22345": {
+      "bangumi": {
+        "id": 234147,
+        "score": 6.5,
+        "votes": 1125,
+        "url": "https://bgm.tv/subject/234147",
+        "via": "https://www.kungal.com/galgame/229",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v17642": {
+      "bangumi": {
+        "id": 134929,
+        "score": 8.2,
+        "votes": 3137,
+        "url": "https://bgm.tv/subject/134929",
+        "via": "https://www.kungal.com/galgame/559",
+        "match": "explicit-vndb-reference"
+      }
+    },
+    "v38203": {
+      "bangumi": {
+        "id": 526984,
+        "score": 7.1,
+        "votes": 253,
+        "url": "https://bgm.tv/subject/526984",
+        "via": "https://www.kungal.com/galgame/4487",
+        "match": "explicit-vndb-reference"
+      }
+    }
+  }
+}
