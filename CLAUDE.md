@@ -236,7 +236,9 @@ gal/
 ## 部署
 
 - 仓库：https://github.com/beikanwo/gal-quiz （公开），正式域名：https://www.scurra.top/；原 Pages 地址：https://beikanwo.github.io/gal-quiz/。
-- 域名解析在 Cloudflare：`www` 和 `gal` 指向 Pages 项目 `gal-quiz-edge.pages.dev`，由该项目绑定自定义域 `www.scurra.top`、`gal.scurra.top`，均启用有效 HTTPS。`www` 提供网站和边缘缓存，旧 `gal` 入口由 Worker 301 永久跳转至 `https://www.scurra.top`，保留路径及查询参数；根域名 `scurra.top` 保留。
+- 域名解析在 Cloudflare：`www` 和 `gal` 指向 Pages 项目 `gal-quiz-edge.pages.dev`，由该项目绑定自定义域 `www.scurra.top`、`gal.scurra.top`，均启用有效 HTTPS。`www` 提供网站和边缘缓存，旧 `gal` 入口由 Worker 301 永久跳转至 `https://www.scurra.top`，保留路径及查询参数。
+- 2026-10-25 已启用根域名入口：Cloudflare DNS 新增已代理的 `A @ → 192.0.2.1`（仅用于让流量进入边缘跳转，不是源站），单一重定向规则“scurra.top → www（保留路径和参数）”匹配 `(http.host eq "scurra.top")`，动态目标 `concat("https://www.scurra.top", http.request.uri.path)`，状态码 301，保留查询字符串。规则在域名层生效，无需把根域绑定到 GitHub Pages 或改 Worker。请同时保留这条解析和跳转规则。
+- 实测 `http://scurra.top/`、`https://scurra.top/` 均直接 301 到 `https://www.scurra.top/`；`https://scurra.top/data/quiz.json?redirect_test=1` 保留路径与参数；Chrome 从根域进入后已正常显示正式首页。网站 canonical、sitemap 和反馈同源地址继续使用 `www`。
 - GitHub Pages 仍由 Actions 发布 `site/`，源站地址为 `https://beikanwo.github.io/gal-quiz/`。GitHub Pages 的 Custom domain 留空，不要绑定任何 Cloudflare 入口域名，否则会造成回源重定向循环。入口从 Cloudflare 到 GitHub 也通过有效 HTTPS 连接，不关闭证书验证。
 - 加速代码见 `cloudflare/worker.mjs`，以 Pages 高级模式 `_worker.js` 部署。静态资源只允许固定文件的 GET/HEAD，不转发 Cookie/认证；另开放同源 `POST /api/feedback`。边缘缓存 5 分钟、浏览器缓存 1 分钟，支持 ETag；反馈不缓存。修改入口代码时运行 `scripts/package-edge.ps1`，在 Cloudflare 项目中上传生成的生产包；日常网页更新仍只需 Git 推送。
 - 首页预加载问卷、片库和入口模块，减少启动时的串行请求。小问卷就绪后即可开始答题，片库后台下载；数据到齐后只更新当前题目的数量提示，不重置答案、焦点和动画。恢复结果/想玩清单时，先等片库，再恢复并保存会话，防止首页覆盖旧记录。canonical、Open Graph、`robots.txt`、`sitemap.xml` 使用 `https://www.scurra.top/`；搜索引擎的站点验证和收录提交需单独操作。

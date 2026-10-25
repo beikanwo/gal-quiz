@@ -8,6 +8,8 @@
 
 域名由 Cloudflare 管理：`www` 和旧入口 `gal` 都指向 Cloudflare Pages 项目 `gal-quiz-edge.pages.dev`，两个自定义域均绑定在该项目。正式网址为 `https://www.scurra.top/`；旧 `gal.scurra.top` 通过 301 永久跳转到新网址，保留路径和查询参数。Cloudflare 提供 HTTPS 和边缘缓存，固定通过有效 HTTPS 连接读取 GitHub Pages 的静态文件。GitHub Pages 保留原生地址 `https://beikanwo.github.io/gal-quiz/`，Custom domain 必须留空，避免回源重定向循环。
 
+2026-10-25 起，直接输入 `scurra.top` 也能进入网站：HTTP、HTTPS 均由 Cloudflare 单一重定向规则以 301 跳到 `https://www.scurra.top`，保留路径和查询参数。根域已代理的 `A @ → 192.0.2.1` 只用于边缘跳转，需与“scurra.top → www（保留路径和参数）”规则一起保留；该地址不是网站源站，根域无需另绑 GitHub Pages。
+
 加速入口的代码是 `cloudflare/worker.mjs`，以 Pages 高级模式的 `_worker.js` 部署；静态文件只接受固定文件的 GET/HEAD 请求，不转发 Cookie 或认证信息，匿名反馈另用同源 `POST /api/feedback`。边缘缓存 5 分钟，浏览器缓存 1 分钟，支持 ETag 复用；反馈不缓存。日常网页更新仍提交 `site/` 并推送到 `main`，不需要重新上传 Cloudflare 项目；边缘缓存到期后会获取新版本。
 
 首页并行预加载模块、问卷和片库。小问卷就绪后即可开始答题，片库在后台下载；准备完毕后只更新当前题目的数量提示，不重置题号和答案。恢复推荐结果、想玩清单时仍等待片库，确保外链返回不会覆盖原记录。
