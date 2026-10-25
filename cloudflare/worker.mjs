@@ -1,6 +1,6 @@
 // www.scurra.top 的 HTTPS 入口。固定读取 GitHub Pages 的静态文件，推荐逻辑仍在浏览器运行。
 const ORIGIN = 'https://beikanwo.github.io/gal-quiz/';
-const FILES = new Set(['', 'index.html', 'app.js', 'engine.js', 'feedback.js', 'style.css', 'robots.txt', 'sitemap.xml', 'data/vns.json', 'data/quiz.json']);
+const FILES = new Set(['', 'index.html', 'beginners/index.html', 'app.js', 'engine.js', 'feedback.js', 'style.css', 'robots.txt', 'sitemap.xml', 'data/vns.json', 'data/quiz.json']);
 
 const json = (data, status = 200, extra = {}) => new Response(JSON.stringify(data), {
   status, headers: { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store', 'X-Content-Type-Options': 'nosniff', ...extra },
@@ -77,7 +77,12 @@ export default {
     if (!['GET', 'HEAD'].includes(request.method)) {
       return new Response('Method not allowed', { status: 405, headers: { Allow: 'GET, HEAD' } });
     }
-    const file = url.pathname.slice(1);
+    // 专题页统一使用带斜杠的网址，避免回源触发 GitHub Pages 的目录跳转。
+    if (url.pathname === '/beginners' || url.pathname === '/beginners/index.html') {
+      url.pathname = '/beginners/';
+      return Response.redirect(url.href, 301);
+    }
+    const file = url.pathname === '/beginners/' ? 'beginners/index.html' : url.pathname.slice(1);
     if (!FILES.has(file)) return new Response('Not found', { status: 404 });
 
     // 只让文件版本参与缓存，推广链接上的来源参数不会产生重复缓存。

@@ -61,6 +61,7 @@ let typing = null; // 正在逐字打出的题目
 function render() {
   const screens = { start: renderStart, quiz: renderQuiz, dealbreakers: renderDealbreakers, result: renderResult, wants: renderWants };
   stopTyping();
+  document.documentElement.dataset.screen = state.screen;
   app.innerHTML = screens[state.screen]();
   startTyping();
   saveSession();
@@ -186,13 +187,14 @@ function renderStart() {
   const wants = marks.want.size;
   return `
     <section class="screen title-screen">
-      <div class="kicker">GALGAME 推荐</div>
+      <div class="kicker">Gal 推荐测试</div>
       <h1>测测你适合<br>哪部 Gal</h1>
-      <p class="lead">闹游戏荒了？答 ${quiz.questions.length} 道题，再勾一下雷点，从 ${engine?.stats.total ?? '数千'} 部 VNDB 高分作品里给你挑 3 部，顺便说说为什么。每道题都能跳过。</p>
+      <p class="lead">不知道下一部 Gal 玩什么？答 ${quiz.questions.length} 道题，再勾一下雷点，从 ${engine?.stats.total ?? '数千'} 部作品里给你挑 3 部 Galgame 推荐。免费，不用注册，每道题都能跳过。</p>
       <nav class="menu">
         <button class="first" data-action="begin"><span class="label">开始</span></button>
         <button data-action="wants" ${engine ? '' : 'disabled'}><span class="label">想玩清单</span><small>${wants ? `${wants} 部` : '还是空的'}</small></button>
       </nav>
+      <p class="start-links"><a href="beginners/">第一次玩？先看新手 Gal 推荐</a> · <a href="#how-it-works">了解这个测试</a></p>
     </section>`;
 }
 
@@ -572,6 +574,7 @@ async function main() {
     if (needsWorks) {
       // 保留已存的结果，不能先渲染首页，否则 saveSession 会把原结果覆盖掉。
       app.innerHTML = '<p class="loading">正在恢复上次的页面…</p>';
+      document.documentElement.dataset.screen = 'loading';
     } else if (!restoreSession()) {
       render();
     }
