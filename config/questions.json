@@ -59,14 +59,16 @@
     {
       "id": "feeling", "weight": 1.5,
       "kind": "taste",
-      "text": "通关后你最想留下什么感觉？",
+      "text": "这次，你更想看哪种故事？",
+      "multiple": true, "maxSelections": 2,
+      "hint": "最多选两项；没有特别偏好也可以跳过。",
       "options": [
-        { "id": "cry", "label": "哭到停不下来", "tags": { "Nakige": 1, "Life and Death Drama": 0.5 } },
-        { "id": "twist", "label": "回头发现处处是伏笔", "tags": { "Mystery": 1, "Multiple Route Mystery": 1, "Suspense": 0.5, "Unreliable Narrator": 0.5 } },
-        { "id": "haunted", "label": "很久缓不过来", "tags": { "Utsuge": 1, "Desperation": 1, "Psychological Trauma": 0.5 } },
-        { "id": "sweet", "label": "甜到嘴角压不住", "tags": { "Slice of Life": 1, "Only Good Endings": 0.7 } },
-        { "id": "hype", "label": "燃", "tags": { "Action": 1, "Fighting Protagonist": 0.7, "War": 0.5 } },
-        { "id": "think", "label": "想了很多", "tags": { "Philosophy": 1, "Existential Crisis": 1, "Mind Screw": 0.7, "Identity Crisis": 0.7, "Coming-of-Age Drama": 0.5, "Metafiction": 0.5, "Dystopia": 0.5, "Surreal": 0.5, "Religion/Faith": 0.5 } }
+        { "id": "cry", "label": "感人一点", "description": "看角色之间的感情，愿意为他们掉眼泪", "tags": { "Nakige": 1, "Life and Death Drama": 0.5 } },
+        { "id": "twist", "label": "悬念多一点", "description": "想追着谜团看，享受伏笔揭晓", "tags": { "Mystery": 1, "Multiple Route Mystery": 1, "Suspense": 0.5, "Unreliable Narrator": 0.5 } },
+        { "id": "haunted", "label": "沉重一点", "description": "能接受压抑、绝望和强烈的情绪冲击", "tags": { "Utsuge": 1, "Desperation": 1, "Psychological Trauma": 0.5 } },
+        { "id": "sweet", "label": "轻松甜蜜一点", "description": "想看相处、恋爱和舒服的日常", "tags": { "Slice of Life": 1, "Only Good Endings": 0.7 } },
+        { "id": "hype", "label": "热血一点", "description": "想看战斗、对抗和逆境中的突破", "tags": { "Action": 1, "Fighting Protagonist": 0.7, "War": 0.5 } },
+        { "id": "think", "label": "思考多一点", "description": "对人物的选择、价值观和人生困境感兴趣", "tags": { "Philosophy": 1, "Existential Crisis": 1, "Mind Screw": 0.7, "Identity Crisis": 0.7, "Coming-of-Age Drama": 0.5, "Metafiction": 0.5, "Dystopia": 0.5, "Surreal": 0.5, "Religion/Faith": 0.5 } }
       ]
     },
     {
@@ -83,27 +85,16 @@
     {
       "id": "setting",
       "kind": "taste",
-      "text": "舞台选哪里？",
+      "text": "哪些背景会让你更想点开？",
+      "multiple": true, "exclusiveOption": "any",
+      "hint": "可以多选；背景对你不重要，就选「不在意背景」。",
       "options": [
-        { "id": "school", "label": "校园", "tags": { "School": 1 } },
-        { "id": "scifi", "label": "科幻、时间线", "tags": { "Science Fiction": 1 } },
-        { "id": "fantasy", "label": "魔法、异能、异世界", "tags": { "Fantasy": 1 } },
-        { "id": "real", "label": "现实社会", "tags": { "Modern Day Earth": 0.3, "Adult Protagonist": 0.5, "Crime": 0.7 } },
-        { "id": "japan", "label": "和风、历史", "tags": { "Past Japan": 1, "Japanese Mythology": 1 } },
-        { "id": "any", "label": "不挑" }
-      ]
-    },
-    {
-      "id": "protagonist",
-      "kind": "taste",
-      "text": "你希望主角是什么样的人？",
-      "options": [
-        { "id": "student", "label": "普通的学生", "tags": { "Student Protagonist": 1, "Gentle Protagonist": 0.5 } },
-        { "id": "adult", "label": "已经工作的大人", "tags": { "Adult Protagonist": 1 } },
-        { "id": "fighter", "label": "能打", "tags": { "Fighting Protagonist": 1, "Superpowers": 0.5, "Hotblooded Protagonist": 0.5 } },
-        { "id": "brain", "label": "头脑派", "tags": { "Genius Protagonist": 1, "Pragmatic Protagonist": 1, "Detective Work": 0.7 } },
-        { "id": "dark", "label": "有阴暗面", "tags": { "Antihero Protagonist": 1, "Protagonist with Psychological Problems": 0.7 } },
-        { "id": "any", "label": "无所谓" }
+        { "id": "school", "label": "校园生活", "tags": { "School": 1 } },
+        { "id": "scifi", "label": "科幻世界、时间谜题", "tags": { "Science Fiction": 1 } },
+        { "id": "fantasy", "label": "魔法、异能与幻想世界", "tags": { "Fantasy": 1 } },
+        { "id": "real", "label": "现实生活与社会故事", "description": "日常处境、家庭关系和社会中的人", "tags": { "Slice of Life Realism": 1, "Family Drama": 0.7, "Modern Day Earth": 0.25 } },
+        { "id": "japan", "label": "和风传说、日本历史", "tags": { "Past Japan": 1, "Japanese Mythology": 1 } },
+        { "id": "any", "label": "不在意背景" }
       ]
     },
     {
@@ -186,6 +177,8 @@
     "Science Fiction": ["科幻", "是科幻设定"],
     "Fantasy": ["奇幻", "是奇幻世界观"],
     "Modern Day Earth": ["现代", "舞台在现代社会"],
+    "Slice of Life Realism": ["写实日常", "用写实的方式描绘日常生活"],
+    "Family Drama": ["家庭关系", "故事涉及家庭成员之间的矛盾"],
     "Adult Protagonist": ["社会人主角", "主角是已经工作的大人"],
     "Crime": ["犯罪", "牵扯到犯罪事件"],
     "Past Japan": ["日本历史", "舞台在过去的日本"],
@@ -207,7 +200,7 @@
   },
 
   "playerTypes": {
-    "_说明": "按第 6 题（通关感觉）的选项定玩家类型；跳过了就用 default。",
+    "_说明": "第 6 题单选时用对应玩家类型；选两项时显示两个类型及两项故事偏好，不任取其中一项；跳过用 default。",
     "cry": { "name": "纸巾消耗大户", "desc": "就想被一部作品弄哭，哭完还想再来一次。" },
     "twist": { "name": "伏笔收集癖", "desc": "最爽的瞬间是真相揭开，回头一看全都对上了。" },
     "haunted": { "name": "后劲受害者", "desc": "喜欢通关好几天还走不出来的那种作品。" },
@@ -225,7 +218,7 @@
     "_votesAlpha": "人气系数 = (投票数 ÷ 可推荐作品的投票中位数)^votesAlpha。口味分打平时把公认的作品排前面。第 5 题没答时用 defaultVotesAlpha。",
     "hiddenGem": { "belowVotesPercentile": 50, "minRating": 75 },
     "quality": {"base":0.9,"span":0.1,"ratingFloor":65,"ratingRange":35},
-    "_formula": "每题得分 = 加分部分 − 减分部分（落在 -1~1）。加分部分按「任一命中」：1 − Π(1 − 权重/该选项最大正权重 × 标签分数/3)；减分部分 = Σ(|权重| × 标签分数/3) ÷ 负权重绝对值之和；总分 = e^(matchSharpness × Σ 题目权重 × 每题得分) × 人气系数 × 质量系数 × 拔作降权。",
+    "_formula": "每个选项得分 = 加分部分 − 减分部分（落在 -1~1）。加分部分按「任一命中」：1 − Π(1 − 权重/该选项最大正权重 × 标签分数/3)；减分部分 = Σ(|权重| × 标签分数/3) ÷ 负权重绝对值之和。多选题取所选选项得分最大值，每题只加权一次；总分 = e^(matchSharpness × Σ 题目权重 × 每题得分) × 人气系数 × 质量系数 × 默认雷点降权 × 中文口碑系数。",
     "chineseReception": {"scoreFloor":7.2,"scoreCeiling":9,"maxBonus":0.8,"firstMinVotes":500,"hotVotes":2000,"bangumi":{"minVotes":100,"priorVotes":300,"maxBonus":0.7},"kungal":{"minVotes":20,"priorVotes":50,"maxBonus":0.1}},
     "matchSharpness": 2,
     "_matchSharpness": "总分里口味分的放大倍数：e^(matchSharpness × 口味分)。越大越偏向高匹配，抽取也越集中在前几名。",

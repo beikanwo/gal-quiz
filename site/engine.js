@@ -1,9 +1,48 @@
 // 推荐逻辑：筛选、打分、抽取、推荐理由、玩家类型。
 // 不碰页面和存储，浏览器和 Node（测试脚本）都直接用这个文件。
 //
-// answers      { [题目 id]: 选项 id }，没答的题不放进来
+// answers      { [题目 id]: 单选 id 或多选 id[] }，没答的题不放进来
 // dealbreakers [雷点选项 id]
 // blocked      Set<作品 id>，玩家标过"玩过了 / 不感兴趣"的
+
+// 同时接收旧版单选记录；只保留当前问卷有效的选项。
+export function selectedOptions(q, answer) {
+  const raw = Array.isArray(answer) ? answer : typeof answer === 'string' ? [answer] : [];
+  let ids = [...new Set(raw)].filter((id) => q.options.some((o) => o.id === id));
+  if (q.exclusiveOption && ids.includes(q.exclusiveOption)) ids = [q.exclusiveOption];
+  ids = ids.slice(0, q.multiple ? (q.maxSelections ?? q.options.length) : 1);
+  return q.options.filter((o) => ids.includes(o.id));
+}
+
+export function normalizeAnswers(quiz, answers) {
+  const out = {};
+  for (const q of quiz.questions) {
+    const options = selectedOptions(q, answers?.[q.id]);
+    if (options.length) out[q.id] = q.multiple ? options.map((o) => o.id) : options[0].id;
+  }
+  return out;
+}
+
+export function toggleSelection(q, answer, id) {
+  const ids = selectedOptions(q, answer).map((o) => o.id);
+  if (!q.options.some((o) => o.id === id)) return { ids, limited: false };
+  if (ids.includes(id)) return { ids: ids.filter((x) => x !== id), limited: false };
+  if (id === q.exclusiveOption) return { ids: [id], limited: false };
+  const next = ids.filter((x) => x !== q.exclusiveOption);
+  if (next.length >= (q.maxSelections ?? q.options.length)) return { ids, limited: true };
+  return { ids: [...next, id], limited: false };
+}
+
+export function sessionQuestionIndex(quiz, saved) {
+  const oldIds = ['lang', 'length', 'rating', 'pairing', 'experience', 'feeling', 'structure', 'setting', 'protagonist', 'romance', 'humor', 'gameplay'];
+  const index = Math.max(0, saved.qIndex | 0);
+  const id = saved.questionId ?? (saved.questionnaireVersion ? quiz.questions[index]?.id : oldIds[index]);
+  const found = quiz.questions.findIndex((q) => q.id === id);
+  if (found >= 0) return found;
+  // 旧版正停在主角题时，继续到下一道仍然存在的题目。
+  const next = oldIds.slice(oldIds.indexOf(id) + 1).find((x) => quiz.questions.some((q) => q.id === x));
+  return next ? quiz.questions.findIndex((q) => q.id === next) : Math.min(index, quiz.questions.length - 1);
+}
 
 export function createEngine(vns, quiz) {
   const S = quiz.scoring;
@@ -28,8 +67,8 @@ export function createEngine(vns, quiz) {
   const tagScore = (v, id) => v.tags[id]?.[0] ?? 0;
 
   const optionOf = (answers, qid) => {
-    const oid = answers[qid];
-    return oid ? questions.get(qid)?.options.find((o) => o.id === oid) : undefined;
+    const q = questions.get(qid);
+    return q ? selectedOptions(q, answers[qid])[0] : undefined;
   };
 
   // ---------- 筛选 ----------
@@ -102,20 +141,13 @@ export function createEngine(vns, quiz) {
     const out = [];
     for (const q of quiz.questions) {
       if (q.kind !== 'taste') continue;
-      const o = optionOf(answers, q.id);
-      if (!o?.tags) continue;
-      const entries = Object.entries(o.tags);
-      const pos = entries.filter(([, w]) => w > 0);
-      const neg = entries.filter(([, w]) => w < 0);
-      out.push({
-        q,
-        o,
-        weight: q.weight ?? 1,
-        pos,
-        neg,
-        maxPos: Math.max(0, ...pos.map(([, w]) => w)),
-        negSum: neg.reduce((s, [, w]) => s - w, 0),
+      const options = selectedOptions(q, answers[q.id]).filter((o) => o.tags).map((o) => {
+        const entries = Object.entries(o.tags);
+        const pos = entries.filter(([, w]) => w > 0);
+        const neg = entries.filter(([, w]) => w < 0);
+        return { o, pos, neg, maxPos: Math.max(0, ...pos.map(([, w]) => w)), negSum: neg.reduce((s, [, w]) => s - w, 0) };
       });
+      if (options.length) out.push({ q, options, weight: q.weight ?? 1 });
     }
     return out;
   }
@@ -139,7 +171,7 @@ export function createEngine(vns, quiz) {
 
   function scoreVn(v, taste, pop, penalties) {
     let match = 0;
-    for (const t of taste) match += t.weight * questionScore(v, t);
+    for (const t of taste) match += t.weight * Math.max(...t.options.map((o) => questionScore(v, o)));
     // 人气系数：口味分打平时（只答了一两道口味题很常见）把公认的作品排前面
     let popularity = Math.pow(v.votes / medianVotes, pop.votesAlpha ?? S.defaultVotesAlpha);
     if (pop.hotMultiplier && isHot(v)) popularity *= pop.hotMultiplier;
@@ -162,7 +194,7 @@ export function createEngine(vns, quiz) {
     const taste = tasteAnswers(answers);
     const pop = optionOf(answers, 'experience')?.popularity ?? {};
     const penalties = softPenalties(dealbreakers);
-    const tiered = taste.some(({ o }) => Object.values(o.tags).some((w) => w > 0));
+    const tiered = taste.some(({ options }) => options.some(({ pos }) => pos.length));
     const tier = (r) => (tiered && r.match < S.minMatch ? 0 : 1);
     return pool
       .map((vn) => ({ vn, ...scoreVn(vn, taste, pop, penalties) }))
@@ -194,7 +226,8 @@ export function createEngine(vns, quiz) {
   // 对得分贡献最大的 2–3 个标签（正权重、分数够、无剧透），去重
   function reasons(v, answers, max = 3) {
     const contrib = new Map();
-    for (const { weight, pos, maxPos } of tasteAnswers(answers)) {
+    for (const { weight, options } of tasteAnswers(answers)) {
+      const { pos, maxPos } = options.reduce((best, o) => questionScore(v, o) > questionScore(v, best) ? o : best);
       for (const [id, w] of pos) {
         const t = v.tags[id];
         if (!t || t[1] !== 0 || t[0] < S.minReasonTagScore || !quiz.tags[id]?.phrase) continue;
@@ -212,11 +245,15 @@ export function createEngine(vns, quiz) {
   // ---------- 玩家类型 ----------
 
   function playerType(answers) {
-    const t = quiz.playerTypes[answers.feeling] ?? quiz.playerTypes.default;
+    const feelings = selectedOptions(questions.get('feeling'), answers.feeling);
+    const types = feelings.map((o) => quiz.playerTypes[o.id]).filter(Boolean);
+    const t = types.length > 1
+      ? { name: types.map((x) => x.name).join(' · '), desc: `这次想看${feelings.map((o) => `「${o.label}」`).join('或')}的故事。` }
+      : types[0] ?? quiz.playerTypes.default;
     // 其他已回答口味题的选项，作为补充说明
     const prefs = quiz.questions
       .filter((q) => q.kind === 'taste' && q.id !== 'feeling')
-      .map((q) => optionOf(answers, q.id))
+      .flatMap((q) => selectedOptions(q, answers[q.id]))
       .filter((o) => o?.tags)
       .map((o) => o.label);
     return { ...t, prefs };

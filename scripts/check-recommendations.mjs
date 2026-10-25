@@ -77,5 +77,5 @@ for (let pi = 0; pi < players.length; pi++) {
   }
 }
 report.push('', '检查通过：中文系数有上限、无数据/小样本中性；20 轮抽取无重复，未越过已选语言、全年龄、雷点和续作限制，既有作品口味分不变。', '');
-await writeFile('data/chinese-reception-report.md', report.join('\n'));
-console.log(`中文口碑测试通过，报告：data/chinese-reception-report.md；覆盖 ${snapshot.stats.mapped} 部。`);
+if (!process.argv.includes('--check-only')) await writeFile('data/chinese-reception-report.md', report.join('\n'));
+console.log(`中文口碑测试通过；覆盖 ${snapshot.stats.mapped} 部${process.argv.includes('--check-only') ? '；保留原调研报告' : '，报告：data/chinese-reception-report.md'}。`);

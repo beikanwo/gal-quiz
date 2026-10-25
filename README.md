@@ -1,6 +1,6 @@
 # 测测你适合哪部 Gal
 
-闹游戏荒的时候用的：答 12 道题、勾一下雷点，从 VNDB 的高分作品里抽 3 部推荐给你，并说明为什么推荐。
+闹游戏荒的时候用的：答 11 道题、勾一下雷点，从 VNDB 的高分作品里抽 3 部推荐给你，并说明为什么推荐。
 
 网站：https://www.scurra.top/
 
@@ -46,6 +46,10 @@ node scripts/serve.mjs
 检查推荐结果：`node scripts/simulate.mjs`，结果写到 `data/test-runs.md`。
 
 题目、标签和权重都在 `config/questions.json`，打分规则见 `CLAUDE.md`。
+
+2026-10-25 问卷调整：第 6 题故事偏好最多选两项，每项附简短说明；第 8 题背景可多选，“不在意背景”与其他项互斥。多选确认后再进入下一题，每题取所选方向的最高分，权重只计一次。移除难以区分的主角题，现实生活改用写实日常、家庭关系和少量现代背景加分。旧单选会话、推荐结果和收藏继续保留。
+
+`node scripts/check-questionnaire.mjs` 验证多选打分、选项互斥及旧会话迁移；[调整与多选测试报告](data/questionnaire-update-report.md) 记录标签核对和两组多选玩家各五次结果，原四位测试玩家结果在 `data/test-runs.md`。历史中文口碑报告保留原测试口径，可用 `node scripts/check-recommendations.mjs --check-only` 检查当前配置而不覆盖它。
 
 中文口碑以 [Bangumi](https://bgm.tv/game/browser?sort=rank) 为主、[KUN 本站评分](https://www.kungal.com/doc/galgame-rating-guide) 为小幅补充，依据评分人数收缩加分。系数为 1–1.8，缺数据不降权；口味分、硬条件、雷点及 15 部候选规则保留。TouchGal 和 galgame吧因人数或完整榜单未能核实，不加入数值加分。原始 VNDB、Bangumi 评分分别展示，不混成伪平台评分。
 

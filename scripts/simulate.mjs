@@ -15,26 +15,26 @@ const OUT = 'data/test-runs.md';
 const PLAYERS = [
   {
     name: '纯新人',
-    desc: '只玩中文、10–30 小时、全年龄、男主角和女孩子们、第一部、想哭、校园',
-    answers: { lang: 'zh', length: 'medium', rating: 'allAges', pairing: 'classic', experience: 'first', feeling: 'cry', setting: 'school' },
+    desc: '只玩中文、10–30 小时、全年龄、男主角和女孩子们、第一部、感人一点、校园生活',
+    answers: { lang: 'zh', length: 'medium', rating: 'allAges', pairing: 'classic', experience: 'first', feeling: ['cry'], setting: ['school'] },
     dealbreakers: [],
   },
   {
     name: '推理爱好者',
-    desc: '只玩中文、不限时长、男主角和女孩子们、玩过几部、伏笔、科幻、头脑派主角；雷点：恐怖',
-    answers: { lang: 'zh', length: 'any', pairing: 'classic', experience: 'some', feeling: 'twist', setting: 'scifi', protagonist: 'brain' },
+    desc: '只玩中文、不限时长、男主角和女孩子们、玩过几部、悬念多一点、科幻世界；雷点：恐怖（主角题已移除）',
+    answers: { lang: 'zh', length: 'any', pairing: 'classic', experience: 'some', feeling: ['twist'], setting: ['scifi'] },
     dealbreakers: ['horror'],
   },
   {
     name: '老资历文学党',
     desc: '日文也行、30 小时以上、不限范围、男主角和女孩子们、老资历、想了很多、严肃一点；雷点：NTR、拔作',
-    answers: { lang: 'any', length: 'long', rating: 'any', pairing: 'classic', experience: 'veteran', feeling: 'think', humor: 'serious' },
+    answers: { lang: 'any', length: 'long', rating: 'any', pairing: 'classic', experience: 'veteran', feeling: ['think'], humor: 'serious' },
     dealbreakers: ['ntr', 'nukige'],
   },
   {
     name: '甜文党',
     desc: '只玩中文、一个周末、男主角和女孩子们、玩过很多、甜、恋爱核心；雷点：以悲剧为主、猎奇',
-    answers: { lang: 'zh', length: 'short', pairing: 'classic', experience: 'many', feeling: 'sweet', romance: 'core' },
+    answers: { lang: 'zh', length: 'short', pairing: 'classic', experience: 'many', feeling: ['sweet'], romance: 'core' },
     dealbreakers: ['tragic', 'gore'],
   },
 ];

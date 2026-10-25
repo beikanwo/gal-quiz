@@ -156,6 +156,12 @@ a:hover { text-decoration: underline; }
 .choice:hover { border-color: var(--accent); }
 .choice.picked { border-color: var(--accent); color: var(--accent); background: var(--accent-soft); }
 .choice kbd { display: none; }
+.choice-description { display: block; margin-top: 4px; font-size: 12px; line-height: 1.6; color: var(--muted); }
+.choice.multi { position: relative; padding-left: 32px; padding-right: 32px; }
+.choice-check { position: absolute; right: 12px; top: 50%; transform: translateY(-50%); opacity: 0; }
+.choice.picked .choice-check { opacity: 1; }
+.selection-status { margin: 0; min-height: 1.6em; color: var(--accent); font-size: 12px; text-align: center; }
+.nav-forward { display: flex; align-items: center; gap: 18px; }
 @media (hover: hover) {
   .choice { position: relative; }
   .choice kbd {

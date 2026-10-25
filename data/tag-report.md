@@ -1,6 +1,6 @@
 # 标签核对表
 
-共 61 个标签：名称完全一致 61，通过别名匹配 0，查不到 0。
+共 52 个标签：名称完全一致 52，通过别名匹配 0，查不到 0。
 片库覆盖基于已抓到的 3953 部作品，计分数 ≥ 1 的标签。
 
 ## Otome Game
@@ -44,7 +44,7 @@
 
 ## Nakige
 
-- 用在：通关后你最想留下什么感觉？ → 哭到停不下来（+1）
+- 用在：这次，你更想看哪种故事？ → 感人一点（+1）
 - 结果：g596 **Nakige**，分类 tech，VNDB 上 407 部
 - 别名：Crying Game
 - 父标签：Type / Drama
@@ -53,7 +53,7 @@
 
 ## Life and Death Drama
 
-- 用在：通关后你最想留下什么感觉？ → 哭到停不下来（+0.5）
+- 用在：这次，你更想看哪种故事？ → 感人一点（+0.5）
 - 结果：g168 **Life and Death Drama**，分类 cont，VNDB 上 3146 部
 - 父标签：Drama
 - 子标签（18）：Survival Focus / Death of Hero / Completely Avoidable Hero Death / Avoidable Death of Hero (obsolete) / Unavoidable Hero Death / Completely Unavoidable Hero Death / Death of Protagonist / Completely Avoidable Protagonist Death / Avoidable Death of Protagonist (obsolete) / Unavoidable Protagonist Death / Completely Unavoidable Protagonist Death / True End Death of Protagonist / Death of Heroine / Completely Avoidable Heroine Death / Avoidable Death of Heroine (obsolete) …
@@ -62,7 +62,7 @@
 
 ## Mystery
 
-- 用在：通关后你最想留下什么感觉？ → 回头发现处处是伏笔（+1）
+- 用在：这次，你更想看哪种故事？ → 悬念多一点（+1）
 - 结果：g19 **Mystery**，分类 cont，VNDB 上 5508 部
 - 父标签：Theme
 - 子标签（13）：The Seven School Mysteries / Disappearance / Memory Alteration / Multiple Route Mystery / Existential Crisis / Detective Work / Private Detective Protagonist / Secret Identity / Murder Mystery / Amnesia / Amnesiac Hero / Amnesiac Heroine / Amnesiac Protagonist
@@ -71,7 +71,7 @@
 
 ## Multiple Route Mystery
 
-- 用在：通关后你最想留下什么感觉？ → 回头发现处处是伏笔（+1）
+- 用在：这次，你更想看哪种故事？ → 悬念多一点（+1）
 - 结果：g553 **Multiple Route Mystery**，分类 tech，VNDB 上 515 部
 - 别名：Multiple Ending Mystery
 - 父标签：Mystery / Routes
@@ -80,7 +80,7 @@
 
 ## Suspense
 
-- 用在：通关后你最想留下什么感觉？ → 回头发现处处是伏笔（+0.5）
+- 用在：这次，你更想看哪种故事？ → 悬念多一点（+0.5）
 - 结果：g324 **Suspense**，分类 cont，VNDB 上 694 部
 - 父标签：Other Elements
 - 子标签（2）：On the Run / Battle of Wits
@@ -89,7 +89,7 @@
 
 ## Unreliable Narrator
 
-- 用在：通关后你最想留下什么感觉？ → 回头发现处处是伏笔（+0.5）
+- 用在：这次，你更想看哪种故事？ → 悬念多一点（+0.5）
 - 结果：g779 **Unreliable Narrator**，分类 tech，VNDB 上 157 部
 - 父标签：Story
 - 片库覆盖：直接 49 部，含子标签 49 部
@@ -97,7 +97,7 @@
 
 ## Utsuge
 
-- 用在：通关后你最想留下什么感觉？ → 很久缓不过来（+1）；雷点 → 以悲剧为主
+- 用在：这次，你更想看哪种故事？ → 沉重一点（+1）；雷点 → 以悲剧为主
 - 结果：g693 **Utsuge**，分类 tech，VNDB 上 605 部
 - 别名：Depressing Game / Suicide Enabler / Tragedy
 - 父标签：Type / Drama
@@ -106,7 +106,7 @@
 
 ## Desperation
 
-- 用在：通关后你最想留下什么感觉？ → 很久缓不过来（+1）
+- 用在：这次，你更想看哪种故事？ → 沉重一点（+1）
 - 结果：g873 **Desperation**，分类 cont，VNDB 上 263 部
 - 别名：Desparate Situation / Hopelessness / Hopeless Situation
 - 父标签：Drama
@@ -115,7 +115,7 @@
 
 ## Psychological Trauma
 
-- 用在：通关后你最想留下什么感觉？ → 很久缓不过来（+0.5）
+- 用在：这次，你更想看哪种故事？ → 沉重一点（+0.5）
 - 结果：g502 **Psychological Trauma**，分类 cont，VNDB 上 763 部
 - 父标签：Psychological Problems
 - 子标签（3）：Rape Victim Hero / Rape Victim Protagonist / Rape Victim Heroine
@@ -124,7 +124,7 @@
 
 ## Slice of Life
 
-- 用在：通关后你最想留下什么感觉？ → 甜到嘴角压不住（+1）
+- 用在：这次，你更想看哪种故事？ → 轻松甜蜜一点（+1）
 - 结果：g454 **Slice of Life**，分类 cont，VNDB 上 2182 部
 - 父标签：Other Elements
 - 子标签（3）：Slice of Life Realism / Slice of Life Drama / Slice of Life Comedy
@@ -133,7 +133,7 @@
 
 ## Only Good Endings
 
-- 用在：通关后你最想留下什么感觉？ → 甜到嘴角压不住（+0.7）
+- 用在：这次，你更想看哪种故事？ → 轻松甜蜜一点（+0.7）
 - 结果：g1181 **Only Good Endings**，分类 tech，VNDB 上 1083 部
 - 别名：Good Endings Only / No Bad Endings
 - 父标签：Ending
@@ -142,7 +142,7 @@
 
 ## Action
 
-- 用在：通关后你最想留下什么感觉？ → 燃（+1）
+- 用在：这次，你更想看哪种故事？ → 热血一点（+1）
 - 结果：g12 **Action**，分类 cont，VNDB 上 2537 部
 - 父标签：Theme
 - 子标签（61）：Sports / Snowboarding / Skiing / Swimming / Ice Skating / Golf / Lacrosse / Volleyball / Badminton / Rugby / Training Camp / Basketball / Combat Sport / Wrestling (Sport) / Kendo Club …
@@ -151,7 +151,7 @@
 
 ## Fighting Protagonist
 
-- 用在：通关后你最想留下什么感觉？ → 燃（+0.7）；你希望主角是什么样的人？ → 能打（+1）
+- 用在：这次，你更想看哪种故事？ → 热血一点（+0.7）
 - 结果：g139 **Fighting Protagonist**，分类 cont，VNDB 上 2318 部
 - 别名：Fighting capable Protagonist / Protagonist that can fight / Warrior Protagonist
 - 父标签：Protagonist's Role/Vocation
@@ -161,7 +161,7 @@
 
 ## War
 
-- 用在：通关后你最想留下什么感觉？ → 燃（+0.5）
+- 用在：这次，你更想看哪种故事？ → 热血一点（+0.5）
 - 结果：g456 **War**，分类 cont，VNDB 上 547 部
 - 别名：Military conflict / Warfare
 - 父标签：Other Elements
@@ -171,7 +171,7 @@
 
 ## Philosophy
 
-- 用在：通关后你最想留下什么感觉？ → 想了很多（+1）
+- 用在：这次，你更想看哪种故事？ → 思考多一点（+1）
 - 结果：g1154 **Philosophy**，分类 cont，VNDB 上 448 部
 - 别名：Philosophical
 - 父标签：Other Elements
@@ -181,7 +181,7 @@
 
 ## Existential Crisis
 
-- 用在：通关后你最想留下什么感觉？ → 想了很多（+1）
+- 用在：这次，你更想看哪种故事？ → 思考多一点（+1）
 - 结果：g352 **Existential Crisis**，分类 cont，VNDB 上 214 部
 - 父标签：Drama / Mystery
 - 片库覆盖：直接 86 部，含子标签 86 部
@@ -189,7 +189,7 @@
 
 ## Mind Screw
 
-- 用在：通关后你最想留下什么感觉？ → 想了很多（+0.7）
+- 用在：这次，你更想看哪种故事？ → 思考多一点（+0.7）
 - 结果：g1398 **Mind Screw**，分类 cont，VNDB 上 156 部
 - 别名：Mindfuck / Mind Fuck
 - 父标签：Other Elements
@@ -198,7 +198,7 @@
 
 ## Identity Crisis
 
-- 用在：通关后你最想留下什么感觉？ → 想了很多（+0.7）
+- 用在：这次，你更想看哪种故事？ → 思考多一点（+0.7）
 - 结果：g9 **Identity Crisis**，分类 cont，VNDB 上 92 部
 - 父标签：Psychological Problems
 - 片库覆盖：直接 46 部，含子标签 46 部
@@ -206,7 +206,7 @@
 
 ## Coming-of-Age Drama
 
-- 用在：通关后你最想留下什么感觉？ → 想了很多（+0.5）
+- 用在：这次，你更想看哪种故事？ → 思考多一点（+0.5）
 - 结果：g431 **Coming-of-Age Drama**，分类 cont，VNDB 上 243 部
 - 父标签：Drama
 - 片库覆盖：直接 64 部，含子标签 64 部
@@ -214,7 +214,7 @@
 
 ## Metafiction
 
-- 用在：通关后你最想留下什么感觉？ → 想了很多（+0.5）
+- 用在：这次，你更想看哪种故事？ → 思考多一点（+0.5）
 - 结果：g1004 **Metafiction**，分类 tech，VNDB 上 1053 部
 - 别名：Self-aware plot / Self-referential plot
 - 父标签：Plot Devices
@@ -224,7 +224,7 @@
 
 ## Dystopia
 
-- 用在：通关后你最想留下什么感觉？ → 想了很多（+0.5）
+- 用在：这次，你更想看哪种故事？ → 思考多一点（+0.5）
 - 结果：g772 **Dystopia**，分类 cont，VNDB 上 273 部
 - 别名：anti-utopia / cackotopia / cacotopia / dystopic / kakotopia
 - 父标签：Universe
@@ -233,7 +233,7 @@
 
 ## Surreal
 
-- 用在：通关后你最想留下什么感觉？ → 想了很多（+0.5）
+- 用在：这次，你更想看哪种故事？ → 思考多一点（+0.5）
 - 结果：g846 **Surreal**，分类 cont，VNDB 上 442 部
 - 别名：Bizarre / Dreamlike
 - 父标签：Other Elements
@@ -242,7 +242,7 @@
 
 ## Religion/Faith
 
-- 用在：通关后你最想留下什么感觉？ → 想了很多（+0.5）
+- 用在：这次，你更想看哪种故事？ → 思考多一点（+0.5）
 - 结果：g3989 **Religion/Faith**，分类 cont，VNDB 上 101 部
 - 别名：Religious Themes / Religion Discussions / Faith Discussions
 - 父标签：Other Elements
@@ -288,7 +288,7 @@
 
 ## School
 
-- 用在：舞台选哪里？ → 校园（+1）
+- 用在：哪些背景会让你更想点开？ → 校园生活（+1）
 - 结果：g47 **School**，分类 cont，VNDB 上 5662 部
 - 父标签：Scene
 - 子标签（57）：Graduation / Religious School / Psionic School / Boarding School / Elementary School / Military School / Middle School / Magic School / Single-sex School / All-boys School / Former All-boys School / All-girls School / Former All-girls School / School Festival / Athletics Festival …
@@ -297,7 +297,7 @@
 
 ## Science Fiction
 
-- 用在：舞台选哪里？ → 科幻、时间线（+1）
+- 用在：哪些背景会让你更想点开？ → 科幻世界、时间谜题（+1）
 - 结果：g105 **Science Fiction**，分类 cont，VNDB 上 4430 部
 - 别名：Sci-fi
 - 父标签：Theme
@@ -307,16 +307,33 @@
 
 ## Fantasy
 
-- 用在：舞台选哪里？ → 魔法、异能、异世界（+1）
+- 用在：哪些背景会让你更想点开？ → 魔法、异能与幻想世界（+1）
 - 结果：g2 **Fantasy**，分类 cont，VNDB 上 13381 部
 - 父标签：Theme
 - 子标签（197）：Low Fantasy / High Fantasy / Contemporary Fantasy / Urban Fantasy / Dark Fantasy / Rejuvenation / Talking Object / Exorcism / Talking Animal / Possession / Rape by Possession / Fairy Tale / Medieval Fantasy / Science Fantasy / Body Swapping …
 - 片库覆盖：直接 330 部，含子标签 1575 部
 - 描述：This game features elements and themes from the fantasy genre.
 
+## Slice of Life Realism
+
+- 用在：哪些背景会让你更想点开？ → 现实生活与社会故事（+1）
+- 结果：g455 **Slice of Life Realism**，分类 cont，VNDB 上 155 部
+- 父标签：Slice of Life
+- 片库覆盖：直接 22 部，含子标签 22 部
+- 描述：This tag is for slice of life stories presented in a very realistic way.
+
+## Family Drama
+
+- 用在：哪些背景会让你更想点开？ → 现实生活与社会故事（+0.7）
+- 结果：g3894 **Family Drama**，分类 cont，VNDB 上 199 部
+- 别名：Conflict Within a Family / Sibling Drama / Parent and Child Drama
+- 父标签：Drama / Family
+- 片库覆盖：直接 53 部，含子标签 53 部
+- 描述：This story has elements of family drama, such as a falling out/feud between siblings or a parent and a child. Don't confuse this tag with a Family Feud, which is a feud between two or more different families.
+
 ## Modern Day Earth
 
-- 用在：舞台选哪里？ → 现实社会（+0.5）
+- 用在：哪些背景会让你更想点开？ → 现实生活与社会故事（+0.25）
 - 结果：g60 **Modern Day Earth**，分类 cont，VNDB 上 4009 部
 - 别名：Contemporary Earth
 - 父标签：Earth / Modern Day
@@ -324,27 +341,9 @@
 - 片库覆盖：直接 59 部，含子标签 943 部
 - 描述：The visual novel is set on modern day Earth. Note: "Modern day" refers to an unspecified time period between the late 20th century and today.
 
-## Adult Protagonist
-
-- 用在：舞台选哪里？ → 现实社会（+0.5）；你希望主角是什么样的人？ → 已经工作的大人（+1）
-- 结果：g137 **Adult Protagonist**，分类 cont，VNDB 上 4729 部
-- 父标签：Protagonist's Role/Vocation
-- 子标签（1）：Oyaji Protagonist
-- 片库覆盖：直接 767 部，含子标签 786 部
-- 描述：The protagonist of this game is an adult. 'Adult' is a broadly subjective concept, but in visual novel settings should usually mean any person who is of age and has finished the high school. In fantasy/sci-fi settings where high school is not mandatory or doesn't exist, having an occupation or being of age where having an occupation is expected can be used as an indication of 'adulthood'.
-
-## Crime
-
-- 用在：舞台选哪里？ → 现实社会（+0.7）
-- 结果：g322 **Crime**，分类 cont，VNDB 上 4670 部
-- 父标签：Other Elements
-- 子标签（48）：Noir Fiction / Criminal Hero / Gangster Hero / Yakuza Hero / Gang Leader Hero / Thief Hero / Criminal Protagonist / Con Artist Protagonist / Gangster Protagonist / Thief Protagonist / Criminal Heroine / Con Artist Heroine / Gangster Heroine / Yakuza Heroine / Chikan Heroine …
-- 片库覆盖：直接 76 部，含子标签 866 部
-- 描述：This is a crime story. Or at least have some law and order, crime life etc. themes taking an important role in it. Do not use it for games that include one or more criminal acts in them somewhere. The game has to be about a specific crime, like a story about a bank robbery, or the lives of people in the crime world.
-
 ## Past Japan
 
-- 用在：舞台选哪里？ → 和风、历史（+1）
+- 用在：哪些背景会让你更想点开？ → 和风传说、日本历史（+1）
 - 结果：g1208 **Past Japan**，分类 cont，VNDB 上 672 部
 - 父标签：Past Earth
 - 子标签（12）：Fictional Medieval Japan / Heisei Era / Muromachi Era / Edo Era / Bakumatsu Era / Shinsengumi / Meiji Era / Shouwa Era / Taishou Era / Heian Period / Past Tokyo / Sengoku Period
@@ -353,94 +352,12 @@
 
 ## Japanese Mythology
 
-- 用在：舞台选哪里？ → 和风、历史（+1）
+- 用在：哪些背景会让你更想点开？ → 和风传说、日本历史（+1）
 - 结果：g1011 **Japanese Mythology**，分类 cont，VNDB 上 847 部
 - 父标签：Mythical Setting
 - 子标签（10）：Youkai / Youkai Hero / Kitsune Hero / Oni Hero / Youkai Protagonist / Oni Protagonist / Youkai Heroine / Yuki-onna Heroine / Oni Heroine / Kitsune Heroine
 - 片库覆盖：直接 62 部，含子标签 165 部
 - 描述：Traditional Japanese mythology strongly influences the setting and events in this VN.
-
-## Student Protagonist
-
-- 用在：你希望主角是什么样的人？ → 普通的学生（+1）
-- 结果：g544 **Student Protagonist**，分类 cont，VNDB 上 6436 部
-- 父标签：Student / Protagonist's Role/Vocation
-- 子标签（13）：Pioneer Protagonist / Middle School Student Protagonist / School Sports Club Member Protagonist / Delinquent Protagonist / Discipline Committee Member Protagonist / Discipline Committee Leader Protagonist / Elementary School Student Protagonist / Transfer Student Protagonist / Class President Protagonist / University Student Protagonist / High School Student Protagonist / Rounin Protagonist / Student Council President Protagonist
-- 片库覆盖：直接 556 部，含子标签 1383 部
-- 描述：The protagonist is attending school during the course of the story.
-
-## Gentle Protagonist
-
-- 用在：你希望主角是什么样的人？ → 普通的学生（+0.5）
-- 结果：g2075 **Gentle Protagonist**，分类 cont，VNDB 上 196 部
-- 别名：caring protagonist / gentleman protagonist / kind protagonist / polite protagonist / sensitive protagonist / tender protagonist
-- 父标签：Protagonist's Personality
-- 片库覆盖：直接 86 部，含子标签 86 部
-- 描述：The protagonist of this story is gentle, and usually treats other people with care, politeness, and taking their feelings into account. He or she values more the well being of his or her partner than his or her own, and won't make any advances unless it's consensual.
-
-## Superpowers
-
-- 用在：你希望主角是什么样的人？ → 能打（+0.5）
-- 结果：g6 **Superpowers**，分类 cont，VNDB 上 1548 部
-- 父标签：Fantasy
-- 子标签（11）：Invisibility / Shapeshifting / Superheroes / Sentai / Superhero / Mahou Shounen Protagonist / Mahou Shoujo Protagonist / Superheroine / Superhero(ine) Protagonist / Mahou Shoujo Heroine / Mahou Shounen Hero
-- 片库覆盖：直接 144 部，含子标签 284 部
-- 描述：This game features elements and themes related to characters with superpowered abilities.
-
-## Hotblooded Protagonist
-
-- 用在：你希望主角是什么样的人？ → 能打（+0.5）
-- 结果：g617 **Hotblooded Protagonist**，分类 cont，VNDB 上 73 部
-- 别名：Hot blooded Protagonist / Nekketsu Protagonist
-- 父标签：Protagonist's Personality
-- 片库覆盖：直接 37 部，含子标签 37 部
-- 描述：The protagonist is hotblooded. For those uninitiated, a hotblooded character feels extremely passionate about justice/love/protecting his friends (there are also other types, like hot blooded artists, but these are usually played for laughs) to such a degree that he WILL overcome challenges that aren't humanly possible. Hotblooded characters regularly keep fighting after all others would've died, 
-
-## Genius Protagonist
-
-- 用在：你希望主角是什么样的人？ → 头脑派（+1）
-- 结果：g326 **Genius Protagonist**，分类 cont，VNDB 上 274 部
-- 父标签：Protagonist's Traits
-- 子标签（2）：Inventor Protagonist / Tactician Protagonist
-- 片库覆盖：直接 67 部，含子标签 118 部
-- 描述：Protagonist of this game is a genius.
-
-## Pragmatic Protagonist
-
-- 用在：你希望主角是什么样的人？ → 头脑派（+1）
-- 结果：g1569 **Pragmatic Protagonist**，分类 cont，VNDB 上 140 部
-- 别名：Practical Protagonist / Rational Protagonist / Hard-boiled Protagonist
-- 父标签：Protagonist's Personality
-- 片库覆盖：直接 79 部，含子标签 79 部
-- 描述：The protagonist of this visual novel makes decisions and takes action based on logical, practical and/or rational considerations and perspectives. It should be noted that pragmatic people aren't necessarily cold or unemotional.
-
-## Detective Work
-
-- 用在：你希望主角是什么样的人？ → 头脑派（+0.7）
-- 结果：g323 **Detective Work**，分类 cont，VNDB 上 1239 部
-- 父标签：Mystery
-- 子标签（1）：Private Detective Protagonist
-- 片库覆盖：直接 159 部，含子标签 174 部
-- 描述：This game features its one or more characters working like detectives, gathering clues and investigating some mysteries in a serious professional/semi-professional way.
-
-## Antihero Protagonist
-
-- 用在：你希望主角是什么样的人？ → 有阴暗面（+1）
-- 结果：g525 **Antihero Protagonist**，分类 cont，VNDB 上 162 部
-- 别名：antiheroine protagonist
-- 父标签：Protagonist's Traits
-- 片库覆盖：直接 70 部，含子标签 70 部
-- 描述：This games protagonist is an Antihero. He is generally considered to be a protagonist whose character is, at least in some regards, conspicuously contrary to that of the archetypal hero, and is in some instances its antithesis. Usually the antihero lacks heroic motivation and uses questionable methods to achieve his goal, this is done from the perspective that the ends justify the means.
-
-## Protagonist with Psychological Problems
-
-- 用在：你希望主角是什么样的人？ → 有阴暗面（+0.7）
-- 结果：g500 **Protagonist with Psychological Problems**，分类 cont，VNDB 上 1214 部
-- 别名：Protagonist with a Mental Disorder
-- 父标签：Psychological Problems / Protagonist with Health Issues
-- 子标签（10）：Autistic Protagonist / Addict Protagonist / Suicidal Protagonist / Protagonist with Imaginary Friends / Imaginary Friend as a Hero / Imaginary Friend as a Heroine / Nympho Protagonist / Rape Victim Protagonist / Protagonist with Multiple Personalities / Protagonist with Superpowered Side
-- 片库覆盖：直接 109 部，含子标签 220 部
-- 描述：For protagonists suffering from a mental disorder.
 
 ## Romance
 

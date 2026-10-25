@@ -1,7 +1,7 @@
 // 页面渲染和交互。推荐逻辑都在 engine.js。
 
-import { createEngine, formatLength } from './engine.js?v=20261024-cn-feedback';
-import { initFeedback } from './feedback.js?v=20261024-cn-feedback';
+import { createEngine, formatLength, selectedOptions, normalizeAnswers, toggleSelection, sessionQuestionIndex } from './engine.js?v=20261025-multi';
+import { initFeedback } from './feedback.js?v=20261025-multi';
 
 const app = document.getElementById('app');
 const reduceMotion = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches ?? false;
@@ -77,6 +77,8 @@ function saveSession() {
     sessionStorage.setItem(SESSION_KEY, JSON.stringify({
       screen: state.screen,
       qIndex: state.qIndex,
+      questionId: quiz?.questions[state.qIndex]?.id,
+      questionnaireVersion: 2,
       answers: state.answers,
       dealbreakers: [...state.dealbreakers],
       current: state.current.map((r) => r.vn.id),
@@ -98,8 +100,8 @@ function restoreSession() {
   }
   if (!s || !['quiz', 'dealbreakers', 'result', 'wants'].includes(s.screen)) return false;
   state.screen = s.screen;
-  state.qIndex = Math.min(Math.max(0, s.qIndex | 0), quiz.questions.length - 1);
-  state.answers = s.answers && typeof s.answers === 'object' ? s.answers : {};
+  state.qIndex = sessionQuestionIndex(quiz, s);
+  state.answers = normalizeAnswers(quiz, s.answers);
   state.dealbreakers = new Set(Array.isArray(s.dealbreakers) ? s.dealbreakers : []);
   state.back = s.back === 'result' ? 'result' : 'start';
   if (state.screen === 'result' || state.back === 'result') {
@@ -186,7 +188,7 @@ function renderStart() {
     <section class="screen title-screen">
       <div class="kicker">GALGAME 推荐</div>
       <h1>测测你适合<br>哪部 Gal</h1>
-      <p class="lead">闹游戏荒了？答 12 道题，从 ${engine?.stats.total ?? '数千'} 部 VNDB 高分作品里给你挑 3 部，顺便说说为什么。每道题都能跳过。</p>
+      <p class="lead">闹游戏荒了？答 ${quiz.questions.length} 道题，再勾一下雷点，从 ${engine?.stats.total ?? '数千'} 部 VNDB 高分作品里给你挑 3 部，顺便说说为什么。每道题都能跳过。</p>
       <nav class="menu">
         <button class="first" data-action="begin"><span class="label">开始</span></button>
         <button data-action="wants" ${engine ? '' : 'disabled'}><span class="label">想玩清单</span><small>${wants ? `${wants} 部` : '还是空的'}</small></button>
@@ -215,25 +217,41 @@ function renderQuestionScreen({ index, total, name, text, hint, options, footer 
 
 function renderQuiz() {
   const q = quiz.questions[state.qIndex];
-  const picked = state.answers[q.id];
+  const picked = selectedOptions(q, state.answers[q.id]).map((o) => o.id);
   const remain = engine?.filterPool(state.answers, [], blocked()).length;
   return renderQuestionScreen({
     index: state.qIndex + 1,
     total: quiz.questions.length + 1,
     name: `第 ${state.qIndex + 1} 题`,
     text: q.text,
-    hint: remain == null ? '你可以先答题，作品还在准备中…' : `目前符合条件：${remain} 部`,
+    hint: `${q.hint ? `${esc(q.hint)}<br>` : ''}<span class="remaining">${remain == null ? '你可以先答题，作品还在准备中…' : `目前符合条件：${remain} 部`}</span>${q.multiple ? `<br><span class="selection-count">已选 ${picked.length} 项${q.maxSelections ? ` / 最多 ${q.maxSelections} 项` : ''}</span>` : ''}`,
     options: q.options
-      .map((o, i) => `<button class="choice${picked === o.id ? ' picked' : ''}" data-action="answer" data-option="${esc(o.id)}"><kbd>${i + 1}</kbd>${esc(o.label)}</button>`)
-      .join(''),
+      .map((o, i) => `<button class="choice${q.multiple ? ' multi' : ''}${picked.includes(o.id) ? ' picked' : ''}" data-action="answer" data-option="${esc(o.id)}"${q.multiple ? ` aria-pressed="${picked.includes(o.id)}"` : ''}><kbd>${i + 1}</kbd><span class="choice-label">${esc(o.label)}</span>${o.description ? `<small class="choice-description">${esc(o.description)}</small>` : ''}${q.multiple ? '<span class="choice-check" aria-hidden="true">✓</span>' : ''}</button>`)
+      .join('') + (q.multiple ? '<p class="selection-status" role="status" aria-live="polite"></p>' : ''),
     footer: `
       <button data-action="prev" ${state.qIndex === 0 ? 'disabled' : ''}>‹ 上一题</button>
-      <button data-action="skip">跳过 ›</button>`,
+      <div class="nav-forward"><button data-action="skip">跳过 ›</button>${q.multiple ? `<button class="btn primary" data-action="next" ${picked.length ? '' : 'disabled'}>下一题 ›</button>` : ''}</div>`,
   });
 }
 
 function answer(optionId) {
-  state.answers[quiz.questions[state.qIndex].id] = optionId;
+  const q = quiz.questions[state.qIndex];
+  if (q.multiple) {
+    const result = toggleSelection(q, state.answers[q.id], optionId);
+    if (result.ids.length) state.answers[q.id] = result.ids;
+    else delete state.answers[q.id];
+    app.querySelectorAll('[data-action="answer"]').forEach((btn) => {
+      const picked = result.ids.includes(btn.dataset.option);
+      btn.classList.toggle('picked', picked);
+      btn.setAttribute('aria-pressed', String(picked));
+    });
+    app.querySelector('.selection-count').textContent = `已选 ${result.ids.length} 项${q.maxSelections ? ` / 最多 ${q.maxSelections} 项` : ''}`;
+    app.querySelector('.selection-status').textContent = result.limited ? '最多选两项，先取消一项就能换。' : '';
+    app.querySelector('[data-action="next"]').disabled = !result.ids.length;
+    saveSession();
+    return;
+  }
+  state.answers[q.id] = optionId;
   nextQuestion();
 }
 
@@ -241,6 +259,7 @@ function nextQuestion() {
   if (state.qIndex < quiz.questions.length - 1) {
     state.qIndex++;
     render();
+    window.scrollTo(0, 0);
   } else {
     go('dealbreakers');
   }
@@ -448,9 +467,13 @@ app.addEventListener('click', (e) => {
     case 'skip':
       skipQuestion();
       break;
+    case 'next':
+      nextQuestion();
+      break;
     case 'prev':
       state.qIndex--;
       render();
+      window.scrollTo(0, 0);
       break;
     case 'toggle-db':
       if (state.dealbreakers.has(id)) state.dealbreakers.delete(id);
@@ -507,15 +530,24 @@ app.addEventListener('click', (e) => {
 document.addEventListener('keydown', (e) => {
   if (document.querySelector('#feedback-dialog[open]') || e.target.closest?.('input, textarea, select, [contenteditable="true"]')) return;
   if (e.ctrlKey || e.metaKey || e.altKey) return;
+  if (e.repeat) return;
   if (state.screen !== 'quiz' && state.screen !== 'dealbreakers') return;
   if (e.key === 'Enter' && state.screen === 'dealbreakers' && engine) {
+    if (e.target.closest?.('button, a')) return;
+    e.preventDefault();
     go('result');
+    return;
+  }
+  if (e.key === 'Enter' && state.screen === 'quiz' && quiz.questions[state.qIndex].multiple) {
+    if (e.target.closest?.('button, a')) return;
+    e.preventDefault();
+    if (selectedOptions(quiz.questions[state.qIndex], state.answers[quiz.questions[state.qIndex].id]).length) nextQuestion();
     return;
   }
   const n = Number(e.key);
   if (!n) return;
   const choice = app.querySelectorAll('.choice')[n - 1];
-  if (choice) choice.click();
+  if (choice) { e.preventDefault(); choice.click(); }
 });
 
 // ---------- 启动 ----------
@@ -526,10 +558,10 @@ async function main() {
       if (!r.ok) throw new Error(`${u}: HTTP ${r.status}`);
       return r.json();
     });
-    const works = load('data/vns.json?v=20261024-cn-feedback');
+    const works = load('data/vns.json?v=20261025-multi');
     // 问卷尚未到齐时，片库请求也可能先失败，先接住拒绝，后面 await 仍会正常报错。
     works.catch(() => {});
-    quiz = await load('data/quiz.json?v=20261024-cn-feedback');
+    quiz = await load('data/quiz.json?v=20261025-multi');
     let needsWorks = false;
     try {
       const saved = JSON.parse(sessionStorage.getItem(SESSION_KEY) ?? 'null');
@@ -550,7 +582,7 @@ async function main() {
       if (!restoreSession()) render();
     } else if (state.screen === 'quiz') {
       // 后台准备完后只更新数量，不打断用户正在看的选项、焦点和题目动画。
-      const hint = app.querySelector('.hint');
+      const hint = app.querySelector('.remaining');
       if (hint) hint.textContent = `目前符合条件：${engine.filterPool(state.answers, [], blocked()).length} 部`;
     } else {
       render();

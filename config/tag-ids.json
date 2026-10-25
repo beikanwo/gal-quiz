@@ -1133,6 +1133,20 @@
       "g540"
     ]
   },
+  "Slice of Life Realism": {
+    "id": "g455",
+    "name": "Slice of Life Realism",
+    "match": "exact",
+    "descendants": [],
+    "descendantsNonEro": []
+  },
+  "Family Drama": {
+    "id": "g3894",
+    "name": "Family Drama",
+    "match": "exact",
+    "descendants": [],
+    "descendantsNonEro": []
+  },
   "Modern Day Earth": {
     "id": "g60",
     "name": "Modern Day Earth",
@@ -1186,120 +1200,6 @@
       "g717",
       "g471",
       "g222"
-    ]
-  },
-  "Adult Protagonist": {
-    "id": "g137",
-    "name": "Adult Protagonist",
-    "match": "exact",
-    "descendants": [
-      "g1632"
-    ],
-    "descendantsNonEro": [
-      "g1632"
-    ]
-  },
-  "Crime": {
-    "id": "g322",
-    "name": "Crime",
-    "match": "exact",
-    "descendants": [
-      "g4052",
-      "g3997",
-      "g1864",
-      "g3752",
-      "g3751",
-      "g1722",
-      "g3996",
-      "g3933",
-      "g3306",
-      "g2346",
-      "g3995",
-      "g3949",
-      "g3193",
-      "g842",
-      "g1034",
-      "g644",
-      "g3734",
-      "g3649",
-      "g3523",
-      "g1899",
-      "g1362",
-      "g3491",
-      "g1808",
-      "g1807",
-      "g702",
-      "g1347",
-      "g2827",
-      "g1343",
-      "g3401",
-      "g2152",
-      "g2791",
-      "g153",
-      "g969",
-      "g1907",
-      "g3531",
-      "g971",
-      "g970",
-      "g2569",
-      "g773",
-      "g662",
-      "g663",
-      "g445",
-      "g216",
-      "g1750",
-      "g1749",
-      "g217",
-      "g3752",
-      "g842"
-    ],
-    "descendantsNonEro": [
-      "g4052",
-      "g3997",
-      "g1864",
-      "g3752",
-      "g3751",
-      "g1722",
-      "g3996",
-      "g3933",
-      "g3306",
-      "g2346",
-      "g3995",
-      "g3949",
-      "g3193",
-      "g842",
-      "g644",
-      "g3734",
-      "g3649",
-      "g3523",
-      "g1899",
-      "g1362",
-      "g3491",
-      "g1808",
-      "g1807",
-      "g702",
-      "g1347",
-      "g2827",
-      "g1343",
-      "g3401",
-      "g2152",
-      "g2791",
-      "g153",
-      "g969",
-      "g1907",
-      "g3531",
-      "g971",
-      "g970",
-      "g2569",
-      "g773",
-      "g662",
-      "g445",
-      "g216",
-      "g1750",
-      "g1749",
-      "g217",
-      "g3752",
-      "g842"
     ]
   },
   "Past Japan": {
@@ -1362,153 +1262,6 @@
       "g1002",
       "g666",
       "g128"
-    ]
-  },
-  "Student Protagonist": {
-    "id": "g544",
-    "name": "Student Protagonist",
-    "match": "exact",
-    "descendants": [
-      "g4111",
-      "g2166",
-      "g1937",
-      "g1802",
-      "g1524",
-      "g1523",
-      "g1512",
-      "g1382",
-      "g1350",
-      "g1185",
-      "g1184",
-      "g1166",
-      "g921"
-    ],
-    "descendantsNonEro": [
-      "g4111",
-      "g2166",
-      "g1937",
-      "g1802",
-      "g1524",
-      "g1523",
-      "g1512",
-      "g1382",
-      "g1350",
-      "g1185",
-      "g1184",
-      "g1166",
-      "g921"
-    ]
-  },
-  "Gentle Protagonist": {
-    "id": "g2075",
-    "name": "Gentle Protagonist",
-    "match": "exact",
-    "descendants": [],
-    "descendantsNonEro": []
-  },
-  "Superpowers": {
-    "id": "g6",
-    "name": "Superpowers",
-    "match": "exact",
-    "descendants": [
-      "g2646",
-      "g1188",
-      "g628",
-      "g3992",
-      "g3396",
-      "g2136",
-      "g995",
-      "g630",
-      "g629",
-      "g260",
-      "g2058"
-    ],
-    "descendantsNonEro": [
-      "g2646",
-      "g1188",
-      "g628",
-      "g3992",
-      "g3396",
-      "g2136",
-      "g995",
-      "g630",
-      "g629",
-      "g260",
-      "g2058"
-    ]
-  },
-  "Hotblooded Protagonist": {
-    "id": "g617",
-    "name": "Hotblooded Protagonist",
-    "match": "exact",
-    "descendants": [],
-    "descendantsNonEro": []
-  },
-  "Genius Protagonist": {
-    "id": "g326",
-    "name": "Genius Protagonist",
-    "match": "exact",
-    "descendants": [
-      "g1465",
-      "g777"
-    ],
-    "descendantsNonEro": [
-      "g1465",
-      "g777"
-    ]
-  },
-  "Pragmatic Protagonist": {
-    "id": "g1569",
-    "name": "Pragmatic Protagonist",
-    "match": "exact",
-    "descendants": [],
-    "descendantsNonEro": []
-  },
-  "Detective Work": {
-    "id": "g323",
-    "name": "Detective Work",
-    "match": "exact",
-    "descendants": [
-      "g591"
-    ],
-    "descendantsNonEro": [
-      "g591"
-    ]
-  },
-  "Antihero Protagonist": {
-    "id": "g525",
-    "name": "Antihero Protagonist",
-    "match": "exact",
-    "descendants": [],
-    "descendantsNonEro": []
-  },
-  "Protagonist with Psychological Problems": {
-    "id": "g500",
-    "name": "Protagonist with Psychological Problems",
-    "match": "exact",
-    "descendants": [
-      "g3882",
-      "g3316",
-      "g999",
-      "g998",
-      "g3449",
-      "g3448",
-      "g503",
-      "g501",
-      "g320",
-      "g1311"
-    ],
-    "descendantsNonEro": [
-      "g3882",
-      "g3316",
-      "g999",
-      "g998",
-      "g3449",
-      "g3448",
-      "g503",
-      "g501",
-      "g320",
-      "g1311"
     ]
   },
   "Romance": {
