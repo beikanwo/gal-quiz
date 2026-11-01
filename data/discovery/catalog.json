@@ -2746,7 +2746,7 @@
         }
       ],
       "source": "https://vndb.org/v28286",
-      "updatedAt": "2026-11-01T14:35:02.236Z",
+      "updatedAt": "2026-11-01T15:29:30.293Z",
       "detailComplete": false,
       "ratings": {
         "vndb": {
@@ -2756,7 +2756,7 @@
           "metric": "贝叶斯评分",
           "via": "原站",
           "url": "https://vndb.org/v28286",
-          "fetchedAt": "2026-11-01T14:41:13.996Z"
+          "fetchedAt": "2026-11-01T15:29:30.293Z"
         }
       },
       "community": {}
@@ -36630,6 +36630,1604 @@
       "source": "https://vndb.org/v45479",
       "updatedAt": "2026-11-01T14:35:02.236Z",
       "detailComplete": false
+    },
+    "v53736": {
+      "id": "v53736",
+      "title": "茧之锤：继承者",
+      "original": "Malleus Cocconum: The Heiress",
+      "aliases": [
+        "Malleus Cocconum: The Heiress",
+        "茧之锤：继承者",
+        "繭之錘：繼承者"
+      ],
+      "released": "2024-11-28",
+      "languages": [
+        "en",
+        "zh-Hans",
+        "zh-Hant"
+      ],
+      "minutes": null,
+      "image": "https://t.vndb.org/cv/72/99872.jpg",
+      "developers": [
+        {
+          "id": "p23280",
+          "name": "Domus Aurea"
+        }
+      ],
+      "source": "https://vndb.org/v53736",
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "detailComplete": true,
+      "originalDescription": "You were Arenda Finch, a fifteen-year-old girl who had inherited a vast fortune. Expelled from your old school, you were transferred to a new school located within Dunkenwood House. The dark side of elitism awaited. Humanity or demonic nature? Love or desire? Your choices would determine her fate.",
+      "description": "因亵神言论被教会女校劝退后，爱伦妲·芬奇转入邓肯伍德庄园内的新学校。她本该专心毕业、修复兄妹关系并继承父亲的遗产，却逐渐接触庄园、家族与同学隐藏的秘密。面对接连出现的危险，她的选择既决定眼前的生死，也改变之后的人生。",
+      "descriptionLanguage": "中文",
+      "descriptionSource": "https://store.steampowered.com/app/2965680/?l=schinese",
+      "staff": [],
+      "screenshots": [],
+      "links": [],
+      "community": {
+        "kungal": {
+          "id": "50240",
+          "url": "https://www.kungal.com/galgame/50240"
+        }
+      },
+      "ratings": {},
+      "descriptionSourceName": "据官方 Steam 中文介绍整理",
+      "descriptionEdited": true,
+      "descriptionMachine": false
+    },
+    "v61460": {
+      "id": "v61460",
+      "title": "ふたり終末論",
+      "original": "ふたり終末論",
+      "aliases": [
+        "Futari Shumatsuron",
+        "ふたり終末論",
+        "二人终末论"
+      ],
+      "released": "2024-08-14",
+      "languages": [
+        "ja",
+        "zh-Hans"
+      ],
+      "minutes": 20,
+      "image": "https://t.vndb.org/cv/25/122725.jpg",
+      "developers": [
+        {
+          "id": "p27729",
+          "name": "夜凪コマメ"
+        }
+      ],
+      "source": "https://vndb.org/v61460",
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "detailComplete": true,
+      "originalDescription": "",
+      "description": "为了逃离痛苦的生活，優理与薊未搭上最后一班列车。醒来下车后，他们来到毫无生机的荒芜世界，身后的道路正缓缓崩塌。这是一部围绕相依为命的兄弟展开的视觉小说，讲述两人寻找能够一直在一起的地方。",
+      "descriptionLanguage": "中文",
+      "descriptionSource": "https://www.kungal.com/galgame/57196",
+      "staff": [],
+      "screenshots": [],
+      "links": [],
+      "community": {
+        "kungal": {
+          "id": "57196",
+          "url": "https://www.kungal.com/galgame/57196"
+        },
+        "bangumi": {
+          "id": 508702,
+          "url": "https://bgm.tv/subject/508702"
+        }
+      },
+      "descriptionSourceName": "据 KUN 社区资料整理",
+      "descriptionMachine": false,
+      "ratings": {
+        "bangumi": {
+          "score": 5.5,
+          "votes": 2,
+          "scale": 10,
+          "metric": "站点评分",
+          "url": "https://bgm.tv/subject/508702",
+          "via": "KUN 评分快照",
+          "viaUrl": "https://www.kungal.com/galgame/57196",
+          "fetchedAt": "2026-11-01T15:29:39.417Z"
+        }
+      },
+      "descriptionEdited": true
+    },
+    "v25366": {
+      "id": "v25366",
+      "title": "恋爱，我就借走咯",
+      "original": "恋愛、借りちゃいました",
+      "aliases": [
+        "Ren'ai, Karichaimashita",
+        "Koikari - Love For Hire",
+        "恋愛、借りちゃいました",
+        "恋爱，我就借走咯",
+        "こいかり",
+        "れんかり",
+        "Renkari",
+        "借恋",
+        "戀愛，我就借走咯",
+        "想谈个恋爱吗？那就给钱吧",
+        "恋爱，我就借走了",
+        "Lian'ai, Wo Jiu Jiezou Le",
+        "恋爱？我就借走了哦！",
+        "恋借",
+        "想谈个恋爱吗？那就给钱吧！"
+      ],
+      "released": "2019-07-26",
+      "languages": [
+        "en",
+        "es",
+        "ja",
+        "zh-Hans"
+      ],
+      "minutes": 1748,
+      "image": "https://t.vndb.org/cv/59/81959.jpg",
+      "developers": [
+        {
+          "id": "p371",
+          "name": "ASa Project"
+        }
+      ],
+      "source": "https://vndb.org/v25366",
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "detailComplete": true,
+      "originalDescription": "Because of his family's unique circumstances, the only thing Yuki put his faith in was that \"Money will make my little sister happy.\" To this end, he regularly worked a part-time job until late at night. \n\nHis goals were to graduate as soon as possible and get a full-time job. But, one day as he was leaving for work, his little sister told him, \"If Yuki isn't going to college then I won't either.\" He knew he couldn't put such a burden upon his little sister.\n\nSo, in order to gather the necessary sum of money to enter university, Yuki signed up for a \"human employment rental\" website. It seemed extremely suspicious, but desperate times call for desperate measures. \n\nHe starts his new job...and for some reason, a girl in his class asks him to be her pretend-boyfriend. Then he's hired to pretend to be a woman's lover, another girl's friend, and even the older brother to a pair of twins!\n\nThe details of his fake relationships with these girls begins as soon as he takes their money!",
+      "description": "「请和我交往吧！」\n\n「请，请不要随意触碰！会晕厥的知道吗？！」\n\n「呐，这是交友费」\n\n「为何会变成这样……」\n\n妹控主人公新海幸（しんかいゆき）。\n\n出于特殊的家庭原因，只坚信“金钱是用来让妹妹幸福的”，每天打工至深夜。\n\n虽然寄希望于尽早从学校毕业，进入社会工作，然而有一天，被妹妹「如果幸不升学的话，自己也不升学并外出工作」这么告知。\n\n无论如何也不想让妹妹受苦。 匆忙筹集升学费用的幸，登录了“派遣人才租赁”网站求职。\n\n————————————\n\n发现新自己\n\n请上派遣人才租赁！\n\n诱人高薪，学生亦可！\n\n轻松・有意义・沟通性工作☆\n\n————————————\n\n虽然明显这工作十分可疑，但不入虎穴焉得虎子，才知道是来自同班同学女子的虚拟恋人请求…… 甚至从情人、朋友到哥哥都有？！ 收取报酬开始的虚拟关系将会如何展开！",
+      "descriptionLanguage": "中文",
+      "descriptionSource": "https://www.kungal.com/galgame/122",
+      "staff": [
+        {
+          "id": "s1091",
+          "name": "夕凪 セシナ",
+          "role": "art",
+          "aliasId": 1854
+        },
+        {
+          "id": "s2750",
+          "name": "結城 リカ",
+          "role": "art",
+          "aliasId": 4123
+        },
+        {
+          "id": "s4808",
+          "name": "八日 なのか",
+          "role": "scenario",
+          "aliasId": 6485
+        },
+        {
+          "id": "s4883",
+          "name": "冬壱 もんめ",
+          "role": "art",
+          "aliasId": 6590
+        },
+        {
+          "id": "s4884",
+          "name": "たかへろ",
+          "role": "art",
+          "aliasId": 6591
+        },
+        {
+          "id": "s4885",
+          "name": "なつき ゆう",
+          "role": "art",
+          "aliasId": 6592
+        },
+        {
+          "id": "s17711",
+          "name": "秋月 すいれん",
+          "role": "art",
+          "aliasId": 22171
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sf126879",
+          "url": "https://t.vndb.org/sf/79/126879.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/79/126879.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf126884",
+          "url": "https://t.vndb.org/sf/84/126884.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/84/126884.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf126886",
+          "url": "https://t.vndb.org/sf/86/126886.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/86/126886.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf160561",
+          "url": "https://t.vndb.org/sf/61/160561.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/61/160561.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf160562",
+          "url": "https://t.vndb.org/sf/62/160562.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/62/160562.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf160563",
+          "url": "https://t.vndb.org/sf/63/160563.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/63/160563.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E6%81%8B%E6%84%9B%E3%80%81%E5%80%9F%E3%82%8A%E3%81%A1%E3%82%83%E3%81%84%E3%81%BE%E3%81%97%E3%81%9F",
+          "label": "Wikipedia (ja)"
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q85880141",
+          "label": "Wikidata"
+        },
+        {
+          "url": "https://www.mobygames.com/game/180676/",
+          "label": "MobyGames"
+        },
+        {
+          "url": "https://gamefaqs.gamespot.com/-/261220-",
+          "label": "GameFAQs"
+        },
+        {
+          "url": "https://gamefaqs.gamespot.com/-/316400-",
+          "label": "GameFAQs"
+        },
+        {
+          "url": "https://gamefaqs.gamespot.com/-/316401-",
+          "label": "GameFAQs"
+        },
+        {
+          "url": "https://www.animecharactersdatabase.com/source.php?id=106433",
+          "label": "ACDB"
+        },
+        {
+          "url": "https://www.igdb.com/games/renai-karichaimashita",
+          "label": "IGDB"
+        },
+        {
+          "url": "https://www.igdb.com/games/renai-karichaimashita-koikari-love-for-hire",
+          "label": "IGDB"
+        },
+        {
+          "url": "https://lutris.net/games/renai-karichaimashita",
+          "label": "Lutris"
+        },
+        {
+          "url": "https://lutris.net/games/renai-karichaimashita-koikari-love-for-hire",
+          "label": "Lutris"
+        }
+      ],
+      "ratings": {
+        "vndb": {
+          "score": 7.24,
+          "scale": 10,
+          "votes": 2448,
+          "metric": "贝叶斯评分",
+          "via": "原站",
+          "url": "https://vndb.org/v25366",
+          "fetchedAt": "2026-11-01T15:29:30.293Z"
+        },
+        "bangumi": {
+          "score": 6.9,
+          "votes": 2268,
+          "scale": 10,
+          "metric": "站点评分",
+          "url": "https://bgm.tv/subject/275265",
+          "via": "KUN 评分快照",
+          "viaUrl": "https://www.kungal.com/galgame/122",
+          "fetchedAt": "2026-11-01T15:29:49.238Z"
+        },
+        "erogamescape": {
+          "score": 78,
+          "votes": 644,
+          "scale": 100,
+          "metric": "站点评分",
+          "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=27736",
+          "via": "KUN 评分快照",
+          "viaUrl": "https://www.kungal.com/galgame/122",
+          "fetchedAt": "2026-11-01T15:29:49.238Z"
+        }
+      },
+      "community": {
+        "kungal": {
+          "id": "122",
+          "url": "https://www.kungal.com/galgame/122"
+        },
+        "bangumi": {
+          "id": 275265,
+          "url": "https://bgm.tv/subject/275265"
+        }
+      },
+      "descriptionSourceName": "KUN 社区",
+      "descriptionMachine": false
+    },
+    "v766": {
+      "id": "v766",
+      "title": "めいくるッ！ Welcome to Happy Maid Life!!",
+      "original": "めいくるッ！ Welcome to Happy Maid Life!!",
+      "aliases": [
+        "Meikuru! Welcome to Happy Maid Life!!",
+        "めいくるッ！ Welcome to Happy Maid Life!!",
+        "めいくるッ！- Welcome to Happy Maid Life！！-"
+      ],
+      "released": "2007-05-25",
+      "languages": [
+        "ja"
+      ],
+      "minutes": 862,
+      "image": null,
+      "developers": [
+        {
+          "id": "p371",
+          "name": "ASa Project"
+        }
+      ],
+      "source": "https://vndb.org/v766",
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "detailComplete": false,
+      "ratings": {
+        "vndb": {
+          "score": 6.5,
+          "scale": 10,
+          "votes": 21,
+          "metric": "贝叶斯评分",
+          "via": "原站",
+          "url": "https://vndb.org/v766",
+          "fetchedAt": "2026-11-01T15:29:30.293Z"
+        }
+      }
+    },
+    "v814": {
+      "id": "v814",
+      "title": "HimeのちHoney",
+      "original": "HimeのちHoney",
+      "aliases": [
+        "Hime nochi Honey",
+        "HimeのちHoney"
+      ],
+      "released": "2008-08-29",
+      "languages": [
+        "ja",
+        "zh-Hans"
+      ],
+      "minutes": null,
+      "image": "https://t.vndb.org/cv/73/69873.jpg",
+      "developers": [
+        {
+          "id": "p371",
+          "name": "ASa Project"
+        }
+      ],
+      "source": "https://vndb.org/v814",
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "detailComplete": false,
+      "ratings": {
+        "vndb": {
+          "score": 6.4,
+          "scale": 10,
+          "votes": 22,
+          "metric": "贝叶斯评分",
+          "via": "原站",
+          "url": "https://vndb.org/v814",
+          "fetchedAt": "2026-11-01T15:29:30.293Z"
+        }
+      }
+    },
+    "v6714": {
+      "id": "v6714",
+      "title": "恋爱0公里",
+      "original": "恋愛0キロメートル",
+      "aliases": [
+        "Ren'ai 0 Kilometer",
+        "恋愛0キロメートル",
+        "恋爱0公里",
+        "戀愛0公里",
+        "Zerokiro",
+        "renzero",
+        "恋0",
+        "恋零"
+      ],
+      "released": "2011-10-28",
+      "languages": [
+        "en",
+        "ja",
+        "zh-Hans",
+        "zh-Hant"
+      ],
+      "minutes": 1146,
+      "image": "https://t.vndb.org/cv/78/116878.jpg",
+      "developers": [
+        {
+          "id": "p371",
+          "name": "ASa Project"
+        }
+      ],
+      "source": "https://vndb.org/v6714",
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "detailComplete": false,
+      "ratings": {
+        "vndb": {
+          "score": 7.0200000000000005,
+          "scale": 10,
+          "votes": 361,
+          "metric": "贝叶斯评分",
+          "via": "原站",
+          "url": "https://vndb.org/v6714",
+          "fetchedAt": "2026-11-01T15:29:30.293Z"
+        }
+      }
+    },
+    "v11300": {
+      "id": "v11300",
+      "title": "间接之恋",
+      "original": "ひとつ飛ばし恋愛",
+      "aliases": [
+        "Hitotsu Tobashi Ren'ai",
+        "ひとつ飛ばし恋愛",
+        "间接之恋",
+        "Hitoren",
+        "间恋"
+      ],
+      "released": "2013-04-26",
+      "languages": [
+        "ja",
+        "pt-br",
+        "zh-Hans"
+      ],
+      "minutes": 1274,
+      "image": "https://t.vndb.org/cv/34/93934.jpg",
+      "developers": [
+        {
+          "id": "p371",
+          "name": "ASa Project"
+        }
+      ],
+      "source": "https://vndb.org/v11300",
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "detailComplete": false,
+      "ratings": {
+        "vndb": {
+          "score": 6.99,
+          "scale": 10,
+          "votes": 247,
+          "metric": "贝叶斯评分",
+          "via": "原站",
+          "url": "https://vndb.org/v11300",
+          "fetchedAt": "2026-11-01T15:29:30.293Z"
+        }
+      }
+    },
+    "v16339": {
+      "id": "v16339",
+      "title": "正负战争",
+      "original": "プラマイウォーズ",
+      "aliases": [
+        "Puramai Wars",
+        "プラマイウォーズ",
+        "正负战争",
+        "Pramai Wars",
+        "Plu-mi Wars",
+        "Plus-minus Wars"
+      ],
+      "released": "2015-04-24",
+      "languages": [
+        "ja",
+        "zh-Hans"
+      ],
+      "minutes": 1885,
+      "image": "https://t.vndb.org/cv/57/91657.jpg",
+      "developers": [
+        {
+          "id": "p371",
+          "name": "ASa Project"
+        }
+      ],
+      "source": "https://vndb.org/v16339",
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "detailComplete": false,
+      "ratings": {
+        "vndb": {
+          "score": 7.35,
+          "scale": 10,
+          "votes": 243,
+          "metric": "贝叶斯评分",
+          "via": "原站",
+          "url": "https://vndb.org/v16339",
+          "fetchedAt": "2026-11-01T15:29:30.293Z"
+        }
+      }
+    },
+    "v19444": {
+      "id": "v19444",
+      "title": "青春×好奇相伴的三角恋爱",
+      "original": "スキとスキとでサンカク恋愛",
+      "aliases": [
+        "Suki to Suki to de Sankaku Ren'ai",
+        "Sankaku Renai: Love Triangle Trouble",
+        "スキとスキとでサンカク恋愛",
+        "青春×好奇相伴的三角恋爱",
+        "Suki to Suki",
+        "Love Triangle Trouble"
+      ],
+      "released": "2016-11-25",
+      "languages": [
+        "en",
+        "es",
+        "ja",
+        "zh-Hans"
+      ],
+      "minutes": 1732,
+      "image": "https://t.vndb.org/cv/36/93936.jpg",
+      "developers": [
+        {
+          "id": "p371",
+          "name": "ASa Project"
+        }
+      ],
+      "source": "https://vndb.org/v19444",
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "detailComplete": false,
+      "ratings": {
+        "vndb": {
+          "score": 6.959999999999999,
+          "scale": 10,
+          "votes": 2578,
+          "metric": "贝叶斯评分",
+          "via": "原站",
+          "url": "https://vndb.org/v19444",
+          "fetchedAt": "2026-11-01T15:29:30.293Z"
+        }
+      }
+    },
+    "v22045": {
+      "id": "v22045",
+      "title": "寄宿之恋",
+      "original": "かりぐらし恋愛",
+      "aliases": [
+        "Karigurashi Ren'ai",
+        "Karigurashi Renai: Living on Borrowed Love",
+        "かりぐらし恋愛",
+        "寄宿之恋",
+        "寄宿之戀",
+        "寄恋"
+      ],
+      "released": "2018-03-30",
+      "languages": [
+        "en",
+        "es",
+        "ja",
+        "zh-Hans",
+        "zh-Hant"
+      ],
+      "minutes": 1275,
+      "image": "https://t.vndb.org/cv/21/89121.jpg",
+      "developers": [
+        {
+          "id": "p371",
+          "name": "ASa Project"
+        }
+      ],
+      "source": "https://vndb.org/v22045",
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "detailComplete": false,
+      "ratings": {
+        "vndb": {
+          "score": 7.359999999999999,
+          "scale": 10,
+          "votes": 689,
+          "metric": "贝叶斯评分",
+          "via": "原站",
+          "url": "https://vndb.org/v22045",
+          "fetchedAt": "2026-11-01T15:29:30.293Z"
+        }
+      }
+    },
+    "v26418": {
+      "id": "v26418",
+      "title": "想谈个恋爱吗？那就给钱吧 绘未&八纯 迷你小剧场",
+      "original": "恋愛、借りちゃいました 絵未＆八純 ミニアフターストーリー",
+      "aliases": [
+        "Ren'ai, Karichaimashita - Emi & Hasumi Mini After Story",
+        "Koikari: Love for Hire - After Hours",
+        "恋愛、借りちゃいました 絵未＆八純 ミニアフターストーリー",
+        "想谈个恋爱吗？那就给钱吧 绘未&八纯 迷你小剧场",
+        "借恋FD2"
+      ],
+      "released": "2020-01-31",
+      "languages": [
+        "en",
+        "ja",
+        "zh-Hans"
+      ],
+      "minutes": 171,
+      "image": null,
+      "developers": [
+        {
+          "id": "p371",
+          "name": "ASa Project"
+        }
+      ],
+      "source": "https://vndb.org/v26418",
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "detailComplete": false,
+      "ratings": {
+        "vndb": {
+          "score": 7.2,
+          "scale": 10,
+          "votes": 308,
+          "metric": "贝叶斯评分",
+          "via": "原站",
+          "url": "https://vndb.org/v26418",
+          "fetchedAt": "2026-11-01T15:29:30.293Z"
+        }
+      }
+    },
+    "v26419": {
+      "id": "v26419",
+      "title": "想谈个恋爱吗？那就给钱吧 椿&千夏&小夏 迷你小剧场",
+      "original": "恋愛、借りちゃいました 椿＆ちなつ＆こなつ ミニアフターストーリー",
+      "aliases": [
+        "Ren'ai, Karichaimashita - Tsubaki & Chinatsu & Konatsu Mini After Story",
+        "Koikari: Love for Hire - After Hours",
+        "恋愛、借りちゃいました 椿＆ちなつ＆こなつ ミニアフターストーリー",
+        "想谈个恋爱吗？那就给钱吧 椿&千夏&小夏 迷你小剧场",
+        "借恋FD1"
+      ],
+      "released": "2019-11-29",
+      "languages": [
+        "en",
+        "ja",
+        "zh-Hans"
+      ],
+      "minutes": 122,
+      "image": null,
+      "developers": [
+        {
+          "id": "p371",
+          "name": "ASa Project"
+        }
+      ],
+      "source": "https://vndb.org/v26419",
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "detailComplete": false,
+      "ratings": {
+        "vndb": {
+          "score": 6.9,
+          "scale": 10,
+          "votes": 258,
+          "metric": "贝叶斯评分",
+          "via": "原站",
+          "url": "https://vndb.org/v26419",
+          "fetchedAt": "2026-11-01T15:29:30.293Z"
+        }
+      }
+    },
+    "v28633": {
+      "id": "v28633",
+      "title": "恋爱×决胜战",
+      "original": "恋愛×ロワイアル",
+      "aliases": [
+        "Ren'ai x Royale",
+        "Renai X Royale - Love's a Battle",
+        "恋愛×ロワイアル",
+        "恋爱×决胜战",
+        "恋ロワ",
+        "Koirowa",
+        "恋决",
+        "恋爱决胜战"
+      ],
+      "released": "2020-11-27",
+      "languages": [
+        "en",
+        "es",
+        "ja",
+        "ko",
+        "zh-Hans"
+      ],
+      "minutes": 1796,
+      "image": "https://t.vndb.org/cv/61/81961.jpg",
+      "developers": [
+        {
+          "id": "p371",
+          "name": "ASa Project"
+        }
+      ],
+      "source": "https://vndb.org/v28633",
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "detailComplete": false,
+      "ratings": {
+        "vndb": {
+          "score": 6.909999999999999,
+          "scale": 10,
+          "votes": 1448,
+          "metric": "贝叶斯评分",
+          "via": "原站",
+          "url": "https://vndb.org/v28633",
+          "fetchedAt": "2026-11-01T15:29:30.293Z"
+        }
+      }
+    },
+    "v30238": {
+      "id": "v30238",
+      "title": "恋爱×决胜战 乃乃香&莲菜&由奈小故事",
+      "original": "恋愛×ロワイアル 乃々香＆蓮菜＆由奈 ミニアフターストーリー",
+      "aliases": [
+        "Ren'ai x Royale - Nonoka & Renna & Yuna Mini After Story",
+        "Renai:Royale: Love’s a Battle- “Victory Parade”",
+        "恋愛×ロワイアル 乃々香＆蓮菜＆由奈 ミニアフターストーリー",
+        "恋爱×决胜战 乃乃香&莲菜&由奈小故事"
+      ],
+      "released": "2021-03-26",
+      "languages": [
+        "en",
+        "ja",
+        "ko",
+        "zh-Hans"
+      ],
+      "minutes": 280,
+      "image": null,
+      "developers": [
+        {
+          "id": "p371",
+          "name": "ASa Project"
+        }
+      ],
+      "source": "https://vndb.org/v30238",
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "detailComplete": false,
+      "ratings": {
+        "vndb": {
+          "score": 7.390000000000001,
+          "scale": 10,
+          "votes": 153,
+          "metric": "贝叶斯评分",
+          "via": "原站",
+          "url": "https://vndb.org/v30238",
+          "fetchedAt": "2026-11-01T15:29:30.293Z"
+        }
+      }
+    },
+    "v30239": {
+      "id": "v30239",
+      "title": "恋爱×决胜战 茉莉&汐音&苍小故事",
+      "original": "恋愛×ロワイアル まり＆汐音＆蒼 ミニアフターストーリー",
+      "aliases": [
+        "Ren'ai x Royale - Mari & Shione & Ao Mini After Story",
+        "Renai:Royale: Love’s a Battle- “Victory Parade”",
+        "恋愛×ロワイアル まり＆汐音＆蒼 ミニアフターストーリー",
+        "恋爱×决胜战 茉莉&汐音&苍小故事"
+      ],
+      "released": "2021-05-28",
+      "languages": [
+        "en",
+        "ja",
+        "ko",
+        "zh-Hans",
+        "zh-Hant"
+      ],
+      "minutes": 225,
+      "image": null,
+      "developers": [
+        {
+          "id": "p371",
+          "name": "ASa Project"
+        }
+      ],
+      "source": "https://vndb.org/v30239",
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "detailComplete": false,
+      "ratings": {
+        "vndb": {
+          "score": 7.340000000000001,
+          "scale": 10,
+          "votes": 135,
+          "metric": "贝叶斯评分",
+          "via": "原站",
+          "url": "https://vndb.org/v30239",
+          "fetchedAt": "2026-11-01T15:29:30.293Z"
+        }
+      }
+    },
+    "v32811": {
+      "id": "v32811",
+      "title": "恋爱成双",
+      "original": "フタマタ恋愛",
+      "aliases": [
+        "Futamata Ren'ai",
+        "Futamata Ren'ai: Two Times the Trouble",
+        "フタマタ恋愛",
+        "恋爱成双",
+        "ふたこい",
+        "Futakoi",
+        "恋双"
+      ],
+      "released": "2022-04-28",
+      "languages": [
+        "en",
+        "es",
+        "ja",
+        "zh-Hans"
+      ],
+      "minutes": 1538,
+      "image": "https://t.vndb.org/cv/64/89064.jpg",
+      "developers": [
+        {
+          "id": "p371",
+          "name": "ASa Project"
+        }
+      ],
+      "source": "https://vndb.org/v32811",
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "detailComplete": false,
+      "ratings": {
+        "vndb": {
+          "score": 7.31,
+          "scale": 10,
+          "votes": 836,
+          "metric": "贝叶斯评分",
+          "via": "原站",
+          "url": "https://vndb.org/v32811",
+          "fetchedAt": "2026-11-01T15:29:30.293Z"
+        }
+      }
+    },
+    "v36615": {
+      "id": "v36615",
+      "title": "恋爱成双 瑠衣&宫子 mini小剧场",
+      "original": "フタマタ恋愛 瑠衣＆宮子ミニアフターストーリー",
+      "aliases": [
+        "Futamata Ren'ai - Rui & Miyako Mini After Story",
+        "フタマタ恋愛 瑠衣＆宮子ミニアフターストーリー",
+        "恋爱成双 瑠衣&宫子 mini小剧场"
+      ],
+      "released": "2022-08-26",
+      "languages": [
+        "ja",
+        "zh-Hans"
+      ],
+      "minutes": 126,
+      "image": "https://t.vndb.org/cv/32/93932.jpg",
+      "developers": [
+        {
+          "id": "p371",
+          "name": "ASa Project"
+        }
+      ],
+      "source": "https://vndb.org/v36615",
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "detailComplete": false,
+      "ratings": {
+        "vndb": {
+          "score": 7.090000000000001,
+          "scale": 10,
+          "votes": 126,
+          "metric": "贝叶斯评分",
+          "via": "原站",
+          "url": "https://vndb.org/v36615",
+          "fetchedAt": "2026-11-01T15:29:30.293Z"
+        }
+      }
+    },
+    "v36616": {
+      "id": "v36616",
+      "title": "恋爱成双 结爱&煌 mini小剧场",
+      "original": "フタマタ恋愛 結愛＆煌ミニアフターストーリー",
+      "aliases": [
+        "Futamata Ren'ai - Yua & Kirame Mini After Story",
+        "フタマタ恋愛 結愛＆煌ミニアフターストーリー",
+        "恋爱成双 结爱&煌 mini小剧场"
+      ],
+      "released": "2022-12-23",
+      "languages": [
+        "ja",
+        "zh-Hans"
+      ],
+      "minutes": 143,
+      "image": "https://t.vndb.org/cv/31/93931.jpg",
+      "developers": [
+        {
+          "id": "p371",
+          "name": "ASa Project"
+        }
+      ],
+      "source": "https://vndb.org/v36616",
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "detailComplete": false,
+      "ratings": {
+        "vndb": {
+          "score": 7.159999999999999,
+          "scale": 10,
+          "votes": 114,
+          "metric": "贝叶斯评分",
+          "via": "原站",
+          "url": "https://vndb.org/v36616",
+          "fetchedAt": "2026-11-01T15:29:30.293Z"
+        }
+      }
+    },
+    "v44195": {
+      "id": "v44195",
+      "title": "八卦恋爱",
+      "original": "コイバナ恋愛",
+      "aliases": [
+        "Koibana Ren'ai",
+        "コイバナ恋愛",
+        "八卦恋爱"
+      ],
+      "released": "2023-09-29",
+      "languages": [
+        "ja",
+        "zh-Hans"
+      ],
+      "minutes": 1355,
+      "image": "https://t.vndb.org/cv/17/89017.jpg",
+      "developers": [
+        {
+          "id": "p371",
+          "name": "ASa Project"
+        }
+      ],
+      "source": "https://vndb.org/v44195",
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "detailComplete": false,
+      "ratings": {
+        "vndb": {
+          "score": 7.51,
+          "scale": 10,
+          "votes": 265,
+          "metric": "贝叶斯评分",
+          "via": "原站",
+          "url": "https://vndb.org/v44195",
+          "fetchedAt": "2026-11-01T15:29:30.293Z"
+        }
+      }
+    },
+    "v49227": {
+      "id": "v49227",
+      "title": "八卦恋爱 after festival",
+      "original": "コイバナ恋愛 ミニファンディスク アフターフェスティバル",
+      "aliases": [
+        "Koibana Ren'ai - Mini Fandisk -  After Festival",
+        "コイバナ恋愛 ミニファンディスク アフターフェスティバル",
+        "八卦恋爱 after festival",
+        "コイバナ恋愛AF"
+      ],
+      "released": "2024-03-29",
+      "languages": [
+        "ja",
+        "zh-Hans"
+      ],
+      "minutes": 330,
+      "image": "https://t.vndb.org/cv/45/73545.jpg",
+      "developers": [
+        {
+          "id": "p371",
+          "name": "ASa Project"
+        }
+      ],
+      "source": "https://vndb.org/v49227",
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "detailComplete": false,
+      "ratings": {
+        "vndb": {
+          "score": 7.2,
+          "scale": 10,
+          "votes": 119,
+          "metric": "贝叶斯评分",
+          "via": "原站",
+          "url": "https://vndb.org/v49227",
+          "fetchedAt": "2026-11-01T15:29:30.293Z"
+        }
+      }
+    },
+    "v52702": {
+      "id": "v52702",
+      "title": "与恋爱初次见面",
+      "original": "恋愛、はじめまして",
+      "aliases": [
+        "Ren'ai, Hajimemashite",
+        "恋愛、はじめまして",
+        "与恋爱初次见面",
+        "恋はじ",
+        "Koihaji",
+        "恋初",
+        "恋爱初邂逅"
+      ],
+      "released": "2025-02-28",
+      "languages": [
+        "ja",
+        "zh-Hans"
+      ],
+      "minutes": 1278,
+      "image": "https://t.vndb.org/cv/31/99831.jpg",
+      "developers": [
+        {
+          "id": "p371",
+          "name": "ASa Project"
+        }
+      ],
+      "source": "https://vndb.org/v52702",
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "detailComplete": false,
+      "ratings": {
+        "vndb": {
+          "score": 7.25,
+          "scale": 10,
+          "votes": 178,
+          "metric": "贝叶斯评分",
+          "via": "原站",
+          "url": "https://vndb.org/v52702",
+          "fetchedAt": "2026-11-01T15:29:30.293Z"
+        }
+      }
+    },
+    "v53065": {
+      "id": "v53065",
+      "title": "月光のアドニス",
+      "original": "月光のアドニス",
+      "aliases": [
+        "Gekkou no Adonisu",
+        "月光のアドニス"
+      ],
+      "released": "2004-08-28",
+      "languages": [
+        "ja"
+      ],
+      "minutes": null,
+      "image": "https://t.vndb.org/cv/30/96130.jpg",
+      "developers": [
+        {
+          "id": "p22934",
+          "name": "adonis project"
+        }
+      ],
+      "source": "https://vndb.org/v53065",
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "detailComplete": false
+    },
+    "v57107": {
+      "id": "v57107",
+      "title": "与恋爱初次见面 夏季假期",
+      "original": "恋愛、はじめまして ミニファンディスク サマーバケーション",
+      "aliases": [
+        "Ren'ai, Hajimemashite - Mini Fandisc - Summer Vacation",
+        "恋愛、はじめまして ミニファンディスク サマーバケーション",
+        "与恋爱初次见面 夏季假期",
+        "恋はじ FD",
+        "Koihaji FD"
+      ],
+      "released": "2025-09-26",
+      "languages": [
+        "ja",
+        "zh-Hans"
+      ],
+      "minutes": 200,
+      "image": null,
+      "developers": [
+        {
+          "id": "p371",
+          "name": "ASa Project"
+        }
+      ],
+      "source": "https://vndb.org/v57107",
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "detailComplete": false,
+      "ratings": {
+        "vndb": {
+          "score": 7.0200000000000005,
+          "scale": 10,
+          "votes": 57,
+          "metric": "贝叶斯评分",
+          "via": "原站",
+          "url": "https://vndb.org/v57107",
+          "fetchedAt": "2026-11-01T15:29:30.293Z"
+        }
+      }
+    },
+    "v63828": {
+      "id": "v63828",
+      "title": "国王恋爱",
+      "original": "王様恋愛",
+      "aliases": [
+        "Ousama Ren'ai",
+        "王様恋愛",
+        "国王恋爱"
+      ],
+      "released": "2026-09-25",
+      "languages": [
+        "ja"
+      ],
+      "minutes": 984,
+      "image": "https://t.vndb.org/cv/06/131606.jpg",
+      "developers": [
+        {
+          "id": "p371",
+          "name": "ASa Project"
+        }
+      ],
+      "source": "https://vndb.org/v63828",
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "detailComplete": false,
+      "ratings": {
+        "vndb": {
+          "score": 7.31,
+          "scale": 10,
+          "votes": 91,
+          "metric": "贝叶斯评分",
+          "via": "原站",
+          "url": "https://vndb.org/v63828",
+          "fetchedAt": "2026-11-01T15:29:30.293Z"
+        }
+      }
+    },
+    "v11568": {
+      "id": "v11568",
+      "title": "モテすぎて修羅場なオレ",
+      "original": "モテすぎて修羅場なオレ",
+      "aliases": [
+        "Mote Sugite Shuraba na Ore",
+        "モテすぎて修羅場なオレ",
+        "Mote Sugite Syuraba na Ore",
+        "Moteore"
+      ],
+      "released": "2013-02-22",
+      "languages": [
+        "ja"
+      ],
+      "minutes": null,
+      "image": "https://t.vndb.org/cv/63/14963.jpg",
+      "developers": [
+        {
+          "id": "p1883",
+          "name": "プラリネ"
+        }
+      ],
+      "source": "https://vndb.org/v11568",
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "detailComplete": false,
+      "ratings": {
+        "vndb": {
+          "score": 6.99,
+          "scale": 10,
+          "votes": 86,
+          "metric": "贝叶斯评分",
+          "via": "原站",
+          "url": "https://vndb.org/v11568",
+          "fetchedAt": "2026-11-01T15:29:30.293Z"
+        }
+      }
+    },
+    "v13249": {
+      "id": "v13249",
+      "title": "他の女の子とHをしているオレを見て興奮する彼女",
+      "original": "他の女の子とHをしているオレを見て興奮する彼女",
+      "aliases": [
+        "Hoka no Onna no Ko to H o Shiteiru Ore o Mite Koufun Suru Kanojo",
+        "My Girlfriend Gets Aroused Watching Me Have Sex With Another Girl",
+        "他の女の子とHをしているオレを見て興奮する彼女"
+      ],
+      "released": "2013-11-29",
+      "languages": [
+        "en",
+        "ja"
+      ],
+      "minutes": 960,
+      "image": null,
+      "developers": [
+        {
+          "id": "p2816",
+          "name": "material"
+        }
+      ],
+      "source": "https://vndb.org/v13249",
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "detailComplete": false,
+      "ratings": {
+        "vndb": {
+          "score": 6.29,
+          "scale": 10,
+          "votes": 350,
+          "metric": "贝叶斯评分",
+          "via": "原站",
+          "url": "https://vndb.org/v13249",
+          "fetchedAt": "2026-11-01T15:29:30.293Z"
+        }
+      }
+    },
+    "v14549": {
+      "id": "v14549",
+      "title": "姉を助けるため残された姉妹を穢す背徳の日々",
+      "original": "姉を助けるため残された姉妹を穢す背徳の日々",
+      "aliases": [
+        "Ane o Tasukeru Tame Nokosareta Shimai o Kegasu Haitoku no Hibi",
+        "姉を助けるため残された姉妹を穢す背徳の日々"
+      ],
+      "released": "2014-04-25",
+      "languages": [
+        "ja"
+      ],
+      "minutes": 960,
+      "image": null,
+      "developers": [
+        {
+          "id": "p115",
+          "name": "Guilty"
+        },
+        {
+          "id": "p2816",
+          "name": "material"
+        }
+      ],
+      "source": "https://vndb.org/v14549",
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "detailComplete": false,
+      "ratings": {
+        "vndb": {
+          "score": 6.69,
+          "scale": 10,
+          "votes": 55,
+          "metric": "贝叶斯评分",
+          "via": "原站",
+          "url": "https://vndb.org/v14549",
+          "fetchedAt": "2026-11-01T15:29:30.293Z"
+        }
+      }
+    },
+    "v15925": {
+      "id": "v15925",
+      "title": "お嬢様はカタイのがお好き！ ～神性なる女子寮日記～",
+      "original": "お嬢様はカタイのがお好き！ ～神性なる女子寮日記～",
+      "aliases": [
+        "Ojou-sama wa Katai no ga Osuki! ~Shinsei Naru Joshi Ryou Nikki~",
+        "お嬢様はカタイのがお好き！ ～神性なる女子寮日記～",
+        "Ojokata"
+      ],
+      "released": "2014-11-28",
+      "languages": [
+        "ja"
+      ],
+      "minutes": null,
+      "image": null,
+      "developers": [
+        {
+          "id": "p5972",
+          "name": "Sweet HEART"
+        }
+      ],
+      "source": "https://vndb.org/v15925",
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "detailComplete": false,
+      "ratings": {
+        "vndb": {
+          "score": 6.959999999999999,
+          "scale": 10,
+          "votes": 71,
+          "metric": "贝叶斯评分",
+          "via": "原站",
+          "url": "https://vndb.org/v15925",
+          "fetchedAt": "2026-11-01T15:29:30.293Z"
+        }
+      }
+    },
+    "v16446": {
+      "id": "v16446",
+      "title": "じゅ～にんかんり！ ～10人の乙女に愛の手を～",
+      "original": "じゅ～にんかんり！ ～10人の乙女に愛の手を～",
+      "aliases": [
+        "Juunin Kanri! ~Juunin no Otome ni Ai no Te o~",
+        "じゅ～にんかんり！ ～10人の乙女に愛の手を～"
+      ],
+      "released": "2015-02-27",
+      "languages": [
+        "ja"
+      ],
+      "minutes": null,
+      "image": null,
+      "developers": [
+        {
+          "id": "p4876",
+          "name": "MATERIAL MEL"
+        }
+      ],
+      "source": "https://vndb.org/v16446",
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "detailComplete": false,
+      "ratings": {
+        "vndb": {
+          "score": 6.890000000000001,
+          "scale": 10,
+          "votes": 44,
+          "metric": "贝叶斯评分",
+          "via": "原站",
+          "url": "https://vndb.org/v16446",
+          "fetchedAt": "2026-11-01T15:29:30.293Z"
+        }
+      }
+    },
+    "v17093": {
+      "id": "v17093",
+      "title": "エッチでヘンタイ！ ヤキモチお嬢様！！",
+      "original": "エッチでヘンタイ！ ヤキモチお嬢様！！",
+      "aliases": [
+        "Ecchi de Hentai! Yakimochi Ojou-sama!!",
+        "エッチでヘンタイ！ ヤキモチお嬢様！！"
+      ],
+      "released": "2015-07-24",
+      "languages": [
+        "ja"
+      ],
+      "minutes": 900,
+      "image": null,
+      "developers": [
+        {
+          "id": "p4304",
+          "name": "ensemble SWEET"
+        }
+      ],
+      "source": "https://vndb.org/v17093",
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "detailComplete": false,
+      "ratings": {
+        "vndb": {
+          "score": 6.92,
+          "scale": 10,
+          "votes": 53,
+          "metric": "贝叶斯评分",
+          "via": "原站",
+          "url": "https://vndb.org/v17093",
+          "fetchedAt": "2026-11-01T15:29:30.293Z"
+        }
+      }
+    },
+    "v29205": {
+      "id": "v29205",
+      "title": "Angelica",
+      "original": "Angelica",
+      "aliases": [
+        "Angelica",
+        "アンジェリカ"
+      ],
+      "released": "TBA",
+      "languages": [],
+      "minutes": null,
+      "image": "https://t.vndb.org/cv/63/43363.jpg",
+      "developers": [
+        {
+          "id": "p10332",
+          "name": "NP"
+        }
+      ],
+      "source": "https://vndb.org/v29205",
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "detailComplete": false
+    },
+    "v15284": {
+      "id": "v15284",
+      "title": "恋春Adolescence",
+      "original": "恋春アドレセンス",
+      "aliases": [
+        "Koiharu Adolescence",
+        "恋春アドレセンス",
+        "恋春Adolescence"
+      ],
+      "released": "2014-10-31",
+      "languages": [
+        "ja",
+        "zh-Hans"
+      ],
+      "minutes": null,
+      "image": null,
+      "developers": [
+        {
+          "id": "p4385",
+          "name": "エクレール"
+        }
+      ],
+      "source": "https://vndb.org/v15284",
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "detailComplete": false,
+      "ratings": {
+        "vndb": {
+          "score": 7.19,
+          "scale": 10,
+          "votes": 77,
+          "metric": "贝叶斯评分",
+          "via": "原站",
+          "url": "https://vndb.org/v15284",
+          "fetchedAt": "2026-11-01T15:29:30.293Z"
+        }
+      }
+    },
+    "v23338": {
+      "id": "v23338",
+      "title": "少女缔结的月之光辉",
+      "original": "乙女が結ぶ月夜の煌めき",
+      "aliases": [
+        "Otome ga Musubu Tsukiyo no Kirameki",
+        "乙女が結ぶ月夜の煌めき",
+        "少女缔结的月之光辉",
+        "乙月",
+        "Ototsuki"
+      ],
+      "released": "2018-11-30",
+      "languages": [
+        "ja",
+        "zh-Hans"
+      ],
+      "minutes": null,
+      "image": null,
+      "developers": [
+        {
+          "id": "p628",
+          "name": "ensemble"
+        }
+      ],
+      "source": "https://vndb.org/v23338",
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "detailComplete": false,
+      "ratings": {
+        "vndb": {
+          "score": 7.15,
+          "scale": 10,
+          "votes": 85,
+          "metric": "贝叶斯评分",
+          "via": "原站",
+          "url": "https://vndb.org/v23338",
+          "fetchedAt": "2026-11-01T15:29:30.293Z"
+        }
+      }
+    },
+    "v26135": {
+      "id": "v26135",
+      "title": "二人だけのアクアブルー",
+      "original": "二人だけのアクアブルー",
+      "aliases": [
+        "Futari Dake no Aqua Blue",
+        "二人だけのアクアブルー"
+      ],
+      "released": "2016-04-16",
+      "languages": [
+        "ja"
+      ],
+      "minutes": null,
+      "image": "https://t.vndb.org/cv/57/39357.jpg",
+      "developers": [
+        {
+          "id": "p9312",
+          "name": "ルナリアプロジェクト"
+        }
+      ],
+      "source": "https://vndb.org/v26135",
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "detailComplete": false
+    },
+    "v3671": {
+      "id": "v3671",
+      "title": "逆转爱恋",
+      "original": "アッチむいて恋",
+      "aliases": [
+        "Acchi Muite Koi",
+        "アッチむいて恋",
+        "逆转爱恋",
+        "Acchimuite Koi!",
+        "achikoi",
+        "acchikoi",
+        "atchikoi",
+        "Atchi Muite Koi",
+        "转恋"
+      ],
+      "released": "2010-04-30",
+      "languages": [
+        "ja",
+        "zh-Hans"
+      ],
+      "minutes": 1364,
+      "image": "https://t.vndb.org/cv/74/69874.jpg",
+      "developers": [
+        {
+          "id": "p371",
+          "name": "ASa Project"
+        }
+      ],
+      "source": "https://vndb.org/v3671",
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "detailComplete": false,
+      "ratings": {
+        "vndb": {
+          "score": 7.17,
+          "scale": 10,
+          "votes": 121,
+          "metric": "贝叶斯评分",
+          "via": "原站",
+          "url": "https://vndb.org/v3671",
+          "fetchedAt": "2026-11-01T15:29:30.293Z"
+        }
+      }
+    },
+    "v24779": {
+      "id": "v24779",
+      "title": "九段之都市传说",
+      "original": "クダンノフォークロア",
+      "aliases": [
+        "Kudan no Folklore",
+        "The Curse of Kudan",
+        "クダンノフォークロア",
+        "九段之都市传说",
+        "Folklore of Kudan"
+      ],
+      "released": "2019-04-26",
+      "languages": [
+        "en",
+        "es",
+        "ja",
+        "zh-Hans",
+        "zh-Hant"
+      ],
+      "minutes": 720,
+      "image": "https://t.vndb.org/cv/01/38101.jpg",
+      "developers": [
+        {
+          "id": "p6944",
+          "name": "SukeraSparo"
+        }
+      ],
+      "source": "https://vndb.org/v24779",
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "detailComplete": false,
+      "ratings": {
+        "vndb": {
+          "score": 6.890000000000001,
+          "scale": 10,
+          "votes": 254,
+          "metric": "贝叶斯评分",
+          "via": "原站",
+          "url": "https://vndb.org/v24779",
+          "fetchedAt": "2026-11-01T15:29:30.293Z"
+        }
+      }
+    },
+    "v64700": {
+      "id": "v64700",
+      "title": "めいくるッ! Welcome to Happy Maid Life!! 恵理栖ミニシナリオ",
+      "original": "めいくるッ! Welcome to Happy Maid Life!! 恵理栖ミニシナリオ",
+      "aliases": [
+        "Meikuru! Welcome to Happy Maid Life!! Erisu Mini Scenario",
+        "めいくるッ! Welcome to Happy Maid Life!! 恵理栖ミニシナリオ"
+      ],
+      "released": "2007-05-25",
+      "languages": [
+        "ja"
+      ],
+      "minutes": null,
+      "image": null,
+      "developers": [
+        {
+          "id": "p371",
+          "name": "ASa Project"
+        }
+      ],
+      "source": "https://vndb.org/v64700",
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "detailComplete": false
     }
   },
   "staff": {
@@ -44562,6 +46160,838 @@
       ],
       "updatedAt": "2026-11-01T14:35:02.236Z",
       "source": "https://vndb.org/s2487"
+    },
+    "s1091": {
+      "id": "s1091",
+      "name": "夕凪 セシナ",
+      "aliases": [
+        "Yuunagi Seshina",
+        "夕凪 セシナ"
+      ],
+      "description": "Yuunagi Seshina, born September 1, is a Japanese illustrator.\nOld site",
+      "links": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E5%A4%95%E5%87%AA%E3%82%BB%E3%82%B7%E3%83%8A",
+          "label": "jawiki"
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q24899206",
+          "label": "wikidata"
+        },
+        {
+          "url": "https://www.pixiv.net/member.php?id=382708",
+          "label": "pixiv"
+        },
+        {
+          "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/creater.php?creater=3394",
+          "label": "egs_creator"
+        }
+      ],
+      "works": [
+        {
+          "id": "v766",
+          "roles": [
+            "chardesign",
+            "art"
+          ]
+        },
+        {
+          "id": "v814",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v6714",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v11300",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v16339",
+          "roles": [
+            "art",
+            "chardesign"
+          ]
+        },
+        {
+          "id": "v19444",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v22045",
+          "roles": [
+            "chardesign"
+          ]
+        },
+        {
+          "id": "v25366",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v26418",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v26419",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v28633",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v30238",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v30239",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v32811",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v36615",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v36616",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v44195",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v49227",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v52702",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v53065",
+          "roles": [
+            "art",
+            "chardesign"
+          ]
+        },
+        {
+          "id": "v57107",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v63828",
+          "roles": [
+            "art",
+            "chardesign"
+          ]
+        }
+      ],
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "source": "https://vndb.org/s1091"
+    },
+    "s2750": {
+      "id": "s2750",
+      "name": "結城 リカ",
+      "aliases": [
+        "Yuuki Rika",
+        "結城 リカ"
+      ],
+      "description": "Yuuki Rika is an illustrator and manga artist from Chiba Prefecture.\n\nBlog | Blog 2 | Skeb | Vatican Miracle Examiner fan works",
+      "links": [],
+      "works": [
+        {
+          "id": "v11568",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v13249",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v14549",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v15925",
+          "roles": [
+            "art",
+            "chardesign",
+            "staff"
+          ]
+        },
+        {
+          "id": "v16339",
+          "roles": [
+            "art",
+            "chardesign"
+          ]
+        },
+        {
+          "id": "v16446",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v17093",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v19444",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v22045",
+          "roles": [
+            "chardesign"
+          ]
+        },
+        {
+          "id": "v25366",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v26418",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v26419",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v28633",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v29205",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v30238",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v30239",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v32811",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v36615",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v36616",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v44195",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v49227",
+          "roles": [
+            "art"
+          ]
+        }
+      ],
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "source": "https://vndb.org/s2750"
+    },
+    "s4808": {
+      "id": "s4808",
+      "name": "八日 なのか",
+      "aliases": [
+        "Youka Nanoka",
+        "八日 なのか"
+      ],
+      "description": "Scenario writer. \n\nKakuyomu",
+      "links": [
+        {
+          "url": "https://x.com/youka_nanoka",
+          "label": "twitter"
+        }
+      ],
+      "works": [
+        {
+          "id": "v15284",
+          "roles": [
+            "scenario",
+            "staff"
+          ]
+        },
+        {
+          "id": "v16339",
+          "roles": [
+            "staff"
+          ]
+        },
+        {
+          "id": "v19444",
+          "roles": [
+            "scenario",
+            "staff"
+          ]
+        },
+        {
+          "id": "v22045",
+          "roles": [
+            "scenario",
+            "staff"
+          ]
+        },
+        {
+          "id": "v23338",
+          "roles": [
+            "scenario"
+          ]
+        },
+        {
+          "id": "v25366",
+          "roles": [
+            "scenario",
+            "staff"
+          ]
+        },
+        {
+          "id": "v26418",
+          "roles": [
+            "scenario"
+          ]
+        },
+        {
+          "id": "v26419",
+          "roles": [
+            "staff"
+          ]
+        },
+        {
+          "id": "v28633",
+          "roles": [
+            "scenario",
+            "staff"
+          ]
+        },
+        {
+          "id": "v30238",
+          "roles": [
+            "scenario"
+          ]
+        },
+        {
+          "id": "v30239",
+          "roles": [
+            "scenario"
+          ]
+        },
+        {
+          "id": "v32811",
+          "roles": [
+            "scenario",
+            "staff"
+          ]
+        },
+        {
+          "id": "v36615",
+          "roles": [
+            "scenario"
+          ]
+        },
+        {
+          "id": "v36616",
+          "roles": [
+            "scenario"
+          ]
+        },
+        {
+          "id": "v44195",
+          "roles": [
+            "scenario",
+            "staff"
+          ]
+        },
+        {
+          "id": "v49227",
+          "roles": [
+            "scenario",
+            "staff"
+          ]
+        },
+        {
+          "id": "v52702",
+          "roles": [
+            "scenario",
+            "staff"
+          ]
+        },
+        {
+          "id": "v57107",
+          "roles": [
+            "scenario"
+          ]
+        },
+        {
+          "id": "v63828",
+          "roles": [
+            "scenario"
+          ]
+        }
+      ],
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "source": "https://vndb.org/s4808"
+    },
+    "s4883": {
+      "id": "s4883",
+      "name": "冬壱 もんめ",
+      "aliases": [
+        "Fuyuichi Monme",
+        "冬壱 もんめ"
+      ],
+      "description": "Fuyuichi Monme is an illustrator and manga artist.",
+      "links": [
+        {
+          "url": "https://x.com/fyicmnm",
+          "label": "twitter"
+        },
+        {
+          "url": "https://www.pixiv.net/member.php?id=5813660",
+          "label": "pixiv"
+        }
+      ],
+      "works": [
+        {
+          "id": "v16339",
+          "roles": [
+            "art",
+            "chardesign"
+          ]
+        },
+        {
+          "id": "v19444",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v22045",
+          "roles": [
+            "chardesign"
+          ]
+        },
+        {
+          "id": "v25366",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v26135",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v26418",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v26419",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v28633",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v30238",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v30239",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v32811",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v36615",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v36616",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v44195",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v49227",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v52702",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v57107",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v63828",
+          "roles": [
+            "art",
+            "chardesign"
+          ]
+        }
+      ],
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "source": "https://vndb.org/s4883"
+    },
+    "s4884": {
+      "id": "s4884",
+      "name": "たかへろ",
+      "aliases": [
+        "Takahero",
+        "たかへろ"
+      ],
+      "description": "",
+      "links": [
+        {
+          "url": "https://x.com/takaheroid",
+          "label": "twitter"
+        },
+        {
+          "url": "https://www.pixiv.net/member.php?id=293830",
+          "label": "pixiv"
+        },
+        {
+          "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/creater.php?creater=18674",
+          "label": "egs_creator"
+        }
+      ],
+      "works": [
+        {
+          "id": "v3671",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v6714",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v11300",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v16339",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v19444",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v22045",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v25366",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v28633",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v32811",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v44195",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v49227",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v52702",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v63828",
+          "roles": [
+            "art"
+          ]
+        }
+      ],
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "source": "https://vndb.org/s4884"
+    },
+    "s4885": {
+      "id": "s4885",
+      "name": "なつき ゆう",
+      "aliases": [
+        "Natsuki Yuu",
+        "なつき ゆう"
+      ],
+      "description": "Natsuki Yuu, born June 22, is an illustrator and manga artist lives in Saitama Prefecture. \n\nSkeb",
+      "links": [
+        {
+          "url": "https://x.com/natsukiyuu",
+          "label": "twitter"
+        },
+        {
+          "url": "https://www.pixiv.net/member.php?id=226893",
+          "label": "pixiv"
+        },
+        {
+          "url": "https://amemizu.fanbox.cc/",
+          "label": "fanbox"
+        }
+      ],
+      "works": [
+        {
+          "id": "v16339",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v19444",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v22045",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v25366",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v28633",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v30238",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v32811",
+          "roles": [
+            "staff"
+          ]
+        },
+        {
+          "id": "v44195",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v49227",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v52702",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v63828",
+          "roles": [
+            "art"
+          ]
+        }
+      ],
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "source": "https://vndb.org/s4885"
+    },
+    "s17711": {
+      "id": "s17711",
+      "name": "秋月 すいれん",
+      "aliases": [
+        "Akizuki Suiren",
+        "秋月 すいれん"
+      ],
+      "description": "",
+      "links": [
+        {
+          "url": "https://x.com/AKsuiren",
+          "label": "twitter"
+        }
+      ],
+      "works": [
+        {
+          "id": "v22045",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v24779",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v25366",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v28286",
+          "roles": [
+            "art"
+          ]
+        },
+        {
+          "id": "v28633",
+          "roles": [
+            "art"
+          ]
+        }
+      ],
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "source": "https://vndb.org/s17711"
     }
   },
   "producers": {
@@ -45985,6 +48415,167 @@
       "aliases": [
         "Canvas+Garden"
       ]
+    },
+    "p23280": {
+      "id": "p23280",
+      "name": "Domus Aurea",
+      "aliases": [
+        "Domus Aurea"
+      ],
+      "description": "",
+      "links": [],
+      "works": [
+        {
+          "id": "v53736"
+        }
+      ],
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "source": "https://vndb.org/p23280"
+    },
+    "p27729": {
+      "id": "p27729",
+      "name": "夜凪コマメ",
+      "aliases": [
+        "Yonagi Komame",
+        "夜凪コマメ"
+      ],
+      "description": "",
+      "links": [
+        {
+          "url": "https://lit.link/zh-tw/yonagicomame",
+          "label": "website"
+        },
+        {
+          "url": "https://x.com/C_yonagi",
+          "label": "twitter"
+        },
+        {
+          "url": "https://www.pixiv.net/member.php?id=106381909",
+          "label": "pixiv"
+        }
+      ],
+      "works": [
+        {
+          "id": "v61460"
+        }
+      ],
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "source": "https://vndb.org/p27729"
+    },
+    "p371": {
+      "id": "p371",
+      "name": "ASa Project",
+      "aliases": [
+        "ASa Project"
+      ],
+      "description": "",
+      "links": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/ASa_Project",
+          "label": "jawiki"
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q11189680",
+          "label": "wikidata"
+        },
+        {
+          "url": "https://x.com/ASaProject_2016",
+          "label": "twitter"
+        },
+        {
+          "url": "https://www.mobygames.com/company/asa-project",
+          "label": "mobygames_company"
+        },
+        {
+          "url": "https://gamefaqs.gamespot.com/company/78019-",
+          "label": "gamefaqs_company"
+        },
+        {
+          "url": "https://fantia.jp/fanclubs/332535",
+          "label": "fantia"
+        },
+        {
+          "url": "https://hooksoft.booth.pm/",
+          "label": "booth_pub"
+        },
+        {
+          "url": "https://www.youtube.com/@hooksoftofficial",
+          "label": "youtube"
+        }
+      ],
+      "works": [
+        {
+          "id": "v766"
+        },
+        {
+          "id": "v814"
+        },
+        {
+          "id": "v3671"
+        },
+        {
+          "id": "v6714"
+        },
+        {
+          "id": "v11300"
+        },
+        {
+          "id": "v16339"
+        },
+        {
+          "id": "v19444"
+        },
+        {
+          "id": "v22045"
+        },
+        {
+          "id": "v25366"
+        },
+        {
+          "id": "v26418"
+        },
+        {
+          "id": "v26419"
+        },
+        {
+          "id": "v28633"
+        },
+        {
+          "id": "v30238"
+        },
+        {
+          "id": "v30239"
+        },
+        {
+          "id": "v32811"
+        },
+        {
+          "id": "v36615"
+        },
+        {
+          "id": "v36616"
+        },
+        {
+          "id": "v44195"
+        },
+        {
+          "id": "v49227"
+        },
+        {
+          "id": "v52702"
+        },
+        {
+          "id": "v57107"
+        },
+        {
+          "id": "v63828"
+        },
+        {
+          "id": "v64700"
+        }
+      ],
+      "updatedAt": "2026-11-01T15:29:30.293Z",
+      "source": "https://vndb.org/p371"
     }
   }
 }

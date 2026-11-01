@@ -29,7 +29,7 @@ export class Metadata {
     const titles = row.titles ?? [];
     const title = titles.find((t) => t.lang === 'zh-Hans')?.title ?? titles.find((t) => t.lang === 'zh-Hant')?.title ?? row.alttitle ?? row.title;
     const override = this.overrides.works?.[row.id] ?? {};
-    const record = { ...previous, id: row.id, title, original: row.alttitle ?? row.title, aliases: [...new Set([row.title, ...titles.map((t) => t.title), ...(row.aliases ?? [])].filter(Boolean))], released: row.released, languages: row.languages ?? [], minutes: row.length_minutes, image: row.image?.sexual === 0 && row.image?.violence === 0 ? safeUrl(row.image.url) : null, developers: (row.developers ?? []).map((p) => ({ id: p.id, name: p.original ?? p.name })), source: `https://vndb.org/${row.id}`, updatedAt: this.now, detailComplete: detailed || previous?.detailComplete || false };
+    const record = { ...previous, id: row.id, title, original: row.alttitle ?? row.title, aliases: [...new Set([row.title, ...titles.map((t) => t.title), ...(row.aliases ?? []), ...(previous?.aliases ?? [])].filter(Boolean))], released: row.released, languages: row.languages ?? [], minutes: row.length_minutes, image: row.image?.sexual === 0 && row.image?.violence === 0 ? safeUrl(row.image.url) : null, developers: (row.developers ?? []).map((p) => ({ id: p.id, name: p.original ?? p.name })), source: `https://vndb.org/${row.id}`, updatedAt: this.now, detailComplete: detailed || previous?.detailComplete || false };
     if (detailed) {
       record.originalDescription = plain(row.description);
       if (previous?.descriptionLanguage !== '中文') {

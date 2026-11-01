@@ -1,5 +1,7 @@
 {
-  "aliases": {},
+  "aliases": {
+    "茧之锤": "v53736"
+  },
   "evidence": {},
   "works": {
     "v22636": {
@@ -40,6 +42,16 @@
     "v69315": {
       "description": "故事发生在1998年的东京。持续不断的雨中，一名少女渴望世界毁灭，几位孤独的年轻人也逐渐卷入其中。他们作出的选择，将与这个世界的命运相连。",
       "descriptionSource": "https://www.kungal.com/galgame/271056",
+      "descriptionSourceName": "据 KUN 社区资料整理"
+    },
+    "v53736": {
+      "description": "因亵神言论被教会女校劝退后，爱伦妲·芬奇转入邓肯伍德庄园内的新学校。她本该专心毕业、修复兄妹关系并继承父亲的遗产，却逐渐接触庄园、家族与同学隐藏的秘密。面对接连出现的危险，她的选择既决定眼前的生死，也改变之后的人生。",
+      "descriptionSource": "https://store.steampowered.com/app/2965680/?l=schinese",
+      "descriptionSourceName": "据官方 Steam 中文介绍整理"
+    },
+    "v61460": {
+      "description": "为了逃离痛苦的生活，優理与薊未搭上最后一班列车。醒来下车后，他们来到毫无生机的荒芜世界，身后的道路正缓缓崩塌。这是一部围绕相依为命的兄弟展开的视觉小说，讲述两人寻找能够一直在一起的地方。",
+      "descriptionSource": "https://www.kungal.com/galgame/57196",
       "descriptionSourceName": "据 KUN 社区资料整理"
     }
   },

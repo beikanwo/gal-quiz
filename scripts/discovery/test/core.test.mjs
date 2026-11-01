@@ -14,9 +14,10 @@ test('15-day China calendar periods remain anchored across months and delayed ru
   assert.equal(periodFor('2026-11-01', '2026-12-02T10:00:00+08:00').id, '2026-12-01');
   assert.equal(periodFor('2026-11-10', '2026-11-01T10:00:00+08:00'), null);
 });
-test('3000 likes and inclusive start/exclusive end, invalid dates/counts rejected', () => {
-  assert.ok(qualifies(record(), period));
-  assert.ok(!qualifies(record({ likes: 2999 }), period));
+test('1000 likes and inclusive start/exclusive end, invalid dates/counts rejected', () => {
+  assert.ok(qualifies(record({ likes: 1000 }), period));
+  assert.ok(!qualifies(record({ likes: 999 }), period));
+  assert.ok(!qualifies(record({ likes: 2999 }), period, 3000));
   assert.ok(qualifies(record({ publishedAt: period.start }), period));
   assert.ok(!qualifies(record({ publishedAt: period.end }), period));
   assert.ok(!qualifies(record({ likes: '3000' }), period));
@@ -112,9 +113,11 @@ test('summary refresh does not destroy detailed metadata or drop low-vote sequel
   const catalog = { works: {}, staff: {}, producers: {} };
   const metadata = new Metadata(catalog);
   metadata.work({ id: 'v1', title: 'low-vote sequel', description: 'intro [spoiler]ending[/spoiler]', staff: [], screenshots: [] }, true);
+  catalog.works.v1.aliases.push('社区中文别名');
   metadata.work({ id: 'v1', title: 'low-vote sequel' });
   assert.equal(catalog.works.v1.detailComplete, true);
   assert.equal(catalog.works.v1.description, 'intro （剧情内容已隐藏）');
+  assert.ok(catalog.works.v1.aliases.includes('社区中文别名'));
 });
 test('edge route whitelist accepts new documents and rejects arbitrary files', () => {
   for (const route of ['quiz/index.html', 'works/v1/index.html', 'staff/s1/index.html', 'producers/p1/index.html', 'periods/2026-11-01/index.html', 'data/discovery.json']) assert.ok(isAllowedFile(route), route);

@@ -142,11 +142,12 @@ export async function run(options = args()) {
         }
       }
     }
-    attempts[platform] = { status, error, collectedAt: saved ? saved.platforms[platform].collectedAt : new Date().toISOString(), records: dedupe(matched), coverage: { keywords, queries, pages, failedQueries, maxPagesPerQuery: options.probe ? 1 : config.pagesPerKeyword, candidateCount: dedupe(records).length, qualifiedCount: qualified.length } };
-    report.platforms[platform] = { status, error, collectedAt, fetched: dedupe(records).length, qualified: qualified.length, matched: dedupe(matched).length, sample: dedupe(matched).slice(0, 5), coverage: attempts[platform].coverage };
-    console.log(`${platform}：${status}；候选 ${dedupe(records).length}，达标 ${qualified.length}，明确对应 ${dedupe(matched).length}`);
+    const qualifiedRecords = dedupe(records).filter((r) => qualifies(r, period, config.minLikes) && canonicalEvidenceUrl(r.platform, r.id, r.kind) === r.url);
+    attempts[platform] = { status, error, collectedAt: saved ? saved.platforms[platform].collectedAt : new Date().toISOString(), records: dedupe(matched), coverage: { keywords, queries, pages, failedQueries, maxPagesPerQuery: options.probe ? 1 : config.pagesPerKeyword, candidateCount: dedupe(records).length, qualifiedCount: qualifiedRecords.length } };
+    report.platforms[platform] = { status, error, collectedAt, fetched: dedupe(records).length, qualified: qualifiedRecords.length, matched: dedupe(matched).length, sample: dedupe(matched).slice(0, 5), coverage: attempts[platform].coverage };
+    console.log(`${platform}：${status}；候选 ${dedupe(records).length}，达标 ${qualifiedRecords.length}，明确对应 ${dedupe(matched).length}`);
     // Persist sanitized qualified evidence for corrections without storing credentials or media payloads.
-    attempts[platform].reviewRecords = dedupe(records).filter((r) => qualifies(r, period, config.minLikes));
+    attempts[platform].reviewRecords = qualifiedRecords;
     await writeJson(`data/raw/discovery/checkpoint-${platform}.json`,{period,platform,attempt:attempts[platform],pending:report.pending.filter(r=>r.platform===platform)});
   }
   report.finishedAt = new Date().toISOString();

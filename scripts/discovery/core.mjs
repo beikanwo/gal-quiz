@@ -12,7 +12,7 @@ export function periodFor(anchorDate, now = new Date(), intervalDays = 15) {
   const end = midnight(anchorDate) + index * intervalDays * dayMs;
   return { id: chinaDate(end), start: new Date(end - intervalDays * dayMs).toISOString(), end: new Date(end).toISOString(), endDate: chinaDate(end) };
 }
-export function qualifies(record, period, minLikes = 3000) {
+export function qualifies(record, period, minLikes = 1000) {
   const time = Date.parse(record.publishedAt);
   return PLATFORMS.includes(record.platform) && typeof record.id === 'string' && record.id.length > 0 &&
     Number.isInteger(record.likes) && record.likes >= minLikes && Number.isFinite(time) &&
@@ -81,7 +81,7 @@ export function publicScreenshot(image, override = {}) {
   if (!safeUrl(image.url) || image.sexual !== 0 || image.violence > 0) return null;
   return { id: image.id, url: safeUrl(image.url), thumbnail: safeUrl(image.thumbnail) ?? safeUrl(image.url), spoiler: override.spoiler !== false, source: override.source ?? 'VNDB', credit: override.credit ?? '画面版权归游戏权利人所有' };
 }
-export function combinePeriod(period, attempts, previous = null, minLikes = 3000) {
+export function combinePeriod(period, attempts, previous = null, minLikes = 1000) {
   const platforms = {};
   for (const name of PLATFORMS) {
     const attempt = attempts[name];

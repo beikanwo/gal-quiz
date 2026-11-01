@@ -32,7 +32,7 @@ node scripts/serve.mjs 8080
 
 更新既有资料的中文简介及评分：`node scripts/discovery/refresh-community.mjs`，然后重新构建。它会批量读取 VNDB 原站分数，并刷新当前热门及完整详情作品的 KUN / Bangumi 资料。`config/discovery-community.json` 只保存核实过的作品对应关系。
 
-`targetWorksPerPlatform` 默认 10；主题搜索不足时按 `discoveryQueries` 补搜作品。保持原有15天与3000赞门槛，候选不足时展示真实数量，不使用旧视频或占位数据凑数。搜索中途受限时保留已验证的内容，并继续标注部分采集。
+`targetWorksPerPlatform` 默认 10；主题搜索不足时按 `discoveryQueries` 补搜作品。保持15天窗口，单条点赞门槛为1000，候选不足时展示真实数量，不使用旧视频或占位数据凑数。搜索中途受限时保留已验证的内容，并继续标注部分采集。
 
 ## 首次设置抖音登录状态
 
