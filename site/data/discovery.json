@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-01T14:08:40.956Z",
+  "updatedAt": "2026-11-01T15:12:25.446Z",
   "entries": [
     {
       "id": "v69315",
@@ -12686,6 +12686,444 @@
       "path": "works/v40624/"
     },
     {
+      "id": "v442",
+      "type": "work",
+      "name": "こいびとどうしですることぜんぶ",
+      "aliases": [
+        "こいびとどうしですることぜんぶ",
+        "Koibito Doushi de Suru Koto Zenbu",
+        "こいびとどうしですることぜんぶ",
+        "Konbu",
+        "Koibitodoushi de Suru Koto Zenbu"
+      ],
+      "image": null,
+      "subtitle": "シリウス",
+      "path": "works/v442/"
+    },
+    {
+      "id": "v457",
+      "type": "work",
+      "name": "めいどさん★すぴりっつ！～わたしの中にいるあなた～",
+      "aliases": [
+        "めいどさん★すぴりっつ！～わたしの中にいるあなた～",
+        "Maid-san★Spirits! ~Watashi no Naka ni Iru Anata~",
+        "めいどさん★すぴりっつ！～わたしの中にいるあなた～"
+      ],
+      "image": null,
+      "subtitle": "シリウス",
+      "path": "works/v457/"
+    },
+    {
+      "id": "v459",
+      "type": "work",
+      "name": "魔法はあめいろ？",
+      "aliases": [
+        "魔法はあめいろ？",
+        "Mahou wa Ameiro?",
+        "魔法はあめいろ？"
+      ],
+      "image": "https://t.vndb.org/cv/71/150271.jpg",
+      "subtitle": "シリウス",
+      "path": "works/v459/"
+    },
+    {
+      "id": "v461",
+      "type": "work",
+      "name": "まいにち好きして",
+      "aliases": [
+        "まいにち好きして",
+        "Mainichi Suki Shite",
+        "まいにち好きして"
+      ],
+      "image": null,
+      "subtitle": "シリウス",
+      "path": "works/v461/"
+    },
+    {
+      "id": "v1552",
+      "type": "work",
+      "name": "纯白交响曲",
+      "aliases": [
+        "ましろ色シンフォニー",
+        "Mashiro-iro Symphony",
+        "Mashiroiro Symphony HD -Love is Pure White-",
+        "ましろ色シンフォニー",
+        "纯白交响曲",
+        "純白交響曲",
+        "ましろ色シンフォニー -Love is Pure White-",
+        "ましフォニー",
+        "Mashifoni"
+      ],
+      "image": "https://t.vndb.org/cv/38/95138.jpg",
+      "subtitle": "ぱれっと",
+      "path": "works/v1552/"
+    },
+    {
+      "id": "v2071",
+      "type": "work",
+      "name": "ボイン姉妹の個人授業",
+      "aliases": [
+        "ボイン姉妹の個人授業",
+        "Boin Shimai no Kojin Jugyou",
+        "ボイン姉妹の個人授業"
+      ],
+      "image": null,
+      "subtitle": "Frill",
+      "path": "works/v2071/"
+    },
+    {
+      "id": "v3371",
+      "type": "work",
+      "name": "クラ☆クラ CLASSY☆CRANBERRY’S",
+      "aliases": [
+        "クラ☆クラ CLASSY☆CRANBERRY’S",
+        "Cla☆Cra - CLASSY☆CRANBERRY'S",
+        "クラ☆クラ CLASSY☆CRANBERRY’S",
+        "kura☆kura"
+      ],
+      "image": null,
+      "subtitle": "ωstar / アトリエかぐや P-ch",
+      "path": "works/v3371/"
+    },
+    {
+      "id": "v5246",
+      "type": "work",
+      "name": "キッキングホース★ラプソディ",
+      "aliases": [
+        "キッキングホース★ラプソディ",
+        "Kicking Horse★Rhapsody",
+        "キッキングホース★ラプソディ"
+      ],
+      "image": "https://t.vndb.org/cv/70/112270.jpg",
+      "subtitle": "ALcot ハニカム",
+      "path": "works/v5246/"
+    },
+    {
+      "id": "v12984",
+      "type": "work",
+      "name": "星辰恋曲的白色永恒",
+      "aliases": [
+        "アストラエアの白き永遠",
+        "AstralAir no Shiroki Towa",
+        "アストラエアの白き永遠",
+        "星辰恋曲的白色永恒",
+        "星辰少女的白色永远",
+        "アス永遠",
+        "Elfin song's an unlimited expanse of white",
+        "White Eternity of AstralAir",
+        "AstralAir no Shiroki Eien",
+        "白永"
+      ],
+      "image": "https://t.vndb.org/cv/31/101331.jpg",
+      "subtitle": "FAVORITE",
+      "path": "works/v12984/"
+    },
+    {
+      "id": "v13630",
+      "type": "work",
+      "name": "サキガケ⇒ジェネレーション！",
+      "aliases": [
+        "サキガケ⇒ジェネレーション！",
+        "Sakigake ⇒ Generation!",
+        "サキガケ⇒ジェネレーション！",
+        "Sakigen"
+      ],
+      "image": null,
+      "subtitle": "クロシェット",
+      "path": "works/v13630/"
+    },
+    {
+      "id": "v14892",
+      "type": "work",
+      "name": "ひめごとユニオン もーっとH！",
+      "aliases": [
+        "ひめごとユニオン もーっとH！",
+        "Himegoto Union Motto H!",
+        "ひめごとユニオン もーっとH！"
+      ],
+      "image": "https://t.vndb.org/cv/22/28122.jpg",
+      "subtitle": "Seven Wonder",
+      "path": "works/v14892/"
+    },
+    {
+      "id": "v15064",
+      "type": "work",
+      "name": "雪恋交融",
+      "aliases": [
+        "ゆきこいめると",
+        "Yuki Koi Melt",
+        "Yukikoi Melt",
+        "ゆきこいめると",
+        "雪恋交融",
+        "yukimel"
+      ],
+      "image": "https://t.vndb.org/cv/67/95567.jpg",
+      "subtitle": "Frontwing",
+      "path": "works/v15064/"
+    },
+    {
+      "id": "v17369",
+      "type": "work",
+      "name": "ここから夏のイノセンス！",
+      "aliases": [
+        "ここから夏のイノセンス！",
+        "Koko kara Natsu no Innocence!",
+        "ここから夏のイノセンス！",
+        "ここ夏",
+        "Kokonatsu"
+      ],
+      "image": "https://t.vndb.org/cv/29/127329.jpg",
+      "subtitle": "クロシェット",
+      "path": "works/v17369/"
+    },
+    {
+      "id": "v17974",
+      "type": "work",
+      "name": "コドモノアソビ",
+      "aliases": [
+        "コドモノアソビ",
+        "Kodomo no Asobi",
+        "コドモノアソビ",
+        "Kodomo、子供の遊び"
+      ],
+      "image": "https://t.vndb.org/cv/45/98645.jpg",
+      "subtitle": "ランプオブシュガー",
+      "path": "works/v17974/"
+    },
+    {
+      "id": "v19294",
+      "type": "work",
+      "name": "星辰恋曲的白色永恒 Finale",
+      "aliases": [
+        "アストラエアの白き永遠 Finale -白き星の夢-",
+        "AstralAir no Shiroki Towa Finale -Shiroki Hoshi no Yume-",
+        "アストラエアの白き永遠 Finale -白き星の夢-",
+        "星辰恋曲的白色永恒 Finale",
+        "Happiness is not a station you arrive at but a manner of traveling, AstralAir Fandisk"
+      ],
+      "image": "https://t.vndb.org/cv/57/97957.jpg",
+      "subtitle": "FAVORITE",
+      "path": "works/v19294/"
+    },
+    {
+      "id": "v19372",
+      "type": "work",
+      "name": "清澄如鏡之水面上！",
+      "aliases": [
+        "はるるみなもに!",
+        "Haruru Minamo ni!",
+        "はるるみなもに!",
+        "清澄如鏡之水面上！",
+        "Harumina",
+        "清澄如镜之水面上"
+      ],
+      "image": "https://t.vndb.org/cv/15/107515.jpg",
+      "subtitle": "クロシェット",
+      "path": "works/v19372/"
+    },
+    {
+      "id": "v23067",
+      "type": "work",
+      "name": "恋爱定位Location Love同居×后辈",
+      "aliases": [
+        "ろけらぶ - 同棲×後輩",
+        "Loca Love - Dousei x Kouhai",
+        "Loca-Love: My Cute Roommate",
+        "ろけらぶ - 同棲×後輩",
+        "恋爱定位Location Love同居×后辈"
+      ],
+      "image": "https://t.vndb.org/cv/05/76005.jpg",
+      "subtitle": "Frontwing",
+      "path": "works/v23067/"
+    },
+    {
+      "id": "v24351",
+      "type": "work",
+      "name": "D.C.4 ～ダ・カーポ4～",
+      "aliases": [
+        "D.C.4 ～ダ・カーポ4～",
+        "D.C.4 ~Da Capo 4~",
+        "D.C.4 ～ダ・カーポ4～",
+        "DC4",
+        "初音島4",
+        "初音岛4"
+      ],
+      "image": "https://t.vndb.org/cv/88/39688.jpg",
+      "subtitle": "CIRCUS",
+      "path": "works/v24351/"
+    },
+    {
+      "id": "v25690",
+      "type": "work",
+      "name": "ろけらぶ 電車×同級生",
+      "aliases": [
+        "ろけらぶ 電車×同級生",
+        "Loca Love - Densha x Doukyuusei",
+        "Loca Love: My Commuting Crush",
+        "ろけらぶ 電車×同級生",
+        "Location Love 2"
+      ],
+      "image": "https://t.vndb.org/cv/92/115492.jpg",
+      "subtitle": "Frontwing",
+      "path": "works/v25690/"
+    },
+    {
+      "id": "v26180",
+      "type": "work",
+      "name": "アイキス",
+      "aliases": [
+        "アイキス",
+        "Ai Kiss",
+        "アイキス"
+      ],
+      "image": null,
+      "subtitle": "戯画",
+      "path": "works/v26180/"
+    },
+    {
+      "id": "v26376",
+      "type": "work",
+      "name": "ろけらぶ 神社×先輩",
+      "aliases": [
+        "ろけらぶ 神社×先輩",
+        "Loca Love - Jinja x Senpai",
+        "Loca-Love: My Pure Priestess",
+        "ろけらぶ 神社×先輩",
+        "Location Love 3"
+      ],
+      "image": null,
+      "subtitle": "Frontwing",
+      "path": "works/v26376/"
+    },
+    {
+      "id": "v26989",
+      "type": "work",
+      "name": "不可视之药与坎坷的命运",
+      "aliases": [
+        "俺の姿が、透明に!? 不可視の薬と数奇な運命",
+        "Ore no Sugata ga, Toumei ni!? Invisible to Suuki na Unmei",
+        "Wujudku, Jadi Transparan?! Obat Tak Terlihat dan Takdir yang Malang",
+        "俺の姿が、透明に!? 不可視の薬と数奇な運命",
+        "不可视之药与坎坷的命运",
+        "俺不可視",
+        "orefukashi",
+        "Orefuka",
+        "透明药"
+      ],
+      "image": "https://t.vndb.org/cv/80/116180.jpg",
+      "subtitle": "Hulotte",
+      "path": "works/v26989/"
+    },
+    {
+      "id": "v31002",
+      "type": "work",
+      "name": "我家恋天使太废柴鸟真～可怕。",
+      "aliases": [
+        "俺の恋天使がポンコツすぎてコワ～い。",
+        "Ore no Cupid ga Ponkotsu Sugite Kowa~i.",
+        "My Klutzy Cupid",
+        "俺の恋天使がポンコツすぎてコワ～い。",
+        "我家恋天使太废柴鸟真～可怕。",
+        "恋天使",
+        "ポンコワ",
+        "Ponkowa"
+      ],
+      "image": null,
+      "subtitle": "Hulotte",
+      "path": "works/v31002/"
+    },
+    {
+      "id": "v31212",
+      "type": "work",
+      "name": "梅时露霁书~雨潺海汐间~",
+      "aliases": [
+        "ツユチル・レター～海と栞に雨音を～",
+        "Tsuyuchiru Letter ~Umi to Shiori ni Amaoto o~",
+        "Letters From a Rainy Day -Oceans and Lace-",
+        "ツユチル・レター～海と栞に雨音を～",
+        "츠유치루·레터 ~바다와 책갈피에 빗소리를~",
+        "梅时露霁书~雨潺海汐间~",
+        "梅時露霽書～雨潺海汐間～"
+      ],
+      "image": "https://t.vndb.org/cv/39/78939.jpg",
+      "subtitle": "Lily spinel",
+      "path": "works/v31212/"
+    },
+    {
+      "id": "v37021",
+      "type": "work",
+      "name": "FLIP＊FLOP ~INNOCENCE OVERCLOCK~",
+      "aliases": [
+        "FLIP＊FLOP ~INNOCENCE OVERCLOCK~",
+        "FLIP＊FLOP ~INNOCENCE OVERCLOCK~",
+        "Flip Flop IO"
+      ],
+      "image": null,
+      "subtitle": "DiGination",
+      "path": "works/v37021/"
+    },
+    {
+      "id": "v37651",
+      "type": "work",
+      "name": "纯白交响曲 SANA EDITION",
+      "aliases": [
+        "ましろ色シンフォニー SANA EDITION",
+        "Mashiro-iro Symphony: Sana Edition",
+        "Mashiroiro Symphony HD -Sana Edition-",
+        "ましろ色シンフォニー SANA EDITION",
+        "纯白交响曲 SANA EDITION",
+        "純白交響曲 SANA EDITION",
+        "Mashifoni"
+      ],
+      "image": "https://t.vndb.org/cv/16/90216.jpg",
+      "subtitle": "ぱれっと",
+      "path": "works/v37651/"
+    },
+    {
+      "id": "v39197",
+      "type": "work",
+      "name": "FLIP＊FLOP ~RAMBLING OVERRUN~",
+      "aliases": [
+        "FLIP＊FLOP ~RAMBLING OVERRUN~",
+        "FLIP＊FLOP ~RAMBLING OVERRUN~",
+        "Flip Flop RAN"
+      ],
+      "image": "https://t.vndb.org/cv/73/88873.jpg",
+      "subtitle": "DiGination",
+      "path": "works/v39197/"
+    },
+    {
+      "id": "v44098",
+      "type": "work",
+      "name": "我的眼睛看光光！不可知的未来与透视的命运",
+      "aliases": [
+        "俺の瞳で丸裸！不可知な未来と視透かす運命",
+        "Ore no Hitomi de Maruhadaka! Fukachi na Mirai to Misukasu Vision",
+        "俺の瞳で丸裸！不可知な未来と視透かす運命",
+        "我的眼睛看光光！不可知的未来与透视的命运",
+        "Orefukachi",
+        "俺不可知"
+      ],
+      "image": "https://t.vndb.org/cv/65/113265.jpg",
+      "subtitle": "Hulotte",
+      "path": "works/v44098/"
+    },
+    {
+      "id": "v45479",
+      "type": "work",
+      "name": "恋とHしかしていない！",
+      "aliases": [
+        "恋とHしかしていない！",
+        "Koi to H Shika Shiteinai!",
+        "恋とHしかしていない！",
+        "恋Ｈ",
+        "KoiH"
+      ],
+      "image": null,
+      "subtitle": "ユニゾンシフト",
+      "path": "works/v45479/"
+    },
+    {
       "id": "s722",
       "type": "staff",
       "name": "こぶいち",
@@ -13152,6 +13590,17 @@
       ],
       "subtitle": "剧本作者 / 原画师",
       "path": "staff/s12983/"
+    },
+    {
+      "id": "s2487",
+      "type": "staff",
+      "name": "保住 圭",
+      "aliases": [
+        "Hozumi Kei",
+        "保住 圭"
+      ],
+      "subtitle": "剧本作者 / 原画师",
+      "path": "staff/s2487/"
     },
     {
       "id": "p31674",

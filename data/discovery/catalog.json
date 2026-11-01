@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-01T14:08:40.956Z",
+  "updatedAt": "2026-11-01T15:12:25.446Z",
   "works": {
     "v69315": {
       "id": "v69315",
@@ -20,7 +20,7 @@
         }
       ],
       "source": "https://vndb.org/v69315",
-      "updatedAt": "2026-11-01T14:08:15.917Z",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
       "detailComplete": true,
       "description": "Tokyo, 1998. A rain that never ends and a girl who wants everything to end. Two lonely youths will change the world with their choices.",
       "descriptionLanguage": "原文",
@@ -122,7 +122,7 @@
         }
       ],
       "source": "https://vndb.org/v19073",
-      "updatedAt": "2026-11-01T14:08:15.917Z",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
       "detailComplete": true,
       "description": "The village of Hoori lies deep in the middle of the mountains, inaccessible by rail. Since there isn’t much interaction with its surroundings, the town seems like it is stuck in the past. However, it is because of this exact olden feel and subsequent development that it has turned into a nice hot-springs town for tourists.\n\nOne of the popular sightseeing spots is the legendary katana Murasamemaru, embedded in stone. No one has been able to pull it out… until Masaomi somehow broke it in half. He has to take responsibility for his actions: “Marriage” with ‘shrine maiden princess’ Yoshino!? He was perplexed at the unexpected turn of events, but this is only just the beginning. What lies ahead for him is a much more peculiar and mysterious life, including his new fiancée, a mysterious girl who only he could touch, and the secret behind the curse that remains on the town.\n\nWhat will become of Masaomi’s love amidst his rapidly changing life? The answer lies within the Murasamemaru in his hands.",
       "descriptionLanguage": "原文",
@@ -737,7 +737,7 @@
         }
       ],
       "source": "https://vndb.org/v8438",
-      "updatedAt": "2026-11-01T13:40:13.175Z",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
       "detailComplete": false
     },
     "v11582": {
@@ -825,8 +825,129 @@
         }
       ],
       "source": "https://vndb.org/v16044",
-      "updatedAt": "2026-11-01T13:22:33.740Z",
-      "detailComplete": false
+      "updatedAt": "2026-11-01T14:35:02.236Z",
+      "detailComplete": true,
+      "description": "Hoshina Shuuji has a secret: He has a mysterious power that allows him to perceive the emotions of others.\n\nOne of Shuuji’s classmates, Ayachi Nene, likewise has her own grave secret: She will randomly experience periods of strong arousal, something which she has no control over. The two of them had nothing to do with one another beyond just being classmates, until one day, when Shuuji stumbled upon a scene that defied his wildest imaginations. Ayachi Nene, THAT Ayachi Nene is pressing her crotch against the corner of a library table… using it to MASTURBATE?!\n\nFollowing that one accident, two strangers became friends. They bonded with one another through their shared secrets, and from this, Shuuji came to learn about certain things. That is, not only about the reason for Nene’s random ‘fits’ where she gets uncontrollably aroused, but also about the existence of people called ‘witches’—-Nene’s secret actions as a ‘witch’, and the ‘fits’ she goes through because of that serving as the magnet, a junior, an upperclassman, and a transfer student all congregate together.\n\nShuuji’s once normal life is thrown into chaos, and with that, a certain faint hope wells up inside of him:\n\n“Maybe this will be the start of something new.”",
+      "descriptionLanguage": "原文",
+      "descriptionSource": "https://vndb.org/v16044",
+      "staff": [
+        {
+          "id": "s722",
+          "name": "こぶいち",
+          "role": "art",
+          "aliasId": 1279
+        },
+        {
+          "id": "s847",
+          "name": "籐太",
+          "role": "scenario",
+          "aliasId": 1510
+        },
+        {
+          "id": "s1804",
+          "name": "こもわた 遙華",
+          "role": "art",
+          "aliasId": 2877
+        },
+        {
+          "id": "s2487",
+          "name": "保住 圭",
+          "role": "scenario",
+          "aliasId": 3783
+        },
+        {
+          "id": "s2883",
+          "name": "天宮 りつ",
+          "role": "scenario",
+          "aliasId": 4277
+        },
+        {
+          "id": "s2884",
+          "name": "むりりん",
+          "role": "art",
+          "aliasId": 4279
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sf83043",
+          "url": "https://t.vndb.org/sf/43/83043.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/43/83043.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf83045",
+          "url": "https://t.vndb.org/sf/45/83045.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/45/83045.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf83047",
+          "url": "https://t.vndb.org/sf/47/83047.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/47/83047.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf117867",
+          "url": "https://t.vndb.org/sf/67/117867.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/67/117867.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf155455",
+          "url": "https://t.vndb.org/sf/55/155455.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/55/155455.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf155456",
+          "url": "https://t.vndb.org/sf/56/155456.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/56/155456.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%8E%E3%83%90%E3%82%A6%E3%82%A3%E3%83%83%E3%83%81",
+          "label": "Wikipedia (ja)"
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q22126150",
+          "label": "Wikidata"
+        },
+        {
+          "url": "https://www.mobygames.com/game/164947/",
+          "label": "MobyGames"
+        },
+        {
+          "url": "https://www.igdb.com/games/sabbat-of-the-witch",
+          "label": "IGDB"
+        },
+        {
+          "url": "https://www.pcgamingwiki.com/wiki/Sabbat_of_the_Witch",
+          "label": "PCGamingWiki"
+        },
+        {
+          "url": "https://lutris.net/games/sabbat-of-the-witch",
+          "label": "Lutris"
+        },
+        {
+          "url": "https://appdb.winehq.org/appview.php?iAppId=19185",
+          "label": "Wine AppDB"
+        }
+      ]
     },
     "v18149": {
       "id": "v18149",
@@ -892,7 +1013,7 @@
         }
       ],
       "source": "https://vndb.org/v22230",
-      "updatedAt": "2026-11-01T13:22:33.740Z",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
       "detailComplete": false
     },
     "v26414": {
@@ -1011,7 +1132,7 @@
         }
       ],
       "source": "https://vndb.org/v40520",
-      "updatedAt": "2026-11-01T13:22:33.740Z",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
       "detailComplete": false
     },
     "v56650": {
@@ -1418,7 +1539,7 @@
         }
       ],
       "source": "https://vndb.org/v6820",
-      "updatedAt": "2026-11-01T13:22:33.740Z",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
       "detailComplete": false
     },
     "v7143": {
@@ -1518,7 +1639,7 @@
         }
       ],
       "source": "https://vndb.org/v11726",
-      "updatedAt": "2026-11-01T13:40:13.175Z",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
       "detailComplete": false
     },
     "v14838": {
@@ -1657,7 +1778,7 @@
         }
       ],
       "source": "https://vndb.org/v21530",
-      "updatedAt": "2026-11-01T13:40:13.175Z",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
       "detailComplete": false
     },
     "v23501": {
@@ -1716,7 +1837,7 @@
         }
       ],
       "source": "https://vndb.org/v28286",
-      "updatedAt": "2026-11-01T13:40:13.175Z",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
       "detailComplete": false
     },
     "v29402": {
@@ -2974,7 +3095,7 @@
         }
       ],
       "source": "https://vndb.org/v13325",
-      "updatedAt": "2026-11-01T13:22:33.740Z",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
       "detailComplete": false
     },
     "v15143": {
@@ -3314,7 +3435,7 @@
         }
       ],
       "source": "https://vndb.org/v816",
-      "updatedAt": "2026-11-01T13:40:13.175Z",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
       "detailComplete": false
     },
     "v93": {
@@ -5292,7 +5413,7 @@
         }
       ],
       "source": "https://vndb.org/v30960",
-      "updatedAt": "2026-11-01T14:08:15.917Z",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
       "detailComplete": true,
       "description": "Mycorrhiza is a love letter to horror manga in the form of a visualnovel. Some of our biggest inspirations include the works of Junji Ito and Masaaki Nakayama.\n\nWhile the protagonist is trying to find a way back home, reality distorts and people’s morals start shifting in cruel and unexpected ways. A strange plant transforming animals, a strange comedy trend and a strange building trapping people. Each of the three arcs explores different terrors.\n\nThe game features a manga aesthetic (with CGs drawn by a manga artist), as well as a higher focus on dynamic audio.",
       "descriptionLanguage": "原文",
@@ -5863,7 +5984,7 @@
         }
       ],
       "source": "https://vndb.org/v65742",
-      "updatedAt": "2026-11-01T14:08:15.917Z",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
       "detailComplete": true,
       "description": "Strategy game where the characters' reactions and the difficulty of the game change depending on the gender of the player!",
       "descriptionLanguage": "原文",
@@ -5920,7 +6041,7 @@
         }
       ],
       "source": "https://vndb.org/v22636",
-      "updatedAt": "2026-11-01T14:08:15.917Z",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
       "detailComplete": true,
       "description": "Yukihito found a handwritten notes describing a place that did not exist on any map. He had just quit his job and set out in search of this remote mountain village. It was a place where camellia bloomed out of season, autumn colours came out early, and red flowers were everywhere. The surrounding forest was so intensely red he thought it would drive him mad.\n\nWhen he regained his senses, he was in the village of Kimachi. He had passed out on the outskirts and was unconscious for three days. The locals greeted him as a marebito, a divine figure who brought wealth and joy. This year was crucial for them since it was the time of the once-every-twenty-year Hanasaki Festival. Two lovely ladies catered to his every need. They were born to carry on a treasured ritual that dates back to ancient times: welcoming the god who would visit them.",
       "descriptionLanguage": "原文",
@@ -9508,7 +9629,7 @@
         }
       ],
       "source": "https://vndb.org/v18852",
-      "updatedAt": "2026-11-01T14:08:15.917Z",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
       "detailComplete": true,
       "description": "Our hero, Makoto, possesses the power of \"kotodama\" which allows one to control people with the power of one’s voice.\n\nHaving an interest in the outside world, he leaves the hidden village he has lived in all his life. However, he found himself woefully unprepared and collapses on the side of the road in a small town almost as remote as his village. Just as he's resigned himself to death, he's saved by Oribe Kokoro, a girl whose family runs a cafe in that town.\n\nUsing his kotodama powers, Makoto becomes a part of the Oribe family and begins attending school with Kokoro. He soon meets several girls who each have their own special circumstances. Will Makoto be able to use kotodama to help these girls? And what is the true nature of kotodama?\n\nThis is a story of the words that weave the ties that bind...",
       "descriptionLanguage": "原文",
@@ -11299,7 +11420,7 @@
         }
       ],
       "source": "https://vndb.org/v28304",
-      "updatedAt": "2026-11-01T13:40:13.175Z",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
       "detailComplete": false
     },
     "v40405": {
@@ -13397,7 +13518,7 @@
         }
       ],
       "source": "https://vndb.org/v17",
-      "updatedAt": "2026-11-01T14:08:15.917Z",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
       "detailComplete": true,
       "description": "infinity系列第二部 \r\n\r\n本游戏分为两个主人公视点——仓成武和失忆少年，与小町月海，茜崎空，优，松永沙罗，八神可可几位少女编制一团迷离的故事，各女主角的剧情安排也因主人公的视点而有所变动\r\n\r\n未来海洋主题乐园内 演绎生离死别的悲喜剧 \r\n\r\n公元2017年5月1日 12点51分\r\n浮游在水下51米深的海洋游乐园：LeMU中\r\n7名男女突然被封闭在其中。\r\n食物、水、氧气 在逐渐地减少。\r\n生活在深海中无数莫名的病毒，都在贪婪地窥视。\r\nLeMU的壁墙被深海的水压无情地迫挤\r\n支撑不了几日的样子了\r\n厚厚的玻璃窗外，是深邃的黑暗……\r\n在封闭的空间，有限的时间内\r\n7个人不断地寻找着出路。\r\n他们相互帮助，相互鼓励\r\n克服不断出现的各种危机，之间的情谊也不断加固。\r\n不知道这应该是爱情还是友情。\r\n然而，在感情不断加深的同时，死的期限也在不断逼近。\r\n事件的全貌在逐渐地被揭开。\r\n在无数多个的可能性中，一点一点地被揭开。\r\n所有的事实，都在向着一个方向聚集。\r\n对生的渴望……对死的恐怖。\r\n无法想象的绝境中，等待着的到底是一个什么样的结局\r\n在这里又能够获取什么呢？\r\n失去的将会是什么？ 在睁开的双瞳中，\r\n最后，到底映着的是什么……？",
       "descriptionLanguage": "中文",
@@ -18225,7 +18346,7 @@
         }
       ],
       "source": "https://vndb.org/v21903",
-      "updatedAt": "2026-11-01T14:08:15.917Z",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
       "detailComplete": true,
       "description": "My new home is my grandmother’s house that also functions as a café. Due to my grandmother’s recent illness and hospitalization, however, she was forced to close the café until further notice. When I heard about my grandmother’s situation from Chisato Komada (a childhood friend who is like an older sister to me), I looked around the desolate café and my heart was filled with a sense of loneliness. It was then I immediately thought:\n\n    “I want to bring the shop back to life again and show it to grandmother…!!!” \n\nWe renovated the inside of the shop and gave it a new name. We prepared a new menu and café uniforms and began the hiring process to find new, part-time staff. Right away two girls, Niwasaka Rira and Shionomiya Rishie, came into the cafe.\n\n    「“Um… would it be ok if we worked here?”」\n\nAn unusually strong breeze blew cherry blossom petals inside the shop and they fluttered and danced around the cafe, myself, and the girls around me. This could only be a premonition of the bittersweet tale that would soon follow…",
       "descriptionLanguage": "原文",
@@ -18414,7 +18535,7 @@
         }
       ],
       "source": "https://vndb.org/v630",
-      "updatedAt": "2026-11-01T13:40:13.175Z",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
       "detailComplete": false
     },
     "v1031": {
@@ -18597,7 +18718,7 @@
         }
       ],
       "source": "https://vndb.org/v3823",
-      "updatedAt": "2026-11-01T13:40:13.175Z",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
       "detailComplete": false
     },
     "v4886": {
@@ -20162,7 +20283,7 @@
         }
       ],
       "source": "https://vndb.org/v362",
-      "updatedAt": "2026-11-01T13:40:13.175Z",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
       "detailComplete": false
     },
     "v363": {
@@ -20190,7 +20311,7 @@
         }
       ],
       "source": "https://vndb.org/v363",
-      "updatedAt": "2026-11-01T13:40:13.175Z",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
       "detailComplete": false
     },
     "v815": {
@@ -20217,7 +20338,7 @@
         }
       ],
       "source": "https://vndb.org/v815",
-      "updatedAt": "2026-11-01T13:40:13.175Z",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
       "detailComplete": false
     },
     "v915": {
@@ -20534,7 +20655,7 @@
         }
       ],
       "source": "https://vndb.org/v8437",
-      "updatedAt": "2026-11-01T13:40:13.175Z",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
       "detailComplete": false
     },
     "v11126": {
@@ -20806,7 +20927,7 @@
         }
       ],
       "source": "https://vndb.org/v27053",
-      "updatedAt": "2026-11-01T13:40:13.175Z",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
       "detailComplete": false
     },
     "v27863": {
@@ -20925,7 +21046,7 @@
         }
       ],
       "source": "https://vndb.org/v45481",
-      "updatedAt": "2026-11-01T13:40:13.175Z",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
       "detailComplete": false
     },
     "v354": {
@@ -24569,6 +24690,802 @@
       ],
       "source": "https://vndb.org/v40624",
       "updatedAt": "2026-11-01T13:57:26.533Z",
+      "detailComplete": false
+    },
+    "v442": {
+      "id": "v442",
+      "title": "こいびとどうしですることぜんぶ",
+      "original": "こいびとどうしですることぜんぶ",
+      "aliases": [
+        "Koibito Doushi de Suru Koto Zenbu",
+        "こいびとどうしですることぜんぶ",
+        "Konbu",
+        "Koibitodoushi de Suru Koto Zenbu"
+      ],
+      "released": "2007-11-30",
+      "languages": [
+        "ja"
+      ],
+      "minutes": null,
+      "image": null,
+      "developers": [
+        {
+          "id": "p252",
+          "name": "シリウス"
+        }
+      ],
+      "source": "https://vndb.org/v442",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
+      "detailComplete": false
+    },
+    "v457": {
+      "id": "v457",
+      "title": "めいどさん★すぴりっつ！～わたしの中にいるあなた～",
+      "original": "めいどさん★すぴりっつ！～わたしの中にいるあなた～",
+      "aliases": [
+        "Maid-san★Spirits! ~Watashi no Naka ni Iru Anata~",
+        "めいどさん★すぴりっつ！～わたしの中にいるあなた～"
+      ],
+      "released": "2006-01-27",
+      "languages": [
+        "ja"
+      ],
+      "minutes": null,
+      "image": null,
+      "developers": [
+        {
+          "id": "p252",
+          "name": "シリウス"
+        }
+      ],
+      "source": "https://vndb.org/v457",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
+      "detailComplete": false
+    },
+    "v459": {
+      "id": "v459",
+      "title": "魔法はあめいろ？",
+      "original": "魔法はあめいろ？",
+      "aliases": [
+        "Mahou wa Ameiro?",
+        "魔法はあめいろ？"
+      ],
+      "released": "2004-12-03",
+      "languages": [
+        "ja"
+      ],
+      "minutes": null,
+      "image": "https://t.vndb.org/cv/71/150271.jpg",
+      "developers": [
+        {
+          "id": "p252",
+          "name": "シリウス"
+        }
+      ],
+      "source": "https://vndb.org/v459",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
+      "detailComplete": false
+    },
+    "v461": {
+      "id": "v461",
+      "title": "まいにち好きして",
+      "original": "まいにち好きして",
+      "aliases": [
+        "Mainichi Suki Shite",
+        "まいにち好きして"
+      ],
+      "released": "2003-10-31",
+      "languages": [
+        "ja"
+      ],
+      "minutes": null,
+      "image": null,
+      "developers": [
+        {
+          "id": "p252",
+          "name": "シリウス"
+        }
+      ],
+      "source": "https://vndb.org/v461",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
+      "detailComplete": false
+    },
+    "v1552": {
+      "id": "v1552",
+      "title": "纯白交响曲",
+      "original": "ましろ色シンフォニー",
+      "aliases": [
+        "Mashiro-iro Symphony",
+        "Mashiroiro Symphony HD -Love is Pure White-",
+        "ましろ色シンフォニー",
+        "纯白交响曲",
+        "純白交響曲",
+        "ましろ色シンフォニー -Love is Pure White-",
+        "ましフォニー",
+        "Mashifoni"
+      ],
+      "released": "2009-10-30",
+      "languages": [
+        "en",
+        "ja",
+        "zh-Hans",
+        "zh-Hant"
+      ],
+      "minutes": 2112,
+      "image": "https://t.vndb.org/cv/38/95138.jpg",
+      "developers": [
+        {
+          "id": "p10",
+          "name": "ぱれっと"
+        }
+      ],
+      "source": "https://vndb.org/v1552",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
+      "detailComplete": false
+    },
+    "v2071": {
+      "id": "v2071",
+      "title": "ボイン姉妹の個人授業",
+      "original": "ボイン姉妹の個人授業",
+      "aliases": [
+        "Boin Shimai no Kojin Jugyou",
+        "ボイン姉妹の個人授業"
+      ],
+      "released": "2008-04-25",
+      "languages": [
+        "ja"
+      ],
+      "minutes": null,
+      "image": null,
+      "developers": [
+        {
+          "id": "p503",
+          "name": "Frill"
+        }
+      ],
+      "source": "https://vndb.org/v2071",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
+      "detailComplete": false
+    },
+    "v3371": {
+      "id": "v3371",
+      "title": "クラ☆クラ CLASSY☆CRANBERRY’S",
+      "original": "クラ☆クラ CLASSY☆CRANBERRY’S",
+      "aliases": [
+        "Cla☆Cra - CLASSY☆CRANBERRY'S",
+        "クラ☆クラ CLASSY☆CRANBERRY’S",
+        "kura☆kura"
+      ],
+      "released": "2010-07-23",
+      "languages": [
+        "ja"
+      ],
+      "minutes": null,
+      "image": null,
+      "developers": [
+        {
+          "id": "p1008",
+          "name": "ωstar"
+        },
+        {
+          "id": "p1088",
+          "name": "アトリエかぐや P-ch"
+        }
+      ],
+      "source": "https://vndb.org/v3371",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
+      "detailComplete": false
+    },
+    "v5246": {
+      "id": "v5246",
+      "title": "キッキングホース★ラプソディ",
+      "original": "キッキングホース★ラプソディ",
+      "aliases": [
+        "Kicking Horse★Rhapsody",
+        "キッキングホース★ラプソディ"
+      ],
+      "released": "2010-11-26",
+      "languages": [
+        "ja"
+      ],
+      "minutes": 714,
+      "image": "https://t.vndb.org/cv/70/112270.jpg",
+      "developers": [
+        {
+          "id": "p1385",
+          "name": "ALcot ハニカム"
+        }
+      ],
+      "source": "https://vndb.org/v5246",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
+      "detailComplete": false
+    },
+    "v12984": {
+      "id": "v12984",
+      "title": "星辰恋曲的白色永恒",
+      "original": "アストラエアの白き永遠",
+      "aliases": [
+        "AstralAir no Shiroki Towa",
+        "アストラエアの白き永遠",
+        "星辰恋曲的白色永恒",
+        "星辰少女的白色永远",
+        "アス永遠",
+        "Elfin song's an unlimited expanse of white",
+        "White Eternity of AstralAir",
+        "AstralAir no Shiroki Eien",
+        "白永"
+      ],
+      "released": "2014-07-25",
+      "languages": [
+        "en",
+        "ja",
+        "zh-Hans"
+      ],
+      "minutes": 3525,
+      "image": "https://t.vndb.org/cv/31/101331.jpg",
+      "developers": [
+        {
+          "id": "p612",
+          "name": "FAVORITE"
+        }
+      ],
+      "source": "https://vndb.org/v12984",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
+      "detailComplete": false
+    },
+    "v13630": {
+      "id": "v13630",
+      "title": "サキガケ⇒ジェネレーション！",
+      "original": "サキガケ⇒ジェネレーション！",
+      "aliases": [
+        "Sakigake ⇒ Generation!",
+        "サキガケ⇒ジェネレーション！",
+        "Sakigen"
+      ],
+      "released": "2014-05-30",
+      "languages": [
+        "ja"
+      ],
+      "minutes": 2801,
+      "image": null,
+      "developers": [
+        {
+          "id": "p386",
+          "name": "クロシェット"
+        }
+      ],
+      "source": "https://vndb.org/v13630",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
+      "detailComplete": false
+    },
+    "v14892": {
+      "id": "v14892",
+      "title": "ひめごとユニオン もーっとH！",
+      "original": "ひめごとユニオン もーっとH！",
+      "aliases": [
+        "Himegoto Union Motto H!",
+        "ひめごとユニオン もーっとH！"
+      ],
+      "released": "2014-05-30",
+      "languages": [
+        "ja"
+      ],
+      "minutes": null,
+      "image": "https://t.vndb.org/cv/22/28122.jpg",
+      "developers": [
+        {
+          "id": "p1391",
+          "name": "Seven Wonder"
+        }
+      ],
+      "source": "https://vndb.org/v14892",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
+      "detailComplete": false
+    },
+    "v15064": {
+      "id": "v15064",
+      "title": "雪恋交融",
+      "original": "ゆきこいめると",
+      "aliases": [
+        "Yuki Koi Melt",
+        "Yukikoi Melt",
+        "ゆきこいめると",
+        "雪恋交融",
+        "yukimel"
+      ],
+      "released": "2015-03-27",
+      "languages": [
+        "en",
+        "ja",
+        "zh-Hans"
+      ],
+      "minutes": 1775,
+      "image": "https://t.vndb.org/cv/67/95567.jpg",
+      "developers": [
+        {
+          "id": "p336",
+          "name": "Frontwing"
+        }
+      ],
+      "source": "https://vndb.org/v15064",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
+      "detailComplete": false
+    },
+    "v17369": {
+      "id": "v17369",
+      "title": "ここから夏のイノセンス！",
+      "original": "ここから夏のイノセンス！",
+      "aliases": [
+        "Koko kara Natsu no Innocence!",
+        "ここから夏のイノセンス！",
+        "ここ夏",
+        "Kokonatsu"
+      ],
+      "released": "2015-11-27",
+      "languages": [
+        "ja"
+      ],
+      "minutes": 1379,
+      "image": "https://t.vndb.org/cv/29/127329.jpg",
+      "developers": [
+        {
+          "id": "p386",
+          "name": "クロシェット"
+        }
+      ],
+      "source": "https://vndb.org/v17369",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
+      "detailComplete": false
+    },
+    "v17974": {
+      "id": "v17974",
+      "title": "コドモノアソビ",
+      "original": "コドモノアソビ",
+      "aliases": [
+        "Kodomo no Asobi",
+        "コドモノアソビ",
+        "Kodomo、子供の遊び"
+      ],
+      "released": "2015-11-27",
+      "languages": [
+        "ja"
+      ],
+      "minutes": 1360,
+      "image": "https://t.vndb.org/cv/45/98645.jpg",
+      "developers": [
+        {
+          "id": "p81",
+          "name": "ランプオブシュガー"
+        }
+      ],
+      "source": "https://vndb.org/v17974",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
+      "detailComplete": false
+    },
+    "v19294": {
+      "id": "v19294",
+      "title": "星辰恋曲的白色永恒 Finale",
+      "original": "アストラエアの白き永遠 Finale -白き星の夢-",
+      "aliases": [
+        "AstralAir no Shiroki Towa Finale -Shiroki Hoshi no Yume-",
+        "アストラエアの白き永遠 Finale -白き星の夢-",
+        "星辰恋曲的白色永恒 Finale",
+        "Happiness is not a station you arrive at but a manner of traveling, AstralAir Fandisk"
+      ],
+      "released": "2017-01-27",
+      "languages": [
+        "ja",
+        "zh-Hans"
+      ],
+      "minutes": 919,
+      "image": "https://t.vndb.org/cv/57/97957.jpg",
+      "developers": [
+        {
+          "id": "p612",
+          "name": "FAVORITE"
+        }
+      ],
+      "source": "https://vndb.org/v19294",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
+      "detailComplete": false
+    },
+    "v19372": {
+      "id": "v19372",
+      "title": "清澄如鏡之水面上！",
+      "original": "はるるみなもに!",
+      "aliases": [
+        "Haruru Minamo ni!",
+        "はるるみなもに!",
+        "清澄如鏡之水面上！",
+        "Harumina",
+        "清澄如镜之水面上"
+      ],
+      "released": "2017-03-24",
+      "languages": [
+        "ja",
+        "zh-Hant"
+      ],
+      "minutes": 1694,
+      "image": "https://t.vndb.org/cv/15/107515.jpg",
+      "developers": [
+        {
+          "id": "p386",
+          "name": "クロシェット"
+        }
+      ],
+      "source": "https://vndb.org/v19372",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
+      "detailComplete": false
+    },
+    "v23067": {
+      "id": "v23067",
+      "title": "恋爱定位Location Love同居×后辈",
+      "original": "ろけらぶ - 同棲×後輩",
+      "aliases": [
+        "Loca Love - Dousei x Kouhai",
+        "Loca-Love: My Cute Roommate",
+        "ろけらぶ - 同棲×後輩",
+        "恋爱定位Location Love同居×后辈"
+      ],
+      "released": "2018-10-26",
+      "languages": [
+        "en",
+        "es",
+        "ja",
+        "zh-Hans"
+      ],
+      "minutes": 307,
+      "image": "https://t.vndb.org/cv/05/76005.jpg",
+      "developers": [
+        {
+          "id": "p336",
+          "name": "Frontwing"
+        }
+      ],
+      "source": "https://vndb.org/v23067",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
+      "detailComplete": false
+    },
+    "v24351": {
+      "id": "v24351",
+      "title": "D.C.4 ～ダ・カーポ4～",
+      "original": "D.C.4 ～ダ・カーポ4～",
+      "aliases": [
+        "D.C.4 ~Da Capo 4~",
+        "D.C.4 ～ダ・カーポ4～",
+        "DC4",
+        "初音島4",
+        "初音岛4"
+      ],
+      "released": "2019-05-31",
+      "languages": [
+        "en",
+        "ja"
+      ],
+      "minutes": 3180,
+      "image": "https://t.vndb.org/cv/88/39688.jpg",
+      "developers": [
+        {
+          "id": "p65",
+          "name": "CIRCUS"
+        }
+      ],
+      "source": "https://vndb.org/v24351",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
+      "detailComplete": false
+    },
+    "v25690": {
+      "id": "v25690",
+      "title": "ろけらぶ 電車×同級生",
+      "original": "ろけらぶ 電車×同級生",
+      "aliases": [
+        "Loca Love - Densha x Doukyuusei",
+        "Loca Love: My Commuting Crush",
+        "ろけらぶ 電車×同級生",
+        "Location Love 2"
+      ],
+      "released": "2019-08-30",
+      "languages": [
+        "en",
+        "es",
+        "ja",
+        "vi",
+        "zh-Hans"
+      ],
+      "minutes": 228,
+      "image": "https://t.vndb.org/cv/92/115492.jpg",
+      "developers": [
+        {
+          "id": "p336",
+          "name": "Frontwing"
+        }
+      ],
+      "source": "https://vndb.org/v25690",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
+      "detailComplete": false
+    },
+    "v26180": {
+      "id": "v26180",
+      "title": "アイキス",
+      "original": "アイキス",
+      "aliases": [
+        "Ai Kiss",
+        "アイキス"
+      ],
+      "released": "2019-10-25",
+      "languages": [
+        "ja"
+      ],
+      "minutes": 2131,
+      "image": null,
+      "developers": [
+        {
+          "id": "p119",
+          "name": "戯画"
+        }
+      ],
+      "source": "https://vndb.org/v26180",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
+      "detailComplete": false
+    },
+    "v26376": {
+      "id": "v26376",
+      "title": "ろけらぶ 神社×先輩",
+      "original": "ろけらぶ 神社×先輩",
+      "aliases": [
+        "Loca Love - Jinja x Senpai",
+        "Loca-Love: My Pure Priestess",
+        "ろけらぶ 神社×先輩",
+        "Location Love 3"
+      ],
+      "released": "2020-09-25",
+      "languages": [
+        "en",
+        "es",
+        "ja",
+        "zh-Hans"
+      ],
+      "minutes": 302,
+      "image": null,
+      "developers": [
+        {
+          "id": "p336",
+          "name": "Frontwing"
+        }
+      ],
+      "source": "https://vndb.org/v26376",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
+      "detailComplete": false
+    },
+    "v26989": {
+      "id": "v26989",
+      "title": "不可视之药与坎坷的命运",
+      "original": "俺の姿が、透明に!? 不可視の薬と数奇な運命",
+      "aliases": [
+        "Ore no Sugata ga, Toumei ni!? Invisible to Suuki na Unmei",
+        "Wujudku, Jadi Transparan?! Obat Tak Terlihat dan Takdir yang Malang",
+        "俺の姿が、透明に!? 不可視の薬と数奇な運命",
+        "不可视之药与坎坷的命运",
+        "俺不可視",
+        "orefukashi",
+        "Orefuka",
+        "透明药"
+      ],
+      "released": "2020-03-27",
+      "languages": [
+        "id",
+        "ja",
+        "zh-Hans"
+      ],
+      "minutes": 1627,
+      "image": "https://t.vndb.org/cv/80/116180.jpg",
+      "developers": [
+        {
+          "id": "p1612",
+          "name": "Hulotte"
+        }
+      ],
+      "source": "https://vndb.org/v26989",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
+      "detailComplete": false
+    },
+    "v31002": {
+      "id": "v31002",
+      "title": "我家恋天使太废柴鸟真～可怕。",
+      "original": "俺の恋天使がポンコツすぎてコワ～い。",
+      "aliases": [
+        "Ore no Cupid ga Ponkotsu Sugite Kowa~i.",
+        "My Klutzy Cupid",
+        "俺の恋天使がポンコツすぎてコワ～い。",
+        "我家恋天使太废柴鸟真～可怕。",
+        "恋天使",
+        "ポンコワ",
+        "Ponkowa"
+      ],
+      "released": "2021-09-24",
+      "languages": [
+        "en",
+        "ja",
+        "zh-Hans",
+        "zh-Hant"
+      ],
+      "minutes": 1275,
+      "image": null,
+      "developers": [
+        {
+          "id": "p1612",
+          "name": "Hulotte"
+        }
+      ],
+      "source": "https://vndb.org/v31002",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
+      "detailComplete": false
+    },
+    "v31212": {
+      "id": "v31212",
+      "title": "梅时露霁书~雨潺海汐间~",
+      "original": "ツユチル・レター～海と栞に雨音を～",
+      "aliases": [
+        "Tsuyuchiru Letter ~Umi to Shiori ni Amaoto o~",
+        "Letters From a Rainy Day -Oceans and Lace-",
+        "ツユチル・レター～海と栞に雨音を～",
+        "츠유치루·레터 ~바다와 책갈피에 빗소리를~",
+        "梅时露霁书~雨潺海汐间~",
+        "梅時露霽書～雨潺海汐間～"
+      ],
+      "released": "2021-06-30",
+      "languages": [
+        "en",
+        "ja",
+        "ko",
+        "zh-Hans",
+        "zh-Hant"
+      ],
+      "minutes": 469,
+      "image": "https://t.vndb.org/cv/39/78939.jpg",
+      "developers": [
+        {
+          "id": "p12023",
+          "name": "Lily spinel"
+        }
+      ],
+      "source": "https://vndb.org/v31212",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
+      "detailComplete": false
+    },
+    "v37021": {
+      "id": "v37021",
+      "title": "FLIP＊FLOP ~INNOCENCE OVERCLOCK~",
+      "original": "FLIP＊FLOP ~INNOCENCE OVERCLOCK~",
+      "aliases": [
+        "FLIP＊FLOP ~INNOCENCE OVERCLOCK~",
+        "Flip Flop IO"
+      ],
+      "released": "2022-10-28",
+      "languages": [
+        "ja",
+        "zh-Hans"
+      ],
+      "minutes": 345,
+      "image": null,
+      "developers": [
+        {
+          "id": "p7504",
+          "name": "DiGination"
+        }
+      ],
+      "source": "https://vndb.org/v37021",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
+      "detailComplete": false
+    },
+    "v37651": {
+      "id": "v37651",
+      "title": "纯白交响曲 SANA EDITION",
+      "original": "ましろ色シンフォニー SANA EDITION",
+      "aliases": [
+        "Mashiro-iro Symphony: Sana Edition",
+        "Mashiroiro Symphony HD -Sana Edition-",
+        "ましろ色シンフォニー SANA EDITION",
+        "纯白交响曲 SANA EDITION",
+        "純白交響曲 SANA EDITION",
+        "Mashifoni"
+      ],
+      "released": "2023-06-23",
+      "languages": [
+        "en",
+        "ja",
+        "zh-Hans",
+        "zh-Hant"
+      ],
+      "minutes": 864,
+      "image": "https://t.vndb.org/cv/16/90216.jpg",
+      "developers": [
+        {
+          "id": "p10",
+          "name": "ぱれっと"
+        }
+      ],
+      "source": "https://vndb.org/v37651",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
+      "detailComplete": false
+    },
+    "v39197": {
+      "id": "v39197",
+      "title": "FLIP＊FLOP ~RAMBLING OVERRUN~",
+      "original": "FLIP＊FLOP ~RAMBLING OVERRUN~",
+      "aliases": [
+        "FLIP＊FLOP ~RAMBLING OVERRUN~",
+        "Flip Flop RAN"
+      ],
+      "released": "2023-02-24",
+      "languages": [
+        "ja",
+        "zh-Hans"
+      ],
+      "minutes": 318,
+      "image": "https://t.vndb.org/cv/73/88873.jpg",
+      "developers": [
+        {
+          "id": "p7504",
+          "name": "DiGination"
+        }
+      ],
+      "source": "https://vndb.org/v39197",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
+      "detailComplete": false
+    },
+    "v44098": {
+      "id": "v44098",
+      "title": "我的眼睛看光光！不可知的未来与透视的命运",
+      "original": "俺の瞳で丸裸！不可知な未来と視透かす運命",
+      "aliases": [
+        "Ore no Hitomi de Maruhadaka! Fukachi na Mirai to Misukasu Vision",
+        "俺の瞳で丸裸！不可知な未来と視透かす運命",
+        "我的眼睛看光光！不可知的未来与透视的命运",
+        "Orefukachi",
+        "俺不可知"
+      ],
+      "released": "2023-07-28",
+      "languages": [
+        "ja",
+        "zh-Hans"
+      ],
+      "minutes": 1150,
+      "image": "https://t.vndb.org/cv/65/113265.jpg",
+      "developers": [
+        {
+          "id": "p1612",
+          "name": "Hulotte"
+        }
+      ],
+      "source": "https://vndb.org/v44098",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
+      "detailComplete": false
+    },
+    "v45479": {
+      "id": "v45479",
+      "title": "恋とHしかしていない！",
+      "original": "恋とHしかしていない！",
+      "aliases": [
+        "Koi to H Shika Shiteinai!",
+        "恋とHしかしていない！",
+        "恋Ｈ",
+        "KoiH"
+      ],
+      "released": "2023-09-29",
+      "languages": [
+        "ja"
+      ],
+      "minutes": 531,
+      "image": null,
+      "developers": [
+        {
+          "id": "p262",
+          "name": "ユニゾンシフト"
+        }
+      ],
+      "source": "https://vndb.org/v45479",
+      "updatedAt": "2026-11-01T14:35:02.236Z",
       "detailComplete": false
     }
   },
@@ -32140,6 +33057,368 @@
       ],
       "updatedAt": "2026-11-01T13:57:26.533Z",
       "source": "https://vndb.org/s12983"
+    },
+    "s2487": {
+      "id": "s2487",
+      "name": "保住 圭",
+      "aliases": [
+        "Hozumi Kei",
+        "保住 圭"
+      ],
+      "description": "Hozumi Kei, born September 5, is a former adult game scenarist. He retired on October 31st 2023 to continue work in LNs and Mangas.\n\nBlog | Misskey",
+      "links": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E4%BF%9D%E4%BD%8F%E5%9C%AD",
+          "label": "jawiki"
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q140515836",
+          "label": "wikidata"
+        },
+        {
+          "url": "https://x.com/hozumik",
+          "label": "twitter"
+        },
+        {
+          "url": "https://x.com/hozumikeroe",
+          "label": "twitter"
+        },
+        {
+          "url": "https://www.pixiv.net/member.php?id=3870762",
+          "label": "pixiv"
+        },
+        {
+          "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/creater.php?creater=2012",
+          "label": "egs_creator"
+        },
+        {
+          "url": "https://cmc.booth.pm/",
+          "label": "booth_pub"
+        },
+        {
+          "url": "https://hozumik.fanbox.cc/",
+          "label": "fanbox"
+        },
+        {
+          "url": "https://hozumik.tumblr.com/",
+          "label": "tumblr"
+        }
+      ],
+      "works": [
+        {
+          "id": "v362",
+          "roles": [
+            "scenario"
+          ]
+        },
+        {
+          "id": "v363",
+          "roles": [
+            "scenario"
+          ]
+        },
+        {
+          "id": "v442",
+          "roles": [
+            "scenario",
+            "staff"
+          ]
+        },
+        {
+          "id": "v457",
+          "roles": [
+            "scenario",
+            "staff"
+          ]
+        },
+        {
+          "id": "v459",
+          "roles": [
+            "scenario",
+            "staff"
+          ]
+        },
+        {
+          "id": "v461",
+          "roles": [
+            "scenario",
+            "staff"
+          ]
+        },
+        {
+          "id": "v630",
+          "roles": [
+            "scenario"
+          ]
+        },
+        {
+          "id": "v815",
+          "roles": [
+            "scenario",
+            "staff"
+          ]
+        },
+        {
+          "id": "v816",
+          "roles": [
+            "scenario",
+            "staff"
+          ]
+        },
+        {
+          "id": "v1552",
+          "roles": [
+            "scenario"
+          ]
+        },
+        {
+          "id": "v2071",
+          "roles": [
+            "scenario"
+          ]
+        },
+        {
+          "id": "v3371",
+          "roles": [
+            "scenario",
+            "staff"
+          ]
+        },
+        {
+          "id": "v3823",
+          "roles": [
+            "scenario"
+          ]
+        },
+        {
+          "id": "v5246",
+          "roles": [
+            "scenario",
+            "staff"
+          ]
+        },
+        {
+          "id": "v6820",
+          "roles": [
+            "scenario",
+            "staff"
+          ]
+        },
+        {
+          "id": "v8437",
+          "roles": [
+            "scenario",
+            "staff"
+          ]
+        },
+        {
+          "id": "v8438",
+          "roles": [
+            "scenario",
+            "staff"
+          ]
+        },
+        {
+          "id": "v11726",
+          "roles": [
+            "scenario"
+          ]
+        },
+        {
+          "id": "v12984",
+          "roles": [
+            "scenario",
+            "staff"
+          ]
+        },
+        {
+          "id": "v13325",
+          "roles": [
+            "scenario"
+          ]
+        },
+        {
+          "id": "v13630",
+          "roles": [
+            "scenario"
+          ]
+        },
+        {
+          "id": "v14892",
+          "roles": [
+            "scenario"
+          ]
+        },
+        {
+          "id": "v15064",
+          "roles": [
+            "scenario",
+            "staff"
+          ]
+        },
+        {
+          "id": "v16044",
+          "roles": [
+            "scenario"
+          ]
+        },
+        {
+          "id": "v17369",
+          "roles": [
+            "scenario",
+            "staff"
+          ]
+        },
+        {
+          "id": "v17974",
+          "roles": [
+            "scenario",
+            "staff"
+          ]
+        },
+        {
+          "id": "v19294",
+          "roles": [
+            "scenario"
+          ]
+        },
+        {
+          "id": "v19372",
+          "roles": [
+            "scenario",
+            "staff"
+          ]
+        },
+        {
+          "id": "v21530",
+          "roles": [
+            "scenario"
+          ]
+        },
+        {
+          "id": "v22230",
+          "roles": [
+            "scenario"
+          ]
+        },
+        {
+          "id": "v23067",
+          "roles": [
+            "scenario",
+            "staff"
+          ]
+        },
+        {
+          "id": "v24351",
+          "roles": [
+            "scenario"
+          ]
+        },
+        {
+          "id": "v25690",
+          "roles": [
+            "scenario",
+            "staff"
+          ]
+        },
+        {
+          "id": "v26180",
+          "roles": [
+            "scenario"
+          ]
+        },
+        {
+          "id": "v26376",
+          "roles": [
+            "scenario",
+            "staff"
+          ]
+        },
+        {
+          "id": "v26989",
+          "roles": [
+            "scenario"
+          ]
+        },
+        {
+          "id": "v27053",
+          "roles": [
+            "scenario"
+          ]
+        },
+        {
+          "id": "v28286",
+          "roles": [
+            "scenario"
+          ]
+        },
+        {
+          "id": "v28304",
+          "roles": [
+            "scenario"
+          ]
+        },
+        {
+          "id": "v31002",
+          "roles": [
+            "scenario"
+          ]
+        },
+        {
+          "id": "v31212",
+          "roles": [
+            "staff"
+          ]
+        },
+        {
+          "id": "v37021",
+          "roles": [
+            "scenario",
+            "staff"
+          ]
+        },
+        {
+          "id": "v37651",
+          "roles": [
+            "scenario"
+          ]
+        },
+        {
+          "id": "v39197",
+          "roles": [
+            "scenario",
+            "staff"
+          ]
+        },
+        {
+          "id": "v40520",
+          "roles": [
+            "scenario"
+          ]
+        },
+        {
+          "id": "v44098",
+          "roles": [
+            "scenario",
+            "staff"
+          ]
+        },
+        {
+          "id": "v45479",
+          "roles": [
+            "scenario",
+            "staff"
+          ]
+        },
+        {
+          "id": "v45481",
+          "roles": [
+            "scenario"
+          ]
+        }
+      ],
+      "updatedAt": "2026-11-01T14:35:02.236Z",
+      "source": "https://vndb.org/s2487"
     }
   },
   "producers": {
