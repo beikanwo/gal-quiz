@@ -22,8 +22,8 @@ export function qualifies(record, period, minLikes = 3000) {
 export function safeUrl(value) {
   try { const u = new URL(value); return u.protocol === 'https:' && !u.username && !u.password ? u.href : null; } catch { return null; }
 }
-export function canonicalEvidenceUrl(platform, id) {
-  if (platform === 'douyin' && /^\d+$/.test(id)) return `https://www.douyin.com/video/${id}`;
+export function canonicalEvidenceUrl(platform, id, kind = 'video') {
+  if (platform === 'douyin' && /^\d+$/.test(id)) return `https://www.douyin.com/${kind === 'image' ? 'note' : 'video'}/${id}`;
   if (platform === 'bilibili' && /^BV[0-9A-Za-z]+$/.test(id)) return `https://www.bilibili.com/video/${id}`;
   return null;
 }
@@ -84,7 +84,7 @@ export function combinePeriod(period, attempts, previous = null, minLikes = 3000
     const attempt = attempts[name];
     if (attempt?.status === 'success') {
       const evidence = dedupe(attempt.records ?? []).filter((r) => r.platform === name && qualifies(r, period, minLikes) && r.workId);
-      platforms[name] = { status: 'success', periodId: period.id, start: period.start, end: period.end, collectedAt: attempt.collectedAt, lastSuccessAt: attempt.collectedAt, coverage: attempt.coverage ?? {}, ranking: rankEvidence(evidence) };
+      platforms[name] = { status: 'success', periodId: period.id, start: period.start, end: period.end, minLikes, collectedAt: attempt.collectedAt, lastSuccessAt: attempt.collectedAt, coverage: attempt.coverage ?? {}, ranking: rankEvidence(evidence) };
     } else {
       const old = previous?.platforms?.[name];
       platforms[name] = { ...(old ?? { ranking: [], periodId: null, lastSuccessAt: null }), status: 'failed', attemptedAt: attempt?.collectedAt ?? new Date().toISOString(), error: attempt?.error ?? '尚未完成采集验证' };

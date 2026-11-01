@@ -7,7 +7,7 @@ const detailFields = `${summaryFields},description,screenshots{id,url,thumbnail,
 const plain = (s) => String(s ?? '').replace(/\[spoiler\][\s\S]*?\[\/spoiler\]/gi, '（剧情内容已隐藏）').replace(/\[url=[^\]]*\]([\s\S]*?)\[\/url\]/gi, '$1').replace(/\[\/?[^\]]+\]/g, '').replace(/<[^>]*>/g, '').trim();
 const links = (rows) => (rows ?? []).filter((r) => safeUrl(r.url)).map((r) => ({ url: safeUrl(r.url), label: r.label ?? r.name ?? new URL(r.url).hostname }));
 export class Metadata {
-  constructor(catalog, overrides = {}) { this.catalog = catalog; this.overrides = overrides; this.lastRequest = 0; this.fetched = new Set(); this.now = new Date().toISOString(); }
+  constructor(catalog, overrides = {}) { this.catalog = catalog; this.overrides = overrides; this.lastRequest = 0; this.fetched = new Set(); this.now = new Date().toISOString(); this.searchCache = new Map(); this.unknownQueryLimit = 60; }
   async query(endpoint, filters, fields, page = 1) {
     await pause(Math.max(0, this.lastRequest + 1700 - Date.now()));
     this.lastRequest = Date.now();
@@ -84,7 +84,12 @@ export class Metadata {
     const phrases = [...text.matchAll(/《([^》]{2,70})》|「([^」]{2,70})」|【([^】]{2,70})】|#([^\s#]{2,35})/g)].map((m) => m[1] ?? m[2] ?? m[3] ?? m[4]);
     phrases.push(...(record.tags ?? []).filter((s) => s.length >= 2 && s.length <= 35));
     for (const phrase of [...new Set(phrases)].filter((s) => !generic.test(s)).slice(0, 4)) {
-      const rows = (await this.query('vn', ['search', '=', phrase], summaryFields)).results ?? [];
+      let rows = this.searchCache.get(phrase);
+      if (!rows) {
+        if (this.searchCache.size >= this.unknownQueryLimit) break;
+        rows = (await this.query('vn', ['search', '=', phrase], summaryFields)).results ?? [];
+        this.searchCache.set(phrase, rows);
+      }
       for (const r of rows) if ([r.title, r.alttitle, ...(r.titles ?? []).map((t) => t.title), ...(r.aliases ?? [])].some((s) => normalize(s) === normalize(phrase))) this.work(r);
     }
   }
@@ -94,6 +99,9 @@ export async function seedAliases(catalog, overrides) {
   const works = { ...catalog.works };
   // Seeds are a lookup aid only. They are never published as a complete new catalog.
   for (const w of quiz) if (!works[w.id]) works[w.id] = { id: w.id, title: w.title, original: w.orig, aliases: [w.title, w.orig] };
+  for (const entry of Object.values(overrides.evidence ?? {})) {
+    if (/^v\d+$/.test(entry.workId) && !works[entry.workId]) works[entry.workId] = { id: entry.workId, title: entry.workId, aliases: [] };
+  }
   for (const [id, value] of Object.entries(overrides.works ?? {})) {
     if (id.startsWith('manual-') && /^[a-z0-9-]+$/.test(id) && value.title && safeUrl(value.source)) {
       catalog.works[id] = { ...value, id, description: plain(value.description), image: null, screenshots: [], staff: [], developers: [], updatedAt: new Date().toISOString() };

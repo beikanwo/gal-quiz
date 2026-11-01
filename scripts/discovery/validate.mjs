@@ -27,9 +27,9 @@ for (const period of periods.periods) for (const [platform, data] of Object.entr
   const records = data.ranking.flatMap((r) => r.evidence ?? []);
   for (const r of records) {
     assert.equal(r.platform, platform);
-    assert.equal(r.url, canonicalEvidenceUrl(platform, r.id));
+    assert.equal(r.url, canonicalEvidenceUrl(platform, r.id, r.kind));
     assert.ok(catalog.works[r.workId], `片段引用不存在作品 ${r.workId}`);
-    assert.ok(qualifies(r, data.start ? data : period, period.minLikes), `片段不符合所属期次 ${r.id}`);
+    assert.ok(qualifies(r, data.start ? data : period, data.minLikes ?? period.minLikes), `片段不符合所属期次 ${r.id}`);
   }
   assert.deepEqual(data.ranking, rankEvidence(records), '排名或去重不正确');
 }

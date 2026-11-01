@@ -1,5 +1,6 @@
 import { mkdir, readFile, writeFile, readdir, rm } from 'node:fs/promises';
 import path from 'node:path';
+import { createHash } from 'node:crypto';
 import { readJson, writeJson } from './io.mjs';
 import { safeUrl, PLATFORMS, chinaDate } from './core.mjs';
 const root = path.resolve('site');
@@ -7,6 +8,7 @@ const catalog = await readJson('data/discovery/catalog.json');
 const index = await readJson('data/discovery/periods.json');
 const config = await readJson('config/discovery.json');
 const latest = index.periods[0];
+const assetsVersion = createHash('sha256').update(await readFile('site/discover.css')).update(await readFile('site/discover.js')).digest('hex').slice(0, 12);
 const labels = { douyin: '抖音', bilibili: 'B站' };
 const roles = { scenario: '剧本', art: '原画', director: '导演', music: '音乐', songs: '歌曲', chardesign: '角色设计', staff: '制作', translator: '翻译' };
 export const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
@@ -27,9 +29,9 @@ async function page(route, title, description, body, active = 'home') {
 <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(title)} - Scurra</title><meta name="description" content="${esc(description)}"><meta name="baidu-site-verification" content="codeva-6JF82PbTKI">
 <meta property="og:type" content="website"><meta property="og:locale" content="zh_CN"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}"><meta property="og:url" content="${config.origin}/${route}">
-<link rel="canonical" href="${config.origin}/${route}"><link rel="stylesheet" href="${link('discover.css')}">
+<link rel="canonical" href="${config.origin}/${route}"><link rel="stylesheet" href="${link('discover.css')}?v=${assetsVersion}">
 <script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': route.startsWith('works/') ? 'VideoGame' : 'CollectionPage', name: title, url: `${config.origin}/${route}`, inLanguage: 'zh-CN' }).replace(/</g, '\\u003c')}</script>
-<script type="module" src="${link('discover.js')}"></script></head>
+<script type="module" src="${link('discover.js')}?v=${assetsVersion}"></script></head>
 <body><a class="skip-link" href="#main">跳到内容</a><header class="topbar"><a class="brand" href="${link()}"><span class="brand-mark" aria-hidden="true">s</span><span>scurra<span class="brand-sub">Gal 热门发现</span></span></a><form class="search" action="${link('search/')}" role="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input name="q" aria-label="搜索作品、作者或制作商" placeholder="搜作品、作者、制作商" autocomplete="off"><button type="submit" aria-label="提交搜索">搜索</button></form><a class="quiz-button" href="${link('quiz/')}"><span class="quiz-full">测测适合哪部 Gal</span><span class="quiz-short">口味测试</span><span aria-hidden="true"> ↗</span></a></header>
 <div class="layout"><aside class="sidebar"><nav aria-label="主导航"><a ${active === 'home' ? 'aria-current="page"' : ''} href="${link()}"><span aria-hidden="true">⌂</span>热门发现</a><a ${active === 'library' ? 'aria-current="page"' : ''} href="${link('library/')}"><span aria-hidden="true">▦</span>作品与创作者</a><a ${active === 'archive' ? 'aria-current="page"' : ''} href="${link('periods/')}"><span aria-hidden="true">◷</span>往期收录</a></nav><div class="sidebar-rule"></div><div class="sidebar-heading">每 15 天，换一批故事</div><p class="sidebar-note">从刷到的片段<br>走进它背后的作品。</p><div class="issue-links">${index.periods.slice(0, 5).map((p) => `<a href="${link(`periods/${p.id}/`)}">${p.id.replaceAll('-', '.')}<span>查看</span></a>`).join('')}</div><a class="method-link" href="${link('about/')}">收录标准与数据来源</a><div class="sidebar-bottom"><span class="small-dot"></span> 为喜欢故事的人而做</div></aside>
 <main id="main" class="main" tabindex="-1">${body.replaceAll('@@ROOT@@', base)}</main></div>

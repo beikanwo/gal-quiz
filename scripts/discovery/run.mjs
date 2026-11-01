@@ -10,6 +10,7 @@ export async function run(options = args()) {
   const index = await readJson('data/discovery/periods.json');
   const catalog = await readJson('data/discovery/catalog.json');
   const overrides = await readJson('config/discovery-overrides.json');
+  const priorReview = await readJson('data/discovery/review.json', { records: [], pending: [], warnings: [] });
   const now = options.at ?? new Date().toISOString();
   const period = periodFor(index.anchorDate ?? config.anchorDate, now, config.intervalDays);
   const existing = index.periods.find((p) => p.id === period?.id);
@@ -23,6 +24,7 @@ export async function run(options = args()) {
   }
   if (!period || (!due && !options.probe && !options['review-only'])) { console.log('本期已经完成，无需重复发布。'); return; }
   const metadata = new Metadata(catalog, overrides);
+  metadata.unknownQueryLimit = config.maxUnknownTitleQueries;
   const seeds = await seedAliases(catalog, overrides);
   const report = { version: 1, period, startedAt: now, platforms: {}, pending: [], warnings: [] };
   const attempts = {};
@@ -32,7 +34,11 @@ export async function run(options = args()) {
   for (const platform of selected) {
     if (existing?.platforms?.[platform]?.status === 'success' && !options.force && !options.probe && !options['review-only']) {
       const previous = existing.platforms[platform];
-      attempts[platform] = { ...previous, records: previous.ranking.flatMap((r) => r.evidence) };
+      attempts[platform] = { ...previous, records: previous.ranking.flatMap((r) => r.evidence), reviewRecords: priorReview.periodId === period.id ? priorReview.records.filter((r) => r.platform === platform) : previous.ranking.flatMap((r) => r.evidence) };
+      if (priorReview.periodId === period.id) {
+        report.pending.push(...priorReview.pending.filter((r) => r.platform === platform));
+        report.warnings.push(...priorReview.warnings);
+      }
       report.platforms[platform] = { status: 'success', collectedAt: previous.collectedAt, reused: true, coverage: previous.coverage };
       continue;
     }
@@ -57,7 +63,7 @@ export async function run(options = args()) {
         }
       }
     } catch (e) { status = 'failed'; error = publicError(e); }
-    const qualified = dedupe(records).filter((r) => qualifies(r, period, config.minLikes) && canonicalEvidenceUrl(r.platform, r.id) === r.url);
+    const qualified = dedupe(records).filter((r) => qualifies(r, period, config.minLikes) && canonicalEvidenceUrl(r.platform, r.id, r.kind) === r.url);
     const matched = [];
     for (const record of qualified) {
       let decision = matchWork(record, { ...seeds, ...catalog.works }, overrides);
@@ -102,6 +108,10 @@ export async function run(options = args()) {
   }
   report.finishedAt = new Date().toISOString();
   await writeJson(options.report ?? 'data/raw/discovery/report.json', report);
+  if (process.env.GITHUB_STEP_SUMMARY) {
+    const lines = ['## 真实采集验证', `期次：${period.id}；窗口：${period.start} 至 ${period.end}`, '', '| 平台 | 状态 | 达标 | 明确匹配 |', '| --- | --- | ---: | ---: |', ...Object.entries(report.platforms).map(([p, value]) => `| ${p} | ${value.status}${value.reused ? '（复用本期）' : ''} | ${value.qualified ?? '—'} | ${value.matched ?? '—'} |`), '', '工作流执行成功不代表每个平台采集成功。失败原因及原链接见验证 Artifact。', ''];
+    await appendFile(process.env.GITHUB_STEP_SUMMARY, lines.join('\n'));
+  }
   if (options.probe) return report;
   const previous = existing ?? index.periods[0];
   const snapshot = combinePeriod(period, attempts, previous, config.minLikes);

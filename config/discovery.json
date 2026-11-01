@@ -8,6 +8,7 @@
   "keywords": ["galgame", "gal游戏", "美少女游戏", "视觉小说", "galgame CG", "galgame名场面"],
   "pagesPerKeyword": 3,
   "maxExpansionWorks": 20,
+  "maxUnknownTitleQueries": 60,
   "douk": {
     "repository": "https://github.com/JoeanAmier/TikTokDownloader",
     "commit": "e327b9549d284a8b1613566f949fe2dbb8a6c2a1",

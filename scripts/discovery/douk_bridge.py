@@ -61,11 +61,13 @@ async def collect(args):
             post_id = str(item["aweme_id"])
             if not post_id.isdigit():
                 continue
+            kind = "image" if item.get("images") else "video"
             records.append({
                 "platform": "douyin", "id": post_id,
                 "title": str(item.get("desc", ""))[:4000], "description": "",
                 "tags": [str(t.get("hashtag_name", "")) for t in item.get("text_extra", [])],
-                "url": "https://www.douyin.com/video/" + post_id,
+                "kind": kind,
+                "url": "https://www.douyin.com/" + ("note/" if kind == "image" else "video/") + post_id,
                 "publishedAt": datetime.datetime.fromtimestamp(item["create_time"], datetime.timezone.utc).isoformat(),
                 "likes": likes,
                 "collectedAt": datetime.datetime.now(datetime.timezone.utc).isoformat(),

@@ -12,6 +12,8 @@ if (!html.includes('gal-discovery-quiz-migration')) {
     .replace('<body>', '<body>\n  <!-- gal-discovery-quiz-migration -->\n  <nav aria-label="网站导航" style="padding:20px 24px;font-size:14px"><a href="../" style="color:inherit">返回 Gal 热门发现</a></nav>');
   await writeFile('site/quiz/index.html', html);
 }
+html = html.replaceAll('app.js?v=20261025-seo', 'app.js?v=20261101-discovery');
+await writeFile('site/quiz/index.html', html);
 let app = await readFile('site/app.js', 'utf8');
 app = app.replace("fetch(u).then", "fetch(new URL(u, import.meta.url)).then")
   .replace('href="beginners/"', 'href="${new URL(\'beginners/\', import.meta.url).href}"');
