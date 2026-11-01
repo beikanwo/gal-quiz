@@ -2,5 +2,173 @@
   "version": 1,
   "anchorDate": null,
   "periods": [],
-  "lastAttempt": null
+  "lastAttempt": {
+    "at": "2026-11-01T13:34:39.637Z",
+    "periodId": "2026-11-01",
+    "platforms": {
+      "douyin": {
+        "status": "failed",
+        "error": "抖音未返回可验证的搜索结果，请更新 Cookie 或检查平台限制。",
+        "collectedAt": "2026-11-01T13:22:33.765Z",
+        "fetched": 0,
+        "qualified": 0,
+        "matched": 0,
+        "sample": [],
+        "coverage": {
+          "keywords": [
+            "galgame",
+            "gal游戏",
+            "美少女游戏",
+            "视觉小说",
+            "galgame CG",
+            "galgame名场面"
+          ],
+          "queries": 0,
+          "pages": 0,
+          "maxPagesPerQuery": 3,
+          "candidateCount": 0,
+          "qualifiedCount": 0
+        }
+      },
+      "bilibili": {
+        "status": "failed",
+        "error": "B站搜索被限制或返回格式已变化。",
+        "collectedAt": "2026-11-01T13:22:39.171Z",
+        "fetched": 249,
+        "qualified": 57,
+        "matched": 7,
+        "sample": [
+          {
+            "platform": "bilibili",
+            "id": "BV14nnh6QEog",
+            "title": "taffy要摸脚🦶",
+            "description": "-",
+            "tags": [
+              "游戏实况",
+              "雨原玲奈",
+              "剧情",
+              "世界末日",
+              "rain98",
+              "永雏塔菲",
+              "Lo-fi",
+              "demo",
+              "steam",
+              "galgame"
+            ],
+            "url": "https://www.bilibili.com/video/BV14nnh6QEog",
+            "publishedAt": "2026-10-23T11:19:34.000Z",
+            "likes": 5228,
+            "collectedAt": "2026-11-01T13:23:51.260Z",
+            "keyword": "gal游戏",
+            "workId": "v69315",
+            "matchMethod": "explicit-title"
+          },
+          {
+            "platform": "bilibili",
+            "id": "BV121HK6HELU",
+            "title": "长难句合集",
+            "description": "",
+            "tags": [
+              "galgame",
+              "千恋万花",
+              "长难句",
+              "柚子社"
+            ],
+            "url": "https://www.bilibili.com/video/BV121HK6HELU",
+            "publishedAt": "2026-10-24T10:09:58.000Z",
+            "likes": 3500,
+            "collectedAt": "2026-11-01T13:23:30.825Z",
+            "keyword": "galgame",
+            "workId": "v19073",
+            "matchMethod": "explicit-title"
+          },
+          {
+            "platform": "bilibili",
+            "id": "BV1bVJe6cEaW",
+            "title": "人类最绝望的未来！神作《Muv-Luv》的世界究竟有多可怕？【游戏Muv-Luv系列世界观设定与剧情解说】",
+            "description": "小UP技术力有限，视频如有错漏还望纠错与海涵，\n这是一期入坑向的解说视频，如果能给我一个三连的话我会十分感激( ੭ ˙ᗜ˙ )੭",
+            "tags": [
+              "muvluv",
+              "steam游戏",
+              "游戏解说",
+              "恐怖游戏",
+              "单机游戏",
+              "GAL",
+              "科幻"
+            ],
+            "url": "https://www.bilibili.com/video/BV1bVJe6cEaW",
+            "publishedAt": "2026-10-17T10:00:00.000Z",
+            "likes": 7172,
+            "collectedAt": "2026-11-01T13:23:51.260Z",
+            "keyword": "gal游戏",
+            "workId": "v93",
+            "matchMethod": "explicit-title"
+          },
+          {
+            "platform": "bilibili",
+            "id": "BV1Jhnb6TEkc",
+            "title": "回到1998和美少女毁灭世界？！《Rain98》究竟讲了什么故事？",
+            "description": "《Rain98》\n爆肝 7000字\n24分钟一口气带你看完全剧情\n爆肝不易跪求三连!~",
+            "tags": [
+              "雨原玲奈",
+              "游戏杂谈",
+              "单机游戏",
+              "美少女",
+              "Rain98",
+              "steam",
+              "推荐宝藏游戏",
+              "Lo-Fi",
+              "文字冒险游戏",
+              "游戏剧情"
+            ],
+            "url": "https://www.bilibili.com/video/BV1Jhnb6TEkc",
+            "publishedAt": "2026-10-23T10:00:00.000Z",
+            "likes": 14553,
+            "collectedAt": "2026-11-01T13:24:38.268Z",
+            "keyword": "美少女游戏",
+            "workId": "v69315",
+            "matchMethod": "explicit-title"
+          },
+          {
+            "platform": "bilibili",
+            "id": "BV1tLJR6JEFM",
+            "title": "史上最惊悚浪漫的灭世仪式！与诡异少女的同居生活《Rain98》",
+            "description": "相关游戏：《Rain98》",
+            "tags": [
+              "游戏杂谈",
+              "独立游戏",
+              "steam",
+              "单机游戏",
+              "rain98",
+              "推荐宝藏游戏",
+              "游戏鉴赏家",
+              "视觉小说"
+            ],
+            "url": "https://www.bilibili.com/video/BV1tLJR6JEFM",
+            "publishedAt": "2026-10-20T03:50:00.000Z",
+            "likes": 4746,
+            "collectedAt": "2026-11-01T13:25:40.628Z",
+            "keyword": "视觉小说",
+            "workId": "v69315",
+            "matchMethod": "explicit-title"
+          }
+        ],
+        "coverage": {
+          "keywords": [
+            "galgame",
+            "gal游戏",
+            "美少女游戏",
+            "视觉小说",
+            "galgame CG",
+            "galgame名场面"
+          ],
+          "queries": 5,
+          "pages": 15,
+          "maxPagesPerQuery": 3,
+          "candidateCount": 249,
+          "qualifiedCount": 57
+        }
+      }
+    }
+  }
 }

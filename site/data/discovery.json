@@ -1,5 +1,3158 @@
 {
   "version": 1,
-  "updatedAt": null,
-  "entries": []
+  "updatedAt": "2026-11-01T13:34:39.637Z",
+  "entries": [
+    {
+      "id": "v69315",
+      "type": "work",
+      "name": "Rain98",
+      "aliases": [
+        "Rain98",
+        "Rain98"
+      ],
+      "image": "https://t.vndb.org/cv/78/149978.jpg",
+      "subtitle": "C#4R4CT3R",
+      "path": "works/v69315/"
+    },
+    {
+      "id": "v19073",
+      "type": "work",
+      "name": "千恋＊万花",
+      "aliases": [
+        "千恋＊万花",
+        "Senren * Banka",
+        "Senren＊Banka",
+        "千恋＊万花",
+        "천연만화 (Senren * Banka)",
+        "千戀＊萬花",
+        "Senren * Banka: A Thousand Colors of Love",
+        "千変万化",
+        "千恋万花",
+        "천련*만화",
+        "천연*만화",
+        "천련만화"
+      ],
+      "image": "https://t.vndb.org/cv/46/80746.jpg",
+      "subtitle": "ゆずソフト",
+      "path": "works/v19073/"
+    },
+    {
+      "id": "v83",
+      "type": "work",
+      "name": "ExE",
+      "aliases": [
+        "ExE",
+        "ExE",
+        "エグゼ",
+        "E x E",
+        "E × E",
+        "Empty Embryo",
+        "Empty x Embryo"
+      ],
+      "image": null,
+      "subtitle": "ゆずソフト",
+      "path": "works/v83/"
+    },
+    {
+      "id": "v179",
+      "type": "work",
+      "name": "春天的足音",
+      "aliases": [
+        "はるのあしおと",
+        "Haru no Ashioto",
+        "はるのあしおと",
+        "春天的足音",
+        "はるおと",
+        "haruoto",
+        "Footsteps of Spring (lit. translation)",
+        "Deliver Spring to your heart... as soon!"
+      ],
+      "image": "https://t.vndb.org/cv/70/91570.jpg",
+      "subtitle": "minori",
+      "path": "works/v179/"
+    },
+    {
+      "id": "v532",
+      "type": "work",
+      "name": "管乐恋曲！",
+      "aliases": [
+        "ぶらばん！",
+        "Bra-Ban!",
+        "ぶらばん！",
+        "管乐恋曲！",
+        "Braban!",
+        "BRA-BAN! ~the bonds of melody~",
+        "ぶらばん!～The bonds of melody～"
+      ],
+      "image": "https://t.vndb.org/cv/60/88660.jpg",
+      "subtitle": "ゆずソフト",
+      "path": "works/v532/"
+    },
+    {
+      "id": "v632",
+      "type": "work",
+      "name": "青空がっこのせんせい君。",
+      "aliases": [
+        "青空がっこのせんせい君。",
+        "Aozora Gakko no Sensei-kun.",
+        "青空がっこのせんせい君。",
+        "Aozora Gakko no Senseikun."
+      ],
+      "image": "https://t.vndb.org/cv/27/101527.jpg",
+      "subtitle": "すたじおみりす",
+      "path": "works/v632/"
+    },
+    {
+      "id": "v701",
+      "type": "work",
+      "name": "夏空彼方",
+      "aliases": [
+        "夏空カナタ",
+        "Natsuzora Kanata",
+        "夏空カナタ",
+        "夏空彼方",
+        "Beyond the Summer Sky",
+        "Natuzora Kanata",
+        "Natsukana",
+        "夏カナ"
+      ],
+      "image": "https://t.vndb.org/cv/69/52169.jpg",
+      "subtitle": "ゆずソフト",
+      "path": "works/v701/"
+    },
+    {
+      "id": "v893",
+      "type": "work",
+      "name": "SNOW",
+      "aliases": [
+        "SNOW",
+        "SNOW",
+        "スノー"
+      ],
+      "image": null,
+      "subtitle": "スタジオメビウス",
+      "path": "works/v893/"
+    },
+    {
+      "id": "v1322",
+      "type": "work",
+      "name": "天神乱漫 LUCKY or UNLUCKY!?",
+      "aliases": [
+        "天神乱漫 LUCKY or UNLUCKY!?",
+        "Tenshin Ranman Lucky or Unlucky!?",
+        "天神乱漫 LUCKY or UNLUCKY!?"
+      ],
+      "image": "https://t.vndb.org/cv/11/27811.jpg",
+      "subtitle": "ゆずソフト",
+      "path": "works/v1322/"
+    },
+    {
+      "id": "v1337",
+      "type": "work",
+      "name": "祝福的钟声",
+      "aliases": [
+        "祝福のカンパネラ",
+        "Shukufuku no Campanella",
+        "祝福のカンパネラ",
+        "祝福的钟声",
+        "la campanella della benedizione"
+      ],
+      "image": null,
+      "subtitle": "ういんどみる Oasis",
+      "path": "works/v1337/"
+    },
+    {
+      "id": "v1618",
+      "type": "work",
+      "name": "はじめてのおてつだい",
+      "aliases": [
+        "はじめてのおてつだい",
+        "Hajimete no Otetsudai",
+        "はじめてのおてつだい"
+      ],
+      "image": "https://t.vndb.org/cv/29/16929.jpg",
+      "subtitle": "Studio Ring",
+      "path": "works/v1618/"
+    },
+    {
+      "id": "v1740",
+      "type": "work",
+      "name": "恋色空模样",
+      "aliases": [
+        "恋色空模様",
+        "Koiiro Soramoyou",
+        "恋色空模様",
+        "恋色空模样",
+        "恋空",
+        "Koisora"
+      ],
+      "image": "https://t.vndb.org/cv/95/137595.jpg",
+      "subtitle": "すたじお緑茶",
+      "path": "works/v1740/"
+    },
+    {
+      "id": "v1950",
+      "type": "work",
+      "name": "友達以上恋人未満",
+      "aliases": [
+        "友達以上恋人未満",
+        "Tomodachi Ijou Koibito Miman",
+        "友達以上恋人未満",
+        "友恋",
+        "tomokoi",
+        "It is under a sweetheart more than a friend",
+        "朋友以上恋人未满"
+      ],
+      "image": "https://t.vndb.org/cv/75/90275.jpg",
+      "subtitle": "スタジオメビウス",
+      "path": "works/v1950/"
+    },
+    {
+      "id": "v2027",
+      "type": "work",
+      "name": "絶望 ～青い果実の散花～",
+      "aliases": [
+        "絶望 ～青い果実の散花～",
+        "Zetsubou ~Aoi Kajitsu no Sanka~",
+        "絶望 ～青い果実の散花～"
+      ],
+      "image": null,
+      "subtitle": "スタジオメビウス",
+      "path": "works/v2027/"
+    },
+    {
+      "id": "v2352",
+      "type": "work",
+      "name": "The God of Death",
+      "aliases": [
+        "The God of Death",
+        "The God of Death",
+        "ザ ゴッド オブ デス",
+        "ゴッデス"
+      ],
+      "image": null,
+      "subtitle": "スタジオメビウス",
+      "path": "works/v2352/"
+    },
+    {
+      "id": "v4806",
+      "type": "work",
+      "name": "NOBLE☆WORKS",
+      "aliases": [
+        "のーぶる☆わーくす",
+        "Noble ☆ Works",
+        "のーぶる☆わーくす",
+        "NOBLE☆WORKS",
+        "ぶるくす"
+      ],
+      "image": "https://t.vndb.org/cv/33/101533.jpg",
+      "subtitle": "ゆずソフト",
+      "path": "works/v4806/"
+    },
+    {
+      "id": "v7253",
+      "type": "work",
+      "name": "しょうよん！コドモ☆ちゃれんじ",
+      "aliases": [
+        "しょうよん！コドモ☆ちゃれんじ",
+        "Shouyon! Kodomo☆Challenge",
+        "しょうよん！コドモ☆ちゃれんじ"
+      ],
+      "image": null,
+      "subtitle": "チームエグゾーダス",
+      "path": "works/v7253/"
+    },
+    {
+      "id": "v7600",
+      "type": "work",
+      "name": "すぱっちゅ！～如何に私がはきものを愛するようになったのか～",
+      "aliases": [
+        "すぱっちゅ！～如何に私がはきものを愛するようになったのか～",
+        "Supacchu! ~Ikaga ni Watashi ga Hakimono o Aisuru You ni Natta no ka~",
+        "すぱっちゅ！～如何に私がはきものを愛するようになったのか～",
+        "I wonder how I came to fall in love with a type of clothing..."
+      ],
+      "image": null,
+      "subtitle": "Studio Ring",
+      "path": "works/v7600/"
+    },
+    {
+      "id": "v8213",
+      "type": "work",
+      "name": "DRACU-RIOT!",
+      "aliases": [
+        "DRACU-RIOT!",
+        "DRACU-RIOT!",
+        "ドラクリオット"
+      ],
+      "image": "https://t.vndb.org/cv/68/116468.jpg",
+      "subtitle": "ゆずソフト",
+      "path": "works/v8213/"
+    },
+    {
+      "id": "v8438",
+      "type": "work",
+      "name": "魔女的花园",
+      "aliases": [
+        "ウィッチズガーデン",
+        "Witch's Garden",
+        "ウィッチズガーデン",
+        "魔女的花园",
+        "魔女的花園"
+      ],
+      "image": "https://t.vndb.org/cv/43/82643.jpg",
+      "subtitle": "ういんどみる Oasis",
+      "path": "works/v8438/"
+    },
+    {
+      "id": "v11582",
+      "type": "work",
+      "name": "許嫁",
+      "aliases": [
+        "許嫁",
+        "Iinazuke",
+        "許嫁"
+      ],
+      "image": "https://t.vndb.org/cv/06/53006.jpg",
+      "subtitle": "ZERO",
+      "path": "works/v11582/"
+    },
+    {
+      "id": "v12167",
+      "type": "work",
+      "name": "天色幻想岛",
+      "aliases": [
+        "天色＊アイルノーツ",
+        "Amairo * Islenauts",
+        "天色＊アイルノーツ",
+        "天色幻想岛"
+      ],
+      "image": "https://t.vndb.org/cv/02/97302.jpg",
+      "subtitle": "ゆずソフト",
+      "path": "works/v12167/"
+    },
+    {
+      "id": "v16044",
+      "type": "work",
+      "name": "魔女的夜宴",
+      "aliases": [
+        "サノバウィッチ",
+        "Sanoba Witch",
+        "Sabbat of the Witch",
+        "サノバウィッチ",
+        "魔女的夜宴",
+        "サノバウィッチ Sabbat of the Witch",
+        "Son of a Witch: Sabbat of the Witch",
+        "Sonova Witch",
+        "Sonovawitch",
+        "Sabbath of the Witch"
+      ],
+      "image": null,
+      "subtitle": "ゆずソフト",
+      "path": "works/v16044/"
+    },
+    {
+      "id": "v18149",
+      "type": "work",
+      "name": "少女＊领域",
+      "aliases": [
+        "オトメ＊ドメイン",
+        "Otome * Domain",
+        "オトメ＊ドメイン",
+        "少女＊领域",
+        "少女＊領域",
+        "オトメドメイン",
+        "オトメド",
+        "otomedo",
+        "オトドメ",
+        "otodome"
+      ],
+      "image": "https://t.vndb.org/cv/54/79754.jpg",
+      "subtitle": "ぱれっとクオリア",
+      "path": "works/v18149/"
+    },
+    {
+      "id": "v22230",
+      "type": "work",
+      "name": "Riddle Joker",
+      "aliases": [
+        "RIDDLE JOKER",
+        "RIDDLE JOKER",
+        "Riddle Joker",
+        "リドルジョーカー",
+        "密命王牌"
+      ],
+      "image": "https://t.vndb.org/cv/73/79873.jpg",
+      "subtitle": "ゆずソフト",
+      "path": "works/v22230/"
+    },
+    {
+      "id": "v26414",
+      "type": "work",
+      "name": "星光咖啡馆与死神之蝶",
+      "aliases": [
+        "喫茶ステラと死神の蝶",
+        "Café Stella to Shinigami no Chou",
+        "Café Stella and the Reapers' Butterflies",
+        "喫茶ステラと死神の蝶",
+        "카페 스텔라와 사신의 나비",
+        "星光咖啡馆与死神之蝶",
+        "星光咖啡館與死神之蝶",
+        "Kissa Stella to Shinigami no Chou",
+        "Café Stella and the Death Goddess' Butterfly"
+      ],
+      "image": "https://t.vndb.org/cv/27/113927.jpg",
+      "subtitle": "ゆずソフト",
+      "path": "works/v26414/"
+    },
+    {
+      "id": "v31807",
+      "type": "work",
+      "name": "PARQUET",
+      "aliases": [
+        "PARQUET",
+        "PARQUET"
+      ],
+      "image": "https://t.vndb.org/cv/91/79891.jpg",
+      "subtitle": "ゆずソフトSOUR",
+      "path": "works/v31807/"
+    },
+    {
+      "id": "v34192",
+      "type": "work",
+      "name": "暗黒SNOW",
+      "aliases": [
+        "暗黒SNOW",
+        "Dark SNOW",
+        "暗黒SNOW",
+        "ダークスノー"
+      ],
+      "image": "https://t.vndb.org/cv/71/90271.jpg",
+      "subtitle": "スタジオメビウス",
+      "path": "works/v34192/"
+    },
+    {
+      "id": "v40520",
+      "type": "work",
+      "name": "天使☆嚣嚣 RE-BOOT!",
+      "aliases": [
+        "天使☆騒々 RE-BOOT!",
+        "Tenshi☆Souzou RE-BOOT!",
+        "Angelic☆Chaos RE-BOOT!",
+        "天使☆騒々 RE-BOOT!",
+        "天使☆嚣嚣 RE-BOOT!",
+        "天使☆囂囂 RE-BOOT!",
+        "天使☆骚骚 RE-BOOT!",
+        "しりぶと"
+      ],
+      "image": "https://t.vndb.org/cv/66/88666.jpg",
+      "subtitle": "ゆずソフト",
+      "path": "works/v40520/"
+    },
+    {
+      "id": "v56650",
+      "type": "work",
+      "name": "聚光灯下的青柠恋曲",
+      "aliases": [
+        "ライムライト・レモネードジャム",
+        "LimeLight Lemonade Jam",
+        "ライムライト・レモネードジャム",
+        "聚光灯下的青柠恋曲",
+        "3LJ",
+        "LLLJ",
+        "L3J",
+        "ララジャム",
+        "蜜雪冰城"
+      ],
+      "image": "https://t.vndb.org/cv/06/109906.jpg",
+      "subtitle": "ゆずソフト",
+      "path": "works/v56650/"
+    },
+    {
+      "id": "v25",
+      "type": "work",
+      "name": "AYAKASHI アヤカシ",
+      "aliases": [
+        "AYAKASHI アヤカシ",
+        "Ayakashi",
+        "AYAKASHI アヤカシ"
+      ],
+      "image": null,
+      "subtitle": "ApRicoT",
+      "path": "works/v25/"
+    },
+    {
+      "id": "v263",
+      "type": "work",
+      "name": "Ayakashi H",
+      "aliases": [
+        "Ayakashi H",
+        "Ayakashi H",
+        "アヤカシ エイチ"
+      ],
+      "image": null,
+      "subtitle": "ApRicoT",
+      "path": "works/v263/"
+    },
+    {
+      "id": "v775",
+      "type": "work",
+      "name": "Coming×Humming!!",
+      "aliases": [
+        "Coming×Humming!!",
+        "Coming x Humming!!",
+        "Coming×Humming!!",
+        "カミング・ハミング",
+        "Kamihami"
+      ],
+      "image": "https://t.vndb.org/cv/00/23400.jpg",
+      "subtitle": "SAGA PLANETS",
+      "path": "works/v775/"
+    },
+    {
+      "id": "v1021",
+      "type": "work",
+      "name": "英雄×魔王",
+      "aliases": [
+        "英雄×魔王",
+        "Eiyuu x Maou",
+        "英雄×魔王"
+      ],
+      "image": null,
+      "subtitle": "エスクード",
+      "path": "works/v1021/"
+    },
+    {
+      "id": "v1129",
+      "type": "work",
+      "name": "メタモルファンタジー",
+      "aliases": [
+        "メタモルファンタジー",
+        "Metamor Fantasy",
+        "メタモルファンタジー"
+      ],
+      "image": "https://t.vndb.org/cv/14/89714.jpg",
+      "subtitle": "エスクード",
+      "path": "works/v1129/"
+    },
+    {
+      "id": "v1486",
+      "type": "work",
+      "name": "オタキバ！",
+      "aliases": [
+        "オタキバ！",
+        "Otakiba!",
+        "オタキバ！",
+        "Otaku ha Akiba de koi shiteru"
+      ],
+      "image": "https://t.vndb.org/cv/33/2433.jpg",
+      "subtitle": "THE FLYERS",
+      "path": "works/v1486/"
+    },
+    {
+      "id": "v1545",
+      "type": "work",
+      "name": "花與乙女的祝福",
+      "aliases": [
+        "花と乙女に祝福を",
+        "Hana to Otome ni Shukufuku o",
+        "花と乙女に祝福を",
+        "花與乙女的祝福",
+        "花乙女",
+        "Hanaotome",
+        "花乙",
+        "Hanaoto",
+        "花与乙女的祝福"
+      ],
+      "image": "https://t.vndb.org/cv/54/99754.jpg",
+      "subtitle": "ensemble",
+      "path": "works/v1545/"
+    },
+    {
+      "id": "v3067",
+      "type": "work",
+      "name": "ゆにばる！ PARANORMAL GIRLS STRIKE!!",
+      "aliases": [
+        "ゆにばる！ PARANORMAL GIRLS STRIKE!!",
+        "Unival! Paranormal Girls Strike!!",
+        "ゆにばる！ PARANORMAL GIRLS STRIKE!!",
+        "Yunibaru"
+      ],
+      "image": null,
+      "subtitle": "ApRicoT",
+      "path": "works/v3067/"
+    },
+    {
+      "id": "v3240",
+      "type": "work",
+      "name": "ひのまるっ",
+      "aliases": [
+        "ひのまるっ",
+        "Hinomaru",
+        "ひのまるっ",
+        "Hinomaru-Instruction"
+      ],
+      "image": "https://t.vndb.org/cv/96/127696.jpg",
+      "subtitle": "WHEEL",
+      "path": "works/v3240/"
+    },
+    {
+      "id": "v3329",
+      "type": "work",
+      "name": "ジュエルスオーシャン",
+      "aliases": [
+        "ジュエルスオーシャン",
+        "Jewels Ocean",
+        "ジュエルスオーシャン"
+      ],
+      "image": "https://t.vndb.org/cv/43/89643.jpg",
+      "subtitle": "エスクード",
+      "path": "works/v3329/"
+    },
+    {
+      "id": "v4259",
+      "type": "work",
+      "name": "太陽のプロミア",
+      "aliases": [
+        "太陽のプロミア",
+        "Taiyou no Promia",
+        "太陽のプロミア"
+      ],
+      "image": "https://t.vndb.org/cv/63/89263.jpg",
+      "subtitle": "Seven Wonder",
+      "path": "works/v4259/"
+    },
+    {
+      "id": "v4822",
+      "type": "work",
+      "name": "桜花センゴク!～信長ちゃんの恋して野望!?～",
+      "aliases": [
+        "桜花センゴク!～信長ちゃんの恋して野望!?～",
+        "Ouka Sengoku! ~Nobunaga-chan no Koishite Yabou!?~",
+        "桜花センゴク!～信長ちゃんの恋して野望!?～"
+      ],
+      "image": "https://t.vndb.org/cv/65/28665.jpg",
+      "subtitle": "ApRicoT",
+      "path": "works/v4822/"
+    },
+    {
+      "id": "v4966",
+      "type": "work",
+      "name": "とびっきりRUIN",
+      "aliases": [
+        "とびっきりRUIN",
+        "Tobikkiri Ruin",
+        "とびっきりRUIN"
+      ],
+      "image": "https://t.vndb.org/cv/12/6112.jpg",
+      "subtitle": "エスクード",
+      "path": "works/v4966/"
+    },
+    {
+      "id": "v6683",
+      "type": "work",
+      "name": "Magical Premium",
+      "aliases": [
+        "Magical Premium",
+        "Magical Premium",
+        "マジカルプレミアム"
+      ],
+      "image": "https://t.vndb.org/cv/03/8403.jpg",
+      "subtitle": "魔法探偵社",
+      "path": "works/v6683/"
+    },
+    {
+      "id": "v6820",
+      "type": "work",
+      "name": "なでしこドリップ",
+      "aliases": [
+        "なでしこドリップ",
+        "Nadeshiko Drip",
+        "なでしこドリップ"
+      ],
+      "image": "https://t.vndb.org/cv/99/26499.jpg",
+      "subtitle": "Apricot Plum",
+      "path": "works/v6820/"
+    },
+    {
+      "id": "v7143",
+      "type": "work",
+      "name": "流聖天使プリマヴェール",
+      "aliases": [
+        "流聖天使プリマヴェール",
+        "Ryuusei Tenshi Primaveil",
+        "流聖天使プリマヴェール",
+        "Shooting Holiness Prima Veil V"
+      ],
+      "image": null,
+      "subtitle": "エスクード",
+      "path": "works/v7143/"
+    },
+    {
+      "id": "v7666",
+      "type": "work",
+      "name": "ラブリー・ラブドール",
+      "aliases": [
+        "ラブリー・ラブドール",
+        "Lovely Lovedoll",
+        "ラブリー・ラブドール"
+      ],
+      "image": null,
+      "subtitle": "エスクード",
+      "path": "works/v7666/"
+    },
+    {
+      "id": "v8231",
+      "type": "work",
+      "name": "太陽のプロミア　Flowering Days",
+      "aliases": [
+        "太陽のプロミア　Flowering Days",
+        "Taiyou no Promia Flowering Days",
+        "太陽のプロミア　Flowering Days"
+      ],
+      "image": "https://t.vndb.org/cv/84/127684.jpg",
+      "subtitle": "Seven Wonder",
+      "path": "works/v8231/"
+    },
+    {
+      "id": "v11726",
+      "type": "work",
+      "name": "お嬢様はご機嫌ナナメ",
+      "aliases": [
+        "お嬢様はご機嫌ナナメ",
+        "Ojou-sama wa Gokigen Naname",
+        "お嬢様はご機嫌ナナメ",
+        "大小姐心情很糟糕",
+        "お嬢ナナ",
+        "Ojounana"
+      ],
+      "image": "https://t.vndb.org/cv/67/113867.jpg",
+      "subtitle": "ensemble",
+      "path": "works/v11726/"
+    },
+    {
+      "id": "v14838",
+      "type": "work",
+      "name": "どうして、そんなに黒い髪が好きなの？",
+      "aliases": [
+        "どうして、そんなに黒い髪が好きなの？",
+        "Doushite, Sonna ni Kuroi Kami ga Suki na no?",
+        "どうして、そんなに黒い髪が好きなの？",
+        "Doshikuro",
+        "Why Do You Like Black Hair So Much?"
+      ],
+      "image": "https://t.vndb.org/cv/61/89261.jpg",
+      "subtitle": "ファイヤワークス",
+      "path": "works/v14838/"
+    },
+    {
+      "id": "v16103",
+      "type": "work",
+      "name": "鲸神的Tearstilla",
+      "aliases": [
+        "鯨神のティアスティラ",
+        "Kujiragami no Tearstilla",
+        "鯨神のティアスティラ",
+        "鲸神的Tearstilla"
+      ],
+      "image": "https://t.vndb.org/cv/15/97115.jpg",
+      "subtitle": "ワールプール",
+      "path": "works/v16103/"
+    },
+    {
+      "id": "v17632",
+      "type": "work",
+      "name": "千层恋心",
+      "aliases": [
+        "恋する気持ちのかさねかた",
+        "Koi Suru Kimochi no Kasanekata",
+        "Koikata: How Our Love Grows",
+        "恋する気持ちのかさねかた",
+        "千层恋心",
+        "恋爱心情的重叠方式",
+        "Koikata"
+      ],
+      "image": "https://t.vndb.org/cv/72/113872.jpg",
+      "subtitle": "ensemble",
+      "path": "works/v17632/"
+    },
+    {
+      "id": "v18842",
+      "type": "work",
+      "name": "花之天使的夏日恋歌",
+      "aliases": [
+        "フローラル・フローラブ",
+        "Floral Flowlove",
+        "フローラル・フローラブ",
+        "花之天使的夏日恋歌",
+        "花之天使的夏日戀歌",
+        "フロフロ",
+        "Floflo",
+        "花天使的夏日恋歌"
+      ],
+      "image": "https://t.vndb.org/cv/39/89939.jpg",
+      "subtitle": "SAGA PLANETS",
+      "path": "works/v18842/"
+    },
+    {
+      "id": "v21530",
+      "type": "work",
+      "name": "あぶのーまるらば～ず",
+      "aliases": [
+        "あぶのーまるらば～ず",
+        "Abnormal Lovers",
+        "あぶのーまるらば～ず",
+        "Abunoma",
+        "あぶのま"
+      ],
+      "image": "https://t.vndb.org/cv/85/136785.jpg",
+      "subtitle": "とるてそふと",
+      "path": "works/v21530/"
+    },
+    {
+      "id": "v23501",
+      "type": "work",
+      "name": "玉响未来",
+      "aliases": [
+        "タマユラミライ",
+        "Tamayura Mirai",
+        "タマユラミライ",
+        "玉响未来",
+        "玉響未來"
+      ],
+      "image": null,
+      "subtitle": "Azurite",
+      "path": "works/v23501/"
+    },
+    {
+      "id": "v28286",
+      "type": "work",
+      "name": "绽放★青春全力向前冲！",
+      "aliases": [
+        "かけぬけ★青春スパーキング！",
+        "Kakenuke★Seishun Sparking!",
+        "Kakenuke★Forward to Our Sparking Youth!",
+        "かけぬけ★青春スパーキング！",
+        "绽放★青春全力向前冲！",
+        "綻放★青春全力向前衝！"
+      ],
+      "image": "https://t.vndb.org/cv/65/95965.jpg",
+      "subtitle": "SAGA PLANETS",
+      "path": "works/v28286/"
+    },
+    {
+      "id": "v29402",
+      "type": "work",
+      "name": "ガラス姫と鏡の従者",
+      "aliases": [
+        "ガラス姫と鏡の従者",
+        "Glass Hime to Kagami no Juusha",
+        "ガラス姫と鏡の従者",
+        "Princess of glass and Retinue of mirrors",
+        "玻璃公主与镜之从者"
+      ],
+      "image": "https://t.vndb.org/cv/89/101689.jpg",
+      "subtitle": "戯画",
+      "path": "works/v29402/"
+    },
+    {
+      "id": "v30233",
+      "type": "work",
+      "name": "コイ×ミツ ～千葉静玖とサボテンの手紙～",
+      "aliases": [
+        "コイ×ミツ ～千葉静玖とサボテンの手紙～",
+        "Koi x Mitsu ~Senba Shizuku to Saboten no Tegami~",
+        "コイ×ミツ ～千葉静玖とサボテンの手紙～"
+      ],
+      "image": null,
+      "subtitle": "とるてそふと",
+      "path": "works/v30233/"
+    },
+    {
+      "id": "v30234",
+      "type": "work",
+      "name": "コイ×ミツ ～絹織双鳩とお菓子の国の約束～",
+      "aliases": [
+        "コイ×ミツ ～絹織双鳩とお菓子の国の約束～",
+        "Koi x Mitsu ~Kinuori Futaba to Okashi no Kuni no Yakusoku~",
+        "コイ×ミツ ～絹織双鳩とお菓子の国の約束～"
+      ],
+      "image": null,
+      "subtitle": "とるてそふと",
+      "path": "works/v30234/"
+    },
+    {
+      "id": "v32183",
+      "type": "work",
+      "name": "绘缘蜜恋-longing for you-",
+      "aliases": [
+        "アマエミ-longing for you-",
+        "Amaemi -longing for you-",
+        "アマエミ-longing for you-",
+        "绘缘蜜恋-longing for you-"
+      ],
+      "image": null,
+      "subtitle": "あざらしそふと",
+      "path": "works/v32183/"
+    },
+    {
+      "id": "v32925",
+      "type": "work",
+      "name": "Ghost LittleSis ～ツンデ霊忌もうと～",
+      "aliases": [
+        "Ghost LittleSis ～ツンデ霊忌もうと～",
+        "Ghost LittleSis ~Tsunderei Imouto~",
+        "Ghost LittleSis ～ツンデ霊忌もうと～"
+      ],
+      "image": "https://t.vndb.org/cv/03/51403.jpg",
+      "subtitle": "ミーム",
+      "path": "works/v32925/"
+    },
+    {
+      "id": "v33036",
+      "type": "work",
+      "name": "AMBITIOUS MISSION",
+      "aliases": [
+        "AMBITIOUS MISSION",
+        "AMBITIOUS MISSION",
+        "アンビシャス　ミッション",
+        "anmitsu",
+        "アンミツ",
+        "ambimitsu",
+        "엠비셔스 미션",
+        "안미츠"
+      ],
+      "image": null,
+      "subtitle": "SAGA PLANETS",
+      "path": "works/v33036/"
+    },
+    {
+      "id": "v77",
+      "type": "work",
+      "name": "スピたん Spirits Expedition―in the Phantasmagoria―",
+      "aliases": [
+        "スピたん Spirits Expedition―in the Phantasmagoria―",
+        "Spitan Spirits Expedition -in the Phantasmagoria-",
+        "スピたん Spirits Expedition―in the Phantasmagoria―",
+        "Supitan"
+      ],
+      "image": null,
+      "subtitle": "ザウス【本醸造】",
+      "path": "works/v77/"
+    },
+    {
+      "id": "v419",
+      "type": "work",
+      "name": "こいとれ ～REN-AI TRAINING～",
+      "aliases": [
+        "こいとれ ～REN-AI TRAINING～",
+        "Koitore ~Ren-ai Training~",
+        "こいとれ ～REN-AI TRAINING～"
+      ],
+      "image": "https://t.vndb.org/cv/51/29051.jpg",
+      "subtitle": "銀時計",
+      "path": "works/v419/"
+    },
+    {
+      "id": "v689",
+      "type": "work",
+      "name": "MagusTale～世界树与恋爱的魔法使～",
+      "aliases": [
+        "MagusTale ～世界樹と恋する魔法使い～",
+        "Magus Tale ~Sekaiju to Koisuru Mahoutsukai~",
+        "MagusTale ～世界樹と恋する魔法使い～",
+        "MagusTale～世界树与恋爱的魔法使～",
+        "マギウステイル エタニティ"
+      ],
+      "image": "https://t.vndb.org/cv/29/89529.jpg",
+      "subtitle": "ワールプール",
+      "path": "works/v689/"
+    },
+    {
+      "id": "v690",
+      "type": "work",
+      "name": "Magus Tale Infinity",
+      "aliases": [
+        "Magus Tale Infinity",
+        "Magus Tale Infinity",
+        "マギウステイル インフィニティ"
+      ],
+      "image": "https://t.vndb.org/cv/32/89532.jpg",
+      "subtitle": "ワールプール",
+      "path": "works/v690/"
+    },
+    {
+      "id": "v1155",
+      "type": "work",
+      "name": "輝光翼戰記",
+      "aliases": [
+        "輝光翼戦記 天空のユミナ",
+        "Kikouyoku Senki Tenkuu no Yumina",
+        "Yumina the Ethereal",
+        "輝光翼戦記 天空のユミナ",
+        "輝光翼戰記",
+        "辉光翼战记"
+      ],
+      "image": "https://t.vndb.org/cv/10/77810.jpg",
+      "subtitle": "ETERNAL",
+      "path": "works/v1155/"
+    },
+    {
+      "id": "v1376",
+      "type": "work",
+      "name": "乙女恋心プリスター",
+      "aliases": [
+        "乙女恋心プリスター",
+        "Otome Renshin Prister",
+        "乙女恋心プリスター",
+        "ORP"
+      ],
+      "image": null,
+      "subtitle": "エスクード",
+      "path": "works/v1376/"
+    },
+    {
+      "id": "v1517",
+      "type": "work",
+      "name": "Pia♥キャロットへようこそ!!G.P.",
+      "aliases": [
+        "Pia♥キャロットへようこそ!!G.P.",
+        "Pia♥Carrot e Youkoso!! G.P.",
+        "Pia♥キャロットへようこそ!!G.P.",
+        "Pia Carrot e Youkoso!! Gakuen Princess"
+      ],
+      "image": "https://t.vndb.org/cv/50/94450.jpg",
+      "subtitle": "カクテル・ソフト",
+      "path": "works/v1517/"
+    },
+    {
+      "id": "v1547",
+      "type": "work",
+      "name": "77～双星再会之时～",
+      "aliases": [
+        "77（セブンズ） ～And, two stars meet again～",
+        "77 (Sevens) ~And, two stars meet again~",
+        "77（セブンズ） ～And, two stars meet again～",
+        "77～双星再会之时～"
+      ],
+      "image": "https://t.vndb.org/cv/06/89406.jpg",
+      "subtitle": "ワールプール",
+      "path": "works/v1547/"
+    },
+    {
+      "id": "v1742",
+      "type": "work",
+      "name": "Angel Magister",
+      "aliases": [
+        "Angel Magister",
+        "Angel Magister",
+        "エンジェル マギスター"
+      ],
+      "image": null,
+      "subtitle": "mana",
+      "path": "works/v1742/"
+    },
+    {
+      "id": "v2886",
+      "type": "work",
+      "name": "輝光翼戦記 天空のユミナFD -ForeverDreams-",
+      "aliases": [
+        "輝光翼戦記 天空のユミナFD -ForeverDreams-",
+        "Kikouyoku Senki Tenkuu no Yumina FD  -ForeverDreams-",
+        "輝光翼戦記 天空のユミナFD -ForeverDreams-"
+      ],
+      "image": "https://t.vndb.org/cv/40/27640.jpg",
+      "subtitle": "ETERNAL",
+      "path": "works/v2886/"
+    },
+    {
+      "id": "v2936",
+      "type": "work",
+      "name": "Pia♥キャロットへようこそ!!4",
+      "aliases": [
+        "Pia♥キャロットへようこそ!!4",
+        "Pia♥Carrot e Youkoso!! 4",
+        "Pia♥キャロットへようこそ!!4",
+        "Welcome to Pia Carrot 4"
+      ],
+      "image": "https://t.vndb.org/cv/36/94436.jpg",
+      "subtitle": "カクテル・ソフト",
+      "path": "works/v2936/"
+    },
+    {
+      "id": "v3847",
+      "type": "work",
+      "name": "アネたん Spirits Expedition―in the Phantasmagoria―",
+      "aliases": [
+        "アネたん Spirits Expedition―in the Phantasmagoria―",
+        "Anetan Spirits Expedition -in the Phantasmagoria-",
+        "アネたん Spirits Expedition―in the Phantasmagoria―"
+      ],
+      "image": "https://t.vndb.org/cv/06/130606.jpg",
+      "subtitle": "ザウス【本醸造】",
+      "path": "works/v3847/"
+    },
+    {
+      "id": "v3925",
+      "type": "work",
+      "name": "乙女恋心プリスターFANDISC ～もっとHに恋せよ乙女!～",
+      "aliases": [
+        "乙女恋心プリスターFANDISC ～もっとHに恋せよ乙女!～",
+        "Otome Renshin Prister Fandisc ~Motto H ni Koi Seyo Otome!~",
+        "乙女恋心プリスターFANDISC ～もっとHに恋せよ乙女!～"
+      ],
+      "image": null,
+      "subtitle": "エスクード",
+      "path": "works/v3925/"
+    },
+    {
+      "id": "v3992",
+      "type": "work",
+      "name": "凉风的物语",
+      "aliases": [
+        "涼風のメルト -Where wishes are drawn to each other-",
+        "Suzukaze no Melt -Where wishes are drawn to each other-",
+        "涼風のメルト -Where wishes are drawn to each other-",
+        "凉风的物语",
+        "Melt of a Cool Breeze"
+      ],
+      "image": "https://t.vndb.org/cv/23/97523.jpg",
+      "subtitle": "ワールプール",
+      "path": "works/v3992/"
+    },
+    {
+      "id": "v6668",
+      "type": "work",
+      "name": "輝光翼戦記 銀の刻のコロナ",
+      "aliases": [
+        "輝光翼戦記 銀の刻のコロナ",
+        "Kikouyoku Senki Gin no Toki no Corona",
+        "輝光翼戦記 銀の刻のコロナ",
+        "Corona the Dragon Maiden"
+      ],
+      "image": "https://t.vndb.org/cv/07/26107.jpg",
+      "subtitle": "ETERNAL",
+      "path": "works/v6668/"
+    },
+    {
+      "id": "v6678",
+      "type": "work",
+      "name": "舞風のメルト -Where leads to feeling destination-",
+      "aliases": [
+        "舞風のメルト -Where leads to feeling destination-",
+        "Maikaze no Melt -Where Leads to Feeling Destination-",
+        "舞風のメルト -Where leads to feeling destination-"
+      ],
+      "image": "https://t.vndb.org/cv/24/97524.jpg",
+      "subtitle": "ワールプール",
+      "path": "works/v6678/"
+    },
+    {
+      "id": "v10244",
+      "type": "work",
+      "name": "龙翼的咏叹调 -与圣龙之翼共舞的歌姬-",
+      "aliases": [
+        "竜翼のメロディア -Diva with the blessed dragonol-",
+        "Ryuuyoku no Melodia -Diva With the Blessed Dragonol-",
+        "竜翼のメロディア -Diva with the blessed dragonol-",
+        "龙翼的咏叹调 -与圣龙之翼共舞的歌姬-"
+      ],
+      "image": "https://t.vndb.org/cv/26/97126.jpg",
+      "subtitle": "ワールプール",
+      "path": "works/v10244/"
+    },
+    {
+      "id": "v10957",
+      "type": "work",
+      "name": "幸福噩梦",
+      "aliases": [
+        "ハピメア",
+        "Hapymaher",
+        "ハピメア",
+        "幸福噩梦",
+        "Hapimea",
+        "Happy Nightmare",
+        "Happy Mayor"
+      ],
+      "image": null,
+      "subtitle": "パープルソフトウェア",
+      "path": "works/v10957/"
+    },
+    {
+      "id": "v11316",
+      "type": "work",
+      "name": "輝光翼戦記 銀の刻のコロナ -Fortune Dragon’s-",
+      "aliases": [
+        "輝光翼戦記 銀の刻のコロナ -Fortune Dragon’s-",
+        "Kikouyoku Senki Gin no Toki no Corona -Fortune Dragon's-",
+        "輝光翼戦記 銀の刻のコロナ -Fortune Dragon’s-",
+        "銀の刻のコロナFD"
+      ],
+      "image": "https://t.vndb.org/cv/27/25527.jpg",
+      "subtitle": "ETERNAL",
+      "path": "works/v11316/"
+    },
+    {
+      "id": "v12602",
+      "type": "work",
+      "name": "うそつき王子と悩めるお姫さま –Princess syndrome–",
+      "aliases": [
+        "うそつき王子と悩めるお姫さま –Princess syndrome–",
+        "Usotsuki Ouji to Nayameru Ohime-sama -Princess Syndrome-",
+        "うそつき王子と悩めるお姫さま –Princess syndrome–",
+        "うそつき王子と悩めるお姫さま –プリンセスシンドローム–",
+        "usomeru"
+      ],
+      "image": "https://t.vndb.org/cv/89/101789.jpg",
+      "subtitle": "ワールプール",
+      "path": "works/v12602/"
+    },
+    {
+      "id": "v13108",
+      "type": "work",
+      "name": "幸福噩梦 FD",
+      "aliases": [
+        "ハピメア-Fragmentation Dream-",
+        "Hapymaher -Fragmentation Dream-",
+        "ハピメア-Fragmentation Dream-",
+        "幸福噩梦 FD",
+        "ハピメアＦＤ, ハピメアFD, Hapimea FD"
+      ],
+      "image": "https://t.vndb.org/cv/66/89366.jpg",
+      "subtitle": "パープルソフトウェア",
+      "path": "works/v13108/"
+    },
+    {
+      "id": "v16208",
+      "type": "work",
+      "name": "柯罗的怀表",
+      "aliases": [
+        "クロノクロック",
+        "Chrono Clock",
+        "ChronoClock",
+        "クロノクロック",
+        "柯罗的怀表"
+      ],
+      "image": "https://t.vndb.org/cv/23/76523.jpg",
+      "subtitle": "パープルソフトウェア",
+      "path": "works/v16208/"
+    },
+    {
+      "id": "v18141",
+      "type": "work",
+      "name": "ワールド・エレクション",
+      "aliases": [
+        "ワールド・エレクション",
+        "World Election",
+        "ワールド・エレクション",
+        "ワルエレ"
+      ],
+      "image": "https://t.vndb.org/cv/26/91426.jpg",
+      "subtitle": "ワールプール",
+      "path": "works/v18141/"
+    },
+    {
+      "id": "v24725",
+      "type": "work",
+      "name": "重生游戏-REALIVE-",
+      "aliases": [
+        "リアライブ",
+        "Realive",
+        "リアライブ",
+        "重生游戏-REALIVE-"
+      ],
+      "image": "https://t.vndb.org/cv/24/111524.jpg",
+      "subtitle": "パープルソフトウェア",
+      "path": "works/v24725/"
+    },
+    {
+      "id": "v24987",
+      "type": "work",
+      "name": "爱因斯坦携爱敬上",
+      "aliases": [
+        "アインシュタインより愛を込めて",
+        "Einstein Yori Ai o Komete",
+        "アインシュタインより愛を込めて",
+        "爱因斯坦携爱敬上",
+        "アイこめ",
+        "Aikome",
+        "源自爱因斯坦的爱"
+      ],
+      "image": "https://t.vndb.org/cv/49/90349.jpg",
+      "subtitle": "GLOVETY",
+      "path": "works/v24987/"
+    },
+    {
+      "id": "v31436",
+      "type": "work",
+      "name": "爱因斯坦携爱敬上 APOLLOCRISIS",
+      "aliases": [
+        "アインシュタインより愛を込めて APOLLOCRISIS",
+        "Einstein Yori Ai o Komete: Apollo Crisis",
+        "アインシュタインより愛を込めて APOLLOCRISIS",
+        "爱因斯坦携爱敬上 APOLLOCRISIS"
+      ],
+      "image": "https://t.vndb.org/cv/50/90350.jpg",
+      "subtitle": "GLOVETY",
+      "path": "works/v31436/"
+    },
+    {
+      "id": "v32021",
+      "type": "work",
+      "name": "久那土国记",
+      "aliases": [
+        "クナド国記",
+        "Kunado Kokuki",
+        "Kunado Chronicles",
+        "クナド国記",
+        "久那土国记",
+        "久那土國記"
+      ],
+      "image": "https://t.vndb.org/cv/60/79760.jpg",
+      "subtitle": "パープルソフトウェア",
+      "path": "works/v32021/"
+    },
+    {
+      "id": "v40725",
+      "type": "work",
+      "name": "根暗なクラスメイトが俺の胃袋を掴んで放してくれない",
+      "aliases": [
+        "根暗なクラスメイトが俺の胃袋を掴んで放してくれない",
+        "Nekura na Classmate ga Ore no Ibukuro o Tsukande Hanashite Kurenai",
+        "根暗なクラスメイトが俺の胃袋を掴んで放してくれない",
+        "根クラ",
+        "根暗なクラスメイトの胸を間違って揉んだら、いつの間にか胃袋を掴まれていました！"
+      ],
+      "image": null,
+      "subtitle": "株式会社エンターグラム / Kinetic Novels",
+      "path": "works/v40725/"
+    },
+    {
+      "id": "v48838",
+      "type": "work",
+      "name": "FORTUNE×WORLD～僕らがゲームを作る理由～",
+      "aliases": [
+        "FORTUNE×WORLD～僕らがゲームを作る理由～",
+        "FORTUNE×WORLD ~Bokura ga Game o Tsukuru Riyuu~",
+        "FORTUNE×WORLD～僕らがゲームを作る理由～",
+        "ぼくゲ",
+        "ボロゲ",
+        "Boroge"
+      ],
+      "image": "https://t.vndb.org/cv/46/137146.jpg",
+      "subtitle": "GLOVETY",
+      "path": "works/v48838/"
+    },
+    {
+      "id": "v61834",
+      "type": "work",
+      "name": "Relirium -レリリウム- 遺跡と出逢いと冒険と",
+      "aliases": [
+        "Relirium -レリリウム- 遺跡と出逢いと冒険と",
+        "Relirium - Iseki to Deai to Bouken to",
+        "Relirium -レリリウム- 遺跡と出逢いと冒険と"
+      ],
+      "image": "https://t.vndb.org/cv/79/123979.jpg",
+      "subtitle": "ワールプール",
+      "path": "works/v61834/"
+    },
+    {
+      "id": "v66697",
+      "type": "work",
+      "name": "カフェトリカルカフェ",
+      "aliases": [
+        "カフェトリカルカフェ",
+        "Cafe-Trical-Cafe",
+        "カフェトリカルカフェ",
+        "Cafetori",
+        "カフェトリ"
+      ],
+      "image": "https://t.vndb.org/cv/73/137673.jpg",
+      "subtitle": "まどそふと",
+      "path": "works/v66697/"
+    },
+    {
+      "id": "v1256",
+      "type": "work",
+      "name": "ぽっと -Rondo for Dears-",
+      "aliases": [
+        "ぽっと -Rondo for Dears-",
+        "Pot -Rondo for Dears-",
+        "ぽっと -Rondo for Dears-"
+      ],
+      "image": "https://t.vndb.org/cv/17/29117.jpg",
+      "subtitle": "あんく",
+      "path": "works/v1256/"
+    },
+    {
+      "id": "v1315",
+      "type": "work",
+      "name": "こんねこ",
+      "aliases": [
+        "こんねこ",
+        "Konneko",
+        "こんねこ",
+        "Con-neko",
+        "こんねこ She continues loving him over and over again."
+      ],
+      "image": null,
+      "subtitle": "ま～まれぇど",
+      "path": "works/v1315/"
+    },
+    {
+      "id": "v2226",
+      "type": "work",
+      "name": "スズノネセブン！－Sweet Lovers’Concerto－",
+      "aliases": [
+        "スズノネセブン！－Sweet Lovers’Concerto－",
+        "Suzunone Seven! -Sweet Lovers' Concerto-",
+        "スズノネセブン！－Sweet Lovers’Concerto－"
+      ],
+      "image": "https://t.vndb.org/cv/09/69909.jpg",
+      "subtitle": "クロシェット",
+      "path": "works/v2226/"
+    },
+    {
+      "id": "v2574",
+      "type": "work",
+      "name": "僕と、僕らの夏",
+      "aliases": [
+        "僕と、僕らの夏",
+        "Boku to, Bokura no Natsu",
+        "僕と、僕らの夏",
+        "僕僕",
+        "僕夏",
+        "bokuboku",
+        "bokunatsu",
+        "bokunatu",
+        "Me, and Our Summer"
+      ],
+      "image": "https://t.vndb.org/cv/45/28545.jpg",
+      "subtitle": "light",
+      "path": "works/v2574/"
+    },
+    {
+      "id": "v2835",
+      "type": "work",
+      "name": "あまつみそらに！",
+      "aliases": [
+        "あまつみそらに！",
+        "Amatsu Misora ni!",
+        "あまつみそらに！",
+        "あまみそ",
+        "Amamiso"
+      ],
+      "image": "https://t.vndb.org/cv/15/112015.jpg",
+      "subtitle": "クロシェット",
+      "path": "works/v2835/"
+    },
+    {
+      "id": "v7786",
+      "type": "work",
+      "name": "春季限定Poco·A·Poco",
+      "aliases": [
+        "春季限定ポコ・ア・ポコ!",
+        "Shunki Gentei Poco a Poco!",
+        "春季限定ポコ・ア・ポコ!",
+        "春季限定Poco·A·Poco",
+        "Harupoco"
+      ],
+      "image": "https://t.vndb.org/cv/16/89016.jpg",
+      "subtitle": "ALcot ハニカム",
+      "path": "works/v7786/"
+    },
+    {
+      "id": "v8158",
+      "type": "work",
+      "name": "大图书馆的牧羊人",
+      "aliases": [
+        "大図書館の羊飼い",
+        "Daitoshokan no Hitsujikai",
+        "大図書館の羊飼い",
+        "大图书馆的牧羊人",
+        "a good librarian like a good shepherd"
+      ],
+      "image": "https://t.vndb.org/cv/72/86072.jpg",
+      "subtitle": "オーガスト",
+      "path": "works/v8158/"
+    },
+    {
+      "id": "v10341",
+      "type": "work",
+      "name": "LOVELY QUEST",
+      "aliases": [
+        "LOVELY QUEST",
+        "LOVELY QUEST",
+        "ラブリークエスト",
+        "ラブクエ"
+      ],
+      "image": "https://t.vndb.org/cv/30/26230.jpg",
+      "subtitle": "HOOKSOFT",
+      "path": "works/v10341/"
+    },
+    {
+      "id": "v10803",
+      "type": "work",
+      "name": "硬要无视与你的未来 ~Relay broadcast~",
+      "aliases": [
+        "あえて無視するキミとの未来 ～Relay broadcast～",
+        "Aete Mushi Suru Kimi to no Mirai ~Relay Broadcast~",
+        "あえて無視するキミとの未来 ～Relay broadcast～",
+        "硬要无视与你的未来 ~Relay broadcast~"
+      ],
+      "image": "https://t.vndb.org/cv/71/94771.jpg",
+      "subtitle": "ALcot ハニカム",
+      "path": "works/v10803/"
+    },
+    {
+      "id": "v12476",
+      "type": "work",
+      "name": "卡卢玛卢卡＊同好会",
+      "aliases": [
+        "カルマルカ＊サークル",
+        "Karumaruka * Circle",
+        "カルマルカ＊サークル",
+        "卡卢玛卢卡＊同好会"
+      ],
+      "image": "https://t.vndb.org/cv/92/89192.jpg",
+      "subtitle": "SAGA PLANETS",
+      "path": "works/v12476/"
+    },
+    {
+      "id": "v13325",
+      "type": "work",
+      "name": "幸运草的约定",
+      "aliases": [
+        "Clover Day's",
+        "Clover Day's",
+        "幸运草的约定",
+        "幸運草的約定",
+        "クローバーデイズ",
+        "CLD"
+      ],
+      "image": "https://t.vndb.org/cv/50/94750.jpg",
+      "subtitle": "ALcot",
+      "path": "works/v13325/"
+    },
+    {
+      "id": "v15143",
+      "type": "work",
+      "name": "杀恋～悠久流传的恋之歌～",
+      "aliases": [
+        "サツコイ～悠久なる恋の歌～",
+        "Satsukoi ~Yuukyuu Naru Koi no Uta~",
+        "サツコイ～悠久なる恋の歌～",
+        "杀恋～悠久流传的恋之歌～",
+        "杀恋～悠久的恋爱之歌～"
+      ],
+      "image": "https://t.vndb.org/cv/66/94766.jpg",
+      "subtitle": "ALcot ハニカム",
+      "path": "works/v15143/"
+    },
+    {
+      "id": "v16906",
+      "type": "work",
+      "name": "LOVEREC.",
+      "aliases": [
+        "LOVEREC.",
+        "LOVEREC.",
+        "ラブレコ．",
+        "Rabureko"
+      ],
+      "image": "https://t.vndb.org/cv/77/93777.jpg",
+      "subtitle": "ALcot",
+      "path": "works/v16906/"
+    },
+    {
+      "id": "v18790",
+      "type": "work",
+      "name": "缘契初情乃今家舍妹",
+      "aliases": [
+        "そして初恋が妹になる",
+        "Soshite Hatsukoi ga Imouto ni Naru",
+        "そして初恋が妹になる",
+        "缘契初情乃今家舍妹",
+        "然后初恋成为了妹妹",
+        "And, First love become sister.",
+        "Hatsugamai",
+        "はつがまい"
+      ],
+      "image": "https://t.vndb.org/cv/64/94764.jpg",
+      "subtitle": "ALcot ハニカム",
+      "path": "works/v18790/"
+    },
+    {
+      "id": "v21495",
+      "type": "work",
+      "name": "伊人天使妹侧畔",
+      "aliases": [
+        "彼女は天使で妹で",
+        "Kanojo wa Tenshi de Imouto de",
+        "My Little Sister Is an Angel",
+        "彼女は天使で妹で",
+        "伊人天使妹侧畔",
+        "Imoten"
+      ],
+      "image": "https://t.vndb.org/cv/72/93772.jpg",
+      "subtitle": "ALcot ハニカム",
+      "path": "works/v21495/"
+    },
+    {
+      "id": "v26001",
+      "type": "work",
+      "name": "千之刃涛，桃花染之皇姬 -柳暗花明-",
+      "aliases": [
+        "千の刃濤、桃花染の皇姫 -花あかり-",
+        "Sen no Hatou, Tsukisome no Kouki -Hana Akari-",
+        "千の刃濤、桃花染の皇姫 -花あかり-",
+        "千之刃涛，桃花染之皇姬 -柳暗花明-"
+      ],
+      "image": "https://t.vndb.org/cv/18/97918.jpg",
+      "subtitle": "オーガスト",
+      "path": "works/v26001/"
+    },
+    {
+      "id": "v635",
+      "type": "work",
+      "name": "夢みてナイト！",
+      "aliases": [
+        "夢みてナイト！",
+        "Yumemite Night!",
+        "夢みてナイト！",
+        "夢みてナイト！-The night of beautiful dreamer-"
+      ],
+      "image": null,
+      "subtitle": "Studio Ring",
+      "path": "works/v635/"
+    },
+    {
+      "id": "v1126",
+      "type": "work",
+      "name": "はじめてのおるすばん",
+      "aliases": [
+        "はじめてのおるすばん",
+        "Hajimete no Orusuban",
+        "はじめてのおるすばん",
+        "HajiRusu",
+        "はじるす"
+      ],
+      "image": "https://t.vndb.org/cv/82/129482.jpg",
+      "subtitle": "ZERO",
+      "path": "works/v1126/"
+    },
+    {
+      "id": "v1417",
+      "type": "work",
+      "name": "いたいけな彼女",
+      "aliases": [
+        "いたいけな彼女",
+        "Itaike na Kanojo",
+        "いたいけな彼女",
+        "itakano",
+        "Ijimerarekko Monogatari ~Itaike na Kanojo~",
+        "いじめられっ子物語　～いたいけな彼女～"
+      ],
+      "image": null,
+      "subtitle": "ZERO",
+      "path": "works/v1417/"
+    },
+    {
+      "id": "v1619",
+      "type": "work",
+      "name": "はじめてのおいしゃさん",
+      "aliases": [
+        "はじめてのおいしゃさん",
+        "Hajimete no Oisha-san",
+        "はじめてのおいしゃさん"
+      ],
+      "image": "https://t.vndb.org/cv/81/129481.jpg",
+      "subtitle": "ZERO",
+      "path": "works/v1619/"
+    },
+    {
+      "id": "v1620",
+      "type": "work",
+      "name": "ななみとこのみのおしえてA・B・C",
+      "aliases": [
+        "ななみとこのみのおしえてA・B・C",
+        "Nanami to Konomi no Oshiete ABC",
+        "ななみとこのみのおしえてA・B・C",
+        "Please Teach Me ABC",
+        "ななみとこのみのおしえてえー・びー・しー"
+      ],
+      "image": null,
+      "subtitle": "Studio Ring",
+      "path": "works/v1620/"
+    },
+    {
+      "id": "v5835",
+      "type": "work",
+      "name": "おやつのじかん",
+      "aliases": [
+        "おやつのじかん",
+        "Oyatsu no Jikan",
+        "おやつのじかん"
+      ],
+      "image": "https://t.vndb.org/cv/68/60768.jpg",
+      "subtitle": "Studio Ring",
+      "path": "works/v5835/"
+    },
+    {
+      "id": "v652",
+      "type": "work",
+      "name": "リリミエスタ",
+      "aliases": [
+        "リリミエスタ",
+        "Lili:Miesta",
+        "リリミエスタ"
+      ],
+      "image": "https://t.vndb.org/cv/66/103566.jpg",
+      "subtitle": "SMEE",
+      "path": "works/v652/"
+    },
+    {
+      "id": "v816",
+      "type": "work",
+      "name": "ツナバン♥らぶみくす",
+      "aliases": [
+        "ツナバン♥らぶみくす",
+        "TsunaBan ♥ Love Mix",
+        "ツナバン♥らぶみくす",
+        "Tsunagaru Bangle ♥ Love Mix"
+      ],
+      "image": "https://t.vndb.org/cv/74/148474.jpg",
+      "subtitle": "ういんどみる",
+      "path": "works/v816/"
+    },
+    {
+      "id": "v93",
+      "type": "work",
+      "name": "Muv-Luv",
+      "aliases": [
+        "マブラヴ",
+        "Muv-Luv",
+        "マブラヴ",
+        "MUV-LUV Save in the name of true love"
+      ],
+      "image": "https://t.vndb.org/cv/68/75768.jpg",
+      "subtitle": "アージュ / 株式会社aNCHOR",
+      "path": "works/v93/"
+    },
+    {
+      "id": "v92",
+      "type": "work",
+      "name": "マブラヴ　オルタネイティヴ",
+      "aliases": [
+        "マブラヴ　オルタネイティヴ",
+        "Muv-Luv Alternative",
+        "マブラヴ　オルタネイティヴ",
+        "MLA",
+        "Muvluv Alternative",
+        "Muv-Luv ALT"
+      ],
+      "image": "https://t.vndb.org/cv/60/75660.jpg",
+      "subtitle": "アージュ / 株式会社aNCHOR",
+      "path": "works/v92/"
+    },
+    {
+      "id": "v94",
+      "type": "work",
+      "name": "你所期望的永远",
+      "aliases": [
+        "君が望む永遠",
+        "Kimi ga Nozomu Eien",
+        "君が望む永遠",
+        "你所期望的永远",
+        "KGNE",
+        "Kiminozo",
+        "君望",
+        "君のぞ",
+        "The Eternity You Wish For",
+        "愿此刻永恒"
+      ],
+      "image": null,
+      "subtitle": "アージュ / 株式会社aNCHOR",
+      "path": "works/v94/"
+    },
+    {
+      "id": "v161",
+      "type": "work",
+      "name": "アカネマニアックス～流れ星伝説剛田～",
+      "aliases": [
+        "アカネマニアックス～流れ星伝説剛田～",
+        "Akane Maniax ~Nagareboshi Densetsu Gouda~",
+        "アカネマニアックス～流れ星伝説剛田～",
+        "Akamani",
+        "君が望む永遠外伝 アカネマニアックス"
+      ],
+      "image": null,
+      "subtitle": "アージュ",
+      "path": "works/v161/"
+    },
+    {
+      "id": "v358",
+      "type": "work",
+      "name": "君が望む永遠 ～special FanDisk～",
+      "aliases": [
+        "君が望む永遠 ～special FanDisk～",
+        "Kimi ga Nozomu Eien ~Special Fan Disc~",
+        "君が望む永遠 ～special FanDisk～",
+        "Kiminozo SFD"
+      ],
+      "image": "https://t.vndb.org/cv/94/90494.jpg",
+      "subtitle": "アージュ / 株式会社aNCHOR",
+      "path": "works/v358/"
+    },
+    {
+      "id": "v404",
+      "type": "work",
+      "name": "マブラヴ サプリメント",
+      "aliases": [
+        "マブラヴ サプリメント",
+        "Muv-Luv Supplement",
+        "Muv-Luv photonflowers*: Extra Universe",
+        "マブラヴ サプリメント",
+        "Muvluv Supplement"
+      ],
+      "image": "https://t.vndb.org/cv/39/90539.jpg",
+      "subtitle": "アージュ",
+      "path": "works/v404/"
+    },
+    {
+      "id": "v405",
+      "type": "work",
+      "name": "マブラヴ ALTERED FABLE",
+      "aliases": [
+        "マブラヴ ALTERED FABLE",
+        "Muv-Luv Altered Fable",
+        "Muv-Luv Altered Fable: A Shimmering Shard of Spacetime",
+        "マブラヴ ALTERED FABLE",
+        "かがやく時空が消えぬ間に",
+        "Kagayaku Toki ga Kienumani",
+        "マブラヴオルタードフェイブル",
+        "Muv-Luv Final Extra"
+      ],
+      "image": "https://t.vndb.org/cv/43/95643.jpg",
+      "subtitle": "アージュ",
+      "path": "works/v405/"
+    },
+    {
+      "id": "v444",
+      "type": "work",
+      "name": "アージュマニアックス ～伊隅四姉妹最期の日～",
+      "aliases": [
+        "アージュマニアックス ～伊隅四姉妹最期の日～",
+        "Age Maniax ~Isumi Yon Shimai Saigo no Hi~",
+        "アージュマニアックス ～伊隅四姉妹最期の日～"
+      ],
+      "image": "https://t.vndb.org/cv/67/90467.jpg",
+      "subtitle": "アージュ",
+      "path": "works/v444/"
+    },
+    {
+      "id": "v826",
+      "type": "work",
+      "name": "ぴこぴこ～恋する気持の眠る場所～",
+      "aliases": [
+        "ぴこぴこ～恋する気持の眠る場所～",
+        "Pikopiko ~Koisuru Kimochi no Nemuru Basho~",
+        "ぴこぴこ～恋する気持の眠る場所～",
+        "Picopico"
+      ],
+      "image": "https://t.vndb.org/cv/97/107797.jpg",
+      "subtitle": "φage",
+      "path": "works/v826/"
+    },
+    {
+      "id": "v1380",
+      "type": "work",
+      "name": "さくらテイル",
+      "aliases": [
+        "さくらテイル",
+        "Sakura Tale",
+        "さくらテイル",
+        "the tale of cherry blossom septet"
+      ],
+      "image": "https://t.vndb.org/cv/24/150624.jpg",
+      "subtitle": "Fizz",
+      "path": "works/v1380/"
+    },
+    {
+      "id": "v2884",
+      "type": "work",
+      "name": "シェイプシフター",
+      "aliases": [
+        "シェイプシフター",
+        "Shapeshifter",
+        "シェイプシフター",
+        "The Shape Shifter"
+      ],
+      "image": null,
+      "subtitle": "φage",
+      "path": "works/v2884/"
+    },
+    {
+      "id": "v4215",
+      "type": "work",
+      "name": "PureMail -ピュアメール-",
+      "aliases": [
+        "PureMail -ピュアメール-",
+        "Pure Mail",
+        "PureMail -ピュアメール-"
+      ],
+      "image": "https://t.vndb.org/cv/34/80734.jpg",
+      "subtitle": "オーバーフロー",
+      "path": "works/v4215/"
+    },
+    {
+      "id": "v4572",
+      "type": "work",
+      "name": "ら～じPonPon",
+      "aliases": [
+        "ら～じPonPon",
+        "Large PonPon",
+        "ら～じPonPon",
+        "らーじPONPON"
+      ],
+      "image": "https://t.vndb.org/cv/96/80696.jpg",
+      "subtitle": "オーバーフロー",
+      "path": "works/v4572/"
+    },
+    {
+      "id": "v4573",
+      "type": "work",
+      "name": "オーバーフロー　ぷれじゃ～ボックス",
+      "aliases": [
+        "オーバーフロー　ぷれじゃ～ボックス",
+        "Overflow Pleasure Box",
+        "オーバーフロー　ぷれじゃ～ボックス",
+        "オーバーフロー　ぷれじゃ～ぼっくす",
+        "オーバーフロー　ぷれじゃーボックス"
+      ],
+      "image": null,
+      "subtitle": "オーバーフロー",
+      "path": "works/v4573/"
+    },
+    {
+      "id": "v6913",
+      "type": "work",
+      "name": "大空寺危機一髪!",
+      "aliases": [
+        "大空寺危機一髪!",
+        "Daikuuji Kiki Ippatsu!",
+        "大空寺危機一髪!"
+      ],
+      "image": "https://t.vndb.org/cv/71/90471.jpg",
+      "subtitle": "アージュ",
+      "path": "works/v6913/"
+    },
+    {
+      "id": "v19012",
+      "type": "work",
+      "name": "悠久的鋼刃列騎 -Lost Chronicle-",
+      "aliases": [
+        "悠久のティアブレイド -Lost Chronicle-",
+        "Yuukyuu no Tierblade -Lost Chronicle-",
+        "悠久のティアブレイド -Lost Chronicle-",
+        "悠久的鋼刃列騎 -Lost Chronicle-"
+      ],
+      "image": "https://t.vndb.org/cv/99/82599.jpg",
+      "subtitle": "アイディアファクトリー株式会社 / オトメイト / デザインファクトリー株式会社",
+      "path": "works/v19012/"
+    },
+    {
+      "id": "v32785",
+      "type": "work",
+      "name": "マブラヴ オルタネイティヴ クロニクルズ 贖罪",
+      "aliases": [
+        "マブラヴ オルタネイティヴ クロニクルズ 贖罪",
+        "Muv-Luv Alternative Chronicles: Shokuzai",
+        "Muv-Luv Alternative Chronicles: Atonement",
+        "マブラヴ オルタネイティヴ クロニクルズ 贖罪"
+      ],
+      "image": "https://t.vndb.org/cv/28/90528.jpg",
+      "subtitle": "アージュ",
+      "path": "works/v32785/"
+    },
+    {
+      "id": "v38167",
+      "type": "work",
+      "name": "ぴこぴこ～ひとくちだけの勇気～",
+      "aliases": [
+        "ぴこぴこ～ひとくちだけの勇気～",
+        "Pikopiko ~Hitokuchi Dake no Yuuki~",
+        "ぴこぴこ～ひとくちだけの勇気～"
+      ],
+      "image": "https://t.vndb.org/cv/97/107797.jpg",
+      "subtitle": "φage",
+      "path": "works/v38167/"
+    },
+    {
+      "id": "v50",
+      "type": "work",
+      "name": "Fate/hollow ataraxia",
+      "aliases": [
+        "Fate/hollow ataraxia",
+        "Fate/hollow ataraxia",
+        "F/ha",
+        "FHA",
+        "フェイトホロウアタラクシア",
+        "ホロウ"
+      ],
+      "image": "https://t.vndb.org/cv/13/89213.jpg",
+      "subtitle": "TYPE-MOON",
+      "path": "works/v50/"
+    },
+    {
+      "id": "v4777",
+      "type": "work",
+      "name": "ライアー大戦じゃんまげどん",
+      "aliases": [
+        "ライアー大戦じゃんまげどん",
+        "Liar Taisen Janmagedon",
+        "ライアー大戦じゃんまげどん"
+      ],
+      "image": null,
+      "subtitle": "Liar-soft",
+      "path": "works/v4777/"
+    },
+    {
+      "id": "v5096",
+      "type": "work",
+      "name": "行殺♥ 新選組　人斬り美少女あどべんちゃ～",
+      "aliases": [
+        "行殺♥ 新選組　人斬り美少女あどべんちゃ～",
+        "Gyousatsu♥Shinsengumi  Hitokiri Bishoujo Adventure",
+        "行殺♥ 新選組　人斬り美少女あどべんちゃ～",
+        "行殺（はぁと）新選組",
+        "行殺・新選組",
+        "Gyousatsu Heart Shinsengumi"
+      ],
+      "image": "https://t.vndb.org/cv/88/94888.jpg",
+      "subtitle": "Liar-soft",
+      "path": "works/v5096/"
+    },
+    {
+      "id": "v431",
+      "type": "work",
+      "name": "\"Hello, world.\"",
+      "aliases": [
+        "\"Hello, world.\"",
+        "\"Hello, world.\"",
+        "ハローワールド"
+      ],
+      "image": "https://t.vndb.org/cv/70/93370.jpg",
+      "subtitle": "ニトロプラス",
+      "path": "works/v431/"
+    },
+    {
+      "id": "v439",
+      "type": "work",
+      "name": "化石の歌",
+      "aliases": [
+        "化石の歌",
+        "Kaseki no Uta",
+        "A Song of Fossils",
+        "化石の歌",
+        "KnU"
+      ],
+      "image": "https://t.vndb.org/cv/84/90484.jpg",
+      "subtitle": "アージュ",
+      "path": "works/v439/"
+    },
+    {
+      "id": "v443",
+      "type": "work",
+      "name": "君がいた季節",
+      "aliases": [
+        "君がいた季節",
+        "Kimi ga Ita Kisetsu",
+        "君がいた季節",
+        "KimiIta",
+        "The Season You Were Here"
+      ],
+      "image": "https://t.vndb.org/cv/00/90400.jpg",
+      "subtitle": "アージュ",
+      "path": "works/v443/"
+    },
+    {
+      "id": "v579",
+      "type": "work",
+      "name": "アノニマス",
+      "aliases": [
+        "アノニマス",
+        "Anonymous",
+        "アノニマス"
+      ],
+      "image": null,
+      "subtitle": "Mirage",
+      "path": "works/v579/"
+    },
+    {
+      "id": "v1070",
+      "type": "work",
+      "name": "螺旋回廊",
+      "aliases": [
+        "螺旋回廊",
+        "Rasen Kairou",
+        "螺旋回廊"
+      ],
+      "image": null,
+      "subtitle": "アージュ",
+      "path": "works/v1070/"
+    },
+    {
+      "id": "v1743",
+      "type": "work",
+      "name": "終わりなき夏 永遠なる音律",
+      "aliases": [
+        "終わりなき夏 永遠なる音律",
+        "Owarinaki Natsu, Towa Naru Shirabe",
+        "終わりなき夏 永遠なる音律",
+        "おわりなきなつ とわなるしらべ",
+        "わりなき",
+        "warinaki",
+        "Owarinaki",
+        "Owarinaki Natsu",
+        "Eien Naru Shirabe",
+        "无尽之夏 永恒音律"
+      ],
+      "image": null,
+      "subtitle": "φage",
+      "path": "works/v1743/"
+    },
+    {
+      "id": "v1852",
+      "type": "work",
+      "name": "妹でいこう！",
+      "aliases": [
+        "妹でいこう！",
+        "Imouto de Ikou!",
+        "妹でいこう！",
+        "Plenty of Pretty Sisters",
+        "Forbidden Love"
+      ],
+      "image": "https://t.vndb.org/cv/11/139011.jpg",
+      "subtitle": "オーバーフロー",
+      "path": "works/v1852/"
+    },
+    {
+      "id": "v2561",
+      "type": "work",
+      "name": "こくはく",
+      "aliases": [
+        "こくはく",
+        "Kokuhaku",
+        "こくはく"
+      ],
+      "image": "https://t.vndb.org/cv/51/43951.jpg",
+      "subtitle": "アージュ",
+      "path": "works/v2561/"
+    },
+    {
+      "id": "v2809",
+      "type": "work",
+      "name": "螺旋回廊2",
+      "aliases": [
+        "螺旋回廊2",
+        "Rasen Kairou 2",
+        "螺旋回廊2"
+      ],
+      "image": null,
+      "subtitle": "アージュ",
+      "path": "works/v2809/"
+    },
+    {
+      "id": "v4463",
+      "type": "work",
+      "name": "マブラヴ アンリミテッド ザ・デイアフター",
+      "aliases": [
+        "マブラヴ アンリミテッド ザ・デイアフター",
+        "Muv-Luv Unlimited: The Day After",
+        "Muv-Luv Unlimited: THE DAY AFTER",
+        "マブラヴ アンリミテッド ザ・デイアフター",
+        "Muv-Luv TDA"
+      ],
+      "image": "https://t.vndb.org/cv/25/76125.jpg",
+      "subtitle": "アージュ",
+      "path": "works/v4463/"
+    },
+    {
+      "id": "v5895",
+      "type": "work",
+      "name": "ハルコマニアックス",
+      "aliases": [
+        "ハルコマニアックス",
+        "Haruko Maniax",
+        "ハルコマニアックス"
+      ],
+      "image": "https://t.vndb.org/cv/32/90532.jpg",
+      "subtitle": "アージュ",
+      "path": "works/v5895/"
+    },
+    {
+      "id": "v7052",
+      "type": "work",
+      "name": "マブラヴ オルタネイティヴ トータル・イクリプス",
+      "aliases": [
+        "マブラヴ オルタネイティヴ トータル・イクリプス",
+        "Muv-Luv Alternative - Total Eclipse",
+        "Muv-Luv Alternative: Total Eclipse",
+        "マブラヴ オルタネイティヴ トータル・イクリプス"
+      ],
+      "image": "https://t.vndb.org/cv/29/90529.jpg",
+      "subtitle": "アージュ / MAGES. / 株式会社aNCHOR",
+      "path": "works/v7052/"
+    },
+    {
+      "id": "v10335",
+      "type": "work",
+      "name": "そこに海があって…",
+      "aliases": [
+        "そこに海があって…",
+        "Soko ni Umi ga Atte...",
+        "そこに海があって…"
+      ],
+      "image": null,
+      "subtitle": "有限会社シルバー",
+      "path": "works/v10335/"
+    },
+    {
+      "id": "v14910",
+      "type": "work",
+      "name": "シュヴァルツェスマーケン",
+      "aliases": [
+        "シュヴァルツェスマーケン",
+        "Schwarzesmarken",
+        "シュヴァルツェスマーケン",
+        "シュヴァケン"
+      ],
+      "image": "https://t.vndb.org/cv/08/90508.jpg",
+      "subtitle": "アージュ",
+      "path": "works/v14910/"
+    },
+    {
+      "id": "v18592",
+      "type": "work",
+      "name": "君のぞデュエリスト",
+      "aliases": [
+        "君のぞデュエリスト",
+        "KimiNozo Duelist",
+        "君のぞデュエリスト"
+      ],
+      "image": "https://t.vndb.org/cv/45/90445.jpg",
+      "subtitle": "アージュ",
+      "path": "works/v18592/"
+    },
+    {
+      "id": "v32753",
+      "type": "work",
+      "name": "マブラヴ オルタネイティヴ クロニクルズ チキン・ダイバーズ",
+      "aliases": [
+        "マブラヴ オルタネイティヴ クロニクルズ チキン・ダイバーズ",
+        "Muv-Luv Alternative Chronicles: Chicken Divers",
+        "マブラヴ オルタネイティヴ クロニクルズ チキン・ダイバーズ"
+      ],
+      "image": "https://t.vndb.org/cv/76/51176.jpg",
+      "subtitle": "アージュ",
+      "path": "works/v32753/"
+    },
+    {
+      "id": "v32754",
+      "type": "work",
+      "name": "マブラヴ オルタネイティヴ クロニクルズ レイン・ダンサーズ",
+      "aliases": [
+        "マブラヴ オルタネイティヴ クロニクルズ レイン・ダンサーズ",
+        "Muv-Luv Alternative Chronicles: Rain Dancers",
+        "マブラヴ オルタネイティヴ クロニクルズ レイン・ダンサーズ"
+      ],
+      "image": "https://t.vndb.org/cv/77/51177.jpg",
+      "subtitle": "アージュ",
+      "path": "works/v32754/"
+    },
+    {
+      "id": "v32759",
+      "type": "work",
+      "name": "君がいた季節 ～Primary～",
+      "aliases": [
+        "君がいた季節 ～Primary～",
+        "Kimi ga Ita Kisetsu ~Primary~",
+        "君がいた季節 ～Primary～",
+        "KimiIta,",
+        "The Season You Were Here"
+      ],
+      "image": null,
+      "subtitle": "アージュ",
+      "path": "works/v32759/"
+    },
+    {
+      "id": "v32787",
+      "type": "work",
+      "name": "マブラヴ オルタネイティヴ クロニクルズ 継承",
+      "aliases": [
+        "マブラヴ オルタネイティヴ クロニクルズ 継承",
+        "Muv-Luv Alternative Chronicles: Keishou",
+        "Muv-Luv Alternative Chronicles: Inheritance",
+        "マブラヴ オルタネイティヴ クロニクルズ 継承",
+        "Succession"
+      ],
+      "image": "https://t.vndb.org/cv/30/90530.jpg",
+      "subtitle": "アージュ",
+      "path": "works/v32787/"
+    },
+    {
+      "id": "v32788",
+      "type": "work",
+      "name": "マブラヴ オルタネイティヴ クロニクルズ 憧憬",
+      "aliases": [
+        "マブラヴ オルタネイティヴ クロニクルズ 憧憬",
+        "Muv-Luv Alternative Chronicles: Shoukei",
+        "Muv-Luv Alternative Chronicles: Adoration",
+        "マブラヴ オルタネイティヴ クロニクルズ 憧憬",
+        "Aspiration",
+        "The Euro Front"
+      ],
+      "image": "https://t.vndb.org/cv/35/90535.jpg",
+      "subtitle": "アージュ",
+      "path": "works/v32788/"
+    },
+    {
+      "id": "v32789",
+      "type": "work",
+      "name": "マブラヴ オルタネイティヴ クロニクルズ 再誕",
+      "aliases": [
+        "マブラヴ オルタネイティヴ クロニクルズ 再誕",
+        "Muv-Luv Alternative Chronicles: Saitan",
+        "Muv-Luv Alternative Chronicles: Resurrection",
+        "マブラヴ オルタネイティヴ クロニクルズ 再誕"
+      ],
+      "image": "https://t.vndb.org/cv/03/90503.jpg",
+      "subtitle": "アージュ",
+      "path": "works/v32789/"
+    },
+    {
+      "id": "v32795",
+      "type": "work",
+      "name": "マブラヴ オルタネイティヴ クロニクルズ 告白",
+      "aliases": [
+        "マブラヴ オルタネイティヴ クロニクルズ 告白",
+        "Muv-Luv Alternative Chronicles: Kokuhaku",
+        "Muv-Luv Alternative Chronicles: Confessions",
+        "マブラヴ オルタネイティヴ クロニクルズ 告白"
+      ],
+      "image": "https://t.vndb.org/cv/97/90397.jpg",
+      "subtitle": "アージュ",
+      "path": "works/v32795/"
+    },
+    {
+      "id": "v36743",
+      "type": "work",
+      "name": "女臣衛士クリスカ II ～貴様は、本当に最低の屑だな!～",
+      "aliases": [
+        "女臣衛士クリスカ II ～貴様は、本当に最低の屑だな!～",
+        "Joshin Eishi Cryska II ~Kisama wa, Hontou ni Saitei no Kuzu da na!~",
+        "女臣衛士クリスカ II ～貴様は、本当に最低の屑だな!～"
+      ],
+      "image": null,
+      "subtitle": "アージュ",
+      "path": "works/v36743/"
+    },
+    {
+      "id": "v36745",
+      "type": "work",
+      "name": "女臣衛士クリスカ ～貴様は、本当に最低の屑だな!～",
+      "aliases": [
+        "女臣衛士クリスカ ～貴様は、本当に最低の屑だな!～",
+        "Joshin Eishi Cryska ~Kisama wa, Hontou ni Saitei no Kuzu da na!~",
+        "女臣衛士クリスカ ～貴様は、本当に最低の屑だな!～"
+      ],
+      "image": null,
+      "subtitle": "アージュ",
+      "path": "works/v36745/"
+    },
+    {
+      "id": "v39292",
+      "type": "work",
+      "name": "ちよれんお宝ディスク Vol.1 ～我等ちよれんの為に～",
+      "aliases": [
+        "ちよれんお宝ディスク Vol.1 ～我等ちよれんの為に～",
+        "Chiyoren Otakara Disk Vol.1 ~Warera Chiyoren no Tameni~",
+        "ちよれんお宝ディスク Vol.1 ～我等ちよれんの為に～"
+      ],
+      "image": null,
+      "subtitle": "アージュ / ニトロプラス / オーバーフロー",
+      "path": "works/v39292/"
+    },
+    {
+      "id": "v47936",
+      "type": "work",
+      "name": "マブラヴ オルタネイティヴ トータル・イクリプス 帝都燃ゆ",
+      "aliases": [
+        "マブラヴ オルタネイティヴ トータル・イクリプス 帝都燃ゆ",
+        "Muv-Luv Alternative - Total Eclipse: Teito Moyu",
+        "The Imperial Capital Burns - Muv-Luv Alternative Total Eclipse",
+        "マブラヴ オルタネイティヴ トータル・イクリプス 帝都燃ゆ"
+      ],
+      "image": null,
+      "subtitle": "アージュ / 株式会社aNCHOR",
+      "path": "works/v47936/"
+    },
+    {
+      "id": "v67571",
+      "type": "work",
+      "name": "エデンズリッターグレンツェ外伝1章 ～淫神の贄の聖女ティサーリア編～",
+      "aliases": [
+        "エデンズリッターグレンツェ外伝1章 ～淫神の贄の聖女ティサーリア編～",
+        "Eden's Ritter Grenze Gaiden - Chapter 1 ~Injin no Nie no Seijou Tisalia Hen~",
+        "エデンズリッターグレンツェ外伝1章 ～淫神の贄の聖女ティサーリア編～"
+      ],
+      "image": null,
+      "subtitle": "Waffle",
+      "path": "works/v67571/"
+    },
+    {
+      "id": "v14",
+      "type": "work",
+      "name": "School Days",
+      "aliases": [
+        "School Days",
+        "School Days",
+        "Школьные Дни",
+        "スクールデイズ",
+        "SD",
+        "日在校园",
+        "スクイズ"
+      ],
+      "image": "https://t.vndb.org/cv/88/94788.jpg",
+      "subtitle": "オーバーフロー",
+      "path": "works/v14/"
+    },
+    {
+      "id": "v45",
+      "type": "work",
+      "name": "Phantom -PHANTOM OF INFERNO-",
+      "aliases": [
+        "Phantom -PHANTOM OF INFERNO-",
+        "Phantom -PHANTOM OF INFERNO-",
+        "Phantom of Inferno",
+        "팬텀 오브 인페르노",
+        "ファントム",
+        "PoI",
+        "幻灵镇魂曲"
+      ],
+      "image": "https://t.vndb.org/cv/74/85574.jpg",
+      "subtitle": "ニトロプラス",
+      "path": "works/v45/"
+    },
+    {
+      "id": "v183",
+      "type": "work",
+      "name": "鬼哭街 - The Cyber Slayer",
+      "aliases": [
+        "鬼哭街 The Cyber Slayer",
+        "Kikokugai - The Cyber Slayer",
+        "鬼哭街 The Cyber Slayer",
+        "鬼哭街 - The Cyber Slayer"
+      ],
+      "image": null,
+      "subtitle": "ニトロプラス",
+      "path": "works/v183/"
+    },
+    {
+      "id": "v1107",
+      "type": "work",
+      "name": "果てしなく青い、この空の下で…",
+      "aliases": [
+        "果てしなく青い、この空の下で…",
+        "Hateshinaku Aoi, Kono Sora no Shita de...",
+        "果てしなく青い、この空の下で…",
+        "Hateao",
+        "Aozora",
+        "在这一望无际的蔚蓝天空下"
+      ],
+      "image": "https://t.vndb.org/cv/09/38209.jpg",
+      "subtitle": "TOPCAT",
+      "path": "works/v1107/"
+    },
+    {
+      "id": "v23516",
+      "type": "work",
+      "name": "东京时笼",
+      "aliases": [
+        "東京クロノス",
+        "TOKYO CHRONOS",
+        "東京クロノス",
+        "东京时笼",
+        "东京Chronos"
+      ],
+      "image": "https://t.vndb.org/cv/09/76809.jpg",
+      "subtitle": "MyDearest株式会社",
+      "path": "works/v23516/"
+    },
+    {
+      "id": "v26052",
+      "type": "work",
+      "name": "猫娘乐园 Vol.4",
+      "aliases": [
+        "ネコぱらvol.4～ネコとパティシエのノエル～",
+        "Neko Para vol.4 ~Neko to Patissier no Noel~",
+        "NEKOPARA Vol. 4",
+        "ネコぱらvol.4～ネコとパティシエのノエル～",
+        "猫娘乐园 Vol.4",
+        "貓娘樂園 Vol.4",
+        "NEKOPARA Vol.4: Noël avec les filles-chat et Patissier"
+      ],
+      "image": "https://t.vndb.org/cv/03/79003.jpg",
+      "subtitle": "NEKO WORKs",
+      "path": "works/v26052/"
+    },
+    {
+      "id": "v26768",
+      "type": "work",
+      "name": "Muv-Luv Integrate",
+      "aliases": [
+        "Muv-Luv Integrate",
+        "Muv-Luv Integrate",
+        "マブラヴ インテグレート",
+        "Muv-Luv Alternative 2"
+      ],
+      "image": "https://t.vndb.org/cv/33/40233.jpg",
+      "subtitle": "アージュ",
+      "path": "works/v26768/"
+    },
+    {
+      "id": "v26987",
+      "type": "work",
+      "name": "白日梦的构想图",
+      "aliases": [
+        "白昼夢の青写真",
+        "Hakuchuumu no Aojashin",
+        "Cyanotype Daydream -The Girl Who Dreamed the World-",
+        "白昼夢の青写真",
+        "白日梦的构想图",
+        "夢青",
+        "Musei",
+        "The girl who's called the world",
+        "yonagi",
+        "CyanDream",
+        "白日夢的構想圖"
+      ],
+      "image": "https://t.vndb.org/cv/17/85317.jpg",
+      "subtitle": "Laplacian",
+      "path": "works/v26987/"
+    },
+    {
+      "id": "v30412",
+      "type": "work",
+      "name": "マブラヴ レゾネイティヴ",
+      "aliases": [
+        "マブラヴ レゾネイティヴ",
+        "Muv-Luv Resonative",
+        "マブラヴ レゾネイティヴ",
+        "Muv-Luv Unlimited: The Day After Episode 04"
+      ],
+      "image": "https://t.vndb.org/cv/31/45831.jpg",
+      "subtitle": "アージュ",
+      "path": "works/v30412/"
+    },
+    {
+      "id": "v53237",
+      "type": "work",
+      "name": "マブラヴ オルタネイティヴ イン ユーロフロント DUTY -LOST ARCADIA-",
+      "aliases": [
+        "マブラヴ オルタネイティヴ イン ユーロフロント DUTY -LOST ARCADIA-",
+        "Muv-Luv Alternative in Eurofront DUTY -LOST ARCADIA-",
+        "マブラヴ オルタネイティヴ イン ユーロフロント DUTY -LOST ARCADIA-"
+      ],
+      "image": "https://t.vndb.org/cv/61/101361.jpg",
+      "subtitle": "アージュ",
+      "path": "works/v53237/"
+    },
+    {
+      "id": "v1362",
+      "type": "work",
+      "name": "アユマユ オルタネイティヴ",
+      "aliases": [
+        "アユマユ オルタネイティヴ",
+        "Ayu Mayu Alternative",
+        "アユマユ オルタネイティヴ"
+      ],
+      "image": null,
+      "subtitle": "アージュ",
+      "path": "works/v1362/"
+    },
+    {
+      "id": "v7623",
+      "type": "work",
+      "name": "D ～その景色の向こう側～",
+      "aliases": [
+        "D ～その景色の向こう側～",
+        "D ~Sono Keshiki no Mukougawa~",
+        "D ～その景色の向こう側～"
+      ],
+      "image": "https://t.vndb.org/cv/20/89820.jpg",
+      "subtitle": "アージュ",
+      "path": "works/v7623/"
+    },
+    {
+      "id": "v21343",
+      "type": "work",
+      "name": "君が望む真愛",
+      "aliases": [
+        "君が望む真愛",
+        "Kimi ga Nozomu Muv-Luv",
+        "君が望む真愛",
+        "Ore ga Hetare de Hetare ga Ore de",
+        "Melvina Maniax",
+        "kimimuv"
+      ],
+      "image": "https://t.vndb.org/cv/00/90500.jpg",
+      "subtitle": "アージュ",
+      "path": "works/v21343/"
+    },
+    {
+      "id": "v21816",
+      "type": "work",
+      "name": "女臣衛士クリスカEX ～貴様は、本当に最低の屑だな!～",
+      "aliases": [
+        "女臣衛士クリスカEX ～貴様は、本当に最低の屑だな!～",
+        "Joshin Eishi Cryska EX ~Kisama wa, Hontou ni Saitei no Kuzu da na!~",
+        "女臣衛士クリスカEX ～貴様は、本当に最低の屑だな!～"
+      ],
+      "image": null,
+      "subtitle": "アージュ",
+      "path": "works/v21816/"
+    },
+    {
+      "id": "v28307",
+      "type": "work",
+      "name": "君が望む永遠 another episode 悲しみは風のように",
+      "aliases": [
+        "君が望む永遠 another episode 悲しみは風のように",
+        "Kimi ga Nozomu Eien Another Episode - Kanashimi wa Kaze no You ni",
+        "Kimi ga Nozomu Eien Another Episode - Sorrow Flows Like The Wind",
+        "君が望む永遠 another episode 悲しみは風のように"
+      ],
+      "image": "https://t.vndb.org/cv/92/88892.jpg",
+      "subtitle": "アージュ / 株式会社aNCHOR",
+      "path": "works/v28307/"
+    },
+    {
+      "id": "v32791",
+      "type": "work",
+      "name": "マブラヴ オルタネイティヴ クロニクルズ  WAR ENSEMBLE",
+      "aliases": [
+        "マブラヴ オルタネイティヴ クロニクルズ  WAR ENSEMBLE",
+        "Muv-Luv Alternative Chronicles ~War Ensemble~",
+        "マブラヴ オルタネイティヴ クロニクルズ  WAR ENSEMBLE"
+      ],
+      "image": "https://t.vndb.org/cv/24/90424.jpg",
+      "subtitle": "アージュ",
+      "path": "works/v32791/"
+    },
+    {
+      "id": "v32793",
+      "type": "work",
+      "name": "マブラヴ オルタネイティヴ クロニクルズ ～ラスト・ダイバーズ～",
+      "aliases": [
+        "マブラヴ オルタネイティヴ クロニクルズ ～ラスト・ダイバーズ～",
+        "Muv-Luv Alternative Chronicles: Last Divers",
+        "マブラヴ オルタネイティヴ クロニクルズ ～ラスト・ダイバーズ～"
+      ],
+      "image": "https://t.vndb.org/cv/21/90421.jpg",
+      "subtitle": "アージュ",
+      "path": "works/v32793/"
+    },
+    {
+      "id": "v32794",
+      "type": "work",
+      "name": "はいぶる！",
+      "aliases": [
+        "はいぶる！",
+        "Haiburu!",
+        "はいぶる！"
+      ],
+      "image": "https://t.vndb.org/cv/23/90423.jpg",
+      "subtitle": "アージュ",
+      "path": "works/v32794/"
+    },
+    {
+      "id": "v38073",
+      "type": "work",
+      "name": "鬼畜の門外の変",
+      "aliases": [
+        "鬼畜の門外の変",
+        "Kichiku no Mongai no Hen",
+        "鬼畜の門外の変",
+        "鬼畜の門"
+      ],
+      "image": "https://t.vndb.org/cv/05/59605.jpg",
+      "subtitle": "アージュ",
+      "path": "works/v38073/"
+    },
+    {
+      "id": "v30960",
+      "type": "work",
+      "name": "Mycorrhiza",
+      "aliases": [
+        "Mycorrhiza",
+        "Mycorrhiza"
+      ],
+      "image": "https://t.vndb.org/cv/34/61334.jpg",
+      "subtitle": "Tim Reichert",
+      "path": "works/v30960/"
+    },
+    {
+      "id": "v15571",
+      "type": "work",
+      "name": "Chimera Tail",
+      "aliases": [
+        "Chimera Tail",
+        "Chimera Tail"
+      ],
+      "image": "https://t.vndb.org/cv/93/21193.jpg",
+      "subtitle": "Marionette Code",
+      "path": "works/v15571/"
+    },
+    {
+      "id": "v16583",
+      "type": "work",
+      "name": "The Human Reignition Project",
+      "aliases": [
+        "The Human Reignition Project",
+        "The Human Reignition Project",
+        "HRP"
+      ],
+      "image": "https://t.vndb.org/cv/79/27479.jpg",
+      "subtitle": "Alienworks",
+      "path": "works/v16583/"
+    },
+    {
+      "id": "v19775",
+      "type": "work",
+      "name": "Episicava Vol.1",
+      "aliases": [
+        "Episicava Vol.1",
+        "Episicava Vol.1",
+        "Ascension"
+      ],
+      "image": "https://t.vndb.org/cv/86/81386.jpg",
+      "subtitle": "Epic Works",
+      "path": "works/v19775/"
+    },
+    {
+      "id": "v22260",
+      "type": "work",
+      "name": "Ah! My Girlfriend is a Demon Summoned from the Depths of Hell!",
+      "aliases": [
+        "Ah! My Girlfriend is a Demon Summoned from the Depths of Hell!",
+        "Ah! My Girlfriend is a Demon Summoned from the Depths of Hell!"
+      ],
+      "image": "https://t.vndb.org/cv/29/91429.jpg",
+      "subtitle": "Watercress",
+      "path": "works/v22260/"
+    },
+    {
+      "id": "v22896",
+      "type": "work",
+      "name": "Cautionary Tale",
+      "aliases": [
+        "Cautionary Tale",
+        "Cautionary Tale",
+        "Beyond Yesterday's Grasp",
+        "Let Go.",
+        "If in Your Dreams; the Flood"
+      ],
+      "image": "https://t.vndb.org/cv/61/34961.jpg",
+      "subtitle": "Watercress / Tin Man Games / Starlight Visual / Illusory World",
+      "path": "works/v22896/"
+    },
+    {
+      "id": "v23203",
+      "type": "work",
+      "name": "Caladria Chronicles",
+      "aliases": [
+        "Caladria Chronicles",
+        "Caladria Chronicles",
+        "CC"
+      ],
+      "image": "https://t.vndb.org/cv/20/84020.jpg",
+      "subtitle": "Starlight Visual",
+      "path": "works/v23203/"
+    },
+    {
+      "id": "v24475",
+      "type": "work",
+      "name": "Baked:Magic",
+      "aliases": [
+        "Baked:Magic",
+        "Baked:Magic"
+      ],
+      "image": "https://t.vndb.org/cv/61/37161.jpg",
+      "subtitle": "Red",
+      "path": "works/v24475/"
+    },
+    {
+      "id": "v24605",
+      "type": "work",
+      "name": "A Sedentary Fist",
+      "aliases": [
+        "A Sedentary Fist",
+        "A Sedentary Fist"
+      ],
+      "image": "https://t.vndb.org/cv/30/37130.jpg",
+      "subtitle": "JamSandwich",
+      "path": "works/v24605/"
+    },
+    {
+      "id": "v26138",
+      "type": "work",
+      "name": "In Blood",
+      "aliases": [
+        "In Blood",
+        "In Blood"
+      ],
+      "image": "https://t.vndb.org/cv/16/81116.jpg",
+      "subtitle": "Jaime Scribbles Games",
+      "path": "works/v26138/"
+    },
+    {
+      "id": "v26141",
+      "type": "work",
+      "name": "Usagi Syndrome",
+      "aliases": [
+        "Usagi Syndrome",
+        "Usagi Syndrome",
+        "US"
+      ],
+      "image": "https://t.vndb.org/cv/66/39366.jpg",
+      "subtitle": "AlfredPros",
+      "path": "works/v26141/"
+    },
+    {
+      "id": "v26857",
+      "type": "work",
+      "name": "Ah!! My Roommate is a Succubus Hellbent on World Conquest!!",
+      "aliases": [
+        "Ah!! My Roommate is a Succubus Hellbent on World Conquest!!",
+        "Ah!! My Roommate is a Succubus Hellbent on World Conquest!!"
+      ],
+      "image": "https://t.vndb.org/cv/51/91451.jpg",
+      "subtitle": "Watercress",
+      "path": "works/v26857/"
+    },
+    {
+      "id": "v26922",
+      "type": "work",
+      "name": "LoveSick Darlings",
+      "aliases": [
+        "LoveSick Darlings",
+        "LoveSick Darlings",
+        "LoveSick Darlings - Relationships with Consequences"
+      ],
+      "image": "https://t.vndb.org/cv/51/90151.jpg",
+      "subtitle": "Dimitri Odysseus",
+      "path": "works/v26922/"
+    },
+    {
+      "id": "v28379",
+      "type": "work",
+      "name": "Cafe Space Angel",
+      "aliases": [
+        "Cafe Space Angel",
+        "Cafe Space Angel"
+      ],
+      "image": "https://t.vndb.org/cv/51/42951.jpg",
+      "subtitle": "Terra Games",
+      "path": "works/v28379/"
+    },
+    {
+      "id": "v31089",
+      "type": "work",
+      "name": "Netghost",
+      "aliases": [
+        "Netghost",
+        "Netghost"
+      ],
+      "image": "https://t.vndb.org/cv/22/74722.jpg",
+      "subtitle": "Dragonfire Studios",
+      "path": "works/v31089/"
+    },
+    {
+      "id": "v38900",
+      "type": "work",
+      "name": "InSomno",
+      "aliases": [
+        "InSomno",
+        "InSomno"
+      ],
+      "image": "https://t.vndb.org/cv/16/60116.jpg",
+      "subtitle": "Eufasy",
+      "path": "works/v38900/"
+    },
+    {
+      "id": "v44320",
+      "type": "work",
+      "name": "\"VENOM\"",
+      "aliases": [
+        "\"VENOM\"",
+        "\"VENOM\""
+      ],
+      "image": "https://t.vndb.org/cv/26/79526.jpg",
+      "subtitle": "AmeKinoko",
+      "path": "works/v44320/"
+    },
+    {
+      "id": "v48614",
+      "type": "work",
+      "name": "Class Reunion Chat Room",
+      "aliases": [
+        "Class Reunion Chat Room",
+        "Class Reunion Chat Room"
+      ],
+      "image": "https://t.vndb.org/cv/08/73008.jpg",
+      "subtitle": "RocRac",
+      "path": "works/v48614/"
+    },
+    {
+      "id": "v59095",
+      "type": "work",
+      "name": "Time Will Travel",
+      "aliases": [
+        "Time Will Travel",
+        "Time Will Travel",
+        "タイム・ウィル・トラベル"
+      ],
+      "image": null,
+      "subtitle": "花ネズミ プロジェクト",
+      "path": "works/v59095/"
+    },
+    {
+      "id": "v68289",
+      "type": "work",
+      "name": "Crushes & Cryptids",
+      "aliases": [
+        "Crushes & Cryptids",
+        "Crushes & Cryptids"
+      ],
+      "image": "https://t.vndb.org/cv/17/142917.jpg",
+      "subtitle": "Lumi Kha",
+      "path": "works/v68289/"
+    },
+    {
+      "id": "v69042",
+      "type": "work",
+      "name": "Your Next Stop Is",
+      "aliases": [
+        "Your Next Stop Is",
+        "Your Next Stop Is"
+      ],
+      "image": "https://t.vndb.org/cv/50/145950.jpg",
+      "subtitle": "rekkatsu",
+      "path": "works/v69042/"
+    },
+    {
+      "id": "v65742",
+      "type": "work",
+      "name": "恋爱喜剧突转",
+      "aliases": [
+        "ラブコメスイッチ",
+        "Love Come Switch",
+        "ラブコメスイッチ",
+        "恋爱喜剧突转"
+      ],
+      "image": "https://t.vndb.org/cv/36/135336.jpg",
+      "subtitle": "埃",
+      "path": "works/v65742/"
+    },
+    {
+      "id": "v65743",
+      "type": "work",
+      "name": "パシられ日和",
+      "aliases": [
+        "パシられ日和",
+        "Pashirare Biyori",
+        "パシられ日和"
+      ],
+      "image": null,
+      "subtitle": "埃",
+      "path": "works/v65743/"
+    },
+    {
+      "id": "s722",
+      "type": "staff",
+      "name": "こぶいち",
+      "aliases": [],
+      "subtitle": "剧本作者 / 原画师",
+      "path": "staff/s722/"
+    },
+    {
+      "id": "s847",
+      "type": "staff",
+      "name": "籐太",
+      "aliases": [],
+      "subtitle": "剧本作者 / 原画师",
+      "path": "staff/s847/"
+    },
+    {
+      "id": "s1804",
+      "type": "staff",
+      "name": "こもわた 遙華",
+      "aliases": [],
+      "subtitle": "剧本作者 / 原画师",
+      "path": "staff/s1804/"
+    },
+    {
+      "id": "s2764",
+      "type": "staff",
+      "name": "瀬尾 順",
+      "aliases": [],
+      "subtitle": "剧本作者 / 原画师",
+      "path": "staff/s2764/"
+    },
+    {
+      "id": "s2883",
+      "type": "staff",
+      "name": "天宮 りつ",
+      "aliases": [],
+      "subtitle": "剧本作者 / 原画师",
+      "path": "staff/s2883/"
+    },
+    {
+      "id": "s2884",
+      "type": "staff",
+      "name": "むりりん",
+      "aliases": [],
+      "subtitle": "剧本作者 / 原画师",
+      "path": "staff/s2884/"
+    },
+    {
+      "id": "s4247",
+      "type": "staff",
+      "name": "煎路",
+      "aliases": [],
+      "subtitle": "剧本作者 / 原画师",
+      "path": "staff/s4247/"
+    },
+    {
+      "id": "s98",
+      "type": "staff",
+      "name": "Bou",
+      "aliases": [],
+      "subtitle": "剧本作者 / 原画师",
+      "path": "staff/s98/"
+    },
+    {
+      "id": "s99",
+      "type": "staff",
+      "name": "八雲 剣豪",
+      "aliases": [],
+      "subtitle": "剧本作者 / 原画师",
+      "path": "staff/s99/"
+    },
+    {
+      "id": "s779",
+      "type": "staff",
+      "name": "松永 北斗",
+      "aliases": [],
+      "subtitle": "剧本作者 / 原画师",
+      "path": "staff/s779/"
+    },
+    {
+      "id": "s780",
+      "type": "staff",
+      "name": "タシロ ハヤト",
+      "aliases": [],
+      "subtitle": "剧本作者 / 原画师",
+      "path": "staff/s780/"
+    },
+    {
+      "id": "s781",
+      "type": "staff",
+      "name": "吉田 博彦",
+      "aliases": [],
+      "subtitle": "剧本作者 / 原画师",
+      "path": "staff/s781/"
+    },
+    {
+      "id": "s10777",
+      "type": "staff",
+      "name": "Tim Reichert",
+      "aliases": [],
+      "subtitle": "剧本作者 / 原画师",
+      "path": "staff/s10777/"
+    },
+    {
+      "id": "s23558",
+      "type": "staff",
+      "name": "Tekijaki",
+      "aliases": [],
+      "subtitle": "剧本作者 / 原画师",
+      "path": "staff/s23558/"
+    },
+    {
+      "id": "s23559",
+      "type": "staff",
+      "name": "黑翼冰嵐",
+      "aliases": [],
+      "subtitle": "剧本作者 / 原画师",
+      "path": "staff/s23559/"
+    },
+    {
+      "id": "s23560",
+      "type": "staff",
+      "name": "missyozart",
+      "aliases": [],
+      "subtitle": "剧本作者 / 原画师",
+      "path": "staff/s23560/"
+    },
+    {
+      "id": "p31674",
+      "type": "producer",
+      "name": "C#4R4CT3R",
+      "aliases": [],
+      "subtitle": "制作商",
+      "path": "producers/p31674/"
+    },
+    {
+      "id": "p98",
+      "type": "producer",
+      "name": "ゆずソフト",
+      "aliases": [],
+      "subtitle": "制作商",
+      "path": "producers/p98/"
+    },
+    {
+      "id": "p4",
+      "type": "producer",
+      "name": "アージュ",
+      "aliases": [],
+      "subtitle": "制作商",
+      "path": "producers/p4/"
+    },
+    {
+      "id": "p10241",
+      "type": "producer",
+      "name": "株式会社aNCHOR",
+      "aliases": [],
+      "subtitle": "制作商",
+      "path": "producers/p10241/"
+    },
+    {
+      "id": "p11840",
+      "type": "producer",
+      "name": "Tim Reichert",
+      "aliases": [],
+      "subtitle": "制作商",
+      "path": "producers/p11840/"
+    },
+    {
+      "id": "p29823",
+      "type": "producer",
+      "name": "埃",
+      "aliases": [],
+      "subtitle": "制作商",
+      "path": "producers/p29823/"
+    }
+  ]
 }
