@@ -7,17 +7,17 @@
       "start": "2026-10-16T16:00:00.000Z",
       "end": "2026-10-31T16:00:00.000Z",
       "endDate": "2026-11-01",
-      "minLikes": 3000,
+      "minLikes": 1000,
       "platforms": {
         "douyin": {
           "status": "partial",
           "periodId": "2026-11-01",
           "start": "2026-10-16T16:00:00.000Z",
           "end": "2026-10-31T16:00:00.000Z",
-          "minLikes": 3000,
-          "collectedAt": "2026-11-01T14:48:28.433Z",
+          "minLikes": 1000,
+          "collectedAt": "2026-11-01T15:28:01.111Z",
           "lastSuccessAt": null,
-          "error": "作品名称补搜未完成，已注明本轮搜索范围。",
+          "error": "抖音采集失败，可能需要有效 Cookie；请检查固定版本依赖与登录状态。",
           "coverage": {
             "keywords": [
               "galgame",
@@ -27,27 +27,20 @@
               "galgame CG",
               "galgame名场面"
             ],
-            "queries": 30,
-            "pages": 71,
+            "queries": 15,
+            "pages": 35,
             "failedQueries": [
               "美少女游戏",
-              "白色相簿2",
-              "命运石之门",
-              "缘之空",
-              "恋爱借贷",
-              "二人终末论",
-              "アマツツミ",
-              "Ever17 -the out of infinity-",
-              "尚有佳蜜伴恋心"
+              "白色相簿2"
             ],
             "maxPagesPerQuery": 3,
-            "candidateCount": 446,
-            "qualifiedCount": 10
+            "candidateCount": 284,
+            "qualifiedCount": 27
           },
           "ranking": [
             {
               "workId": "v22636",
-              "maxLikes": 72140,
+              "maxLikes": 72189,
               "count": 2,
               "evidence": [
                 {
@@ -64,9 +57,9 @@
                   "kind": "video",
                   "url": "https://www.douyin.com/video/7697946181153934633",
                   "publishedAt": "2026-10-18T10:02:53+00:00",
-                  "likes": 72140,
-                  "collectedAt": "2026-11-01T14:44:48.397897+00:00",
-                  "keyword": "乌有乡",
+                  "likes": 72189,
+                  "collectedAt": "2026-11-01T15:20:34.648424+00:00",
+                  "keyword": "galgame",
                   "workId": "v22636",
                   "matchMethod": "explicit-title"
                 },
@@ -94,7 +87,7 @@
             },
             {
               "workId": "v17",
-              "maxLikes": 8650,
+              "maxLikes": 8694,
               "count": 1,
               "evidence": [
                 {
@@ -112,8 +105,8 @@
                   "kind": "video",
                   "url": "https://www.douyin.com/video/7700225841325673754",
                   "publishedAt": "2026-10-24T13:29:08+00:00",
-                  "likes": 8650,
-                  "collectedAt": "2026-11-01T14:35:47.729811+00:00",
+                  "likes": 8694,
+                  "collectedAt": "2026-11-01T15:21:00.567872+00:00",
                   "keyword": "gal游戏",
                   "workId": "v17",
                   "matchMethod": "explicit-title"
@@ -162,9 +155,9 @@
                   "kind": "video",
                   "url": "https://www.douyin.com/video/7699131825469892713",
                   "publishedAt": "2026-10-21T14:43:39+00:00",
-                  "likes": 3871,
-                  "collectedAt": "2026-11-01T14:45:53.983306+00:00",
-                  "keyword": "天津罪",
+                  "likes": 3872,
+                  "collectedAt": "2026-11-01T15:22:34.621881+00:00",
+                  "keyword": "galgame名场面",
                   "workId": "v18852",
                   "matchMethod": "explicit-title"
                 }
@@ -199,8 +192,36 @@
               ]
             },
             {
+              "workId": "v6540",
+              "maxLikes": 5031,
+              "count": 1,
+              "evidence": [
+                {
+                  "platform": "douyin",
+                  "id": "7698563297452376040",
+                  "title": "gal史上最烦人的角色😡😡 #galgame #猎奇 #乐园 #可爱 #二次元",
+                  "description": "",
+                  "tags": [
+                    "galgame",
+                    "猎奇",
+                    "乐园",
+                    "可爱",
+                    "二次元"
+                  ],
+                  "kind": "video",
+                  "url": "https://www.douyin.com/video/7698563297452376040",
+                  "publishedAt": "2026-10-20T01:57:31+00:00",
+                  "likes": 5031,
+                  "collectedAt": "2026-11-01T15:22:34.621961+00:00",
+                  "keyword": "galgame名场面",
+                  "workId": "v6540",
+                  "matchMethod": "explicit-title"
+                }
+              ]
+            },
+            {
               "workId": "v19073",
-              "maxLikes": 4265,
+              "maxLikes": 4267,
               "count": 1,
               "evidence": [
                 {
@@ -218,10 +239,142 @@
                   "kind": "video",
                   "url": "https://www.douyin.com/video/7697494346581013115",
                   "publishedAt": "2026-10-17T04:49:23+00:00",
-                  "likes": 4265,
-                  "collectedAt": "2026-11-01T14:48:28.355019+00:00",
-                  "keyword": "千恋＊万花",
+                  "likes": 4267,
+                  "collectedAt": "2026-11-01T15:27:02.665608+00:00",
+                  "keyword": "千恋万花",
                   "workId": "v19073",
+                  "matchMethod": "explicit-title"
+                }
+              ]
+            },
+            {
+              "workId": "v10680",
+              "maxLikes": 2813,
+              "count": 2,
+              "evidence": [
+                {
+                  "platform": "douyin",
+                  "id": "7699026715166788879",
+                  "title": "连续三年投票第一，官方为她发明了退役规则｜樱小路露娜 《近月少女的礼仪》樱小路露娜，Getchu 美少女游戏大赏史上第一位三连冠殿堂入り。本期从官方三届获奖感言讲到她被家族软禁的出生、家庭教师的背叛，和她把人生一寸寸赎回来的故事。画面、配音、字幕与剪辑含 AI 辅助制作。#樱小路露娜 #近月少女的礼仪 #Galgame #视觉小说 #Navel",
+                  "description": "",
+                  "tags": [
+                    "樱小路露娜",
+                    "近月少女的礼仪",
+                    "Galgame",
+                    "视觉小说",
+                    "Navel"
+                  ],
+                  "kind": "video",
+                  "url": "https://www.douyin.com/video/7699026715166788879",
+                  "publishedAt": "2026-10-21T07:55:51+00:00",
+                  "likes": 2813,
+                  "collectedAt": "2026-11-01T15:27:29.900435+00:00",
+                  "keyword": "近月少女的礼仪",
+                  "workId": "v10680",
+                  "matchMethod": "explicit-title"
+                },
+                {
+                  "platform": "douyin",
+                  "id": "7697998948677537033",
+                  "title": "输给人气投票的妹妹，官方把她的怪叫感言挂上了榜单 2013年 Getchu 角色投票中，她输给了同作配角露娜，获得第三名；官方把她的落选感言原文挂上榜单，通篇怪叫。续作从 Bad End 接起，让她成为第一女主角；官方广播剧标题也在玩“不让里想奈咕奴奴”。部分使用 AI 辅助制作。#近月少女的礼仪 #少女理论 #大藏里想奈 #Galgame #作品杂谈",
+                  "description": "",
+                  "tags": [
+                    "近月少女的礼仪",
+                    "少女理论",
+                    "大藏里想奈",
+                    "Galgame",
+                    "作品杂谈"
+                  ],
+                  "kind": "video",
+                  "url": "https://www.douyin.com/video/7697998948677537033",
+                  "publishedAt": "2026-10-18T13:27:37+00:00",
+                  "likes": 1342,
+                  "collectedAt": "2026-11-01T15:27:29.900501+00:00",
+                  "keyword": "近月少女的礼仪",
+                  "workId": "v10680",
+                  "matchMethod": "explicit-title"
+                }
+              ]
+            },
+            {
+              "workId": "v2002",
+              "maxLikes": 2770,
+              "count": 1,
+              "evidence": [
+                {
+                  "platform": "douyin",
+                  "id": "7697585830600166697",
+                  "title": "轮回系galgame推荐 #galgame #二次元 #推荐 #命运石之门 #轮回",
+                  "description": "",
+                  "tags": [
+                    "galgame",
+                    "二次元",
+                    "推荐",
+                    "命运石之门",
+                    "轮回"
+                  ],
+                  "kind": "video",
+                  "url": "https://www.douyin.com/video/7697585830600166697",
+                  "publishedAt": "2026-10-17T10:44:29+00:00",
+                  "likes": 2770,
+                  "collectedAt": "2026-11-01T15:25:46.216062+00:00",
+                  "keyword": "命运石之门",
+                  "workId": "v2002",
+                  "matchMethod": "explicit-title"
+                }
+              ]
+            },
+            {
+              "workId": "v1143",
+              "maxLikes": 1963,
+              "count": 1,
+              "evidence": [
+                {
+                  "platform": "douyin",
+                  "id": "7702682821198754278",
+                  "title": "最强群像恋爱游戏《请认真和我谈恋爱》 #galgame #请认真和我谈恋爱 #恋爱游戏 #游戏解说 #gal",
+                  "description": "",
+                  "tags": [
+                    "galgame",
+                    "请认真和我谈恋爱",
+                    "恋爱游戏",
+                    "游戏解说",
+                    "gal"
+                  ],
+                  "kind": "video",
+                  "url": "https://www.douyin.com/video/7702682821198754278",
+                  "publishedAt": "2026-10-31T04:23:19+00:00",
+                  "likes": 1963,
+                  "collectedAt": "2026-11-01T15:22:34.621874+00:00",
+                  "keyword": "galgame名场面",
+                  "workId": "v1143",
+                  "matchMethod": "explicit-title"
+                }
+              ]
+            },
+            {
+              "workId": "v69315",
+              "maxLikes": 1221,
+              "count": 1,
+              "evidence": [
+                {
+                  "platform": "douyin",
+                  "id": "7700644152693837056",
+                  "title": "这可能是近年最佳的\"视觉小说\" #视觉小说 #galgame #千禧年 #rain98",
+                  "description": "",
+                  "tags": [
+                    "视觉小说",
+                    "galgame",
+                    "千禧年",
+                    "rain98"
+                  ],
+                  "kind": "video",
+                  "url": "https://www.douyin.com/video/7700644152693837056",
+                  "publishedAt": "2026-10-25T16:32:27+00:00",
+                  "likes": 1221,
+                  "collectedAt": "2026-11-01T15:21:51.404528+00:00",
+                  "keyword": "视觉小说",
+                  "workId": "v69315",
                   "matchMethod": "explicit-title"
                 }
               ]
@@ -233,8 +386,8 @@
           "periodId": "2026-11-01",
           "start": "2026-10-16T16:00:00.000Z",
           "end": "2026-10-31T16:00:00.000Z",
-          "minLikes": 3000,
-          "collectedAt": "2026-11-01T15:12:25.443Z",
+          "minLikes": 1000,
+          "collectedAt": "2026-11-01T15:37:43.536Z",
           "lastSuccessAt": null,
           "error": null,
           "coverage": {
@@ -246,26 +399,20 @@
               "galgame CG",
               "galgame名场面"
             ],
-            "queries": 37,
-            "pages": 72,
+            "queries": 6,
+            "pages": 16,
             "failedQueries": [
-              "galgame名场面",
-              "苍之彼方的四重奏",
-              "恋爱绮谭",
-              "恋爱借贷",
-              "恋爱喜剧突转",
-              "二人终末论",
-              "星之终途"
+              "galgame名场面"
             ],
             "maxPagesPerQuery": 3,
-            "candidateCount": 992,
-            "qualifiedCount": 57
+            "candidateCount": 275,
+            "qualifiedCount": 140
           },
           "ranking": [
             {
               "workId": "v69315",
               "maxLikes": 20728,
-              "count": 6,
+              "count": 7,
               "evidence": [
                 {
                   "platform": "bilibili",
@@ -310,8 +457,8 @@
                   "url": "https://www.bilibili.com/video/BV1Jhnb6TEkc",
                   "publishedAt": "2026-10-23T10:00:00.000Z",
                   "likes": 14555,
-                  "collectedAt": "2026-11-01T15:10:17.628Z",
-                  "keyword": "Rain98",
+                  "collectedAt": "2026-11-01T15:29:59.262Z",
+                  "keyword": "美少女游戏",
                   "workId": "v69315",
                   "matchMethod": "explicit-title"
                 },
@@ -375,9 +522,9 @@
                   ],
                   "url": "https://www.bilibili.com/video/BV14nnh6QEog",
                   "publishedAt": "2026-10-23T11:19:34.000Z",
-                  "likes": 5236,
-                  "collectedAt": "2026-11-01T15:10:18.736Z",
-                  "keyword": "Rain98",
+                  "likes": 5237,
+                  "collectedAt": "2026-11-01T15:29:13.111Z",
+                  "keyword": "gal游戏",
                   "workId": "v69315",
                   "matchMethod": "explicit-title"
                 },
@@ -398,45 +545,41 @@
                   ],
                   "url": "https://www.bilibili.com/video/BV1tLJR6JEFM",
                   "publishedAt": "2026-10-20T03:50:00.000Z",
-                  "likes": 4746,
-                  "collectedAt": "2026-11-01T15:10:18.736Z",
-                  "keyword": "Rain98",
+                  "likes": 4748,
+                  "collectedAt": "2026-11-01T15:31:00.974Z",
+                  "keyword": "视觉小说",
+                  "workId": "v69315",
+                  "matchMethod": "explicit-title"
+                },
+                {
+                  "platform": "bilibili",
+                  "id": "BV1WVnp6sEUr",
+                  "title": "日系哀鸿？男主扒门缝偷听女主和...？我原谅了所有绿帽癖小众精品独游...《Rain98》（伪NTR）",
+                  "description": "我原谅了所有绿帽癖小众精品独游\n说实话这游戏除了暴雷这段以外我真挺喜欢的，演出，配音真的一点问题都没有（当然因为演出好所以伪牛那段也很“身临其境啊”）\n不过看基本上没什么人聊这个，黑红也是红\n官方说这段剧情会改，千言万语，好好改，改好了我会在做期推荐视频的\n毕竟你不能既要又要，堆质量堆流量想要销量的同时，还维持你的小众精品文案",
+                  "tags": [
+                    "Rain98",
+                    "哀鸿",
+                    "林翩翩",
+                    "沙优",
+                    "视觉小说",
+                    "游戏杂谈",
+                    "轻小说",
+                    "独立游戏",
+                    "GAL"
+                  ],
+                  "url": "https://www.bilibili.com/video/BV1WVnp6sEUr",
+                  "publishedAt": "2026-10-22T12:46:41.000Z",
+                  "likes": 1107,
+                  "collectedAt": "2026-11-01T15:31:16.904Z",
+                  "keyword": "视觉小说",
                   "workId": "v69315",
                   "matchMethod": "explicit-title"
                 }
               ]
             },
             {
-              "workId": "v16044",
-              "maxLikes": 7910,
-              "count": 1,
-              "evidence": [
-                {
-                  "platform": "bilibili",
-                  "id": "BV1dund6KEom",
-                  "title": "【绫地宁宁cos】柊史君…",
-                  "description": "-",
-                  "tags": [
-                    "绫地宁宁",
-                    "魔女的夜宴",
-                    "柚子社",
-                    "Cosplay",
-                    "cos",
-                    "galgame"
-                  ],
-                  "url": "https://www.bilibili.com/video/BV1dund6KEom",
-                  "publishedAt": "2026-10-26T09:49:41.000Z",
-                  "likes": 7910,
-                  "collectedAt": "2026-11-01T15:11:56.602Z",
-                  "keyword": "魔女的夜宴",
-                  "workId": "v16044",
-                  "matchMethod": "explicit-title"
-                }
-              ]
-            },
-            {
               "workId": "v30960",
-              "maxLikes": 4251,
+              "maxLikes": 4253,
               "count": 1,
               "evidence": [
                 {
@@ -456,9 +599,9 @@
                   ],
                   "url": "https://www.bilibili.com/video/BV1gony6vEdF",
                   "publishedAt": "2026-10-22T08:00:00.000Z",
-                  "likes": 4251,
-                  "collectedAt": "2026-11-01T15:11:46.387Z",
-                  "keyword": "Mycorrhiza",
+                  "likes": 4253,
+                  "collectedAt": "2026-11-01T15:31:04.298Z",
+                  "keyword": "视觉小说",
                   "workId": "v30960",
                   "matchMethod": "explicit-title"
                 }
@@ -466,7 +609,7 @@
             },
             {
               "workId": "v19073",
-              "maxLikes": 3512,
+              "maxLikes": 3514,
               "count": 1,
               "evidence": [
                 {
@@ -482,9 +625,9 @@
                   ],
                   "url": "https://www.bilibili.com/video/BV121HK6HELU",
                   "publishedAt": "2026-10-24T10:09:58.000Z",
-                  "likes": 3512,
-                  "collectedAt": "2026-11-01T15:11:23.579Z",
-                  "keyword": "千恋＊万花",
+                  "likes": 3514,
+                  "collectedAt": "2026-11-01T15:28:52.830Z",
+                  "keyword": "galgame",
                   "workId": "v19073",
                   "matchMethod": "explicit-title"
                 }
@@ -492,7 +635,7 @@
             },
             {
               "workId": "v65742",
-              "maxLikes": 3384,
+              "maxLikes": 3393,
               "count": 1,
               "evidence": [
                 {
@@ -514,10 +657,299 @@
                   ],
                   "url": "https://www.bilibili.com/video/BV1HRxg6iEnx",
                   "publishedAt": "2026-10-30T09:30:00.000Z",
-                  "likes": 3384,
-                  "collectedAt": "2026-11-01T15:11:48.312Z",
-                  "keyword": "恋爱喜剧突转",
+                  "likes": 3393,
+                  "collectedAt": "2026-11-01T15:31:09.730Z",
+                  "keyword": "视觉小说",
                   "workId": "v65742",
+                  "matchMethod": "explicit-title"
+                }
+              ]
+            },
+            {
+              "workId": "v83",
+              "maxLikes": 2995,
+              "count": 3,
+              "evidence": [
+                {
+                  "platform": "bilibili",
+                  "id": "BV1P2so6vEKK",
+                  "title": "因为好奇我在暗网买了只特殊宠物，包裹里的东西超出了我的认知！——【MY SWEET PETS】",
+                  "description": "这款游戏目前只出了一个demo版本，不得不说我真非常喜欢这款游戏Meat也超级可爱，同时游戏还隐藏着很多的秘密尚未揭开，如果大家对这款游戏感兴趣的话就多多点赞支持一下~等游戏的正式版发售之后我也会在第一时间给大家安排的~\n如果你喜欢这期视频别忘记一键三连+关注哦~\n游戏名：MY SWEET PETS",
+                  "tags": [
+                    "游戏解说",
+                    "恐怖游戏",
+                    "游戏视频",
+                    "猎奇",
+                    "微恐",
+                    "视觉小说",
+                    "剧情解说"
+                  ],
+                  "url": "https://www.bilibili.com/video/BV1P2so6vEKK",
+                  "publishedAt": "2026-10-29T08:11:23.000Z",
+                  "likes": 2995,
+                  "collectedAt": "2026-11-01T15:31:12.005Z",
+                  "keyword": "视觉小说",
+                  "workId": "v83",
+                  "matchMethod": "explicit-title"
+                },
+                {
+                  "platform": "bilibili",
+                  "id": "BV1AaJi6dETU",
+                  "title": "【自制移植】把17年前的《红楼梦》搬上安卓！2009/2010简繁四合一典藏版",
+                  "description": "《红楼梦》四合一典藏移植整合版\n2009《红楼梦》＋2010《红楼梦：林黛玉与北静王》\n简体中文／繁體中文，共四个版本。\n经过原始资源解析、剧情脚本转换、旧引擎兼容适配与跨平台移植，现在可以通过统一入口体验两代作品！\n这次做了什么？\nAndroid：基于Ren'Py进行原生移植，无需Windows模拟器。一个APK＋一个统一数据包，首次导入后即可离线游玩四个版本。\nWindows：保留四套原始PC游戏，通过独立制作的古风启动器统一管理。\n剧情：保留原版简繁文本、角色路线、条件分支、好感变化与结局判定。\n素材：解析HAC/HGP资源，转换CG、立绘、音乐、配音及原版视频。\n附加功能：独立存档、中文字体选择、CG画廊、音乐鉴赏、影片回顾及结局收集。\n首次游玩推荐2010版《红楼梦：林黛玉与北静王》。 该版本剧情与演出内容更加丰富，并加入角色配音；2009原典版也完整保留。\n本作不是官方重制版，部分旧引擎演出及原始资源仍存在还原差异。\n\n移植与整合制作： Slpeey\n特别鸣谢： @roodoosiiqiqi  ，感谢其提供原版及新版的原始光盘镜像。\n本项目完全免费，谨防倒卖。\n本项目为非官方、非商业性质的免费移植整合项目。原游戏相关素材的权利归各自权利人所有。\n\n下载链接：\n夸克网盘： https://pan.quark.cn/s/37746abf5a52 \n提取码：GWkE\n百度网盘：https://pan.baidu.com/s/1WAvSIMzXW605QEK3cGmj1A \n提取码：b201 \n解压码：RedHouseDream \n\nlz4文件解压教程：https://www.bilibili.com/video/BV1cN2PBbEDL",
+                  "tags": [
+                    "galgame",
+                    "RenPy",
+                    "视觉小说",
+                    "游戏移植",
+                    "林黛玉与北静王",
+                    "林黛玉",
+                    "国产游戏",
+                    "红楼梦",
+                    "安卓游戏"
+                  ],
+                  "url": "https://www.bilibili.com/video/BV1AaJi6dETU",
+                  "publishedAt": "2026-10-17T11:10:44.000Z",
+                  "likes": 2287,
+                  "collectedAt": "2026-11-01T15:31:14.635Z",
+                  "keyword": "视觉小说",
+                  "workId": "v83",
+                  "matchMethod": "explicit-title"
+                },
+                {
+                  "platform": "bilibili",
+                  "id": "BV1VXsZ6JEuw",
+                  "title": "诡异网站十块钱买到的粘人精“宠物”《MY SWEET PETS》Demo全结局实况",
+                  "description": "https://nonala.itch.io/my-sweet-pets-demo\n游戏：《MY SWEET PETS》\n作者：Nonala\n萌的我要下蛋了，剪视频的时候一直在回味，然后意识到这小肉丸前面该不会是装可爱吧，实则心眼子多了去了。\n对博士的尊重是不是也是装的，装可怜为了让我们留下他，化形成杂志上的明星也是手段，但是，我愿意，嗯嗯！",
+                  "tags": [
+                    "剧情向",
+                    "游戏实况",
+                    "实况解说",
+                    "结局",
+                    "实况",
+                    "itch",
+                    "视觉小说",
+                    "流程实况",
+                    "流程",
+                    "宠物"
+                  ],
+                  "url": "https://www.bilibili.com/video/BV1VXsZ6JEuw",
+                  "publishedAt": "2026-10-29T09:00:00.000Z",
+                  "likes": 1964,
+                  "collectedAt": "2026-11-01T15:31:17.948Z",
+                  "keyword": "视觉小说",
+                  "workId": "v83",
+                  "matchMethod": "explicit-title"
+                }
+              ]
+            },
+            {
+              "workId": "v47172",
+              "maxLikes": 2305,
+              "count": 1,
+              "evidence": [
+                {
+                  "platform": "bilibili",
+                  "id": "BV1nBxF6qEgW",
+                  "title": "盘点柚子社的那些极限救场",
+                  "description": "",
+                  "tags": [
+                    "柚子社",
+                    "三国演义",
+                    "搞笑",
+                    "哀鸿：城破十日记",
+                    "满穗",
+                    "饿殍明末千里行",
+                    "galgame",
+                    "三顾茅庐",
+                    "名场面"
+                  ],
+                  "url": "https://www.bilibili.com/video/BV1nBxF6qEgW",
+                  "publishedAt": "2026-10-29T09:12:50.000Z",
+                  "likes": 2305,
+                  "collectedAt": "2026-11-01T15:32:55.376Z",
+                  "keyword": "galgame名场面",
+                  "workId": "v47172",
+                  "matchMethod": "explicit-title"
+                }
+              ]
+            },
+            {
+              "workId": "v63828",
+              "maxLikes": 1841,
+              "count": 1,
+              "evidence": [
+                {
+                  "platform": "bilibili",
+                  "id": "BV1XKxj6YEbv",
+                  "title": "2026最具争议？神人乐子游戏！富哥男主每条线都脚踏两条船！颜艺社男主还能这么渣？《王様恋愛（国王恋爱）》（不是哥们11）",
+                  "description": "游戏名《王様恋愛》；\nasa有三宝，颜艺傻子与三角。这一作一个不落啊ლ(´ڡ`ლ)；\n有一说一随着主包年龄的衰老，确实是越来越喜欢这种杂耍的杂技后空翻的王国资产的游戏了；\n总的来说游戏调性算是更拔一点的《劈腿之恋》，共通线非常有乐子，个人线相对拉了。",
+                  "tags": [
+                    "泛式",
+                    "游戏杂谈",
+                    "国王恋爱",
+                    "安安玛丽安",
+                    "劈腿之恋",
+                    "旮旯给木",
+                    "借恋",
+                    "颜艺社",
+                    "乐子",
+                    "GAL"
+                  ],
+                  "url": "https://www.bilibili.com/video/BV1XKxj6YEbv",
+                  "publishedAt": "2026-10-28T10:00:00.000Z",
+                  "likes": 1841,
+                  "collectedAt": "2026-11-01T15:29:20.957Z",
+                  "keyword": "gal游戏",
+                  "workId": "v63828",
+                  "matchMethod": "explicit-title"
+                }
+              ]
+            },
+            {
+              "workId": "v18335",
+              "maxLikes": 1613,
+              "count": 1,
+              "evidence": [
+                {
+                  "platform": "bilibili",
+                  "id": "BV1PuHP6uEF4",
+                  "title": "肯恰那！又毒舌又独的女主你见过吗？原本以为是高手，结果一碰就碎了啊，一如她的撒娇方式游戏推荐",
+                  "description": "仅供娱乐",
+                  "tags": [
+                    "戏画",
+                    "GAL",
+                    "安安玛丽安",
+                    "一如她的撒娇方式",
+                    "戏画社",
+                    "galgame"
+                  ],
+                  "url": "https://www.bilibili.com/video/BV1PuHP6uEF4",
+                  "publishedAt": "2026-10-24T08:03:15.000Z",
+                  "likes": 1613,
+                  "collectedAt": "2026-11-01T15:29:13.111Z",
+                  "keyword": "gal游戏",
+                  "workId": "v18335",
+                  "matchMethod": "explicit-title"
+                }
+              ]
+            },
+            {
+              "workId": "v52780",
+              "maxLikes": 1452,
+              "count": 1,
+              "evidence": [
+                {
+                  "platform": "bilibili",
+                  "id": "BV1LNJi65EeT",
+                  "title": "阵容这么豪华还是拉完了？我问你这能怪羊姐吗！？第一次配音的旮旯给木《COCORO》，阵容有多神？",
+                  "description": "游戏名《COCORO》\n这也是我们羊姐第一次作为主役参与尬了给木的制作，有一说一配的还真没啥毛病，属于是舒适区了。难道说臭中杯另有其人。。。。。",
+                  "tags": [
+                    "旮旯给木",
+                    "羊宫妃那",
+                    "Galgame",
+                    "美少女游戏"
+                  ],
+                  "url": "https://www.bilibili.com/video/BV1LNJi65EeT",
+                  "publishedAt": "2026-10-17T12:11:33.000Z",
+                  "likes": 1452,
+                  "collectedAt": "2026-11-01T15:30:37.452Z",
+                  "keyword": "美少女游戏",
+                  "workId": "v52780",
+                  "matchMethod": "explicit-title"
+                }
+              ]
+            },
+            {
+              "workId": "v6589",
+              "maxLikes": 1436,
+              "count": 1,
+              "evidence": [
+                {
+                  "platform": "bilibili",
+                  "id": "BV1egHN64EHb",
+                  "title": "《女装山脉》系列：西田一笔下的微笑系病娇",
+                  "description": "《女装山脉》日枝田史绪——把神使关进房间，三餐准时送达\n 《女装神社》圆藤美代——为了雅人，连神社供着的神都敢杀\n 《绝对妹原理主义》建部绮——她把自己活成情敌",
+                  "tags": [
+                    "建部绮",
+                    "绝对妹原理主义",
+                    "galgame杂谈",
+                    "西田一",
+                    "女装神社",
+                    "史绪",
+                    "美代",
+                    "脑内彼女",
+                    "女装山脉",
+                    "病娇"
+                  ],
+                  "url": "https://www.bilibili.com/video/BV1egHN64EHb",
+                  "publishedAt": "2026-10-24T09:30:00.000Z",
+                  "likes": 1436,
+                  "collectedAt": "2026-11-01T15:29:08.390Z",
+                  "keyword": "galgame",
+                  "workId": "v6589",
+                  "matchMethod": "explicit-title"
+                }
+              ]
+            },
+            {
+              "workId": "v47937",
+              "maxLikes": 1162,
+              "count": 1,
+              "evidence": [
+                {
+                  "platform": "bilibili",
+                  "id": "BV1vnnr6aEfe",
+                  "title": "没有一个人幸福的幸福故事—锐评anemoi真结局",
+                  "description": "玩着真烧心",
+                  "tags": [
+                    "朱比华",
+                    "锐评",
+                    "anemoi",
+                    "key社",
+                    "galgame",
+                    "游戏杂谈",
+                    "二次元",
+                    "galgame推荐",
+                    "视觉小说"
+                  ],
+                  "url": "https://www.bilibili.com/video/BV1vnnr6aEfe",
+                  "publishedAt": "2026-10-21T14:40:24.000Z",
+                  "likes": 1162,
+                  "collectedAt": "2026-11-01T15:31:15.861Z",
+                  "keyword": "视觉小说",
+                  "workId": "v47937",
+                  "matchMethod": "explicit-title"
+                }
+              ]
+            },
+            {
+              "workId": "v66",
+              "maxLikes": 1032,
+              "count": 1,
+              "evidence": [
+                {
+                  "platform": "bilibili",
+                  "id": "BV1K1HK6pEjM",
+                  "title": "我们终其一生，都在寻找母亲吗？| 浅谈《CROSS†CHANNEL》【游戏漫谈】",
+                  "description": "审核大大辛苦了！\n\n好想用那张牛来做封面啊！！\n————————\n弗洛伊德《性学三论》\n《超越快乐原则》\n《梦的解析》\n《自我与本我》",
+                  "tags": [
+                    "杂谈",
+                    "游戏杂谈",
+                    "田中罗密欧",
+                    "文字游戏",
+                    "GAL",
+                    "galgame",
+                    "精神分析",
+                    "视觉小说",
+                    "CROSS CHANNEL"
+                  ],
+                  "url": "https://www.bilibili.com/video/BV1K1HK6pEjM",
+                  "publishedAt": "2026-10-24T10:10:34.000Z",
+                  "likes": 1032,
+                  "collectedAt": "2026-11-01T15:31:31.043Z",
+                  "keyword": "视觉小说",
+                  "workId": "v66",
                   "matchMethod": "explicit-title"
                 }
               ]
@@ -528,16 +960,16 @@
     }
   ],
   "lastAttempt": {
-    "at": "2026-11-01T15:12:25.446Z",
+    "at": "2026-11-01T15:37:43.540Z",
     "periodId": "2026-11-01",
     "platforms": {
       "douyin": {
         "status": "partial",
-        "error": "作品名称补搜未完成，已注明本轮搜索范围。",
-        "collectedAt": "2026-11-01T14:35:02.290Z",
-        "fetched": 446,
-        "qualified": 10,
-        "matched": 7,
+        "error": "抖音采集失败，可能需要有效 Cookie；请检查固定版本依赖与登录状态。",
+        "collectedAt": "2026-11-01T15:20:14.168Z",
+        "fetched": 284,
+        "qualified": 27,
+        "matched": 13,
         "sample": [
           {
             "platform": "douyin",
@@ -553,9 +985,9 @@
             "kind": "video",
             "url": "https://www.douyin.com/video/7697946181153934633",
             "publishedAt": "2026-10-18T10:02:53+00:00",
-            "likes": 72140,
-            "collectedAt": "2026-11-01T14:44:48.397897+00:00",
-            "keyword": "乌有乡",
+            "likes": 72189,
+            "collectedAt": "2026-11-01T15:20:34.648424+00:00",
+            "keyword": "galgame",
             "workId": "v22636",
             "matchMethod": "explicit-title"
           },
@@ -574,9 +1006,9 @@
             "kind": "video",
             "url": "https://www.douyin.com/video/7699131825469892713",
             "publishedAt": "2026-10-21T14:43:39+00:00",
-            "likes": 3871,
-            "collectedAt": "2026-11-01T14:45:53.983306+00:00",
-            "keyword": "天津罪",
+            "likes": 3872,
+            "collectedAt": "2026-11-01T15:22:34.621881+00:00",
+            "keyword": "galgame名场面",
             "workId": "v18852",
             "matchMethod": "explicit-title"
           },
@@ -595,8 +1027,8 @@
             "kind": "video",
             "url": "https://www.douyin.com/video/7700225841325673754",
             "publishedAt": "2026-10-24T13:29:08+00:00",
-            "likes": 8650,
-            "collectedAt": "2026-11-01T14:35:47.729811+00:00",
+            "likes": 8694,
+            "collectedAt": "2026-11-01T15:21:00.567872+00:00",
             "keyword": "gal游戏",
             "workId": "v17",
             "matchMethod": "explicit-title"
@@ -637,9 +1069,9 @@
             "kind": "video",
             "url": "https://www.douyin.com/video/7697494346581013115",
             "publishedAt": "2026-10-17T04:49:23+00:00",
-            "likes": 4265,
-            "collectedAt": "2026-11-01T14:48:28.355019+00:00",
-            "keyword": "千恋＊万花",
+            "likes": 4267,
+            "collectedAt": "2026-11-01T15:27:02.665608+00:00",
+            "keyword": "千恋万花",
             "workId": "v19073",
             "matchMethod": "explicit-title"
           }
@@ -653,31 +1085,24 @@
             "galgame CG",
             "galgame名场面"
           ],
-          "queries": 30,
-          "pages": 71,
+          "queries": 15,
+          "pages": 35,
           "failedQueries": [
             "美少女游戏",
-            "白色相簿2",
-            "命运石之门",
-            "缘之空",
-            "恋爱借贷",
-            "二人终末论",
-            "アマツツミ",
-            "Ever17 -the out of infinity-",
-            "尚有佳蜜伴恋心"
+            "白色相簿2"
           ],
           "maxPagesPerQuery": 3,
-          "candidateCount": 446,
-          "qualifiedCount": 10
+          "candidateCount": 284,
+          "qualifiedCount": 27
         }
       },
       "bilibili": {
         "status": "partial",
         "error": null,
-        "collectedAt": "2026-11-01T14:48:28.435Z",
-        "fetched": 992,
-        "qualified": 57,
-        "matched": 10,
+        "collectedAt": "2026-11-01T15:28:01.114Z",
+        "fetched": 275,
+        "qualified": 140,
+        "matched": 20,
         "sample": [
           {
             "platform": "bilibili",
@@ -698,9 +1123,9 @@
             ],
             "url": "https://www.bilibili.com/video/BV14nnh6QEog",
             "publishedAt": "2026-10-23T11:19:34.000Z",
-            "likes": 5236,
-            "collectedAt": "2026-11-01T15:10:18.736Z",
-            "keyword": "Rain98",
+            "likes": 5237,
+            "collectedAt": "2026-11-01T15:29:13.111Z",
+            "keyword": "gal游戏",
             "workId": "v69315",
             "matchMethod": "explicit-title"
           },
@@ -717,9 +1142,9 @@
             ],
             "url": "https://www.bilibili.com/video/BV121HK6HELU",
             "publishedAt": "2026-10-24T10:09:58.000Z",
-            "likes": 3512,
-            "collectedAt": "2026-11-01T15:11:23.579Z",
-            "keyword": "千恋＊万花",
+            "likes": 3514,
+            "collectedAt": "2026-11-01T15:28:52.830Z",
+            "keyword": "galgame",
             "workId": "v19073",
             "matchMethod": "explicit-title"
           },
@@ -743,8 +1168,8 @@
             "url": "https://www.bilibili.com/video/BV1Jhnb6TEkc",
             "publishedAt": "2026-10-23T10:00:00.000Z",
             "likes": 14555,
-            "collectedAt": "2026-11-01T15:10:17.628Z",
-            "keyword": "Rain98",
+            "collectedAt": "2026-11-01T15:29:59.262Z",
+            "keyword": "美少女游戏",
             "workId": "v69315",
             "matchMethod": "explicit-title"
           },
@@ -765,9 +1190,9 @@
             ],
             "url": "https://www.bilibili.com/video/BV1tLJR6JEFM",
             "publishedAt": "2026-10-20T03:50:00.000Z",
-            "likes": 4746,
-            "collectedAt": "2026-11-01T15:10:18.736Z",
-            "keyword": "Rain98",
+            "likes": 4748,
+            "collectedAt": "2026-11-01T15:31:00.974Z",
+            "keyword": "视觉小说",
             "workId": "v69315",
             "matchMethod": "explicit-title"
           },
@@ -788,9 +1213,9 @@
             ],
             "url": "https://www.bilibili.com/video/BV1gony6vEdF",
             "publishedAt": "2026-10-22T08:00:00.000Z",
-            "likes": 4251,
-            "collectedAt": "2026-11-01T15:11:46.387Z",
-            "keyword": "Mycorrhiza",
+            "likes": 4253,
+            "collectedAt": "2026-11-01T15:31:04.298Z",
+            "keyword": "视觉小说",
             "workId": "v30960",
             "matchMethod": "explicit-title"
           }
@@ -804,20 +1229,14 @@
             "galgame CG",
             "galgame名场面"
           ],
-          "queries": 37,
-          "pages": 72,
+          "queries": 6,
+          "pages": 16,
           "failedQueries": [
-            "galgame名场面",
-            "苍之彼方的四重奏",
-            "恋爱绮谭",
-            "恋爱借贷",
-            "恋爱喜剧突转",
-            "二人终末论",
-            "星之终途"
+            "galgame名场面"
           ],
           "maxPagesPerQuery": 3,
-          "candidateCount": 992,
-          "qualifiedCount": 57
+          "candidateCount": 275,
+          "qualifiedCount": 140
         }
       }
     }
