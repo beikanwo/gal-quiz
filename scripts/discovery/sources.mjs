@@ -21,10 +21,14 @@ export async function fetchJson(url, options = {}) {
           if (!data.transportError) return data;
         } catch { /* Report the actual platform failure after bounded retries. */ }
       }
-      if (!response.ok) throw failure(`上游接口返回 HTTP ${response.status}`);
+      if (!response.ok) {
+        const error = failure(`上游接口返回 HTTP ${response.status}`);
+        error.permanent = response.status >= 400 && response.status < 500 && ![412,429].includes(response.status);
+        throw error;
+      }
       return await response.json();
     } catch (error) {
-      if (attempt === 2) throw error;
+      if (attempt === 2 || error.permanent) throw error;
       await pause(1500 * (attempt + 1));
     }
   }

@@ -12,11 +12,13 @@ if (url.pathname === root.pathname) {
     location.replace(new URL(`quiz/${url.search}${url.hash}`, root));
   }
 }
-for (const detail of document.querySelectorAll('.spoiler-image')) {
-  detail.addEventListener('toggle', () => {
-    if (!detail.open) return;
-    const image = detail.querySelector('[data-spoiler-src]');
-    if (image) { image.src = image.dataset.spoilerSrc; delete image.dataset.spoilerSrc; }
+for (const gallery of document.querySelectorAll('.gallery-group')) {
+  gallery.addEventListener('toggle', () => {
+    if (!gallery.open) return;
+    for (const image of gallery.querySelectorAll('[data-gallery-src]')) {
+      image.src = image.dataset.gallerySrc;
+      delete image.dataset.gallerySrc;
+    }
   });
 }
 document.addEventListener('error', (e) => { if (e.target instanceof HTMLImageElement && e.target.closest('.cover')) e.target.closest('.cover').classList.add('image-missing'); }, true);

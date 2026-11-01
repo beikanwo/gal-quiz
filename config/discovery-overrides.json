@@ -1,6 +1,17 @@
 {
   "aliases": {},
   "evidence": {},
-  "works": {},
+  "works": {
+    "v22636": {
+      "description": "一本记着“地图上没有的村子”的手记，把青年引向了来待村。这里被反常艳红的山林包围，村民正准备二十年一度的祭典，并将他奉为来访神。两名少女负责招待他，而这份盛情背后，是村落代代传承的古老仪式。",
+      "descriptionSource": "https://www.kungal.com/galgame/258",
+      "descriptionSourceName": "据 KUN / Bangumi 介绍整理"
+    },
+    "v30960": {
+      "description": "为了找到回家的路，主人公进入了一个现实逐渐扭曲的世界。让人与动物发生异变的植物、古怪的喜剧风潮、无法离开的建筑，分别构成三个恐怖篇章。作品以漫画式画面与声音，呈现日常秩序慢慢崩坏的过程。",
+      "descriptionSource": "https://www.kungal.com/galgame/30055",
+      "descriptionSourceName": "据 KUN 社区资料整理"
+    }
+  },
   "screenshots": {}
 }

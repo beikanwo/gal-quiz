@@ -160,6 +160,7 @@ export async function run(options = args()) {
   }
   catalog.updatedAt = report.finishedAt;
   await writeJson('data/discovery/catalog.json', catalog);
+  await metadata.community.saveIndex();
   await writeJson('data/discovery/periods.json', index);
   await writeJson('data/discovery/review.json', { version: 1, periodId: period.id, platforms: Object.fromEntries(Object.entries(attempts).map(([p, a]) => [p, { status: a.status, collectedAt: a.collectedAt }])), records: dedupe(Object.values(attempts).flatMap((a) => a.reviewRecords ?? [])), pending: dedupe(report.pending), warnings: report.warnings });
   return report;

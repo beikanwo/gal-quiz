@@ -1,13 +1,14 @@
 import { readJson, writeJson, pause, failure } from './io.mjs';
 import { normalize, publicScreenshot, safeUrl } from './core.mjs';
 import { fetchJson } from './sources.mjs';
+import { Community } from './community.mjs';
 const header = { 'Content-Type': 'application/json', 'User-Agent': 'beikanwo/gal-quiz (https://www.scurra.top)' };
-const summaryFields = 'title,alttitle,titles{lang,title},aliases,released,languages,length_minutes,image{url,sexual,violence},developers{id,name,original}';
+const summaryFields = 'title,alttitle,titles{lang,title},aliases,released,languages,length_minutes,rating,average,votecount,image{url,sexual,violence},developers{id,name,original}';
 const detailFields = `${summaryFields},description,screenshots{id,url,thumbnail,sexual,violence},staff{id,name,original,role,aid},extlinks{url,label}`;
 const plain = (s) => String(s ?? '').replace(/\[spoiler\][\s\S]*?\[\/spoiler\]/gi, '（剧情内容已隐藏）').replace(/\[url=[^\]]*\]([\s\S]*?)\[\/url\]/gi, '$1').replace(/\[\/?[^\]]+\]/g, '').replace(/<[^>]*>/g, '').trim();
 const links = (rows) => (rows ?? []).filter((r) => safeUrl(r.url)).map((r) => ({ url: safeUrl(r.url), label: r.label ?? r.name ?? new URL(r.url).hostname }));
 export class Metadata {
-  constructor(catalog, overrides = {}) { this.catalog = catalog; this.overrides = overrides; this.lastRequest = 0; this.fetched = new Set(); this.now = new Date().toISOString(); this.searchCache = new Map(); this.unknownQueryLimit = 60; }
+  constructor(catalog, overrides = {}) { this.catalog = catalog; this.overrides = overrides; this.lastRequest = 0; this.fetched = new Set(); this.now = new Date().toISOString(); this.searchCache = new Map(); this.unknownQueryLimit = 60; this.community = new Community(); }
   async query(endpoint, filters, fields, page = 1) {
     await pause(Math.max(0, this.lastRequest + 1700 - Date.now()));
     this.lastRequest = Date.now();
@@ -29,9 +30,12 @@ export class Metadata {
     const override = this.overrides.works?.[row.id] ?? {};
     const record = { ...previous, id: row.id, title, original: row.alttitle ?? row.title, aliases: [...new Set([row.title, ...titles.map((t) => t.title), ...(row.aliases ?? [])].filter(Boolean))], released: row.released, languages: row.languages ?? [], minutes: row.length_minutes, image: row.image?.sexual === 0 && row.image?.violence === 0 ? safeUrl(row.image.url) : null, developers: (row.developers ?? []).map((p) => ({ id: p.id, name: p.original ?? p.name })), source: `https://vndb.org/${row.id}`, updatedAt: this.now, detailComplete: detailed || previous?.detailComplete || false };
     if (detailed) {
-      record.description = plain(row.description);
-      record.descriptionLanguage = '原文';
-      record.descriptionSource = record.source;
+      record.originalDescription = plain(row.description);
+      if (previous?.descriptionLanguage !== '中文') {
+        record.description = plain(row.description);
+        record.descriptionLanguage = '原文';
+        record.descriptionSource = record.source;
+      }
       record.staff = (row.staff ?? []).filter((s) => ['scenario', 'art'].includes(s.role)).map((s) => ({ id: s.id, name: s.original ?? s.name, role: s.role, aliasId: s.aid }));
       record.screenshots = (row.screenshots ?? []).map((image) => publicScreenshot(image, this.overrides.screenshots?.[image.id])).filter(Boolean).slice(0, 6);
       record.links = links(row.extlinks);
@@ -40,6 +44,10 @@ export class Metadata {
     if (override.description && safeUrl(override.descriptionSource)) Object.assign(record, { description: plain(override.description), descriptionLanguage: '中文', descriptionSource: safeUrl(override.descriptionSource) });
     if (override.title) record.title = override.title;
     this.catalog.works[row.id] = record;
+    if (row.rating != null && row.votecount > 0) {
+      record.ratings ??= {};
+      record.ratings.vndb = {score:row.rating / 10,scale:10,votes:row.votecount,metric:'贝叶斯评分',via:'原站',url:record.source,fetchedAt:this.now};
+    }
     return record;
   }
   async enrichWork(id) {
@@ -57,6 +65,8 @@ export class Metadata {
         if (bgm.type === 4 && bgm.summary) Object.assign(work, { description: plain(bgm.summary), descriptionLanguage: '中文', descriptionSource: `https://bgm.tv/subject/${bgmId}` });
       } catch { /* Keep attributed VNDB original if Chinese metadata is unavailable. */ }
     }
+    try { await this.community.enrich(work); } catch { /* Keep the existing attributed metadata if a community is unavailable. */ }
+    if (this.overrides.works?.[id]?.description) Object.assign(work, {description:this.overrides.works[id].description,descriptionLanguage:'中文',descriptionSource:this.overrides.works[id].descriptionSource,descriptionSourceName:this.overrides.works[id].descriptionSourceName??'中文资料整理',descriptionEdited:true,descriptionMachine:false});
     return work;
   }
   async enrichPeople(work) {
