@@ -26,6 +26,7 @@ jobs:
     timeout-minutes: 55
     outputs:
       publish: ${{ steps.save.outputs.publish }}
+      commit: ${{ steps.save.outputs.commit }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -97,6 +98,7 @@ jobs:
             git push
           fi
           echo 'publish=true' >> "$GITHUB_OUTPUT"
+          echo "commit=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
       - uses: actions/upload-artifact@v4
         if: always() && steps.due.outputs.due == 'true'
         with:
@@ -113,3 +115,5 @@ jobs:
     needs: collect
     if: needs.collect.outputs.publish == 'true' && github.ref == 'refs/heads/main'
     uses: ./.github/workflows/pages.yml
+    with:
+      ref: ${{ needs.collect.outputs.commit }}

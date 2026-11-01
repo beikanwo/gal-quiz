@@ -4,8 +4,15 @@
   "intervalDays": 15,
   "minLikes": 3000,
   "anchorDate": null,
-  "scheduleEnabled": false,
-  "keywords": ["galgame", "gal游戏", "美少女游戏", "视觉小说", "galgame CG", "galgame名场面"],
+  "scheduleEnabled": true,
+  "keywords": [
+    "galgame",
+    "gal游戏",
+    "美少女游戏",
+    "视觉小说",
+    "galgame CG",
+    "galgame名场面"
+  ],
   "pagesPerKeyword": 3,
   "maxExpansionWorks": 20,
   "maxUnknownTitleQueries": 60,
