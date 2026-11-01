@@ -348,13 +348,13 @@
     }
   ],
   "lastAttempt": {
-    "at": "2026-11-01T14:00:25.419Z",
+    "at": "2026-11-01T14:08:40.956Z",
     "periodId": "2026-11-01",
     "platforms": {
       "douyin": {
         "status": "partial",
         "error": "本期仅完成部分搜索，以下只展示已经核实的片段。",
-        "collectedAt": "2026-11-01T13:57:26.561Z",
+        "collectedAt": "2026-11-01T14:08:15.970Z",
         "fetched": 7,
         "qualified": 7,
         "matched": 4,
@@ -463,7 +463,7 @@
       "bilibili": {
         "status": "partial",
         "error": "本期仅完成部分搜索，以下只展示已经核实的片段。",
-        "collectedAt": "2026-11-01T13:58:28.896Z",
+        "collectedAt": "2026-11-01T14:08:29.617Z",
         "fetched": 57,
         "qualified": 57,
         "matched": 6,
