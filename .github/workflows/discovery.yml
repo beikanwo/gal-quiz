@@ -46,6 +46,7 @@ jobs:
         if: steps.due.outputs.due == 'true' && inputs.mode != 'review'
         with:
           version: '0.9.7'
+          enable-cache: false
       - name: Install pinned DouK collector
         if: steps.due.outputs.due == 'true' && inputs.mode != 'review'
         id: douk

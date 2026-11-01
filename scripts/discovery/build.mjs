@@ -70,7 +70,7 @@ for (const p of index.periods) {
 }
 for (const w of Object.values(catalog.works)) {
   if (!validId(w.id)) throw new Error('无效作品ID');
-  const groups = index.periods.flatMap((period) => PLATFORMS.flatMap((platform) => (period.platforms[platform]?.ranking ?? []).filter((r) => r.workId === w.id).map((r) => ({ ...r, platform, period }))));
+  const groups = [...new Map(index.periods.flatMap((period) => PLATFORMS.flatMap((platform) => (period.platforms[platform]?.ranking ?? []).filter((r) => r.workId === w.id).map((r) => ({ ...r, platform, period: { ...period, id: period.platforms[platform].periodId ?? period.id } })))).map((g) => [`${g.platform}:${g.period.id}`, g])).values()];
   const knownRelations = Object.values(catalog.staff).flatMap((person) => (person.works ?? []).filter((entry) => entry.id === w.id).flatMap((entry) => (entry.roles ?? []).filter((role) => ['scenario', 'art'].includes(role)).map((role) => ({ id: person.id, name: person.name, role }))));
   const credits = [...new Map([...(w.staff ?? []), ...knownRelations].map((s) => [`${s.id}:${s.role}`, s])).values()];
   const description = w.description ? `<p class="body-copy">${intro(w.description)}</p><p class="attribution">${esc(w.descriptionLanguage ?? '原文')}介绍 · ${sourceLink(w.descriptionSource ?? w.source)}</p>` : '<p class="muted">介绍仍待补充，可先查看原始作品资料。</p>';

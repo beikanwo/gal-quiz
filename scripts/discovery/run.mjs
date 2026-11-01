@@ -28,6 +28,16 @@ export async function run(options = args()) {
   const seeds = await seedAliases(catalog, overrides);
   const canonical = new Map();
   for (const w of await readJson('site/data/vns.json', [])) for (const alt of w.altIds ?? []) canonical.set(alt, w.id);
+  const matchingWorks = () => {
+    const rows = { ...seeds, ...catalog.works };
+    for (const [alt, primary] of canonical) if (rows[alt]) {
+      const variant = rows[alt];
+      const main = rows[primary] ?? { id: primary, title: variant.title };
+      rows[primary] = { ...main, aliases: [...new Set([...(main.aliases ?? []), variant.title, variant.original, ...(variant.aliases ?? [])].filter(Boolean))] };
+      delete rows[alt];
+    }
+    return rows;
+  };
   const report = { version: 1, period, startedAt: now, platforms: {}, pending: [], warnings: [] };
   const attempts = {};
   const selected = options.platform ? [options.platform] : PLATFORMS;
@@ -46,7 +56,7 @@ export async function run(options = args()) {
     }
     const source = platform === 'bilibili' ? new BilibiliSource() : new DouyinSource();
     const collectedAt = new Date().toISOString();
-    let records = [];
+    let records = !saved && priorReview.periodId === period.id ? priorReview.records.filter((r) => r.platform === platform) : [];
     let queries = 0;
     let pages = 0;
     let status = 'success';
@@ -78,11 +88,11 @@ export async function run(options = args()) {
     const qualified = dedupe(records).filter((r) => qualifies(r, period, config.minLikes) && canonicalEvidenceUrl(r.platform, r.id, r.kind) === r.url);
     const matched = [];
     for (const record of qualified) {
-      let decision = matchWork(record, { ...seeds, ...catalog.works }, overrides);
+      let decision = matchWork(record, matchingWorks(), overrides);
       try {
-        if (decision.status === 'pending' && !decision.candidates?.length) {
+        if (!saved && decision.status === 'pending' && !decision.candidates?.length) {
           await metadata.resolveUnknown(record);
-          decision = matchWork(record, { ...seeds, ...catalog.works }, overrides);
+          decision = matchWork(record, matchingWorks(), overrides);
         }
         if (decision.status === 'matched') {
           decision.workId = canonical.get(decision.workId) ?? decision.workId;
@@ -104,7 +114,7 @@ export async function run(options = args()) {
             const batch = await source.search(name, config.pagesPerKeyword, period); queries++; pages += batch.pages;
             for (const record of batch.records.filter((r) => qualifies(r, period, config.minLikes))) {
               records.push(record);
-              const decision = matchWork(record, { ...seeds, ...catalog.works }, overrides);
+              const decision = matchWork(record, matchingWorks(), overrides);
               if (decision.status === 'matched' && (canonical.get(decision.workId) ?? decision.workId) === id) matched.push({ ...record, workId: id, matchMethod: decision.method });
               else if (decision.status === 'pending') report.pending.push({ ...record, reason: decision.reason, candidates: decision.candidates ?? [] });
             }

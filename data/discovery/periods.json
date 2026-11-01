@@ -1,19 +1,448 @@
 {
   "version": 1,
-  "anchorDate": null,
-  "periods": [],
+  "anchorDate": "2026-11-01",
+  "periods": [
+    {
+      "id": "2026-11-01",
+      "start": "2026-10-16T16:00:00.000Z",
+      "end": "2026-10-31T16:00:00.000Z",
+      "endDate": "2026-11-01",
+      "minLikes": 3000,
+      "platforms": {
+        "douyin": {
+          "status": "partial",
+          "periodId": "2026-11-01",
+          "start": "2026-10-16T16:00:00.000Z",
+          "end": "2026-10-31T16:00:00.000Z",
+          "minLikes": 3000,
+          "collectedAt": "2026-11-01T13:43:17.105Z",
+          "lastSuccessAt": null,
+          "error": "本期仅完成部分搜索，以下只展示已经核实的片段。",
+          "coverage": {
+            "keywords": [
+              "galgame",
+              "gal游戏",
+              "美少女游戏",
+              "视觉小说",
+              "galgame CG",
+              "galgame名场面"
+            ],
+            "queries": 2,
+            "pages": 6,
+            "failedQueries": [],
+            "maxPagesPerQuery": 3,
+            "candidateCount": 7,
+            "qualifiedCount": 7
+          },
+          "ranking": [
+            {
+              "workId": "v22636",
+              "maxLikes": 71979,
+              "count": 1,
+              "evidence": [
+                {
+                  "platform": "douyin",
+                  "id": "7697946181153934633",
+                  "title": "Gal暗黑桃花源，一口气讲完乌有乡全剧情 #乌有乡 #galgame #单机游戏 #猎奇",
+                  "description": "",
+                  "tags": [
+                    "乌有乡",
+                    "galgame",
+                    "单机游戏",
+                    "猎奇"
+                  ],
+                  "kind": "video",
+                  "url": "https://www.douyin.com/video/7697946181153934633",
+                  "publishedAt": "2026-10-18T10:02:53+00:00",
+                  "likes": 71979,
+                  "collectedAt": "2026-11-01T13:40:36.954003+00:00",
+                  "keyword": "galgame",
+                  "workId": "v22636",
+                  "matchMethod": "explicit-title"
+                }
+              ]
+            },
+            {
+              "workId": "v17",
+              "maxLikes": 8608,
+              "count": 1,
+              "evidence": [
+                {
+                  "platform": "douyin",
+                  "id": "7700225841325673754",
+                  "title": "科幻悬疑神作Ever17，现在到底值不值得玩？ #galgame #二次元 #悬疑 #ever17 #推荐",
+                  "description": "",
+                  "tags": [
+                    "galgame",
+                    "二次元",
+                    "悬疑",
+                    "ever17",
+                    "推荐"
+                  ],
+                  "kind": "video",
+                  "url": "https://www.douyin.com/video/7700225841325673754",
+                  "publishedAt": "2026-10-24T13:29:08+00:00",
+                  "likes": 8608,
+                  "collectedAt": "2026-11-01T13:41:01.888312+00:00",
+                  "keyword": "gal游戏",
+                  "workId": "v17",
+                  "matchMethod": "explicit-title"
+                }
+              ]
+            },
+            {
+              "workId": "v21903",
+              "maxLikes": 7437,
+              "count": 1,
+              "evidence": [
+                {
+                  "platform": "douyin",
+                  "id": "7697576956288945314",
+                  "title": "gal推荐《尚有佳蜜伴恋心》 #galgame #galgame推荐 #游戏推荐 #萝莉 #尚有佳蜜伴恋心",
+                  "description": "",
+                  "tags": [
+                    "galgame",
+                    "galgame推荐",
+                    "游戏推荐",
+                    "萝莉",
+                    "尚有佳蜜伴恋心"
+                  ],
+                  "kind": "video",
+                  "url": "https://www.douyin.com/video/7697576956288945314",
+                  "publishedAt": "2026-10-17T10:09:58+00:00",
+                  "likes": 7437,
+                  "collectedAt": "2026-11-01T13:41:01.888349+00:00",
+                  "keyword": "gal游戏",
+                  "workId": "v21903",
+                  "matchMethod": "explicit-title"
+                }
+              ]
+            },
+            {
+              "workId": "v18852",
+              "maxLikes": 3867,
+              "count": 1,
+              "evidence": [
+                {
+                  "platform": "douyin",
+                  "id": "7699131825469892713",
+                  "title": "有争议不代表剧情缺陷，而是引起了玩家共鸣 #galgame #紫社 #视觉小说 #杂谈 #天津罪",
+                  "description": "",
+                  "tags": [
+                    "galgame",
+                    "紫社",
+                    "视觉小说",
+                    "杂谈",
+                    "天津罪"
+                  ],
+                  "kind": "video",
+                  "url": "https://www.douyin.com/video/7699131825469892713",
+                  "publishedAt": "2026-10-21T14:43:39+00:00",
+                  "likes": 3867,
+                  "collectedAt": "2026-11-01T13:41:01.888300+00:00",
+                  "keyword": "gal游戏",
+                  "workId": "v18852",
+                  "matchMethod": "explicit-title"
+                }
+              ]
+            }
+          ]
+        },
+        "bilibili": {
+          "status": "partial",
+          "periodId": "2026-11-01",
+          "start": "2026-10-16T16:00:00.000Z",
+          "end": "2026-10-31T16:00:00.000Z",
+          "minLikes": 3000,
+          "collectedAt": "2026-11-01T13:49:58.250Z",
+          "lastSuccessAt": null,
+          "error": "本期仅完成部分搜索，以下只展示已经核实的片段。",
+          "coverage": {
+            "keywords": [
+              "galgame",
+              "gal游戏",
+              "美少女游戏",
+              "视觉小说",
+              "galgame CG",
+              "galgame名场面"
+            ],
+            "queries": 5,
+            "pages": 15,
+            "failedQueries": [],
+            "maxPagesPerQuery": 3,
+            "candidateCount": 57,
+            "qualifiedCount": 57
+          },
+          "ranking": [
+            {
+              "workId": "v69315",
+              "maxLikes": 14553,
+              "count": 3,
+              "evidence": [
+                {
+                  "platform": "bilibili",
+                  "id": "BV1Jhnb6TEkc",
+                  "title": "回到1998和美少女毁灭世界？！《Rain98》究竟讲了什么故事？",
+                  "description": "《Rain98》\n爆肝 7000字\n24分钟一口气带你看完全剧情\n爆肝不易跪求三连!~",
+                  "tags": [
+                    "雨原玲奈",
+                    "游戏杂谈",
+                    "单机游戏",
+                    "美少女",
+                    "Rain98",
+                    "steam",
+                    "推荐宝藏游戏",
+                    "Lo-Fi",
+                    "文字冒险游戏",
+                    "游戏剧情"
+                  ],
+                  "url": "https://www.bilibili.com/video/BV1Jhnb6TEkc",
+                  "publishedAt": "2026-10-23T10:00:00.000Z",
+                  "likes": 14553,
+                  "collectedAt": "2026-11-01T13:45:16.995Z",
+                  "keyword": "美少女游戏",
+                  "workId": "v69315",
+                  "matchMethod": "explicit-title"
+                },
+                {
+                  "platform": "bilibili",
+                  "id": "BV14nnh6QEog",
+                  "title": "taffy要摸脚🦶",
+                  "description": "-",
+                  "tags": [
+                    "游戏实况",
+                    "雨原玲奈",
+                    "剧情",
+                    "世界末日",
+                    "rain98",
+                    "永雏塔菲",
+                    "Lo-fi",
+                    "demo",
+                    "steam",
+                    "galgame"
+                  ],
+                  "url": "https://www.bilibili.com/video/BV14nnh6QEog",
+                  "publishedAt": "2026-10-23T11:19:34.000Z",
+                  "likes": 5230,
+                  "collectedAt": "2026-11-01T13:44:29.959Z",
+                  "keyword": "gal游戏",
+                  "workId": "v69315",
+                  "matchMethod": "explicit-title"
+                },
+                {
+                  "platform": "bilibili",
+                  "id": "BV1tLJR6JEFM",
+                  "title": "史上最惊悚浪漫的灭世仪式！与诡异少女的同居生活《Rain98》",
+                  "description": "相关游戏：《Rain98》",
+                  "tags": [
+                    "游戏杂谈",
+                    "独立游戏",
+                    "steam",
+                    "单机游戏",
+                    "rain98",
+                    "推荐宝藏游戏",
+                    "游戏鉴赏家",
+                    "视觉小说"
+                  ],
+                  "url": "https://www.bilibili.com/video/BV1tLJR6JEFM",
+                  "publishedAt": "2026-10-20T03:50:00.000Z",
+                  "likes": 4746,
+                  "collectedAt": "2026-11-01T13:46:20.065Z",
+                  "keyword": "视觉小说",
+                  "workId": "v69315",
+                  "matchMethod": "explicit-title"
+                }
+              ]
+            },
+            {
+              "workId": "v30960",
+              "maxLikes": 4245,
+              "count": 1,
+              "evidence": [
+                {
+                  "platform": "bilibili",
+                  "id": "BV1gony6vEdF",
+                  "title": "一种奇特的诡异植物席卷小镇，吃下植物果实的人类和动物都会变成扭曲的怪物！——【Mycorrhiza:Pet】",
+                  "description": "这款游戏一共有三个故事，每一个故事都可以当做一个独立的小故事来看，不过故事中隐藏的细节可以串联在一起，总的来说我真的非常喜欢这款恐怖漫画风的视觉小说，但不知道大家是否喜欢所以先做一期试试水，如果大家也喜欢这款游戏就多多点赞支持一下，视频数据不错的话后续我也会安排下一章的内容~\n如果你喜欢这期视频别忘记一键三连+关注哦~\n游戏名：【Mycorrhiza】\n平台：Steam",
+                  "tags": [
+                    "游戏解说",
+                    "诡异",
+                    "恐怖游戏",
+                    "游戏视频",
+                    "恐怖",
+                    "猎奇",
+                    "视觉小说",
+                    "剧情解说"
+                  ],
+                  "url": "https://www.bilibili.com/video/BV1gony6vEdF",
+                  "publishedAt": "2026-10-22T08:00:00.000Z",
+                  "likes": 4245,
+                  "collectedAt": "2026-11-01T13:46:23.434Z",
+                  "keyword": "视觉小说",
+                  "workId": "v30960",
+                  "matchMethod": "explicit-title"
+                }
+              ]
+            },
+            {
+              "workId": "v19073",
+              "maxLikes": 3503,
+              "count": 1,
+              "evidence": [
+                {
+                  "platform": "bilibili",
+                  "id": "BV121HK6HELU",
+                  "title": "长难句合集",
+                  "description": "",
+                  "tags": [
+                    "galgame",
+                    "千恋万花",
+                    "长难句",
+                    "柚子社"
+                  ],
+                  "url": "https://www.bilibili.com/video/BV121HK6HELU",
+                  "publishedAt": "2026-10-24T10:09:58.000Z",
+                  "likes": 3503,
+                  "collectedAt": "2026-11-01T13:44:09.181Z",
+                  "keyword": "galgame",
+                  "workId": "v19073",
+                  "matchMethod": "explicit-title"
+                }
+              ]
+            },
+            {
+              "workId": "v65742",
+              "maxLikes": 3354,
+              "count": 1,
+              "evidence": [
+                {
+                  "platform": "bilibili",
+                  "id": "BV1HRxg6iEnx",
+                  "title": "挚友就得念作妻子啊~友谊变质的校园日常！【恋爱喜剧突转】男主-阳木大和线【配音实况】",
+                  "description": "☆游戏:ラブコメスイッチ/恋爱喜剧突转\nhttps://novelgame.jp/games/show/14081\n☆汉化:晓柯同文馆www.kyoka.cn\n☆片头曲:Naomile–僕は君に恋をする\n\n..-. --- .-. . ...- . .-. \n\n「你俩要好好的啊！就这样玩出了淡淡的幸福感……」",
+                  "tags": [
+                    "独立游戏",
+                    "整点电子榨菜",
+                    "游戏鉴赏家",
+                    "视觉小说",
+                    "游戏实况",
+                    "实况解说",
+                    "纯爱",
+                    "娱乐",
+                    "搞笑",
+                    "恐怖"
+                  ],
+                  "url": "https://www.bilibili.com/video/BV1HRxg6iEnx",
+                  "publishedAt": "2026-10-30T09:30:00.000Z",
+                  "likes": 3354,
+                  "collectedAt": "2026-11-01T13:46:28.898Z",
+                  "keyword": "视觉小说",
+                  "workId": "v65742",
+                  "matchMethod": "explicit-title"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
   "lastAttempt": {
-    "at": "2026-11-01T13:34:39.637Z",
+    "at": "2026-11-01T14:00:25.419Z",
     "periodId": "2026-11-01",
     "platforms": {
       "douyin": {
-        "status": "failed",
-        "error": "抖音未返回可验证的搜索结果，请更新 Cookie 或检查平台限制。",
-        "collectedAt": "2026-11-01T13:22:33.765Z",
-        "fetched": 0,
-        "qualified": 0,
-        "matched": 0,
-        "sample": [],
+        "status": "partial",
+        "error": "本期仅完成部分搜索，以下只展示已经核实的片段。",
+        "collectedAt": "2026-11-01T13:57:26.561Z",
+        "fetched": 7,
+        "qualified": 7,
+        "matched": 4,
+        "sample": [
+          {
+            "platform": "douyin",
+            "id": "7697946181153934633",
+            "title": "Gal暗黑桃花源，一口气讲完乌有乡全剧情 #乌有乡 #galgame #单机游戏 #猎奇",
+            "description": "",
+            "tags": [
+              "乌有乡",
+              "galgame",
+              "单机游戏",
+              "猎奇"
+            ],
+            "kind": "video",
+            "url": "https://www.douyin.com/video/7697946181153934633",
+            "publishedAt": "2026-10-18T10:02:53+00:00",
+            "likes": 71979,
+            "collectedAt": "2026-11-01T13:40:36.954003+00:00",
+            "keyword": "galgame",
+            "workId": "v22636",
+            "matchMethod": "explicit-title"
+          },
+          {
+            "platform": "douyin",
+            "id": "7699131825469892713",
+            "title": "有争议不代表剧情缺陷，而是引起了玩家共鸣 #galgame #紫社 #视觉小说 #杂谈 #天津罪",
+            "description": "",
+            "tags": [
+              "galgame",
+              "紫社",
+              "视觉小说",
+              "杂谈",
+              "天津罪"
+            ],
+            "kind": "video",
+            "url": "https://www.douyin.com/video/7699131825469892713",
+            "publishedAt": "2026-10-21T14:43:39+00:00",
+            "likes": 3867,
+            "collectedAt": "2026-11-01T13:41:01.888300+00:00",
+            "keyword": "gal游戏",
+            "workId": "v18852",
+            "matchMethod": "explicit-title"
+          },
+          {
+            "platform": "douyin",
+            "id": "7700225841325673754",
+            "title": "科幻悬疑神作Ever17，现在到底值不值得玩？ #galgame #二次元 #悬疑 #ever17 #推荐",
+            "description": "",
+            "tags": [
+              "galgame",
+              "二次元",
+              "悬疑",
+              "ever17",
+              "推荐"
+            ],
+            "kind": "video",
+            "url": "https://www.douyin.com/video/7700225841325673754",
+            "publishedAt": "2026-10-24T13:29:08+00:00",
+            "likes": 8608,
+            "collectedAt": "2026-11-01T13:41:01.888312+00:00",
+            "keyword": "gal游戏",
+            "workId": "v17",
+            "matchMethod": "explicit-title"
+          },
+          {
+            "platform": "douyin",
+            "id": "7697576956288945314",
+            "title": "gal推荐《尚有佳蜜伴恋心》 #galgame #galgame推荐 #游戏推荐 #萝莉 #尚有佳蜜伴恋心",
+            "description": "",
+            "tags": [
+              "galgame",
+              "galgame推荐",
+              "游戏推荐",
+              "萝莉",
+              "尚有佳蜜伴恋心"
+            ],
+            "kind": "video",
+            "url": "https://www.douyin.com/video/7697576956288945314",
+            "publishedAt": "2026-10-17T10:09:58+00:00",
+            "likes": 7437,
+            "collectedAt": "2026-11-01T13:41:01.888349+00:00",
+            "keyword": "gal游戏",
+            "workId": "v21903",
+            "matchMethod": "explicit-title"
+          }
+        ],
         "coverage": {
           "keywords": [
             "galgame",
@@ -23,20 +452,21 @@
             "galgame CG",
             "galgame名场面"
           ],
-          "queries": 0,
-          "pages": 0,
+          "queries": 2,
+          "pages": 6,
+          "failedQueries": [],
           "maxPagesPerQuery": 3,
-          "candidateCount": 0,
-          "qualifiedCount": 0
+          "candidateCount": 7,
+          "qualifiedCount": 7
         }
       },
       "bilibili": {
-        "status": "failed",
-        "error": "B站搜索被限制或返回格式已变化。",
-        "collectedAt": "2026-11-01T13:22:39.171Z",
-        "fetched": 249,
+        "status": "partial",
+        "error": "本期仅完成部分搜索，以下只展示已经核实的片段。",
+        "collectedAt": "2026-11-01T13:58:28.896Z",
+        "fetched": 57,
         "qualified": 57,
-        "matched": 7,
+        "matched": 6,
         "sample": [
           {
             "platform": "bilibili",
@@ -57,8 +487,8 @@
             ],
             "url": "https://www.bilibili.com/video/BV14nnh6QEog",
             "publishedAt": "2026-10-23T11:19:34.000Z",
-            "likes": 5228,
-            "collectedAt": "2026-11-01T13:23:51.260Z",
+            "likes": 5230,
+            "collectedAt": "2026-11-01T13:44:29.959Z",
             "keyword": "gal游戏",
             "workId": "v69315",
             "matchMethod": "explicit-title"
@@ -76,32 +506,10 @@
             ],
             "url": "https://www.bilibili.com/video/BV121HK6HELU",
             "publishedAt": "2026-10-24T10:09:58.000Z",
-            "likes": 3500,
-            "collectedAt": "2026-11-01T13:23:30.825Z",
+            "likes": 3503,
+            "collectedAt": "2026-11-01T13:44:09.181Z",
             "keyword": "galgame",
             "workId": "v19073",
-            "matchMethod": "explicit-title"
-          },
-          {
-            "platform": "bilibili",
-            "id": "BV1bVJe6cEaW",
-            "title": "人类最绝望的未来！神作《Muv-Luv》的世界究竟有多可怕？【游戏Muv-Luv系列世界观设定与剧情解说】",
-            "description": "小UP技术力有限，视频如有错漏还望纠错与海涵，\n这是一期入坑向的解说视频，如果能给我一个三连的话我会十分感激( ੭ ˙ᗜ˙ )੭",
-            "tags": [
-              "muvluv",
-              "steam游戏",
-              "游戏解说",
-              "恐怖游戏",
-              "单机游戏",
-              "GAL",
-              "科幻"
-            ],
-            "url": "https://www.bilibili.com/video/BV1bVJe6cEaW",
-            "publishedAt": "2026-10-17T10:00:00.000Z",
-            "likes": 7172,
-            "collectedAt": "2026-11-01T13:23:51.260Z",
-            "keyword": "gal游戏",
-            "workId": "v93",
             "matchMethod": "explicit-title"
           },
           {
@@ -124,7 +532,7 @@
             "url": "https://www.bilibili.com/video/BV1Jhnb6TEkc",
             "publishedAt": "2026-10-23T10:00:00.000Z",
             "likes": 14553,
-            "collectedAt": "2026-11-01T13:24:38.268Z",
+            "collectedAt": "2026-11-01T13:45:16.995Z",
             "keyword": "美少女游戏",
             "workId": "v69315",
             "matchMethod": "explicit-title"
@@ -147,9 +555,32 @@
             "url": "https://www.bilibili.com/video/BV1tLJR6JEFM",
             "publishedAt": "2026-10-20T03:50:00.000Z",
             "likes": 4746,
-            "collectedAt": "2026-11-01T13:25:40.628Z",
+            "collectedAt": "2026-11-01T13:46:20.065Z",
             "keyword": "视觉小说",
             "workId": "v69315",
+            "matchMethod": "explicit-title"
+          },
+          {
+            "platform": "bilibili",
+            "id": "BV1gony6vEdF",
+            "title": "一种奇特的诡异植物席卷小镇，吃下植物果实的人类和动物都会变成扭曲的怪物！——【Mycorrhiza:Pet】",
+            "description": "这款游戏一共有三个故事，每一个故事都可以当做一个独立的小故事来看，不过故事中隐藏的细节可以串联在一起，总的来说我真的非常喜欢这款恐怖漫画风的视觉小说，但不知道大家是否喜欢所以先做一期试试水，如果大家也喜欢这款游戏就多多点赞支持一下，视频数据不错的话后续我也会安排下一章的内容~\n如果你喜欢这期视频别忘记一键三连+关注哦~\n游戏名：【Mycorrhiza】\n平台：Steam",
+            "tags": [
+              "游戏解说",
+              "诡异",
+              "恐怖游戏",
+              "游戏视频",
+              "恐怖",
+              "猎奇",
+              "视觉小说",
+              "剧情解说"
+            ],
+            "url": "https://www.bilibili.com/video/BV1gony6vEdF",
+            "publishedAt": "2026-10-22T08:00:00.000Z",
+            "likes": 4245,
+            "collectedAt": "2026-11-01T13:46:23.434Z",
+            "keyword": "视觉小说",
+            "workId": "v30960",
             "matchMethod": "explicit-title"
           }
         ],
@@ -164,8 +595,9 @@
           ],
           "queries": 5,
           "pages": 15,
+          "failedQueries": [],
           "maxPagesPerQuery": 3,
-          "candidateCount": 249,
+          "candidateCount": 57,
           "qualifiedCount": 57
         }
       }
