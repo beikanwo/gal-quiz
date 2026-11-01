@@ -80,6 +80,7 @@ export async function run(options = args()) {
           try {
             const batch = await source.search(keyword, options.probe ? 1 : config.pagesPerKeyword, period);
             records.push(...batch.records); queries++; pages += batch.pages;
+            if (batch.partial) failedQueries.push(keyword);
           } catch (e) { failedQueries.push(keyword); error = publicError(e); }
         }
         if (failedQueries.length) status = queries ? 'partial' : 'failed';
@@ -87,7 +88,7 @@ export async function run(options = args()) {
     } catch (e) { status = 'failed'; error = publicError(e); }
     const qualified = dedupe(records).filter((r) => qualifies(r, period, config.minLikes) && canonicalEvidenceUrl(r.platform, r.id, r.kind) === r.url);
     const matched = [];
-    for (const record of qualified) {
+    const identify = async (record) => {
       let decision = matchWork(record, matchingWorks(), overrides);
       try {
         if (!saved && decision.status === 'pending' && !decision.candidates?.length) {
@@ -104,10 +105,24 @@ export async function run(options = args()) {
           matched.push({ ...record, workId: decision.workId, matchMethod: decision.method });
         } else if (decision.status === 'pending') report.pending.push({ ...record, reason: decision.reason, candidates: decision.candidates ?? [] });
       } catch { report.pending.push({ ...record, reason: '作品资料查询失败，需要重试或人工补充', candidates: decision.workId ? [decision.workId] : [] }); }
+    };
+    for (const record of qualified) await identify(record);
+    if (!options.probe && !saved && status !== 'failed') {
+      for (const keyword of config.discoveryQueries ?? []) {
+        if (new Set(matched.map((r) => r.workId)).size >= (config.targetWorksPerPlatform ?? 10)) break;
+        try {
+          console.log(`${platform}：补足作品搜索 ${keyword}`);
+          const batch = await source.search(keyword, config.targetSearchPages ?? 2, period);
+          queries++; pages += batch.pages; records.push(...batch.records);
+          if (batch.partial) { status = 'partial'; failedQueries.push(keyword); }
+          for (const record of dedupe(batch.records).filter((r) => qualifies(r, period, config.minLikes))) await identify(record);
+        } catch { status = 'partial'; failedQueries.push(keyword); }
+      }
     }
     // Supplement topic discovery with exact names of explicitly identified games.
     if (!options.probe && !saved && status !== 'failed') {
       for (const id of [...new Set(matched.map((r) => r.workId))].slice(0, config.maxExpansionWorks)) {
+        if (new Set(matched.map((r) => r.workId)).size >= (config.targetWorksPerPlatform ?? 10)) break;
         const names = [...new Set([catalog.works[id].title, catalog.works[id].original])].filter(Boolean);
         for (const name of names) {
           try {

@@ -49,7 +49,12 @@ async def collect(args):
         Search.params["uifid"] = params.uifid
         search = Search(params, cookie=params.cookie_str, keyword=args.keyword,
                         channel=0, pages=args.pages, sort_type=2, publish_time=0)
-        raw = await search.run()
+        partial = False
+        try:
+            raw = await search.run()
+        except Exception:
+            raw = search.response
+            partial = True
         # Upstream appends an empty page for a valid no-results response.
         if not raw:
             return {"status": "failed", "error": "抖音未返回可验证的搜索结果，请更新 Cookie 或检查平台限制。"}
@@ -74,7 +79,7 @@ async def collect(args):
             })
         if not records and raw != [[]]:
             return {"status": "failed", "error": "抖音返回结构无法验证，未发布本轮数据。"}
-        return {"status": "success", "records": records, "pages": args.pages}
+        return {"status": "partial" if partial else "success", "records": records, "pages": args.pages}
 
 
 def main():

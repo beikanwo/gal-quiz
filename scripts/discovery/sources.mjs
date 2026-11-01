@@ -52,6 +52,7 @@ export class BilibiliSource {
     }
     let fetched = 0;
     for (let page = 1; page <= pages; page++) {
+      try {
       const params = { search_type: 'video', keyword, order: 'click', page, page_size: 20, pubtime_begin_s: Math.floor(Date.parse(period.start) / 1000), pubtime_end_s: Math.floor(Date.parse(period.end) / 1000) - 1 };
       let result = await fetchJson(`https://api.bilibili.com/x/web-interface/search/type?${new URLSearchParams(params)}`, { headers: this.headers() });
       if (result.code !== 0) {
@@ -81,6 +82,10 @@ export class BilibiliSource {
         records.push({ platform: 'bilibili', id: d.bvid, title: clean(d.title), description: clean(d.desc), tags: String(item.tag ?? '').split(','), url: canonicalEvidenceUrl('bilibili', d.bvid), publishedAt: iso(d.pubdate), likes: d.stat.like, collectedAt: new Date().toISOString(), keyword });
       }
       await pause(1300);
+      } catch (error) {
+        if (records.length) return { records, pages: fetched, partial: true };
+        throw error;
+      }
     }
     return { records, pages: fetched };
   }
@@ -95,7 +100,7 @@ export class DouyinSource {
     } catch { throw failure('抖音采集进程未就绪或请求超时；请安装固定版本的 DouK 并配置登录状态。'); }
     let data;
     try { data = JSON.parse(result.stdout); } catch { throw failure('抖音采集进程未返回有效数据。'); }
-    if (data.status !== 'success') throw failure(data.error ?? '抖音采集失败，请更新登录状态。');
-    return { records: data.records.map((r) => ({ ...r, keyword })), pages: data.pages };
+    if (!['success', 'partial'].includes(data.status)) throw failure(data.error ?? '抖音采集失败，请更新登录状态。');
+    return { records: data.records.map((r) => ({ ...r, keyword })), pages: data.pages, partial: data.status === 'partial' };
   }
 }
