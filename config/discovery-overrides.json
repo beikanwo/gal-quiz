@@ -2,7 +2,14 @@
   "aliases": {
     "茧之锤": "v53736"
   },
-  "evidence": {},
+  "evidence": {
+    "bilibili:BV1XKxj6YEbv": {
+      "workId": "v63828",
+      "confirmedGame": true,
+      "reviewedAt": "2026-11-01T15:46:03.191Z",
+      "note": "已人工核对原视频：开头展示游戏标题画面，字幕明确写出《国王恋爱》，标题及简介均标注《王様恋愛》。其他作品仅在介绍中作比较，非多作品合集。"
+    }
+  },
   "works": {
     "v22636": {
       "description": "一本记着“地图上没有的村子”的手记，把青年引向了来待村。这里被反常艳红的山林包围，村民正准备二十年一度的祭典，并将他奉为来访神。两名少女负责招待他，而这份盛情背后，是村落代代传承的古老仪式。",
@@ -52,7 +59,8 @@
     "v61460": {
       "description": "为了逃离痛苦的生活，優理与薊未搭上最后一班列车。醒来下车后，他们来到毫无生机的荒芜世界，身后的道路正缓缓崩塌。这是一部围绕相依为命的兄弟展开的视觉小说，讲述两人寻找能够一直在一起的地方。",
       "descriptionSource": "https://www.kungal.com/galgame/57196",
-      "descriptionSourceName": "据 KUN 社区资料整理"
+      "descriptionSourceName": "据 KUN 社区资料整理",
+      "title": "二人终末论"
     }
   },
   "screenshots": {},

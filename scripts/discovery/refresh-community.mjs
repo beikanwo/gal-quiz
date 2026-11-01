@@ -32,6 +32,7 @@ for(const w of Object.values(catalog.works).filter(w=>w.detailComplete||active.h
     try{const b=await fetchJson(`https://api.bgm.tv/v0/subjects/${bgmId}`);if(b.type===4&&chineseText(b.summary))Object.assign(w,{description:cleanIntro(b.summary),descriptionLanguage:'中文',descriptionSource:`https://bgm.tv/subject/${bgmId}`,descriptionSourceName:'Bangumi'});}catch{}
   }
   const edit=overrides.works[w.id];
+  if(edit?.title)w.title=edit.title;
   if(edit?.description&&edit.descriptionSource)Object.assign(w,{description:edit.description,descriptionLanguage:'中文',descriptionSource:edit.descriptionSource,descriptionSourceName:edit.descriptionSourceName??'中文资料整理',descriptionEdited:true,descriptionMachine:false});
   console.log(w.id,w.title,w.descriptionLanguage,Object.keys(w.ratings??{}).join(','));
   await pause(500);

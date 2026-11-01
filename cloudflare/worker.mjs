@@ -1,6 +1,6 @@
 // www.scurra.top 的 HTTPS 入口。固定读取 GitHub Pages 的静态文件，推荐逻辑仍在浏览器运行。
 const ORIGIN = 'https://beikanwo.github.io/gal-quiz/';
-const CACHE_VERSION = 'discovery-20261101-v1';
+const CACHE_VERSION = 'discovery-20261101-cn1000';
 const FILES = new Set(['', 'index.html', 'beginners/index.html', 'quiz/index.html', 'library/index.html', 'search/index.html', 'periods/index.html', 'about/index.html', 'discover.css', 'discover.js', 'discovery-manifest.json', 'app.js', 'engine.js', 'feedback.js', 'style.css', 'robots.txt', 'sitemap.xml', 'data/vns.json', 'data/quiz.json', 'data/discovery.json']);
 // Only generated document routes on the same fixed origin; no arbitrary file/proxy paths.
 export function isAllowedFile(file) {

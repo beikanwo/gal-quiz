@@ -57,6 +57,7 @@ export async function run(options = args()) {
       continue;
     }
     const source = platform === 'bilibili' ? new BilibiliSource() : new DouyinSource();
+    const savedCoverage = saved ? index.lastAttempt?.platforms?.[platform]?.coverage : null;
     const collectedAt = new Date().toISOString();
     let records = !saved && priorReview.periodId === period.id ? priorReview.records.filter((r) => r.platform === platform) : [];
     let queries = 0;
@@ -71,6 +72,7 @@ export async function run(options = args()) {
         if (saved.periodId !== period.id) throw new Error('审核记录不属于本期');
         records = saved.records.filter((r) => r.platform === platform);
         const coverage = index.lastAttempt?.platforms?.[platform]?.coverage;
+        queries = coverage?.queries ?? 0; pages = coverage?.pages ?? 0;
         if (snapshot?.status !== 'success') {
           if (!records.length || !(coverage?.queries > 0)) throw new Error('没有可验证的成功搜索记录');
           status = 'partial'; error = '本期仅完成部分搜索，以下只展示已经核实的片段。';
@@ -100,8 +102,9 @@ export async function run(options = args()) {
         }
         if (decision.status === 'matched') {
           decision.workId = canonical.get(decision.workId) ?? decision.workId;
-          const work = Date.now()>deadline && catalog.works[decision.workId]?.detailComplete ? catalog.works[decision.workId] : await metadata.enrichWork(decision.workId);
-          if (!options.probe && Date.now()<=deadline) {
+          const reuseDetails = catalog.works[decision.workId]?.detailComplete && (saved || Date.now() > deadline);
+          const work = reuseDetails ? catalog.works[decision.workId] : await metadata.enrichWork(decision.workId);
+          if (!options.probe && Date.now()<=deadline && (!saved || !reuseDetails)) {
             try { await metadata.enrichPeople(work); }
             catch { report.warnings.push({ workId: work.id, message: '作者或制作商资料未补全，保留已有资料并等待重试。' }); }
           }
@@ -143,8 +146,8 @@ export async function run(options = args()) {
       }
     }
     const qualifiedRecords = dedupe(records).filter((r) => qualifies(r, period, config.minLikes) && canonicalEvidenceUrl(r.platform, r.id, r.kind) === r.url);
-    attempts[platform] = { status, error, collectedAt: saved ? saved.platforms[platform].collectedAt : new Date().toISOString(), records: dedupe(matched), coverage: { keywords, queries, pages, failedQueries, maxPagesPerQuery: options.probe ? 1 : config.pagesPerKeyword, candidateCount: dedupe(records).length, qualifiedCount: qualifiedRecords.length } };
-    report.platforms[platform] = { status, error, collectedAt, fetched: dedupe(records).length, qualified: qualifiedRecords.length, matched: dedupe(matched).length, sample: dedupe(matched).slice(0, 5), coverage: attempts[platform].coverage };
+    attempts[platform] = { status, error, collectedAt: saved ? saved.platforms[platform].collectedAt : new Date().toISOString(), records: dedupe(matched), coverage: { keywords, queries, pages, failedQueries: savedCoverage?.failedQueries ?? failedQueries, maxPagesPerQuery: savedCoverage?.maxPagesPerQuery ?? (options.probe ? 1 : config.pagesPerKeyword), candidateCount: savedCoverage?.candidateCount ?? dedupe(records).length, qualifiedCount: qualifiedRecords.length } };
+    report.platforms[platform] = { status, error, collectedAt: attempts[platform].collectedAt, fetched: attempts[platform].coverage.candidateCount, qualified: qualifiedRecords.length, matched: dedupe(matched).length, sample: dedupe(matched).slice(0, 5), coverage: attempts[platform].coverage };
     console.log(`${platform}：${status}；候选 ${dedupe(records).length}，达标 ${qualifiedRecords.length}，明确对应 ${dedupe(matched).length}`);
     // Persist sanitized qualified evidence for corrections without storing credentials or media payloads.
     attempts[platform].reviewRecords = qualifiedRecords;
