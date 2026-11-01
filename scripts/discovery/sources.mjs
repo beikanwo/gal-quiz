@@ -63,7 +63,7 @@ export class BilibiliSource {
         if (!this.keys) throw failure('B站搜索需要有效登录状态或请求签名。');
         result = await fetchJson(`https://api.bilibili.com/x/web-interface/wbi/search/type?${signWbi(params, ...this.keys)}`, { headers: this.headers() });
       }
-      if (result.code !== 0 || !Array.isArray(result.data?.result) && result.data?.numResults !== 0) throw failure('B站搜索被限制或返回格式已变化。');
+      if (result.code !== 0 || !Array.isArray(result.data?.result) && Number(result.data?.numResults) !== 0) throw failure(`B站搜索未返回可靠数据（接口代码 ${Number.isFinite(result.code) ? result.code : '未知'}）。`);
       fetched++;
       const items = result.data.result ?? [];
       if (!items.length) break;

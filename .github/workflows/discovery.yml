@@ -1,8 +1,5 @@
 name: Collect Galgame discovery
 on:
-  push:
-    branches: [codex/gal-discovery]
-    paths: ['scripts/discovery/**', 'config/discovery*.json', '.github/workflows/discovery.yml']
   workflow_dispatch:
     inputs:
       mode:
