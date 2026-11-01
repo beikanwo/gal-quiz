@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { periodFor, qualifies, dedupe, matchWork, rankEvidence, combinePeriod, publicScreenshot, safeUrl } from '../core.mjs';
+import { periodFor, qualifies, dedupe, matchWork, rankEvidence, combinePeriod, publicScreenshot, safeUrl, canonicalEvidenceUrl } from '../core.mjs';
 import { Metadata } from '../metadata.mjs';
 import { isAllowedFile } from '../../../cloudflare/worker.mjs';
 const period = periodFor('2026-11-01', '2026-11-01T09:17:00+08:00');
@@ -37,8 +37,13 @@ test('explicit title matching, sequel specificity, anime and multi-work ambiguit
   assert.equal(matchWork(record({ title: 'chair galgame' }), works).status, 'pending');
   assert.equal(matchWork(record({ title: 'AIR galgame' }), works).workId, 'v3');
   assert.equal(matchWork(record({ title: '海猫鸣泣之时' }), works).status, 'pending');
+  assert.equal(matchWork(record({ title: '海猫鸣泣之时 系列世界观 游戏解说' }), works).status, 'pending');
   const duplicate = { ...works, v5: { id: 'v5', title: '海猫鸣泣之时' } };
   assert.equal(matchWork(record(), duplicate).status, 'pending');
+});
+test('Douyin image posts retain the canonical note link', () => {
+  assert.equal(canonicalEvidenceUrl('douyin', '123456', 'image'), 'https://www.douyin.com/note/123456');
+  assert.equal(canonicalEvidenceUrl('douyin', '123456'), 'https://www.douyin.com/video/123456');
 });
 test('manual mapping requires explicit game confirmation and supports exclusion', () => {
   const key = 'bilibili:BV1abcdef';
@@ -68,6 +73,15 @@ test('partial failure retains prior platform window while successful empty repla
   assert.equal(current.platforms.douyin.status, 'failed');
   assert.equal(current.platforms.bilibili.status, 'success');
   assert.equal(current.platforms.bilibili.ranking.length, 0);
+});
+test('first partial collection publishes only verified evidence; a later partial run retains an older complete issue', () => {
+  const partial = { status: 'partial', collectedAt: '2026-11-01T01:17:00Z', records: [record({workId:'v1'})], coverage: {queries:2} };
+  const first = combinePeriod(period, {bilibili:partial});
+  assert.equal(first.platforms.bilibili.status, 'partial');
+  assert.equal(first.platforms.bilibili.ranking.length, 1);
+  assert.equal(first.platforms.bilibili.lastSuccessAt, null);
+  const old = {platforms:{bilibili:{periodId:'2026-10-17',status:'success',ranking:[],lastSuccessAt:'2026-10-17T00:00:00Z'}}};
+  assert.equal(combinePeriod(period, {bilibili:partial},old).platforms.bilibili.periodId,'2026-10-17');
 });
 test('unrated/explicit images never published; unknown spoiler state is folded', () => {
   const image = { id: 'sf1', url: 'https://t.vndb.org/sf/1.jpg', sexual: 0, violence: 0 };

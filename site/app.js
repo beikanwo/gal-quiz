@@ -4,6 +4,10 @@ import { createEngine, formatLength, selectedOptions, normalizeAnswers, toggleSe
 import { initFeedback } from './feedback.js?v=20261025-multi';
 
 const app = document.getElementById('app');
+// Reaching the new quiz URL completes migration. Returning home must stay on discovery.
+if (/\/quiz\/(?:index\.html)?$/.test(location.pathname)) {
+  try { sessionStorage.setItem('galdiscovery.quiz-migrated', 'true'); } catch {}
+}
 const reduceMotion = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches ?? false;
 
 // ---------- 本地存储（读写失败也要能正常用） ----------

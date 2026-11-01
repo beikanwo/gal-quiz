@@ -83,9 +83,10 @@ export function combinePeriod(period, attempts, previous = null, minLikes = 3000
   const platforms = {};
   for (const name of PLATFORMS) {
     const attempt = attempts[name];
-    if (attempt?.status === 'success') {
+    const currentPartial = attempt?.status === 'partial' && (!previous?.platforms?.[name]?.periodId || previous.platforms[name].periodId === period.id);
+    if (attempt?.status === 'success' || currentPartial) {
       const evidence = dedupe(attempt.records ?? []).filter((r) => r.platform === name && qualifies(r, period, minLikes) && r.workId);
-      platforms[name] = { status: 'success', periodId: period.id, start: period.start, end: period.end, minLikes, collectedAt: attempt.collectedAt, lastSuccessAt: attempt.collectedAt, coverage: attempt.coverage ?? {}, ranking: rankEvidence(evidence) };
+      platforms[name] = { status: attempt.status, periodId: period.id, start: period.start, end: period.end, minLikes, collectedAt: attempt.collectedAt, lastSuccessAt: attempt.status === 'success' ? attempt.collectedAt : previous?.platforms?.[name]?.lastSuccessAt ?? null, error: attempt.error ?? null, coverage: attempt.coverage ?? {}, ranking: rankEvidence(evidence) };
     } else {
       const old = previous?.platforms?.[name];
       platforms[name] = { ...(old ?? { ranking: [], periodId: null, lastSuccessAt: null }), status: 'failed', attemptedAt: attempt?.collectedAt ?? new Date().toISOString(), error: attempt?.error ?? '尚未完成采集验证' };

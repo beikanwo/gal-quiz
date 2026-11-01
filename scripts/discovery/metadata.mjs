@@ -66,7 +66,7 @@ export class Metadata {
       if (!person) continue;
       // Fetch every page without the quiz's vote/rating/sequel filters. Do not recursively expand colleagues.
       const rows = await this.all('vn', ['staff', '=', ['id', '=', entry.id]], `${summaryFields},staff{id,role}`);
-      this.catalog.staff[entry.id] = { id: entry.id, name: person.original ?? person.name, description: plain(person.description), links: links(person.extlinks), works: rows.map((r) => ({ id: r.id, roles: [...new Set((r.staff ?? []).filter((s) => s.id === entry.id).map((s) => s.role))] })), updatedAt: this.now, source: `https://vndb.org/${entry.id}` };
+      this.catalog.staff[entry.id] = { id: entry.id, name: person.original ?? person.name, aliases: [...new Set([person.name, person.original].filter(Boolean))], description: plain(person.description), links: links(person.extlinks), works: rows.map((r) => ({ id: r.id, roles: [...new Set((r.staff ?? []).filter((s) => s.id === entry.id).map((s) => s.role))] })), updatedAt: this.now, source: `https://vndb.org/${entry.id}` };
       rows.forEach((r) => this.work(r));
     }
     for (const entry of work.developers ?? []) {
@@ -74,7 +74,7 @@ export class Metadata {
       const producer = (await this.query('producer', ['id', '=', entry.id], 'name,original,description,extlinks{url,name}')).results?.[0];
       if (!producer) continue;
       const rows = await this.all('vn', ['developer', '=', ['id', '=', entry.id]], summaryFields);
-      this.catalog.producers[entry.id] = { id: entry.id, name: producer.original ?? producer.name, description: plain(producer.description), links: links(producer.extlinks), works: rows.map((r) => ({ id: r.id })), updatedAt: this.now, source: `https://vndb.org/${entry.id}` };
+      this.catalog.producers[entry.id] = { id: entry.id, name: producer.original ?? producer.name, aliases: [...new Set([producer.name, producer.original].filter(Boolean))], description: plain(producer.description), links: links(producer.extlinks), works: rows.map((r) => ({ id: r.id })), updatedAt: this.now, source: `https://vndb.org/${entry.id}` };
       rows.forEach((r) => this.work(r));
     }
   }

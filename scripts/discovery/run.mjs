@@ -26,6 +26,8 @@ export async function run(options = args()) {
   const metadata = new Metadata(catalog, overrides);
   metadata.unknownQueryLimit = config.maxUnknownTitleQueries;
   const seeds = await seedAliases(catalog, overrides);
+  const canonical = new Map();
+  for (const w of await readJson('site/data/vns.json', [])) for (const alt of w.altIds ?? []) canonical.set(alt, w.id);
   const report = { version: 1, period, startedAt: now, platforms: {}, pending: [], warnings: [] };
   const attempts = {};
   const selected = options.platform ? [options.platform] : PLATFORMS;
@@ -49,18 +51,28 @@ export async function run(options = args()) {
     let pages = 0;
     let status = 'success';
     let error = null;
+    const failedQueries = [];
     const keywords = options.probe ? config.keywords.slice(0, 1) : config.keywords;
     try {
       if (saved) {
         const snapshot = saved.platforms?.[platform];
-        if (saved.periodId !== period.id || snapshot?.status !== 'success') throw new Error('审核记录不属于本期成功采集');
+        if (saved.periodId !== period.id) throw new Error('审核记录不属于本期');
         records = saved.records.filter((r) => r.platform === platform);
+        const coverage = index.lastAttempt?.platforms?.[platform]?.coverage;
+        if (snapshot?.status !== 'success') {
+          if (!records.length || !(coverage?.queries > 0)) throw new Error('没有可验证的成功搜索记录');
+          status = 'partial'; error = '本期仅完成部分搜索，以下只展示已经核实的片段。';
+          queries = coverage.queries; pages = coverage.pages;
+        }
       } else {
         for (const keyword of keywords) {
           console.log(`${platform}：搜索 ${keyword}`);
-          const batch = await source.search(keyword, options.probe ? 1 : config.pagesPerKeyword, period);
-          records.push(...batch.records); queries++; pages += batch.pages;
+          try {
+            const batch = await source.search(keyword, options.probe ? 1 : config.pagesPerKeyword, period);
+            records.push(...batch.records); queries++; pages += batch.pages;
+          } catch (e) { failedQueries.push(keyword); error = publicError(e); }
         }
+        if (failedQueries.length) status = queries ? 'partial' : 'failed';
       }
     } catch (e) { status = 'failed'; error = publicError(e); }
     const qualified = dedupe(records).filter((r) => qualifies(r, period, config.minLikes) && canonicalEvidenceUrl(r.platform, r.id, r.kind) === r.url);
@@ -73,6 +85,7 @@ export async function run(options = args()) {
           decision = matchWork(record, { ...seeds, ...catalog.works }, overrides);
         }
         if (decision.status === 'matched') {
+          decision.workId = canonical.get(decision.workId) ?? decision.workId;
           const work = await metadata.enrichWork(decision.workId);
           if (!options.probe) {
             try { await metadata.enrichPeople(work); }
@@ -83,7 +96,7 @@ export async function run(options = args()) {
       } catch { report.pending.push({ ...record, reason: '作品资料查询失败，需要重试或人工补充', candidates: decision.workId ? [decision.workId] : [] }); }
     }
     // Supplement topic discovery with exact names of explicitly identified games.
-    if (!options.probe && !saved && status === 'success') {
+    if (!options.probe && !saved && status !== 'failed') {
       for (const id of [...new Set(matched.map((r) => r.workId))].slice(0, config.maxExpansionWorks)) {
         const names = [...new Set([catalog.works[id].title, catalog.works[id].original])].filter(Boolean);
         for (const name of names) {
@@ -92,15 +105,14 @@ export async function run(options = args()) {
             for (const record of batch.records.filter((r) => qualifies(r, period, config.minLikes))) {
               records.push(record);
               const decision = matchWork(record, { ...seeds, ...catalog.works }, overrides);
-              if (decision.status === 'matched' && decision.workId === id) matched.push({ ...record, workId: id, matchMethod: decision.method });
+              if (decision.status === 'matched' && (canonical.get(decision.workId) ?? decision.workId) === id) matched.push({ ...record, workId: id, matchMethod: decision.method });
               else if (decision.status === 'pending') report.pending.push({ ...record, reason: decision.reason, candidates: decision.candidates ?? [] });
             }
-          } catch { status = 'failed'; error = '作品名称补搜未完成，本轮保留上一期数据。'; break; }
+          } catch { status = 'partial'; error = '作品名称补搜未完成，已注明本轮搜索范围。'; failedQueries.push(name); }
         }
-        if (status !== 'success') break;
       }
     }
-    attempts[platform] = { status, error, collectedAt: new Date().toISOString(), records: dedupe(matched), coverage: { keywords, queries, pages, maxPagesPerQuery: options.probe ? 1 : config.pagesPerKeyword, candidateCount: dedupe(records).length, qualifiedCount: qualified.length } };
+    attempts[platform] = { status, error, collectedAt: saved ? saved.platforms[platform].collectedAt : new Date().toISOString(), records: dedupe(matched), coverage: { keywords, queries, pages, failedQueries, maxPagesPerQuery: options.probe ? 1 : config.pagesPerKeyword, candidateCount: dedupe(records).length, qualifiedCount: qualified.length } };
     report.platforms[platform] = { status, error, collectedAt, fetched: dedupe(records).length, qualified: qualified.length, matched: dedupe(matched).length, sample: dedupe(matched).slice(0, 5), coverage: attempts[platform].coverage };
     console.log(`${platform}：${status}；候选 ${dedupe(records).length}，达标 ${qualified.length}，明确对应 ${dedupe(matched).length}`);
     // Persist sanitized qualified evidence for corrections without storing credentials or media payloads.
@@ -115,7 +127,7 @@ export async function run(options = args()) {
   if (options.probe) return report;
   const previous = existing ?? index.periods[0];
   const snapshot = combinePeriod(period, attempts, previous, config.minLikes);
-  const success = selected.some((p) => attempts[p]?.status === 'success');
+  const success = selected.some((p) => ['success', 'partial'].includes(attempts[p]?.status));
   index.lastAttempt = { at: report.finishedAt, periodId: period.id, platforms: report.platforms };
   if (success) {
     if (!index.anchorDate) index.anchorDate = period.id;
