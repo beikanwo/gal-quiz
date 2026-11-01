@@ -55,6 +55,9 @@ test('a game named in a fan animation or crossover is not proof of the original 
   const games = { v19073: { id: 'v19073', title: '千恋万花' } };
   assert.equal(matchWork(record({ title: '鸣潮玩家自己的Galgame', description: '千恋万花x鸣潮的op还在画', tags: ['GMV', '手机游戏'] }), games).status, 'pending');
   assert.equal(matchWork(record({ title: '千恋万花 CG游戏片段' }), games).workId, 'v19073');
+  assert.equal(matchWork(record({ title: '千恋万花 CG剪辑', tags:['动漫','二创'] }), games).workId, 'v19073');
+  assert.equal(matchWork(record({ title: '千恋万花 动画MAD', tags:['galgame'] }), games).status, 'pending');
+  assert.equal(matchWork(record({ title: '千恋万花 cosplay' }), games).status, 'pending');
 });
 test('rank by highest single-post likes then unique evidence count', () => {
   const a = record({ workId: 'v1', likes: 5000 });
@@ -100,6 +103,10 @@ test('VNDB pagination retrieves all pages without quiz thresholds', async () => 
   const rows = await metadata.all('vn', ['developer', '=', ['id', '=', 'p1']], 'title');
   assert.deepEqual(rows.map((r) => r.id), ['v1', 'v2', 'v3']);
   assert.ok(calls.every((c) => !JSON.stringify(c.filters).includes('rating')));
+});
+test('collection budget stops metadata requests before an external call',async()=>{
+ const metadata=new Metadata({works:{},staff:{},producers:{}});metadata.deadline=Date.now()-1000;
+ await assert.rejects(()=>metadata.query('vn',['id','=','v17'],'title'),/预算/);
 });
 test('summary refresh does not destroy detailed metadata or drop low-vote sequels', () => {
   const catalog = { works: {}, staff: {}, producers: {} };

@@ -10,12 +10,14 @@ export const chineseText = (text) => {
 };
 export const cleanIntro = (text) => String(text ?? '').replace(/\[spoiler\][\s\S]*?\[\/spoiler\]/gi, '（剧情内容已隐藏）').replace(/<[^>]*>/g, '').replace(/!\[[^\]]*\]\([^)]*\)/g, '').replace(/\[([^\]]+)\]\([^)]*\)/g, '$1').replace(/\[\/?(?:b|i|u|quote|url[^\]]*)\]/gi, '').trim();
 const sourceNames = { bangumi: 'Bangumi', vndb: 'VNDB', erogamescape: '批评空间' };
+const namesOf = data => [data.display_name,data.latin,...Object.values(data.localized??{}).map(x=>typeof x==='string'?x:x.value),...(data.aliases??[]).map(x=>typeof x==='string'?x:x.value??x.name)].filter(Boolean);
 export function kunIdentity(data, work) {
   return (data.external_refs ?? []).some((r) => r.site === 'vndb' && r.external_id === work.id);
 }
 export function applyKunMetadata(work, data, fetchedAt = new Date().toISOString()) {
   if (!kunIdentity(data, work)) return false;
   const via = `https://www.kungal.com/galgame/${data.id}`;
+  work.aliases=[...new Set([...(work.aliases??[]),...namesOf(data)])];
   work.community ??= {};
   work.community.kungal = { id: String(data.id), url: via };
   const bangumiRef=data.external_refs?.find(r=>r.site==='bangumi');
@@ -58,6 +60,15 @@ export class Community {
     const data = await fetchJson(`https://www.kungal.com/api/v1/works/${id}?include_nsfw=true`, { headers: { 'User-Agent': 'beikanwo/gal-quiz (https://www.scurra.top)' } });
     this.cache.set(id, data);
     return data;
+  }
+  async resolveName(name) {
+    const result=await fetchJson(`https://www.kungal.com/api/v1/search/works?${new URLSearchParams({q:name,limit:'8',include_nsfw:'true',include_resourceless:'true',include_all_original_languages:'true'})}`);
+    for(const item of result.items??[]){
+      if(!namesOf(item).some(x=>normalize(x)===normalize(name)))continue;
+      const data=await this.fetchKun(item.id);
+      if(namesOf(data).some(x=>normalize(x)===normalize(name)))return data;
+    }
+    return null;
   }
   async enrich(work, search = true) {
     await this.loadIndex();

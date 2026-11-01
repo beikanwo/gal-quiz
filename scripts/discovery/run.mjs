@@ -24,6 +24,8 @@ export async function run(options = args()) {
   }
   if (!period || (!due && !options.probe && !options['review-only'])) { console.log('本期已经完成，无需重复发布。'); return; }
   const metadata = new Metadata(catalog, overrides);
+  const deadline = Date.now() + (config.collectionBudgetMinutes ?? 35) * 60000;
+  metadata.deadline = deadline;
   metadata.unknownQueryLimit = config.maxUnknownTitleQueries;
   const seeds = await seedAliases(catalog, overrides);
   const canonical = new Map();
@@ -76,6 +78,7 @@ export async function run(options = args()) {
         }
       } else {
         for (const keyword of keywords) {
+          if(Date.now()>deadline){failedQueries.push('本轮时间预算已用尽');error='部分搜索留待下次重试。';break;}
           console.log(`${platform}：搜索 ${keyword}`);
           try {
             const batch = await source.search(keyword, options.probe ? 1 : config.pagesPerKeyword, period);
@@ -91,14 +94,14 @@ export async function run(options = args()) {
     const identify = async (record) => {
       let decision = matchWork(record, matchingWorks(), overrides);
       try {
-        if (!saved && decision.status === 'pending' && !decision.candidates?.length) {
+        if ((!saved || options.resolve) && decision.status === 'pending' && !decision.candidates?.length) {
           await metadata.resolveUnknown(record);
           decision = matchWork(record, matchingWorks(), overrides);
         }
         if (decision.status === 'matched') {
           decision.workId = canonical.get(decision.workId) ?? decision.workId;
-          const work = await metadata.enrichWork(decision.workId);
-          if (!options.probe) {
+          const work = Date.now()>deadline && catalog.works[decision.workId]?.detailComplete ? catalog.works[decision.workId] : await metadata.enrichWork(decision.workId);
+          if (!options.probe && Date.now()<=deadline) {
             try { await metadata.enrichPeople(work); }
             catch { report.warnings.push({ workId: work.id, message: '作者或制作商资料未补全，保留已有资料并等待重试。' }); }
           }
@@ -109,6 +112,7 @@ export async function run(options = args()) {
     for (const record of qualified) await identify(record);
     if (!options.probe && !saved && status !== 'failed') {
       for (const keyword of config.discoveryQueries ?? []) {
+        if(Date.now()>deadline){status='partial';error='补充搜索达到本轮时间预算，留待下次重试。';break;}
         if (new Set(matched.map((r) => r.workId)).size >= (config.targetWorksPerPlatform ?? 10)) break;
         try {
           console.log(`${platform}：补足作品搜索 ${keyword}`);
@@ -122,6 +126,7 @@ export async function run(options = args()) {
     // Supplement topic discovery with exact names of explicitly identified games.
     if (!options.probe && !saved && status !== 'failed') {
       for (const id of [...new Set(matched.map((r) => r.workId))].slice(0, config.maxExpansionWorks)) {
+        if(Date.now()>deadline){status='partial';error='补充搜索达到本轮时间预算，留待下次重试。';break;}
         if (new Set(matched.map((r) => r.workId)).size >= (config.targetWorksPerPlatform ?? 10)) break;
         const names = [...new Set([catalog.works[id].title, catalog.works[id].original])].filter(Boolean);
         for (const name of names) {
@@ -142,6 +147,7 @@ export async function run(options = args()) {
     console.log(`${platform}：${status}；候选 ${dedupe(records).length}，达标 ${qualified.length}，明确对应 ${dedupe(matched).length}`);
     // Persist sanitized qualified evidence for corrections without storing credentials or media payloads.
     attempts[platform].reviewRecords = dedupe(records).filter((r) => qualifies(r, period, config.minLikes));
+    await writeJson(`data/raw/discovery/checkpoint-${platform}.json`,{period,platform,attempt:attempts[platform],pending:report.pending.filter(r=>r.platform===platform)});
   }
   report.finishedAt = new Date().toISOString();
   await writeJson(options.report ?? 'data/raw/discovery/report.json', report);

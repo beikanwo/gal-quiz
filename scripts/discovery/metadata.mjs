@@ -1,7 +1,7 @@
 import { readJson, writeJson, pause, failure } from './io.mjs';
 import { normalize, publicScreenshot, safeUrl } from './core.mjs';
 import { fetchJson } from './sources.mjs';
-import { Community } from './community.mjs';
+import { Community, applyKunMetadata } from './community.mjs';
 const header = { 'Content-Type': 'application/json', 'User-Agent': 'beikanwo/gal-quiz (https://www.scurra.top)' };
 const summaryFields = 'title,alttitle,titles{lang,title},aliases,released,languages,length_minutes,rating,average,votecount,image{url,sexual,violence},developers{id,name,original}';
 const detailFields = `${summaryFields},description,screenshots{id,url,thumbnail,sexual,violence},staff{id,name,original,role,aid},extlinks{url,label}`;
@@ -10,6 +10,7 @@ const links = (rows) => (rows ?? []).filter((r) => safeUrl(r.url)).map((r) => ({
 export class Metadata {
   constructor(catalog, overrides = {}) { this.catalog = catalog; this.overrides = overrides; this.lastRequest = 0; this.fetched = new Set(); this.now = new Date().toISOString(); this.searchCache = new Map(); this.unknownQueryLimit = 60; this.community = new Community(); }
   async query(endpoint, filters, fields, page = 1) {
+    if (Date.now() > (this.deadline ?? Infinity)) throw failure('本轮采集时间预算已用尽，资料将在下次重试。');
     await pause(Math.max(0, this.lastRequest + 1700 - Date.now()));
     this.lastRequest = Date.now();
     return fetchJson(`https://api.vndb.org/kana/${endpoint}`, { method: 'POST', headers: header, body: JSON.stringify({ filters, fields, results: 100, page }) });
@@ -101,6 +102,16 @@ export class Metadata {
         this.searchCache.set(phrase, rows);
       }
       for (const r of rows) if ([r.title, r.alttitle, ...(r.titles ?? []).map((t) => t.title), ...(r.aliases ?? [])].some((s) => normalize(s) === normalize(phrase))) this.work(r);
+      if (!rows.some(r=>[r.title,r.alttitle,...(r.titles??[]).map(t=>t.title),...(r.aliases??[])].some(s=>normalize(s)===normalize(phrase)))) {
+        try {
+          const community=await this.community.resolveName(phrase);
+          const ids=[...new Set((community?.external_refs??[]).filter(r=>r.site==='vndb'&&/^v\d+$/.test(r.external_id)).map(r=>r.external_id))];
+          if(ids.length===1){
+            const row=(await this.query('vn',['id','=',ids[0]],summaryFields)).results?.[0];
+            if(row)applyKunMetadata(this.work(row),community);
+          }
+        } catch { /* An unverified name stays in the review queue. */ }
+      }
     }
   }
 }

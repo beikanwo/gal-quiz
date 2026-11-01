@@ -22,7 +22,7 @@
       "source": "https://vndb.org/v69315",
       "updatedAt": "2026-11-01T14:08:15.917Z",
       "detailComplete": true,
-      "description": "由日本团队 C#4R4CT3R 开发的 Y2K 视觉小说。\n\n1998年，东京。无尽的雨，一个渴望世界毁灭的少女。一群孤独的年轻人所做出的选择，将决定世界的命运。",
+      "description": "故事发生在1998年的东京。持续不断的雨中，一名少女渴望世界毁灭，几位孤独的年轻人也逐渐卷入其中。他们作出的选择，将与这个世界的命运相连。",
       "descriptionLanguage": "中文",
       "descriptionSource": "https://www.kungal.com/galgame/271056",
       "staff": [],
@@ -92,9 +92,10 @@
           "url": "https://www.kungal.com/galgame/271056"
         }
       },
-      "descriptionSourceName": "KUN 社区",
-      "descriptionMachine": true,
-      "ratings": {}
+      "descriptionSourceName": "据 KUN 社区资料整理",
+      "descriptionMachine": false,
+      "ratings": {},
+      "descriptionEdited": true
     },
     "v19073": {
       "id": "v19073",
@@ -133,7 +134,7 @@
       "source": "https://vndb.org/v19073",
       "updatedAt": "2026-11-01T14:08:15.917Z",
       "detailComplete": true,
-      "description": "被文明开化所遗忘，一直避免与周围交流的，保留着古老美好时代街景与温泉街的穂織（ほおり）町。\n\n\\\n\n这座町的建実神社里，有一把刺在岩石上无法拔出的神刀・叢雨丸（むらさめまる）。\n\n\\\n\n某天，被母亲拜托去帮忙在穂織町经营旅馆的祖父的主人公・有地将臣（有地 将臣），因为折断了叢雨丸，被迫与巫女姬朝武芳乃（朝武 芳乃）结婚。\n\n\\\n\n在感到困惑的他面前，寄宿在叢雨丸中的灵体少女・丛雨（ムラサメ）以及侍奉巫女姬的女忍者常陆茉子（常陸 茉子）出现了，他将得知隐藏在这座町中的真相。\n\n*\\Form* *[wikipedia* *, used under CC BY-SA 4.0 licenses]*",
+      "description": "有地将臣来到温泉小镇穗织，帮祖父打理旅馆，却意外折断了神社里无法拔出的神刀丛雨丸。为承担责任，他被要求与巫女朝武芳乃结婚。寄宿在刀中的少女、侍奉巫女的忍者相继出现，小镇的秘密也逐渐与这段恋爱联系起来。",
       "descriptionLanguage": "中文",
       "descriptionSource": "https://www.kungal.com/galgame/15",
       "staff": [
@@ -266,8 +267,8 @@
           "url": "https://bgm.tv/subject/172612"
         }
       },
-      "descriptionSourceName": "KUN 社区",
-      "descriptionMachine": true,
+      "descriptionSourceName": "据 KUN 社区资料整理",
+      "descriptionMachine": false,
       "ratings": {
         "vndb": {
           "score": 7.640000000000001,
@@ -298,7 +299,8 @@
           "viaUrl": "https://www.kungal.com/galgame/15",
           "fetchedAt": "2026-11-01T14:41:31.622Z"
         }
-      }
+      },
+      "descriptionEdited": true
     },
     "v83": {
       "id": "v83",
@@ -8430,7 +8432,7 @@
       "source": "https://vndb.org/v65742",
       "updatedAt": "2026-11-01T14:08:15.917Z",
       "detailComplete": true,
-      "description": "【注意事项】\n\n因为包含以下要素，不擅长的玩家请谨慎游玩。\nBL、百合、恐怖展开、暴力表现、欺凌描写、略微下流\n\n这是一款根据主角性别不同，角色的反应和攻略难度也会随之变化的攻略游戏！\n\n▶︎根据选项不同，展开和END也会发生变化！\n加深与他的关系，以HAPPY END为目标吧！？\n\n▶︎有恋爱、喜剧、恐怖要素、坏结局！\n\n▶1条路线 约1个半小时\n\n因为是一时兴起凭着感觉制作的，所以如果能凭着感觉享受它我会很高兴！\n\n✂︎----------------------------------------------✂︎",
+      "description": "这是一款交织校园恋爱、喜剧与恐怖要素的分支游戏。主角性别会影响其他角色的反应与攻略难度，不同选项也会通向不同结局。玩家需要在接近喜欢的角色时作出选择；作品包含暴力、欺凌描写及坏结局。",
       "descriptionLanguage": "中文",
       "descriptionSource": "https://www.kungal.com/galgame/61187",
       "staff": [],
@@ -8467,8 +8469,9 @@
           "url": "https://bgm.tv/subject/658528"
         }
       },
-      "descriptionSourceName": "Bangumi（KUN 资料镜像）",
-      "descriptionMachine": true
+      "descriptionSourceName": "据 KUN 社区资料整理",
+      "descriptionMachine": false,
+      "descriptionEdited": true
     },
     "v65743": {
       "id": "v65743",
@@ -13670,7 +13673,7 @@
       "source": "https://vndb.org/v18852",
       "updatedAt": "2026-11-01T14:08:15.917Z",
       "detailComplete": true,
-      "description": "作为能用声音操纵人的、为数不多的言灵使一族被养育长大的主人公・织部诚(誠)。\n他出于憧憬与好奇心，某日离开了村子飞奔向了外面的世界。\n然而，只知道村子里的他不谙世事，根本不可能过上正经的生活，\n在某个乡下小镇终于倒下了。\n在那里，被路过的少女・织部心(織部こころ)所帮助……",
+      "description": "织部诚出身言灵使一族，能够用声音影响他人的意志。怀着对外界的憧憬与好奇，他离开了村子，却因不谙世事而流落街头。在陌生的小镇倒下后，路过的少女织部心向他伸出了援手，故事由此展开。",
       "descriptionLanguage": "中文",
       "descriptionSource": "https://www.kungal.com/galgame/528",
       "staff": [
@@ -13801,8 +13804,8 @@
           "url": "https://bgm.tv/subject/165894"
         }
       },
-      "descriptionSourceName": "Bangumi（KUN 资料镜像）",
-      "descriptionMachine": true,
+      "descriptionSourceName": "据 KUN 社区资料整理",
+      "descriptionMachine": false,
       "ratings": {
         "vndb": {
           "score": 7.790000000000001,
@@ -13833,7 +13836,8 @@
           "viaUrl": "https://www.kungal.com/galgame/528",
           "fetchedAt": "2026-11-01T14:41:40.997Z"
         }
-      }
+      },
+      "descriptionEdited": true
     },
     "v7": {
       "id": "v7",
@@ -19224,7 +19228,7 @@
       "source": "https://vndb.org/v17",
       "updatedAt": "2026-11-01T14:08:15.917Z",
       "detailComplete": true,
-      "description": "infinity系列第二部 \n\n本游戏分为两个主人公视点——仓成武和失忆少年，与小町月海，茜崎空，优，松永沙罗，八神可可几位少女编制一团迷离的故事，各女主角的剧情安排也因主人公的视点而有所变动\n\n未来海洋主题乐园内 演绎生离死别的悲喜剧 \n\n公元2017年5月1日 12点51分\n浮游在水下51米深的海洋游乐园：LeMU中\n7名男女突然被封闭在其中。\n食物、水、氧气 在逐渐地减少。\n生活在深海中无数莫名的病毒，都在贪婪地窥视。\nLeMU的壁墙被深海的水压无情地迫挤\n支撑不了几日的样子了\n厚厚的玻璃窗外，是深邃的黑暗……\n在封闭的空间，有限的时间内\n7个人不断地寻找着出路。\n他们相互帮助，相互鼓励\n克服不断出现的各种危机，之间的情谊也不断加固。\n不知道这应该是爱情还是友情。\n然而，在感情不断加深的同时，死的期限也在不断逼近。\n事件的全貌在逐渐地被揭开。\n在无数多个的可能性中，一点一点地被揭开。\n所有的事实，都在向着一个方向聚集。\n对生的渴望……对死的恐怖。\n无法想象的绝境中，等待着的到底是一个什么样的结局\n在这里又能够获取什么呢？\n失去的将会是什么？ 在睁开的双瞳中，\n最后，到底映着的是什么……？",
+      "description": "2017年5月1日，七名男女因事故被困在海底主题乐园 LeMU。食物、饮水与氧气不断减少，设施也在水压下逐渐失去支撑。故事从仓成武与一名失忆少年的视角展开；众人一边寻找逃生办法，一边面对封闭空间中接连出现的谜团。",
       "descriptionLanguage": "中文",
       "descriptionSource": "https://www.kungal.com/galgame/180",
       "staff": [
@@ -19383,7 +19387,7 @@
           "url": "https://bgm.tv/subject/1126"
         }
       },
-      "descriptionSourceName": "Bangumi（KUN 资料镜像）",
+      "descriptionSourceName": "据 KUN 社区资料整理",
       "descriptionMachine": false,
       "ratings": {
         "vndb": {
@@ -19415,7 +19419,8 @@
           "viaUrl": "https://www.kungal.com/galgame/180",
           "fetchedAt": "2026-11-01T14:41:42.857Z"
         }
-      }
+      },
+      "descriptionEdited": true
     },
     "v19373": {
       "id": "v19373",
@@ -25495,7 +25500,7 @@
       "source": "https://vndb.org/v21903",
       "updatedAt": "2026-11-01T14:08:15.917Z",
       "detailComplete": true,
-      "description": "学园生活的春假。期待与不安交织的新生活季节。\n我，扇泽朝凪，搬到了这座保留着别致景观的城镇，花逢坂町。\n\n搬家目的地祖母的家经营着一家咖啡店。\n只因祖母生病住院，目前暂时停业中。\n从小时候就对我很亲切的大姐姐，狛田智里那里，\n听说了祖母和店里的现状，环顾如今已变得十分冷清的店内，我心想。\n\n“想再次让祖母看到店里热闹的样子……！”\n\n“咖啡店 焦糖”\n更新了店名，店内也重新装修得明亮起来。准备好了菜单和新的店员制服，\n开始招募打工店员后，马上就有两个女孩\n庭坂莉良、汐之宫璃贝(汐ノ宮璃貝)来了。\n\n“那个……我们，能在这里工作吗？”\n\n樱花的花瓣，在一阵格外强烈的风中飞舞，穿过我和我周围的人们。\n预示着即将开始的，甜美而微苦的故事——",
+      "description": "搬到花逢坂町的扇泽朝凪，发现祖母经营的咖啡店因住院而停业。他想让祖母再看到店里热闹的样子，便重新装饰店面、准备菜单和制服，并招募帮手。两名少女应聘而来，一段围绕咖啡店展开的青春恋爱故事随之开始。",
       "descriptionLanguage": "中文",
       "descriptionSource": "https://www.kungal.com/galgame/76",
       "staff": [
@@ -25643,8 +25648,9 @@
           "url": "https://bgm.tv/subject/225563"
         }
       },
-      "descriptionSourceName": "Bangumi（KUN 资料镜像）",
-      "descriptionMachine": true
+      "descriptionSourceName": "据 KUN 社区资料整理",
+      "descriptionMachine": false,
+      "descriptionEdited": true
     },
     "v193": {
       "id": "v193",
