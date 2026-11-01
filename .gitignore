@@ -1,5 +1,8 @@
 data/raw/
 data/raw-*/
 node_modules/
+.cache/
+.env*
+__pycache__/
 # 视觉稿和截图（含 VNDB 封面，不放进公开仓库）
 design/

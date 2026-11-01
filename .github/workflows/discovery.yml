@@ -1,0 +1,108 @@
+name: Collect Galgame discovery
+on:
+  push:
+    branches: [codex/gal-discovery]
+    paths: ['scripts/discovery/**', 'config/discovery*.json', '.github/workflows/discovery.yml']
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'probe 只验证；publish 采集并发布；review 应用本期人工核对'
+        type: choice
+        options: [probe, publish, review]
+        default: probe
+      force:
+        description: '重跑已完成期次'
+        type: boolean
+        default: false
+  schedule:
+    - cron: '17 1 * * *'
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: gal-discovery-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    outputs:
+      publish: ${{ steps.save.outputs.publish }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Determine whether collection is due
+        id: due
+        env:
+          EVENT: ${{ github.event_name }}
+          FORCE: ${{ inputs.force }}
+        run: |
+          if [ "$EVENT" != schedule ]; then
+            echo 'due=true' >> "$GITHUB_OUTPUT"
+          else
+            node scripts/discovery/run.mjs --due
+          fi
+      - uses: astral-sh/setup-uv@v6
+        if: steps.due.outputs.due == 'true' && inputs.mode != 'review'
+        with:
+          version: '0.9.7'
+      - name: Install pinned DouK collector
+        if: steps.due.outputs.due == 'true' && inputs.mode != 'review'
+        id: douk
+        continue-on-error: true
+        run: |
+          mkdir -p .cache
+          git clone --filter=blob:none --no-checkout https://github.com/JoeanAmier/TikTokDownloader.git .cache/douk
+          git -C .cache/douk checkout "$(node -p "JSON.parse(require('fs').readFileSync('config/discovery.json')).douk.commit")"
+          uv sync --project .cache/douk --python 3.12 --no-dev --locked
+      - name: Collect and verify real data
+        if: steps.due.outputs.due == 'true'
+        env:
+          DOUYIN_COOKIE: ${{ secrets.DOUYIN_COOKIE }}
+          BILIBILI_COOKIE: ${{ secrets.BILIBILI_COOKIE }}
+          MODE: ${{ inputs.mode }}
+          EVENT: ${{ github.event_name }}
+          FORCE: ${{ inputs.force }}
+        run: |
+          if [ "$EVENT" = push ] || [ "$MODE" = probe ]; then
+            node scripts/discovery/run.mjs --probe
+          elif [ "$MODE" = review ]; then
+            node scripts/discovery/run.mjs --review-only --force
+          elif [ "$FORCE" = true ]; then
+            node scripts/discovery/run.mjs --force
+          else
+            node scripts/discovery/run.mjs
+          fi
+      - name: Data and regression checks
+        if: steps.due.outputs.due == 'true'
+        run: |
+          node --test scripts/discovery/test/*.test.mjs
+          node scripts/discovery/build.mjs
+          node scripts/discovery/validate.mjs
+          node scripts/check-questionnaire.mjs
+          node scripts/check-feedback.mjs
+      - name: Save validated publication
+        id: save
+        if: steps.due.outputs.due == 'true' && github.event_name != 'push' && inputs.mode != 'probe'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/discovery site
+          if ! git diff --cached --quiet; then
+            git commit -m '更新 Galgame 热门发现快照'
+            git push
+          fi
+          echo 'publish=true' >> "$GITHUB_OUTPUT"
+      - uses: actions/upload-artifact@v4
+        if: always() && steps.due.outputs.due == 'true'
+        with:
+          name: discovery-verification
+          path: data/raw/discovery/report.json
+          retention-days: 30
+  deploy:
+    needs: collect
+    if: needs.collect.outputs.publish == 'true' && github.ref == 'refs/heads/main'
+    uses: ./.github/workflows/pages.yml

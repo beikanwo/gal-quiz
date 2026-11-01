@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "files": [
+    "about/index.html",
+    "app.js",
+    "beginners/index.html",
+    "data/discovery.json",
+    "data/quiz.json",
+    "data/vns.json",
+    "discover.css",
+    "discover.js",
+    "discovery-manifest.json",
+    "engine.js",
+    "feedback.js",
+    "index.html",
+    "library/index.html",
+    "periods/index.html",
+    "quiz/index.html",
+    "robots.txt",
+    "search/index.html",
+    "sitemap.xml",
+    "style.css"
+  ]
+}

@@ -194,7 +194,7 @@ function renderStart() {
         <button class="first" data-action="begin"><span class="label">开始</span></button>
         <button data-action="wants" ${engine ? '' : 'disabled'}><span class="label">想玩清单</span><small>${wants ? `${wants} 部` : '还是空的'}</small></button>
       </nav>
-      <p class="start-links"><a href="beginners/">第一次玩？先看新手 Gal 推荐</a> · <a href="#how-it-works">了解这个测试</a></p>
+      <p class="start-links"><a href="${new URL('beginners/', import.meta.url).href}">第一次玩？先看新手 Gal 推荐</a> · <a href="#how-it-works">了解这个测试</a></p>
     </section>`;
 }
 
@@ -556,7 +556,7 @@ document.addEventListener('keydown', (e) => {
 
 async function main() {
   try {
-    const load = (u) => fetch(u).then((r) => {
+    const load = (u) => fetch(new URL(u, import.meta.url)).then((r) => {
       if (!r.ok) throw new Error(`${u}: HTTP ${r.status}`);
       return r.json();
     });
