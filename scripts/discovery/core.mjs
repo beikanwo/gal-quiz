@@ -59,6 +59,7 @@ export function matchWork(record, works, overrides = {}) {
   // A title contained in a longer title is not another work mentioned in a compilation.
   const reduced = candidates.filter((a) => !candidates.some((b) => b.id !== a.id && a.hits.every((x) => b.hits.some((y) => normalize(y).length > normalize(x).length && normalize(y).includes(normalize(x))))));
   if (reduced.length !== 1) return { status: 'pending', reason: reduced.length ? '涉及多个作品或名称有歧义' : '没有找到明确作品名', candidates: reduced.map((x) => x.id) };
+  if (/\b(?:gmv|mmd|vtuber|minecraft)\b|手书|手書|二创|二創|同人|自制|混剪|联动|联動|手机游戏|手游|手遊|我的世界|鸣潮|原神|虚拟主播|直播背景|自己的\s*galgame/i.test(text)) return { status: 'pending', reason: '可能是二创、联动或其他游戏，需要核对原画面', candidates: [reduced[0].id] };
   if (/动画|動漫|动漫|番剧|番劇|\b(?:amv|mad)\b/i.test(text)) return { status: 'pending', reason: '需要区分游戏与动画等改编画面', candidates: [reduced[0].id] };
   if (!/galgame|gal游戏|美少女游戏|视觉小说|遊戲|游戏|实况|実況|CG|游戏截图/i.test(text)) return { status: 'pending', reason: '作品名明确，但画面来源尚未确认', candidates: [reduced[0].id] };
   return { status: 'matched', workId: reduced[0].id, method: 'explicit-title' };

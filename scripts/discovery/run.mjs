@@ -30,6 +30,12 @@ export async function run(options = args()) {
   if (selected.some((p) => !PLATFORMS.includes(p))) throw new Error('未知平台');
   const saved = options['review-only'] ? await readJson('data/discovery/review.json', { records: [] }) : null;
   for (const platform of selected) {
+    if (existing?.platforms?.[platform]?.status === 'success' && !options.force && !options.probe && !options['review-only']) {
+      const previous = existing.platforms[platform];
+      attempts[platform] = { ...previous, records: previous.ranking.flatMap((r) => r.evidence) };
+      report.platforms[platform] = { status: 'success', collectedAt: previous.collectedAt, reused: true, coverage: previous.coverage };
+      continue;
+    }
     const source = platform === 'bilibili' ? new BilibiliSource() : new DouyinSource();
     const collectedAt = new Date().toISOString();
     let records = [];

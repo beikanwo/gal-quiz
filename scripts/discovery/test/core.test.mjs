@@ -46,6 +46,11 @@ test('manual mapping requires explicit game confirmation and supports exclusion'
   assert.equal(matchWork(record({ title: '只有画面' }), works, { evidence: { [key]: { workId: 'v4', confirmedGame: true } } }).workId, 'v4');
   assert.equal(matchWork(record(), works, { evidence: { [key]: { exclude: true } } }).status, 'excluded');
 });
+test('a game named in a fan animation or crossover is not proof of the original footage', () => {
+  const games = { v19073: { id: 'v19073', title: '千恋万花' } };
+  assert.equal(matchWork(record({ title: '鸣潮玩家自己的Galgame', description: '千恋万花x鸣潮的op还在画', tags: ['GMV', '手机游戏'] }), games).status, 'pending');
+  assert.equal(matchWork(record({ title: '千恋万花 CG游戏片段' }), games).workId, 'v19073');
+});
 test('rank by highest single-post likes then unique evidence count', () => {
   const a = record({ workId: 'v1', likes: 5000 });
   const b = record({ id: 'BV2abcdef', workId: 'v2', likes: 5000 });
