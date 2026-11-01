@@ -12,6 +12,15 @@ export async function fetchJson(url, options = {}) {
   for (let attempt = 0; attempt < 3; attempt++) {
     try {
       const response = await fetch(url, { ...options, signal: AbortSignal.timeout(25000) });
+      if (response.status === 412 && new URL(url).hostname === 'api.bilibili.com') {
+        const root = path.resolve(process.env.DOUK_ROOT ?? '.cache/douk');
+        const python = process.env.DOUK_PYTHON ?? path.join(root, process.platform === 'win32' ? '.venv/Scripts/python.exe' : '.venv/bin/python');
+        try {
+          const result = await execute(python, [path.resolve('scripts/discovery/http_bridge.py'), String(url)], { timeout: 35000, maxBuffer: 8 * 1024 * 1024, windowsHide: true, env: { ...process.env, DISCOVERY_BILI_COOKIE: options.headers?.Cookie ?? '' } });
+          const data = JSON.parse(result.stdout);
+          if (!data.transportError) return data;
+        } catch { /* Report the actual platform failure after bounded retries. */ }
+      }
       if (!response.ok) throw failure(`上游接口返回 HTTP ${response.status}`);
       return await response.json();
     } catch (error) {
@@ -28,10 +37,19 @@ export function signWbi(params, imageKey, subKey, timestamp = Math.floor(Date.no
   return `${query}&w_rid=${createHash('md5').update(query + key).digest('hex')}`;
 }
 export class BilibiliSource {
-  constructor() { this.cookie = process.env.BILIBILI_COOKIE ?? ''; this.keys = null; this.details = new Map(); }
+  constructor() { this.cookie = process.env.BILIBILI_COOKIE ?? ''; this.keys = null; this.details = new Map(); this.bootstrapped = false; }
   headers() { return { 'User-Agent': ua, Referer: 'https://www.bilibili.com/', ...(this.cookie ? { Cookie: this.cookie } : {}) }; }
   async search(keyword, pages = 3, period) {
     const records = [];
+    if (!this.bootstrapped) {
+      if (!this.cookie) {
+        try {
+          const spi = await fetchJson('https://api.bilibili.com/x/frontend/finger/spi', { headers: this.headers() });
+          if (spi.code === 0 && spi.data?.b_3) this.cookie = `buvid3=${spi.data.b_3}; buvid4=${spi.data.b_4 ?? ''}`;
+        } catch { /* Public search may still work without guest identifiers. */ }
+      }
+      this.bootstrapped = true;
+    }
     let fetched = 0;
     for (let page = 1; page <= pages; page++) {
       const params = { search_type: 'video', keyword, order: 'click', page, page_size: 20, pubtime_begin_s: Math.floor(Date.parse(period.start) / 1000), pubtime_end_s: Math.floor(Date.parse(period.end) / 1000) - 1 };
