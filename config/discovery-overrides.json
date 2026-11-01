@@ -55,5 +55,8 @@
       "descriptionSourceName": "据 KUN 社区资料整理"
     }
   },
-  "screenshots": {}
+  "screenshots": {},
+  "ambiguousAliases": [
+    "乐园"
+  ]
 }

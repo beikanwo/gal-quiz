@@ -47,10 +47,11 @@ export function matchWork(record, works, overrides = {}) {
     const aliases = [w.title, w.original, ...(w.aliases ?? []), ...Object.entries(overrides.aliases ?? {}).filter(([, id]) => id === w.id).map(([name]) => name)];
     const hits = aliases.filter((alias) => {
       if (!alias) return false;
+      if ((overrides.ambiguousAliases ?? []).some((s) => normalize(s) === normalize(alias))) return false;
       // Short Latin names need boundaries (AIR is not a match in "chair").
-      if (/^[\x00-\x7F]+$/.test(alias)) {
+      if (/^[a-z0-9]+$/i.test(normalize(alias))) {
         if (normalize(alias).length < 3) return false;
-        return new RegExp(`(?<![a-z0-9])${alias.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(?![a-z0-9])`, 'i').test(text);
+        return new RegExp(`(?<![a-z0-9._])${alias.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(?![a-z0-9])`, 'i').test(text);
       }
       return normalize(alias).length >= 2 && normalized.includes(normalize(alias));
     });
@@ -59,7 +60,7 @@ export function matchWork(record, works, overrides = {}) {
   // A title contained in a longer title is not another work mentioned in a compilation.
   const reduced = candidates.filter((a) => !candidates.some((b) => b.id !== a.id && a.hits.every((x) => b.hits.some((y) => normalize(y).length > normalize(x).length && normalize(y).includes(normalize(x))))));
   if (reduced.length !== 1) return { status: 'pending', reason: reduced.length ? '涉及多个作品或名称有歧义' : '没有找到明确作品名', candidates: reduced.map((x) => x.id) };
-  if (/系列世界观|系列世界觀|系列剧情|系列劇情|系列盘点|系列作品|多部游戏|游戏盘点|游戏榜单/i.test(text)) return { status: 'pending', reason: '介绍涉及整个系列或多个游戏，需要核对具体条目', candidates: [reduced[0].id] };
+  if (/系列世界观|系列世界觀|系列剧情|系列劇情|系列盘点|系列作品|多部游戏|游戏盘点|游戏榜单/i.test(text) || /盘点|盤點|》\s*系列|系列[:：]/.test(record.title ?? '')) return { status: 'pending', reason: '介绍涉及整个系列或多个游戏，需要核对具体条目', candidates: [reduced[0].id] };
   const primary=[record.title,record.description].join(' ');
   const gameFootage=/CG|游戏画面|遊戲畫面|游戏片段|配音实况|游戏实况|実況|\b(?:op|ed)\b/i.test(primary)||(record.tags??[]).some(tag=>/^(?:游戏CG|游戏实况|游戏片段|GalgameCG)$/i.test(tag));
   if (/\b(?:gmv|mmd|vtuber|minecraft|cosplay|cos)\b|手书|手書|联动|联動|手机游戏|手游|手遊|我的世界|鸣潮|原神|虚拟主播|直播背景|自己的\s*galgame/i.test(text)||(/二创|二創|同人|自制|混剪/.test(text)&&!gameFootage)) return { status: 'pending', reason: '可能是二创、联动或其他游戏，需要核对原画面', candidates: [reduced[0].id] };

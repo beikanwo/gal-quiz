@@ -1,7 +1,7 @@
 import { readJson, writeJson, pause, failure } from './io.mjs';
 import { normalize, publicScreenshot, safeUrl } from './core.mjs';
 import { fetchJson } from './sources.mjs';
-import { Community, applyKunMetadata } from './community.mjs';
+import { Community, applyKunMetadata, chineseText } from './community.mjs';
 const header = { 'Content-Type': 'application/json', 'User-Agent': 'beikanwo/gal-quiz (https://www.scurra.top)' };
 const summaryFields = 'title,alttitle,titles{lang,title},aliases,released,languages,length_minutes,rating,average,votecount,image{url,sexual,violence},developers{id,name,original}';
 const detailFields = `${summaryFields},description,screenshots{id,url,thumbnail,sexual,violence},staff{id,name,original,role,aid},extlinks{url,label}`;
@@ -63,7 +63,7 @@ export class Metadata {
     if (bgmId && !this.overrides.works?.[id]?.description) {
       try {
         const bgm = await fetchJson(`https://api.bgm.tv/v0/subjects/${bgmId}`, { headers: header });
-        if (bgm.type === 4 && bgm.summary) Object.assign(work, { description: plain(bgm.summary), descriptionLanguage: '中文', descriptionSource: `https://bgm.tv/subject/${bgmId}` });
+        if (bgm.type === 4 && chineseText(plain(bgm.summary))) Object.assign(work, { description: plain(bgm.summary), descriptionLanguage: '中文', descriptionSource: `https://bgm.tv/subject/${bgmId}`, descriptionSourceName: 'Bangumi', descriptionMachine: false });
       } catch { /* Keep attributed VNDB original if Chinese metadata is unavailable. */ }
     }
     try { await this.community.enrich(work); } catch { /* Keep the existing attributed metadata if a community is unavailable. */ }

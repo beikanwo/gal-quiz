@@ -37,6 +37,11 @@ test('explicit title matching, sequel specificity, anime and multi-work ambiguit
   assert.equal(matchWork(record({ title: '海猫鸣泣之时和白色相簿2 游戏CG合集' }), works).status, 'pending');
   assert.equal(matchWork(record({ title: 'chair galgame' }), works).status, 'pending');
   assert.equal(matchWork(record({ title: 'AIR galgame' }), works).workId, 'v3');
+  assert.equal(matchWork(record({ title: 'DeepSeek galgame' }), { v83: {id:'v83',title:'ExE',aliases:['E × E']} }).status, 'pending');
+  assert.equal(matchWork(record({ title: '运行 game.exe 视觉小说' }), { v83: {id:'v83',title:'ExE'} }).status, 'pending');
+  assert.equal(matchWork(record({ title: '《海猫鸣泣之时》系列：故事回顾 galgame' }), works).status, 'pending');
+  assert.equal(matchWork(record({ title: '盘点柚子社救场 海猫鸣泣之时 galgame' }), works).status, 'pending');
+  assert.equal(matchWork(record({ title: '乐园 galgame' }), {v6540:{id:'v6540',title:'euphoria',aliases:['乐园']}}, {ambiguousAliases:['乐园']}).status, 'pending');
   assert.equal(matchWork(record({ title: '海猫鸣泣之时' }), works).status, 'pending');
   assert.equal(matchWork(record({ title: '海猫鸣泣之时 系列世界观 游戏解说' }), works).status, 'pending');
   const duplicate = { ...works, v5: { id: 'v5', title: '海猫鸣泣之时' } };
