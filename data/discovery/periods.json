@@ -15,9 +15,9 @@
           "start": "2026-10-16T16:00:00.000Z",
           "end": "2026-10-31T16:00:00.000Z",
           "minLikes": 1000,
-          "collectedAt": "2026-11-01T15:28:01.111Z",
+          "collectedAt": "2026-11-02T07:50:37.279Z",
           "lastSuccessAt": null,
-          "error": "本期仅完成部分搜索，以下只展示已经核实的片段。",
+          "error": "抖音采集失败，可能需要有效 Cookie；请检查固定版本依赖与登录状态。",
           "coverage": {
             "keywords": [
               "galgame",
@@ -27,15 +27,14 @@
               "galgame CG",
               "galgame名场面"
             ],
-            "queries": 15,
-            "pages": 35,
+            "queries": 5,
+            "pages": 15,
             "failedQueries": [
-              "美少女游戏",
-              "白色相簿2"
+              "galgame CG"
             ],
             "maxPagesPerQuery": 3,
-            "candidateCount": 284,
-            "qualifiedCount": 32
+            "candidateCount": 133,
+            "qualifiedCount": 36
           },
           "ranking": [
             {
@@ -87,7 +86,7 @@
             },
             {
               "workId": "v17",
-              "maxLikes": 8694,
+              "maxLikes": 8893,
               "count": 1,
               "evidence": [
                 {
@@ -105,9 +104,9 @@
                   "kind": "video",
                   "url": "https://www.douyin.com/video/7700225841325673754",
                   "publishedAt": "2026-10-24T13:29:08+00:00",
-                  "likes": 8694,
-                  "collectedAt": "2026-11-01T15:21:00.567872+00:00",
-                  "keyword": "gal游戏",
+                  "likes": 8893,
+                  "collectedAt": "2026-11-02T07:44:44.350917+00:00",
+                  "keyword": "美少女游戏",
                   "workId": "v17",
                   "matchMethod": "explicit-title"
                 }
@@ -187,6 +186,34 @@
                   "collectedAt": "2026-11-01T14:35:47.729970+00:00",
                   "keyword": "gal游戏",
                   "workId": "v21903",
+                  "matchMethod": "explicit-title"
+                }
+              ]
+            },
+            {
+              "workId": "v10078",
+              "maxLikes": 6829,
+              "count": 1,
+              "evidence": [
+                {
+                  "platform": "douyin",
+                  "id": "7698635646419619107",
+                  "title": "重生之我是女皇亲爱的达令 《铅雨》是一款【2D像素】【战斗】的动作类游戏。你莫名其妙从沉睡中醒来，失去了所有记忆。一位女王自称是你的妻子，仿佛你们之间关系非常亲密。此刻她被叛军包围，邀请你为她执剑征战，在敌军中开辟出一条血路。为了寻找自己丢失的记忆和探索世界的真相，你选择拿起武器先带女王离开。在枪林弹雨之中，你是否能为你亲爱的女王开辟出一条生路？是否可以帮助她扫清一切障碍，助她重新夺回皇位？#百合 #百合游戏 #横板战斗 #游戏实况 #游戏推荐",
+                  "description": "",
+                  "tags": [
+                    "百合",
+                    "百合游戏",
+                    "横板战斗",
+                    "游戏实况",
+                    "游戏推荐"
+                  ],
+                  "kind": "video",
+                  "url": "https://www.douyin.com/video/7698635646419619107",
+                  "publishedAt": "2026-10-20T12:00:00+00:00",
+                  "likes": 6829,
+                  "collectedAt": "2026-11-02T07:44:44.351023+00:00",
+                  "keyword": "美少女游戏",
+                  "workId": "v10078",
                   "matchMethod": "explicit-title"
                 }
               ]
@@ -327,7 +354,7 @@
             },
             {
               "workId": "v1143",
-              "maxLikes": 1963,
+              "maxLikes": 2231,
               "count": 1,
               "evidence": [
                 {
@@ -345,9 +372,9 @@
                   "kind": "video",
                   "url": "https://www.douyin.com/video/7702682821198754278",
                   "publishedAt": "2026-10-31T04:23:19+00:00",
-                  "likes": 1963,
-                  "collectedAt": "2026-11-01T15:22:34.621874+00:00",
-                  "keyword": "galgame名场面",
+                  "likes": 2231,
+                  "collectedAt": "2026-11-02T07:44:12.272362+00:00",
+                  "keyword": "gal游戏",
                   "workId": "v1143",
                   "matchMethod": "explicit-title"
                 }
@@ -355,7 +382,7 @@
             },
             {
               "workId": "v69315",
-              "maxLikes": 1221,
+              "maxLikes": 1271,
               "count": 1,
               "evidence": [
                 {
@@ -372,8 +399,8 @@
                   "kind": "video",
                   "url": "https://www.douyin.com/video/7700644152693837056",
                   "publishedAt": "2026-10-25T16:32:27+00:00",
-                  "likes": 1221,
-                  "collectedAt": "2026-11-01T15:21:51.404528+00:00",
+                  "likes": 1271,
+                  "collectedAt": "2026-11-02T07:45:01.599979+00:00",
                   "keyword": "视觉小说",
                   "workId": "v69315",
                   "matchMethod": "explicit-title"
@@ -388,9 +415,9 @@
           "start": "2026-10-16T16:00:00.000Z",
           "end": "2026-10-31T16:00:00.000Z",
           "minLikes": 1000,
-          "collectedAt": "2026-11-01T15:37:43.536Z",
+          "collectedAt": "2026-11-02T08:00:35.270Z",
           "lastSuccessAt": null,
-          "error": "本期仅完成部分搜索，以下只展示已经核实的片段。",
+          "error": null,
           "coverage": {
             "keywords": [
               "galgame",
@@ -407,13 +434,13 @@
             ],
             "maxPagesPerQuery": 3,
             "candidateCount": 275,
-            "qualifiedCount": 140
+            "qualifiedCount": 143
           },
           "ranking": [
             {
               "workId": "v69315",
               "maxLikes": 20728,
-              "count": 7,
+              "count": 6,
               "evidence": [
                 {
                   "platform": "bilibili",
@@ -457,8 +484,8 @@
                   ],
                   "url": "https://www.bilibili.com/video/BV1Jhnb6TEkc",
                   "publishedAt": "2026-10-23T10:00:00.000Z",
-                  "likes": 14555,
-                  "collectedAt": "2026-11-01T15:29:59.262Z",
+                  "likes": 14564,
+                  "collectedAt": "2026-11-02T07:52:44.062Z",
                   "keyword": "美少女游戏",
                   "workId": "v69315",
                   "matchMethod": "explicit-title"
@@ -523,8 +550,8 @@
                   ],
                   "url": "https://www.bilibili.com/video/BV14nnh6QEog",
                   "publishedAt": "2026-10-23T11:19:34.000Z",
-                  "likes": 5237,
-                  "collectedAt": "2026-11-01T15:29:13.111Z",
+                  "likes": 5254,
+                  "collectedAt": "2026-11-02T07:51:54.615Z",
                   "keyword": "gal游戏",
                   "workId": "v69315",
                   "matchMethod": "explicit-title"
@@ -546,32 +573,8 @@
                   ],
                   "url": "https://www.bilibili.com/video/BV1tLJR6JEFM",
                   "publishedAt": "2026-10-20T03:50:00.000Z",
-                  "likes": 4748,
-                  "collectedAt": "2026-11-01T15:31:00.974Z",
-                  "keyword": "视觉小说",
-                  "workId": "v69315",
-                  "matchMethod": "explicit-title"
-                },
-                {
-                  "platform": "bilibili",
-                  "id": "BV1WVnp6sEUr",
-                  "title": "日系哀鸿？男主扒门缝偷听女主和...？我原谅了所有绿帽癖小众精品独游...《Rain98》（伪NTR）",
-                  "description": "我原谅了所有绿帽癖小众精品独游\n说实话这游戏除了暴雷这段以外我真挺喜欢的，演出，配音真的一点问题都没有（当然因为演出好所以伪牛那段也很“身临其境啊”）\n不过看基本上没什么人聊这个，黑红也是红\n官方说这段剧情会改，千言万语，好好改，改好了我会在做期推荐视频的\n毕竟你不能既要又要，堆质量堆流量想要销量的同时，还维持你的小众精品文案",
-                  "tags": [
-                    "Rain98",
-                    "哀鸿",
-                    "林翩翩",
-                    "沙优",
-                    "视觉小说",
-                    "游戏杂谈",
-                    "轻小说",
-                    "独立游戏",
-                    "GAL"
-                  ],
-                  "url": "https://www.bilibili.com/video/BV1WVnp6sEUr",
-                  "publishedAt": "2026-10-22T12:46:41.000Z",
-                  "likes": 1107,
-                  "collectedAt": "2026-11-01T15:31:16.904Z",
+                  "likes": 4750,
+                  "collectedAt": "2026-11-02T07:53:48.371Z",
                   "keyword": "视觉小说",
                   "workId": "v69315",
                   "matchMethod": "explicit-title"
@@ -580,7 +583,7 @@
             },
             {
               "workId": "v61460",
-              "maxLikes": 10006,
+              "maxLikes": 10095,
               "count": 1,
               "evidence": [
                 {
@@ -602,8 +605,8 @@
                   ],
                   "url": "https://www.bilibili.com/video/BV1Ypnz6pE7B",
                   "publishedAt": "2026-10-23T07:08:45.000Z",
-                  "likes": 10006,
-                  "collectedAt": "2026-11-01T15:30:58.888Z",
+                  "likes": 10095,
+                  "collectedAt": "2026-11-02T07:53:46.128Z",
                   "keyword": "视觉小说",
                   "workId": "v61460",
                   "matchMethod": "explicit-title"
@@ -612,7 +615,7 @@
             },
             {
               "workId": "v30960",
-              "maxLikes": 4253,
+              "maxLikes": 4267,
               "count": 1,
               "evidence": [
                 {
@@ -632,8 +635,8 @@
                   ],
                   "url": "https://www.bilibili.com/video/BV1gony6vEdF",
                   "publishedAt": "2026-10-22T08:00:00.000Z",
-                  "likes": 4253,
-                  "collectedAt": "2026-11-01T15:31:04.298Z",
+                  "likes": 4267,
+                  "collectedAt": "2026-11-02T07:53:51.942Z",
                   "keyword": "视觉小说",
                   "workId": "v30960",
                   "matchMethod": "explicit-title"
@@ -642,7 +645,7 @@
             },
             {
               "workId": "v19073",
-              "maxLikes": 3514,
+              "maxLikes": 3601,
               "count": 1,
               "evidence": [
                 {
@@ -658,8 +661,8 @@
                   ],
                   "url": "https://www.bilibili.com/video/BV121HK6HELU",
                   "publishedAt": "2026-10-24T10:09:58.000Z",
-                  "likes": 3514,
-                  "collectedAt": "2026-11-01T15:28:52.830Z",
+                  "likes": 3601,
+                  "collectedAt": "2026-11-02T07:51:33.760Z",
                   "keyword": "galgame",
                   "workId": "v19073",
                   "matchMethod": "explicit-title"
@@ -667,40 +670,8 @@
               ]
             },
             {
-              "workId": "v65742",
-              "maxLikes": 3393,
-              "count": 1,
-              "evidence": [
-                {
-                  "platform": "bilibili",
-                  "id": "BV1HRxg6iEnx",
-                  "title": "挚友就得念作妻子啊~友谊变质的校园日常！【恋爱喜剧突转】男主-阳木大和线【配音实况】",
-                  "description": "☆游戏:ラブコメスイッチ/恋爱喜剧突转\nhttps://novelgame.jp/games/show/14081\n☆汉化:晓柯同文馆www.kyoka.cn\n☆片头曲:Naomile–僕は君に恋をする\n\n..-. --- .-. . ...- . .-. \n\n「你俩要好好的啊！就这样玩出了淡淡的幸福感……」",
-                  "tags": [
-                    "独立游戏",
-                    "整点电子榨菜",
-                    "游戏鉴赏家",
-                    "视觉小说",
-                    "游戏实况",
-                    "实况解说",
-                    "纯爱",
-                    "娱乐",
-                    "搞笑",
-                    "恐怖"
-                  ],
-                  "url": "https://www.bilibili.com/video/BV1HRxg6iEnx",
-                  "publishedAt": "2026-10-30T09:30:00.000Z",
-                  "likes": 3393,
-                  "collectedAt": "2026-11-01T15:31:09.730Z",
-                  "keyword": "视觉小说",
-                  "workId": "v65742",
-                  "matchMethod": "explicit-title"
-                }
-              ]
-            },
-            {
               "workId": "v63828",
-              "maxLikes": 1841,
+              "maxLikes": 1888,
               "count": 1,
               "evidence": [
                 {
@@ -722,8 +693,8 @@
                   ],
                   "url": "https://www.bilibili.com/video/BV1XKxj6YEbv",
                   "publishedAt": "2026-10-28T10:00:00.000Z",
-                  "likes": 1841,
-                  "collectedAt": "2026-11-01T15:29:20.957Z",
+                  "likes": 1888,
+                  "collectedAt": "2026-11-02T07:52:03.040Z",
                   "keyword": "gal游戏",
                   "workId": "v63828",
                   "matchMethod": "reviewed"
@@ -732,7 +703,7 @@
             },
             {
               "workId": "v18335",
-              "maxLikes": 1613,
+              "maxLikes": 1624,
               "count": 1,
               "evidence": [
                 {
@@ -750,8 +721,8 @@
                   ],
                   "url": "https://www.bilibili.com/video/BV1PuHP6uEF4",
                   "publishedAt": "2026-10-24T08:03:15.000Z",
-                  "likes": 1613,
-                  "collectedAt": "2026-11-01T15:29:13.111Z",
+                  "likes": 1624,
+                  "collectedAt": "2026-11-02T07:51:54.615Z",
                   "keyword": "gal游戏",
                   "workId": "v18335",
                   "matchMethod": "explicit-title"
@@ -759,8 +730,38 @@
               ]
             },
             {
+              "workId": "v2561",
+              "maxLikes": 1530,
+              "count": 1,
+              "evidence": [
+                {
+                  "platform": "bilibili",
+                  "id": "BV1BqJe6yEG3",
+                  "title": "雨宫美亚的告白",
+                  "description": "夏日聚集地",
+                  "tags": [
+                    "单机游戏",
+                    "剧情",
+                    "vrc",
+                    "3d",
+                    "galgame",
+                    "GAL",
+                    "娱乐",
+                    "演示"
+                  ],
+                  "url": "https://www.bilibili.com/video/BV1BqJe6yEG3",
+                  "publishedAt": "2026-10-17T07:23:42.000Z",
+                  "likes": 1530,
+                  "collectedAt": "2026-11-02T07:51:55.728Z",
+                  "keyword": "gal游戏",
+                  "workId": "v2561",
+                  "matchMethod": "explicit-title"
+                }
+              ]
+            },
+            {
               "workId": "v52780",
-              "maxLikes": 1452,
+              "maxLikes": 1475,
               "count": 1,
               "evidence": [
                 {
@@ -776,8 +777,8 @@
                   ],
                   "url": "https://www.bilibili.com/video/BV1LNJi65EeT",
                   "publishedAt": "2026-10-17T12:11:33.000Z",
-                  "likes": 1452,
-                  "collectedAt": "2026-11-01T15:30:37.452Z",
+                  "likes": 1475,
+                  "collectedAt": "2026-11-02T07:53:23.025Z",
                   "keyword": "美少女游戏",
                   "workId": "v52780",
                   "matchMethod": "explicit-title"
@@ -786,7 +787,7 @@
             },
             {
               "workId": "v47937",
-              "maxLikes": 1162,
+              "maxLikes": 1203,
               "count": 1,
               "evidence": [
                 {
@@ -807,8 +808,8 @@
                   ],
                   "url": "https://www.bilibili.com/video/BV1vnnr6aEfe",
                   "publishedAt": "2026-10-21T14:40:24.000Z",
-                  "likes": 1162,
-                  "collectedAt": "2026-11-01T15:31:15.861Z",
+                  "likes": 1203,
+                  "collectedAt": "2026-11-02T07:54:05.417Z",
                   "keyword": "视觉小说",
                   "workId": "v47937",
                   "matchMethod": "explicit-title"
@@ -817,7 +818,7 @@
             },
             {
               "workId": "v66",
-              "maxLikes": 1032,
+              "maxLikes": 1045,
               "count": 1,
               "evidence": [
                 {
@@ -838,8 +839,8 @@
                   ],
                   "url": "https://www.bilibili.com/video/BV1K1HK6pEjM",
                   "publishedAt": "2026-10-24T10:10:34.000Z",
-                  "likes": 1032,
-                  "collectedAt": "2026-11-01T15:31:31.043Z",
+                  "likes": 1045,
+                  "collectedAt": "2026-11-02T07:54:20.676Z",
                   "keyword": "视觉小说",
                   "workId": "v66",
                   "matchMethod": "explicit-title"
@@ -852,16 +853,16 @@
     }
   ],
   "lastAttempt": {
-    "at": "2026-11-01T15:46:18.515Z",
+    "at": "2026-11-02T08:00:35.274Z",
     "periodId": "2026-11-01",
     "platforms": {
       "douyin": {
         "status": "partial",
-        "error": "本期仅完成部分搜索，以下只展示已经核实的片段。",
-        "collectedAt": "2026-11-01T15:28:01.111Z",
-        "fetched": 284,
-        "qualified": 32,
-        "matched": 13,
+        "error": "抖音采集失败，可能需要有效 Cookie；请检查固定版本依赖与登录状态。",
+        "collectedAt": "2026-11-02T07:50:37.279Z",
+        "fetched": 133,
+        "qualified": 36,
+        "matched": 14,
         "sample": [
           {
             "platform": "douyin",
@@ -919,9 +920,9 @@
             "kind": "video",
             "url": "https://www.douyin.com/video/7700225841325673754",
             "publishedAt": "2026-10-24T13:29:08+00:00",
-            "likes": 8694,
-            "collectedAt": "2026-11-01T15:21:00.567872+00:00",
-            "keyword": "gal游戏",
+            "likes": 8893,
+            "collectedAt": "2026-11-02T07:44:44.350917+00:00",
+            "keyword": "美少女游戏",
             "workId": "v17",
             "matchMethod": "explicit-title"
           },
@@ -978,24 +979,23 @@
             "galgame CG",
             "galgame名场面"
           ],
-          "queries": 15,
-          "pages": 35,
+          "queries": 5,
+          "pages": 15,
           "failedQueries": [
-            "美少女游戏",
-            "白色相簿2"
+            "galgame CG"
           ],
           "maxPagesPerQuery": 3,
-          "candidateCount": 284,
-          "qualifiedCount": 32
+          "candidateCount": 133,
+          "qualifiedCount": 36
         }
       },
       "bilibili": {
         "status": "partial",
-        "error": "本期仅完成部分搜索，以下只展示已经核实的片段。",
-        "collectedAt": "2026-11-01T15:37:43.536Z",
+        "error": null,
+        "collectedAt": "2026-11-02T08:00:35.270Z",
         "fetched": 275,
-        "qualified": 140,
-        "matched": 16,
+        "qualified": 143,
+        "matched": 15,
         "sample": [
           {
             "platform": "bilibili",
@@ -1016,8 +1016,8 @@
             ],
             "url": "https://www.bilibili.com/video/BV14nnh6QEog",
             "publishedAt": "2026-10-23T11:19:34.000Z",
-            "likes": 5237,
-            "collectedAt": "2026-11-01T15:29:13.111Z",
+            "likes": 5254,
+            "collectedAt": "2026-11-02T07:51:54.615Z",
             "keyword": "gal游戏",
             "workId": "v69315",
             "matchMethod": "explicit-title"
@@ -1035,8 +1035,8 @@
             ],
             "url": "https://www.bilibili.com/video/BV121HK6HELU",
             "publishedAt": "2026-10-24T10:09:58.000Z",
-            "likes": 3514,
-            "collectedAt": "2026-11-01T15:28:52.830Z",
+            "likes": 3601,
+            "collectedAt": "2026-11-02T07:51:33.760Z",
             "keyword": "galgame",
             "workId": "v19073",
             "matchMethod": "explicit-title"
@@ -1060,8 +1060,8 @@
             ],
             "url": "https://www.bilibili.com/video/BV1Jhnb6TEkc",
             "publishedAt": "2026-10-23T10:00:00.000Z",
-            "likes": 14555,
-            "collectedAt": "2026-11-01T15:29:59.262Z",
+            "likes": 14564,
+            "collectedAt": "2026-11-02T07:52:44.062Z",
             "keyword": "美少女游戏",
             "workId": "v69315",
             "matchMethod": "explicit-title"
@@ -1085,8 +1085,8 @@
             ],
             "url": "https://www.bilibili.com/video/BV1Ypnz6pE7B",
             "publishedAt": "2026-10-23T07:08:45.000Z",
-            "likes": 10006,
-            "collectedAt": "2026-11-01T15:30:58.888Z",
+            "likes": 10095,
+            "collectedAt": "2026-11-02T07:53:46.128Z",
             "keyword": "视觉小说",
             "workId": "v61460",
             "matchMethod": "explicit-title"
@@ -1108,8 +1108,8 @@
             ],
             "url": "https://www.bilibili.com/video/BV1tLJR6JEFM",
             "publishedAt": "2026-10-20T03:50:00.000Z",
-            "likes": 4748,
-            "collectedAt": "2026-11-01T15:31:00.974Z",
+            "likes": 4750,
+            "collectedAt": "2026-11-02T07:53:48.371Z",
             "keyword": "视觉小说",
             "workId": "v69315",
             "matchMethod": "explicit-title"
@@ -1131,7 +1131,7 @@
           ],
           "maxPagesPerQuery": 3,
           "candidateCount": 275,
-          "qualifiedCount": 140
+          "qualifiedCount": 143
         }
       }
     }

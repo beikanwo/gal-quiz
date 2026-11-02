@@ -4,11 +4,11 @@
   "platforms": {
     "douyin": {
       "status": "partial",
-      "collectedAt": "2026-11-01T15:28:01.111Z"
+      "collectedAt": "2026-11-02T07:50:37.279Z"
     },
     "bilibili": {
       "status": "partial",
-      "collectedAt": "2026-11-01T15:37:43.536Z"
+      "collectedAt": "2026-11-02T08:00:35.270Z"
     }
   },
   "records": [
@@ -26,9 +26,9 @@
       "kind": "video",
       "url": "https://www.douyin.com/video/7702722536806567206",
       "publishedAt": "2026-10-31T09:00:00+00:00",
-      "likes": 4119,
-      "collectedAt": "2026-11-01T15:22:34.621901+00:00",
-      "keyword": "galgame名场面"
+      "likes": 4485,
+      "collectedAt": "2026-11-02T07:44:12.272245+00:00",
+      "keyword": "gal游戏"
     },
     {
       "platform": "douyin",
@@ -80,9 +80,9 @@
       "kind": "image",
       "url": "https://www.douyin.com/note/7698527848591595702",
       "publishedAt": "2026-10-19T23:39:54+00:00",
-      "likes": 3275,
-      "collectedAt": "2026-11-01T15:20:34.648464+00:00",
-      "keyword": "galgame"
+      "likes": 3278,
+      "collectedAt": "2026-11-02T07:44:12.272282+00:00",
+      "keyword": "gal游戏"
     },
     {
       "platform": "douyin",
@@ -118,9 +118,9 @@
       "kind": "video",
       "url": "https://www.douyin.com/video/7700225841325673754",
       "publishedAt": "2026-10-24T13:29:08+00:00",
-      "likes": 8694,
-      "collectedAt": "2026-11-01T15:21:00.567872+00:00",
-      "keyword": "gal游戏"
+      "likes": 8893,
+      "collectedAt": "2026-11-02T07:44:44.350917+00:00",
+      "keyword": "美少女游戏"
     },
     {
       "platform": "douyin",
@@ -158,8 +158,8 @@
       "kind": "image",
       "url": "https://www.douyin.com/note/7699854528037314907",
       "publishedAt": "2026-10-23T13:28:06+00:00",
-      "likes": 5720,
-      "collectedAt": "2026-11-01T15:21:00.568066+00:00",
+      "likes": 5752,
+      "collectedAt": "2026-11-02T07:44:12.272311+00:00",
       "keyword": "gal游戏"
     },
     {
@@ -177,8 +177,8 @@
       "kind": "video",
       "url": "https://www.douyin.com/video/7699881438337846566",
       "publishedAt": "2026-10-23T15:26:47+00:00",
-      "likes": 4321,
-      "collectedAt": "2026-11-01T15:21:51.404574+00:00",
+      "likes": 4367,
+      "collectedAt": "2026-11-02T07:45:01.600167+00:00",
       "keyword": "视觉小说"
     },
     {
@@ -378,9 +378,9 @@
       "kind": "video",
       "url": "https://www.douyin.com/video/7700553774951107880",
       "publishedAt": "2026-10-28T09:00:00+00:00",
-      "likes": 1093,
-      "collectedAt": "2026-11-01T15:21:00.567911+00:00",
-      "keyword": "gal游戏"
+      "likes": 1121,
+      "collectedAt": "2026-11-02T07:43:54.814751+00:00",
+      "keyword": "galgame"
     },
     {
       "platform": "douyin",
@@ -416,9 +416,9 @@
       "kind": "video",
       "url": "https://www.douyin.com/video/7702682821198754278",
       "publishedAt": "2026-10-31T04:23:19+00:00",
-      "likes": 1963,
-      "collectedAt": "2026-11-01T15:22:34.621874+00:00",
-      "keyword": "galgame名场面"
+      "likes": 2231,
+      "collectedAt": "2026-11-02T07:44:12.272362+00:00",
+      "keyword": "gal游戏"
     },
     {
       "platform": "douyin",
@@ -431,8 +431,8 @@
       "kind": "image",
       "url": "https://www.douyin.com/note/7702408757908809883",
       "publishedAt": "2026-10-30T10:39:50+00:00",
-      "likes": 4012,
-      "collectedAt": "2026-11-01T15:21:00.568045+00:00",
+      "likes": 4349,
+      "collectedAt": "2026-11-02T07:44:12.272391+00:00",
       "keyword": "gal游戏"
     },
     {
@@ -449,8 +449,8 @@
       "kind": "video",
       "url": "https://www.douyin.com/video/7700644152693837056",
       "publishedAt": "2026-10-25T16:32:27+00:00",
-      "likes": 1221,
-      "collectedAt": "2026-11-01T15:21:51.404528+00:00",
+      "likes": 1271,
+      "collectedAt": "2026-11-02T07:45:01.599979+00:00",
       "keyword": "视觉小说"
     },
     {
@@ -483,8 +483,8 @@
       "kind": "video",
       "url": "https://www.douyin.com/video/7697865134430026745",
       "publishedAt": "2026-10-18T04:48:14+00:00",
-      "likes": 39024,
-      "collectedAt": "2026-11-01T15:22:34.621840+00:00",
+      "likes": 44160,
+      "collectedAt": "2026-11-02T07:45:56.117345+00:00",
       "keyword": "galgame名场面"
     },
     {
@@ -602,6 +602,80 @@
       "keyword": "近月少女的礼仪"
     },
     {
+      "platform": "douyin",
+      "id": "7702750766691405075",
+      "title": "【夏季锁】冲动的惩罚！选择错误将会覆灭人生。 #galgame #单机游戏 #steam #青年创作者成长计划 #游戏杂谈",
+      "description": "",
+      "tags": [
+        "galgame",
+        "单机游戏",
+        "steam",
+        "青年创作者成长计划",
+        "游戏杂谈"
+      ],
+      "kind": "video",
+      "url": "https://www.douyin.com/video/7702750766691405075",
+      "publishedAt": "2026-10-31T08:47:08+00:00",
+      "likes": 2438,
+      "collectedAt": "2026-11-02T07:44:12.272348+00:00",
+      "keyword": "gal游戏"
+    },
+    {
+      "platform": "douyin",
+      "id": "7699091349316445928",
+      "title": "通关300部gal老资历来教你们攻略宅妹 没有废话全是操作 #galgame #宅女 #宅男",
+      "description": "",
+      "tags": [
+        "galgame",
+        "宅女",
+        "宅男"
+      ],
+      "kind": "video",
+      "url": "https://www.douyin.com/video/7699091349316445928",
+      "publishedAt": "2026-10-21T12:06:35+00:00",
+      "likes": 1309,
+      "collectedAt": "2026-11-02T07:43:54.814869+00:00",
+      "keyword": "galgame"
+    },
+    {
+      "platform": "douyin",
+      "id": "7698635646419619107",
+      "title": "重生之我是女皇亲爱的达令 《铅雨》是一款【2D像素】【战斗】的动作类游戏。你莫名其妙从沉睡中醒来，失去了所有记忆。一位女王自称是你的妻子，仿佛你们之间关系非常亲密。此刻她被叛军包围，邀请你为她执剑征战，在敌军中开辟出一条血路。为了寻找自己丢失的记忆和探索世界的真相，你选择拿起武器先带女王离开。在枪林弹雨之中，你是否能为你亲爱的女王开辟出一条生路？是否可以帮助她扫清一切障碍，助她重新夺回皇位？#百合 #百合游戏 #横板战斗 #游戏实况 #游戏推荐",
+      "description": "",
+      "tags": [
+        "百合",
+        "百合游戏",
+        "横板战斗",
+        "游戏实况",
+        "游戏推荐"
+      ],
+      "kind": "video",
+      "url": "https://www.douyin.com/video/7698635646419619107",
+      "publishedAt": "2026-10-20T12:00:00+00:00",
+      "likes": 6829,
+      "collectedAt": "2026-11-02T07:44:44.351023+00:00",
+      "keyword": "美少女游戏"
+    },
+    {
+      "platform": "douyin",
+      "id": "7702581501048687872",
+      "title": "从夯到拉评价帝国编年史全部女角色 #AVN #galgame #视觉小说 #帝国编年史#文字冒险 \n神作，无需多言",
+      "description": "",
+      "tags": [
+        "AVN",
+        "galgame",
+        "视觉小说",
+        "帝国编年史",
+        "文字冒险"
+      ],
+      "kind": "video",
+      "url": "https://www.douyin.com/video/7702581501048687872",
+      "publishedAt": "2026-10-30T21:50:21+00:00",
+      "likes": 2445,
+      "collectedAt": "2026-11-02T07:45:01.600143+00:00",
+      "keyword": "视觉小说"
+    },
+    {
       "platform": "bilibili",
       "id": "BV1Qdny6NEUX",
       "title": "修炼我的忍道，仙境？只手可取而已【忍之恋】",
@@ -620,8 +694,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1Qdny6NEUX",
       "publishedAt": "2026-10-22T06:54:56.000Z",
-      "likes": 23602,
-      "collectedAt": "2026-11-01T15:29:12.065Z",
+      "likes": 24290,
+      "collectedAt": "2026-11-02T07:51:53.476Z",
       "keyword": "gal游戏"
     },
     {
@@ -640,8 +714,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1hjHT6cEx2",
       "publishedAt": "2026-10-24T19:21:23.000Z",
-      "likes": 33462,
-      "collectedAt": "2026-11-01T15:28:03.901Z",
+      "likes": 34098,
+      "collectedAt": "2026-11-02T07:50:40.347Z",
       "keyword": "galgame"
     },
     {
@@ -657,8 +731,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1Cenc6hEMh",
       "publishedAt": "2026-10-20T10:00:55.000Z",
-      "likes": 11452,
-      "collectedAt": "2026-11-01T15:28:04.949Z",
+      "likes": 11522,
+      "collectedAt": "2026-11-02T07:50:41.471Z",
       "keyword": "galgame"
     },
     {
@@ -679,8 +753,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV11Anu69EbC",
       "publishedAt": "2026-10-21T10:00:00.000Z",
-      "likes": 6548,
-      "collectedAt": "2026-11-01T15:30:57.838Z",
+      "likes": 6673,
+      "collectedAt": "2026-11-02T07:53:45.009Z",
       "keyword": "视觉小说"
     },
     {
@@ -699,8 +773,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1GyHG67Eh8",
       "publishedAt": "2026-10-25T05:39:27.000Z",
-      "likes": 15874,
-      "collectedAt": "2026-11-01T15:28:07.085Z",
+      "likes": 16319,
+      "collectedAt": "2026-11-02T07:50:43.736Z",
       "keyword": "galgame"
     },
     {
@@ -720,8 +794,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1WpHG6aE9K",
       "publishedAt": "2026-10-25T09:00:00.000Z",
-      "likes": 18486,
-      "collectedAt": "2026-11-01T15:28:08.356Z",
+      "likes": 19299,
+      "collectedAt": "2026-11-02T07:50:46.392Z",
       "keyword": "galgame"
     },
     {
@@ -737,8 +811,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1CDxk6bErn",
       "publishedAt": "2026-10-31T09:18:32.000Z",
-      "likes": 27358,
-      "collectedAt": "2026-11-01T15:29:13.111Z",
+      "likes": 29449,
+      "collectedAt": "2026-11-02T07:51:54.615Z",
       "keyword": "gal游戏"
     },
     {
@@ -760,8 +834,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1e4Jv6gESK",
       "publishedAt": "2026-10-17T05:09:06.000Z",
-      "likes": 3279,
-      "collectedAt": "2026-11-01T15:28:12.699Z",
+      "likes": 3289,
+      "collectedAt": "2026-11-02T07:50:53.525Z",
       "keyword": "galgame"
     },
     {
@@ -782,8 +856,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV131JR6fE3T",
       "publishedAt": "2026-10-25T02:00:00.000Z",
-      "likes": 3859,
-      "collectedAt": "2026-11-01T15:30:58.888Z",
+      "likes": 3912,
+      "collectedAt": "2026-11-02T07:53:46.129Z",
       "keyword": "视觉小说"
     },
     {
@@ -804,8 +878,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1Jbxq6uETU",
       "publishedAt": "2026-10-30T11:33:32.000Z",
-      "likes": 8823,
-      "collectedAt": "2026-11-01T15:28:19.156Z",
+      "likes": 9164,
+      "collectedAt": "2026-11-02T07:50:56.878Z",
       "keyword": "galgame"
     },
     {
@@ -825,8 +899,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1uHnG6gEDo",
       "publishedAt": "2026-10-19T04:00:00.000Z",
-      "likes": 10460,
-      "collectedAt": "2026-11-01T15:30:16.556Z",
+      "likes": 10477,
+      "collectedAt": "2026-11-02T07:53:03.577Z",
       "keyword": "美少女游戏"
     },
     {
@@ -842,8 +916,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1qynd6GEks",
       "publishedAt": "2026-10-26T09:23:30.000Z",
-      "likes": 10192,
-      "collectedAt": "2026-11-01T15:29:13.111Z",
+      "likes": 10274,
+      "collectedAt": "2026-11-02T07:51:54.615Z",
       "keyword": "gal游戏"
     },
     {
@@ -864,8 +938,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1Y9nd6TEbj",
       "publishedAt": "2026-10-26T07:30:14.000Z",
-      "likes": 3322,
-      "collectedAt": "2026-11-01T15:28:26.158Z",
+      "likes": 3461,
+      "collectedAt": "2026-11-02T07:51:06.584Z",
       "keyword": "galgame"
     },
     {
@@ -887,8 +961,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV14nnh6QEog",
       "publishedAt": "2026-10-23T11:19:34.000Z",
-      "likes": 5237,
-      "collectedAt": "2026-11-01T15:29:13.111Z",
+      "likes": 5254,
+      "collectedAt": "2026-11-02T07:51:54.615Z",
       "keyword": "gal游戏"
     },
     {
@@ -910,8 +984,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1sbxF6CExs",
       "publishedAt": "2026-10-29T08:17:03.000Z",
-      "likes": 3918,
-      "collectedAt": "2026-11-01T15:29:13.111Z",
+      "likes": 4270,
+      "collectedAt": "2026-11-02T07:51:54.615Z",
       "keyword": "gal游戏"
     },
     {
@@ -933,8 +1007,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1zKJh6MEox",
       "publishedAt": "2026-10-17T06:00:00.000Z",
-      "likes": 7386,
-      "collectedAt": "2026-11-01T15:30:23.424Z",
+      "likes": 7400,
+      "collectedAt": "2026-11-02T07:53:09.452Z",
       "keyword": "美少女游戏"
     },
     {
@@ -956,8 +1030,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1KEJe6oEmq",
       "publishedAt": "2026-10-17T09:28:56.000Z",
-      "likes": 5036,
-      "collectedAt": "2026-11-01T15:28:32.603Z",
+      "likes": 5056,
+      "collectedAt": "2026-11-02T07:51:13.356Z",
       "keyword": "galgame"
     },
     {
@@ -972,8 +1046,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1a8xK6TED7",
       "publishedAt": "2026-10-27T03:06:43.000Z",
-      "likes": 4354,
-      "collectedAt": "2026-11-01T15:31:05.342Z",
+      "likes": 4413,
+      "collectedAt": "2026-11-02T07:53:53.066Z",
       "keyword": "视觉小说"
     },
     {
@@ -989,8 +1063,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV17Lnj6fENe",
       "publishedAt": "2026-10-19T01:53:55.000Z",
-      "likes": 3620,
-      "collectedAt": "2026-11-01T15:31:08.676Z",
+      "likes": 3662,
+      "collectedAt": "2026-11-02T07:53:57.775Z",
       "keyword": "视觉小说"
     },
     {
@@ -1006,8 +1080,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV121HK6HELU",
       "publishedAt": "2026-10-24T10:09:58.000Z",
-      "likes": 3514,
-      "collectedAt": "2026-11-01T15:28:52.830Z",
+      "likes": 3601,
+      "collectedAt": "2026-11-02T07:51:33.760Z",
       "keyword": "galgame"
     },
     {
@@ -1027,8 +1101,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1Lxxk62EER",
       "publishedAt": "2026-10-31T03:30:00.000Z",
-      "likes": 4194,
-      "collectedAt": "2026-11-01T15:29:15.741Z",
+      "likes": 4385,
+      "collectedAt": "2026-11-02T07:51:57.371Z",
       "keyword": "gal游戏"
     },
     {
@@ -1047,8 +1121,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1TNne68EcN",
       "publishedAt": "2026-10-24T03:30:00.000Z",
-      "likes": 3122,
-      "collectedAt": "2026-11-01T15:29:15.741Z",
+      "likes": 3147,
+      "collectedAt": "2026-11-02T07:51:57.371Z",
       "keyword": "gal游戏"
     },
     {
@@ -1071,7 +1145,7 @@
       "url": "https://www.bilibili.com/video/BV1EWnp6mEJR",
       "publishedAt": "2026-10-22T13:10:00.000Z",
       "likes": 5062,
-      "collectedAt": "2026-11-01T15:31:14.635Z",
+      "collectedAt": "2026-11-02T07:54:02.980Z",
       "keyword": "视觉小说"
     },
     {
@@ -1124,8 +1198,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1bVJe6cEaW",
       "publishedAt": "2026-10-17T10:00:00.000Z",
-      "likes": 7187,
-      "collectedAt": "2026-11-01T15:29:13.111Z",
+      "likes": 7247,
+      "collectedAt": "2026-11-02T07:51:54.615Z",
       "keyword": "gal游戏"
     },
     {
@@ -1147,8 +1221,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1swnt6MELq",
       "publishedAt": "2026-10-23T02:38:45.000Z",
-      "likes": 17091,
-      "collectedAt": "2026-11-01T15:29:52.970Z",
+      "likes": 17223,
+      "collectedAt": "2026-11-02T07:52:37.325Z",
       "keyword": "美少女游戏"
     },
     {
@@ -1170,8 +1244,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1Xvnw6UEUw",
       "publishedAt": "2026-10-23T09:30:00.000Z",
-      "likes": 11331,
-      "collectedAt": "2026-11-01T15:29:54.014Z",
+      "likes": 11353,
+      "collectedAt": "2026-11-02T07:52:38.447Z",
       "keyword": "美少女游戏"
     },
     {
@@ -1193,8 +1267,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1Evnb6eEqm",
       "publishedAt": "2026-10-25T09:30:00.000Z",
-      "likes": 11275,
-      "collectedAt": "2026-11-01T15:29:55.057Z",
+      "likes": 11277,
+      "collectedAt": "2026-11-02T07:52:40.689Z",
       "keyword": "美少女游戏"
     },
     {
@@ -1214,8 +1288,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1VVJB62E3p",
       "publishedAt": "2026-10-18T04:00:00.000Z",
-      "likes": 9337,
-      "collectedAt": "2026-11-01T15:29:56.121Z",
+      "likes": 9428,
+      "collectedAt": "2026-11-02T07:52:39.568Z",
       "keyword": "美少女游戏"
     },
     {
@@ -1237,8 +1311,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1BUn26UE9d",
       "publishedAt": "2026-10-22T10:27:43.000Z",
-      "likes": 11932,
-      "collectedAt": "2026-11-01T15:29:57.163Z",
+      "likes": 11948,
+      "collectedAt": "2026-11-02T07:52:41.823Z",
       "keyword": "美少女游戏"
     },
     {
@@ -1260,7 +1334,7 @@
       "url": "https://www.bilibili.com/video/BV1psn46YEc8",
       "publishedAt": "2026-10-23T12:00:00.000Z",
       "likes": 11672,
-      "collectedAt": "2026-11-01T15:29:58.205Z",
+      "collectedAt": "2026-11-02T07:52:42.939Z",
       "keyword": "美少女游戏"
     },
     {
@@ -1282,8 +1356,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1Jhnb6TEkc",
       "publishedAt": "2026-10-23T10:00:00.000Z",
-      "likes": 14555,
-      "collectedAt": "2026-11-01T15:29:59.262Z",
+      "likes": 14564,
+      "collectedAt": "2026-11-02T07:52:44.062Z",
       "keyword": "美少女游戏"
     },
     {
@@ -1305,8 +1379,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV14xJB6BEu4",
       "publishedAt": "2026-10-18T01:00:00.000Z",
-      "likes": 5019,
-      "collectedAt": "2026-11-01T15:30:00.314Z",
+      "likes": 5048,
+      "collectedAt": "2026-11-02T07:52:45.186Z",
       "keyword": "美少女游戏"
     },
     {
@@ -1328,8 +1402,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1jKnd6uEtp",
       "publishedAt": "2026-10-26T09:52:23.000Z",
-      "likes": 9479,
-      "collectedAt": "2026-11-01T15:30:02.410Z",
+      "likes": 9481,
+      "collectedAt": "2026-11-02T07:52:47.431Z",
       "keyword": "美少女游戏"
     },
     {
@@ -1350,8 +1424,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1QXJi63EJp",
       "publishedAt": "2026-10-17T11:46:07.000Z",
-      "likes": 7314,
-      "collectedAt": "2026-11-01T15:30:03.458Z",
+      "likes": 7318,
+      "collectedAt": "2026-11-02T07:52:48.545Z",
       "keyword": "美少女游戏"
     },
     {
@@ -1373,8 +1447,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV13Qnb6XEVo",
       "publishedAt": "2026-10-25T04:00:00.000Z",
-      "likes": 7031,
-      "collectedAt": "2026-11-01T15:30:04.500Z",
+      "likes": 7032,
+      "collectedAt": "2026-11-02T07:52:50.979Z",
       "keyword": "美少女游戏"
     },
     {
@@ -1396,8 +1470,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV14Enb6LEi9",
       "publishedAt": "2026-10-24T04:00:00.000Z",
-      "likes": 7463,
-      "collectedAt": "2026-11-01T15:30:06.777Z",
+      "likes": 7464,
+      "collectedAt": "2026-11-02T07:52:52.093Z",
       "keyword": "美少女游戏"
     },
     {
@@ -1419,8 +1493,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1bYJY6tEeo",
       "publishedAt": "2026-10-17T02:09:21.000Z",
-      "likes": 10627,
-      "collectedAt": "2026-11-01T15:30:08.359Z",
+      "likes": 10688,
+      "collectedAt": "2026-11-02T07:52:53.654Z",
       "keyword": "美少女游戏"
     },
     {
@@ -1439,8 +1513,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1ZZn86qEg7",
       "publishedAt": "2026-10-23T12:32:55.000Z",
-      "likes": 5216,
-      "collectedAt": "2026-11-01T15:30:09.401Z",
+      "likes": 5217,
+      "collectedAt": "2026-11-02T07:52:57.221Z",
       "keyword": "美少女游戏"
     },
     {
@@ -1462,8 +1536,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1bUnm6qEeJ",
       "publishedAt": "2026-10-23T09:00:00.000Z",
-      "likes": 6738,
-      "collectedAt": "2026-11-01T15:30:11.861Z",
+      "likes": 6775,
+      "collectedAt": "2026-11-02T07:52:56.106Z",
       "keyword": "美少女游戏"
     },
     {
@@ -1484,8 +1558,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1Ehxv6FEMe",
       "publishedAt": "2026-10-30T09:04:45.000Z",
-      "likes": 3258,
-      "collectedAt": "2026-11-01T15:30:13.947Z",
+      "likes": 3435,
+      "collectedAt": "2026-11-02T07:52:59.460Z",
       "keyword": "美少女游戏"
     },
     {
@@ -1507,8 +1581,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1Z1xC6DErt",
       "publishedAt": "2026-10-31T08:01:47.000Z",
-      "likes": 9742,
-      "collectedAt": "2026-11-01T15:30:17.782Z",
+      "likes": 9858,
+      "collectedAt": "2026-11-02T07:53:02.445Z",
       "keyword": "美少女游戏"
     },
     {
@@ -1528,8 +1602,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1e5nv6GE3V",
       "publishedAt": "2026-10-21T04:04:55.000Z",
-      "likes": 3117,
-      "collectedAt": "2026-11-01T15:30:19.936Z",
+      "likes": 3121,
+      "collectedAt": "2026-11-02T07:53:05.870Z",
       "keyword": "美少女游戏"
     },
     {
@@ -1551,8 +1625,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1tQnS6VEar",
       "publishedAt": "2026-10-26T00:05:00.000Z",
-      "likes": 6123,
-      "collectedAt": "2026-11-01T15:30:21.340Z",
+      "likes": 6151,
+      "collectedAt": "2026-11-02T07:53:07.208Z",
       "keyword": "美少女游戏"
     },
     {
@@ -1572,8 +1646,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV18mnm6MEUS",
       "publishedAt": "2026-10-22T08:00:56.000Z",
-      "likes": 3277,
-      "collectedAt": "2026-11-01T15:30:26.930Z",
+      "likes": 3279,
+      "collectedAt": "2026-11-02T07:53:13.236Z",
       "keyword": "美少女游戏"
     },
     {
@@ -1594,8 +1668,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1YKnb6WEju",
       "publishedAt": "2026-10-23T09:34:40.000Z",
-      "likes": 3496,
-      "collectedAt": "2026-11-01T15:30:28.165Z",
+      "likes": 3499,
+      "collectedAt": "2026-11-02T07:53:15.796Z",
       "keyword": "美少女游戏"
     },
     {
@@ -1617,8 +1691,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1waH56PEE1",
       "publishedAt": "2026-10-25T10:01:32.000Z",
-      "likes": 3921,
-      "collectedAt": "2026-11-01T15:30:41.619Z",
+      "likes": 3980,
+      "collectedAt": "2026-11-02T07:53:28.617Z",
       "keyword": "美少女游戏"
     },
     {
@@ -1637,8 +1711,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1jhxc6wEqr",
       "publishedAt": "2026-10-31T03:56:43.000Z",
-      "likes": 10311,
-      "collectedAt": "2026-11-01T15:30:57.838Z",
+      "likes": 11441,
+      "collectedAt": "2026-11-02T07:53:45.009Z",
       "keyword": "视觉小说"
     },
     {
@@ -1660,8 +1734,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1Ypnz6pE7B",
       "publishedAt": "2026-10-23T07:08:45.000Z",
-      "likes": 10006,
-      "collectedAt": "2026-11-01T15:30:58.888Z",
+      "likes": 10095,
+      "collectedAt": "2026-11-02T07:53:46.128Z",
       "keyword": "视觉小说"
     },
     {
@@ -1681,8 +1755,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1tLJR6JEFM",
       "publishedAt": "2026-10-20T03:50:00.000Z",
-      "likes": 4748,
-      "collectedAt": "2026-11-01T15:31:00.974Z",
+      "likes": 4750,
+      "collectedAt": "2026-11-02T07:53:48.371Z",
       "keyword": "视觉小说"
     },
     {
@@ -1704,8 +1778,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1joxL66E5i",
       "publishedAt": "2026-10-29T10:00:00.000Z",
-      "likes": 4546,
-      "collectedAt": "2026-11-01T15:31:02.019Z",
+      "likes": 4698,
+      "collectedAt": "2026-11-02T07:53:49.499Z",
       "keyword": "视觉小说"
     },
     {
@@ -1727,8 +1801,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1wGJq6bEv8",
       "publishedAt": "2026-10-17T10:09:11.000Z",
-      "likes": 3361,
-      "collectedAt": "2026-11-01T15:31:03.061Z",
+      "likes": 3374,
+      "collectedAt": "2026-11-02T07:53:50.620Z",
       "keyword": "视觉小说"
     },
     {
@@ -1748,8 +1822,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1gony6vEdF",
       "publishedAt": "2026-10-22T08:00:00.000Z",
-      "likes": 4253,
-      "collectedAt": "2026-11-01T15:31:04.298Z",
+      "likes": 4267,
+      "collectedAt": "2026-11-02T07:53:51.942Z",
       "keyword": "视觉小说"
     },
     {
@@ -1771,8 +1845,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1UQnB6CET8",
       "publishedAt": "2026-10-21T12:28:46.000Z",
-      "likes": 4589,
-      "collectedAt": "2026-11-01T15:31:05.342Z",
+      "likes": 4653,
+      "collectedAt": "2026-11-02T07:53:53.066Z",
       "keyword": "视觉小说"
     },
     {
@@ -1794,8 +1868,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1HRxg6iEnx",
       "publishedAt": "2026-10-30T09:30:00.000Z",
-      "likes": 3393,
-      "collectedAt": "2026-11-01T15:31:09.730Z",
+      "likes": 3557,
+      "collectedAt": "2026-11-02T07:53:58.899Z",
       "keyword": "视觉小说"
     },
     {
@@ -1816,8 +1890,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1fox767EaQ",
       "publishedAt": "2026-10-28T10:59:20.000Z",
-      "likes": 3524,
-      "collectedAt": "2026-11-01T15:31:10.774Z",
+      "likes": 3626,
+      "collectedAt": "2026-11-02T07:54:00.016Z",
       "keyword": "视觉小说"
     },
     {
@@ -2234,8 +2308,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1kmn865EVm",
       "publishedAt": "2026-10-23T14:13:12.000Z",
-      "likes": 2702,
-      "collectedAt": "2026-11-01T15:28:10.615Z",
+      "likes": 2717,
+      "collectedAt": "2026-11-02T07:50:48.827Z",
       "keyword": "galgame"
     },
     {
@@ -2257,8 +2331,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1dYHM6MEYc",
       "publishedAt": "2026-10-24T15:06:18.000Z",
-      "likes": 1852,
-      "collectedAt": "2026-11-01T15:29:13.111Z",
+      "likes": 1925,
+      "collectedAt": "2026-11-02T07:51:54.615Z",
       "keyword": "gal游戏"
     },
     {
@@ -2274,8 +2348,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1Yuxu6EEs4",
       "publishedAt": "2026-10-28T10:00:00.000Z",
-      "likes": 2757,
-      "collectedAt": "2026-11-01T15:30:57.838Z",
+      "likes": 2850,
+      "collectedAt": "2026-11-02T07:53:45.009Z",
       "keyword": "视觉小说"
     },
     {
@@ -2297,8 +2371,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1ybnd6pEok",
       "publishedAt": "2026-10-26T08:39:53.000Z",
-      "likes": 2943,
-      "collectedAt": "2026-11-01T15:28:14.960Z",
+      "likes": 2946,
+      "collectedAt": "2026-11-02T07:50:55.754Z",
       "keyword": "galgame"
     },
     {
@@ -2312,8 +2386,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1bZsd6MEBd",
       "publishedAt": "2026-10-29T01:16:17.000Z",
-      "likes": 2649,
-      "collectedAt": "2026-11-01T15:28:16.003Z",
+      "likes": 6004,
+      "collectedAt": "2026-11-02T07:50:44.848Z",
       "keyword": "galgame"
     },
     {
@@ -2332,8 +2406,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1XQxC62Ev4",
       "publishedAt": "2026-10-31T07:39:13.000Z",
-      "likes": 2635,
-      "collectedAt": "2026-11-01T15:29:13.111Z",
+      "likes": 3534,
+      "collectedAt": "2026-11-02T07:51:54.615Z",
       "keyword": "gal游戏"
     },
     {
@@ -2355,8 +2429,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1HhJe6UEtz",
       "publishedAt": "2026-10-17T07:47:04.000Z",
-      "likes": 2477,
-      "collectedAt": "2026-11-01T15:30:16.556Z",
+      "likes": 2507,
+      "collectedAt": "2026-11-02T07:53:03.577Z",
       "keyword": "美少女游戏"
     },
     {
@@ -2378,8 +2452,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1psnb63Edz",
       "publishedAt": "2026-10-23T08:40:56.000Z",
-      "likes": 2215,
-      "collectedAt": "2026-11-01T15:29:13.111Z",
+      "likes": 2248,
+      "collectedAt": "2026-11-02T07:51:54.615Z",
       "keyword": "gal游戏"
     },
     {
@@ -2402,7 +2476,7 @@
       "url": "https://www.bilibili.com/video/BV1C2nt6TEgT",
       "publishedAt": "2026-10-23T10:45:33.000Z",
       "likes": 2163,
-      "collectedAt": "2026-11-01T15:30:18.880Z",
+      "collectedAt": "2026-11-02T07:53:03.577Z",
       "keyword": "美少女游戏"
     },
     {
@@ -2418,8 +2492,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1ZsHM6CExQ",
       "publishedAt": "2026-10-24T14:36:49.000Z",
-      "likes": 2544,
-      "collectedAt": "2026-11-01T15:28:34.690Z",
+      "likes": 2580,
+      "collectedAt": "2026-11-02T07:51:14.476Z",
       "keyword": "galgame"
     },
     {
@@ -2435,8 +2509,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1ounv61E2n",
       "publishedAt": "2026-10-21T04:18:04.000Z",
-      "likes": 2583,
-      "collectedAt": "2026-11-01T15:28:35.729Z",
+      "likes": 2596,
+      "collectedAt": "2026-11-02T07:51:15.591Z",
       "keyword": "galgame"
     },
     {
@@ -2454,8 +2528,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1PuHP6uEF4",
       "publishedAt": "2026-10-24T08:03:15.000Z",
-      "likes": 1613,
-      "collectedAt": "2026-11-01T15:29:13.111Z",
+      "likes": 1624,
+      "collectedAt": "2026-11-02T07:51:54.615Z",
       "keyword": "gal游戏"
     },
     {
@@ -2472,8 +2546,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1ojnz64ESw",
       "publishedAt": "2026-10-21T11:20:45.000Z",
-      "likes": 1111,
-      "collectedAt": "2026-11-01T15:28:37.820Z",
+      "likes": 1121,
+      "collectedAt": "2026-11-02T07:51:17.834Z",
       "keyword": "galgame"
     },
     {
@@ -2491,8 +2565,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV18Jxe6mEYD",
       "publishedAt": "2026-10-30T03:31:57.000Z",
-      "likes": 1427,
-      "collectedAt": "2026-11-01T15:28:40.263Z",
+      "likes": 1442,
+      "collectedAt": "2026-11-02T07:51:20.498Z",
       "keyword": "galgame"
     },
     {
@@ -2512,8 +2586,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1BqJe6yEG3",
       "publishedAt": "2026-10-17T07:23:42.000Z",
-      "likes": 1519,
-      "collectedAt": "2026-11-01T15:29:14.150Z",
+      "likes": 1530,
+      "collectedAt": "2026-11-02T07:51:55.728Z",
       "keyword": "gal游戏"
     },
     {
@@ -2535,8 +2609,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1yYnZ6tEUF",
       "publishedAt": "2026-10-26T12:07:26.000Z",
-      "likes": 2634,
-      "collectedAt": "2026-11-01T15:29:15.741Z",
+      "likes": 2662,
+      "collectedAt": "2026-11-02T07:51:57.371Z",
       "keyword": "gal游戏"
     },
     {
@@ -2553,8 +2627,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1UEnJ6WE9Z",
       "publishedAt": "2026-10-19T10:31:35.000Z",
-      "likes": 1531,
-      "collectedAt": "2026-11-01T15:28:46.001Z",
+      "likes": 1536,
+      "collectedAt": "2026-11-02T07:51:32.645Z",
       "keyword": "galgame"
     },
     {
@@ -2570,8 +2644,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1LNJi65EeT",
       "publishedAt": "2026-10-17T12:11:33.000Z",
-      "likes": 1452,
-      "collectedAt": "2026-11-01T15:30:37.452Z",
+      "likes": 1475,
+      "collectedAt": "2026-11-02T07:53:23.025Z",
       "keyword": "美少女游戏"
     },
     {
@@ -2590,8 +2664,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1pUx769EZ8",
       "publishedAt": "2026-10-28T12:46:24.000Z",
-      "likes": 1684,
-      "collectedAt": "2026-11-01T15:28:49.692Z",
+      "likes": 1762,
+      "collectedAt": "2026-11-02T07:51:31.521Z",
       "keyword": "galgame"
     },
     {
@@ -2612,8 +2686,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV146Jv6hEuH",
       "publishedAt": "2026-10-17T13:19:14.000Z",
-      "likes": 2642,
-      "collectedAt": "2026-11-01T15:31:51.129Z",
+      "likes": 2665,
+      "collectedAt": "2026-11-02T07:54:41.993Z",
       "keyword": "galgame CG"
     },
     {
@@ -2634,8 +2708,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1AaJi6dETU",
       "publishedAt": "2026-10-17T11:10:44.000Z",
-      "likes": 2287,
-      "collectedAt": "2026-11-01T15:31:14.635Z",
+      "likes": 2311,
+      "collectedAt": "2026-11-02T07:54:02.980Z",
       "keyword": "视觉小说"
     },
     {
@@ -2655,8 +2729,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1pEJX6zEdJ",
       "publishedAt": "2026-10-18T12:15:00.000Z",
-      "likes": 1826,
-      "collectedAt": "2026-11-01T15:28:56.131Z",
+      "likes": 1831,
+      "collectedAt": "2026-11-02T07:51:38.438Z",
       "keyword": "galgame"
     },
     {
@@ -2675,8 +2749,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1suxY6iEZF",
       "publishedAt": "2026-10-30T06:28:33.000Z",
-      "likes": 1174,
-      "collectedAt": "2026-11-01T15:29:03.993Z",
+      "likes": 1186,
+      "collectedAt": "2026-11-02T07:51:47.326Z",
       "keyword": "galgame"
     },
     {
@@ -2694,8 +2768,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1j1xu69EKe",
       "publishedAt": "2026-10-27T12:12:39.000Z",
-      "likes": 1034,
-      "collectedAt": "2026-11-01T15:29:07.346Z",
+      "likes": 1068,
+      "collectedAt": "2026-11-02T07:51:49.569Z",
       "keyword": "galgame"
     },
     {
@@ -2717,8 +2791,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1egHN64EHb",
       "publishedAt": "2026-10-24T09:30:00.000Z",
-      "likes": 1436,
-      "collectedAt": "2026-11-01T15:29:08.390Z",
+      "likes": 1454,
+      "collectedAt": "2026-11-02T07:51:50.691Z",
       "keyword": "galgame"
     },
     {
@@ -2735,8 +2809,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1WYnc6wEva",
       "publishedAt": "2026-10-20T09:48:09.000Z",
-      "likes": 1289,
-      "collectedAt": "2026-11-01T15:29:14.150Z",
+      "likes": 1294,
+      "collectedAt": "2026-11-02T07:51:55.728Z",
       "keyword": "gal游戏"
     },
     {
@@ -2757,8 +2831,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1vnnr6aEfe",
       "publishedAt": "2026-10-21T14:40:24.000Z",
-      "likes": 1162,
-      "collectedAt": "2026-11-01T15:31:15.861Z",
+      "likes": 1203,
+      "collectedAt": "2026-11-02T07:54:05.417Z",
       "keyword": "视觉小说"
     },
     {
@@ -2781,7 +2855,7 @@
       "url": "https://www.bilibili.com/video/BV1dTnH6zEJz",
       "publishedAt": "2026-10-23T09:00:00.000Z",
       "likes": 1227,
-      "collectedAt": "2026-11-01T15:31:16.904Z",
+      "collectedAt": "2026-11-02T07:54:05.417Z",
       "keyword": "视觉小说"
     },
     {
@@ -2804,7 +2878,7 @@
       "url": "https://www.bilibili.com/video/BV1qSnc6nEMk",
       "publishedAt": "2026-10-20T09:01:07.000Z",
       "likes": 1204,
-      "collectedAt": "2026-11-01T15:31:16.905Z",
+      "collectedAt": "2026-11-02T07:54:06.530Z",
       "keyword": "视觉小说"
     },
     {
@@ -2826,8 +2900,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1XKxj6YEbv",
       "publishedAt": "2026-10-28T10:00:00.000Z",
-      "likes": 1841,
-      "collectedAt": "2026-11-01T15:29:20.957Z",
+      "likes": 1888,
+      "collectedAt": "2026-11-02T07:52:03.040Z",
       "keyword": "gal游戏"
     },
     {
@@ -2848,8 +2922,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1K1HK6pEjM",
       "publishedAt": "2026-10-24T10:10:34.000Z",
-      "likes": 1032,
-      "collectedAt": "2026-11-01T15:31:31.043Z",
+      "likes": 1045,
+      "collectedAt": "2026-11-02T07:54:20.676Z",
       "keyword": "视觉小说"
     },
     {
@@ -2871,8 +2945,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1XXJi63EXD",
       "publishedAt": "2026-10-18T01:00:00.000Z",
-      "likes": 1070,
-      "collectedAt": "2026-11-01T15:31:31.043Z",
+      "likes": 1076,
+      "collectedAt": "2026-11-02T07:54:20.676Z",
       "keyword": "视觉小说"
     },
     {
@@ -2894,8 +2968,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1NKJq6YEB4",
       "publishedAt": "2026-10-17T10:30:19.000Z",
-      "likes": 1627,
-      "collectedAt": "2026-11-01T15:29:37.763Z",
+      "likes": 1645,
+      "collectedAt": "2026-11-02T07:52:22.029Z",
       "keyword": "gal游戏"
     },
     {
@@ -2917,8 +2991,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1S3nS66EEJ",
       "publishedAt": "2026-10-26T02:00:00.000Z",
-      "likes": 1020,
-      "collectedAt": "2026-11-01T15:30:05.736Z",
+      "likes": 1022,
+      "collectedAt": "2026-11-02T07:52:49.864Z",
       "keyword": "美少女游戏"
     },
     {
@@ -2938,8 +3012,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1U2ni6uEzJ",
       "publishedAt": "2026-10-23T10:00:00.000Z",
-      "likes": 2575,
-      "collectedAt": "2026-11-01T15:30:10.443Z",
+      "likes": 2672,
+      "collectedAt": "2026-11-02T07:52:54.781Z",
       "keyword": "美少女游戏"
     },
     {
@@ -2958,7 +3032,7 @@
       "url": "https://www.bilibili.com/video/BV1ZwnY6kEPB",
       "publishedAt": "2026-10-24T02:30:00.000Z",
       "likes": 1448,
-      "collectedAt": "2026-11-01T15:30:12.905Z",
+      "collectedAt": "2026-11-02T07:52:58.344Z",
       "keyword": "美少女游戏"
     },
     {
@@ -2980,8 +3054,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV16Qn86rEZM",
       "publishedAt": "2026-10-23T12:39:20.000Z",
-      "likes": 1896,
-      "collectedAt": "2026-11-01T15:30:16.556Z",
+      "likes": 1903,
+      "collectedAt": "2026-11-02T07:53:03.577Z",
       "keyword": "美少女游戏"
     },
     {
@@ -3000,7 +3074,7 @@
       "url": "https://www.bilibili.com/video/BV1yenc6hEYN",
       "publishedAt": "2026-10-20T10:01:30.000Z",
       "likes": 1577,
-      "collectedAt": "2026-11-01T15:30:18.880Z",
+      "collectedAt": "2026-11-02T07:53:04.690Z",
       "keyword": "美少女游戏"
     },
     {
@@ -3017,7 +3091,7 @@
       "url": "https://www.bilibili.com/video/BV1NUnp6hESK",
       "publishedAt": "2026-10-22T20:57:42.000Z",
       "likes": 1358,
-      "collectedAt": "2026-11-01T15:30:24.836Z",
+      "collectedAt": "2026-11-02T07:53:10.986Z",
       "keyword": "美少女游戏"
     },
     {
@@ -3038,8 +3112,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1TqxL6WEHg",
       "publishedAt": "2026-10-28T08:19:54.000Z",
-      "likes": 2641,
-      "collectedAt": "2026-11-01T15:30:29.448Z",
+      "likes": 2729,
+      "collectedAt": "2026-11-02T07:53:14.593Z",
       "keyword": "美少女游戏"
     },
     {
@@ -3056,8 +3130,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1Nxng6ZECg",
       "publishedAt": "2026-10-18T11:00:00.000Z",
-      "likes": 1334,
-      "collectedAt": "2026-11-01T15:30:32.595Z",
+      "likes": 1339,
+      "collectedAt": "2026-11-02T07:53:19.150Z",
       "keyword": "美少女游戏"
     },
     {
@@ -3078,7 +3152,7 @@
       "url": "https://www.bilibili.com/video/BV1RWHP6ZEu2",
       "publishedAt": "2026-10-24T08:44:20.000Z",
       "likes": 1018,
-      "collectedAt": "2026-11-01T15:30:39.536Z",
+      "collectedAt": "2026-11-02T07:53:26.387Z",
       "keyword": "美少女游戏"
     },
     {
@@ -3100,8 +3174,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1NjnP66EkU",
       "publishedAt": "2026-10-20T11:20:23.000Z",
-      "likes": 1299,
-      "collectedAt": "2026-11-01T15:30:40.578Z",
+      "likes": 1300,
+      "collectedAt": "2026-11-02T07:53:27.503Z",
       "keyword": "美少女游戏"
     },
     {
@@ -3123,8 +3197,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1jeJX6bEoA",
       "publishedAt": "2026-10-17T04:00:00.000Z",
-      "likes": 1433,
-      "collectedAt": "2026-11-01T15:30:47.898Z",
+      "likes": 1439,
+      "collectedAt": "2026-11-02T07:53:34.222Z",
       "keyword": "美少女游戏"
     },
     {
@@ -3147,8 +3221,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1nQJY6jEVT",
       "publishedAt": "2026-10-17T01:18:18.000Z",
-      "likes": 1778,
-      "collectedAt": "2026-11-01T15:30:51.051Z",
+      "likes": 1783,
+      "collectedAt": "2026-11-02T07:53:37.776Z",
       "keyword": "美少女游戏"
     },
     {
@@ -3170,8 +3244,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1m2nF6YEKV",
       "publishedAt": "2026-10-20T22:42:00.000Z",
-      "likes": 1271,
-      "collectedAt": "2026-11-01T15:30:52.091Z",
+      "likes": 1279,
+      "collectedAt": "2026-11-02T07:53:38.898Z",
       "keyword": "美少女游戏"
     },
     {
@@ -3193,8 +3267,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV12dnL6kERH",
       "publishedAt": "2026-10-19T03:30:00.000Z",
-      "likes": 1064,
-      "collectedAt": "2026-11-01T15:30:53.133Z",
+      "likes": 1071,
+      "collectedAt": "2026-11-02T07:53:40.020Z",
       "keyword": "美少女游戏"
     },
     {
@@ -3211,8 +3285,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1CsJR6VE1h",
       "publishedAt": "2026-10-21T03:05:00.000Z",
-      "likes": 2051,
-      "collectedAt": "2026-11-01T15:30:59.933Z",
+      "likes": 2079,
+      "collectedAt": "2026-11-02T07:53:47.251Z",
       "keyword": "视觉小说"
     },
     {
@@ -3235,7 +3309,7 @@
       "url": "https://www.bilibili.com/video/BV1Tcnn6dEk4",
       "publishedAt": "2026-10-19T08:32:12.000Z",
       "likes": 2067,
-      "collectedAt": "2026-11-01T15:31:07.633Z",
+      "collectedAt": "2026-11-02T07:53:56.653Z",
       "keyword": "视觉小说"
     },
     {
@@ -3257,8 +3331,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1TVHG6BExH",
       "publishedAt": "2026-10-25T08:13:55.000Z",
-      "likes": 1609,
-      "collectedAt": "2026-11-01T15:31:08.676Z",
+      "likes": 1678,
+      "collectedAt": "2026-11-02T07:53:55.297Z",
       "keyword": "视觉小说"
     },
     {
@@ -3277,8 +3351,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1P2so6vEKK",
       "publishedAt": "2026-10-29T08:11:23.000Z",
-      "likes": 2995,
-      "collectedAt": "2026-11-01T15:31:12.005Z",
+      "likes": 3055,
+      "collectedAt": "2026-11-02T07:54:01.338Z",
       "keyword": "视觉小说"
     },
     {
@@ -3300,8 +3374,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1fyx16FEjK",
       "publishedAt": "2026-10-31T11:15:06.000Z",
-      "likes": 2027,
-      "collectedAt": "2026-11-01T15:31:13.058Z",
+      "likes": 2489,
+      "collectedAt": "2026-11-02T07:53:57.775Z",
       "keyword": "视觉小说"
     },
     {
@@ -3322,8 +3396,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1WVnp6sEUr",
       "publishedAt": "2026-10-22T12:46:41.000Z",
-      "likes": 1107,
-      "collectedAt": "2026-11-01T15:31:16.904Z",
+      "likes": 1133,
+      "collectedAt": "2026-11-02T07:54:05.417Z",
       "keyword": "视觉小说"
     },
     {
@@ -3345,8 +3419,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1VXsZ6JEuw",
       "publishedAt": "2026-10-29T09:00:00.000Z",
-      "likes": 1964,
-      "collectedAt": "2026-11-01T15:31:17.948Z",
+      "likes": 2099,
+      "collectedAt": "2026-11-02T07:54:06.530Z",
       "keyword": "视觉小说"
     },
     {
@@ -3367,8 +3441,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1iqn46sEZ2",
       "publishedAt": "2026-10-23T10:30:00.000Z",
-      "likes": 1498,
-      "collectedAt": "2026-11-01T15:31:18.991Z",
+      "likes": 1537,
+      "collectedAt": "2026-11-02T07:54:07.644Z",
       "keyword": "视觉小说"
     },
     {
@@ -3390,8 +3464,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1Z8xv6fEby",
       "publishedAt": "2026-10-30T09:05:18.000Z",
-      "likes": 1598,
-      "collectedAt": "2026-11-01T15:31:21.075Z",
+      "likes": 1658,
+      "collectedAt": "2026-11-02T07:54:08.768Z",
       "keyword": "视觉小说"
     },
     {
@@ -3409,8 +3483,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1ApHG6aEYg",
       "publishedAt": "2026-10-25T07:06:23.000Z",
-      "likes": 1082,
-      "collectedAt": "2026-11-01T15:31:22.136Z",
+      "likes": 1086,
+      "collectedAt": "2026-11-02T07:54:11.205Z",
       "keyword": "视觉小说"
     },
     {
@@ -3428,8 +3502,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1x4sZ6TE9z",
       "publishedAt": "2026-10-29T04:50:40.000Z",
-      "likes": 1265,
-      "collectedAt": "2026-11-01T15:31:26.339Z",
+      "likes": 1281,
+      "collectedAt": "2026-11-02T07:54:16.787Z",
       "keyword": "视觉小说"
     },
     {
@@ -3447,8 +3521,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1VknB6DEyq",
       "publishedAt": "2026-10-21T11:27:43.000Z",
-      "likes": 1959,
-      "collectedAt": "2026-11-01T15:31:27.386Z",
+      "likes": 1961,
+      "collectedAt": "2026-11-02T07:54:17.904Z",
       "keyword": "视觉小说"
     },
     {
@@ -3470,8 +3544,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV171x36aEqW",
       "publishedAt": "2026-10-30T07:18:54.000Z",
-      "likes": 2795,
-      "collectedAt": "2026-11-01T15:31:28.426Z",
+      "likes": 3222,
+      "collectedAt": "2026-11-02T07:54:15.674Z",
       "keyword": "视觉小说"
     },
     {
@@ -3493,8 +3567,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1fGnt68E8j",
       "publishedAt": "2026-10-23T03:00:07.000Z",
-      "likes": 1009,
-      "collectedAt": "2026-11-01T15:31:39.595Z",
+      "likes": 1018,
+      "collectedAt": "2026-11-02T07:54:29.828Z",
       "keyword": "视觉小说"
     },
     {
@@ -3513,8 +3587,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1tgnm6eEUi",
       "publishedAt": "2026-10-23T09:50:00.000Z",
-      "likes": 1044,
-      "collectedAt": "2026-11-01T15:31:49.542Z",
+      "likes": 1049,
+      "collectedAt": "2026-11-02T07:54:40.368Z",
       "keyword": "视觉小说"
     },
     {
@@ -3535,9 +3609,78 @@
       ],
       "url": "https://www.bilibili.com/video/BV1nBxF6qEgW",
       "publishedAt": "2026-10-29T09:12:50.000Z",
-      "likes": 2305,
-      "collectedAt": "2026-11-01T15:32:55.376Z",
+      "likes": 2321,
+      "collectedAt": "2026-11-02T07:55:49.804Z",
       "keyword": "galgame名场面"
+    },
+    {
+      "platform": "bilibili",
+      "id": "BV1m2n16cEWa",
+      "title": "弱不是罪，但是你这么弱，扛不住一下就..【依恋终端】",
+      "description": "-",
+      "tags": [
+        "动画种草激励计划",
+        "二次元",
+        "动漫",
+        "galgame",
+        "碧蓝航线",
+        "番剧",
+        "原图",
+        "星野",
+        "狂飙",
+        "巨星"
+      ],
+      "url": "https://www.bilibili.com/video/BV1m2n16cEWa",
+      "publishedAt": "2026-10-22T05:21:22.000Z",
+      "likes": 1079,
+      "collectedAt": "2026-11-02T07:50:54.639Z",
+      "keyword": "galgame"
+    },
+    {
+      "platform": "bilibili",
+      "id": "BV1qynd6GEk1",
+      "title": "新的炸鱼器已经出现！我的巴雷特又怎能停滞不前！",
+      "description": "-",
+      "tags": [
+        "动画种草激励计划",
+        "虚拟偶像",
+        "二次元",
+        "动漫",
+        "游戏",
+        "动画",
+        "斐济杯",
+        "galgame",
+        "番剧",
+        "圣杯"
+      ],
+      "url": "https://www.bilibili.com/video/BV1qynd6GEk1",
+      "publishedAt": "2026-10-26T09:22:15.000Z",
+      "likes": 1051,
+      "collectedAt": "2026-11-02T07:51:54.615Z",
+      "keyword": "gal游戏"
+    },
+    {
+      "platform": "bilibili",
+      "id": "BV1mzso6uEGG",
+      "title": "多结局攻略！你是黑道千金等了十年的青梅，生日这天她的未来由你决定？！【UP动画】",
+      "description": "🐱琳柚的片场生还报告：\n主人们！！本柚宣布！这次最大的拍摄事故，就是夜澜好像真的有点沉浸了！！Σ(っ °Д °;)っ\n明明只是给她过个生日，结果某人一换上那套衣服，气场直接从“一居室管家”升级成了“看一眼就知道惹不起的大小姐”……\n但主人们不要被正片骗了！！\n镜头里她负责优雅、帅气、危险迷人。\n镜头外是小柚我举着相机、调整机位、检查画面，以及承受苏导演无情的：\n“这条重拍。”\n“刚才那个角度不对。”\n“琳柚，别笑了。”\n可恶！！小柚我怎么感觉被她无情地当成了打工人！！😭\n不过嘛……能借着这次机会，看到夜澜姐姐这么多平时见不到的样子，好像也挺赚的？嘿嘿。(｡>∀<｡)♡\n总之！主人们一定要好好欣赏本柚辛辛苦苦拍出来的漂亮姐姐！！不许浪费！！🍊✨\n🐈‍⬛苏夜澜的生日留言：\n先纠正一下。某人所谓的“辛辛苦苦拍摄”，也包括每拍完一条就对着手机傻笑半天。\n不过这次确实拍得很开心。\n很少有机会尝试这样的角色，服装、镜头、表演方式都和平时不太一样。尤其是那些需要直视镜头的画面，放在以前，我大概会想尽办法躲过去。\n现在居然也能拍得这么自然了。\n其实每年过生日，我都不太习惯成为所有人关注的中心。比起热热闹闹地庆祝，我更习惯安静地把这一天过完。\n但今年不太一样。\n有人忙前忙后地折腾，有人愿意专门空出时间来看我，还有很多人，明明隔着屏幕，却已经陪我走过了不少以前不敢走的路。\n所以，今天就允许自己稍微任性一点，好好享受一次被大家惦记着的感觉。\n谢谢你们。\n对了，这次还特意留了一张生日合照给大家，原图会放在置顶评论。可以把自己喜欢的形象放进来，出现在我们身边。\n毕竟这个生日，最不能少的就是你们。❤",
+      "tags": [
+        "攻略",
+        "UP动画剧场",
+        "updream",
+        "UP动画",
+        "galgame",
+        "AI偶像",
+        "CP感",
+        "生日",
+        "动画",
+        "大小姐"
+      ],
+      "url": "https://www.bilibili.com/video/BV1mzso6uEGG",
+      "publishedAt": "2026-10-29T09:36:15.000Z",
+      "likes": 2172,
+      "collectedAt": "2026-11-02T07:51:51.813Z",
+      "keyword": "galgame"
     }
   ],
   "pending": [
@@ -3555,9 +3698,9 @@
       "kind": "video",
       "url": "https://www.douyin.com/video/7702722536806567206",
       "publishedAt": "2026-10-31T09:00:00+00:00",
-      "likes": 4119,
-      "collectedAt": "2026-11-01T15:22:34.621901+00:00",
-      "keyword": "galgame名场面",
+      "likes": 4485,
+      "collectedAt": "2026-11-02T07:44:12.272245+00:00",
+      "keyword": "gal游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
     },
@@ -3595,9 +3738,9 @@
       "kind": "image",
       "url": "https://www.douyin.com/note/7698527848591595702",
       "publishedAt": "2026-10-19T23:39:54+00:00",
-      "likes": 3275,
-      "collectedAt": "2026-11-01T15:20:34.648464+00:00",
-      "keyword": "galgame",
+      "likes": 3278,
+      "collectedAt": "2026-11-02T07:44:12.272282+00:00",
+      "keyword": "gal游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
     },
@@ -3618,8 +3761,8 @@
       "kind": "image",
       "url": "https://www.douyin.com/note/7699854528037314907",
       "publishedAt": "2026-10-23T13:28:06+00:00",
-      "likes": 5720,
-      "collectedAt": "2026-11-01T15:21:00.568066+00:00",
+      "likes": 5752,
+      "collectedAt": "2026-11-02T07:44:12.272311+00:00",
       "keyword": "gal游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -3639,8 +3782,8 @@
       "kind": "video",
       "url": "https://www.douyin.com/video/7699881438337846566",
       "publishedAt": "2026-10-23T15:26:47+00:00",
-      "likes": 4321,
-      "collectedAt": "2026-11-01T15:21:51.404574+00:00",
+      "likes": 4367,
+      "collectedAt": "2026-11-02T07:45:01.600167+00:00",
       "keyword": "视觉小说",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -3790,9 +3933,9 @@
       "kind": "video",
       "url": "https://www.douyin.com/video/7700553774951107880",
       "publishedAt": "2026-10-28T09:00:00+00:00",
-      "likes": 1093,
-      "collectedAt": "2026-11-01T15:21:00.567911+00:00",
-      "keyword": "gal游戏",
+      "likes": 1121,
+      "collectedAt": "2026-11-02T07:43:54.814751+00:00",
+      "keyword": "galgame",
       "reason": "没有找到明确作品名",
       "candidates": []
     },
@@ -3807,8 +3950,8 @@
       "kind": "image",
       "url": "https://www.douyin.com/note/7702408757908809883",
       "publishedAt": "2026-10-30T10:39:50+00:00",
-      "likes": 4012,
-      "collectedAt": "2026-11-01T15:21:00.568045+00:00",
+      "likes": 4349,
+      "collectedAt": "2026-11-02T07:44:12.272391+00:00",
       "keyword": "gal游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -3845,8 +3988,8 @@
       "kind": "video",
       "url": "https://www.douyin.com/video/7697865134430026745",
       "publishedAt": "2026-10-18T04:48:14+00:00",
-      "likes": 39024,
-      "collectedAt": "2026-11-01T15:22:34.621840+00:00",
+      "likes": 44160,
+      "collectedAt": "2026-11-02T07:45:56.117345+00:00",
       "keyword": "galgame名场面",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -3940,6 +4083,67 @@
       ]
     },
     {
+      "platform": "douyin",
+      "id": "7702750766691405075",
+      "title": "【夏季锁】冲动的惩罚！选择错误将会覆灭人生。 #galgame #单机游戏 #steam #青年创作者成长计划 #游戏杂谈",
+      "description": "",
+      "tags": [
+        "galgame",
+        "单机游戏",
+        "steam",
+        "青年创作者成长计划",
+        "游戏杂谈"
+      ],
+      "kind": "video",
+      "url": "https://www.douyin.com/video/7702750766691405075",
+      "publishedAt": "2026-10-31T08:47:08+00:00",
+      "likes": 2438,
+      "collectedAt": "2026-11-02T07:44:12.272348+00:00",
+      "keyword": "gal游戏",
+      "reason": "没有找到明确作品名",
+      "candidates": []
+    },
+    {
+      "platform": "douyin",
+      "id": "7699091349316445928",
+      "title": "通关300部gal老资历来教你们攻略宅妹 没有废话全是操作 #galgame #宅女 #宅男",
+      "description": "",
+      "tags": [
+        "galgame",
+        "宅女",
+        "宅男"
+      ],
+      "kind": "video",
+      "url": "https://www.douyin.com/video/7699091349316445928",
+      "publishedAt": "2026-10-21T12:06:35+00:00",
+      "likes": 1309,
+      "collectedAt": "2026-11-02T07:43:54.814869+00:00",
+      "keyword": "galgame",
+      "reason": "没有找到明确作品名",
+      "candidates": []
+    },
+    {
+      "platform": "douyin",
+      "id": "7702581501048687872",
+      "title": "从夯到拉评价帝国编年史全部女角色 #AVN #galgame #视觉小说 #帝国编年史#文字冒险 \n神作，无需多言",
+      "description": "",
+      "tags": [
+        "AVN",
+        "galgame",
+        "视觉小说",
+        "帝国编年史",
+        "文字冒险"
+      ],
+      "kind": "video",
+      "url": "https://www.douyin.com/video/7702581501048687872",
+      "publishedAt": "2026-10-30T21:50:21+00:00",
+      "likes": 2445,
+      "collectedAt": "2026-11-02T07:45:01.600143+00:00",
+      "keyword": "视觉小说",
+      "reason": "没有找到明确作品名",
+      "candidates": []
+    },
+    {
       "platform": "bilibili",
       "id": "BV1Qdny6NEUX",
       "title": "修炼我的忍道，仙境？只手可取而已【忍之恋】",
@@ -3958,8 +4162,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1Qdny6NEUX",
       "publishedAt": "2026-10-22T06:54:56.000Z",
-      "likes": 23602,
-      "collectedAt": "2026-11-01T15:29:12.065Z",
+      "likes": 24290,
+      "collectedAt": "2026-11-02T07:51:53.476Z",
       "keyword": "gal游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -3980,8 +4184,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1hjHT6cEx2",
       "publishedAt": "2026-10-24T19:21:23.000Z",
-      "likes": 33462,
-      "collectedAt": "2026-11-01T15:28:03.901Z",
+      "likes": 34098,
+      "collectedAt": "2026-11-02T07:50:40.347Z",
       "keyword": "galgame",
       "reason": "可能是二创、联动或其他游戏，需要核对原画面",
       "candidates": [
@@ -4001,8 +4205,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1Cenc6hEMh",
       "publishedAt": "2026-10-20T10:00:55.000Z",
-      "likes": 11452,
-      "collectedAt": "2026-11-01T15:28:04.949Z",
+      "likes": 11522,
+      "collectedAt": "2026-11-02T07:50:41.471Z",
       "keyword": "galgame",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -4025,8 +4229,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV11Anu69EbC",
       "publishedAt": "2026-10-21T10:00:00.000Z",
-      "likes": 6548,
-      "collectedAt": "2026-11-01T15:30:57.838Z",
+      "likes": 6673,
+      "collectedAt": "2026-11-02T07:53:45.009Z",
       "keyword": "视觉小说",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -4047,8 +4251,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1GyHG67Eh8",
       "publishedAt": "2026-10-25T05:39:27.000Z",
-      "likes": 15874,
-      "collectedAt": "2026-11-01T15:28:07.085Z",
+      "likes": 16319,
+      "collectedAt": "2026-11-02T07:50:43.736Z",
       "keyword": "galgame",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -4070,8 +4274,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1WpHG6aE9K",
       "publishedAt": "2026-10-25T09:00:00.000Z",
-      "likes": 18486,
-      "collectedAt": "2026-11-01T15:28:08.356Z",
+      "likes": 19299,
+      "collectedAt": "2026-11-02T07:50:46.392Z",
       "keyword": "galgame",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -4089,8 +4293,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1CDxk6bErn",
       "publishedAt": "2026-10-31T09:18:32.000Z",
-      "likes": 27358,
-      "collectedAt": "2026-11-01T15:29:13.111Z",
+      "likes": 29449,
+      "collectedAt": "2026-11-02T07:51:54.615Z",
       "keyword": "gal游戏",
       "reason": "可能是二创、联动或其他游戏，需要核对原画面",
       "candidates": [
@@ -4116,8 +4320,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1e4Jv6gESK",
       "publishedAt": "2026-10-17T05:09:06.000Z",
-      "likes": 3279,
-      "collectedAt": "2026-11-01T15:28:12.699Z",
+      "likes": 3289,
+      "collectedAt": "2026-11-02T07:50:53.525Z",
       "keyword": "galgame",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -4140,8 +4344,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV131JR6fE3T",
       "publishedAt": "2026-10-25T02:00:00.000Z",
-      "likes": 3859,
-      "collectedAt": "2026-11-01T15:30:58.888Z",
+      "likes": 3912,
+      "collectedAt": "2026-11-02T07:53:46.129Z",
       "keyword": "视觉小说",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -4164,8 +4368,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1Jbxq6uETU",
       "publishedAt": "2026-10-30T11:33:32.000Z",
-      "likes": 8823,
-      "collectedAt": "2026-11-01T15:28:19.156Z",
+      "likes": 9164,
+      "collectedAt": "2026-11-02T07:50:56.878Z",
       "keyword": "galgame",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -4187,8 +4391,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1uHnG6gEDo",
       "publishedAt": "2026-10-19T04:00:00.000Z",
-      "likes": 10460,
-      "collectedAt": "2026-11-01T15:30:16.556Z",
+      "likes": 10477,
+      "collectedAt": "2026-11-02T07:53:03.577Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -4206,8 +4410,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1qynd6GEks",
       "publishedAt": "2026-10-26T09:23:30.000Z",
-      "likes": 10192,
-      "collectedAt": "2026-11-01T15:29:13.111Z",
+      "likes": 10274,
+      "collectedAt": "2026-11-02T07:51:54.615Z",
       "keyword": "gal游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -4230,8 +4434,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1Y9nd6TEbj",
       "publishedAt": "2026-10-26T07:30:14.000Z",
-      "likes": 3322,
-      "collectedAt": "2026-11-01T15:28:26.158Z",
+      "likes": 3461,
+      "collectedAt": "2026-11-02T07:51:06.584Z",
       "keyword": "galgame",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -4255,8 +4459,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1sbxF6CExs",
       "publishedAt": "2026-10-29T08:17:03.000Z",
-      "likes": 3918,
-      "collectedAt": "2026-11-01T15:29:13.111Z",
+      "likes": 4270,
+      "collectedAt": "2026-11-02T07:51:54.615Z",
       "keyword": "gal游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -4280,8 +4484,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1zKJh6MEox",
       "publishedAt": "2026-10-17T06:00:00.000Z",
-      "likes": 7386,
-      "collectedAt": "2026-11-01T15:30:23.424Z",
+      "likes": 7400,
+      "collectedAt": "2026-11-02T07:53:09.452Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -4305,8 +4509,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1KEJe6oEmq",
       "publishedAt": "2026-10-17T09:28:56.000Z",
-      "likes": 5036,
-      "collectedAt": "2026-11-01T15:28:32.603Z",
+      "likes": 5056,
+      "collectedAt": "2026-11-02T07:51:13.356Z",
       "keyword": "galgame",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -4323,8 +4527,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1a8xK6TED7",
       "publishedAt": "2026-10-27T03:06:43.000Z",
-      "likes": 4354,
-      "collectedAt": "2026-11-01T15:31:05.342Z",
+      "likes": 4413,
+      "collectedAt": "2026-11-02T07:53:53.066Z",
       "keyword": "视觉小说",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -4342,8 +4546,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV17Lnj6fENe",
       "publishedAt": "2026-10-19T01:53:55.000Z",
-      "likes": 3620,
-      "collectedAt": "2026-11-01T15:31:08.676Z",
+      "likes": 3662,
+      "collectedAt": "2026-11-02T07:53:57.775Z",
       "keyword": "视觉小说",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -4365,8 +4569,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1Lxxk62EER",
       "publishedAt": "2026-10-31T03:30:00.000Z",
-      "likes": 4194,
-      "collectedAt": "2026-11-01T15:29:15.741Z",
+      "likes": 4385,
+      "collectedAt": "2026-11-02T07:51:57.371Z",
       "keyword": "gal游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -4387,8 +4591,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1TNne68EcN",
       "publishedAt": "2026-10-24T03:30:00.000Z",
-      "likes": 3122,
-      "collectedAt": "2026-11-01T15:29:15.741Z",
+      "likes": 3147,
+      "collectedAt": "2026-11-02T07:51:57.371Z",
       "keyword": "gal游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -4413,7 +4617,7 @@
       "url": "https://www.bilibili.com/video/BV1EWnp6mEJR",
       "publishedAt": "2026-10-22T13:10:00.000Z",
       "likes": 5062,
-      "collectedAt": "2026-11-01T15:31:14.635Z",
+      "collectedAt": "2026-11-02T07:54:02.980Z",
       "keyword": "视觉小说",
       "reason": "可能是二创、联动或其他游戏，需要核对原画面",
       "candidates": [
@@ -4474,8 +4678,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1bVJe6cEaW",
       "publishedAt": "2026-10-17T10:00:00.000Z",
-      "likes": 7187,
-      "collectedAt": "2026-11-01T15:29:13.111Z",
+      "likes": 7247,
+      "collectedAt": "2026-11-02T07:51:54.615Z",
       "keyword": "gal游戏",
       "reason": "介绍涉及整个系列或多个游戏，需要核对具体条目",
       "candidates": [
@@ -4501,8 +4705,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1swnt6MELq",
       "publishedAt": "2026-10-23T02:38:45.000Z",
-      "likes": 17091,
-      "collectedAt": "2026-11-01T15:29:52.970Z",
+      "likes": 17223,
+      "collectedAt": "2026-11-02T07:52:37.325Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -4526,8 +4730,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1Xvnw6UEUw",
       "publishedAt": "2026-10-23T09:30:00.000Z",
-      "likes": 11331,
-      "collectedAt": "2026-11-01T15:29:54.014Z",
+      "likes": 11353,
+      "collectedAt": "2026-11-02T07:52:38.447Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -4551,8 +4755,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1Evnb6eEqm",
       "publishedAt": "2026-10-25T09:30:00.000Z",
-      "likes": 11275,
-      "collectedAt": "2026-11-01T15:29:55.057Z",
+      "likes": 11277,
+      "collectedAt": "2026-11-02T07:52:40.689Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -4574,8 +4778,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1VVJB62E3p",
       "publishedAt": "2026-10-18T04:00:00.000Z",
-      "likes": 9337,
-      "collectedAt": "2026-11-01T15:29:56.121Z",
+      "likes": 9428,
+      "collectedAt": "2026-11-02T07:52:39.568Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -4599,8 +4803,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1BUn26UE9d",
       "publishedAt": "2026-10-22T10:27:43.000Z",
-      "likes": 11932,
-      "collectedAt": "2026-11-01T15:29:57.163Z",
+      "likes": 11948,
+      "collectedAt": "2026-11-02T07:52:41.823Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -4624,7 +4828,7 @@
       "url": "https://www.bilibili.com/video/BV1psn46YEc8",
       "publishedAt": "2026-10-23T12:00:00.000Z",
       "likes": 11672,
-      "collectedAt": "2026-11-01T15:29:58.205Z",
+      "collectedAt": "2026-11-02T07:52:42.939Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -4648,8 +4852,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV14xJB6BEu4",
       "publishedAt": "2026-10-18T01:00:00.000Z",
-      "likes": 5019,
-      "collectedAt": "2026-11-01T15:30:00.314Z",
+      "likes": 5048,
+      "collectedAt": "2026-11-02T07:52:45.186Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -4673,8 +4877,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1jKnd6uEtp",
       "publishedAt": "2026-10-26T09:52:23.000Z",
-      "likes": 9479,
-      "collectedAt": "2026-11-01T15:30:02.410Z",
+      "likes": 9481,
+      "collectedAt": "2026-11-02T07:52:47.431Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -4697,8 +4901,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1QXJi63EJp",
       "publishedAt": "2026-10-17T11:46:07.000Z",
-      "likes": 7314,
-      "collectedAt": "2026-11-01T15:30:03.458Z",
+      "likes": 7318,
+      "collectedAt": "2026-11-02T07:52:48.545Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -4722,8 +4926,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV13Qnb6XEVo",
       "publishedAt": "2026-10-25T04:00:00.000Z",
-      "likes": 7031,
-      "collectedAt": "2026-11-01T15:30:04.500Z",
+      "likes": 7032,
+      "collectedAt": "2026-11-02T07:52:50.979Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -4747,8 +4951,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV14Enb6LEi9",
       "publishedAt": "2026-10-24T04:00:00.000Z",
-      "likes": 7463,
-      "collectedAt": "2026-11-01T15:30:06.777Z",
+      "likes": 7464,
+      "collectedAt": "2026-11-02T07:52:52.093Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -4772,8 +4976,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1bYJY6tEeo",
       "publishedAt": "2026-10-17T02:09:21.000Z",
-      "likes": 10627,
-      "collectedAt": "2026-11-01T15:30:08.359Z",
+      "likes": 10688,
+      "collectedAt": "2026-11-02T07:52:53.654Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -4794,8 +4998,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1ZZn86qEg7",
       "publishedAt": "2026-10-23T12:32:55.000Z",
-      "likes": 5216,
-      "collectedAt": "2026-11-01T15:30:09.401Z",
+      "likes": 5217,
+      "collectedAt": "2026-11-02T07:52:57.221Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -4819,8 +5023,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1bUnm6qEeJ",
       "publishedAt": "2026-10-23T09:00:00.000Z",
-      "likes": 6738,
-      "collectedAt": "2026-11-01T15:30:11.861Z",
+      "likes": 6775,
+      "collectedAt": "2026-11-02T07:52:56.106Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -4843,8 +5047,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1Ehxv6FEMe",
       "publishedAt": "2026-10-30T09:04:45.000Z",
-      "likes": 3258,
-      "collectedAt": "2026-11-01T15:30:13.947Z",
+      "likes": 3435,
+      "collectedAt": "2026-11-02T07:52:59.460Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -4868,8 +5072,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1Z1xC6DErt",
       "publishedAt": "2026-10-31T08:01:47.000Z",
-      "likes": 9742,
-      "collectedAt": "2026-11-01T15:30:17.782Z",
+      "likes": 9858,
+      "collectedAt": "2026-11-02T07:53:02.445Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -4891,8 +5095,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1e5nv6GE3V",
       "publishedAt": "2026-10-21T04:04:55.000Z",
-      "likes": 3117,
-      "collectedAt": "2026-11-01T15:30:19.936Z",
+      "likes": 3121,
+      "collectedAt": "2026-11-02T07:53:05.870Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -4916,8 +5120,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1tQnS6VEar",
       "publishedAt": "2026-10-26T00:05:00.000Z",
-      "likes": 6123,
-      "collectedAt": "2026-11-01T15:30:21.340Z",
+      "likes": 6151,
+      "collectedAt": "2026-11-02T07:53:07.208Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -4939,8 +5143,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV18mnm6MEUS",
       "publishedAt": "2026-10-22T08:00:56.000Z",
-      "likes": 3277,
-      "collectedAt": "2026-11-01T15:30:26.930Z",
+      "likes": 3279,
+      "collectedAt": "2026-11-02T07:53:13.236Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -4963,8 +5167,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1YKnb6WEju",
       "publishedAt": "2026-10-23T09:34:40.000Z",
-      "likes": 3496,
-      "collectedAt": "2026-11-01T15:30:28.165Z",
+      "likes": 3499,
+      "collectedAt": "2026-11-02T07:53:15.796Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -4988,8 +5192,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1waH56PEE1",
       "publishedAt": "2026-10-25T10:01:32.000Z",
-      "likes": 3921,
-      "collectedAt": "2026-11-01T15:30:41.619Z",
+      "likes": 3980,
+      "collectedAt": "2026-11-02T07:53:28.617Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -5010,8 +5214,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1jhxc6wEqr",
       "publishedAt": "2026-10-31T03:56:43.000Z",
-      "likes": 10311,
-      "collectedAt": "2026-11-01T15:30:57.838Z",
+      "likes": 11441,
+      "collectedAt": "2026-11-02T07:53:45.009Z",
       "keyword": "视觉小说",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -5035,8 +5239,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1joxL66E5i",
       "publishedAt": "2026-10-29T10:00:00.000Z",
-      "likes": 4546,
-      "collectedAt": "2026-11-01T15:31:02.019Z",
+      "likes": 4698,
+      "collectedAt": "2026-11-02T07:53:49.499Z",
       "keyword": "视觉小说",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -5060,8 +5264,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1wGJq6bEv8",
       "publishedAt": "2026-10-17T10:09:11.000Z",
-      "likes": 3361,
-      "collectedAt": "2026-11-01T15:31:03.061Z",
+      "likes": 3374,
+      "collectedAt": "2026-11-02T07:53:50.620Z",
       "keyword": "视觉小说",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -5085,11 +5289,39 @@
       ],
       "url": "https://www.bilibili.com/video/BV1UQnB6CET8",
       "publishedAt": "2026-10-21T12:28:46.000Z",
-      "likes": 4589,
-      "collectedAt": "2026-11-01T15:31:05.342Z",
+      "likes": 4653,
+      "collectedAt": "2026-11-02T07:53:53.066Z",
       "keyword": "视觉小说",
       "reason": "没有找到明确作品名",
       "candidates": []
+    },
+    {
+      "platform": "bilibili",
+      "id": "BV1HRxg6iEnx",
+      "title": "挚友就得念作妻子啊~友谊变质的校园日常！【恋爱喜剧突转】男主-阳木大和线【配音实况】",
+      "description": "☆游戏:ラブコメスイッチ/恋爱喜剧突转\nhttps://novelgame.jp/games/show/14081\n☆汉化:晓柯同文馆www.kyoka.cn\n☆片头曲:Naomile–僕は君に恋をする\n\n..-. --- .-. . ...- . .-. \n\n「你俩要好好的啊！就这样玩出了淡淡的幸福感……」",
+      "tags": [
+        "独立游戏",
+        "整点电子榨菜",
+        "游戏鉴赏家",
+        "视觉小说",
+        "游戏实况",
+        "实况解说",
+        "纯爱",
+        "娱乐",
+        "搞笑",
+        "恐怖"
+      ],
+      "url": "https://www.bilibili.com/video/BV1HRxg6iEnx",
+      "publishedAt": "2026-10-30T09:30:00.000Z",
+      "likes": 3557,
+      "collectedAt": "2026-11-02T07:53:58.899Z",
+      "keyword": "视觉小说",
+      "reason": "涉及多个作品或名称有歧义",
+      "candidates": [
+        "v65742",
+        "v10078"
+      ]
     },
     {
       "platform": "bilibili",
@@ -5109,8 +5341,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1fox767EaQ",
       "publishedAt": "2026-10-28T10:59:20.000Z",
-      "likes": 3524,
-      "collectedAt": "2026-11-01T15:31:10.774Z",
+      "likes": 3626,
+      "collectedAt": "2026-11-02T07:54:00.016Z",
       "keyword": "视觉小说",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -5307,8 +5539,9 @@
       "likes": 3078,
       "collectedAt": "2026-11-01T14:59:07.486Z",
       "keyword": "CLANNAD",
-      "reason": "需要区分游戏与动画等改编画面",
+      "reason": "涉及多个作品或名称有歧义",
       "candidates": [
+        "v2561",
         "v4"
       ]
     },
@@ -5535,8 +5768,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1kmn865EVm",
       "publishedAt": "2026-10-23T14:13:12.000Z",
-      "likes": 2702,
-      "collectedAt": "2026-11-01T15:28:10.615Z",
+      "likes": 2717,
+      "collectedAt": "2026-11-02T07:50:48.827Z",
       "keyword": "galgame",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -5560,8 +5793,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1dYHM6MEYc",
       "publishedAt": "2026-10-24T15:06:18.000Z",
-      "likes": 1852,
-      "collectedAt": "2026-11-01T15:29:13.111Z",
+      "likes": 1925,
+      "collectedAt": "2026-11-02T07:51:54.615Z",
       "keyword": "gal游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -5579,8 +5812,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1Yuxu6EEs4",
       "publishedAt": "2026-10-28T10:00:00.000Z",
-      "likes": 2757,
-      "collectedAt": "2026-11-01T15:30:57.838Z",
+      "likes": 2850,
+      "collectedAt": "2026-11-02T07:53:45.009Z",
       "keyword": "视觉小说",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -5604,8 +5837,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1ybnd6pEok",
       "publishedAt": "2026-10-26T08:39:53.000Z",
-      "likes": 2943,
-      "collectedAt": "2026-11-01T15:28:14.960Z",
+      "likes": 2946,
+      "collectedAt": "2026-11-02T07:50:55.754Z",
       "keyword": "galgame",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -5621,8 +5854,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1bZsd6MEBd",
       "publishedAt": "2026-10-29T01:16:17.000Z",
-      "likes": 2649,
-      "collectedAt": "2026-11-01T15:28:16.003Z",
+      "likes": 6004,
+      "collectedAt": "2026-11-02T07:50:44.848Z",
       "keyword": "galgame",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -5643,8 +5876,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1XQxC62Ev4",
       "publishedAt": "2026-10-31T07:39:13.000Z",
-      "likes": 2635,
-      "collectedAt": "2026-11-01T15:29:13.111Z",
+      "likes": 3534,
+      "collectedAt": "2026-11-02T07:51:54.615Z",
       "keyword": "gal游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -5668,8 +5901,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1HhJe6UEtz",
       "publishedAt": "2026-10-17T07:47:04.000Z",
-      "likes": 2477,
-      "collectedAt": "2026-11-01T15:30:16.556Z",
+      "likes": 2507,
+      "collectedAt": "2026-11-02T07:53:03.577Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -5693,8 +5926,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1psnb63Edz",
       "publishedAt": "2026-10-23T08:40:56.000Z",
-      "likes": 2215,
-      "collectedAt": "2026-11-01T15:29:13.111Z",
+      "likes": 2248,
+      "collectedAt": "2026-11-02T07:51:54.615Z",
       "keyword": "gal游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -5719,7 +5952,7 @@
       "url": "https://www.bilibili.com/video/BV1C2nt6TEgT",
       "publishedAt": "2026-10-23T10:45:33.000Z",
       "likes": 2163,
-      "collectedAt": "2026-11-01T15:30:18.880Z",
+      "collectedAt": "2026-11-02T07:53:03.577Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -5737,8 +5970,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1ZsHM6CExQ",
       "publishedAt": "2026-10-24T14:36:49.000Z",
-      "likes": 2544,
-      "collectedAt": "2026-11-01T15:28:34.690Z",
+      "likes": 2580,
+      "collectedAt": "2026-11-02T07:51:14.476Z",
       "keyword": "galgame",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -5756,8 +5989,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1ounv61E2n",
       "publishedAt": "2026-10-21T04:18:04.000Z",
-      "likes": 2583,
-      "collectedAt": "2026-11-01T15:28:35.729Z",
+      "likes": 2596,
+      "collectedAt": "2026-11-02T07:51:15.591Z",
       "keyword": "galgame",
       "reason": "可能是二创、联动或其他游戏，需要核对原画面",
       "candidates": [
@@ -5778,8 +6011,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1ojnz64ESw",
       "publishedAt": "2026-10-21T11:20:45.000Z",
-      "likes": 1111,
-      "collectedAt": "2026-11-01T15:28:37.820Z",
+      "likes": 1121,
+      "collectedAt": "2026-11-02T07:51:17.834Z",
       "keyword": "galgame",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -5799,32 +6032,9 @@
       ],
       "url": "https://www.bilibili.com/video/BV18Jxe6mEYD",
       "publishedAt": "2026-10-30T03:31:57.000Z",
-      "likes": 1427,
-      "collectedAt": "2026-11-01T15:28:40.263Z",
+      "likes": 1442,
+      "collectedAt": "2026-11-02T07:51:20.498Z",
       "keyword": "galgame",
-      "reason": "没有找到明确作品名",
-      "candidates": []
-    },
-    {
-      "platform": "bilibili",
-      "id": "BV1BqJe6yEG3",
-      "title": "雨宫美亚的告白",
-      "description": "夏日聚集地",
-      "tags": [
-        "单机游戏",
-        "剧情",
-        "vrc",
-        "3d",
-        "galgame",
-        "GAL",
-        "娱乐",
-        "演示"
-      ],
-      "url": "https://www.bilibili.com/video/BV1BqJe6yEG3",
-      "publishedAt": "2026-10-17T07:23:42.000Z",
-      "likes": 1519,
-      "collectedAt": "2026-11-01T15:29:14.150Z",
-      "keyword": "gal游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
     },
@@ -5847,8 +6057,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1yYnZ6tEUF",
       "publishedAt": "2026-10-26T12:07:26.000Z",
-      "likes": 2634,
-      "collectedAt": "2026-11-01T15:29:15.741Z",
+      "likes": 2662,
+      "collectedAt": "2026-11-02T07:51:57.371Z",
       "keyword": "gal游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -5867,8 +6077,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1UEnJ6WE9Z",
       "publishedAt": "2026-10-19T10:31:35.000Z",
-      "likes": 1531,
-      "collectedAt": "2026-11-01T15:28:46.001Z",
+      "likes": 1536,
+      "collectedAt": "2026-11-02T07:51:32.645Z",
       "keyword": "galgame",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -5889,8 +6099,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1pUx769EZ8",
       "publishedAt": "2026-10-28T12:46:24.000Z",
-      "likes": 1684,
-      "collectedAt": "2026-11-01T15:28:49.692Z",
+      "likes": 1762,
+      "collectedAt": "2026-11-02T07:51:31.521Z",
       "keyword": "galgame",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -5913,8 +6123,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV146Jv6hEuH",
       "publishedAt": "2026-10-17T13:19:14.000Z",
-      "likes": 2642,
-      "collectedAt": "2026-11-01T15:31:51.129Z",
+      "likes": 2665,
+      "collectedAt": "2026-11-02T07:54:41.993Z",
       "keyword": "galgame CG",
       "reason": "涉及多个作品或名称有歧义",
       "candidates": [
@@ -5940,8 +6150,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1AaJi6dETU",
       "publishedAt": "2026-10-17T11:10:44.000Z",
-      "likes": 2287,
-      "collectedAt": "2026-11-01T15:31:14.635Z",
+      "likes": 2311,
+      "collectedAt": "2026-11-02T07:54:02.980Z",
       "keyword": "视觉小说",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -5963,8 +6173,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1pEJX6zEdJ",
       "publishedAt": "2026-10-18T12:15:00.000Z",
-      "likes": 1826,
-      "collectedAt": "2026-11-01T15:28:56.131Z",
+      "likes": 1831,
+      "collectedAt": "2026-11-02T07:51:38.438Z",
       "keyword": "galgame",
       "reason": "涉及多个作品或名称有歧义",
       "candidates": [
@@ -5988,8 +6198,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1suxY6iEZF",
       "publishedAt": "2026-10-30T06:28:33.000Z",
-      "likes": 1174,
-      "collectedAt": "2026-11-01T15:29:03.993Z",
+      "likes": 1186,
+      "collectedAt": "2026-11-02T07:51:47.326Z",
       "keyword": "galgame",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -6009,8 +6219,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1j1xu69EKe",
       "publishedAt": "2026-10-27T12:12:39.000Z",
-      "likes": 1034,
-      "collectedAt": "2026-11-01T15:29:07.346Z",
+      "likes": 1068,
+      "collectedAt": "2026-11-02T07:51:49.569Z",
       "keyword": "galgame",
       "reason": "需要区分游戏与动画等改编画面",
       "candidates": [
@@ -6036,8 +6246,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1egHN64EHb",
       "publishedAt": "2026-10-24T09:30:00.000Z",
-      "likes": 1436,
-      "collectedAt": "2026-11-01T15:29:08.390Z",
+      "likes": 1454,
+      "collectedAt": "2026-11-02T07:51:50.691Z",
       "keyword": "galgame",
       "reason": "涉及多个作品或名称有歧义",
       "candidates": [
@@ -6059,8 +6269,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1WYnc6wEva",
       "publishedAt": "2026-10-20T09:48:09.000Z",
-      "likes": 1289,
-      "collectedAt": "2026-11-01T15:29:14.150Z",
+      "likes": 1294,
+      "collectedAt": "2026-11-02T07:51:55.728Z",
       "keyword": "gal游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -6085,7 +6295,7 @@
       "url": "https://www.bilibili.com/video/BV1dTnH6zEJz",
       "publishedAt": "2026-10-23T09:00:00.000Z",
       "likes": 1227,
-      "collectedAt": "2026-11-01T15:31:16.904Z",
+      "collectedAt": "2026-11-02T07:54:05.417Z",
       "keyword": "视觉小说",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -6110,7 +6320,7 @@
       "url": "https://www.bilibili.com/video/BV1qSnc6nEMk",
       "publishedAt": "2026-10-20T09:01:07.000Z",
       "likes": 1204,
-      "collectedAt": "2026-11-01T15:31:16.905Z",
+      "collectedAt": "2026-11-02T07:54:06.530Z",
       "keyword": "视觉小说",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -6134,8 +6344,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1XXJi63EXD",
       "publishedAt": "2026-10-18T01:00:00.000Z",
-      "likes": 1070,
-      "collectedAt": "2026-11-01T15:31:31.043Z",
+      "likes": 1076,
+      "collectedAt": "2026-11-02T07:54:20.676Z",
       "keyword": "视觉小说",
       "reason": "需要区分游戏与动画等改编画面",
       "candidates": [
@@ -6161,8 +6371,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1NKJq6YEB4",
       "publishedAt": "2026-10-17T10:30:19.000Z",
-      "likes": 1627,
-      "collectedAt": "2026-11-01T15:29:37.763Z",
+      "likes": 1645,
+      "collectedAt": "2026-11-02T07:52:22.029Z",
       "keyword": "gal游戏",
       "reason": "需要区分游戏与动画等改编画面",
       "candidates": [
@@ -6188,8 +6398,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1S3nS66EEJ",
       "publishedAt": "2026-10-26T02:00:00.000Z",
-      "likes": 1020,
-      "collectedAt": "2026-11-01T15:30:05.736Z",
+      "likes": 1022,
+      "collectedAt": "2026-11-02T07:52:49.864Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -6211,8 +6421,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1U2ni6uEzJ",
       "publishedAt": "2026-10-23T10:00:00.000Z",
-      "likes": 2575,
-      "collectedAt": "2026-11-01T15:30:10.443Z",
+      "likes": 2672,
+      "collectedAt": "2026-11-02T07:52:54.781Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -6233,7 +6443,7 @@
       "url": "https://www.bilibili.com/video/BV1ZwnY6kEPB",
       "publishedAt": "2026-10-24T02:30:00.000Z",
       "likes": 1448,
-      "collectedAt": "2026-11-01T15:30:12.905Z",
+      "collectedAt": "2026-11-02T07:52:58.344Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -6257,8 +6467,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV16Qn86rEZM",
       "publishedAt": "2026-10-23T12:39:20.000Z",
-      "likes": 1896,
-      "collectedAt": "2026-11-01T15:30:16.556Z",
+      "likes": 1903,
+      "collectedAt": "2026-11-02T07:53:03.577Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -6279,7 +6489,7 @@
       "url": "https://www.bilibili.com/video/BV1yenc6hEYN",
       "publishedAt": "2026-10-20T10:01:30.000Z",
       "likes": 1577,
-      "collectedAt": "2026-11-01T15:30:18.880Z",
+      "collectedAt": "2026-11-02T07:53:04.690Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -6298,7 +6508,7 @@
       "url": "https://www.bilibili.com/video/BV1NUnp6hESK",
       "publishedAt": "2026-10-22T20:57:42.000Z",
       "likes": 1358,
-      "collectedAt": "2026-11-01T15:30:24.836Z",
+      "collectedAt": "2026-11-02T07:53:10.986Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -6321,8 +6531,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1TqxL6WEHg",
       "publishedAt": "2026-10-28T08:19:54.000Z",
-      "likes": 2641,
-      "collectedAt": "2026-11-01T15:30:29.448Z",
+      "likes": 2729,
+      "collectedAt": "2026-11-02T07:53:14.593Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -6341,8 +6551,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1Nxng6ZECg",
       "publishedAt": "2026-10-18T11:00:00.000Z",
-      "likes": 1334,
-      "collectedAt": "2026-11-01T15:30:32.595Z",
+      "likes": 1339,
+      "collectedAt": "2026-11-02T07:53:19.150Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -6365,7 +6575,7 @@
       "url": "https://www.bilibili.com/video/BV1RWHP6ZEu2",
       "publishedAt": "2026-10-24T08:44:20.000Z",
       "likes": 1018,
-      "collectedAt": "2026-11-01T15:30:39.536Z",
+      "collectedAt": "2026-11-02T07:53:26.387Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -6389,8 +6599,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1NjnP66EkU",
       "publishedAt": "2026-10-20T11:20:23.000Z",
-      "likes": 1299,
-      "collectedAt": "2026-11-01T15:30:40.578Z",
+      "likes": 1300,
+      "collectedAt": "2026-11-02T07:53:27.503Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -6414,8 +6624,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1jeJX6bEoA",
       "publishedAt": "2026-10-17T04:00:00.000Z",
-      "likes": 1433,
-      "collectedAt": "2026-11-01T15:30:47.898Z",
+      "likes": 1439,
+      "collectedAt": "2026-11-02T07:53:34.222Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -6440,8 +6650,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1nQJY6jEVT",
       "publishedAt": "2026-10-17T01:18:18.000Z",
-      "likes": 1778,
-      "collectedAt": "2026-11-01T15:30:51.051Z",
+      "likes": 1783,
+      "collectedAt": "2026-11-02T07:53:37.776Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -6465,8 +6675,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1m2nF6YEKV",
       "publishedAt": "2026-10-20T22:42:00.000Z",
-      "likes": 1271,
-      "collectedAt": "2026-11-01T15:30:52.091Z",
+      "likes": 1279,
+      "collectedAt": "2026-11-02T07:53:38.898Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -6490,8 +6700,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV12dnL6kERH",
       "publishedAt": "2026-10-19T03:30:00.000Z",
-      "likes": 1064,
-      "collectedAt": "2026-11-01T15:30:53.133Z",
+      "likes": 1071,
+      "collectedAt": "2026-11-02T07:53:40.020Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -6510,8 +6720,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1CsJR6VE1h",
       "publishedAt": "2026-10-21T03:05:00.000Z",
-      "likes": 2051,
-      "collectedAt": "2026-11-01T15:30:59.933Z",
+      "likes": 2079,
+      "collectedAt": "2026-11-02T07:53:47.251Z",
       "keyword": "视觉小说",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -6536,7 +6746,7 @@
       "url": "https://www.bilibili.com/video/BV1Tcnn6dEk4",
       "publishedAt": "2026-10-19T08:32:12.000Z",
       "likes": 2067,
-      "collectedAt": "2026-11-01T15:31:07.633Z",
+      "collectedAt": "2026-11-02T07:53:56.653Z",
       "keyword": "视觉小说",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -6560,8 +6770,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1TVHG6BExH",
       "publishedAt": "2026-10-25T08:13:55.000Z",
-      "likes": 1609,
-      "collectedAt": "2026-11-01T15:31:08.676Z",
+      "likes": 1678,
+      "collectedAt": "2026-11-02T07:53:55.297Z",
       "keyword": "视觉小说",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -6582,8 +6792,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1P2so6vEKK",
       "publishedAt": "2026-10-29T08:11:23.000Z",
-      "likes": 2995,
-      "collectedAt": "2026-11-01T15:31:12.005Z",
+      "likes": 3055,
+      "collectedAt": "2026-11-02T07:54:01.338Z",
       "keyword": "视觉小说",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -6607,11 +6817,39 @@
       ],
       "url": "https://www.bilibili.com/video/BV1fyx16FEjK",
       "publishedAt": "2026-10-31T11:15:06.000Z",
-      "likes": 2027,
-      "collectedAt": "2026-11-01T15:31:13.058Z",
+      "likes": 2489,
+      "collectedAt": "2026-11-02T07:53:57.775Z",
       "keyword": "视觉小说",
       "reason": "没有找到明确作品名",
       "candidates": []
+    },
+    {
+      "platform": "bilibili",
+      "id": "BV1WVnp6sEUr",
+      "title": "日系哀鸿？男主扒门缝偷听女主和...？我原谅了所有绿帽癖小众精品独游...《Rain98》（伪NTR）",
+      "description": "我原谅了所有绿帽癖小众精品独游\n说实话这游戏除了暴雷这段以外我真挺喜欢的，演出，配音真的一点问题都没有（当然因为演出好所以伪牛那段也很“身临其境啊”）\n不过看基本上没什么人聊这个，黑红也是红\n官方说这段剧情会改，千言万语，好好改，改好了我会在做期推荐视频的\n毕竟你不能既要又要，堆质量堆流量想要销量的同时，还维持你的小众精品文案",
+      "tags": [
+        "Rain98",
+        "哀鸿",
+        "林翩翩",
+        "沙优",
+        "视觉小说",
+        "游戏杂谈",
+        "轻小说",
+        "独立游戏",
+        "GAL"
+      ],
+      "url": "https://www.bilibili.com/video/BV1WVnp6sEUr",
+      "publishedAt": "2026-10-22T12:46:41.000Z",
+      "likes": 1133,
+      "collectedAt": "2026-11-02T07:54:05.417Z",
+      "keyword": "视觉小说",
+      "reason": "涉及多个作品或名称有歧义",
+      "candidates": [
+        "v69315",
+        "v10078",
+        "v24381"
+      ]
     },
     {
       "platform": "bilibili",
@@ -6632,8 +6870,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1VXsZ6JEuw",
       "publishedAt": "2026-10-29T09:00:00.000Z",
-      "likes": 1964,
-      "collectedAt": "2026-11-01T15:31:17.948Z",
+      "likes": 2099,
+      "collectedAt": "2026-11-02T07:54:06.530Z",
       "keyword": "视觉小说",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -6656,8 +6894,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1iqn46sEZ2",
       "publishedAt": "2026-10-23T10:30:00.000Z",
-      "likes": 1498,
-      "collectedAt": "2026-11-01T15:31:18.991Z",
+      "likes": 1537,
+      "collectedAt": "2026-11-02T07:54:07.644Z",
       "keyword": "视觉小说",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -6681,8 +6919,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1Z8xv6fEby",
       "publishedAt": "2026-10-30T09:05:18.000Z",
-      "likes": 1598,
-      "collectedAt": "2026-11-01T15:31:21.075Z",
+      "likes": 1658,
+      "collectedAt": "2026-11-02T07:54:08.768Z",
       "keyword": "视觉小说",
       "reason": "涉及多个作品或名称有歧义",
       "candidates": [
@@ -6705,8 +6943,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1ApHG6aEYg",
       "publishedAt": "2026-10-25T07:06:23.000Z",
-      "likes": 1082,
-      "collectedAt": "2026-11-01T15:31:22.136Z",
+      "likes": 1086,
+      "collectedAt": "2026-11-02T07:54:11.205Z",
       "keyword": "视觉小说",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -6726,8 +6964,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1x4sZ6TE9z",
       "publishedAt": "2026-10-29T04:50:40.000Z",
-      "likes": 1265,
-      "collectedAt": "2026-11-01T15:31:26.339Z",
+      "likes": 1281,
+      "collectedAt": "2026-11-02T07:54:16.787Z",
       "keyword": "视觉小说",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -6747,8 +6985,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1VknB6DEyq",
       "publishedAt": "2026-10-21T11:27:43.000Z",
-      "likes": 1959,
-      "collectedAt": "2026-11-01T15:31:27.386Z",
+      "likes": 1961,
+      "collectedAt": "2026-11-02T07:54:17.904Z",
       "keyword": "视觉小说",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -6772,8 +7010,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV171x36aEqW",
       "publishedAt": "2026-10-30T07:18:54.000Z",
-      "likes": 2795,
-      "collectedAt": "2026-11-01T15:31:28.426Z",
+      "likes": 3222,
+      "collectedAt": "2026-11-02T07:54:15.674Z",
       "keyword": "视觉小说",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -6797,8 +7035,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1fGnt68E8j",
       "publishedAt": "2026-10-23T03:00:07.000Z",
-      "likes": 1009,
-      "collectedAt": "2026-11-01T15:31:39.595Z",
+      "likes": 1018,
+      "collectedAt": "2026-11-02T07:54:29.828Z",
       "keyword": "视觉小说",
       "reason": "涉及多个作品或名称有歧义",
       "candidates": [
@@ -6822,8 +7060,8 @@
       ],
       "url": "https://www.bilibili.com/video/BV1tgnm6eEUi",
       "publishedAt": "2026-10-23T09:50:00.000Z",
-      "likes": 1044,
-      "collectedAt": "2026-11-01T15:31:49.542Z",
+      "likes": 1049,
+      "collectedAt": "2026-11-02T07:54:40.368Z",
       "keyword": "视觉小说",
       "reason": "可能是二创、联动或其他游戏，需要核对原画面",
       "candidates": [
@@ -6848,14 +7086,89 @@
       ],
       "url": "https://www.bilibili.com/video/BV1nBxF6qEgW",
       "publishedAt": "2026-10-29T09:12:50.000Z",
-      "likes": 2305,
-      "collectedAt": "2026-11-01T15:32:55.376Z",
+      "likes": 2321,
+      "collectedAt": "2026-11-02T07:55:49.804Z",
       "keyword": "galgame名场面",
       "reason": "涉及多个作品或名称有歧义",
       "candidates": [
         "v47172",
         "v54349"
       ]
+    },
+    {
+      "platform": "bilibili",
+      "id": "BV1m2n16cEWa",
+      "title": "弱不是罪，但是你这么弱，扛不住一下就..【依恋终端】",
+      "description": "-",
+      "tags": [
+        "动画种草激励计划",
+        "二次元",
+        "动漫",
+        "galgame",
+        "碧蓝航线",
+        "番剧",
+        "原图",
+        "星野",
+        "狂飙",
+        "巨星"
+      ],
+      "url": "https://www.bilibili.com/video/BV1m2n16cEWa",
+      "publishedAt": "2026-10-22T05:21:22.000Z",
+      "likes": 1079,
+      "collectedAt": "2026-11-02T07:50:54.639Z",
+      "keyword": "galgame",
+      "reason": "没有找到明确作品名",
+      "candidates": []
+    },
+    {
+      "platform": "bilibili",
+      "id": "BV1qynd6GEk1",
+      "title": "新的炸鱼器已经出现！我的巴雷特又怎能停滞不前！",
+      "description": "-",
+      "tags": [
+        "动画种草激励计划",
+        "虚拟偶像",
+        "二次元",
+        "动漫",
+        "游戏",
+        "动画",
+        "斐济杯",
+        "galgame",
+        "番剧",
+        "圣杯"
+      ],
+      "url": "https://www.bilibili.com/video/BV1qynd6GEk1",
+      "publishedAt": "2026-10-26T09:22:15.000Z",
+      "likes": 1051,
+      "collectedAt": "2026-11-02T07:51:54.615Z",
+      "keyword": "gal游戏",
+      "reason": "没有找到明确作品名",
+      "candidates": []
+    },
+    {
+      "platform": "bilibili",
+      "id": "BV1mzso6uEGG",
+      "title": "多结局攻略！你是黑道千金等了十年的青梅，生日这天她的未来由你决定？！【UP动画】",
+      "description": "🐱琳柚的片场生还报告：\n主人们！！本柚宣布！这次最大的拍摄事故，就是夜澜好像真的有点沉浸了！！Σ(っ °Д °;)っ\n明明只是给她过个生日，结果某人一换上那套衣服，气场直接从“一居室管家”升级成了“看一眼就知道惹不起的大小姐”……\n但主人们不要被正片骗了！！\n镜头里她负责优雅、帅气、危险迷人。\n镜头外是小柚我举着相机、调整机位、检查画面，以及承受苏导演无情的：\n“这条重拍。”\n“刚才那个角度不对。”\n“琳柚，别笑了。”\n可恶！！小柚我怎么感觉被她无情地当成了打工人！！😭\n不过嘛……能借着这次机会，看到夜澜姐姐这么多平时见不到的样子，好像也挺赚的？嘿嘿。(｡>∀<｡)♡\n总之！主人们一定要好好欣赏本柚辛辛苦苦拍出来的漂亮姐姐！！不许浪费！！🍊✨\n🐈‍⬛苏夜澜的生日留言：\n先纠正一下。某人所谓的“辛辛苦苦拍摄”，也包括每拍完一条就对着手机傻笑半天。\n不过这次确实拍得很开心。\n很少有机会尝试这样的角色，服装、镜头、表演方式都和平时不太一样。尤其是那些需要直视镜头的画面，放在以前，我大概会想尽办法躲过去。\n现在居然也能拍得这么自然了。\n其实每年过生日，我都不太习惯成为所有人关注的中心。比起热热闹闹地庆祝，我更习惯安静地把这一天过完。\n但今年不太一样。\n有人忙前忙后地折腾，有人愿意专门空出时间来看我，还有很多人，明明隔着屏幕，却已经陪我走过了不少以前不敢走的路。\n所以，今天就允许自己稍微任性一点，好好享受一次被大家惦记着的感觉。\n谢谢你们。\n对了，这次还特意留了一张生日合照给大家，原图会放在置顶评论。可以把自己喜欢的形象放进来，出现在我们身边。\n毕竟这个生日，最不能少的就是你们。❤",
+      "tags": [
+        "攻略",
+        "UP动画剧场",
+        "updream",
+        "UP动画",
+        "galgame",
+        "AI偶像",
+        "CP感",
+        "生日",
+        "动画",
+        "大小姐"
+      ],
+      "url": "https://www.bilibili.com/video/BV1mzso6uEGG",
+      "publishedAt": "2026-10-29T09:36:15.000Z",
+      "likes": 2172,
+      "collectedAt": "2026-11-02T07:51:51.813Z",
+      "keyword": "galgame",
+      "reason": "没有找到明确作品名",
+      "candidates": []
     }
   ],
   "warnings": []
