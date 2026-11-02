@@ -10,6 +10,7 @@
   "bilibiliFavoriteViewRatio": 0.02,
   "commentsMin": 30,
   "keywords": ["galgame", "视觉小说", "冷门视觉小说", "galgame推荐", "游戏安利"],
+  "comparisonKeywords": ["galgame", "视觉小说"],
   "maxExpansionWorks": 3,
   "maxRefreshPerPlatform": 20,
   "sampleTargetPerPlatform": 20,

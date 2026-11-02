@@ -93,7 +93,7 @@ async def collect(args):
                 await asyncio.sleep(0.8)
             return {"status": "partial" if failed else "success", "records": records, "failedIds": failed}
         search = Search(params, cookie=params.cookie_str, keyword=args.keyword,
-                        channel=0, pages=args.pages, sort_type=2, publish_time=0)
+                        channel=0, pages=args.pages, sort_type=2, publish_time=args.publish_days)
         partial = False
         try:
             raw = await search.run()
@@ -119,6 +119,7 @@ def main():
     parser.add_argument("--keyword", default="")
     parser.add_argument("--detail-ids", default="")
     parser.add_argument("--pages", type=int, default=3)
+    parser.add_argument("--publish-days", type=int, choices=(0, 1, 7, 180), default=0)
     args = parser.parse_args()
     logging.disable(logging.CRITICAL)
     try:

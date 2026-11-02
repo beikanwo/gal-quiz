@@ -909,58 +909,6 @@
       "firstSeenAt": "2026-11-02T13:32:46.718Z",
       "ageSnapshots": {}
     },
-    "bilibili:BV1h34w6oERd": {
-      "record": {
-        "platform": "bilibili",
-        "id": "BV1h34w6oERd",
-        "title": "[晦涩难懂程度对比]最后的现在VSmythVSI/OVS去人",
-        "description": "-",
-        "tags": [
-          "最果",
-          "离开的人们",
-          "myth",
-          "去人",
-          "晦涩",
-          "视觉小说",
-          "最后的现在",
-          "I/O",
-          "电波"
-        ],
-        "url": "https://www.bilibili.com/video/BV1h34w6oERd",
-        "publishedAt": "2026-11-02T10:04:55.000Z",
-        "likes": 7,
-        "kind": "video",
-        "durationSeconds": 88,
-        "author": {
-          "id": "389941743",
-          "name": "言叶と旋律-",
-          "url": "https://space.bilibili.com/389941743"
-        },
-        "metrics": {
-          "favorites": 3,
-          "comments": 2,
-          "shares": 1,
-          "views": 76,
-          "coins": 0
-        },
-        "metricAvailability": {
-          "favorites": "available",
-          "comments": "available",
-          "shares": "available",
-          "views": "available",
-          "coins": "available"
-        },
-        "collectedAt": "2026-11-02T13:34:47.755Z",
-        "keyword": "视觉小说",
-        "workId": "v1278",
-        "matchMethod": "explicit-title",
-        "matchedNames": [
-          "最后的现在"
-        ]
-      },
-      "firstSeenAt": "2026-11-02T13:33:03.892Z",
-      "ageSnapshots": {}
-    },
     "bilibili:BV1UFxM6vE73": {
       "record": {
         "platform": "bilibili",
@@ -2775,6 +2723,13 @@
       "candidates": [
         "v18852"
       ]
+    },
+    "bilibili:BV1h34w6oERd": {
+      "platform": "bilibili",
+      "id": "BV1h34w6oERd",
+      "title": "[晦涩难懂程度对比]最后的现在VSmythVSI/OVS去人",
+      "url": "https://www.bilibili.com/video/BV1h34w6oERd",
+      "reason": "比较内容可能涉及多作品，须人工核对"
     }
   },
   "reports": {},

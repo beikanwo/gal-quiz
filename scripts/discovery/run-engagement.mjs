@@ -37,6 +37,12 @@ export async function runEngagement(options=args()) {
       catch{failures.push({stage:'search',keyword});}
       if(searches===0&&failures.length>=2)break;
     }
+    // Latest-first discovers low-like posts; a small separate high-view sample
+    // provides a meaningful popular comparator over the same posting window.
+    if(platform==='bilibili')for(const keyword of settings.comparisonKeywords??[]){
+      if(Date.now()>deadline-2*60000)break;
+      try{const batch=await source.search(keyword,1,window,{order:'click'});fresh.push(...batch.records);searches++;if(batch.partial)failures.push({stage:'comparison-search',keyword});}catch{failures.push({stage:'comparison-search',keyword});}
+    }
     observe(state,fresh,identities,overrides);
     // Refresh observed posts, especially the young videos and validation sample.
     const priority=p=>{

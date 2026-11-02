@@ -70,6 +70,7 @@ export function matchWork(record, works, overrides = {}) {
   const reduced = candidates.filter((a) => !candidates.some((b) => b.id !== a.id && a.hits.every((x) => b.hits.some((y) => normalize(y).length > normalize(x).length && normalize(y).includes(normalize(x))))));
   if (reduced.length !== 1) return { status: 'pending', reason: reduced.length ? '涉及多个作品或名称有歧义' : '没有找到明确作品名', candidates: reduced.map((x) => x.id) };
   const chosen=works[reduced[0].id];
+  if(/对比|對比|VS|\bvs\b/.test(record.title??''))return {status:'pending',reason:'比较内容可能涉及多作品，须人工核对',candidates:[chosen.id]};
   const known=[chosen.title,chosen.original,...(chosen.matchingAliases??[]),...Object.entries(overrides.aliases??{}).filter(([,id])=>id===chosen.id).map(([name])=>name)].filter(Boolean).map(normalize);
   const quoted=[...text.matchAll(/《([^》]+)》|「([^」]+)」|【([^】]+)】/g)].map(m=>normalize(m[1]??m[2]??m[3]));
   if(quoted.some(q=>!known.includes(q)&&reduced[0].hits.some(h=>q.startsWith(normalize(h))&&q.length>normalize(h).length)))return {status:'pending',reason:'明确标注的名称含额外副标题，需核对具体作品或版本',candidates:[chosen.id]};

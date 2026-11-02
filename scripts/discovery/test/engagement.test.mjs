@@ -40,6 +40,10 @@ test('证据身份始终复核，关键词误匹配不进入作者观测',()=>{
   const state={};observe(state,[r({title:'女王自称是你的妻子 游戏实况'})],{v1:{id:'v1',title:'另一个作品',aliases:['妻子']}});
   assert.equal(Object.keys(state.posts).length,0);assert.equal(Object.keys(state.identityPending).length,1);
 });
+test('比较视频不因为仅识别到其中一部就归入该作品',()=>{
+  const state={};observe(state,[r({title:'晦涩程度对比：测试作品VS另一游戏 #galgame'})],{v1:{id:'v1',title:'测试作品'}});
+  assert.equal(Object.keys(state.posts).length,0);assert.equal(Object.keys(state.identityPending).length,1);
+});
 test('两期窗口固定，以北京时间结束，不改正式快照',()=>{
   const p=trialPeriods({firstPeriod:'2026-11-06',intervalDays:5,trialPeriods:2});
   assert.equal(p[0].start,'2026-10-31T16:00:00.000Z');assert.equal(p[1].id,'2026-11-11');assert.equal(p[1].supplementUntil,'2026-11-12T16:00:00.000Z');

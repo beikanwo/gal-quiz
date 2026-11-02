@@ -107,15 +107,21 @@ export class BilibiliSource {
 export class DouyinSource {
   async refreshMany(records) {
     const root=path.resolve(process.env.DOUK_ROOT??'.cache/douk'),python=process.env.DOUK_PYTHON??path.join(root,process.platform==='win32'?'.venv/Scripts/python.exe':'.venv/bin/python');
-    const {stdout}=await execute(python,[path.resolve('scripts/discovery/douk_bridge.py'),'--repo',root,'--detail-ids',records.map(r=>r.id).join(',')],{timeout:150000,maxBuffer:8*1024*1024,windowsHide:true,env:process.env});
-    const data=JSON.parse(stdout);if(!['success','partial'].includes(data.status))throw failure('抖音候选统计刷新失败。');return {records:data.records,failedIds:data.failedIds??[]};
+    let data={records:[],failedIds:records.map(r=>r.id)};
+    try{const {stdout}=await execute(python,[path.resolve('scripts/discovery/douk_bridge.py'),'--repo',root,'--detail-ids',records.map(r=>r.id).join(',')],{timeout:150000,maxBuffer:8*1024*1024,windowsHide:true,env:process.env});const result=JSON.parse(stdout);if(['success','partial'].includes(result.status))data=result;}catch{/* A source failure is not a zero engagement observation. */}
+    const found=new Map(data.records.map(r=>[r.id,r]));
+    // The detail endpoint may be unavailable even while search works. Only a new
+    // response with the identical content ID can refresh an existing observation.
+    const queries=[...new Set(records.filter(r=>!found.has(r.id)).map(r=>r.matchedNames?.[0]).filter(Boolean))].slice(0,3);
+    for(const keyword of queries){try{const batch=await this.search(keyword,1,null,{order:'pubdate'});for(const r of batch.records)if(records.some(old=>old.id===r.id))found.set(r.id,{...r,refreshMethod:'search-id-confirmed'});}catch{/* Keep failed IDs explicit. */}}
+    return {records:[...found.values()],failedIds:records.filter(r=>!found.has(r.id)).map(r=>r.id)};
   }
-  async search(keyword, pages = 3) {
+  async search(keyword, pages = 3, period, options = {}) {
     const root = path.resolve(process.env.DOUK_ROOT ?? '.cache/douk');
     const python = process.env.DOUK_PYTHON ?? path.join(root, process.platform === 'win32' ? '.venv/Scripts/python.exe' : '.venv/bin/python');
     let result;
     try {
-      result = await execute(python, [path.resolve('scripts/discovery/douk_bridge.py'), '--repo', root, '--keyword', keyword, '--pages', String(pages)], { timeout: 150000, maxBuffer: 8 * 1024 * 1024, windowsHide: true, env: process.env });
+      result = await execute(python, [path.resolve('scripts/discovery/douk_bridge.py'), '--repo', root, '--keyword', keyword, '--pages', String(pages),'--publish-days',options.order==='pubdate'?'7':'0'], { timeout: 150000, maxBuffer: 8 * 1024 * 1024, windowsHide: true, env: process.env });
     } catch { throw failure('抖音采集进程未就绪或请求超时；请安装固定版本的 DouK 并配置登录状态。'); }
     let data;
     try { data = JSON.parse(result.stdout); } catch { throw failure('抖音采集进程未返回有效数据。'); }
