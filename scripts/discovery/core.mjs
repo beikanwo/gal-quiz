@@ -72,6 +72,8 @@ export function matchWork(record, works, overrides = {}) {
   const chosen=works[reduced[0].id];
   if(/对比|對比|VS|\bvs\b/.test(record.title??''))return {status:'pending',reason:'比较内容可能涉及多作品，须人工核对',candidates:[chosen.id]};
   const known=[chosen.title,chosen.original,...(chosen.matchingAliases??[]),...Object.entries(overrides.aliases??{}).filter(([,id])=>id===chosen.id).map(([name])=>name)].filter(Boolean).map(normalize);
+  const titleQuoted=[...(record.title??'').matchAll(/《([^》]+)》|「([^」]+)」|【([^】]+)】/g)].map(m=>normalize(m[1]??m[2]??m[3]));
+  if(!reduced[0].hits.some(h=>normalize(record.title).includes(normalize(h)))&&titleQuoted.some(q=>!known.includes(q)))return {status:'pending',reason:'标题标注其他名称，标签或简介中的作品名不能消除身份冲突',candidates:[chosen.id]};
   const quoted=[...text.matchAll(/《([^》]+)》|「([^」]+)」|【([^】]+)】/g)].map(m=>normalize(m[1]??m[2]??m[3]));
   if(quoted.some(q=>!known.includes(q)&&reduced[0].hits.some(h=>q.startsWith(normalize(h))&&q.length>normalize(h).length)))return {status:'pending',reason:'明确标注的名称含额外副标题，需核对具体作品或版本',candidates:[chosen.id]};
   if (/系列世界观|系列世界觀|系列剧情|系列劇情|系列盘点|系列作品|多部游戏|游戏盘点|游戏榜单/i.test(text) || /盘点|盤點|》\s*系列|系列[:：]/.test(record.title ?? '')) return { status: 'pending', reason: '介绍涉及整个系列或多个游戏，需要核对具体条目', candidates: [reduced[0].id] };

@@ -159,3 +159,5 @@ GitHub Pages 可以重新运行前一版部署；Cloudflare 项目可以恢复�
 - 观测与试验对照保存在data/discovery/engagement-state.json、engagement-report.json；仅包含公开元数据。验证样本artifact为engagement-verification，排除Cookie、请求头和原始上游响应。`site/data/engagement.json`只提供页面所需的对照结果。
 
 检查：`node --test scripts/discovery/test/*.test.mjs`；Python标准库测试 `python3 -m unittest discover -s scripts/discovery/test -p 'test_douk_bridge.py'`。每日自动生成页面、校验后保存准确提交并显式调用Pages部署，不依赖机器人提交触发push。
+
+2026-11-02实测：Actions 41453538835与41455098449均完成采集、Python/Node测试、构建与部署。第二轮两平台各20条必要字段均返回；抖音3条详情使用同ID搜索回退成功，播放/投币仍不支持。B站低赞收藏样本BV1X7x16UE3H在网页抽查时为88赞、51收藏、1576播放，作者、标题、日期相符。多作品比较，以及标题明确其他作品但用热门游戏标签引流的记录均转待核对，不能凭标签自动归入那个游戏。以上仅验证采集可运行，两期有效性评估尚未结束。

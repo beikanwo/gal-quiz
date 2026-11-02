@@ -12,7 +12,7 @@ const catalog = await readJson('data/discovery/catalog.json');
 const index = await readJson('data/discovery/periods.json');
 const config = await readJson('config/discovery.json');
 const latest = index.periods[0];
-const assetsVersion = createHash('sha256').update(await readFile('site/discover.css')).update(await readFile('site/discover.js')).digest('hex').slice(0, 12);
+const assetsVersion = createHash('sha256').update((await readFile('site/discover.css','utf8')).replace(/\r\n/g,'\n')).update((await readFile('site/discover.js','utf8')).replace(/\r\n/g,'\n')).digest('hex').slice(0, 12);
 const labels = { douyin: '抖音', bilibili: 'B站' };
 const roles = { scenario: '剧本', art: '原画', director: '导演', music: '音乐', songs: '歌曲', chardesign: '角色设计', staff: '制作', translator: '翻译' };
 export const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);

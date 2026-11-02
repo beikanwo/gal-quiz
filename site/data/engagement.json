@@ -238,71 +238,6 @@
         ],
         "favorites": [
           {
-            "workId": "v19073",
-            "platform": "bilibili",
-            "authorCount": 1,
-            "layer": "单账号观察",
-            "maxFavorites": 334,
-            "evidence": [
-              {
-                "platform": "bilibili",
-                "id": "BV1Z8xv6fEV2",
-                "title": "亵渎人性道德的地狱!一款南梁调教作为何劝你活下去?一款以索多玛120天为灵感的视觉小说——《索多玛的120天》",
-                "description": "这一期又是拖一周才做完，中途突然感觉兴致降低做太累就开摆了，删了好多文案，可能看着有点突兀...不过至少发了出来，看着还挺满意，这一阶段的工作也就告一段落了。下期得找点更好玩的....\n\tbgm：\n山岡晃 - Forest\nJay Varton - Organic Foundation\nJay Varton - World War Five\n栖深雪 - 01_終幕の薔薇園　～ジュスティーヌとジュリエット～\n栖深雪 - 05_存在幻想　～大団円、ジュスティーヌ及びジュリエットの死～\n栖深雪 - 07_生命の業火　～全ての光を求めて～",
-                "tags": [
-                  "萨德侯爵的白日梦",
-                  "栖深雪",
-                  "galgame",
-                  "索多玛的120天",
-                  "千恋万花",
-                  "萨德侯爵",
-                  "重生萝莉岛",
-                  "视觉小说",
-                  "狂气",
-                  "电波"
-                ],
-                "url": "https://www.bilibili.com/video/BV1Z8xv6fEV2",
-                "publishedAt": "2026-10-30T09:06:25.000Z",
-                "likes": 247,
-                "kind": "video",
-                "durationSeconds": 639,
-                "author": {
-                  "id": "243914682",
-                  "name": "竹井塔人",
-                  "url": "https://space.bilibili.com/243914682"
-                },
-                "metrics": {
-                  "favorites": 334,
-                  "comments": 43,
-                  "shares": 44,
-                  "views": 7630,
-                  "coins": 87
-                },
-                "metricAvailability": {
-                  "favorites": "available",
-                  "comments": "available",
-                  "shares": "available",
-                  "views": "available",
-                  "coins": "available"
-                },
-                "collectedAt": "2026-11-02T13:46:52.552Z",
-                "keyword": "视觉小说",
-                "workId": "v19073",
-                "matchMethod": "explicit-title",
-                "matchedNames": [
-                  "千恋＊万花",
-                  "千恋万花"
-                ],
-                "baseline": {
-                  "status": "insufficient",
-                  "sampleCount": 0,
-                  "reason": "同类同龄观测少于8条",
-                  "scope": "observed-candidates"
-                }
-              }
-            ]
-          },
-          {
             "workId": "v18852",
             "platform": "bilibili",
             "authorCount": 1,
@@ -365,71 +300,7 @@
         ],
         "discussion": [],
         "watch": [],
-        "review": [
-          {
-            "workId": "v19073",
-            "platform": "bilibili",
-            "reason": "评论较多，需排查作者自答、抽奖及与作品无关的讨论",
-            "evidence": [
-              {
-                "platform": "bilibili",
-                "id": "BV1Z8xv6fEV2",
-                "title": "亵渎人性道德的地狱!一款南梁调教作为何劝你活下去?一款以索多玛120天为灵感的视觉小说——《索多玛的120天》",
-                "description": "这一期又是拖一周才做完，中途突然感觉兴致降低做太累就开摆了，删了好多文案，可能看着有点突兀...不过至少发了出来，看着还挺满意，这一阶段的工作也就告一段落了。下期得找点更好玩的....\n\tbgm：\n山岡晃 - Forest\nJay Varton - Organic Foundation\nJay Varton - World War Five\n栖深雪 - 01_終幕の薔薇園　～ジュスティーヌとジュリエット～\n栖深雪 - 05_存在幻想　～大団円、ジュスティーヌ及びジュリエットの死～\n栖深雪 - 07_生命の業火　～全ての光を求めて～",
-                "tags": [
-                  "萨德侯爵的白日梦",
-                  "栖深雪",
-                  "galgame",
-                  "索多玛的120天",
-                  "千恋万花",
-                  "萨德侯爵",
-                  "重生萝莉岛",
-                  "视觉小说",
-                  "狂气",
-                  "电波"
-                ],
-                "url": "https://www.bilibili.com/video/BV1Z8xv6fEV2",
-                "publishedAt": "2026-10-30T09:06:25.000Z",
-                "likes": 247,
-                "kind": "video",
-                "durationSeconds": 639,
-                "author": {
-                  "id": "243914682",
-                  "name": "竹井塔人",
-                  "url": "https://space.bilibili.com/243914682"
-                },
-                "metrics": {
-                  "favorites": 334,
-                  "comments": 43,
-                  "shares": 44,
-                  "views": 7630,
-                  "coins": 87
-                },
-                "metricAvailability": {
-                  "favorites": "available",
-                  "comments": "available",
-                  "shares": "available",
-                  "views": "available",
-                  "coins": "available"
-                },
-                "collectedAt": "2026-11-02T13:46:52.552Z",
-                "keyword": "视觉小说",
-                "workId": "v19073",
-                "matchMethod": "explicit-title",
-                "matchedNames": [
-                  "千恋＊万花",
-                  "千恋万花"
-                ],
-                "baseline": {
-                  "status": "insufficient",
-                  "sampleCount": 0,
-                  "reason": "同类同龄观测少于8条",
-                  "scope": "observed-candidates"
-                }
-              }
-            ]
-          }
-        ]
+        "review": []
       }
     }
   },
