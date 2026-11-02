@@ -1,7 +1,251 @@
 {
   "mode": "shadow",
-  "updatedAt": null,
-  "trial": null,
-  "preview": null,
+  "updatedAt": "2026-11-02T13:35:03.245Z",
+  "trial": {
+    "periods": [
+      {
+        "id": "2026-11-06",
+        "start": "2026-10-31T16:00:00.000Z",
+        "end": "2026-11-05T16:00:00.000Z",
+        "supplementUntil": "2026-11-07T16:00:00.000Z"
+      },
+      {
+        "id": "2026-11-11",
+        "start": "2026-11-05T16:00:00.000Z",
+        "end": "2026-11-10T16:00:00.000Z",
+        "supplementUntil": "2026-11-12T16:00:00.000Z"
+      }
+    ],
+    "closed": 0,
+    "finalized": 0,
+    "target": 2
+  },
+  "preview": {
+    "period": {
+      "id": "preview-2026-11-02",
+      "start": "2026-10-28T13:30:39.975Z",
+      "end": "2026-11-02T13:30:40.975Z",
+      "rehearsal": true
+    },
+    "generatedAt": "2026-11-02T13:35:03.244Z",
+    "platforms": {
+      "douyin": {
+        "status": "partial",
+        "fieldVerificationStatus": "complete",
+        "lastAttemptAt": "2026-11-02T13:32:26.961Z",
+        "searches": 8,
+        "queries": [
+          "galgame",
+          "视觉小说",
+          "冷门视觉小说",
+          "galgame推荐",
+          "游戏安利",
+          "乌有乡",
+          "时空轮回",
+          "天津罪"
+        ],
+        "failures": [
+          {
+            "stage": "refresh",
+            "id": "7701329881652677939"
+          },
+          {
+            "stage": "refresh",
+            "id": "7702794405752687913"
+          },
+          {
+            "stage": "refresh",
+            "id": "7701950197756087594"
+          }
+        ],
+        "sampleCount": 20,
+        "sampleTarget": 20,
+        "available": {
+          "author": 20,
+          "favorites": 20,
+          "comments": 20,
+          "shares": 20,
+          "views": 0,
+          "coins": 0
+        },
+        "zeroValues": {
+          "favorites": 0,
+          "comments": 0,
+          "shares": 0,
+          "views": 0,
+          "coins": 0
+        },
+        "lastSuccessAt": "2026-11-02T13:32:26.961Z",
+        "popular": [
+          {
+            "workId": "v18852",
+            "platform": "douyin",
+            "authorCount": 1,
+            "missingAuthors": 0,
+            "layer": "单账号线索",
+            "aboveNormalAuthors": 0,
+            "maxLikes": 637,
+            "concentration": 1,
+            "evidence": [
+              {
+                "platform": "douyin",
+                "id": "7702794405752687913",
+                "title": "叫诚的男主感觉都有点说法—天津罪爱线杂谈 #galgame#galgame推荐#二次元#天津罪#紫社",
+                "description": "",
+                "tags": [
+                  "galgame",
+                  "galgame推荐",
+                  "二次元",
+                  "天津罪",
+                  "紫社"
+                ],
+                "kind": "video",
+                "url": "https://www.douyin.com/video/7702794405752687913",
+                "publishedAt": "2026-10-31T11:36:31+00:00",
+                "likes": 637,
+                "author": {
+                  "id": "7623326647144399921",
+                  "name": "nknkn",
+                  "url": "https://www.douyin.com/user/MS4wLjABAAAAMOhaWyiqCfTyKjnqiC_WaAtWFYHATggas_Ru099oTP4AT0buKZ-mmfk1k690gTHz"
+                },
+                "durationSeconds": null,
+                "metrics": {
+                  "favorites": 68,
+                  "comments": 20,
+                  "shares": 47,
+                  "views": null,
+                  "coins": null
+                },
+                "metricAvailability": {
+                  "favorites": "available",
+                  "comments": "available",
+                  "shares": "available",
+                  "views": "unsupported",
+                  "coins": "unsupported"
+                },
+                "collectedAt": "2026-11-02T13:32:00.853322+00:00",
+                "keyword": "天津罪",
+                "workId": "v18852",
+                "matchMethod": "explicit-title",
+                "matchedNames": [
+                  "天津罪"
+                ],
+                "baseline": {
+                  "status": "insufficient",
+                  "sampleCount": 0,
+                  "reason": "缺少作者、同龄快照或可比较的内容类型"
+                }
+              }
+            ]
+          }
+        ],
+        "favorites": [],
+        "discussion": [],
+        "watch": [],
+        "review": []
+      },
+      "bilibili": {
+        "status": "success",
+        "fieldVerificationStatus": "complete",
+        "lastAttemptAt": "2026-11-02T13:35:01.715Z",
+        "searches": 8,
+        "queries": [
+          "galgame",
+          "视觉小说",
+          "冷门视觉小说",
+          "galgame推荐",
+          "游戏安利",
+          "乌有乡",
+          "时空轮回",
+          "天津罪"
+        ],
+        "failures": [],
+        "sampleCount": 20,
+        "sampleTarget": 20,
+        "available": {
+          "author": 20,
+          "favorites": 20,
+          "comments": 20,
+          "shares": 20,
+          "views": 20,
+          "coins": 20
+        },
+        "zeroValues": {
+          "favorites": 3,
+          "comments": 5,
+          "shares": 12,
+          "views": 0,
+          "coins": 8
+        },
+        "lastSuccessAt": "2026-11-02T13:35:01.715Z",
+        "popular": [],
+        "favorites": [
+          {
+            "workId": "v18852",
+            "platform": "bilibili",
+            "authorCount": 1,
+            "layer": "单账号观察",
+            "maxFavorites": 51,
+            "evidence": [
+              {
+                "platform": "bilibili",
+                "id": "BV1X7x16UE3H",
+                "title": "叫诚的男主感觉都有点说法—天津罪爱线杂谈",
+                "description": "共通炮确实有点诡异了",
+                "tags": [
+                  "天津罪",
+                  "游戏杂谈",
+                  "二次元",
+                  "galgame",
+                  "galgame推荐",
+                  "紫社",
+                  "视觉小说"
+                ],
+                "url": "https://www.bilibili.com/video/BV1X7x16UE3H",
+                "publishedAt": "2026-10-31T11:36:57.000Z",
+                "likes": 88,
+                "kind": "video",
+                "durationSeconds": 243,
+                "author": {
+                  "id": "29062118",
+                  "name": "-nknkn-",
+                  "url": "https://space.bilibili.com/29062118"
+                },
+                "metrics": {
+                  "favorites": 51,
+                  "comments": 10,
+                  "shares": 4,
+                  "views": 1576,
+                  "coins": 15
+                },
+                "metricAvailability": {
+                  "favorites": "available",
+                  "comments": "available",
+                  "shares": "available",
+                  "views": "available",
+                  "coins": "available"
+                },
+                "collectedAt": "2026-11-02T13:35:00.431Z",
+                "keyword": "天津罪",
+                "workId": "v18852",
+                "matchMethod": "explicit-title",
+                "matchedNames": [
+                  "天津罪"
+                ],
+                "baseline": {
+                  "status": "insufficient",
+                  "sampleCount": 0,
+                  "reason": "缺少作者、同龄快照或可比较的内容类型"
+                }
+              }
+            ]
+          }
+        ],
+        "discussion": [],
+        "watch": [],
+        "review": []
+      }
+    }
+  },
   "reports": []
 }
