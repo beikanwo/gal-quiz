@@ -1,6 +1,6 @@
 import { readdir } from 'node:fs/promises';
 import { fetchJson } from './sources.mjs';
-import { readJson, writeJson } from './io.mjs';
+import { readJson, writeJson, pause } from './io.mjs';
 import { normalize, safeUrl } from './core.mjs';
 export const chineseText = (text) => {
   const han=(String(text??'').match(/\p{Script=Han}/gu)??[]).length;
@@ -43,7 +43,12 @@ export function applyKunMetadata(work, data, fetchedAt = new Date().toISOString(
   return true;
 }
 export class Community {
-  constructor() { this.index = null; this.cache = new Map(); }
+  constructor() { this.index = null; this.cache = new Map(); this.lastRequest = 0; }
+  async request(url, options) {
+    await pause(Math.max(0, this.lastRequest + 500 - Date.now()));
+    this.lastRequest = Date.now();
+    return fetchJson(url, options);
+  }
   async loadIndex() {
     if (this.index) return;
     this.index = await readJson('config/discovery-community.json', { version: 1, works: {} });
@@ -57,12 +62,12 @@ export class Community {
   async fetchKun(id) {
     id = String(id);
     if (this.cache.has(id)) return this.cache.get(id);
-    const data = await fetchJson(`https://www.kungal.com/api/v1/works/${id}?include_nsfw=true`, { headers: { 'User-Agent': 'beikanwo/gal-quiz (https://www.scurra.top)' } });
+    const data = await this.request(`https://www.kungal.com/api/v1/works/${id}?include_nsfw=true`, { headers: { 'User-Agent': 'beikanwo/gal-quiz (https://www.scurra.top)' } });
     this.cache.set(id, data);
     return data;
   }
   async resolveName(name) {
-    const result=await fetchJson(`https://www.kungal.com/api/v1/search/works?${new URLSearchParams({q:name,limit:'8',include_nsfw:'true',include_resourceless:'true',include_all_original_languages:'true'})}`);
+    const result=await this.request(`https://www.kungal.com/api/v1/search/works?${new URLSearchParams({q:name,limit:'8',include_nsfw:'true',include_resourceless:'true',include_all_original_languages:'true'})}`);
     for(const item of result.items??[]){
       if(!namesOf(item).some(x=>normalize(x)===normalize(name)))continue;
       const data=await this.fetchKun(item.id);
@@ -74,8 +79,8 @@ export class Community {
     await this.loadIndex();
     let id = work.community?.kungal?.id ?? this.index.works[work.id];
     if (!id && search) {
-      for (const q of [...new Set([work.title, work.original])].filter(Boolean)) {
-        const result = await fetchJson(`https://www.kungal.com/api/v1/search/works?${new URLSearchParams({q,limit:'8',include_nsfw:'true',include_resourceless:'true',include_all_original_languages:'true'})}`);
+      for (const q of [...new Set([work.title, work.original, ...(work.aliases ?? []).slice(0,2)])].filter(Boolean)) {
+        const result = await this.request(`https://www.kungal.com/api/v1/search/works?${new URLSearchParams({q,limit:'8',include_nsfw:'true',include_resourceless:'true',include_all_original_languages:'true'})}`);
         for (const candidate of result.items ?? []) {
           const data = await this.fetchKun(candidate.id);
           if (kunIdentity(data, work)) { id = String(data.id); break; }

@@ -19,7 +19,7 @@ test('default story area never falls back to English; unavailable scores are not
  const w={id:'v1',title:'Test',source:'https://vndb.org/v1',description:'English synopsis',descriptionLanguage:'原文'};
  assert.ok(!renderDescription(w).includes('English synopsis'));
  assert.ok(renderDescription(w).includes('中文故事简介仍待补全'));
- const html=renderRatings(w);assert.equal((html.match(/暂无可核实评分/g)??[]).length,3);
+ const html=renderRatings(w);assert.equal((html.match(/尚未采集/g)??[]).length,3);
 });
 test('one gallery toggle reveals a single horizontal row; images have no src until it opens',()=>{
  const w={title:'游戏',screenshots:[1,2,3].map(i=>({url:`https://t.vndb.org/sf/${i}.jpg`,source:'VNDB',spoiler:true}))};

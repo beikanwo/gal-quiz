@@ -1,4 +1,5 @@
 import {safeUrl} from './core.mjs';
+import {missingMessage} from './enrichment-state.mjs';
 export const escapeHtml = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const e=escapeHtml;
 const link = (url,label) => safeUrl(url) ? `<a href="${e(safeUrl(url))}" target="_blank" rel="noopener noreferrer">${e(label)} ↗</a>` : e(label);
@@ -8,14 +9,14 @@ export function renderRatings(work) {
   const rows=sources.map(([key,name,scale])=>{
     const r=work.ratings?.[key];
     const valid=r && Number.isFinite(r.score) && r.score >= 0 && r.score <= scale && r.votes > 0;
-    if(valid)provenance.push(`<li><span>${e(name)}</span>${r.viaUrl?link(r.viaUrl,r.via??'资料快照'):e(r.via??'原站')} · ${e(r.fetchedAt?.slice(0,10)??'日期未知')}</li>`);
-    return `<div class="rating-row"><div class="rating-heading">${link(r?.url??(key==='vndb'?work.source:null),name)}<span class="rating-value">${valid?(scale===100?Number(r.score).toFixed(0):Number(r.score).toFixed(2).replace(/0$/,'')).replace(/\.0$/,''):'—'}<small> / ${scale}</small></span></div><p>${valid?`<span class="rating-count">${Number(r.votes).toLocaleString('zh-CN')} 人评分</span><span class="rating-metric">${e(r.metric??'站点评分')}</span>`:'暂无可核实评分'}</p></div>`;
+    if(valid)provenance.push(`<li><span>${e(name)}</span>${r.viaUrl?link(r.viaUrl,r.via??'资料快照'):e(r.via??'原站')} · ${e(r.fetchedAt?.slice(0,10)??'日期未知')}${key==='bangumi'&&work.metadataStatus?.bangumi?.status==='failed'?' · 原站回查失败，保留此来源数据':''}</li>`);
+    return `<div class="rating-row"><div class="rating-heading">${link(r?.url??(key==='vndb'?work.source:null),name)}<span class="rating-value">${valid?(scale===100?Number(r.score).toFixed(0):Number(r.score).toFixed(2).replace(/0$/,'')).replace(/\.0$/,''):'—'}<small> / ${scale}</small></span></div><p>${valid?`<span class="rating-count">${Number(r.votes).toLocaleString('zh-CN')} 人评分</span><span class="rating-metric">${e(r.metric??'站点评分')}</span>`:e(missingMessage(work,key))}</p></div>`;
   }).join('');
   return `<aside class="ratings-panel" aria-label="作品口碑评分"><h3>口碑评分</h3>${rows}${provenance.length?`<details class="rating-provenance"><summary>评分来源与日期</summary><ul>${provenance.join('')}</ul></details>`:''}</aside>`;
 }
 export function renderDescription(work) {
   const chinese=work.descriptionLanguage==='中文' && /\p{Script=Han}/u.test(work.description??'');
-  const copy=chinese?`<p class="body-copy">${e(work.description).replace(/\n/g,'<br>')}</p><p class="attribution">${e(work.descriptionSourceName??'中文介绍')}${work.descriptionMachine?' · 来源含机器翻译':''} · ${link(work.descriptionSource??work.source,'查看资料来源')}</p>`:`<p class="body-copy muted">中文故事简介仍待补全。${link(work.community?.kungal?.url??work.source,'查看作品资料')}</p>`;
+  const copy=chinese?`<p class="body-copy">${e(work.description).replace(/\n/g,'<br>')}</p><p class="attribution">${e(work.descriptionSourceName??'中文介绍')}${work.descriptionMachine?' · 来源含机器翻译':''} · ${link(work.descriptionSource??work.source,'查看资料来源')}</p>`:`<p class="body-copy muted">中文故事简介${missingMessage(work,'description')==='尚未采集'?'仍待补全':`：${e(missingMessage(work,'description'))}`}。${link(work.community?.kungal?.url??work.source,'查看作品资料')}</p>`;
   return `<div class="story-copy">${copy}</div>`;
 }
 export function renderGallery(work) {

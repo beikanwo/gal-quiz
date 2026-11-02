@@ -1,0 +1,63 @@
+name: Backfill Galgame metadata
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: '本轮中文资料最多检查的作品数（1–500）'
+        type: number
+        default: 120
+  schedule:
+    - cron: '43 0,6,12,18 * * *'
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: gal-discovery-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    outputs:
+      publish: ${{ steps.save.outputs.publish }}
+      commit: ${{ steps.save.outputs.commit }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Resume the metadata queue
+        env:
+          BATCH_LIMIT: ${{ inputs.limit || 120 }}
+        run: |
+          node scripts/discovery/backfill.mjs --limit "$BATCH_LIMIT" --minutes 18 --cover-limit 100
+      - name: Build and validate the entire publication
+        run: |
+          node scripts/discovery/build.mjs
+          node --test scripts/discovery/test/*.test.mjs
+          node scripts/discovery/validate.mjs
+      - name: Save the validated checkpoint
+        id: save
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/discovery/catalog.json data/discovery/enrichment.json config/discovery-community.json site cloudflare/discovery-routes.json
+          if ! git diff --cached --quiet; then
+            git commit -m '分批补齐 Galgame 资料并保存采集断点'
+            git push
+            echo 'publish=true' >> "$GITHUB_OUTPUT"
+          fi
+          echo "commit=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: metadata-backfill-report
+          path: data/discovery/enrichment.json
+          retention-days: 30
+  deploy:
+    needs: enrich
+    if: needs.enrich.outputs.publish == 'true' && github.ref == 'refs/heads/main'
+    uses: ./.github/workflows/pages.yml
+    with:
+      ref: ${{ needs.enrich.outputs.commit }}

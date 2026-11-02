@@ -5,7 +5,7 @@ import { Community, applyKunMetadata, chineseText } from './community.mjs';
 import { safeCover, selectReleaseCover } from './covers.mjs';
 const header = { 'Content-Type': 'application/json', 'User-Agent': 'beikanwo/gal-quiz (https://www.scurra.top)' };
 const summaryFields = 'title,alttitle,titles{lang,title},aliases,released,languages,length_minutes,rating,average,votecount,image{id,url,thumbnail,sexual,violence},developers{id,name,original}';
-const detailFields = `${summaryFields},description,screenshots{id,url,thumbnail,sexual,violence},staff{id,name,original,role,aid},extlinks{url,label}`;
+export const detailFields = `${summaryFields},description,screenshots{id,url,thumbnail,sexual,violence},staff{id,name,original,role,aid},extlinks{url,label}`;
 const plain = (s) => String(s ?? '').replace(/\[spoiler\][\s\S]*?\[\/spoiler\]/gi, '（剧情内容已隐藏）').replace(/\[url=[^\]]*\]([\s\S]*?)\[\/url\]/gi, '$1').replace(/\[\/?[^\]]+\]/g, '').replace(/<[^>]*>/g, '').trim();
 const links = (rows) => (rows ?? []).filter((r) => safeUrl(r.url)).map((r) => ({ url: safeUrl(r.url), label: r.label ?? r.name ?? new URL(r.url).hostname }));
 export class Metadata {
@@ -47,6 +47,7 @@ export class Metadata {
     if (override.description && safeUrl(override.descriptionSource)) Object.assign(record, { description: plain(override.description), descriptionLanguage: '中文', descriptionSource: safeUrl(override.descriptionSource) });
     if (override.title) record.title = override.title;
     this.catalog.works[row.id] = record;
+    if (row.image) record.coverSourceFlags = { sexual: row.image.sexual, violence: row.image.violence };
     if (row.rating != null && row.votecount > 0) {
       record.ratings ??= {};
       record.ratings.vndb = {score:row.rating / 10,scale:10,votes:row.votecount,metric:'贝叶斯评分',via:'原站',url:record.source,fetchedAt:this.now};

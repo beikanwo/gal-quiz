@@ -7,7 +7,13 @@ export async function writeJson(file, value) {
   await mkdir(path.dirname(file), { recursive: true });
   const temporary = `${file}.tmp`;
   await writeFile(temporary, `${JSON.stringify(value, null, 2)}\n`);
-  await rename(temporary, file);
+  for (let attempt=0;;attempt++) {
+    try { await rename(temporary, file); break; }
+    catch(error) {
+      if(attempt>=7 || !['EPERM','EBUSY','UNKNOWN','EACCES'].includes(error.code))throw error;
+      await new Promise(resolve => setTimeout(resolve,100*(attempt+1)));
+    }
+  }
 }
 export const pause = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 export const args = (argv = process.argv.slice(2)) => Object.fromEntries(argv.filter((x) => x.startsWith('--')).map((x) => { const i = argv.indexOf(x); return [x.slice(2), argv[i + 1] && !argv[i + 1].startsWith('--') ? argv[i + 1] : true]; }));
