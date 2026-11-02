@@ -4,6 +4,7 @@ import { promisify } from 'node:util';
 import path from 'node:path';
 import { pause, failure } from './io.mjs';
 import { canonicalEvidenceUrl } from './core.mjs';
+import { biliEngagement } from './engagement-records.mjs';
 const execute = promisify(execFile);
 const ua = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/131.0.0.0 Safari/537.36';
 const clean = (s) => String(s ?? '').replace(/<[^>]*>/g, '').replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;/g, "'").slice(0, 4000);
@@ -43,7 +44,7 @@ export function signWbi(params, imageKey, subKey, timestamp = Math.floor(Date.no
 export class BilibiliSource {
   constructor() { this.cookie = process.env.BILIBILI_COOKIE ?? ''; this.keys = null; this.details = new Map(); this.bootstrapped = false; }
   headers() { return { 'User-Agent': ua, Referer: 'https://www.bilibili.com/', ...(this.cookie ? { Cookie: this.cookie } : {}) }; }
-  async search(keyword, pages = 3, period) {
+  async search(keyword, pages = 3, period, options = {}) {
     const records = [];
     if (!this.bootstrapped) {
       if (!this.cookie) {
@@ -57,7 +58,7 @@ export class BilibiliSource {
     let fetched = 0;
     for (let page = 1; page <= pages; page++) {
       try {
-      const params = { search_type: 'video', keyword, order: 'click', page, page_size: 20, pubtime_begin_s: Math.floor(Date.parse(period.start) / 1000), pubtime_end_s: Math.floor(Date.parse(period.end) / 1000) - 1 };
+      const params = { search_type: 'video', keyword, order: options.order==='pubdate'?'pubdate':'click', page, page_size: 20, pubtime_begin_s: Math.floor(Date.parse(period.start) / 1000), pubtime_end_s: Math.floor(Date.parse(period.end) / 1000) - 1 };
       let result = await fetchJson(`https://api.bilibili.com/x/web-interface/search/type?${new URLSearchParams(params)}`, { headers: this.headers() });
       if (result.code !== 0) {
         if (!this.keys) {
@@ -83,7 +84,7 @@ export class BilibiliSource {
         }
         if (detail.code !== 0 || !Number.isInteger(detail.data?.stat?.like)) throw failure('B站视频详情未返回可靠点赞数，本轮未发布。');
         const d = detail.data;
-        records.push({ platform: 'bilibili', id: d.bvid, title: clean(d.title), description: clean(d.desc), tags: String(item.tag ?? '').split(','), url: canonicalEvidenceUrl('bilibili', d.bvid), publishedAt: iso(d.pubdate), likes: d.stat.like, collectedAt: new Date().toISOString(), keyword });
+        records.push({ platform: 'bilibili', id: d.bvid, title: clean(d.title), description: clean(d.desc), tags: String(item.tag ?? '').split(','), url: canonicalEvidenceUrl('bilibili', d.bvid), publishedAt: iso(d.pubdate), likes: d.stat.like, ...biliEngagement(d), collectedAt: new Date().toISOString(), keyword });
       }
       await pause(1300);
       } catch (error) {
@@ -93,8 +94,22 @@ export class BilibiliSource {
     }
     return { records, pages: fetched };
   }
+  async refreshMany(records) {
+    const result={records:[],failedIds:[]};
+    for(const record of records){
+      try{await pause(850);const response=await fetchJson(`https://api.bilibili.com/x/web-interface/view?bvid=${encodeURIComponent(record.id)}`,{headers:this.headers()});const d=response.data;
+        if(response.code!==0||!Number.isSafeInteger(d?.stat?.like)||d.stat.like<0||d.bvid!==record.id)throw Error();
+        result.records.push({...record,title:clean(d.title),description:clean(d.desc),likes:d.stat.like,...biliEngagement(d),collectedAt:new Date().toISOString()});
+      }catch{result.failedIds.push(record.id);}
+    }return result;
+  }
 }
 export class DouyinSource {
+  async refreshMany(records) {
+    const root=path.resolve(process.env.DOUK_ROOT??'.cache/douk'),python=process.env.DOUK_PYTHON??path.join(root,process.platform==='win32'?'.venv/Scripts/python.exe':'.venv/bin/python');
+    const {stdout}=await execute(python,[path.resolve('scripts/discovery/douk_bridge.py'),'--repo',root,'--detail-ids',records.map(r=>r.id).join(',')],{timeout:150000,maxBuffer:8*1024*1024,windowsHide:true,env:process.env});
+    const data=JSON.parse(stdout);if(!['success','partial'].includes(data.status))throw failure('抖音候选统计刷新失败。');return {records:data.records,failedIds:data.failedIds??[]};
+  }
   async search(keyword, pages = 3) {
     const root = path.resolve(process.env.DOUK_ROOT ?? '.cache/douk');
     const python = process.env.DOUK_PYTHON ?? path.join(root, process.platform === 'win32' ? '.venv/Scripts/python.exe' : '.venv/bin/python');

@@ -48,4 +48,15 @@ for (const key of ['galquiz.played', 'galquiz.notInterested', 'galquiz.want', 'g
 assert.ok(app.includes('fetch(new URL(u, import.meta.url))'), '问卷数据路径必须相对根模块解析');
 const publicData = await readFile('site/data/discovery.json', 'utf8');
 assert.ok(!/DOUYIN_COOKIE|BILIBILI_COOKIE|SESSDATA|msToken|sessionid/i.test(publicData), '公开数据含有登录材料');
+const interaction=await readJson('site/data/engagement.json',{preview:null,reports:[]});
+for(const report of [interaction.preview,...interaction.reports].filter(Boolean))for(const [platform,data]of Object.entries(report.platforms)){
+  for(const kind of ['popular','favorites','discussion','watch','review'])for(const item of data[kind]??[])for(const record of item.evidence){
+    assert.equal(record.platform,platform,'影子数据混合了平台');
+    assert.ok(qualifies(record,report.period,0),'影子证据超出原投稿范围或数值无效');
+    const identity=matchWork(record,identities,overrides);
+    assert.ok(identity.status==='matched'&&identity.workId===item.workId,'影子证据的作品身份未通过');
+    for(const value of Object.values(record.metrics??{}))assert.ok(value===null||Number.isSafeInteger(value)&&value>=0,'互动指标不能伪造零或保留无效数值');
+  }
+}
+assert.ok(!/DOUYIN_COOKIE|BILIBILI_COOKIE|SESSDATA|msToken|sessionid/i.test(JSON.stringify(interaction)),'影子页面含有登录材料');
 console.log(`校验通过：${manifest.files.length} 个路由、${Object.keys(catalog.works).length} 部作品、${periods.periods.length} 期及问卷兼容。`);

@@ -1,0 +1,20 @@
+{
+  "mode": "shadow",
+  "trialPeriods": 2,
+  "firstPeriod": "2026-11-06",
+  "intervalDays": 5,
+  "hotMinLikes": 500,
+  "favoritesMin": 50,
+  "douyinFavoriteLikeRatio": 0.3,
+  "bilibiliViewsMin": 1000,
+  "bilibiliFavoriteViewRatio": 0.02,
+  "commentsMin": 30,
+  "keywords": ["galgame", "视觉小说", "冷门视觉小说", "galgame推荐", "游戏安利"],
+  "maxExpansionWorks": 3,
+  "maxRefreshPerPlatform": 20,
+  "sampleTargetPerPlatform": 20,
+  "authorGroups": {},
+  "duplicateOf": {},
+  "excludeEvidence": {},
+  "discussions": {}
+}

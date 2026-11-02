@@ -143,3 +143,17 @@ GitHub Pages 可以重新运行前一版部署；Cloudflare 项目可以恢复�
 作品识别使用 `matchingAliases`：VNDB正式名称/别名、社区规范名称及明确配置的人工别名。社区API的原始aliases字段可能混有主题关键词、关系词和角色名，不再直接导入识别词。机器翻译名称只可辅助检索。`refresh-identity.mjs` 可从VNDB重新核实全库名称；旧aliases没有来源时也不会自动用于视频匹配。
 
 两三字短名需在明确标题标记或独立标签中出现，副标题/版本不明确时进入待核对。已发布证据由 `audit-evidence.mjs` 重新识别，错误或歧义关联撤回榜单；修正历史保存在 `data/discovery/identity-audit.json`，排除决定和原因写入discovery-overrides。两项自动发布任务均先复核身份，再构建校验；校验器还会逐条核对证据作品ID。新证据保留实际命中名称便于追溯。
+
+## 互动影子运行
+
+`config/engagement.json` 为试行参数，`node scripts/discovery/run-engagement.mjs` 每日采样并刷新候选，独立于正式500赞热榜。候选不设点赞下限，先用已核实作品名称识别，再分别筛选跨账号传播与低赞收藏。展示入口 `/signals/`，历史影子期 `/signals/YYYY-MM-DD/`。首次采集前明确显示验证中，不使用示例作品。
+
+- 首两期截止2026-11-06与2026-11-11；此前滚动5天样本仅用于验证，不计入试运行期数。影子期在截止后48小时内可补观测，之后封存，投稿范围不变；正式periods.json的原始字节会在任务结束时核对，影子任务不写此文件。
+- `.github/workflows/engagement.yml` 每天北京时间10:47计划运行，与热榜/资料补全共用并发锁。两期补充窗口结束后只做一次封存，等待人工评估，不自动替换正式榜单。
+- 同作者同作品仅贡献一个账号数；`authorGroups` 可归并已知关联账号，`duplicateOf` 可排除确认搬运。不同平台永不合并。最高单条点赞保留原值，不合成热度分。
+- 抖音低赞收藏：赞不足500、收藏至少50且收藏/赞至少30%；零点赞留观察池。B站：赞不足500、收藏至少50、播放至少1000且收藏/播放至少2%。不足24小时先观察。评论至少30先人工审核，最多10条；只有discussions中approved、aboutGame、reviewedAt和note都有效才转入“讨论突出”。
+- 作者基线只用本站实际观测到的同类候选（不是作者全部投稿）。约1天为12–36小时，约3天为60–84小时，取同龄历史最多20条、至少8条。广告/抽奖不作为参考，指标中位数过小不算倍数；真实不足不以粉丝数推算。不会把成熟视频现在的总量伪装成它24小时的数据。
+- 新适配器保留收藏、评论、分享、B站播放/投币、作者稳定ID与观测时间。零值、字段缺失、暂不支持分别保存。抖音播放暂不作为可靠指标。示例测试与真实云端验证分开，字段齐全不等于已人工核实每个视频。
+- 观测与试验对照保存在data/discovery/engagement-state.json、engagement-report.json；仅包含公开元数据。验证样本artifact为engagement-verification，排除Cookie、请求头和原始上游响应。`site/data/engagement.json`只提供页面所需的对照结果。
+
+检查：`node --test scripts/discovery/test/*.test.mjs`；Python标准库测试 `python3 -m unittest discover -s scripts/discovery/test -p 'test_douk_bridge.py'`。每日自动生成页面、校验后保存准确提交并显式调用Pages部署，不依赖机器人提交触发push。

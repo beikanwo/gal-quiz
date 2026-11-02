@@ -1,0 +1,77 @@
+name: Observe Galgame engagement
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 2 * * *'
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: gal-discovery-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  observe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    outputs:
+      publish: ${{ steps.save.outputs.publish }}
+      commit: ${{ steps.save.outputs.commit }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - id: due
+        run: node scripts/discovery/run-engagement.mjs --due
+      - uses: astral-sh/setup-uv@v6
+        if: steps.due.outputs.due == 'true'
+        with:
+          version: '0.9.7'
+          enable-cache: false
+      - name: Install the pinned isolated collector
+        if: steps.due.outputs.due == 'true'
+        continue-on-error: true
+        run: |
+          mkdir -p .cache
+          git clone --filter=blob:none --no-checkout https://github.com/JoeanAmier/TikTokDownloader.git .cache/douk
+          git -C .cache/douk checkout "$(node -p "JSON.parse(require('fs').readFileSync('config/discovery.json')).douk.commit")"
+          uv sync --project .cache/douk --python 3.12 --no-dev --locked
+      - name: Collect real engagement and age snapshots
+        if: steps.due.outputs.due == 'true'
+        env:
+          DOUYIN_COOKIE: ${{ secrets.DOUYIN_COOKIE }}
+          BILIBILI_COOKIE: ${{ secrets.BILIBILI_COOKIE }}
+        run: node scripts/discovery/run-engagement.mjs --minutes 16
+      - name: Build and verify the shadow publication
+        if: steps.due.outputs.due == 'true'
+        run: |
+          node scripts/discovery/build.mjs
+          node --test scripts/discovery/test/*.test.mjs
+          python3 -m unittest discover -s scripts/discovery/test -p 'test_douk_bridge.py'
+          node scripts/discovery/validate.mjs
+      - name: Save shadow observations without replacing formal rankings
+        if: steps.due.outputs.due == 'true'
+        id: save
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/discovery/engagement-state.json data/discovery/engagement-report.json site cloudflare/discovery-routes.json
+          if ! git diff --cached --quiet; then
+            git commit -m '记录互动影子样本与作者同龄观测'
+            git push
+            echo 'publish=true' >> "$GITHUB_OUTPUT"
+          fi
+          echo "commit=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+      - uses: actions/upload-artifact@v4
+        if: always() && steps.due.outputs.due == 'true'
+        with:
+          name: engagement-verification
+          path: data/raw/engagement/*.json
+          retention-days: 30
+  deploy:
+    needs: observe
+    if: needs.observe.outputs.publish == 'true' && github.ref == 'refs/heads/main'
+    uses: ./.github/workflows/pages.yml
+    with:
+      ref: ${{ needs.observe.outputs.commit }}
