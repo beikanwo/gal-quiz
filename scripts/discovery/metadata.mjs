@@ -2,8 +2,9 @@ import { readJson, writeJson, pause, failure } from './io.mjs';
 import { normalize, publicScreenshot, safeUrl } from './core.mjs';
 import { fetchJson } from './sources.mjs';
 import { Community, applyKunMetadata, chineseText } from './community.mjs';
+import { safeCover, selectReleaseCover } from './covers.mjs';
 const header = { 'Content-Type': 'application/json', 'User-Agent': 'beikanwo/gal-quiz (https://www.scurra.top)' };
-const summaryFields = 'title,alttitle,titles{lang,title},aliases,released,languages,length_minutes,rating,average,votecount,image{url,sexual,violence},developers{id,name,original}';
+const summaryFields = 'title,alttitle,titles{lang,title},aliases,released,languages,length_minutes,rating,average,votecount,image{id,url,thumbnail,sexual,violence},developers{id,name,original}';
 const detailFields = `${summaryFields},description,screenshots{id,url,thumbnail,sexual,violence},staff{id,name,original,role,aid},extlinks{url,label}`;
 const plain = (s) => String(s ?? '').replace(/\[spoiler\][\s\S]*?\[\/spoiler\]/gi, '（剧情内容已隐藏）').replace(/\[url=[^\]]*\]([\s\S]*?)\[\/url\]/gi, '$1').replace(/\[\/?[^\]]+\]/g, '').replace(/<[^>]*>/g, '').trim();
 const links = (rows) => (rows ?? []).filter((r) => safeUrl(r.url)).map((r) => ({ url: safeUrl(r.url), label: r.label ?? r.name ?? new URL(r.url).hostname }));
@@ -29,7 +30,8 @@ export class Metadata {
     const titles = row.titles ?? [];
     const title = titles.find((t) => t.lang === 'zh-Hans')?.title ?? titles.find((t) => t.lang === 'zh-Hant')?.title ?? row.alttitle ?? row.title;
     const override = this.overrides.works?.[row.id] ?? {};
-    const record = { ...previous, id: row.id, title, original: row.alttitle ?? row.title, aliases: [...new Set([row.title, ...titles.map((t) => t.title), ...(row.aliases ?? []), ...(previous?.aliases ?? [])].filter(Boolean))], released: row.released, languages: row.languages ?? [], minutes: row.length_minutes, image: row.image?.sexual === 0 && row.image?.violence === 0 ? safeUrl(row.image.url) : null, developers: (row.developers ?? []).map((p) => ({ id: p.id, name: p.original ?? p.name })), source: `https://vndb.org/${row.id}`, updatedAt: this.now, detailComplete: detailed || previous?.detailComplete || false };
+    const cover = safeCover(row.image, {kind: 'vn', source: `https://vndb.org/${row.id}`}) ?? (previous?.cover?.kind === 'release' ? safeCover(previous.cover, {kind:'release', releaseId:previous.cover.releaseId, source:previous.cover.source}) : null);
+    const record = { ...previous, id: row.id, title, original: row.alttitle ?? row.title, aliases: [...new Set([row.title, ...titles.map((t) => t.title), ...(row.aliases ?? []), ...(previous?.aliases ?? [])].filter(Boolean))], released: row.released, languages: row.languages ?? [], minutes: row.length_minutes, image: cover?.url ?? null, cover, developers: (row.developers ?? []).map((p) => ({ id: p.id, name: p.original ?? p.name })), source: `https://vndb.org/${row.id}`, updatedAt: this.now, detailComplete: detailed || previous?.detailComplete || false };
     if (detailed) {
       record.originalDescription = plain(row.description);
       if (previous?.descriptionLanguage !== '中文') {
@@ -51,6 +53,13 @@ export class Metadata {
     }
     return record;
   }
+  async enrichCover(work) {
+    if (work.image || !/^v\d+$/.test(work.id)) return work;
+    const releases = await this.all('release', ['and', ['official', '=', 1], ['vn', '=', ['id', '=', work.id]]], 'official,vns{id},images{id,url,thumbnail,sexual,violence,type,vn,photo,dims}');
+    const cover = selectReleaseCover(work.id, releases);
+    if (cover) { work.cover = cover; work.image = cover.url; }
+    return work;
+  }
   async enrichWork(id) {
     if (id.startsWith('manual-')) return this.catalog.works[id];
     if (this.fetched.has(id)) return this.catalog.works[id];
@@ -58,6 +67,7 @@ export class Metadata {
     if (!row) throw failure(`VNDB 未找到作品 ${id}。`);
     const work = this.work(row, true);
     this.fetched.add(id);
+    try { await this.enrichCover(work); } catch { /* Keep an honest placeholder when no verified alternate cover is available. */ }
     const reception = await readJson('config/chinese-reception.json', { entries: {} });
     const bgmId = reception.entries?.[id]?.bangumi?.id;
     if (bgmId && !this.overrides.works?.[id]?.description) {

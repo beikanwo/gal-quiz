@@ -43,7 +43,19 @@ for (const gallery of document.querySelectorAll('.gallery-group')) {
     }
   });
 }
-document.addEventListener('error', (e) => { if (e.target instanceof HTMLImageElement && e.target.closest('.cover')) e.target.closest('.cover').classList.add('image-missing'); }, true);
+function coverError(image) {
+  const cover = image.closest('.cover');
+  if (!cover) return;
+  if (image.dataset.coverFull && !image.dataset.coverRetried) {
+    image.dataset.coverRetried = 'true';
+    image.src = image.dataset.coverFull;
+    return;
+  }
+  cover.classList.add('image-missing');
+}
+document.addEventListener('error', (e) => { if (e.target instanceof HTMLImageElement) coverError(e.target); }, true);
+// Fast failed responses can arrive before this module attaches the error listener.
+for (const image of document.querySelectorAll('.cover img')) if (image.complete && image.naturalWidth === 0) coverError(image);
 const status = document.getElementById('search-status');
 if (status) {
   let entries = [];

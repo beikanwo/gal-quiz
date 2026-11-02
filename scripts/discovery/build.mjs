@@ -47,7 +47,7 @@ async function page(route, title, description, body, active = 'home') {
   emitted.push(file);
 }
 function cover(w, cls = '') {
-  return `<div class="cover ${cls}">${safeUrl(w?.image) ? `<img src="${esc(w.image)}" alt="${esc(w.title)}封面" loading="lazy" referrerpolicy="no-referrer">` : `<span class="cover-fallback" aria-label="暂无安全封面"><span>Scurra</span>${esc(w?.title ?? '资料待补充')}</span>`}</div>`;
+  return `<div class="cover ${cls}">${safeUrl(w?.image) ? `<img src="${esc(cls === 'detail-cover' ? w.image : (w.cover?.thumbnail ?? w.image))}"${w.cover?.thumbnail && w.cover.thumbnail !== w.image && cls !== 'detail-cover' ? ` data-cover-full="${esc(w.image)}"` : ''} alt="${esc(w.title)}封面" loading="lazy" referrerpolicy="no-referrer">` : `<span class="cover-fallback" aria-label="暂无封面"><span>暂无封面</span>${esc(w?.title ?? '资料待补充')}</span>`}</div>`;
 }
 function card(w, rank) {
   if (!w) return '';

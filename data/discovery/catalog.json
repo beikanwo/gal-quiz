@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-01T15:49:16.028Z",
+  "updatedAt": "2026-11-02T02:11:46.397Z",
   "works": {
     "v69315": {
       "id": "v69315",
@@ -330,7 +330,7 @@
         "zh-Hans"
       ],
       "minutes": 1746,
-      "image": null,
+      "image": "https://t.vndb.org/cv/30/111730.jpg",
       "developers": [
         {
           "id": "p98",
@@ -466,7 +466,17 @@
         }
       ],
       "descriptionSourceName": "Bangumi（KUN 资料镜像）",
-      "descriptionMachine": false
+      "descriptionMachine": false,
+      "cover": {
+        "id": "cv111730",
+        "url": "https://t.vndb.org/cv/30/111730.jpg",
+        "thumbnail": "https://t.vndb.org/cv.t/30/111730.jpg",
+        "sexual": 0,
+        "violence": 0,
+        "kind": "release",
+        "releaseId": "r83886",
+        "source": "https://vndb.org/r83886"
+      }
     },
     "v179": {
       "id": "v179",
@@ -682,7 +692,7 @@
         "zh-Hans"
       ],
       "minutes": 2491,
-      "image": null,
+      "image": "https://t.vndb.org/cv/80/121180.jpg",
       "developers": [
         {
           "id": "p429",
@@ -703,7 +713,17 @@
           "fetchedAt": "2026-11-01T15:46:21.626Z"
         }
       },
-      "community": {}
+      "community": {},
+      "cover": {
+        "id": "cv121180",
+        "url": "https://t.vndb.org/cv/80/121180.jpg",
+        "thumbnail": "https://t.vndb.org/cv.t/80/121180.jpg",
+        "sexual": 0,
+        "violence": 0,
+        "kind": "release",
+        "releaseId": "r1764",
+        "source": "https://vndb.org/r1764"
+      }
     },
     "v1322": {
       "id": "v1322",
@@ -757,7 +777,7 @@
         "ja"
       ],
       "minutes": 2981,
-      "image": null,
+      "image": "https://t.vndb.org/cv/05/99905.jpg",
       "developers": [
         {
           "id": "p2316",
@@ -778,7 +798,17 @@
           "fetchedAt": "2026-11-01T15:46:21.626Z"
         }
       },
-      "community": {}
+      "community": {},
+      "cover": {
+        "id": "cv99905",
+        "url": "https://t.vndb.org/cv/05/99905.jpg",
+        "thumbnail": "https://t.vndb.org/cv.t/05/99905.jpg",
+        "sexual": 0,
+        "violence": 0,
+        "kind": "release",
+        "releaseId": "r10485",
+        "source": "https://vndb.org/r10485"
+      }
     },
     "v1618": {
       "id": "v1618",
@@ -909,7 +939,7 @@
         "ja"
       ],
       "minutes": null,
-      "image": null,
+      "image": "https://t.vndb.org/cv/36/90836.jpg",
       "developers": [
         {
           "id": "p429",
@@ -930,7 +960,17 @@
           "fetchedAt": "2026-11-01T15:46:21.626Z"
         }
       },
-      "community": {}
+      "community": {},
+      "cover": {
+        "id": "cv90836",
+        "url": "https://t.vndb.org/cv/36/90836.jpg",
+        "thumbnail": "https://t.vndb.org/cv.t/36/90836.jpg",
+        "sexual": 0,
+        "violence": 0,
+        "kind": "release",
+        "releaseId": "r3977",
+        "source": "https://vndb.org/r3977"
+      }
     },
     "v2352": {
       "id": "v2352",
@@ -1300,7 +1340,7 @@
         "zh-Hant"
       ],
       "minutes": 3000,
-      "image": null,
+      "image": "https://t.vndb.org/cv/49/79949.jpg",
       "developers": [
         {
           "id": "p98",
@@ -1473,7 +1513,17 @@
         }
       },
       "descriptionSourceName": "Bangumi（KUN 资料镜像）",
-      "descriptionMachine": false
+      "descriptionMachine": false,
+      "cover": {
+        "id": "cv79949",
+        "url": "https://t.vndb.org/cv/49/79949.jpg",
+        "thumbnail": "https://t.vndb.org/cv.t/49/79949.jpg",
+        "sexual": 0,
+        "violence": 0,
+        "kind": "release",
+        "releaseId": "r81584",
+        "source": "https://vndb.org/r81584"
+      }
     },
     "v18149": {
       "id": "v18149",
@@ -2850,7 +2900,7 @@
         "zh-Hant"
       ],
       "minutes": 1768,
-      "image": null,
+      "image": "https://t.vndb.org/cv/72/78272.jpg",
       "developers": [
         {
           "id": "p6226",
@@ -2871,7 +2921,17 @@
           "fetchedAt": "2026-11-01T15:46:21.626Z"
         }
       },
-      "community": {}
+      "community": {},
+      "cover": {
+        "id": "cv78272",
+        "url": "https://t.vndb.org/cv/72/78272.jpg",
+        "thumbnail": "https://t.vndb.org/cv.t/72/78272.jpg",
+        "sexual": 0,
+        "violence": 0,
+        "kind": "release",
+        "releaseId": "r103958",
+        "source": "https://vndb.org/r103958"
+      }
     },
     "v28286": {
       "id": "v28286",
@@ -2967,7 +3027,7 @@
         "ko"
       ],
       "minutes": 375,
-      "image": null,
+      "image": "https://t.vndb.org/cv/31/104531.jpg",
       "developers": [
         {
           "id": "p7035",
@@ -2988,7 +3048,17 @@
           "fetchedAt": "2026-11-01T15:46:21.626Z"
         }
       },
-      "community": {}
+      "community": {},
+      "cover": {
+        "id": "cv104531",
+        "url": "https://t.vndb.org/cv/31/104531.jpg",
+        "thumbnail": "https://t.vndb.org/cv.t/31/104531.jpg",
+        "sexual": 0,
+        "violence": 0,
+        "kind": "release",
+        "releaseId": "r107557",
+        "source": "https://vndb.org/r107557"
+      }
     },
     "v30234": {
       "id": "v30234",
@@ -3042,7 +3112,7 @@
         "zh-Hans"
       ],
       "minutes": 1285,
-      "image": null,
+      "image": "https://t.vndb.org/cv/20/106020.jpg",
       "developers": [
         {
           "id": "p4542",
@@ -3063,7 +3133,17 @@
           "fetchedAt": "2026-11-01T15:46:21.626Z"
         }
       },
-      "community": {}
+      "community": {},
+      "cover": {
+        "id": "cv106020",
+        "url": "https://t.vndb.org/cv/20/106020.jpg",
+        "thumbnail": "https://t.vndb.org/cv.t/20/106020.jpg",
+        "sexual": 0,
+        "violence": 0,
+        "kind": "release",
+        "releaseId": "r106849",
+        "source": "https://vndb.org/r106849"
+      }
     },
     "v32925": {
       "id": "v32925",
