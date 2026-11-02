@@ -12,6 +12,11 @@ export function periodFor(anchorDate, now = new Date(), intervalDays = 15) {
   const end = midnight(anchorDate) + index * intervalDays * dayMs;
   return { id: chinaDate(end), start: new Date(end - intervalDays * dayMs).toISOString(), end: new Date(end).toISOString(), endDate: chinaDate(end) };
 }
+export function scheduledPeriodFor(index, config, now = new Date()) {
+  const period = periodFor(index.anchorDate ?? config.anchorDate, now, config.intervalDays);
+  // A cadence change starts with a new snapshot; never reinterpret a historical window.
+  return period && (!config.cadenceEffectiveDate || period.id >= config.cadenceEffectiveDate) ? period : null;
+}
 export function qualifies(record, period, minLikes = 1000) {
   const time = Date.parse(record.publishedAt);
   return PLATFORMS.includes(record.platform) && typeof record.id === 'string' && record.id.length > 0 &&

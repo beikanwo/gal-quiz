@@ -1,7 +1,7 @@
 import { appendFile } from 'node:fs/promises';
 import { pathToFileURL } from 'node:url';
 import { args, readJson, writeJson, publicError } from './io.mjs';
-import { periodFor, qualifies, dedupe, matchWork, combinePeriod, PLATFORMS, canonicalEvidenceUrl } from './core.mjs';
+import { periodFor, scheduledPeriodFor, qualifies, dedupe, matchWork, combinePeriod, PLATFORMS, canonicalEvidenceUrl } from './core.mjs';
 import { BilibiliSource, DouyinSource } from './sources.mjs';
 import { Metadata, seedAliases } from './metadata.mjs';
 
@@ -12,7 +12,10 @@ export async function run(options = args()) {
   const overrides = await readJson('config/discovery-overrides.json');
   const priorReview = await readJson('data/discovery/review.json', { records: [], pending: [], warnings: [] });
   const now = options.at ?? new Date().toISOString();
-  const period = periodFor(index.anchorDate ?? config.anchorDate, now, config.intervalDays);
+  const reviewedPeriod = options['review-only'] && index.periods.find(p => p.id === priorReview.periodId);
+  const period = reviewedPeriod ? { id:reviewedPeriod.id, start:reviewedPeriod.start, end:reviewedPeriod.end, endDate:reviewedPeriod.endDate } :
+    options.probe ? periodFor(null,now,config.intervalDays) : scheduledPeriodFor(index,config,now);
+  const minLikes = reviewedPeriod?.minLikes ?? config.minLikes;
   const existing = index.periods.find((p) => p.id === period?.id);
   const complete = existing && PLATFORMS.every((p) => existing.platforms[p]?.status === 'success');
   const due = Boolean(period && (!complete || options.force));
@@ -22,7 +25,8 @@ export async function run(options = args()) {
     console.log(JSON.stringify({ due: due && Boolean(enabled), period: period?.id, scheduleEnabled: config.scheduleEnabled }));
     return;
   }
-  if (!period || (!due && !options.probe && !options['review-only'])) { console.log('本期已经完成，无需重复发布。'); return; }
+  if (!period) { console.log(`新周期尚未到期，首次 ${config.intervalDays} 天榜截止日为 ${config.cadenceEffectiveDate ?? '下个周期'}。`); return; }
+  if (!due && !options.probe && !options['review-only']) { console.log('本期已经完成，无需重复发布。'); return; }
   const metadata = new Metadata(catalog, overrides);
   const deadline = Date.now() + (config.collectionBudgetMinutes ?? 35) * 60000;
   metadata.deadline = deadline;
@@ -91,7 +95,7 @@ export async function run(options = args()) {
         if (failedQueries.length) status = queries ? 'partial' : 'failed';
       }
     } catch (e) { status = 'failed'; error = publicError(e); }
-    const qualified = dedupe(records).filter((r) => qualifies(r, period, config.minLikes) && canonicalEvidenceUrl(r.platform, r.id, r.kind) === r.url);
+    const qualified = dedupe(records).filter((r) => qualifies(r, period, minLikes) && canonicalEvidenceUrl(r.platform, r.id, r.kind) === r.url);
     const matched = [];
     const identify = async (record) => {
       let decision = matchWork(record, matchingWorks(), overrides);
@@ -122,7 +126,7 @@ export async function run(options = args()) {
           const batch = await source.search(keyword, config.targetSearchPages ?? 2, period);
           queries++; pages += batch.pages; records.push(...batch.records);
           if (batch.partial) { status = 'partial'; failedQueries.push(keyword); }
-          for (const record of dedupe(batch.records).filter((r) => qualifies(r, period, config.minLikes))) await identify(record);
+          for (const record of dedupe(batch.records).filter((r) => qualifies(r, period, minLikes))) await identify(record);
         } catch { status = 'partial'; failedQueries.push(keyword); }
       }
     }
@@ -135,7 +139,7 @@ export async function run(options = args()) {
         for (const name of names) {
           try {
             const batch = await source.search(name, config.pagesPerKeyword, period); queries++; pages += batch.pages;
-            for (const record of batch.records.filter((r) => qualifies(r, period, config.minLikes))) {
+            for (const record of batch.records.filter((r) => qualifies(r, period, minLikes))) {
               records.push(record);
               const decision = matchWork(record, matchingWorks(), overrides);
               if (decision.status === 'matched' && (canonical.get(decision.workId) ?? decision.workId) === id) matched.push({ ...record, workId: id, matchMethod: decision.method });
@@ -145,7 +149,7 @@ export async function run(options = args()) {
         }
       }
     }
-    const qualifiedRecords = dedupe(records).filter((r) => qualifies(r, period, config.minLikes) && canonicalEvidenceUrl(r.platform, r.id, r.kind) === r.url);
+    const qualifiedRecords = dedupe(records).filter((r) => qualifies(r, period, minLikes) && canonicalEvidenceUrl(r.platform, r.id, r.kind) === r.url);
     attempts[platform] = { status, error, collectedAt: saved ? saved.platforms[platform].collectedAt : new Date().toISOString(), records: dedupe(matched), coverage: { keywords, queries, pages, failedQueries: savedCoverage?.failedQueries ?? failedQueries, maxPagesPerQuery: savedCoverage?.maxPagesPerQuery ?? (options.probe ? 1 : config.pagesPerKeyword), candidateCount: savedCoverage?.candidateCount ?? dedupe(records).length, qualifiedCount: qualifiedRecords.length } };
     report.platforms[platform] = { status, error, collectedAt: attempts[platform].collectedAt, fetched: attempts[platform].coverage.candidateCount, qualified: qualifiedRecords.length, matched: dedupe(matched).length, sample: dedupe(matched).slice(0, 5), coverage: attempts[platform].coverage };
     console.log(`${platform}：${status}；候选 ${dedupe(records).length}，达标 ${qualifiedRecords.length}，明确对应 ${dedupe(matched).length}`);
@@ -161,7 +165,7 @@ export async function run(options = args()) {
   }
   if (options.probe) return report;
   const previous = existing ?? index.periods[0];
-  const snapshot = combinePeriod(period, attempts, previous, config.minLikes);
+  const snapshot = combinePeriod(period, attempts, previous, minLikes);
   const success = selected.some((p) => ['success', 'partial'].includes(attempts[p]?.status));
   index.lastAttempt = { at: report.finishedAt, periodId: period.id, platforms: report.platforms };
   if (success) {

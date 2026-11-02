@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { periodFor, qualifies, dedupe, matchWork, rankEvidence, combinePeriod, publicScreenshot, safeUrl, canonicalEvidenceUrl } from '../core.mjs';
+import { periodFor, scheduledPeriodFor, qualifies, dedupe, matchWork, rankEvidence, combinePeriod, publicScreenshot, safeUrl, canonicalEvidenceUrl } from '../core.mjs';
 import { Metadata } from '../metadata.mjs';
 import { isAllowedFile } from '../../../cloudflare/worker.mjs';
 const period = periodFor('2026-11-01', '2026-11-01T09:17:00+08:00');
@@ -13,6 +13,24 @@ test('15-day China calendar periods remain anchored across months and delayed ru
   assert.equal(periodFor('2026-11-01', '2026-11-15T23:59:00+08:00').id, '2026-11-01');
   assert.equal(periodFor('2026-11-01', '2026-12-02T10:00:00+08:00').id, '2026-12-01');
   assert.equal(periodFor('2026-11-10', '2026-11-01T10:00:00+08:00'), null);
+});
+test('5-day cadence starts with a new period and preserves the historical 15-day window', () => {
+  const config={intervalDays:5,cadenceEffectiveDate:'2026-11-06'};
+  const index={anchorDate:'2026-11-01',periods:[{...period}]};
+  const before=JSON.stringify(index);
+  assert.equal(scheduledPeriodFor(index,config,'2026-11-02T09:17:00+08:00'),null);
+  assert.equal(scheduledPeriodFor(index,config,'2026-11-05T23:59:59+08:00'),null);
+  const next=scheduledPeriodFor(index,config,'2026-11-06T09:17:00+08:00');
+  assert.equal(next.id,'2026-11-06');
+  assert.equal(next.start,'2026-10-31T16:00:00.000Z');
+  assert.equal(next.end,'2026-11-05T16:00:00.000Z');
+  assert.ok(qualifies(record({likes:1000,publishedAt:next.start,collectedAt:next.end}),next));
+  assert.ok(!qualifies(record({publishedAt:next.end,collectedAt:next.end}),next));
+  assert.ok(qualifies(record({likes:500,publishedAt:next.start,collectedAt:next.end}),next,500));
+  assert.ok(!qualifies(record({likes:499,publishedAt:next.start,collectedAt:next.end}),next,500));
+  assert.equal(scheduledPeriodFor(index,config,'2026-11-08T09:17:00+08:00').id,'2026-11-06');
+  assert.equal(scheduledPeriodFor(index,config,'2026-12-03T09:17:00+08:00').id,'2026-12-01');
+  assert.equal(JSON.stringify(index),before);
 });
 test('1000 likes and inclusive start/exclusive end, invalid dates/counts rejected', () => {
   assert.ok(qualifies(record({ likes: 1000 }), period));

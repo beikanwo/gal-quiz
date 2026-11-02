@@ -1,8 +1,8 @@
 {
   "name": "Scurra Gal 热门发现",
   "origin": "https://www.scurra.top",
-  "intervalDays": 15,
-  "minLikes": 1000,
+  "intervalDays": 5,
+  "minLikes": 500,
   "targetWorksPerPlatform": 10,
   "targetSearchPages": 2,
   "collectionBudgetMinutes": 35,
@@ -50,5 +50,6 @@
     "commit": "e327b9549d284a8b1613566f949fe2dbb8a6c2a1",
     "license": "GPL-3.0",
     "python": "3.12"
-  }
+  },
+  "cadenceEffectiveDate": "2026-11-06"
 }
