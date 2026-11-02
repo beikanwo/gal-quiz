@@ -114,3 +114,69 @@ form?.addEventListener('submit', async (e) => {
   } catch (error) { note.textContent = error.name === 'Error' ? error.message : '没有保存成功，内容还在，可以稍后重试。'; }
   finally { busy = false; button.disabled = false; }
 });
+// Directory pages remain readable and linkable without JavaScript.
+const directory = document.querySelector('[data-directory]');
+if (directory) {
+  const kind = directory.dataset.directory;
+  const base = new URL(`library/${kind}/`, root);
+  const searchForm = directory.querySelector('.directory-search');
+  const input = searchForm.elements.q;
+  const sort = directory.querySelector('.directory-sort');
+  const pagination = directory.querySelector('[data-directory-pagination]');
+  const results = directory.querySelector('[data-directory-results]');
+  const note = directory.querySelector('.directory-status');
+  let current = Number(directory.dataset.directoryPage);
+  let pages = Number(pagination.querySelector('input').max);
+  let dataPromise;
+  let revision = 0;
+  const address = page => {
+    const next = new URL(page > 1 ? `${page}/` : './', base);
+    if(input.value.trim())next.searchParams.set('q',input.value.trim());
+    if(sort.value !== 'default')next.searchParams.set('sort',sort.value);
+    return next;
+  };
+  const show = async requested => {
+    const version = ++revision;
+    try {
+      dataPromise ??= fetch(new URL('data/library.json',root)).then(async r => { if(!r.ok)throw Error(); return (await r.json()).datasets[kind]; });
+      const data = await dataPromise;
+      if(version !== revision)return;
+      const query = normalize(input.value.trim());
+      const entries = data.entries.filter(e => !query || [e.name,...e.aliases].some(s => normalize(s).includes(query)));
+      if(sort.value === 'name')entries.sort((a,b) => a.name.localeCompare(b.name,'zh-CN'));
+      if(sort.value === 'released')entries.sort((a,b) => b.released.localeCompare(a.released));
+      pages = Math.max(1,Math.ceil(entries.length / data.size));
+      current = Math.max(1,Math.min(pages,requested));
+      results.innerHTML = entries.slice((current-1)*data.size,current*data.size).map(e => e.html.replaceAll('@@ROOT@@',root.href)).join('') || '<p class="muted">没有找到对应结果。试试原名、别名或缩短关键词。</p>';
+      const nums = [...new Set([1,current-1,current,current+1,pages])].filter(n => n>0&&n<=pages).sort((a,b)=>a-b);
+      let previous = 0;
+      const links = nums.map(n => {const gap=previous&&n-previous>1?'<span>…</span>':'';previous=n;return `${gap}<a href="${esc(address(n).href)}"${n===current?' aria-current="page"':''}>${n}</a>`}).join('');
+      pagination.innerHTML = `<div class="directory-pagination"><p class="page-summary" role="status">共 ${entries.length.toLocaleString('zh-CN')} 项 · 第 ${current} / ${pages} 页</p><nav aria-label="分页">${current>1?`<a rel="prev" href="${esc(address(current-1).href)}">‹ 上一页</a>`:'<span aria-disabled="true">‹ 上一页</span>'}${links}${current<pages?`<a rel="next" href="${esc(address(current+1).href)}">下一页 ›</a>`:'<span aria-disabled="true">下一页 ›</span>'}</nav><form class="directory-jump" data-directory-jump><label>跳至 <input aria-label="页码" type="number" min="1" max="${pages}" value="${current}" required> 页</label><button type="submit">跳转</button></form></div>`;
+      history.replaceState(null,'',address(current));
+      note.hidden = true;
+      for(const image of results.querySelectorAll('.cover img'))if(image.complete&&image.naturalWidth===0)coverError(image);
+    } catch {
+      dataPromise = undefined;
+      note.textContent = '搜索资料暂时加载失败，请重试。下面仍可浏览当前页。';note.hidden = false;
+    }
+  };
+  input.value = url.searchParams.get('q') ?? '';
+  const initialSort = url.searchParams.get('sort');
+  if([...sort.options].some(o => o.value === initialSort))sort.value = initialSort;
+  if(input.value.trim() || sort.value !== 'default')show(current);
+  searchForm.addEventListener('submit',e => {e.preventDefault();show(1)});
+  sort.addEventListener('change',() => show(1));
+  pagination.addEventListener('submit',e => {
+    if(!e.target.matches('[data-directory-jump]'))return;
+    e.preventDefault();
+    const field=e.target.querySelector('input');
+    if(field.reportValidity())location.assign(address(Number(field.value)));
+  });
+  document.addEventListener('keydown',e => {
+    if(e.defaultPrevented||e.repeat||e.isComposing||e.ctrlKey||e.metaKey||e.altKey||e.shiftKey||document.querySelector('dialog[open]'))return;
+    if(e.target instanceof Element&&e.target.closest('input,textarea,select,[contenteditable]:not([contenteditable="false"]),[role="textbox"],[role="combobox"],[role="slider"]'))return;
+    const direction=e.key==='ArrowRight'?'next':e.key==='ArrowLeft'?'prev':null;
+    const link=direction?pagination.querySelector(`a[rel="${direction}"]`):null;
+    if(link){e.preventDefault();location.assign(link.href)}
+  });
+}
