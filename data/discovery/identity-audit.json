@@ -1,0 +1,91 @@
+{
+  "checkedAt": "2026-11-02T09:21:16.450Z",
+  "checked": 26,
+  "retained": 26,
+  "quarantined": [
+    {
+      "platform": "douyin",
+      "id": "7698635646419619107",
+      "title": "重生之我是女皇亲爱的达令 《铅雨》是一款【2D像素】【战斗】的动作类游戏。你莫名其妙从沉睡中醒来，失去了所有记忆。一位女王自称是你的妻子，仿佛你们之间关系非常亲密。此刻她被叛军包围，邀请你为她执剑征战，在敌军中开辟出一条血路。为了寻找自己丢失的记忆和探索世界的真相，你选择拿起武器先带女王离开。在枪林弹雨之中，你是否能为你亲爱的女王开辟出一条生路？是否可以帮助她扫清一切障碍，助她重新夺回皇位？#百合 #百合游戏 #横板战斗 #游戏实况 #游戏推荐",
+      "description": "",
+      "tags": [
+        "百合",
+        "百合游戏",
+        "横板战斗",
+        "游戏实况",
+        "游戏推荐"
+      ],
+      "kind": "video",
+      "url": "https://www.douyin.com/video/7698635646419619107",
+      "publishedAt": "2026-10-20T12:00:00+00:00",
+      "likes": 6829,
+      "collectedAt": "2026-11-02T07:44:44.351023+00:00",
+      "keyword": "美少女游戏",
+      "workId": "v10078",
+      "matchMethod": "explicit-title",
+      "previousWorkId": "v10078",
+      "periodId": "2026-11-01",
+      "reason": "人工排除",
+      "candidates": [],
+      "auditStatus": "excluded"
+    },
+    {
+      "platform": "bilibili",
+      "id": "BV1gony6vEdF",
+      "title": "一种奇特的诡异植物席卷小镇，吃下植物果实的人类和动物都会变成扭曲的怪物！——【Mycorrhiza:Pet】",
+      "description": "这款游戏一共有三个故事，每一个故事都可以当做一个独立的小故事来看，不过故事中隐藏的细节可以串联在一起，总的来说我真的非常喜欢这款恐怖漫画风的视觉小说，但不知道大家是否喜欢所以先做一期试试水，如果大家也喜欢这款游戏就多多点赞支持一下，视频数据不错的话后续我也会安排下一章的内容~\n如果你喜欢这期视频别忘记一键三连+关注哦~\n游戏名：【Mycorrhiza】\n平台：Steam",
+      "tags": [
+        "游戏解说",
+        "诡异",
+        "恐怖游戏",
+        "游戏视频",
+        "恐怖",
+        "猎奇",
+        "视觉小说",
+        "剧情解说"
+      ],
+      "url": "https://www.bilibili.com/video/BV1gony6vEdF",
+      "publishedAt": "2026-10-22T08:00:00.000Z",
+      "likes": 4267,
+      "collectedAt": "2026-11-02T07:53:51.942Z",
+      "keyword": "视觉小说",
+      "workId": "v30960",
+      "matchMethod": "explicit-title",
+      "previousWorkId": "v30960",
+      "periodId": "2026-11-01",
+      "reason": "明确标注的名称含额外副标题，需核对具体作品或版本",
+      "candidates": [
+        "v30960"
+      ],
+      "auditStatus": "pending"
+    },
+    {
+      "platform": "bilibili",
+      "id": "BV1BqJe6yEG3",
+      "title": "雨宫美亚的告白",
+      "description": "夏日聚集地",
+      "tags": [
+        "单机游戏",
+        "剧情",
+        "vrc",
+        "3d",
+        "galgame",
+        "GAL",
+        "娱乐",
+        "演示"
+      ],
+      "url": "https://www.bilibili.com/video/BV1BqJe6yEG3",
+      "publishedAt": "2026-10-17T07:23:42.000Z",
+      "likes": 1530,
+      "collectedAt": "2026-11-02T07:51:55.728Z",
+      "keyword": "gal游戏",
+      "workId": "v2561",
+      "matchMethod": "explicit-title",
+      "previousWorkId": "v2561",
+      "periodId": "2026-11-01",
+      "reason": "没有找到明确作品名",
+      "candidates": [],
+      "auditStatus": "pending"
+    }
+  ]
+}

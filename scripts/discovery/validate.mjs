@@ -2,12 +2,16 @@ import assert from 'node:assert/strict';
 import { readFile, access } from 'node:fs/promises';
 import path from 'node:path';
 import { readJson } from './io.mjs';
-import { qualifies, canonicalEvidenceUrl, rankEvidence } from './core.mjs';
+import { qualifies, canonicalEvidenceUrl, rankEvidence, matchWork } from './core.mjs';
+import { canonicalWorks } from './identity-names.mjs';
 import { isAllowedFile } from '../../cloudflare/worker.mjs';
 const catalog = await readJson('data/discovery/catalog.json');
 const periods = await readJson('data/discovery/periods.json');
 const manifest = await readJson('site/discovery-manifest.json');
 const root = path.resolve('site');
+const overrides=await readJson('config/discovery-overrides.json');
+const canonical=new Map();for(const w of await readJson('site/data/vns.json',[]))for(const id of w.altIds??[])canonical.set(id,w.id);
+const identities=canonicalWorks(catalog.works,canonical);
 for (const file of manifest.files) {
   assert.ok(isAllowedFile(file), `边缘入口没有允许 ${file}`);
   await access(path.join(root, file));
@@ -30,6 +34,8 @@ for (const period of periods.periods) for (const [platform, data] of Object.entr
     assert.equal(r.url, canonicalEvidenceUrl(platform, r.id, r.kind));
     assert.ok(catalog.works[r.workId], `片段引用不存在作品 ${r.workId}`);
     assert.ok(qualifies(r, data.start ? data : period, data.minLikes ?? period.minLikes), `片段不符合所属期次 ${r.id}`);
+    const identity=matchWork(r,identities,overrides);
+    assert.ok(identity.status==='matched'&&identity.workId===r.workId,`来源身份复核未通过 ${platform}:${r.id}`);
   }
   assert.deepEqual(data.ranking, rankEvidence(records), '排名或去重不正确');
 }

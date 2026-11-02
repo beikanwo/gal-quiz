@@ -34,6 +34,7 @@ jobs:
           node scripts/discovery/backfill.mjs --limit "$BATCH_LIMIT" --minutes 18 --cover-limit 100
       - name: Build and validate the entire publication
         run: |
+          node scripts/discovery/audit-evidence.mjs
           node scripts/discovery/build.mjs
           node --test scripts/discovery/test/*.test.mjs
           node scripts/discovery/validate.mjs
@@ -42,7 +43,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/discovery/catalog.json data/discovery/enrichment.json config/discovery-community.json site cloudflare/discovery-routes.json
+          git add data/discovery config/discovery-community.json site cloudflare/discovery-routes.json
           if ! git diff --cached --quiet; then
             git commit -m '分批补齐 Galgame 资料并保存采集断点'
             git push

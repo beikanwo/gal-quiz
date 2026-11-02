@@ -60,7 +60,10 @@
                   "collectedAt": "2026-11-01T15:20:34.648424+00:00",
                   "keyword": "galgame",
                   "workId": "v22636",
-                  "matchMethod": "explicit-title"
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "乌有乡"
+                  ]
                 },
                 {
                   "platform": "douyin",
@@ -80,7 +83,10 @@
                   "collectedAt": "2026-11-01T14:44:48.397949+00:00",
                   "keyword": "乌有乡",
                   "workId": "v22636",
-                  "matchMethod": "explicit-title"
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "乌有乡"
+                  ]
                 }
               ]
             },
@@ -108,7 +114,10 @@
                   "collectedAt": "2026-11-02T07:44:44.350917+00:00",
                   "keyword": "美少女游戏",
                   "workId": "v17",
-                  "matchMethod": "explicit-title"
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "Ever17"
+                  ]
                 }
               ]
             },
@@ -137,7 +146,10 @@
                   "collectedAt": "2026-11-01T14:45:53.983485+00:00",
                   "keyword": "天津罪",
                   "workId": "v18852",
-                  "matchMethod": "explicit-title"
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "天津罪"
+                  ]
                 },
                 {
                   "platform": "douyin",
@@ -158,7 +170,10 @@
                   "collectedAt": "2026-11-01T15:22:34.621881+00:00",
                   "keyword": "galgame名场面",
                   "workId": "v18852",
-                  "matchMethod": "explicit-title"
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "天津罪"
+                  ]
                 }
               ]
             },
@@ -186,35 +201,10 @@
                   "collectedAt": "2026-11-01T14:35:47.729970+00:00",
                   "keyword": "gal游戏",
                   "workId": "v21903",
-                  "matchMethod": "explicit-title"
-                }
-              ]
-            },
-            {
-              "workId": "v10078",
-              "maxLikes": 6829,
-              "count": 1,
-              "evidence": [
-                {
-                  "platform": "douyin",
-                  "id": "7698635646419619107",
-                  "title": "重生之我是女皇亲爱的达令 《铅雨》是一款【2D像素】【战斗】的动作类游戏。你莫名其妙从沉睡中醒来，失去了所有记忆。一位女王自称是你的妻子，仿佛你们之间关系非常亲密。此刻她被叛军包围，邀请你为她执剑征战，在敌军中开辟出一条血路。为了寻找自己丢失的记忆和探索世界的真相，你选择拿起武器先带女王离开。在枪林弹雨之中，你是否能为你亲爱的女王开辟出一条生路？是否可以帮助她扫清一切障碍，助她重新夺回皇位？#百合 #百合游戏 #横板战斗 #游戏实况 #游戏推荐",
-                  "description": "",
-                  "tags": [
-                    "百合",
-                    "百合游戏",
-                    "横板战斗",
-                    "游戏实况",
-                    "游戏推荐"
-                  ],
-                  "kind": "video",
-                  "url": "https://www.douyin.com/video/7698635646419619107",
-                  "publishedAt": "2026-10-20T12:00:00+00:00",
-                  "likes": 6829,
-                  "collectedAt": "2026-11-02T07:44:44.351023+00:00",
-                  "keyword": "美少女游戏",
-                  "workId": "v10078",
-                  "matchMethod": "explicit-title"
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "尚有佳蜜伴恋心"
+                  ]
                 }
               ]
             },
@@ -243,7 +233,10 @@
                   "collectedAt": "2026-11-01T14:36:32.192850+00:00",
                   "keyword": "视觉小说",
                   "workId": "v53736",
-                  "matchMethod": "explicit-title"
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "茧之锤"
+                  ]
                 }
               ]
             },
@@ -271,7 +264,11 @@
                   "collectedAt": "2026-11-01T15:27:02.665608+00:00",
                   "keyword": "千恋万花",
                   "workId": "v19073",
-                  "matchMethod": "explicit-title"
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "千恋＊万花",
+                    "千恋万花"
+                  ]
                 }
               ]
             },
@@ -299,7 +296,10 @@
                   "collectedAt": "2026-11-01T15:27:29.900435+00:00",
                   "keyword": "近月少女的礼仪",
                   "workId": "v10680",
-                  "matchMethod": "explicit-title"
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "近月少女的礼仪"
+                  ]
                 },
                 {
                   "platform": "douyin",
@@ -320,7 +320,10 @@
                   "collectedAt": "2026-11-01T15:27:29.900501+00:00",
                   "keyword": "近月少女的礼仪",
                   "workId": "v10680",
-                  "matchMethod": "explicit-title"
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "近月少女的礼仪"
+                  ]
                 }
               ]
             },
@@ -348,7 +351,10 @@
                   "collectedAt": "2026-11-01T15:25:46.216062+00:00",
                   "keyword": "命运石之门",
                   "workId": "v2002",
-                  "matchMethod": "explicit-title"
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "命运石之门"
+                  ]
                 }
               ]
             },
@@ -376,7 +382,10 @@
                   "collectedAt": "2026-11-02T07:44:12.272362+00:00",
                   "keyword": "gal游戏",
                   "workId": "v1143",
-                  "matchMethod": "explicit-title"
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "认真和我谈恋爱！！"
+                  ]
                 }
               ]
             },
@@ -403,11 +412,15 @@
                   "collectedAt": "2026-11-02T07:45:01.599979+00:00",
                   "keyword": "视觉小说",
                   "workId": "v69315",
-                  "matchMethod": "explicit-title"
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "Rain98"
+                  ]
                 }
               ]
             }
-          ]
+          ],
+          "identityReviewedAt": "2026-11-02T09:18:45.641Z"
         },
         "bilibili": {
           "status": "partial",
@@ -463,7 +476,10 @@
                   "collectedAt": "2026-11-01T15:10:17.628Z",
                   "keyword": "Rain98",
                   "workId": "v69315",
-                  "matchMethod": "explicit-title"
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "Rain98"
+                  ]
                 },
                 {
                   "platform": "bilibili",
@@ -488,7 +504,10 @@
                   "collectedAt": "2026-11-02T07:52:44.062Z",
                   "keyword": "美少女游戏",
                   "workId": "v69315",
-                  "matchMethod": "explicit-title"
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "Rain98"
+                  ]
                 },
                 {
                   "platform": "bilibili",
@@ -507,7 +526,10 @@
                   "collectedAt": "2026-11-01T15:10:18.736Z",
                   "keyword": "Rain98",
                   "workId": "v69315",
-                  "matchMethod": "explicit-title"
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "Rain98"
+                  ]
                 },
                 {
                   "platform": "bilibili",
@@ -529,7 +551,10 @@
                   "collectedAt": "2026-11-01T15:10:20.997Z",
                   "keyword": "Rain98",
                   "workId": "v69315",
-                  "matchMethod": "explicit-title"
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "Rain98"
+                  ]
                 },
                 {
                   "platform": "bilibili",
@@ -554,7 +579,10 @@
                   "collectedAt": "2026-11-02T07:51:54.615Z",
                   "keyword": "gal游戏",
                   "workId": "v69315",
-                  "matchMethod": "explicit-title"
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "Rain98"
+                  ]
                 },
                 {
                   "platform": "bilibili",
@@ -577,7 +605,10 @@
                   "collectedAt": "2026-11-02T07:53:48.371Z",
                   "keyword": "视觉小说",
                   "workId": "v69315",
-                  "matchMethod": "explicit-title"
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "Rain98"
+                  ]
                 }
               ]
             },
@@ -609,37 +640,10 @@
                   "collectedAt": "2026-11-02T07:53:46.128Z",
                   "keyword": "视觉小说",
                   "workId": "v61460",
-                  "matchMethod": "explicit-title"
-                }
-              ]
-            },
-            {
-              "workId": "v30960",
-              "maxLikes": 4267,
-              "count": 1,
-              "evidence": [
-                {
-                  "platform": "bilibili",
-                  "id": "BV1gony6vEdF",
-                  "title": "一种奇特的诡异植物席卷小镇，吃下植物果实的人类和动物都会变成扭曲的怪物！——【Mycorrhiza:Pet】",
-                  "description": "这款游戏一共有三个故事，每一个故事都可以当做一个独立的小故事来看，不过故事中隐藏的细节可以串联在一起，总的来说我真的非常喜欢这款恐怖漫画风的视觉小说，但不知道大家是否喜欢所以先做一期试试水，如果大家也喜欢这款游戏就多多点赞支持一下，视频数据不错的话后续我也会安排下一章的内容~\n如果你喜欢这期视频别忘记一键三连+关注哦~\n游戏名：【Mycorrhiza】\n平台：Steam",
-                  "tags": [
-                    "游戏解说",
-                    "诡异",
-                    "恐怖游戏",
-                    "游戏视频",
-                    "恐怖",
-                    "猎奇",
-                    "视觉小说",
-                    "剧情解说"
-                  ],
-                  "url": "https://www.bilibili.com/video/BV1gony6vEdF",
-                  "publishedAt": "2026-10-22T08:00:00.000Z",
-                  "likes": 4267,
-                  "collectedAt": "2026-11-02T07:53:51.942Z",
-                  "keyword": "视觉小说",
-                  "workId": "v30960",
-                  "matchMethod": "explicit-title"
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "二人终末论"
+                  ]
                 }
               ]
             },
@@ -665,7 +669,11 @@
                   "collectedAt": "2026-11-02T07:51:33.760Z",
                   "keyword": "galgame",
                   "workId": "v19073",
-                  "matchMethod": "explicit-title"
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "千恋＊万花",
+                    "千恋万花"
+                  ]
                 }
               ]
             },
@@ -725,37 +733,10 @@
                   "collectedAt": "2026-11-02T07:51:54.615Z",
                   "keyword": "gal游戏",
                   "workId": "v18335",
-                  "matchMethod": "explicit-title"
-                }
-              ]
-            },
-            {
-              "workId": "v2561",
-              "maxLikes": 1530,
-              "count": 1,
-              "evidence": [
-                {
-                  "platform": "bilibili",
-                  "id": "BV1BqJe6yEG3",
-                  "title": "雨宫美亚的告白",
-                  "description": "夏日聚集地",
-                  "tags": [
-                    "单机游戏",
-                    "剧情",
-                    "vrc",
-                    "3d",
-                    "galgame",
-                    "GAL",
-                    "娱乐",
-                    "演示"
-                  ],
-                  "url": "https://www.bilibili.com/video/BV1BqJe6yEG3",
-                  "publishedAt": "2026-10-17T07:23:42.000Z",
-                  "likes": 1530,
-                  "collectedAt": "2026-11-02T07:51:55.728Z",
-                  "keyword": "gal游戏",
-                  "workId": "v2561",
-                  "matchMethod": "explicit-title"
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "一如她的撒娇方式。"
+                  ]
                 }
               ]
             },
@@ -781,7 +762,10 @@
                   "collectedAt": "2026-11-02T07:53:23.025Z",
                   "keyword": "美少女游戏",
                   "workId": "v52780",
-                  "matchMethod": "explicit-title"
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "COCORO"
+                  ]
                 }
               ]
             },
@@ -812,7 +796,11 @@
                   "collectedAt": "2026-11-02T07:54:05.417Z",
                   "keyword": "视觉小说",
                   "workId": "v47937",
-                  "matchMethod": "explicit-title"
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "anemoi",
+                    "Anemoi"
+                  ]
                 }
               ]
             },
@@ -843,11 +831,15 @@
                   "collectedAt": "2026-11-02T07:54:20.676Z",
                   "keyword": "视觉小说",
                   "workId": "v66",
-                  "matchMethod": "explicit-title"
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "CROSS†CHANNEL"
+                  ]
                 }
               ]
             }
-          ]
+          ],
+          "identityReviewedAt": "2026-11-02T09:18:45.641Z"
         }
       }
     }

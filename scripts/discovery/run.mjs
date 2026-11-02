@@ -1,3 +1,4 @@
+import { canonicalWorks } from './identity-names.mjs';
 import { appendFile } from 'node:fs/promises';
 import { pathToFileURL } from 'node:url';
 import { args, readJson, writeJson, publicError } from './io.mjs';
@@ -34,16 +35,7 @@ export async function run(options = args()) {
   const seeds = await seedAliases(catalog, overrides);
   const canonical = new Map();
   for (const w of await readJson('site/data/vns.json', [])) for (const alt of w.altIds ?? []) canonical.set(alt, w.id);
-  const matchingWorks = () => {
-    const rows = { ...seeds, ...catalog.works };
-    for (const [alt, primary] of canonical) if (rows[alt]) {
-      const variant = rows[alt];
-      const main = rows[primary] ?? { id: primary, title: variant.title };
-      rows[primary] = { ...main, aliases: [...new Set([...(main.aliases ?? []), variant.title, variant.original, ...(variant.aliases ?? [])].filter(Boolean))] };
-      delete rows[alt];
-    }
-    return rows;
-  };
+  const matchingWorks = () => canonicalWorks({ ...seeds, ...catalog.works },canonical);
   const report = { version: 1, period, startedAt: now, platforms: {}, pending: [], warnings: [] };
   const attempts = {};
   const selected = options.platform ? [options.platform] : PLATFORMS;
@@ -112,7 +104,7 @@ export async function run(options = args()) {
             try { await metadata.enrichPeople(work); }
             catch { report.warnings.push({ workId: work.id, message: '作者或制作商资料未补全，保留已有资料并等待重试。' }); }
           }
-          matched.push({ ...record, workId: decision.workId, matchMethod: decision.method });
+          matched.push({ ...record, workId: decision.workId, matchMethod: decision.method, ...(decision.matchedNames?{matchedNames:decision.matchedNames}:{}) });
         } else if (decision.status === 'pending') report.pending.push({ ...record, reason: decision.reason, candidates: decision.candidates ?? [] });
       } catch { report.pending.push({ ...record, reason: '作品资料查询失败，需要重试或人工补充', candidates: decision.workId ? [decision.workId] : [] }); }
     };
@@ -142,7 +134,7 @@ export async function run(options = args()) {
             for (const record of batch.records.filter((r) => qualifies(r, period, minLikes))) {
               records.push(record);
               const decision = matchWork(record, matchingWorks(), overrides);
-              if (decision.status === 'matched' && (canonical.get(decision.workId) ?? decision.workId) === id) matched.push({ ...record, workId: id, matchMethod: decision.method });
+              if (decision.status === 'matched' && (canonical.get(decision.workId) ?? decision.workId) === id) matched.push({ ...record, workId: id, matchMethod: decision.method, ...(decision.matchedNames?{matchedNames:decision.matchedNames}:{}) });
               else if (decision.status === 'pending') report.pending.push({ ...record, reason: decision.reason, candidates: decision.candidates ?? [] });
             }
           } catch { status = 'partial'; error = '作品名称补搜未完成，已注明本轮搜索范围。'; failedQueries.push(name); }

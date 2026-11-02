@@ -3,6 +3,7 @@ import { normalize, publicScreenshot, safeUrl } from './core.mjs';
 import { fetchJson } from './sources.mjs';
 import { Community, applyKunMetadata, chineseText } from './community.mjs';
 import { safeCover, selectReleaseCover } from './covers.mjs';
+import { vndbNames, refreshIdentityNames } from './identity-names.mjs';
 const header = { 'Content-Type': 'application/json', 'User-Agent': 'beikanwo/gal-quiz (https://www.scurra.top)' };
 const summaryFields = 'title,alttitle,titles{lang,title},aliases,released,languages,length_minutes,rating,average,votecount,image{id,url,thumbnail,sexual,violence},developers{id,name,original}';
 export const detailFields = `${summaryFields},description,screenshots{id,url,thumbnail,sexual,violence},staff{id,name,original,role,aid},extlinks{url,label}`;
@@ -46,6 +47,8 @@ export class Metadata {
     // Editorial overrides must declare their source. Do not silently manufacture a Chinese synopsis.
     if (override.description && safeUrl(override.descriptionSource)) Object.assign(record, { description: plain(override.description), descriptionLanguage: '中文', descriptionSource: safeUrl(override.descriptionSource) });
     if (override.title) record.title = override.title;
+    record.vndbNames=vndbNames(row);
+    refreshIdentityNames(record);
     this.catalog.works[row.id] = record;
     if (row.image) record.coverSourceFlags = { sexual: row.image.sexual, violence: row.image.violence };
     if (row.rating != null && row.votecount > 0) {

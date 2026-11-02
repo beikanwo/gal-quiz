@@ -2,6 +2,7 @@ import { readdir } from 'node:fs/promises';
 import { fetchJson } from './sources.mjs';
 import { readJson, writeJson, pause } from './io.mjs';
 import { normalize, safeUrl } from './core.mjs';
+import { communityNames, refreshIdentityNames } from './identity-names.mjs';
 export const chineseText = (text) => {
   const han=(String(text??'').match(/\p{Script=Han}/gu)??[]).length;
   const kana=(String(text??'').match(/[ぁ-ゔァ-ヴ]/gu)??[]).length;
@@ -10,14 +11,16 @@ export const chineseText = (text) => {
 };
 export const cleanIntro = (text) => String(text ?? '').replace(/\[spoiler\][\s\S]*?\[\/spoiler\]/gi, '（剧情内容已隐藏）').replace(/<[^>]*>/g, '').replace(/!\[[^\]]*\]\([^)]*\)/g, '').replace(/\[([^\]]+)\]\([^)]*\)/g, '$1').replace(/\[\/?(?:b|i|u|quote|url[^\]]*)\]/gi, '').trim();
 const sourceNames = { bangumi: 'Bangumi', vndb: 'VNDB', erogamescape: '批评空间' };
-const namesOf = data => [data.display_name,data.latin,...Object.values(data.localized??{}).map(x=>typeof x==='string'?x:x.value),...(data.aliases??[]).map(x=>typeof x==='string'?x:x.value??x.name)].filter(Boolean);
+const namesOf = data => communityNames(data);
 export function kunIdentity(data, work) {
   return (data.external_refs ?? []).some((r) => r.site === 'vndb' && r.external_id === work.id);
 }
 export function applyKunMetadata(work, data, fetchedAt = new Date().toISOString()) {
   if (!kunIdentity(data, work)) return false;
   const via = `https://www.kungal.com/galgame/${data.id}`;
-  work.aliases=[...new Set([...(work.aliases??[]),...namesOf(data)])];
+  work.communityNames=communityNames(data);
+  work.communitySearchNames=communityNames(data,true);
+  refreshIdentityNames(work);
   work.community ??= {};
   work.community.kungal = { id: String(data.id), url: via };
   const bangumiRef=data.external_refs?.find(r=>r.site==='bangumi');

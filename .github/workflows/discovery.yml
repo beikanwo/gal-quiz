@@ -78,6 +78,7 @@ jobs:
       - name: Data and regression checks
         if: steps.due.outputs.due == 'true'
         run: |
+          node scripts/discovery/audit-evidence.mjs
           node --test scripts/discovery/test/*.test.mjs
           node scripts/discovery/build.mjs
           node scripts/discovery/validate.mjs

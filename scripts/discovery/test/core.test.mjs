@@ -136,7 +136,7 @@ test('summary refresh does not destroy detailed metadata or drop low-vote sequel
   const catalog = { works: {}, staff: {}, producers: {} };
   const metadata = new Metadata(catalog);
   metadata.work({ id: 'v1', title: 'low-vote sequel', description: 'intro [spoiler]ending[/spoiler]', staff: [], screenshots: [] }, true);
-  catalog.works.v1.aliases.push('社区中文别名');
+  catalog.works.v1.communityNames=['社区中文别名'];
   metadata.work({ id: 'v1', title: 'low-vote sequel' });
   assert.equal(catalog.works.v1.detailComplete, true);
   assert.equal(catalog.works.v1.description, 'intro （剧情内容已隐藏）');
