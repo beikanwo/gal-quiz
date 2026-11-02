@@ -12,6 +12,28 @@ if (url.pathname === root.pathname) {
     location.replace(new URL(`quiz/${url.search}${url.hash}`, root));
   }
 }
+for (const controls of document.querySelectorAll('[data-rail-controls]')) {
+  const rail = document.getElementById(controls.dataset.railControls);
+  if (!rail) continue;
+  const previous = controls.querySelector('[data-rail-direction="-1"]');
+  const next = controls.querySelector('[data-rail-direction="1"]');
+  const update = () => {
+    const end = Math.max(0, rail.scrollWidth - rail.clientWidth);
+    previous.disabled = rail.scrollLeft <= 1;
+    next.disabled = rail.scrollLeft >= end - 1;
+  };
+  controls.hidden = false;
+  for (const button of [previous, next]) button.addEventListener('click', () => {
+    const card = rail.querySelector('.work-card');
+    const gap = parseFloat(getComputedStyle(rail).columnGap) || 0;
+    const stride = (card?.getBoundingClientRect().width ?? rail.clientWidth) + gap;
+    const visible = Math.max(1, Math.floor((rail.clientWidth + gap) / stride));
+    rail.scrollBy({ left: Number(button.dataset.railDirection) * visible * stride, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
+  });
+  rail.addEventListener('scroll', update, { passive: true });
+  new ResizeObserver(update).observe(rail);
+  update();
+}
 for (const gallery of document.querySelectorAll('.gallery-group')) {
   gallery.addEventListener('toggle', () => {
     if (!gallery.open) return;
