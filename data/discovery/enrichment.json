@@ -1,23 +1,23 @@
 {
-  "startedAt": "2026-11-03T01:13:28.858Z",
+  "startedAt": "2026-11-03T14:38:24.275Z",
   "before": {
     "total": 2324,
     "detailed": 2324,
-    "chinese": 518,
-    "covers": 1405,
-    "communityChecked": 421,
-    "communityPending": 1903,
-    "failed": 378,
+    "chinese": 624,
+    "covers": 1425,
+    "communityChecked": 541,
+    "communityPending": 1783,
+    "failed": 450,
     "ratings": {
-      "bangumi": 553,
+      "bangumi": 640,
       "vndb": 2034,
-      "erogamescape": 447
+      "erogamescape": 555
     }
   },
   "stages": {
     "vndb": 0,
     "community": 120,
-    "bangumi": 468,
+    "bangumi": 529,
     "cover": 100
   },
   "failures": [
@@ -1566,6 +1566,82 @@
       "stage": "bangumi"
     },
     {
+      "workId": "v3061",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v3533",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v5230",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v5956",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v6378",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v10142",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v10877",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v15873",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v1833",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v4200",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v22297",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v12794",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v193",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v630",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v1179",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v1569",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v2057",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v3789",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v3811",
+      "stage": "bangumi"
+    },
+    {
       "workId": "v26530",
       "stage": "bangumi"
     },
@@ -1822,20 +1898,20 @@
       "stage": "bangumi"
     }
   ],
-  "updatedAt": "2026-11-03T01:23:17.437Z",
+  "updatedAt": "2026-11-03T14:49:33.874Z",
   "after": {
     "total": 2324,
     "detailed": 2324,
-    "chinese": 624,
-    "covers": 1425,
-    "communityChecked": 541,
-    "communityPending": 1783,
-    "failed": 450,
+    "chinese": 731,
+    "covers": 1435,
+    "communityChecked": 661,
+    "communityPending": 1663,
+    "failed": 469,
     "ratings": {
-      "bangumi": 640,
+      "bangumi": 705,
       "vndb": 2034,
-      "erogamescape": 555
+      "erogamescape": 650
     }
   },
-  "finishedAt": "2026-11-03T01:23:17.437Z"
+  "finishedAt": "2026-11-03T14:49:33.874Z"
 }
