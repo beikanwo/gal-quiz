@@ -1,6 +1,6 @@
 {
   "mode": "shadow",
-  "updatedAt": "2026-11-02T13:46:53.864Z",
+  "updatedAt": "2026-11-03T10:13:17.843Z",
   "trial": {
     "periods": [
       {
@@ -22,17 +22,17 @@
   },
   "preview": {
     "period": {
-      "id": "preview-2026-11-02",
-      "start": "2026-10-28T13:41:34.080Z",
-      "end": "2026-11-02T13:41:35.080Z",
+      "id": "preview-2026-11-03",
+      "start": "2026-10-29T10:08:04.907Z",
+      "end": "2026-11-03T10:08:05.907Z",
       "rehearsal": true
     },
-    "generatedAt": "2026-11-02T13:46:53.863Z",
+    "generatedAt": "2026-11-03T10:13:17.842Z",
     "platforms": {
       "douyin": {
         "status": "success",
         "fieldVerificationStatus": "complete",
-        "lastAttemptAt": "2026-11-02T13:43:23.189Z",
+        "lastAttemptAt": "2026-11-03T10:09:49.116Z",
         "searches": 8,
         "queries": [
           "galgame",
@@ -62,7 +62,7 @@
           "views": 0,
           "coins": 0
         },
-        "lastSuccessAt": "2026-11-02T13:43:23.189Z",
+        "lastSuccessAt": "2026-11-03T10:09:49.116Z",
         "popular": [
           {
             "workId": "v18852",
@@ -71,7 +71,7 @@
             "missingAuthors": 0,
             "layer": "单账号线索",
             "aboveNormalAuthors": 0,
-            "maxLikes": 638,
+            "maxLikes": 675,
             "concentration": 1,
             "evidence": [
               {
@@ -89,7 +89,7 @@
                 "kind": "video",
                 "url": "https://www.douyin.com/video/7702794405752687913",
                 "publishedAt": "2026-10-31T11:36:31+00:00",
-                "likes": 638,
+                "likes": 675,
                 "author": {
                   "id": "7623326647144399921",
                   "name": "nknkn",
@@ -97,9 +97,9 @@
                 },
                 "durationSeconds": null,
                 "metrics": {
-                  "favorites": 68,
+                  "favorites": 74,
                   "comments": 20,
-                  "shares": 47,
+                  "shares": 55,
                   "views": null,
                   "coins": null
                 },
@@ -110,7 +110,7 @@
                   "views": "unsupported",
                   "coins": "unsupported"
                 },
-                "collectedAt": "2026-11-02T13:43:23.064974+00:00",
+                "collectedAt": "2026-11-03T10:09:48.986210+00:00",
                 "keyword": "天津罪",
                 "refreshMethod": "search-id-confirmed",
                 "workId": "v18852",
@@ -130,12 +130,70 @@
         "favorites": [],
         "discussion": [],
         "watch": [],
-        "review": []
+        "review": [
+          {
+            "workId": "v18852",
+            "platform": "douyin",
+            "reason": "评论较多，需排查作者自答、抽奖及与作品无关的讨论",
+            "evidence": [
+              {
+                "platform": "douyin",
+                "id": "7703555268692495666",
+                "title": "这下谁还分得清好坏结局啊—天津罪萤线杂谈 #galgame#galgame推荐#二次元#紫社 #天津罪",
+                "description": "",
+                "tags": [
+                  "galgame",
+                  "galgame推荐",
+                  "二次元",
+                  "紫社",
+                  "天津罪"
+                ],
+                "kind": "video",
+                "url": "https://www.douyin.com/video/7703555268692495666",
+                "publishedAt": "2026-11-02T12:48:59+00:00",
+                "likes": 301,
+                "author": {
+                  "id": "7623326647144399921",
+                  "name": "nknkn",
+                  "url": "https://www.douyin.com/user/MS4wLjABAAAAMOhaWyiqCfTyKjnqiC_WaAtWFYHATggas_Ru099oTP4AT0buKZ-mmfk1k690gTHz"
+                },
+                "durationSeconds": null,
+                "metrics": {
+                  "favorites": 33,
+                  "comments": 30,
+                  "shares": 31,
+                  "views": null,
+                  "coins": null
+                },
+                "metricAvailability": {
+                  "favorites": "available",
+                  "comments": "available",
+                  "shares": "available",
+                  "views": "unsupported",
+                  "coins": "unsupported"
+                },
+                "collectedAt": "2026-11-03T10:09:48.986234+00:00",
+                "keyword": "天津罪",
+                "refreshMethod": "search-id-confirmed",
+                "workId": "v18852",
+                "matchMethod": "explicit-title",
+                "matchedNames": [
+                  "天津罪"
+                ],
+                "baseline": {
+                  "status": "insufficient",
+                  "sampleCount": 0,
+                  "reason": "缺少作者、同龄快照或可比较的内容类型"
+                }
+              }
+            ]
+          }
+        ]
       },
       "bilibili": {
         "status": "success",
         "fieldVerificationStatus": "complete",
-        "lastAttemptAt": "2026-11-02T13:46:52.633Z",
+        "lastAttemptAt": "2026-11-03T10:13:16.469Z",
         "searches": 10,
         "queries": [
           "galgame",
@@ -159,13 +217,13 @@
           "coins": 20
         },
         "zeroValues": {
-          "favorites": 4,
-          "comments": 5,
-          "shares": 13,
-          "views": 1,
-          "coins": 10
+          "favorites": 7,
+          "comments": 10,
+          "shares": 17,
+          "views": 0,
+          "coins": 15
         },
-        "lastSuccessAt": "2026-11-02T13:46:52.633Z",
+        "lastSuccessAt": "2026-11-03T10:13:16.469Z",
         "popular": [
           {
             "workId": "v65742",
@@ -174,7 +232,7 @@
             "missingAuthors": 0,
             "layer": "单账号线索",
             "aboveNormalAuthors": 0,
-            "maxLikes": 3669,
+            "maxLikes": 3856,
             "concentration": 1,
             "evidence": [
               {
@@ -196,7 +254,7 @@
                 ],
                 "url": "https://www.bilibili.com/video/BV1HRxg6iEnx",
                 "publishedAt": "2026-10-30T09:30:00.000Z",
-                "likes": 3669,
+                "likes": 3856,
                 "kind": "video",
                 "durationSeconds": 10392,
                 "author": {
@@ -205,11 +263,11 @@
                   "url": "https://space.bilibili.com/3493257006811602"
                 },
                 "metrics": {
-                  "favorites": 4554,
-                  "comments": 88,
-                  "shares": 38,
-                  "views": 46633,
-                  "coins": 333
+                  "favorites": 4774,
+                  "comments": 89,
+                  "shares": 39,
+                  "views": 48424,
+                  "coins": 351
                 },
                 "metricAvailability": {
                   "favorites": "available",
@@ -218,7 +276,7 @@
                   "views": "available",
                   "coins": "available"
                 },
-                "collectedAt": "2026-11-02T13:46:51.454Z",
+                "collectedAt": "2026-11-03T10:12:30.222Z",
                 "keyword": "视觉小说",
                 "workId": "v65742",
                 "matchMethod": "explicit-title",
@@ -242,7 +300,7 @@
             "platform": "bilibili",
             "authorCount": 1,
             "layer": "单账号观察",
-            "maxFavorites": 51,
+            "maxFavorites": 66,
             "evidence": [
               {
                 "platform": "bilibili",
@@ -260,7 +318,7 @@
                 ],
                 "url": "https://www.bilibili.com/video/BV1X7x16UE3H",
                 "publishedAt": "2026-10-31T11:36:57.000Z",
-                "likes": 88,
+                "likes": 117,
                 "kind": "video",
                 "durationSeconds": 243,
                 "author": {
@@ -269,10 +327,10 @@
                   "url": "https://space.bilibili.com/29062118"
                 },
                 "metrics": {
-                  "favorites": 51,
+                  "favorites": 66,
                   "comments": 10,
                   "shares": 4,
-                  "views": 1578,
+                  "views": 1761,
                   "coins": 15
                 },
                 "metricAvailability": {
@@ -282,7 +340,7 @@
                   "views": "available",
                   "coins": "available"
                 },
-                "collectedAt": "2026-11-02T13:46:49.056Z",
+                "collectedAt": "2026-11-03T10:11:56.093Z",
                 "keyword": "天津罪",
                 "workId": "v18852",
                 "matchMethod": "explicit-title",
@@ -292,15 +350,134 @@
                 "baseline": {
                   "status": "insufficient",
                   "sampleCount": 0,
-                  "reason": "缺少作者、同龄快照或可比较的内容类型"
+                  "reason": "同类同龄观测少于8条",
+                  "scope": "observed-candidates"
                 }
               }
             ]
           }
         ],
         "discussion": [],
-        "watch": [],
-        "review": []
+        "watch": [
+          {
+            "workId": "v264",
+            "platform": "bilibili",
+            "reason": "发布不足24小时",
+            "evidence": [
+              {
+                "platform": "bilibili",
+                "id": "BV1nq4P6mEBa",
+                "title": "纯一没有得救",
+                "description": "",
+                "tags": [
+                  "初音岛I",
+                  "galgame",
+                  "朝仓音梦",
+                  "初音岛",
+                  "GAL"
+                ],
+                "url": "https://www.bilibili.com/video/BV1nq4P6mEBa",
+                "publishedAt": "2026-11-02T12:29:26.000Z",
+                "likes": 101,
+                "kind": "video",
+                "durationSeconds": 114,
+                "author": {
+                  "id": "1288267259",
+                  "name": "夜里猫不睡",
+                  "url": "https://space.bilibili.com/1288267259"
+                },
+                "metrics": {
+                  "favorites": 213,
+                  "comments": 48,
+                  "shares": 11,
+                  "views": 5143,
+                  "coins": 7
+                },
+                "metricAvailability": {
+                  "favorites": "available",
+                  "comments": "available",
+                  "shares": "available",
+                  "views": "available",
+                  "coins": "available"
+                },
+                "collectedAt": "2026-11-03T10:12:57.278Z",
+                "keyword": "galgame",
+                "workId": "v264",
+                "matchMethod": "explicit-title",
+                "matchedNames": [
+                  "初音岛",
+                  "初音岛Ⅰ"
+                ],
+                "baseline": {
+                  "status": "insufficient",
+                  "sampleCount": 0,
+                  "reason": "同类同龄观测少于8条",
+                  "scope": "observed-candidates"
+                }
+              }
+            ]
+          }
+        ],
+        "review": [
+          {
+            "workId": "v264",
+            "platform": "bilibili",
+            "reason": "评论较多，需排查作者自答、抽奖及与作品无关的讨论",
+            "evidence": [
+              {
+                "platform": "bilibili",
+                "id": "BV1nq4P6mEBa",
+                "title": "纯一没有得救",
+                "description": "",
+                "tags": [
+                  "初音岛I",
+                  "galgame",
+                  "朝仓音梦",
+                  "初音岛",
+                  "GAL"
+                ],
+                "url": "https://www.bilibili.com/video/BV1nq4P6mEBa",
+                "publishedAt": "2026-11-02T12:29:26.000Z",
+                "likes": 101,
+                "kind": "video",
+                "durationSeconds": 114,
+                "author": {
+                  "id": "1288267259",
+                  "name": "夜里猫不睡",
+                  "url": "https://space.bilibili.com/1288267259"
+                },
+                "metrics": {
+                  "favorites": 213,
+                  "comments": 48,
+                  "shares": 11,
+                  "views": 5143,
+                  "coins": 7
+                },
+                "metricAvailability": {
+                  "favorites": "available",
+                  "comments": "available",
+                  "shares": "available",
+                  "views": "available",
+                  "coins": "available"
+                },
+                "collectedAt": "2026-11-03T10:12:57.278Z",
+                "keyword": "galgame",
+                "workId": "v264",
+                "matchMethod": "explicit-title",
+                "matchedNames": [
+                  "初音岛",
+                  "初音岛Ⅰ"
+                ],
+                "baseline": {
+                  "status": "insufficient",
+                  "sampleCount": 0,
+                  "reason": "同类同龄观测少于8条",
+                  "scope": "observed-candidates"
+                }
+              }
+            ]
+          }
+        ]
       }
     }
   },

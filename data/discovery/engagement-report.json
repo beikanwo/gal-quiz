@@ -1,16 +1,16 @@
 {
-  "startedAt": "2026-11-02T13:41:34.080Z",
+  "startedAt": "2026-11-03T10:08:04.907Z",
   "mode": "shadow",
   "formalRankingChanged": false,
   "searchWindow": {
-    "start": "2026-10-28T13:41:34.080Z",
-    "end": "2026-11-02T13:41:35.080Z"
+    "start": "2026-10-29T10:08:04.907Z",
+    "end": "2026-11-03T10:08:05.907Z"
   },
   "platforms": {
     "douyin": {
       "status": "success",
       "fieldVerificationStatus": "complete",
-      "lastAttemptAt": "2026-11-02T13:43:23.189Z",
+      "lastAttemptAt": "2026-11-03T10:09:49.116Z",
       "searches": 8,
       "queries": [
         "galgame",
@@ -40,12 +40,12 @@
         "views": 0,
         "coins": 0
       },
-      "lastSuccessAt": "2026-11-02T13:43:23.189Z"
+      "lastSuccessAt": "2026-11-03T10:09:49.116Z"
     },
     "bilibili": {
       "status": "success",
       "fieldVerificationStatus": "complete",
-      "lastAttemptAt": "2026-11-02T13:46:52.633Z",
+      "lastAttemptAt": "2026-11-03T10:13:16.469Z",
       "searches": 10,
       "queries": [
         "galgame",
@@ -69,18 +69,18 @@
         "coins": 20
       },
       "zeroValues": {
-        "favorites": 4,
-        "comments": 5,
-        "shares": 13,
-        "views": 1,
-        "coins": 10
+        "favorites": 7,
+        "comments": 10,
+        "shares": 17,
+        "views": 0,
+        "coins": 15
       },
-      "lastSuccessAt": "2026-11-02T13:46:52.633Z"
+      "lastSuccessAt": "2026-11-03T10:13:16.469Z"
     }
   },
-  "finishedAt": "2026-11-02T13:46:53.864Z",
-  "observedPosts": 33,
-  "identityPending": 184,
+  "finishedAt": "2026-11-03T10:13:17.843Z",
+  "observedPosts": 42,
+  "identityPending": 255,
   "trial": {
     "periods": [
       {
