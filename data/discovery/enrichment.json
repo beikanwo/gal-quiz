@@ -1,23 +1,23 @@
 {
-  "startedAt": "2026-11-03T23:39:08.436Z",
+  "startedAt": "2026-11-04T06:57:23.672Z",
   "before": {
     "total": 2324,
     "detailed": 2324,
-    "chinese": 731,
-    "covers": 1435,
-    "communityChecked": 661,
-    "communityPending": 1663,
-    "failed": 469,
+    "chinese": 837,
+    "covers": 1456,
+    "communityChecked": 781,
+    "communityPending": 1543,
+    "failed": 558,
     "ratings": {
-      "bangumi": 705,
+      "bangumi": 801,
       "vndb": 2034,
-      "erogamescape": 650
+      "erogamescape": 754
     }
   },
   "stages": {
     "vndb": 0,
     "community": 120,
-    "bangumi": 571,
+    "bangumi": 648,
     "cover": 100
   },
   "failures": [
@@ -531,10 +531,6 @@
     },
     {
       "workId": "v1070",
-      "stage": "bangumi"
-    },
-    {
-      "workId": "v1743",
       "stage": "bangumi"
     },
     {
@@ -2038,7 +2034,35 @@
       "stage": "bangumi"
     },
     {
+      "workId": "v25518",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v25942",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v26008",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v26448",
+      "stage": "bangumi"
+    },
+    {
       "workId": "v26523",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v26765",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v27068",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v27236",
       "stage": "bangumi"
     },
     {
@@ -2046,7 +2070,107 @@
       "stage": "bangumi"
     },
     {
+      "workId": "v27654",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v27655",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v27656",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v28309",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v30132",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v30232",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v30456",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v30458",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v30793",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v31125",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v32757",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v33130",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v36012",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v39649",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v42712",
+      "stage": "bangumi"
+    },
+    {
       "workId": "v50153",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v50868",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v51465",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v55002",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v61832",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v85",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v254",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v4560",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v19996",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v7405",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v17796",
       "stage": "bangumi"
     },
     {
@@ -2054,11 +2178,151 @@
       "stage": "bangumi"
     },
     {
+      "workId": "v811",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v824",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v1468",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v1469",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v1659",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v4375",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v4504",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v4697",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v5321",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v6912",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v7939",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v17055",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v31441",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v36129",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v442",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v457",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v459",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v461",
+      "stage": "bangumi"
+    },
+    {
       "workId": "v1552",
       "stage": "bangumi"
     },
     {
+      "workId": "v2071",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v3371",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v5246",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v12984",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v13630",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v14892",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v15064",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v17369",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v17974",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v19294",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v19372",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v23067",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v25690",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v26180",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v26376",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v26989",
+      "stage": "bangumi"
+    },
+    {
       "workId": "v31002",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v37021",
       "stage": "bangumi"
     },
     {
@@ -2254,20 +2518,20 @@
       "stage": "bangumi"
     }
   ],
-  "updatedAt": "2026-11-03T23:50:34.324Z",
+  "updatedAt": "2026-11-04T07:08:52.662Z",
   "after": {
     "total": 2324,
     "detailed": 2324,
-    "chinese": 837,
-    "covers": 1456,
-    "communityChecked": 781,
-    "communityPending": 1543,
-    "failed": 558,
+    "chinese": 936,
+    "covers": 1468,
+    "communityChecked": 901,
+    "communityPending": 1423,
+    "failed": 624,
     "ratings": {
-      "bangumi": 801,
+      "bangumi": 886,
       "vndb": 2034,
-      "erogamescape": 754
+      "erogamescape": 860
     }
   },
-  "finishedAt": "2026-11-03T23:50:34.324Z"
+  "finishedAt": "2026-11-04T07:08:52.662Z"
 }
