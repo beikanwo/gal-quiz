@@ -17,8 +17,16 @@ if(keyResponse.status!==200||(await keyResponse.text()).trim()!==seo.indexNowKey
 const results=[];
 for(let i=0;i<urls.length;i+=10000){
   const batch=urls.slice(i,i+10000);
-  const response=await fetch('https://api.indexnow.org/indexnow',{method:'POST',headers:{'Content-Type':'application/json; charset=utf-8'},body:JSON.stringify({host:origin.host,key:seo.indexNowKey,keyLocation,urlList:batch}),signal:AbortSignal.timeout(30000)});
-  results.push({count:batch.length,status:response.status,received:[200,202].includes(response.status),keyValidationPending:response.status===202});
+  let result;
+  for(let attempt=0;attempt<3;attempt++){
+    const response=await fetch('https://api.indexnow.org/indexnow',{method:'POST',headers:{'Content-Type':'application/json; charset=utf-8'},body:JSON.stringify({host:origin.host,key:seo.indexNowKey,keyLocation,urlList:batch}),signal:AbortSignal.timeout(30000)});
+    const detail=(await response.text()).replaceAll(seo.indexNowKey,'[校验码]').slice(0,300);
+    result={count:batch.length,status:response.status,received:[200,202].includes(response.status),keyValidationPending:response.status===202,...(detail?{detail}:{})};
+    if(response.status!==403||attempt===2)break;
+    // A newly deployed verification file may not have propagated to the verifier.
+    await new Promise(resolve=>setTimeout(resolve,10000*(attempt+1)));
+  }
+  results.push(result);
 }
 const report={submittedAt:new Date().toISOString(),endpoint:'https://api.indexnow.org/indexnow',results,indexingGuaranteed:false};
 await writeFile(process.env.RUNNER_TEMP?`${process.env.RUNNER_TEMP}/indexnow-result.json`:'.cache/indexnow-result.json',JSON.stringify(report,null,2));
