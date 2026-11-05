@@ -3,6 +3,12 @@
   "origin": "https://www.scurra.top",
   "intervalDays": 5,
   "minLikes": 500,
+  "recurringRanking": {
+    "startDate": "2026-11-06",
+    "windowPeriods": 6,
+    "minimumAppearances": 2,
+    "limit": 3
+  },
   "targetWorksPerPlatform": 10,
   "targetSearchPages": 2,
   "collectionBudgetMinutes": 35,
