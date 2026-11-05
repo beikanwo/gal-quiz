@@ -1,4 +1,5 @@
 import { emitEngagement } from './render-engagement.mjs';
+import { metadata, recordPage, sitemapXml } from './seo.mjs';
 import { mkdir, readFile, writeFile, readdir, rm } from 'node:fs/promises';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
@@ -11,6 +12,10 @@ const root = path.resolve('site');
 const catalog = await readJson('data/discovery/catalog.json');
 const index = await readJson('data/discovery/periods.json');
 const config = await readJson('config/discovery.json');
+const seoConfig=await readJson('config/seo.json');
+const seoPrevious=await readJson('data/discovery/seo-state.json',{pages:{}}),seoPages={},changedUrls=[];
+const seoNow=new Date().toISOString();
+const seoEngagement=await readJson('data/discovery/engagement-state.json',{reports:{}});
 const latest = index.periods[0];
 const assetsVersion = createHash('sha256').update((await readFile('site/discover.css','utf8')).replace(/\r\n/g,'\n')).update((await readFile('site/discover.js','utf8')).replace(/\r\n/g,'\n')).digest('hex').slice(0, 12);
 const labels = { douyin: '抖音', bilibili: 'B站' };
@@ -26,19 +31,24 @@ const sourceLink = (url, label = '查看资料来源') => safeUrl(url) ? `<a hre
 const intro = (text) => esc(text || '暂时没有可核实的介绍。').replace(/\n/g, '<br>');
 let emitted = [];
 async function page(route, title, description, body, active = 'home') {
+  const meta=metadata(route,title,description,catalog,config,{hasReports:Object.keys(seoEngagement.reports??{}).length>0});
+  title=meta.title;description=meta.description;
+  if(recordPage(seoPrevious.pages,seoPages,meta,body,seoNow)&&meta.indexable)changedUrls.push(meta.url);
   const file = route ? `${route}index.html` : 'index.html';
   const base = '../'.repeat(route.split('/').filter(Boolean).length) || './';
   const link = (route = '') => `${base}${route}`;
   const html = `<!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>${esc(title)} - Scurra</title><meta name="description" content="${esc(description)}"><meta name="baidu-site-verification" content="codeva-6JF82PbTKI">
+<title>${esc(title)} - Scurra</title><meta name="description" content="${esc(description)}">
+<meta name="robots" content="${meta.indexable?'index,follow,max-image-preview:large':'noindex,follow'}">${Object.entries(seoConfig.verification).filter(([,v])=>v).map(([name,value])=>`<meta name="${esc(name)}" content="${esc(value)}">`).join('')}
 <meta property="og:type" content="website"><meta property="og:locale" content="zh_CN"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}"><meta property="og:url" content="${config.origin}/${route}">
+<meta property="og:site_name" content="${esc(seoConfig.siteName)}">${meta.image?`<meta property="og:image" content="${esc(meta.image)}"><meta property="og:image:alt" content="${esc(title)}">`:''}<meta name="twitter:card" content="summary">
 <link rel="canonical" href="${config.origin}/${route}"><link rel="stylesheet" href="${link('discover.css')}?v=${assetsVersion}">
-<script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': route.startsWith('works/') ? 'VideoGame' : 'CollectionPage', name: title, url: `${config.origin}/${route}`, inLanguage: 'zh-CN' }).replace(/</g, '\\u003c')}</script>
+<script type="application/ld+json">${JSON.stringify(meta.structured).replace(/</g, '\\u003c')}</script>
 <script type="module" src="${link('discover.js')}?v=${assetsVersion}"></script></head>
 <body><a class="skip-link" href="#main">跳到内容</a><header class="topbar"><a class="brand" href="${link()}"><span class="brand-mark" aria-hidden="true">s</span><span>scurra<span class="brand-sub">Gal 热门发现</span></span></a><form class="search" action="${link('search/')}" role="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input name="q" aria-label="搜索作品、作者或制作商" placeholder="搜作品、作者、制作商" autocomplete="off"><button type="submit" aria-label="提交搜索">搜索</button></form><a class="quiz-button" href="${link('quiz/')}"><span class="quiz-full">测测适合哪部 Gal</span><span class="quiz-short">口味测试</span><span aria-hidden="true"> ↗</span></a></header>
 <div class="layout"><aside class="sidebar"><nav aria-label="主导航"><a ${active === 'home' ? 'aria-current="page"' : ''} href="${link()}"><span aria-hidden="true">⌂</span>热门发现</a><a ${active === 'library' ? 'aria-current="page"' : ''} href="${link('library/')}"><span aria-hidden="true">▦</span>作品与创作者</a><a ${active === 'archive' ? 'aria-current="page"' : ''} href="${link('periods/')}"><span aria-hidden="true">◷</span>往期收录</a></nav><div class="sidebar-rule"></div><div class="sidebar-heading">每 ${config.intervalDays} 天，换一批故事</div><p class="sidebar-note">从刷到的片段<br>走进它背后的作品。</p><div class="issue-links">${index.periods.slice(0, 5).map((p) => `<a href="${link(`periods/${p.id}/`)}">${p.id.replaceAll('-', '.')}<span>查看</span></a>`).join('')}</div><a class="method-link" href="${link('about/')}">收录标准与数据来源</a><div class="sidebar-bottom"><span class="small-dot"></span> 为喜欢故事的人而做</div></aside>
-<main id="main" class="main${route.startsWith('works/') ? ' work-main' : route.startsWith('library/') ? ' library-main' : ''}" tabindex="-1">${body.replaceAll('@@ROOT@@', base)}</main></div>
+<main id="main" class="main${route.startsWith('works/') ? ' work-main' : route.startsWith('library/') ? ' library-main' : ''}" tabindex="-1">${route?`<nav class="breadcrumb" aria-label="当前位置">${meta.crumbs.map((c,i)=>i===meta.crumbs.length-1?`<span aria-current="page">${esc(c.name)}</span>`:`<a href="${esc(c.url)}">${esc(c.name)}</a>`).join('<span aria-hidden="true"> / </span>')}</nav>`:''}${body.replaceAll('@@ROOT@@', base)}</main></div>
 <footer class="footer"><span>Scurra · Gal 热门发现</span><p>资料来自 ${sourceLink('https://vndb.org/', 'VNDB')}、${sourceLink('https://bgm.tv/', 'Bangumi')}、${sourceLink('https://www.kungal.com/', 'KUN 社区')}及所标注的官方来源。数据库遵循 ${sourceLink('https://opendatacommons.org/licenses/odbl/1-0/', 'ODbL')}；图片版权归原权利人所有。</p><p>本站不提供游戏资源下载。<button class="text-button" data-correct type="button">资料有误？告诉我</button></p></footer>
 <dialog id="correction"><form method="dialog"><div class="dialog-title"><h2>资料纠错与建议</h2><button aria-label="关闭反馈">关闭</button></div></form><form id="correction-form"><label>具体说说<textarea name="message" minlength="10" maxlength="2000" required rows="5" placeholder="请带上作品名或页面链接，方便我核对。"></textarea></label><label>联系方式（选填）<input name="contact" maxlength="100" autocomplete="email"></label><p class="muted">内容仅供站主处理反馈。不会发送你的搜索记录或问卷答案。</p><p role="status" aria-live="polite"></p><button class="pill light" type="submit">发送反馈</button></form></dialog>
 </body></html>`;
@@ -72,8 +82,8 @@ function platformSection(name, period, full = false) {
 }
 const hot = latest?.platforms?.douyin?.ranking?.[0] ?? latest?.platforms?.bilibili?.ranking?.[0];
 const featured = work(hot?.workId);
-const hero = featured ? `<section class="hero"><div class="hero-copy"><p class="hero-kicker">从这一幕，认识一部作品</p><h1>${esc(featured.title)}</h1><p class="hero-description">${esc((featured.descriptionLanguage === '中文' ? featured.description : '看看片段背后的故事，也认识创造它的人。').slice(0, 100))}</p><div class="hero-actions"><a class="pill light" href="@@ROOT@@${workPath(featured.id)}">走进作品</a><span>${pretty(hot.maxLikes)} 赞的片段，从这里开始</span></div></div><a class="hero-art" href="@@ROOT@@${workPath(featured.id)}" aria-label="查看${esc(featured.title)}">${cover(featured)}</a></section>` : `<section class="hero hero-empty"><div class="hero-copy"><p class="hero-kicker">那些让你停下来的一幕</p><h1>刷到一个片段，<br>找到一整个故事。</h1><p class="hero-description">收集抖音与 B站的热门 Galgame 片段，<br>找到作品，也认识写下故事、画出角色的人。</p><div class="hero-actions"><a class="pill light" href="@@ROOT@@quiz/">先按口味找一部</a><a class="subtle-link" href="@@ROOT@@about/">了解收录标准</a></div></div><div class="hero-empty-art" aria-hidden="true"><div class="frame-back"></div><div class="frame-front"><span class="frame-cross">✦</span><span>下一段故事<br>正等着被发现</span><div class="frame-lines"></div></div></div></section>`;
-await page('', 'Gal 热门发现｜从片段找到游戏', `每${config.intervalDays}天收录抖音、B站近${config.intervalDays}天发布且单条至少${config.minLikes}赞的Galgame片段，查看背后的游戏、剧本作者、原画师与制作商。`, `${hero}<div class="period-strip"><div><span class="small-dot"></span>${latest ? `本期 ${latest.id.replaceAll('-', '.')} · 每 ${config.intervalDays} 天更新` : `首期采集验证中 · 每 ${config.intervalDays} 天更新`}</div><div><a href="@@ROOT@@signals/">互动观察 · 试运行</a><a href="@@ROOT@@periods/">往期收录</a></div></div>${PLATFORMS.map((p) => platformSection(p, latest)).join('')}<section class="quiz-callout"><div><h2>还没遇到想玩的？</h2><p>用 11 道题，找找适合你现在口味的 Gal。</p></div><a class="pill outline" href="@@ROOT@@quiz/">测测适合哪部 Gal</a></section>`);
+const hero = featured ? `<section class="hero"><div class="hero-copy"><p class="hero-kicker">从这一幕，认识一部作品</p><h2 class="hero-title">${esc(featured.title)}</h2><p class="hero-description">${esc((featured.descriptionLanguage === '中文' ? featured.description : '看看片段背后的故事，也认识创造它的人。').slice(0, 100))}</p><div class="hero-actions"><a class="pill light" href="@@ROOT@@${workPath(featured.id)}">走进作品</a><span>${pretty(hot.maxLikes)} 赞的片段，从这里开始</span></div></div><a class="hero-art" href="@@ROOT@@${workPath(featured.id)}" aria-label="查看${esc(featured.title)}">${cover(featured)}</a></section>` : `<section class="hero hero-empty"><div class="hero-copy"><p class="hero-kicker">那些让你停下来的一幕</p><h2 class="hero-title">刷到一个片段，<br>找到一整个故事。</h2><p class="hero-description">收集抖音与 B站的热门 Galgame 片段，<br>找到作品，也认识写下故事、画出角色的人。</p><div class="hero-actions"><a class="pill light" href="@@ROOT@@quiz/">先按口味找一部</a><a class="subtle-link" href="@@ROOT@@about/">了解收录标准</a></div></div><div class="hero-empty-art" aria-hidden="true"><div class="frame-back"></div><div class="frame-front"><span class="frame-cross">✦</span><span>下一段故事<br>正等着被发现</span><div class="frame-lines"></div></div></div></section>`;
+await page('', 'Gal 热门发现｜从片段找到游戏', `每${config.intervalDays}天收录抖音、B站近${config.intervalDays}天发布且单条至少${config.minLikes}赞的Galgame片段，查看背后的游戏、剧本作者、原画师与制作商。`, `<section class="discovery-intro"><h1>Galgame推荐与热门作品发现</h1><p>从抖音、B站片段找到游戏，查看<a href="@@ROOT@@library/">作品中文简介、评分与创作团队</a>。第一次玩？先看<a href="@@ROOT@@beginners/">Galgame新手入门推荐</a>。</p></section>${hero}<div class="period-strip"><div><span class="small-dot"></span>${latest ? `本期 ${latest.id.replaceAll('-', '.')} · 每 ${config.intervalDays} 天更新` : `首期采集验证中 · 每 ${config.intervalDays} 天更新`}</div><div><a href="@@ROOT@@signals/">互动观察 · 试运行</a><a href="@@ROOT@@periods/">往期收录</a></div></div>${PLATFORMS.map((p) => platformSection(p, latest)).join('')}<section class="quiz-callout"><div><h2>还没遇到想玩的？</h2><p>用 11 道题，找找适合你现在口味的 Gal。</p></div><a class="pill outline" href="@@ROOT@@quiz/">测测适合哪部 Gal</a></section>`);
 
 await page('periods/', '往期收录', `浏览每${config.intervalDays}天一期的Galgame热门片段和作品收录。`, `<div class="page-heading"><p class="eyebrow">把喜欢的片段留下来</p><h1>往期收录</h1><p>每一期保留当时的采集数值，不把累计点赞当成这期新增。</p></div><div class="archive-list">${index.periods.length ? index.periods.map((p) => `<a href="@@ROOT@@periods/${p.id}/"><span class="archive-date">${p.id.replaceAll('-', '.')}</span><span>${date(p.start)} — ${date(p.end)}</span><span>${PLATFORMS.map((name) => `${labels[name]} ${p.platforms[name]?.ranking?.length ?? 0} 部${p.platforms[name]?.status !== 'success' ? '（采集未完成）' : ''}`).join(' / ')}</span><span aria-hidden="true">↗</span></a>`).join('') : '<div class="empty-source"><p>首期完成后，会在这里保留每一期的记录。</p></div>'}</div>`, 'archive');
 for (const p of index.periods) {
@@ -110,10 +120,18 @@ for (const file of old.files) {
   const target = path.resolve(root, file);
   if (target.startsWith(root + path.sep)) await rm(target, { force: true });
 }
-const files = [...new Set([...emitted, 'discover.css', 'discover.js', 'data/discovery.json', 'data/library.json', 'data/engagement.json', 'quiz/index.html', 'app.js', 'engine.js', 'feedback.js', 'style.css', 'beginners/index.html', 'robots.txt', 'sitemap.xml', 'data/vns.json', 'data/quiz.json', 'discovery-manifest.json'])].sort();
+const files = [...new Set([...emitted, 'discover.css', 'discover.js', 'data/discovery.json', 'data/library.json', 'data/engagement.json', 'quiz/index.html', 'app.js', 'engine.js', 'feedback.js', 'style.css', 'beginners/index.html', 'robots.txt', 'sitemap.xml', seoConfig.indexNowKeyFile, 'data/vns.json', 'data/quiz.json', 'discovery-manifest.json'])].sort();
 await writeJson('site/discovery-manifest.json', { version: 1, files });
-const routes = [...emitted.map((file) => file.replace(/index\.html$/, '')), 'quiz/', 'beginners/'];
-await writeFile('site/sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${routes.map((route) => `<url><loc>${config.origin}/${route}</loc></url>`).join('')}</urlset>\n`);
+for(const route of ['quiz/','beginners/']){
+  const html=(await readFile(`site/${route}index.html`,'utf8')).replace(/\r\n/g,'\n');
+  const meta={url:`${config.origin}/${route}`,title:html.match(/<title>([^<]*)/)[1],description:html.match(/<meta name="description" content="([^"]*)/)[1],indexable:true};
+  if(recordPage(seoPrevious.pages,seoPages,meta,html,seoNow))changedUrls.push(meta.url);
+}
+await writeFile('site/sitemap.xml',sitemapXml(seoPages));
+await writeFile(`site/${seoConfig.indexNowKeyFile}`,`${seoConfig.indexNowKey}\n`);
+const removed=Object.keys(seoPrevious.pages).filter(url=>seoPrevious.pages[url].indexable&&!seoPages[url]?.indexable);
+await writeJson('data/discovery/seo-state.json',{version:1,pages:seoPages});
+await writeJson('data/discovery/indexnow-pending.json',{version:1,urls:[...new Set([...changedUrls,...removed])]});
 // Generate an explicit edge allowlist. Never turn the fixed-origin proxy into an arbitrary proxy.
 await writeJson('cloudflare/discovery-routes.json', { files });
 console.log(`生成 ${emitted.length} 个发现页面，${Object.keys(catalog.works).length} 部作品，${index.periods.length} 期。`);

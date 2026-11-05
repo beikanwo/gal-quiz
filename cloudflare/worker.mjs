@@ -1,9 +1,10 @@
 // www.scurra.top 的 HTTPS 入口。固定读取 GitHub Pages 的静态文件，推荐逻辑仍在浏览器运行。
 const ORIGIN = 'https://beikanwo.github.io/gal-quiz/';
-const CACHE_VERSION = 'discovery-20261102-engagement-final';
+const CACHE_VERSION = 'discovery-20261105-seo';
 const FILES = new Set(['', 'index.html', 'beginners/index.html', 'quiz/index.html', 'library/index.html', 'search/index.html', 'periods/index.html', 'about/index.html', 'discover.css', 'discover.js', 'discovery-manifest.json', 'app.js', 'engine.js', 'feedback.js', 'style.css', 'robots.txt', 'sitemap.xml', 'data/vns.json', 'data/quiz.json', 'data/discovery.json', 'data/library.json', 'data/engagement.json', 'signals/index.html']);
 // Only generated document routes on the same fixed origin; no arbitrary file/proxy paths.
 export function isAllowedFile(file) {
+  if(file==='indexnow-key.txt')return true;
   return FILES.has(file) || /^signals\/\d{4}-\d{2}-\d{2}\/index\.html$/.test(file) || /^library\/(?:works|writers|artists|producers)(?:\/[1-9]\d*)?\/index\.html$/.test(file) || /^(?:works\/(?:v\d+|manual-[a-z0-9-]+)|staff\/s\d+|producers\/p\d+|periods\/\d{4}-\d{2}-\d{2})\/index\.html$/.test(file);
 }
 
@@ -69,7 +70,7 @@ export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
     // 保留旧推广链接的路径和查询参数，将入口统一到正式域名。
-    if (url.hostname === 'gal.scurra.top') {
+    if (['gal.scurra.top','scurra.top'].includes(url.hostname)) {
       url.hostname = 'www.scurra.top';
       url.protocol = 'https:';
       return Response.redirect(url.href, 301);
@@ -82,6 +83,7 @@ export default {
     if (!['GET', 'HEAD'].includes(request.method)) {
       return new Response('Method not allowed', { status: 405, headers: { Allow: 'GET, HEAD' } });
     }
+    if(url.pathname==='/index.html'){url.pathname='/';return Response.redirect(url.href,301);}
     // 专题页统一使用带斜杠的网址，避免回源触发 GitHub Pages 的目录跳转。
     const directory = /^\/(?:signals(?:\/\d{4}-\d{2}-\d{2})?|beginners|quiz|library(?:\/(?:works|writers|artists|producers)(?:\/[1-9]\d*)?)?|search|periods|about|works\/(?:v\d+|manual-[a-z0-9-]+)|staff\/s\d+|producers\/p\d+|periods\/\d{4}-\d{2}-\d{2})(?:\/index\.html)?$/;
     if (directory.test(url.pathname)) {
@@ -124,6 +126,7 @@ export default {
     const headers = new Headers(response.headers);
     headers.set('X-Gal-Cache', hit ? 'HIT' : 'MISS');
     headers.set('X-Gal-Edge', 'cloudflare');
+    if((url.pathname==='/search/'||url.pathname.startsWith('/library/')&&url.searchParams.has('q')))headers.set('X-Robots-Tag','noindex, follow');
     if (headers.has('ETag') && request.headers.get('If-None-Match') === headers.get('ETag')) {
       headers.delete('Content-Length');
       return new Response(null, { status: 304, headers });

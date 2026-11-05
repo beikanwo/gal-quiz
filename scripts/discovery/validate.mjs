@@ -60,3 +60,4 @@ for(const report of [interaction.preview,...interaction.reports].filter(Boolean)
 }
 assert.ok(!/DOUYIN_COOKIE|BILIBILI_COOKIE|SESSDATA|msToken|sessionid/i.test(JSON.stringify(interaction)),'影子页面含有登录材料');
 console.log(`校验通过：${manifest.files.length} 个路由、${Object.keys(catalog.works).length} 部作品、${periods.periods.length} 期及问卷兼容。`);
+await import('./validate-seo.mjs');
