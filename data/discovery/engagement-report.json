@@ -1,16 +1,16 @@
 {
-  "startedAt": "2026-11-04T09:56:50.884Z",
+  "startedAt": "2026-11-05T09:53:12.281Z",
   "mode": "shadow",
   "formalRankingChanged": false,
   "searchWindow": {
-    "start": "2026-10-30T09:56:50.884Z",
-    "end": "2026-11-04T09:56:51.884Z"
+    "start": "2026-10-31T09:53:12.281Z",
+    "end": "2026-11-05T09:53:13.281Z"
   },
   "platforms": {
     "douyin": {
-      "status": "success",
+      "status": "partial",
       "fieldVerificationStatus": "complete",
-      "lastAttemptAt": "2026-11-04T09:58:22.807Z",
+      "lastAttemptAt": "2026-11-05T09:55:18.808Z",
       "searches": 8,
       "queries": [
         "galgame",
@@ -22,7 +22,16 @@
         "时空轮回",
         "天津罪"
       ],
-      "failures": [],
+      "failures": [
+        {
+          "stage": "refresh",
+          "id": "7702794405752687913"
+        },
+        {
+          "stage": "refresh",
+          "id": "7704319008585797211"
+        }
+      ],
       "sampleCount": 20,
       "sampleTarget": 20,
       "available": {
@@ -40,12 +49,12 @@
         "views": 0,
         "coins": 0
       },
-      "lastSuccessAt": "2026-11-04T09:58:22.807Z"
+      "lastSuccessAt": "2026-11-05T09:55:18.808Z"
     },
     "bilibili": {
-      "status": "success",
+      "status": "partial",
       "fieldVerificationStatus": "complete",
-      "lastAttemptAt": "2026-11-04T10:01:51.888Z",
+      "lastAttemptAt": "2026-11-05T09:58:36.434Z",
       "searches": 10,
       "queries": [
         "galgame",
@@ -57,7 +66,12 @@
         "时空轮回",
         "天津罪"
       ],
-      "failures": [],
+      "failures": [
+        {
+          "stage": "refresh",
+          "id": "BV184xP6hETv"
+        }
+      ],
       "sampleCount": 20,
       "sampleTarget": 20,
       "available": {
@@ -69,18 +83,18 @@
         "coins": 20
       },
       "zeroValues": {
-        "favorites": 6,
-        "comments": 4,
-        "shares": 16,
-        "views": 1,
-        "coins": 9
+        "favorites": 9,
+        "comments": 5,
+        "shares": 11,
+        "views": 2,
+        "coins": 15
       },
-      "lastSuccessAt": "2026-11-04T10:01:51.888Z"
+      "lastSuccessAt": "2026-11-05T09:58:36.434Z"
     }
   },
-  "finishedAt": "2026-11-04T10:01:54.574Z",
-  "observedPosts": 50,
-  "identityPending": 328,
+  "finishedAt": "2026-11-05T09:58:39.423Z",
+  "observedPosts": 61,
+  "identityPending": 407,
   "trial": {
     "periods": [
       {
