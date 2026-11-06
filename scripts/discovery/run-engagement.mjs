@@ -5,13 +5,15 @@ import { PLATFORMS,chinaDate,matchWork } from './core.mjs';
 import { canonicalWorks } from './identity-names.mjs';
 import { BilibiliSource,DouyinSource } from './sources.mjs';
 import { observe,buildSignals,baseline,fields } from './engagement.mjs';
+import { Metadata,seedAliases } from './metadata.mjs';
+import { windowRecords,collectionWindow,engagementQueries,resolveEngagementWorks } from './engagement-discovery.mjs';
 const DAY=86400000;
 export const trialPeriods=config=>Array.from({length:config.trialPeriods},(_,i)=>{
   const end=Date.parse(`${config.firstPeriod}T00:00:00+08:00`)+i*config.intervalDays*DAY;
   return {id:chinaDate(end),start:new Date(end-config.intervalDays*DAY).toISOString(),end:new Date(end).toISOString(),supplementUntil:new Date(end+2*DAY).toISOString()};
 });
 export async function runEngagement(options=args()) {
-  const settings=await readJson('config/engagement.json'),now=Date.now(),periods=trialPeriods(settings);
+  const settings=await readJson('config/engagement.json'),discovery=await readJson('config/discovery.json'),now=Date.now(),periods=trialPeriods(settings);
   const state=await readJson('data/discovery/engagement-state.json',{version:1,posts:{},identityPending:{},reports:{}});
   const expired=now>Date.parse(periods.at(-1).supplementUntil),due=!expired||Boolean(state.updatedAt&&!state.trial?.endedAt);
   if(options.due){if(process.env.GITHUB_OUTPUT)await appendFile(process.env.GITHUB_OUTPUT,`due=${due}\n`);console.log(JSON.stringify({due,mode:'shadow'}));return;}
@@ -24,26 +26,34 @@ export async function runEngagement(options=args()) {
   const catalog=await readJson('data/discovery/catalog.json'),overrides=await readJson('config/discovery-overrides.json');
   const formalRaw=await readFile('data/discovery/periods.json','utf8'),formal=JSON.parse(formalRaw);
   const canonical=new Map();for(const w of await readJson('site/data/vns.json',[]))for(const alt of w.altIds??[])canonical.set(alt,w.id);
-  const identities=canonicalWorks(catalog.works,canonical),window={start:new Date(now-5*DAY).toISOString(),end:new Date(now+1000).toISOString()};
-  const deadline=now+Number(options.minutes??16)*60000;
+  const seeds=await seedAliases(catalog,overrides),metadata=new Metadata(catalog,overrides);
+  metadata.unknownQueryLimit=settings.maxUnknownTitleQueries??24;
+  let identities=canonicalWorks(catalog.works,canonical);
+  const window=collectionWindow(now,periods,state.reports);
+  const deadline=now+Number(options.minutes??22)*60000;
   const report={startedAt:new Date(now).toISOString(),mode:'shadow',formalRankingChanged:false,searchWindow:window,platforms:{}};
-  const activeWorks=[...new Set(Object.values(formal.periods[0]?.platforms??{}).flatMap(p=>p.ranking.map(r=>r.workId)))];
-  const queries=[...settings.keywords,...activeWorks.slice(0,settings.maxExpansionWorks).map(id=>catalog.works[id]?.title).filter(Boolean)];
+  const queries=engagementQueries(settings,discovery,formal,catalog,state,now);
   for(const platform of PLATFORMS){
-    const source=platform==='douyin'?new DouyinSource():new BilibiliSource(),fresh=[],failures=[];let searches=0;
+    const source=platform==='douyin'?new DouyinSource():new BilibiliSource(),fresh=[],failures=[],searchCoverage=[];let searches=0;
+    const platformDeadline=deadline-(platform==='douyin'?9:0)*60000;
     for(const keyword of queries){
-      if(Date.now()>deadline-(platform==='douyin'?5:1)*60000)break;
-      try{const batch=await source.search(keyword,1,window,{order:'pubdate'});fresh.push(...batch.records);searches++;if(batch.partial)failures.push({stage:'search',keyword});}
+      if(Date.now()>platformDeadline-3*60000){failures.push({stage:'search-budget',keyword});break;}
+      try{const batch=await source.search(keyword,settings.pagesPerKeyword??2,window,{order:'pubdate'});fresh.push(...windowRecords(batch.records,window));searches++;searchCoverage.push({keyword,pages:batch.pages,...batch.coverage});if(batch.partial)failures.push({stage:'search',keyword});}
       catch{failures.push({stage:'search',keyword});}
       if(searches===0&&failures.length>=2)break;
     }
     // Latest-first discovers low-like posts; a small separate high-view sample
     // provides a meaningful popular comparator over the same posting window.
     if(platform==='bilibili')for(const keyword of settings.comparisonKeywords??[]){
-      if(Date.now()>deadline-2*60000)break;
+      if(Date.now()>platformDeadline-3*60000)break;
       try{const batch=await source.search(keyword,1,window,{order:'click'});fresh.push(...batch.records);searches++;if(batch.partial)failures.push({stage:'comparison-search',keyword});}catch{failures.push({stage:'comparison-search',keyword});}
     }
-    observe(state,fresh,identities,overrides);
+    metadata.deadline=Math.min(platformDeadline-60000,Date.now()+(settings.metadataMinutesPerPlatform??2)*60000);
+    const workResolution=await resolveEngagementWorks(windowRecords(fresh,window),{catalog,seeds,canonical,overrides,metadata,deadline:metadata.deadline});
+    identities=canonicalWorks(catalog.works,canonical);
+    observe(state,windowRecords(fresh,window),identities,overrides);
+    await writeJson('data/discovery/catalog.json',catalog);
+    await metadata.community.saveIndex();
     // Refresh observed posts, especially the young videos and validation sample.
     const priority=p=>{
       const age=(now-Date.parse(p.record.publishedAt))/3600000,observedAge=(Date.parse(p.record.collectedAt)-Date.parse(p.record.publishedAt))/3600000;
@@ -53,19 +63,22 @@ export async function runEngagement(options=args()) {
     };
     const candidates=Object.values(state.posts).filter(p=>p.record.platform===platform&&Date.parse(p.record.publishedAt)>=now-7*DAY).sort((a,b)=>priority(a)-priority(b)||Date.parse(a.record.collectedAt)-Date.parse(b.record.collectedAt));
     const refresh=candidates.slice(0,settings.maxRefreshPerPlatform).map(p=>p.record);
-    if(refresh.length&&Date.now()<deadline-60000){
-      for(let i=0;i<refresh.length&&Date.now()<deadline-30000;i+=platform==='douyin'?10:5){
+    if(refresh.length&&Date.now()<platformDeadline-60000){
+      for(let i=0;i<refresh.length&&Date.now()<platformDeadline-30000;i+=platform==='douyin'?10:5){
         const batch=refresh.slice(i,i+(platform==='douyin'?10:5));
         try{const result=await source.refreshMany(batch);fresh.push(...result.records);observe(state,result.records,identities,overrides);for(const id of result.failedIds)failures.push({stage:'refresh',id});}catch{for(const r of batch)failures.push({stage:'refresh',id:r.id});}
       }
     }
-    const sample=[...new Map(fresh.map(r=>[r.id,r])).values()].slice(0,settings.sampleTargetPerPlatform);
+    const currentRecords=windowRecords(fresh,window);
+    const sample=currentRecords.slice(0,settings.sampleTargetPerPlatform);
     const available=Object.fromEntries(['author',...fields].map(field=>[field,sample.filter(r=>field==='author'?Boolean(r.author?.id):Number.isSafeInteger(r.metrics?.[field])&&r.metrics[field]>=0).length]));
     const required=platform==='douyin'?['author','favorites','comments','shares']:['author',...fields];
-    const current={status:searches||fresh.length?(failures.length?'partial':'success'):'failed',fieldVerificationStatus:required.every(f=>available[f]>=settings.sampleTargetPerPlatform)?'complete':'incomplete',lastAttemptAt:new Date().toISOString(),searches,queries,failures,sampleCount:sample.length,sampleTarget:settings.sampleTargetPerPlatform,available,zeroValues:Object.fromEntries(fields.map(f=>[f,sample.filter(r=>r.metrics?.[f]===0).length]))};
-    if(fresh.length)current.lastSuccessAt=current.lastAttemptAt;else current.lastSuccessAt=state.platforms?.[platform]?.lastSuccessAt??null;
+    const identified=currentRecords.filter(r=>matchWork(r,identities,overrides).status==='matched');
+    const current={status:searches||currentRecords.length?(failures.length?'partial':'success'):'failed',fieldVerificationStatus:required.every(f=>available[f]>=settings.sampleTargetPerPlatform)?'complete':'incomplete',lastAttemptAt:new Date().toISOString(),searches,queries,searchCoverage,pagesPerKeyword:settings.pagesPerKeyword??2,window,workResolution,inWindowCount:currentRecords.length,identifiedCount:identified.length,identifiedWorks:new Set(identified.map(r=>matchWork(r,identities,overrides).workId)).size,failures,sampleCount:sample.length,sampleTarget:settings.sampleTargetPerPlatform,available,zeroValues:Object.fromEntries(fields.map(f=>[f,sample.filter(r=>r.metrics?.[f]===0).length]))};
+    if(currentRecords.length)current.lastSuccessAt=current.lastAttemptAt;else current.lastSuccessAt=state.platforms?.[platform]?.lastSuccessAt??null;
     state.platforms??={};state.platforms[platform]=current;report.platforms[platform]=current;
     await writeJson(`data/raw/engagement/${platform}-samples.json`,sample);
+    await writeJson(`data/raw/engagement/${platform}-candidates.json`,currentRecords);
     await writeJson('data/discovery/engagement-state.json',state);
     console.log(`${platform}: ${current.status}, ${sample.length}条字段样本, ${Object.values(state.posts).filter(p=>p.record.platform===platform).length}条明确作品候选`);
   }
@@ -87,7 +100,7 @@ export async function runEngagement(options=args()) {
     if(now>Date.parse(period.supplementUntil)&&state.reports[period.id]){state.reports[period.id].finalized=true;continue;}
     state.reports[period.id]={...makeReport(period),finalized:now>Date.parse(period.supplementUntil)};
   }
-  const rehearsal={id:`preview-${chinaDate(now)}`,start:window.start,end:window.end,rehearsal:true};
+  const rehearsal={id:`preview-${chinaDate(now)}`,start:new Date(now-5*DAY).toISOString(),end:window.end,rehearsal:true};
   state.preview=makeReport(rehearsal);state.updatedAt=new Date().toISOString();
   state.trial={periods,closed:periods.filter(p=>Date.parse(p.end)<=now).length,finalized:periods.filter(p=>state.reports[p.id]?.finalized).length,target:settings.trialPeriods};
   report.finishedAt=state.updatedAt;report.observedPosts=posts.length;report.identityPending=Object.keys(state.identityPending??{}).length;report.trial=state.trial;

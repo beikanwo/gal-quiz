@@ -13,7 +13,7 @@ concurrency:
 jobs:
   observe:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 40
     outputs:
       publish: ${{ steps.save.outputs.publish }}
       commit: ${{ steps.save.outputs.commit }}
@@ -44,7 +44,7 @@ jobs:
         env:
           DOUYIN_COOKIE: ${{ secrets.DOUYIN_COOKIE }}
           BILIBILI_COOKIE: ${{ secrets.BILIBILI_COOKIE }}
-        run: node scripts/discovery/run-engagement.mjs --minutes 16
+        run: node scripts/discovery/run-engagement.mjs --minutes 22
       - name: Build and verify the shadow publication
         if: steps.due.outputs.due == 'true'
         run: |
@@ -58,7 +58,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/discovery/engagement-state.json data/discovery/engagement-report.json data/discovery/seo-state.json data/discovery/indexnow-pending.json site cloudflare/discovery-routes.json
+          git add config/discovery-community.json data/discovery/catalog.json data/discovery/engagement-state.json data/discovery/engagement-report.json data/discovery/seo-state.json data/discovery/indexnow-pending.json site cloudflare/discovery-routes.json
           if ! git diff --cached --quiet; then
             git commit -m '记录互动影子样本与作者同龄观测'
             git push

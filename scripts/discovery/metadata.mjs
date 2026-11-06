@@ -105,7 +105,7 @@ export class Metadata {
   }
   async resolveUnknown(record) {
     const text = [record.title, record.description, ...(record.tags ?? [])].join(' ');
-    const generic = /^(galgame|gal游戏|美少女游戏|视觉小说|cg|游戏推荐|游戏|单机游戏|游戏杂谈|游戏实况|攻略|剧情|恋爱|二次元|动漫|动画|番剧|音乐|原神|鸣潮|虚拟偶像|实况解说|steam|新人|搞笑|可爱|游戏鉴赏家|gal|pc游戏|桌游棋牌)$/i;
+    const generic = /^(galgame|galgame推荐|galgame名场面|冷门视觉小说|游戏安利|gal游戏|美少女游戏|视觉小说|cg|游戏推荐|游戏|单机游戏|游戏杂谈|游戏实况|攻略|剧情|恋爱|二次元|动漫|动画|番剧|音乐|原神|鸣潮|虚拟偶像|实况解说|steam|新人|搞笑|可爱|游戏鉴赏家|gal|pc游戏|桌游棋牌)$/i;
     const phrases = [...text.matchAll(/《([^》]{2,70})》|「([^」]{2,70})」|【([^】]{2,70})】|#([^\s#]{2,35})/g)].map((m) => m[1] ?? m[2] ?? m[3] ?? m[4]);
     phrases.push(...(record.tags ?? []).filter((s) => s.length >= 2 && s.length <= 35));
     for (const phrase of [...new Set(phrases)].filter((s) => !generic.test(s)).slice(0, 4)) {

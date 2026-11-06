@@ -5,6 +5,7 @@ import path from 'node:path';
 import { pause, failure } from './io.mjs';
 import { canonicalEvidenceUrl } from './core.mjs';
 import { biliEngagement } from './engagement-records.mjs';
+import { windowRecords } from './engagement-discovery.mjs';
 const execute = promisify(execFile);
 const ua = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/131.0.0.0 Safari/537.36';
 const clean = (s) => String(s ?? '').replace(/<[^>]*>/g, '').replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;/g, "'").slice(0, 4000);
@@ -121,11 +122,27 @@ export class DouyinSource {
     const python = process.env.DOUK_PYTHON ?? path.join(root, process.platform === 'win32' ? '.venv/Scripts/python.exe' : '.venv/bin/python');
     let result;
     try {
-      result = await execute(python, [path.resolve('scripts/discovery/douk_bridge.py'), '--repo', root, '--keyword', keyword, '--pages', String(pages),'--publish-days',options.order==='pubdate'?'7':'0'], { timeout: 150000, maxBuffer: 8 * 1024 * 1024, windowsHide: true, env: process.env });
+      result = await execute(python, [path.resolve('scripts/discovery/douk_bridge.py'), '--repo', root, '--keyword', keyword, '--pages', String(pages),'--publish-days',options.order==='pubdate'?'7':'0','--channel',String(options.channel??0)], { timeout: 150000, maxBuffer: 8 * 1024 * 1024, windowsHide: true, env: process.env });
     } catch { throw failure('抖音采集进程未就绪或请求超时；请安装固定版本的 DouK 并配置登录状态。'); }
     let data;
     try { data = JSON.parse(result.stdout); } catch { throw failure('抖音采集进程未返回有效数据。'); }
     if (!['success', 'partial'].includes(data.status)) throw failure(data.error ?? '抖音采集失败，请更新登录状态。');
-    return { records: data.records.map((r) => ({ ...r, keyword })), pages: data.pages, partial: data.status === 'partial' };
+    const raw = data.records.map((r) => ({ ...r, keyword }));
+    const filtered = period ? windowRecords(raw, period) : raw;
+    let resultBatch = { records: options.order === 'pubdate' ? filtered : raw, pages: data.pages, partial: data.status === 'partial',
+      coverage: { returned: raw.length, inWindow: filtered.length, outsideWindow: raw.length - filtered.length, channel: options.channel === 1 ? 'video' : 'general' } };
+    // If general search ignores the date filter, try the video endpoint with
+    // direct sort/date parameters. Keep valid image posts from general search.
+    if (options.order === 'pubdate' && period && !options.channel && raw.length && filtered.length < raw.length / 2) {
+      try {
+        const fallback = await this.search(keyword, pages, period, { ...options, channel: 1 });
+        resultBatch.records = [...new Map([...filtered, ...fallback.records].map(r => [r.id, r])).values()];
+        resultBatch.pages += fallback.pages;
+        resultBatch.coverage.videoFallback = fallback.coverage;
+        resultBatch.partial ||= fallback.partial;
+      } catch { resultBatch.partial = true; resultBatch.coverage.fallbackFailed = true; }
+    }
+    if (options.order === 'pubdate' && raw.length && !resultBatch.records.length) resultBatch.partial = true;
+    return resultBatch;
   }
 }

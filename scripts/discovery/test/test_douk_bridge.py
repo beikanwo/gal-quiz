@@ -1,11 +1,21 @@
 import importlib.util
 import json
 import unittest
+from urllib.parse import quote, urlencode, parse_qs
 from pathlib import Path
 spec=importlib.util.spec_from_file_location('bridge',Path(__file__).resolve().parents[1]/'douk_bridge.py')
 bridge=importlib.util.module_from_spec(spec)
 spec.loader.exec_module(bridge)
 class BridgeTest(unittest.TestCase):
+    def test_search_filters_are_encoded_once_before_signing(self):
+        filters={"sort_type":"2","publish_time":"7","content_type":"0"}
+        original={"filter_selected":quote(json.dumps(filters)),"keyword":"视觉小说"}
+        repaired=bridge.normalize_search_params(original)
+        received=parse_qs(urlencode(repaired))["filter_selected"][0]
+        self.assertEqual(json.loads(received),filters)
+        self.assertNotEqual(original["filter_selected"],repaired["filter_selected"])
+        self.assertEqual(bridge.normalize_search_params(repaired),repaired)
+        self.assertEqual(bridge.normalize_search_params({"keyword":"x"}),{"keyword":"x"})
     def item(self):
         return {'aweme_id':'123','create_time':1793563200,'desc':'游戏CG','statistics':{'digg_count':0,'collect_count':0,'comment_count':20,'share_count':-1,'play_count':0},'author':{'uid':'456','nickname':'作者','sec_uid':'MS4wAAAB','cookie':'SECRET_NOT_FOR_OUTPUT'},'duration':1800}
     def test_zero_missing_and_unsupported_are_distinct(self):

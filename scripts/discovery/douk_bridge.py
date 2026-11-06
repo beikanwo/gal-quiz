@@ -12,6 +12,19 @@ import json
 import logging
 import os
 import sys
+from urllib.parse import unquote
+
+
+def normalize_search_params(params):
+    # The pinned Search pre-quotes this JSON, but sign_url URL-encodes mappings.
+    # Supply plain JSON so a single query decode restores the actual filter.
+    params = dict(params)
+    if params.get("filter_selected"):
+        value = params["filter_selected"]
+        decoded = unquote(value)
+        if isinstance(json.loads(decoded), dict):
+            params["filter_selected"] = decoded
+    return params
 
 
 def extract(items):
@@ -60,6 +73,10 @@ async def collect(args):
     from src.interface.search import Search
     from src.interface.detail import Detail
 
+    class FilteredSearch(Search):
+        def _generate_params_general(self):
+            return normalize_search_params(super()._generate_params_general())
+
     class EphemeralParams(Params):
         def read_ini(self):
             # Deliberately avoid the upstream on-disk cookie configuration.
@@ -92,8 +109,8 @@ async def collect(args):
                     failed.append(post_id)
                 await asyncio.sleep(0.8)
             return {"status": "partial" if failed else "success", "records": records, "failedIds": failed}
-        search = Search(params, cookie=params.cookie_str, keyword=args.keyword,
-                        channel=0, pages=args.pages, sort_type=2, publish_time=args.publish_days)
+        search = FilteredSearch(params, cookie=params.cookie_str, keyword=args.keyword,
+                        channel=args.channel, pages=args.pages, sort_type=2, publish_time=args.publish_days)
         partial = False
         try:
             raw = await search.run()
@@ -119,6 +136,7 @@ def main():
     parser.add_argument("--keyword", default="")
     parser.add_argument("--detail-ids", default="")
     parser.add_argument("--pages", type=int, default=3)
+    parser.add_argument("--channel", type=int, choices=(0, 1), default=0)
     parser.add_argument("--publish-days", type=int, choices=(0, 1, 7, 180), default=0)
     args = parser.parse_args()
     logging.disable(logging.CRITICAL)
