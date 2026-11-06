@@ -31,7 +31,8 @@ export function engagementQueries(settings, discovery, formal, catalog, state, n
 // become evidence, and every referenced work must exist in the public catalog.
 export async function resolveEngagementWorks(records, { catalog, seeds, canonical, overrides, metadata, deadline }) {
   let identities = canonicalWorks({ ...seeds, ...catalog.works }, canonical);
-  let resolved = 0, failures = 0;
+  const existingIds = new Set(Object.keys(catalog.works));
+  let failures = 0;
   for (const record of records) {
     if (Date.now() >= deadline) break;
     let match = matchWork(record, identities, overrides);
@@ -43,9 +44,8 @@ export async function resolveEngagementWorks(records, { catalog, seeds, canonica
       }
       if (match.status === 'matched' && !catalog.works[match.workId]) {
         await metadata.enrichWork(match.workId);
-        resolved++;
       }
     } catch { failures++; }
   }
-  return { resolved, failures };
+  return { resolved: Object.keys(catalog.works).filter(id => !existingIds.has(id)).length, failures };
 }

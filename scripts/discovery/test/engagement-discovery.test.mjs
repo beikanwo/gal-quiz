@@ -36,7 +36,8 @@ test('未知标题接入资料查询，种子名称必须补成真实资料才�
   const metadata={async resolveUnknown(r){calls.push('resolve');if(r.title.includes('新发现作品'))catalog.works.v2={id:'v2',title:'新发现作品',source:'https://vndb.org/v2'};},
     async enrichWork(id){calls.push(id);catalog.works[id]={...seeds[id],source:`https://vndb.org/${id}`};}};
   const records=[record(),record({title:'《种子作品》游戏CG'}),record({title:'《种子作品》和《新发现作品》对比 #galgame'})];
-  await resolveEngagementWorks(records,{catalog,seeds,metadata,canonical:new Map(),overrides:{},deadline:Infinity});
+  const result=await resolveEngagementWorks(records,{catalog,seeds,metadata,canonical:new Map(),overrides:{},deadline:Infinity});
+  assert.equal(result.resolved,2);
   assert.ok(calls.includes('resolve'));assert.ok(calls.includes('v1'));
   assert.equal(matchWork(records[0],catalog.works).workId,'v2');
   assert.equal(matchWork(records[2],catalog.works).status,'pending');
