@@ -30336,6 +30336,62 @@
           ],
           "released": "TBA",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v69936/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/14/149314.jpg\" data-cover-full=\"https://t.vndb.org/cv/14/149314.jpg\" alt=\"对我而言封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>对我而言</h3><p>好活游戏</p><div class=\"card-heat muted\">TBA</div></a></article>"
+        },
+        {
+          "name": "我与你共度的七日",
+          "aliases": [
+            "我与你共度的七日",
+            "我与你共度的七日",
+            "Wo yu Ni Gongdu de Qiri",
+            "The seven days i spent with you",
+            "我與你共度的七日",
+            "君との七日間"
+          ],
+          "released": "2026-06-17",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v58952/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/81/115581.jpg\" data-cover-full=\"https://t.vndb.org/cv/81/115581.jpg\" alt=\"我与你共度的七日封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>我与你共度的七日</h3><p>再演工作室RErevue</p><div class=\"card-heat muted\">2026-06-17</div></a></article>"
+        },
+        {
+          "name": "潘多拉之梦",
+          "aliases": [
+            "パンドラの夢",
+            "潘多拉之梦",
+            "パンドラの夢",
+            "Pandora no Yume",
+            "Dream in Pandora's Box"
+          ],
+          "released": "2001-11-22",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v1203/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/37/101537.jpg\" data-cover-full=\"https://t.vndb.org/cv/37/101537.jpg\" alt=\"潘多拉之梦封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>潘多拉之梦</h3><p>ぱじゃまソフト</p><div class=\"card-heat muted\">2001-11-22</div></a></article>"
+        },
+        {
+          "name": "巧可甜恋",
+          "aliases": [
+            "あまいろショコラータ",
+            "巧可甜恋",
+            "あまいろショコラータ",
+            "Amairo Chocolata",
+            "Amairo Chocolate",
+            "巧可甜戀",
+            "Amachoco",
+            "あまショコ",
+            "巧克甜恋",
+            "巧克甜戀"
+          ],
+          "released": "2020-01-31",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v26581/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/56/76856.jpg\" data-cover-full=\"https://t.vndb.org/cv/56/76856.jpg\" alt=\"巧可甜恋封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>巧可甜恋</h3><p>きゃべつそふと</p><div class=\"card-heat muted\">2020-01-31</div></a></article>"
+        },
+        {
+          "name": "真夏の夜の雪物語 -MIDSUMMER SNOW NIGHT-",
+          "aliases": [
+            "真夏の夜の雪物語 -MIDSUMMER SNOW NIGHT-",
+            "真夏の夜の雪物語 -MIDSUMMER SNOW NIGHT-",
+            "Manatsu no Yoru no Yuki Monogatari -MIDSUMMER SNOW NIGHT-",
+            "真夏之夜的雪物语",
+            "真夏の夜の雪物語",
+            "Manatsu no Yoru no Yuki Monogatari",
+            "仲夏夜之雪物语"
+          ],
+          "released": "2011-12-22",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v7735/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/80/90980.jpg\" data-cover-full=\"https://t.vndb.org/cv/80/90980.jpg\" alt=\"真夏の夜の雪物語 -MIDSUMMER SNOW NIGHT-封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>真夏の夜の雪物語 -MIDSUMMER SNOW NIGHT-</h3><p>エックスワン</p><div class=\"card-heat muted\">2011-12-22</div></a></article>"
         }
       ]
     },

@@ -1,16 +1,16 @@
 {
-  "startedAt": "2026-11-06T03:24:38.730Z",
+  "startedAt": "2026-11-06T09:56:27.447Z",
   "mode": "shadow",
   "formalRankingChanged": false,
   "searchWindow": {
     "start": "2026-10-31T16:00:00.000Z",
-    "end": "2026-11-06T03:24:39.730Z"
+    "end": "2026-11-06T09:56:28.447Z"
   },
   "platforms": {
     "douyin": {
       "status": "partial",
       "fieldVerificationStatus": "complete",
-      "lastAttemptAt": "2026-11-06T03:32:14.456Z",
+      "lastAttemptAt": "2026-11-06T10:03:51.139Z",
       "searches": 11,
       "queries": [
         "galgame",
@@ -31,65 +31,65 @@
         {
           "keyword": "galgame",
           "pages": 2,
-          "returned": 17,
-          "inWindow": 17,
+          "returned": 18,
+          "inWindow": 18,
           "outsideWindow": 0,
-          "channel": "general"
-        },
-        {
-          "keyword": "视觉小说",
-          "pages": 2,
-          "returned": 12,
-          "inWindow": 11,
-          "outsideWindow": 1,
           "channel": "general"
         },
         {
           "keyword": "冷门视觉小说",
           "pages": 2,
           "returned": 2,
-          "inWindow": 2,
-          "outsideWindow": 0,
+          "inWindow": 1,
+          "outsideWindow": 1,
           "channel": "general"
         },
         {
           "keyword": "galgame推荐",
           "pages": 2,
+          "returned": 16,
+          "inWindow": 13,
+          "outsideWindow": 3,
+          "channel": "general"
+        },
+        {
+          "keyword": "游戏安利",
+          "pages": 2,
           "returned": 18,
-          "inWindow": 12,
-          "outsideWindow": 6,
+          "inWindow": 17,
+          "outsideWindow": 1,
           "channel": "general"
         },
         {
           "keyword": "常轨脱离Creative",
           "pages": 2,
           "returned": 3,
-          "inWindow": 3,
-          "outsideWindow": 0,
+          "inWindow": 2,
+          "outsideWindow": 1,
           "channel": "general"
         },
         {
           "keyword": "尚有佳蜜伴恋心",
           "pages": 2,
-          "returned": 0,
-          "inWindow": 0,
+          "returned": 1,
+          "inWindow": 1,
           "outsideWindow": 0,
           "channel": "general"
         },
         {
           "keyword": "国王恋爱",
           "pages": 2,
-          "returned": 3,
+          "returned": 4,
           "inWindow": 3,
-          "outsideWindow": 0,
+          "outsideWindow": 1,
           "channel": "general"
         },
         {
           "keyword": "茧之锤：继承者",
           "pages": 2,
-          "returned": 2,
+          "returned": 3,
           "inWindow": 2,
-          "outsideWindow": 0,
+          "outsideWindow": 1,
           "channel": "general"
         },
         {
@@ -103,16 +103,16 @@
         {
           "keyword": "COCORO",
           "pages": 2,
-          "returned": 3,
+          "returned": 2,
           "inWindow": 2,
-          "outsideWindow": 1,
+          "outsideWindow": 0,
           "channel": "general"
         },
         {
           "keyword": "近月少女的礼仪",
           "pages": 2,
-          "returned": 8,
-          "inWindow": 7,
+          "returned": 7,
+          "inWindow": 6,
           "outsideWindow": 1,
           "channel": "general"
         }
@@ -120,19 +120,19 @@
       "pagesPerKeyword": 2,
       "window": {
         "start": "2026-10-31T16:00:00.000Z",
-        "end": "2026-11-06T03:24:39.730Z"
+        "end": "2026-11-06T09:56:28.447Z"
       },
       "workResolution": {
-        "resolved": 3,
+        "resolved": 1,
         "failures": 0
       },
-      "inWindowCount": 56,
+      "inWindowCount": 65,
       "identifiedCount": 18,
-      "identifiedWorks": 13,
+      "identifiedWorks": 15,
       "failures": [
         {
           "stage": "search",
-          "keyword": "游戏安利"
+          "keyword": "视觉小说"
         },
         {
           "stage": "search",
@@ -144,6 +144,18 @@
         },
         {
           "stage": "refresh",
+          "id": "7704598592296050362"
+        },
+        {
+          "stage": "refresh",
+          "id": "7704600044410954929"
+        },
+        {
+          "stage": "refresh",
+          "id": "7703983195985920074"
+        },
+        {
+          "stage": "refresh",
           "id": "7702794405752687913"
         },
         {
@@ -152,35 +164,11 @@
         },
         {
           "stage": "refresh",
-          "id": "7704598592296050362"
-        },
-        {
-          "stage": "refresh",
-          "id": "7704440789804304539"
-        },
-        {
-          "stage": "refresh",
           "id": "7704284113419216738"
         },
         {
           "stage": "refresh",
           "id": "7704237929036816548"
-        },
-        {
-          "stage": "refresh",
-          "id": "7704210062579654329"
-        },
-        {
-          "stage": "refresh",
-          "id": "7703963391979951291"
-        },
-        {
-          "stage": "refresh",
-          "id": "7704600044410954929"
-        },
-        {
-          "stage": "refresh",
-          "id": "7703269776990201295"
         },
         {
           "stage": "refresh",
@@ -196,11 +184,15 @@
         },
         {
           "stage": "refresh",
-          "id": "7704273197873059771"
+          "id": "7703598804313876837"
         },
         {
           "stage": "refresh",
-          "id": "7703598804313876837"
+          "id": "7702762141337570611"
+        },
+        {
+          "stage": "refresh",
+          "id": "7703142635984129331"
         }
       ],
       "sampleCount": 20,
@@ -214,18 +206,18 @@
         "coins": 0
       },
       "zeroValues": {
-        "favorites": 1,
+        "favorites": 0,
         "comments": 0,
-        "shares": 2,
+        "shares": 0,
         "views": 0,
         "coins": 0
       },
-      "lastSuccessAt": "2026-11-06T03:32:14.456Z"
+      "lastSuccessAt": "2026-11-06T10:03:51.139Z"
     },
     "bilibili": {
       "status": "partial",
       "fieldVerificationStatus": "complete",
-      "lastAttemptAt": "2026-11-06T03:38:38.428Z",
+      "lastAttemptAt": "2026-11-06T10:10:35.377Z",
       "searches": 15,
       "queries": [
         "galgame",
@@ -299,15 +291,15 @@
       "pagesPerKeyword": 2,
       "window": {
         "start": "2026-10-31T16:00:00.000Z",
-        "end": "2026-11-06T03:24:39.730Z"
+        "end": "2026-11-06T09:56:28.447Z"
       },
       "workResolution": {
-        "resolved": 9,
+        "resolved": 3,
         "failures": 0
       },
-      "inWindowCount": 261,
+      "inWindowCount": 270,
       "identifiedCount": 62,
-      "identifiedWorks": 41,
+      "identifiedWorks": 44,
       "failures": [
         {
           "stage": "search",
@@ -357,18 +349,18 @@
         "coins": 20
       },
       "zeroValues": {
-        "favorites": 5,
-        "comments": 3,
+        "favorites": 7,
+        "comments": 9,
         "shares": 12,
         "views": 0,
-        "coins": 10
+        "coins": 9
       },
-      "lastSuccessAt": "2026-11-06T03:38:38.428Z"
+      "lastSuccessAt": "2026-11-06T10:10:35.377Z"
     }
   },
-  "finishedAt": "2026-11-06T03:38:45.543Z",
-  "observedPosts": 107,
-  "identityPending": 552,
+  "finishedAt": "2026-11-06T10:10:44.488Z",
+  "observedPosts": 130,
+  "identityPending": 647,
   "trial": {
     "periods": [
       {

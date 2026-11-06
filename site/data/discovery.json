@@ -38041,6 +38041,74 @@
       "path": "works/v69936/"
     },
     {
+      "id": "v58952",
+      "type": "work",
+      "name": "我与你共度的七日",
+      "aliases": [
+        "我与你共度的七日",
+        "我与你共度的七日",
+        "Wo yu Ni Gongdu de Qiri",
+        "The seven days i spent with you",
+        "我與你共度的七日",
+        "君との七日間"
+      ],
+      "image": "https://t.vndb.org/cv/81/115581.jpg",
+      "subtitle": "再演工作室RErevue",
+      "path": "works/v58952/"
+    },
+    {
+      "id": "v1203",
+      "type": "work",
+      "name": "潘多拉之梦",
+      "aliases": [
+        "パンドラの夢",
+        "潘多拉之梦",
+        "パンドラの夢",
+        "Pandora no Yume",
+        "Dream in Pandora's Box"
+      ],
+      "image": "https://t.vndb.org/cv/37/101537.jpg",
+      "subtitle": "ぱじゃまソフト",
+      "path": "works/v1203/"
+    },
+    {
+      "id": "v26581",
+      "type": "work",
+      "name": "巧可甜恋",
+      "aliases": [
+        "あまいろショコラータ",
+        "巧可甜恋",
+        "あまいろショコラータ",
+        "Amairo Chocolata",
+        "Amairo Chocolate",
+        "巧可甜戀",
+        "Amachoco",
+        "あまショコ",
+        "巧克甜恋",
+        "巧克甜戀"
+      ],
+      "image": "https://t.vndb.org/cv/56/76856.jpg",
+      "subtitle": "きゃべつそふと",
+      "path": "works/v26581/"
+    },
+    {
+      "id": "v7735",
+      "type": "work",
+      "name": "真夏の夜の雪物語 -MIDSUMMER SNOW NIGHT-",
+      "aliases": [
+        "真夏の夜の雪物語 -MIDSUMMER SNOW NIGHT-",
+        "真夏の夜の雪物語 -MIDSUMMER SNOW NIGHT-",
+        "Manatsu no Yoru no Yuki Monogatari -MIDSUMMER SNOW NIGHT-",
+        "真夏之夜的雪物语",
+        "真夏の夜の雪物語",
+        "Manatsu no Yoru no Yuki Monogatari",
+        "仲夏夜之雪物语"
+      ],
+      "image": "https://t.vndb.org/cv/80/90980.jpg",
+      "subtitle": "エックスワン",
+      "path": "works/v7735/"
+    },
+    {
       "id": "s722",
       "type": "staff",
       "name": "こぶいち",

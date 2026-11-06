@@ -1,6 +1,6 @@
 {
   "mode": "shadow",
-  "updatedAt": "2026-11-06T03:38:45.543Z",
+  "updatedAt": "2026-11-06T10:10:44.488Z",
   "rulesUpdatedAt": "2026-11-06T07:27:55.368Z",
   "trial": {
     "periods": [
@@ -24,16 +24,15 @@
   "preview": {
     "period": {
       "id": "preview-2026-11-06",
-      "start": "2026-11-01T03:24:38.730Z",
-      "end": "2026-11-06T03:24:39.730Z",
+      "start": "2026-11-01T09:56:27.447Z",
+      "end": "2026-11-06T09:56:28.447Z",
       "rehearsal": true
     },
-    "generatedAt": "2026-11-06T07:27:55.368Z",
     "platforms": {
       "douyin": {
         "status": "partial",
         "fieldVerificationStatus": "complete",
-        "lastAttemptAt": "2026-11-06T03:32:14.456Z",
+        "lastAttemptAt": "2026-11-06T10:03:51.139Z",
         "searches": 11,
         "queries": [
           "galgame",
@@ -54,65 +53,65 @@
           {
             "keyword": "galgame",
             "pages": 2,
-            "returned": 17,
-            "inWindow": 17,
+            "returned": 18,
+            "inWindow": 18,
             "outsideWindow": 0,
-            "channel": "general"
-          },
-          {
-            "keyword": "视觉小说",
-            "pages": 2,
-            "returned": 12,
-            "inWindow": 11,
-            "outsideWindow": 1,
             "channel": "general"
           },
           {
             "keyword": "冷门视觉小说",
             "pages": 2,
             "returned": 2,
-            "inWindow": 2,
-            "outsideWindow": 0,
+            "inWindow": 1,
+            "outsideWindow": 1,
             "channel": "general"
           },
           {
             "keyword": "galgame推荐",
             "pages": 2,
+            "returned": 16,
+            "inWindow": 13,
+            "outsideWindow": 3,
+            "channel": "general"
+          },
+          {
+            "keyword": "游戏安利",
+            "pages": 2,
             "returned": 18,
-            "inWindow": 12,
-            "outsideWindow": 6,
+            "inWindow": 17,
+            "outsideWindow": 1,
             "channel": "general"
           },
           {
             "keyword": "常轨脱离Creative",
             "pages": 2,
             "returned": 3,
-            "inWindow": 3,
-            "outsideWindow": 0,
+            "inWindow": 2,
+            "outsideWindow": 1,
             "channel": "general"
           },
           {
             "keyword": "尚有佳蜜伴恋心",
             "pages": 2,
-            "returned": 0,
-            "inWindow": 0,
+            "returned": 1,
+            "inWindow": 1,
             "outsideWindow": 0,
             "channel": "general"
           },
           {
             "keyword": "国王恋爱",
             "pages": 2,
-            "returned": 3,
+            "returned": 4,
             "inWindow": 3,
-            "outsideWindow": 0,
+            "outsideWindow": 1,
             "channel": "general"
           },
           {
             "keyword": "茧之锤：继承者",
             "pages": 2,
-            "returned": 2,
+            "returned": 3,
             "inWindow": 2,
-            "outsideWindow": 0,
+            "outsideWindow": 1,
             "channel": "general"
           },
           {
@@ -126,16 +125,16 @@
           {
             "keyword": "COCORO",
             "pages": 2,
-            "returned": 3,
+            "returned": 2,
             "inWindow": 2,
-            "outsideWindow": 1,
+            "outsideWindow": 0,
             "channel": "general"
           },
           {
             "keyword": "近月少女的礼仪",
             "pages": 2,
-            "returned": 8,
-            "inWindow": 7,
+            "returned": 7,
+            "inWindow": 6,
             "outsideWindow": 1,
             "channel": "general"
           }
@@ -143,19 +142,19 @@
         "pagesPerKeyword": 2,
         "window": {
           "start": "2026-10-31T16:00:00.000Z",
-          "end": "2026-11-06T03:24:39.730Z"
+          "end": "2026-11-06T09:56:28.447Z"
         },
         "workResolution": {
-          "resolved": 3,
+          "resolved": 1,
           "failures": 0
         },
-        "inWindowCount": 56,
+        "inWindowCount": 65,
         "identifiedCount": 18,
-        "identifiedWorks": 13,
+        "identifiedWorks": 15,
         "failures": [
           {
             "stage": "search",
-            "keyword": "游戏安利"
+            "keyword": "视觉小说"
           },
           {
             "stage": "search",
@@ -167,6 +166,18 @@
           },
           {
             "stage": "refresh",
+            "id": "7704598592296050362"
+          },
+          {
+            "stage": "refresh",
+            "id": "7704600044410954929"
+          },
+          {
+            "stage": "refresh",
+            "id": "7703983195985920074"
+          },
+          {
+            "stage": "refresh",
             "id": "7702794405752687913"
           },
           {
@@ -175,35 +186,11 @@
           },
           {
             "stage": "refresh",
-            "id": "7704598592296050362"
-          },
-          {
-            "stage": "refresh",
-            "id": "7704440789804304539"
-          },
-          {
-            "stage": "refresh",
             "id": "7704284113419216738"
           },
           {
             "stage": "refresh",
             "id": "7704237929036816548"
-          },
-          {
-            "stage": "refresh",
-            "id": "7704210062579654329"
-          },
-          {
-            "stage": "refresh",
-            "id": "7703963391979951291"
-          },
-          {
-            "stage": "refresh",
-            "id": "7704600044410954929"
-          },
-          {
-            "stage": "refresh",
-            "id": "7703269776990201295"
           },
           {
             "stage": "refresh",
@@ -219,11 +206,15 @@
           },
           {
             "stage": "refresh",
-            "id": "7704273197873059771"
+            "id": "7703598804313876837"
           },
           {
             "stage": "refresh",
-            "id": "7703598804313876837"
+            "id": "7702762141337570611"
+          },
+          {
+            "stage": "refresh",
+            "id": "7703142635984129331"
           }
         ],
         "sampleCount": 20,
@@ -237,13 +228,13 @@
           "coins": 0
         },
         "zeroValues": {
-          "favorites": 1,
+          "favorites": 0,
           "comments": 0,
-          "shares": 2,
+          "shares": 0,
           "views": 0,
           "coins": 0
         },
-        "lastSuccessAt": "2026-11-06T03:32:14.456Z",
+        "lastSuccessAt": "2026-11-06T10:03:51.139Z",
         "popular": [
           {
             "workId": "v21289",
@@ -363,7 +354,7 @@
             "missingAuthors": 0,
             "layer": "单账号线索",
             "aboveNormalAuthors": 0,
-            "maxLikes": 11228,
+            "maxLikes": 11712,
             "concentration": 1,
             "evidence": [
               {
@@ -379,7 +370,7 @@
                 "kind": "video",
                 "url": "https://www.douyin.com/video/7704440789804304539",
                 "publishedAt": "2026-11-05T04:00:00+00:00",
-                "likes": 11228,
+                "likes": 11712,
                 "author": {
                   "id": "63914179980",
                   "name": "幺梨梨86",
@@ -387,9 +378,9 @@
                 },
                 "durationSeconds": null,
                 "metrics": {
-                  "favorites": 1875,
+                  "favorites": 1968,
                   "comments": 77,
-                  "shares": 360,
+                  "shares": 392,
                   "views": null,
                   "coins": null
                 },
@@ -400,8 +391,9 @@
                   "views": "unsupported",
                   "coins": "unsupported"
                 },
-                "collectedAt": "2026-11-06T03:24:55.533060+00:00",
-                "keyword": "galgame",
+                "collectedAt": "2026-11-06T10:02:13.707485+00:00",
+                "keyword": "魔女的夜宴",
+                "refreshMethod": "search-id-confirmed",
                 "workId": "v16044",
                 "matchMethod": "explicit-title",
                 "matchedNames": [
@@ -416,41 +408,39 @@
             ]
           },
           {
-            "workId": "v2285",
+            "workId": "v777",
             "platform": "douyin",
             "authorCount": 1,
             "missingAuthors": 0,
             "layer": "单账号线索",
             "aboveNormalAuthors": 0,
-            "maxLikes": 5479,
+            "maxLikes": 6626,
             "concentration": 1,
             "evidence": [
               {
                 "platform": "douyin",
-                "id": "7703104071817257595",
-                "title": "我不愿再失去任何东西了…#galgame推荐 #中二社 #eden #游戏推荐 #galgame",
+                "id": "7703462321210282211",
+                "title": "终于等到了这一天魔法师之夜（痛哭）#魔法使之夜 #galgame \n今年二月份玩的魔夜，给我带来了很深的印象，里面角色的塑造让我很喜欢.\n这也是一个比较老的作品了，很多人都等了很多年没有续作但是今年要出电影，真让人很感慨.我也是十分的期待这个作品啊！(●♡∀♡)\n最后我想说久远寺有珠牛逼（dog）",
                 "description": "",
                 "tags": [
-                  "galgame推荐",
-                  "中二社",
-                  "eden",
-                  "游戏推荐",
+                  "",
+                  "魔法使之夜",
                   "galgame"
                 ],
-                "kind": "video",
-                "url": "https://www.douyin.com/video/7703104071817257595",
-                "publishedAt": "2026-11-01T07:37:59+00:00",
-                "likes": 5479,
+                "kind": "image",
+                "url": "https://www.douyin.com/note/7703462321210282211",
+                "publishedAt": "2026-11-02T06:48:12+00:00",
+                "likes": 6626,
                 "author": {
-                  "id": "4037050852718766",
-                  "name": "真昼天下第一",
-                  "url": "https://www.douyin.com/user/MS4wLjABAAAAYYMIAz-Jc3KYSk0_FhV0yJyJnR4-Ewb-XENlXmObHQePN82-EyF7NTgh9tDHeMLG"
+                  "id": "4209356249502704",
+                  "name": "Apart（不推黄毛）",
+                  "url": "https://www.douyin.com/user/MS4wLjABAAAAELgpfWxAkdxM3Q6slAzNOMgqN300ax8x3ukvkq_NZkkmPVLawdoYzRj5h0ojwoQM"
                 },
                 "durationSeconds": null,
                 "metrics": {
-                  "favorites": 1104,
-                  "comments": 143,
-                  "shares": 448,
+                  "favorites": 756,
+                  "comments": 215,
+                  "shares": 1205,
                   "views": null,
                   "coins": null
                 },
@@ -461,12 +451,135 @@
                   "views": "unsupported",
                   "coins": "unsupported"
                 },
-                "collectedAt": "2026-11-06T03:25:35.982289+00:00",
-                "keyword": "galgame推荐",
-                "workId": "v2285",
+                "collectedAt": "2026-11-06T09:56:40.636185+00:00",
+                "keyword": "galgame",
+                "workId": "v777",
                 "matchMethod": "explicit-title",
                 "matchedNames": [
-                  "Eden"
+                  "魔法使之夜"
+                ],
+                "baseline": {
+                  "status": "insufficient",
+                  "sampleCount": 0,
+                  "reason": "缺少作者、同龄快照或可比较的内容类型"
+                }
+              }
+            ]
+          },
+          {
+            "workId": "v26232",
+            "platform": "douyin",
+            "authorCount": 1,
+            "missingAuthors": 0,
+            "layer": "单账号线索",
+            "aboveNormalAuthors": 0,
+            "maxLikes": 3454,
+            "concentration": 1,
+            "evidence": [
+              {
+                "platform": "douyin",
+                "id": "7703964285352942949",
+                "title": "纯洁的爱。摸鱼\n#galgame #真爱百合 #绘画",
+                "description": "",
+                "tags": [
+                  "",
+                  "",
+                  "galgame",
+                  "真爱百合",
+                  "绘画"
+                ],
+                "kind": "image",
+                "url": "https://www.douyin.com/note/7703964285352942949",
+                "publishedAt": "2026-11-03T15:16:03+00:00",
+                "likes": 3454,
+                "author": {
+                  "id": "3547495681259004",
+                  "name": "笨笨僵尸爱跳舞",
+                  "url": "https://www.douyin.com/user/MS4wLjABAAAAvjsKWEH7ZYgAKKnCIvICpHkW2Ay8bM7v1I5l7ggjG_uK1yTe1cpZoQKSfF4SdXo3"
+                },
+                "durationSeconds": null,
+                "metrics": {
+                  "favorites": 403,
+                  "comments": 30,
+                  "shares": 345,
+                  "views": null,
+                  "coins": null
+                },
+                "metricAvailability": {
+                  "favorites": "available",
+                  "comments": "available",
+                  "shares": "available",
+                  "views": "unsupported",
+                  "coins": "unsupported"
+                },
+                "collectedAt": "2026-11-06T09:56:40.636132+00:00",
+                "keyword": "galgame",
+                "workId": "v26232",
+                "matchMethod": "explicit-title",
+                "matchedNames": [
+                  "真爱百合"
+                ],
+                "baseline": {
+                  "status": "insufficient",
+                  "sampleCount": 0,
+                  "reason": "同类同龄观测少于8条",
+                  "scope": "observed-candidates"
+                }
+              }
+            ]
+          },
+          {
+            "workId": "v19513",
+            "platform": "douyin",
+            "authorCount": 1,
+            "missingAuthors": 0,
+            "layer": "单账号线索",
+            "aboveNormalAuthors": 0,
+            "maxLikes": 2928,
+            "concentration": 1,
+            "evidence": [
+              {
+                "platform": "douyin",
+                "id": "7704696011432361600",
+                "title": "gal推荐《生命的备件》 #galgame #galgame推荐 #游戏推荐 #生命的备件 #催泪",
+                "description": "",
+                "tags": [
+                  "galgame",
+                  "galgame推荐",
+                  "游戏推荐",
+                  "生命的备件",
+                  "催泪"
+                ],
+                "kind": "video",
+                "url": "https://www.douyin.com/video/7704696011432361600",
+                "publishedAt": "2026-11-05T14:35:32+00:00",
+                "likes": 2928,
+                "author": {
+                  "id": "7665231454536582201",
+                  "name": "推晃悠的心事",
+                  "url": "https://www.douyin.com/user/MS4wLjABAAAAMG6P36tEXCKn-Fkq4buEseWC9lnubkR9AoudrkwgKuUem8i0HjNQo2IXkVEuqZny"
+                },
+                "durationSeconds": null,
+                "metrics": {
+                  "favorites": 712,
+                  "comments": 62,
+                  "shares": 453,
+                  "views": null,
+                  "coins": null
+                },
+                "metricAvailability": {
+                  "favorites": "available",
+                  "comments": "available",
+                  "shares": "available",
+                  "views": "unsupported",
+                  "coins": "unsupported"
+                },
+                "collectedAt": "2026-11-06T09:57:21.729383+00:00",
+                "keyword": "galgame推荐",
+                "workId": "v19513",
+                "matchMethod": "explicit-title",
+                "matchedNames": [
+                  "生命的备件"
                 ],
                 "baseline": {
                   "status": "insufficient",
@@ -483,7 +596,7 @@
             "missingAuthors": 0,
             "layer": "单账号线索",
             "aboveNormalAuthors": 0,
-            "maxLikes": 2794,
+            "maxLikes": 2864,
             "concentration": 1,
             "evidence": [
               {
@@ -503,7 +616,7 @@
                 "kind": "image",
                 "url": "https://www.douyin.com/note/7703269776990201295",
                 "publishedAt": "2026-11-01T18:21:03+00:00",
-                "likes": 2794,
+                "likes": 2864,
                 "author": {
                   "id": "2381986229922928",
                   "name": "鬼神",
@@ -511,9 +624,9 @@
                 },
                 "durationSeconds": null,
                 "metrics": {
-                  "favorites": 1309,
-                  "comments": 175,
-                  "shares": 544,
+                  "favorites": 1338,
+                  "comments": 181,
+                  "shares": 550,
                   "views": null,
                   "coins": null
                 },
@@ -524,12 +637,72 @@
                   "views": "unsupported",
                   "coins": "unsupported"
                 },
-                "collectedAt": "2026-11-06T03:25:35.982267+00:00",
+                "collectedAt": "2026-11-06T09:57:21.729506+00:00",
                 "keyword": "galgame推荐",
                 "workId": "v2002",
                 "matchMethod": "explicit-title",
                 "matchedNames": [
                   "命运石之门"
+                ],
+                "baseline": {
+                  "status": "insufficient",
+                  "sampleCount": 0,
+                  "reason": "缺少作者、同龄快照或可比较的内容类型"
+                }
+              }
+            ]
+          },
+          {
+            "workId": "v2016",
+            "platform": "douyin",
+            "authorCount": 1,
+            "missingAuthors": 0,
+            "layer": "单账号线索",
+            "aboveNormalAuthors": 0,
+            "maxLikes": 2363,
+            "concentration": 1,
+            "evidence": [
+              {
+                "platform": "douyin",
+                "id": "7704333639450863778",
+                "title": "n社还是太懂萝莉了#装甲恶鬼村正  #galgame推荐 #galgame#萝莉",
+                "description": "",
+                "tags": [
+                  "装甲恶鬼村正",
+                  "galgame推荐",
+                  "galgame",
+                  "萝莉"
+                ],
+                "kind": "image",
+                "url": "https://www.douyin.com/note/7704333639450863778",
+                "publishedAt": "2026-11-04T15:09:21+00:00",
+                "likes": 2363,
+                "author": {
+                  "id": "3646455190922270",
+                  "name": "无姓",
+                  "url": "https://www.douyin.com/user/MS4wLjABAAAAGqQeROH1EFVy5ZeMRpiHctkvOWQdP-SYODkUnGfcjsfssNgw1LR_NEYfaMQLgBi_"
+                },
+                "durationSeconds": null,
+                "metrics": {
+                  "favorites": 364,
+                  "comments": 19,
+                  "shares": 339,
+                  "views": null,
+                  "coins": null
+                },
+                "metricAvailability": {
+                  "favorites": "available",
+                  "comments": "available",
+                  "shares": "available",
+                  "views": "unsupported",
+                  "coins": "unsupported"
+                },
+                "collectedAt": "2026-11-06T09:57:21.729421+00:00",
+                "keyword": "galgame推荐",
+                "workId": "v2016",
+                "matchMethod": "explicit-title",
+                "matchedNames": [
+                  "装甲恶鬼村正"
                 ],
                 "baseline": {
                   "status": "insufficient",
@@ -605,7 +778,7 @@
             "missingAuthors": 0,
             "layer": "单账号线索",
             "aboveNormalAuthors": 0,
-            "maxLikes": 1298,
+            "maxLikes": 1377,
             "concentration": 1,
             "evidence": [
               {
@@ -621,7 +794,7 @@
                 "kind": "image",
                 "url": "https://www.douyin.com/note/7704668084564403833",
                 "publishedAt": "2026-11-05T12:47:10+00:00",
-                "likes": 1298,
+                "likes": 1377,
                 "author": {
                   "id": "3626666561112512",
                   "name": "澪",
@@ -629,9 +802,9 @@
                 },
                 "durationSeconds": null,
                 "metrics": {
-                  "favorites": 71,
-                  "comments": 20,
-                  "shares": 32,
+                  "favorites": 88,
+                  "comments": 24,
+                  "shares": 34,
                   "views": null,
                   "coins": null
                 },
@@ -642,7 +815,7 @@
                   "views": "unsupported",
                   "coins": "unsupported"
                 },
-                "collectedAt": "2026-11-06T03:30:26.810394+00:00",
+                "collectedAt": "2026-11-06T10:03:47.866899+00:00",
                 "keyword": "亚托莉 -我挚爱的时光-",
                 "refreshMethod": "search-id-confirmed",
                 "workId": "v27448",
@@ -784,6 +957,114 @@
         ],
         "review": [
           {
+            "workId": "v7738",
+            "platform": "douyin",
+            "reason": "评论较多，需排查作者自答、抽奖及与作品无关的讨论",
+            "evidence": [
+              {
+                "platform": "douyin",
+                "id": "7703233510883145314",
+                "title": "也是21岁了 #galgame #生日快乐 #gal #君与彼女与彼女之恋",
+                "description": "",
+                "tags": [
+                  "galgame",
+                  "生日快乐",
+                  "gal"
+                ],
+                "kind": "image",
+                "url": "https://www.douyin.com/note/7703233510883145314",
+                "publishedAt": "2026-11-01T16:00:19+00:00",
+                "likes": 241,
+                "author": {
+                  "id": "457824473974830",
+                  "name": "跳舞的自",
+                  "url": "https://www.douyin.com/user/MS4wLjABAAAAMDZC9_W5uuUkOAdioxReXZWU_lTGKTJojIlVsyJ_PFo"
+                },
+                "durationSeconds": null,
+                "metrics": {
+                  "favorites": 10,
+                  "comments": 179,
+                  "shares": 3,
+                  "views": null,
+                  "coins": null
+                },
+                "metricAvailability": {
+                  "favorites": "available",
+                  "comments": "available",
+                  "shares": "available",
+                  "views": "unsupported",
+                  "coins": "unsupported"
+                },
+                "collectedAt": "2026-11-06T09:56:40.636226+00:00",
+                "keyword": "galgame",
+                "workId": "v7738",
+                "matchMethod": "explicit-title",
+                "matchedNames": [
+                  "君与彼女与彼女之恋"
+                ],
+                "baseline": {
+                  "status": "insufficient",
+                  "sampleCount": 0,
+                  "reason": "缺少作者、同龄快照或可比较的内容类型"
+                }
+              }
+            ]
+          },
+          {
+            "workId": "v10680",
+            "platform": "douyin",
+            "reason": "评论较多，需排查作者自答、抽奖及与作品无关的讨论",
+            "evidence": [
+              {
+                "platform": "douyin",
+                "id": "7704366959307766927",
+                "title": "今天也深爱着露娜sama#樱小路露娜 #近月少女的礼仪 #galgame",
+                "description": "",
+                "tags": [
+                  "樱小路露娜",
+                  "近月少女的礼仪",
+                  "galgame"
+                ],
+                "kind": "image",
+                "url": "https://www.douyin.com/note/7704366959307766927",
+                "publishedAt": "2026-11-04T17:18:38+00:00",
+                "likes": 359,
+                "author": {
+                  "id": "3822322512567447",
+                  "name": "淮夜",
+                  "url": "https://www.douyin.com/user/MS4wLjABAAAAYSUt-w9iYpoYG2_erHU783ZcnWyb_29WQE81c0Gy5aOevOPFML4ehK5YdJN66WYT"
+                },
+                "durationSeconds": null,
+                "metrics": {
+                  "favorites": 19,
+                  "comments": 65,
+                  "shares": 29,
+                  "views": null,
+                  "coins": null
+                },
+                "metricAvailability": {
+                  "favorites": "available",
+                  "comments": "available",
+                  "shares": "available",
+                  "views": "unsupported",
+                  "coins": "unsupported"
+                },
+                "collectedAt": "2026-11-06T09:59:28.342320+00:00",
+                "keyword": "近月少女的礼仪",
+                "workId": "v10680",
+                "matchMethod": "explicit-title",
+                "matchedNames": [
+                  "近月少女的礼仪"
+                ],
+                "baseline": {
+                  "status": "insufficient",
+                  "sampleCount": 0,
+                  "reason": "缺少作者、同龄快照或可比较的内容类型"
+                }
+              }
+            ]
+          },
+          {
             "workId": "v18852",
             "platform": "douyin",
             "reason": "评论较多，需排查作者自答、抽奖及与作品无关的讨论",
@@ -857,7 +1138,7 @@
                 "kind": "image",
                 "url": "https://www.douyin.com/note/7704210062579654329",
                 "publishedAt": "2026-11-04T07:09:48+00:00",
-                "likes": 168,
+                "likes": 174,
                 "author": {
                   "id": "1891636266153294",
                   "name": "茑町千岁",
@@ -878,7 +1159,7 @@
                   "views": "unsupported",
                   "coins": "unsupported"
                 },
-                "collectedAt": "2026-11-06T03:24:55.533128+00:00",
+                "collectedAt": "2026-11-06T09:56:40.636116+00:00",
                 "keyword": "galgame",
                 "workId": "v31813",
                 "matchMethod": "explicit-title",
@@ -898,7 +1179,7 @@
       "bilibili": {
         "status": "partial",
         "fieldVerificationStatus": "complete",
-        "lastAttemptAt": "2026-11-06T03:38:38.428Z",
+        "lastAttemptAt": "2026-11-06T10:10:35.377Z",
         "searches": 15,
         "queries": [
           "galgame",
@@ -972,15 +1253,15 @@
         "pagesPerKeyword": 2,
         "window": {
           "start": "2026-10-31T16:00:00.000Z",
-          "end": "2026-11-06T03:24:39.730Z"
+          "end": "2026-11-06T09:56:28.447Z"
         },
         "workResolution": {
-          "resolved": 9,
+          "resolved": 3,
           "failures": 0
         },
-        "inWindowCount": 261,
+        "inWindowCount": 270,
         "identifiedCount": 62,
-        "identifiedWorks": 41,
+        "identifiedWorks": 44,
         "failures": [
           {
             "stage": "search",
@@ -1030,21 +1311,86 @@
           "coins": 20
         },
         "zeroValues": {
-          "favorites": 5,
-          "comments": 3,
+          "favorites": 7,
+          "comments": 9,
           "shares": 12,
           "views": 0,
-          "coins": 10
+          "coins": 9
         },
-        "lastSuccessAt": "2026-11-06T03:38:38.428Z",
-        "popular": [],
+        "lastSuccessAt": "2026-11-06T10:10:35.377Z",
+        "popular": [
+          {
+            "workId": "v69936",
+            "platform": "bilibili",
+            "authorCount": 1,
+            "missingAuthors": 0,
+            "layer": "单账号线索",
+            "aboveNormalAuthors": 0,
+            "maxLikes": 873,
+            "concentration": 1,
+            "evidence": [
+              {
+                "platform": "bilibili",
+                "id": "BV11g486wEeQ",
+                "title": "国GAL新作《对我而言》pv公布",
+                "description": "“对我而言，哥哥就是我最爱的哥哥”\n《对我而言》PV公开\n\n新团队好活游戏制作，村里的第一个中专辍学生来了。\n欢迎支持摩点众筹： https://zhongchou.modian.com/item/160607.html\nsteam试玩demo已经上线： https://store.steampowered.com/app/4524870\n\n游戏将于2027年大年三十推出",
+                "tags": [
+                  "好活游戏",
+                  "galgame",
+                  "对我而言",
+                  "视觉小说",
+                  "AVG",
+                  "国产游戏",
+                  "独立游戏"
+                ],
+                "url": "https://www.bilibili.com/video/BV11g486wEeQ",
+                "publishedAt": "2026-11-05T08:41:42.000Z",
+                "likes": 873,
+                "kind": "video",
+                "durationSeconds": 64,
+                "author": {
+                  "id": "3747574286649626",
+                  "name": "好活游戏",
+                  "url": "https://space.bilibili.com/3747574286649626"
+                },
+                "metrics": {
+                  "favorites": 1225,
+                  "comments": 55,
+                  "shares": 45,
+                  "views": 14109,
+                  "coins": 20
+                },
+                "metricAvailability": {
+                  "favorites": "available",
+                  "comments": "available",
+                  "shares": "available",
+                  "views": "available",
+                  "coins": "available"
+                },
+                "collectedAt": "2026-11-06T10:08:59.798Z",
+                "keyword": "视觉小说",
+                "workId": "v69936",
+                "matchMethod": "explicit-title",
+                "matchedNames": [
+                  "对我而言"
+                ],
+                "baseline": {
+                  "status": "insufficient",
+                  "sampleCount": 0,
+                  "reason": "同类同龄观测少于8条",
+                  "scope": "observed-candidates"
+                }
+              }
+            ]
+          }
+        ],
         "favorites": [
           {
             "workId": "v237",
             "platform": "bilibili",
             "authorCount": 1,
             "layer": "单账号观察",
-            "maxFavorites": 304,
+            "maxFavorites": 308,
             "evidence": [
               {
                 "platform": "bilibili",
@@ -1065,7 +1411,7 @@
                 ],
                 "url": "https://www.bilibili.com/video/BV1Bg4g68EMm",
                 "publishedAt": "2026-11-03T10:34:39.000Z",
-                "likes": 355,
+                "likes": 361,
                 "kind": "video",
                 "durationSeconds": 1161,
                 "author": {
@@ -1074,10 +1420,10 @@
                   "url": "https://space.bilibili.com/22352826"
                 },
                 "metrics": {
-                  "favorites": 304,
+                  "favorites": 308,
                   "comments": 31,
                   "shares": 8,
-                  "views": 4714,
+                  "views": 4799,
                   "coins": 21
                 },
                 "metricAvailability": {
@@ -1087,7 +1433,7 @@
                   "views": "available",
                   "coins": "available"
                 },
-                "collectedAt": "2026-11-06T03:37:09.973Z",
+                "collectedAt": "2026-11-06T10:09:09.057Z",
                 "keyword": "视觉小说",
                 "workId": "v237",
                 "matchMethod": "explicit-title",
@@ -1168,7 +1514,7 @@
             "platform": "bilibili",
             "authorCount": 1,
             "layer": "单账号观察",
-            "maxFavorites": 189,
+            "maxFavorites": 193,
             "evidence": [
               {
                 "platform": "bilibili",
@@ -1187,7 +1533,7 @@
                 ],
                 "url": "https://www.bilibili.com/video/BV11z4c6UEiK",
                 "publishedAt": "2026-11-02T11:36:22.000Z",
-                "likes": 81,
+                "likes": 84,
                 "kind": "video",
                 "durationSeconds": 482,
                 "author": {
@@ -1196,10 +1542,10 @@
                   "url": "https://space.bilibili.com/553938914"
                 },
                 "metrics": {
-                  "favorites": 189,
-                  "comments": 17,
+                  "favorites": 193,
+                  "comments": 18,
                   "shares": 8,
-                  "views": 1872,
+                  "views": 1894,
                   "coins": 7
                 },
                 "metricAvailability": {
@@ -1209,7 +1555,7 @@
                   "views": "available",
                   "coins": "available"
                 },
-                "collectedAt": "2026-11-06T03:34:25.933Z",
+                "collectedAt": "2026-11-06T10:06:15.585Z",
                 "keyword": "galgame推荐",
                 "workId": "v16070",
                 "matchMethod": "explicit-title",
@@ -1285,14 +1631,13 @@
                 }
               }
             ]
-          }
-        ],
-        "discussion": [],
-        "watch": [
+          },
           {
             "workId": "v31471",
             "platform": "bilibili",
-            "reason": "发布不足24小时",
+            "authorCount": 1,
+            "layer": "单账号观察",
+            "maxFavorites": 156,
             "evidence": [
               {
                 "platform": "bilibili",
@@ -1311,7 +1656,7 @@
                 ],
                 "url": "https://www.bilibili.com/video/BV1qk446kEmu",
                 "publishedAt": "2026-11-05T10:00:00.000Z",
-                "likes": 63,
+                "likes": 74,
                 "kind": "video",
                 "durationSeconds": 266,
                 "author": {
@@ -1320,10 +1665,10 @@
                   "url": "https://space.bilibili.com/93693614"
                 },
                 "metrics": {
-                  "favorites": 129,
-                  "comments": 12,
-                  "shares": 3,
-                  "views": 1796,
+                  "favorites": 156,
+                  "comments": 14,
+                  "shares": 7,
+                  "views": 2202,
                   "coins": 7
                 },
                 "metricAvailability": {
@@ -1333,12 +1678,132 @@
                   "views": "available",
                   "coins": "available"
                 },
-                "collectedAt": "2026-11-06T03:33:56.024Z",
+                "collectedAt": "2026-11-06T10:05:45.088Z",
                 "keyword": "galgame推荐",
                 "workId": "v31471",
                 "matchMethod": "explicit-title",
                 "matchedNames": [
                   "毫无经验的同班同学π"
+                ],
+                "baseline": {
+                  "status": "insufficient",
+                  "sampleCount": 0,
+                  "reason": "同类同龄观测少于8条",
+                  "scope": "observed-candidates"
+                }
+              }
+            ]
+          },
+          {
+            "workId": "v26414",
+            "platform": "bilibili",
+            "authorCount": 1,
+            "layer": "单账号观察",
+            "maxFavorites": 103,
+            "evidence": [
+              {
+                "platform": "bilibili",
+                "id": "BV15Rxe69EQf",
+                "title": "穿着旗袍卖包子，她是懂怎么打组合技的😊",
+                "description": "《星光咖啡馆与死神之蝶》\n以我剪视频的风格和习惯的话，有什么想分享的画面或剧情都会直接剪出来的。没考虑那么多。（注：本作男主昂晴我会称呼为牢晴，当然是爱称啦~）\n夏目这招还是太狠了ヾ(•ω•`)o      知道平时神社里没有穿旗袍的人，就特意穿上旗袍来卖包子。有美少女拉客，这摊位难道还不能卖爆吗？( •̀ ω •́ )✧",
+                "tags": [
+                  "星光咖啡馆",
+                  "视觉小说",
+                  "柚子社",
+                  "单机游戏",
+                  "GAL"
+                ],
+                "url": "https://www.bilibili.com/video/BV15Rxe69EQf",
+                "publishedAt": "2026-11-03T10:00:00.000Z",
+                "likes": 239,
+                "kind": "video",
+                "durationSeconds": 337,
+                "author": {
+                  "id": "354622667",
+                  "name": "黑木KL",
+                  "url": "https://space.bilibili.com/354622667"
+                },
+                "metrics": {
+                  "favorites": 103,
+                  "comments": 32,
+                  "shares": 4,
+                  "views": 5095,
+                  "coins": 1
+                },
+                "metricAvailability": {
+                  "favorites": "available",
+                  "comments": "available",
+                  "shares": "available",
+                  "views": "available",
+                  "coins": "available"
+                },
+                "collectedAt": "2026-11-06T10:09:07.926Z",
+                "keyword": "视觉小说",
+                "workId": "v26414",
+                "matchMethod": "explicit-title",
+                "matchedNames": [
+                  "星光咖啡馆与死神之蝶"
+                ],
+                "baseline": {
+                  "status": "insufficient",
+                  "sampleCount": 1,
+                  "reason": "同类同龄观测少于8条",
+                  "scope": "observed-candidates"
+                }
+              }
+            ]
+          }
+        ],
+        "discussion": [],
+        "watch": [
+          {
+            "workId": "v16044",
+            "platform": "bilibili",
+            "reason": "发布不足24小时",
+            "evidence": [
+              {
+                "platform": "bilibili",
+                "id": "BV1dG4h6UExk",
+                "title": "綾地寧々",
+                "description": "-",
+                "tags": [
+                  "galgame",
+                  "绫地宁宁",
+                  "魔女的夜宴",
+                  "白毛",
+                  "柚子社",
+                  "美少女"
+                ],
+                "url": "https://www.bilibili.com/video/BV1dG4h6UExk",
+                "publishedAt": "2026-11-05T16:12:29.000Z",
+                "likes": 121,
+                "kind": "video",
+                "durationSeconds": 33,
+                "author": {
+                  "id": "11328034",
+                  "name": "宫坂永遠",
+                  "url": "https://space.bilibili.com/11328034"
+                },
+                "metrics": {
+                  "favorites": 54,
+                  "comments": 13,
+                  "shares": 2,
+                  "views": 1031,
+                  "coins": 6
+                },
+                "metricAvailability": {
+                  "favorites": "available",
+                  "comments": "available",
+                  "shares": "available",
+                  "views": "available",
+                  "coins": "available"
+                },
+                "collectedAt": "2026-11-06T10:10:06.027Z",
+                "keyword": "galgame",
+                "workId": "v16044",
+                "matchMethod": "explicit-title",
+                "matchedNames": [
+                  "魔女的夜宴"
                 ],
                 "baseline": {
                   "status": "insufficient",
@@ -1375,7 +1840,7 @@
                 ],
                 "url": "https://www.bilibili.com/video/BV1nfx96XEs2",
                 "publishedAt": "2026-11-04T10:54:59.000Z",
-                "likes": 239,
+                "likes": 258,
                 "kind": "video",
                 "durationSeconds": 24,
                 "author": {
@@ -1384,11 +1849,11 @@
                   "url": "https://space.bilibili.com/1313291762"
                 },
                 "metrics": {
-                  "favorites": 36,
-                  "comments": 102,
-                  "shares": 39,
-                  "views": 1282,
-                  "coins": 22
+                  "favorites": 39,
+                  "comments": 107,
+                  "shares": 42,
+                  "views": 1353,
+                  "coins": 23
                 },
                 "metricAvailability": {
                   "favorites": "available",
@@ -1397,7 +1862,7 @@
                   "views": "available",
                   "coins": "available"
                 },
-                "collectedAt": "2026-11-06T03:34:05.869Z",
+                "collectedAt": "2026-11-06T10:05:55.330Z",
                 "keyword": "galgame推荐",
                 "workId": "v22313",
                 "matchMethod": "explicit-title",
@@ -1437,7 +1902,7 @@
                 ],
                 "url": "https://www.bilibili.com/video/BV15G446PEFi",
                 "publishedAt": "2026-11-05T07:51:32.000Z",
-                "likes": 148,
+                "likes": 177,
                 "kind": "video",
                 "durationSeconds": 24,
                 "author": {
@@ -1446,11 +1911,11 @@
                   "url": "https://space.bilibili.com/1313291762"
                 },
                 "metrics": {
-                  "favorites": 23,
-                  "comments": 64,
-                  "shares": 11,
-                  "views": 899,
-                  "coins": 8
+                  "favorites": 28,
+                  "comments": 74,
+                  "shares": 14,
+                  "views": 1064,
+                  "coins": 14
                 },
                 "metricAvailability": {
                   "favorites": "available",
@@ -1459,7 +1924,7 @@
                   "views": "available",
                   "coins": "available"
                 },
-                "collectedAt": "2026-11-06T03:33:59.224Z",
+                "collectedAt": "2026-11-06T10:05:48.501Z",
                 "keyword": "galgame推荐",
                 "workId": "v22313",
                 "matchMethod": "explicit-title",
@@ -1552,7 +2017,7 @@
                 ],
                 "url": "https://www.bilibili.com/video/BV15Rxe69EQf",
                 "publishedAt": "2026-11-03T10:00:00.000Z",
-                "likes": 228,
+                "likes": 239,
                 "kind": "video",
                 "durationSeconds": 337,
                 "author": {
@@ -1561,10 +2026,10 @@
                   "url": "https://space.bilibili.com/354622667"
                 },
                 "metrics": {
-                  "favorites": 99,
-                  "comments": 31,
+                  "favorites": 103,
+                  "comments": 32,
                   "shares": 4,
-                  "views": 4969,
+                  "views": 5095,
                   "coins": 1
                 },
                 "metricAvailability": {
@@ -1574,7 +2039,7 @@
                   "views": "available",
                   "coins": "available"
                 },
-                "collectedAt": "2026-11-06T03:37:08.805Z",
+                "collectedAt": "2026-11-06T10:09:07.926Z",
                 "keyword": "视觉小说",
                 "workId": "v26414",
                 "matchMethod": "explicit-title",
@@ -1614,7 +2079,7 @@
                 ],
                 "url": "https://www.bilibili.com/video/BV1Bg4g68EMm",
                 "publishedAt": "2026-11-03T10:34:39.000Z",
-                "likes": 355,
+                "likes": 361,
                 "kind": "video",
                 "durationSeconds": 1161,
                 "author": {
@@ -1623,10 +2088,10 @@
                   "url": "https://space.bilibili.com/22352826"
                 },
                 "metrics": {
-                  "favorites": 304,
+                  "favorites": 308,
                   "comments": 31,
                   "shares": 8,
-                  "views": 4714,
+                  "views": 4799,
                   "coins": 21
                 },
                 "metricAvailability": {
@@ -1636,12 +2101,73 @@
                   "views": "available",
                   "coins": "available"
                 },
-                "collectedAt": "2026-11-06T03:37:09.973Z",
+                "collectedAt": "2026-11-06T10:09:09.057Z",
                 "keyword": "视觉小说",
                 "workId": "v237",
                 "matchMethod": "explicit-title",
                 "matchedNames": [
                   "Twilight"
+                ],
+                "baseline": {
+                  "status": "insufficient",
+                  "sampleCount": 0,
+                  "reason": "同类同龄观测少于8条",
+                  "scope": "observed-candidates"
+                }
+              }
+            ]
+          },
+          {
+            "workId": "v7771",
+            "platform": "bilibili",
+            "reason": "评论较多，需排查作者自答、抽奖及与作品无关的讨论",
+            "evidence": [
+              {
+                "platform": "bilibili",
+                "id": "BV1yC4Y6KEJg",
+                "title": "【配音】up你本音怎么跟冬马声音一样？-白色相簿2",
+                "description": "没歌唱了整点别的活吧\n这个冬马真的就是本音配的我真舒服\n其实已经玩了三年日配了但是从来没发出来过（）\n依旧半夜神秘时间",
+                "tags": [
+                  "galgame",
+                  "ACG配音",
+                  "冬马和纱",
+                  "小木曾雪菜",
+                  "白色相簿2",
+                  "配音",
+                  "日配",
+                  "WHITE ALBUM2"
+                ],
+                "url": "https://www.bilibili.com/video/BV1yC4Y6KEJg",
+                "publishedAt": "2026-11-05T18:26:09.000Z",
+                "likes": 78,
+                "kind": "video",
+                "durationSeconds": 102,
+                "author": {
+                  "id": "3493291230234959",
+                  "name": "魚的二次方",
+                  "url": "https://space.bilibili.com/3493291230234959"
+                },
+                "metrics": {
+                  "favorites": 18,
+                  "comments": 30,
+                  "shares": 7,
+                  "views": 1012,
+                  "coins": 23
+                },
+                "metricAvailability": {
+                  "favorites": "available",
+                  "comments": "available",
+                  "shares": "available",
+                  "views": "available",
+                  "coins": "available"
+                },
+                "collectedAt": "2026-11-06T10:10:00.272Z",
+                "keyword": "galgame",
+                "workId": "v7771",
+                "matchMethod": "explicit-title",
+                "matchedNames": [
+                  "白色相簿2",
+                  "WHITE ALBUM2"
                 ],
                 "baseline": {
                   "status": "insufficient",
@@ -1663,7 +2189,8 @@
       "bilibiliFavoriteViewRatio": 0.02,
       "commentsMin": 30,
       "douyinFavoritesMin": 30
-    }
+    },
+    "generatedAt": "2026-11-06T10:10:44.487Z"
   },
   "reports": [
     {
@@ -1673,12 +2200,11 @@
         "end": "2026-11-05T16:00:00.000Z",
         "supplementUntil": "2026-11-07T16:00:00.000Z"
       },
-      "generatedAt": "2026-11-06T07:27:55.368Z",
       "platforms": {
         "douyin": {
           "status": "partial",
           "fieldVerificationStatus": "complete",
-          "lastAttemptAt": "2026-11-06T03:32:14.456Z",
+          "lastAttemptAt": "2026-11-06T10:03:51.139Z",
           "searches": 11,
           "queries": [
             "galgame",
@@ -1699,65 +2225,65 @@
             {
               "keyword": "galgame",
               "pages": 2,
-              "returned": 17,
-              "inWindow": 17,
+              "returned": 18,
+              "inWindow": 18,
               "outsideWindow": 0,
-              "channel": "general"
-            },
-            {
-              "keyword": "视觉小说",
-              "pages": 2,
-              "returned": 12,
-              "inWindow": 11,
-              "outsideWindow": 1,
               "channel": "general"
             },
             {
               "keyword": "冷门视觉小说",
               "pages": 2,
               "returned": 2,
-              "inWindow": 2,
-              "outsideWindow": 0,
+              "inWindow": 1,
+              "outsideWindow": 1,
               "channel": "general"
             },
             {
               "keyword": "galgame推荐",
               "pages": 2,
+              "returned": 16,
+              "inWindow": 13,
+              "outsideWindow": 3,
+              "channel": "general"
+            },
+            {
+              "keyword": "游戏安利",
+              "pages": 2,
               "returned": 18,
-              "inWindow": 12,
-              "outsideWindow": 6,
+              "inWindow": 17,
+              "outsideWindow": 1,
               "channel": "general"
             },
             {
               "keyword": "常轨脱离Creative",
               "pages": 2,
               "returned": 3,
-              "inWindow": 3,
-              "outsideWindow": 0,
+              "inWindow": 2,
+              "outsideWindow": 1,
               "channel": "general"
             },
             {
               "keyword": "尚有佳蜜伴恋心",
               "pages": 2,
-              "returned": 0,
-              "inWindow": 0,
+              "returned": 1,
+              "inWindow": 1,
               "outsideWindow": 0,
               "channel": "general"
             },
             {
               "keyword": "国王恋爱",
               "pages": 2,
-              "returned": 3,
+              "returned": 4,
               "inWindow": 3,
-              "outsideWindow": 0,
+              "outsideWindow": 1,
               "channel": "general"
             },
             {
               "keyword": "茧之锤：继承者",
               "pages": 2,
-              "returned": 2,
+              "returned": 3,
               "inWindow": 2,
-              "outsideWindow": 0,
+              "outsideWindow": 1,
               "channel": "general"
             },
             {
@@ -1771,16 +2297,16 @@
             {
               "keyword": "COCORO",
               "pages": 2,
-              "returned": 3,
+              "returned": 2,
               "inWindow": 2,
-              "outsideWindow": 1,
+              "outsideWindow": 0,
               "channel": "general"
             },
             {
               "keyword": "近月少女的礼仪",
               "pages": 2,
-              "returned": 8,
-              "inWindow": 7,
+              "returned": 7,
+              "inWindow": 6,
               "outsideWindow": 1,
               "channel": "general"
             }
@@ -1788,19 +2314,19 @@
           "pagesPerKeyword": 2,
           "window": {
             "start": "2026-10-31T16:00:00.000Z",
-            "end": "2026-11-06T03:24:39.730Z"
+            "end": "2026-11-06T09:56:28.447Z"
           },
           "workResolution": {
-            "resolved": 3,
+            "resolved": 1,
             "failures": 0
           },
-          "inWindowCount": 56,
+          "inWindowCount": 65,
           "identifiedCount": 18,
-          "identifiedWorks": 13,
+          "identifiedWorks": 15,
           "failures": [
             {
               "stage": "search",
-              "keyword": "游戏安利"
+              "keyword": "视觉小说"
             },
             {
               "stage": "search",
@@ -1812,6 +2338,18 @@
             },
             {
               "stage": "refresh",
+              "id": "7704598592296050362"
+            },
+            {
+              "stage": "refresh",
+              "id": "7704600044410954929"
+            },
+            {
+              "stage": "refresh",
+              "id": "7703983195985920074"
+            },
+            {
+              "stage": "refresh",
               "id": "7702794405752687913"
             },
             {
@@ -1820,35 +2358,11 @@
             },
             {
               "stage": "refresh",
-              "id": "7704598592296050362"
-            },
-            {
-              "stage": "refresh",
-              "id": "7704440789804304539"
-            },
-            {
-              "stage": "refresh",
               "id": "7704284113419216738"
             },
             {
               "stage": "refresh",
               "id": "7704237929036816548"
-            },
-            {
-              "stage": "refresh",
-              "id": "7704210062579654329"
-            },
-            {
-              "stage": "refresh",
-              "id": "7703963391979951291"
-            },
-            {
-              "stage": "refresh",
-              "id": "7704600044410954929"
-            },
-            {
-              "stage": "refresh",
-              "id": "7703269776990201295"
             },
             {
               "stage": "refresh",
@@ -1864,11 +2378,15 @@
             },
             {
               "stage": "refresh",
-              "id": "7704273197873059771"
+              "id": "7703598804313876837"
             },
             {
               "stage": "refresh",
-              "id": "7703598804313876837"
+              "id": "7702762141337570611"
+            },
+            {
+              "stage": "refresh",
+              "id": "7703142635984129331"
             }
           ],
           "sampleCount": 20,
@@ -1882,13 +2400,13 @@
             "coins": 0
           },
           "zeroValues": {
-            "favorites": 1,
+            "favorites": 0,
             "comments": 0,
-            "shares": 2,
+            "shares": 0,
             "views": 0,
             "coins": 0
           },
-          "lastSuccessAt": "2026-11-06T03:32:14.456Z",
+          "lastSuccessAt": "2026-11-06T10:03:51.139Z",
           "popular": [
             {
               "workId": "v21289",
@@ -2008,7 +2526,7 @@
               "missingAuthors": 0,
               "layer": "单账号线索",
               "aboveNormalAuthors": 0,
-              "maxLikes": 11228,
+              "maxLikes": 11712,
               "concentration": 1,
               "evidence": [
                 {
@@ -2024,7 +2542,7 @@
                   "kind": "video",
                   "url": "https://www.douyin.com/video/7704440789804304539",
                   "publishedAt": "2026-11-05T04:00:00+00:00",
-                  "likes": 11228,
+                  "likes": 11712,
                   "author": {
                     "id": "63914179980",
                     "name": "幺梨梨86",
@@ -2032,9 +2550,9 @@
                   },
                   "durationSeconds": null,
                   "metrics": {
-                    "favorites": 1875,
+                    "favorites": 1968,
                     "comments": 77,
-                    "shares": 360,
+                    "shares": 392,
                     "views": null,
                     "coins": null
                   },
@@ -2045,12 +2563,72 @@
                     "views": "unsupported",
                     "coins": "unsupported"
                   },
-                  "collectedAt": "2026-11-06T03:24:55.533060+00:00",
-                  "keyword": "galgame",
+                  "collectedAt": "2026-11-06T10:02:13.707485+00:00",
+                  "keyword": "魔女的夜宴",
+                  "refreshMethod": "search-id-confirmed",
                   "workId": "v16044",
                   "matchMethod": "explicit-title",
                   "matchedNames": [
                     "魔女的夜宴"
+                  ],
+                  "baseline": {
+                    "status": "insufficient",
+                    "sampleCount": 0,
+                    "reason": "缺少作者、同龄快照或可比较的内容类型"
+                  }
+                }
+              ]
+            },
+            {
+              "workId": "v777",
+              "platform": "douyin",
+              "authorCount": 1,
+              "missingAuthors": 0,
+              "layer": "单账号线索",
+              "aboveNormalAuthors": 0,
+              "maxLikes": 6626,
+              "concentration": 1,
+              "evidence": [
+                {
+                  "platform": "douyin",
+                  "id": "7703462321210282211",
+                  "title": "终于等到了这一天魔法师之夜（痛哭）#魔法使之夜 #galgame \n今年二月份玩的魔夜，给我带来了很深的印象，里面角色的塑造让我很喜欢.\n这也是一个比较老的作品了，很多人都等了很多年没有续作但是今年要出电影，真让人很感慨.我也是十分的期待这个作品啊！(●♡∀♡)\n最后我想说久远寺有珠牛逼（dog）",
+                  "description": "",
+                  "tags": [
+                    "",
+                    "魔法使之夜",
+                    "galgame"
+                  ],
+                  "kind": "image",
+                  "url": "https://www.douyin.com/note/7703462321210282211",
+                  "publishedAt": "2026-11-02T06:48:12+00:00",
+                  "likes": 6626,
+                  "author": {
+                    "id": "4209356249502704",
+                    "name": "Apart（不推黄毛）",
+                    "url": "https://www.douyin.com/user/MS4wLjABAAAAELgpfWxAkdxM3Q6slAzNOMgqN300ax8x3ukvkq_NZkkmPVLawdoYzRj5h0ojwoQM"
+                  },
+                  "durationSeconds": null,
+                  "metrics": {
+                    "favorites": 756,
+                    "comments": 215,
+                    "shares": 1205,
+                    "views": null,
+                    "coins": null
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "unsupported",
+                    "coins": "unsupported"
+                  },
+                  "collectedAt": "2026-11-06T09:56:40.636185+00:00",
+                  "keyword": "galgame",
+                  "workId": "v777",
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "魔法使之夜"
                   ],
                   "baseline": {
                     "status": "insufficient",
@@ -2122,13 +2700,136 @@
               ]
             },
             {
+              "workId": "v26232",
+              "platform": "douyin",
+              "authorCount": 1,
+              "missingAuthors": 0,
+              "layer": "单账号线索",
+              "aboveNormalAuthors": 0,
+              "maxLikes": 3454,
+              "concentration": 1,
+              "evidence": [
+                {
+                  "platform": "douyin",
+                  "id": "7703964285352942949",
+                  "title": "纯洁的爱。摸鱼\n#galgame #真爱百合 #绘画",
+                  "description": "",
+                  "tags": [
+                    "",
+                    "",
+                    "galgame",
+                    "真爱百合",
+                    "绘画"
+                  ],
+                  "kind": "image",
+                  "url": "https://www.douyin.com/note/7703964285352942949",
+                  "publishedAt": "2026-11-03T15:16:03+00:00",
+                  "likes": 3454,
+                  "author": {
+                    "id": "3547495681259004",
+                    "name": "笨笨僵尸爱跳舞",
+                    "url": "https://www.douyin.com/user/MS4wLjABAAAAvjsKWEH7ZYgAKKnCIvICpHkW2Ay8bM7v1I5l7ggjG_uK1yTe1cpZoQKSfF4SdXo3"
+                  },
+                  "durationSeconds": null,
+                  "metrics": {
+                    "favorites": 403,
+                    "comments": 30,
+                    "shares": 345,
+                    "views": null,
+                    "coins": null
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "unsupported",
+                    "coins": "unsupported"
+                  },
+                  "collectedAt": "2026-11-06T09:56:40.636132+00:00",
+                  "keyword": "galgame",
+                  "workId": "v26232",
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "真爱百合"
+                  ],
+                  "baseline": {
+                    "status": "insufficient",
+                    "sampleCount": 0,
+                    "reason": "同类同龄观测少于8条",
+                    "scope": "observed-candidates"
+                  }
+                }
+              ]
+            },
+            {
+              "workId": "v19513",
+              "platform": "douyin",
+              "authorCount": 1,
+              "missingAuthors": 0,
+              "layer": "单账号线索",
+              "aboveNormalAuthors": 0,
+              "maxLikes": 2928,
+              "concentration": 1,
+              "evidence": [
+                {
+                  "platform": "douyin",
+                  "id": "7704696011432361600",
+                  "title": "gal推荐《生命的备件》 #galgame #galgame推荐 #游戏推荐 #生命的备件 #催泪",
+                  "description": "",
+                  "tags": [
+                    "galgame",
+                    "galgame推荐",
+                    "游戏推荐",
+                    "生命的备件",
+                    "催泪"
+                  ],
+                  "kind": "video",
+                  "url": "https://www.douyin.com/video/7704696011432361600",
+                  "publishedAt": "2026-11-05T14:35:32+00:00",
+                  "likes": 2928,
+                  "author": {
+                    "id": "7665231454536582201",
+                    "name": "推晃悠的心事",
+                    "url": "https://www.douyin.com/user/MS4wLjABAAAAMG6P36tEXCKn-Fkq4buEseWC9lnubkR9AoudrkwgKuUem8i0HjNQo2IXkVEuqZny"
+                  },
+                  "durationSeconds": null,
+                  "metrics": {
+                    "favorites": 712,
+                    "comments": 62,
+                    "shares": 453,
+                    "views": null,
+                    "coins": null
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "unsupported",
+                    "coins": "unsupported"
+                  },
+                  "collectedAt": "2026-11-06T09:57:21.729383+00:00",
+                  "keyword": "galgame推荐",
+                  "workId": "v19513",
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "生命的备件"
+                  ],
+                  "baseline": {
+                    "status": "insufficient",
+                    "sampleCount": 0,
+                    "reason": "缺少作者、同龄快照或可比较的内容类型"
+                  }
+                }
+              ]
+            },
+            {
               "workId": "v2002",
               "platform": "douyin",
               "authorCount": 1,
               "missingAuthors": 0,
               "layer": "单账号线索",
               "aboveNormalAuthors": 0,
-              "maxLikes": 2794,
+              "maxLikes": 2864,
               "concentration": 1,
               "evidence": [
                 {
@@ -2148,7 +2849,7 @@
                   "kind": "image",
                   "url": "https://www.douyin.com/note/7703269776990201295",
                   "publishedAt": "2026-11-01T18:21:03+00:00",
-                  "likes": 2794,
+                  "likes": 2864,
                   "author": {
                     "id": "2381986229922928",
                     "name": "鬼神",
@@ -2156,9 +2857,9 @@
                   },
                   "durationSeconds": null,
                   "metrics": {
-                    "favorites": 1309,
-                    "comments": 175,
-                    "shares": 544,
+                    "favorites": 1338,
+                    "comments": 181,
+                    "shares": 550,
                     "views": null,
                     "coins": null
                   },
@@ -2169,12 +2870,72 @@
                     "views": "unsupported",
                     "coins": "unsupported"
                   },
-                  "collectedAt": "2026-11-06T03:25:35.982267+00:00",
+                  "collectedAt": "2026-11-06T09:57:21.729506+00:00",
                   "keyword": "galgame推荐",
                   "workId": "v2002",
                   "matchMethod": "explicit-title",
                   "matchedNames": [
                     "命运石之门"
+                  ],
+                  "baseline": {
+                    "status": "insufficient",
+                    "sampleCount": 0,
+                    "reason": "缺少作者、同龄快照或可比较的内容类型"
+                  }
+                }
+              ]
+            },
+            {
+              "workId": "v2016",
+              "platform": "douyin",
+              "authorCount": 1,
+              "missingAuthors": 0,
+              "layer": "单账号线索",
+              "aboveNormalAuthors": 0,
+              "maxLikes": 2363,
+              "concentration": 1,
+              "evidence": [
+                {
+                  "platform": "douyin",
+                  "id": "7704333639450863778",
+                  "title": "n社还是太懂萝莉了#装甲恶鬼村正  #galgame推荐 #galgame#萝莉",
+                  "description": "",
+                  "tags": [
+                    "装甲恶鬼村正",
+                    "galgame推荐",
+                    "galgame",
+                    "萝莉"
+                  ],
+                  "kind": "image",
+                  "url": "https://www.douyin.com/note/7704333639450863778",
+                  "publishedAt": "2026-11-04T15:09:21+00:00",
+                  "likes": 2363,
+                  "author": {
+                    "id": "3646455190922270",
+                    "name": "无姓",
+                    "url": "https://www.douyin.com/user/MS4wLjABAAAAGqQeROH1EFVy5ZeMRpiHctkvOWQdP-SYODkUnGfcjsfssNgw1LR_NEYfaMQLgBi_"
+                  },
+                  "durationSeconds": null,
+                  "metrics": {
+                    "favorites": 364,
+                    "comments": 19,
+                    "shares": 339,
+                    "views": null,
+                    "coins": null
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "unsupported",
+                    "coins": "unsupported"
+                  },
+                  "collectedAt": "2026-11-06T09:57:21.729421+00:00",
+                  "keyword": "galgame推荐",
+                  "workId": "v2016",
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "装甲恶鬼村正"
                   ],
                   "baseline": {
                     "status": "insufficient",
@@ -2250,7 +3011,7 @@
               "missingAuthors": 0,
               "layer": "单账号线索",
               "aboveNormalAuthors": 0,
-              "maxLikes": 1298,
+              "maxLikes": 1377,
               "concentration": 1,
               "evidence": [
                 {
@@ -2266,7 +3027,7 @@
                   "kind": "image",
                   "url": "https://www.douyin.com/note/7704668084564403833",
                   "publishedAt": "2026-11-05T12:47:10+00:00",
-                  "likes": 1298,
+                  "likes": 1377,
                   "author": {
                     "id": "3626666561112512",
                     "name": "澪",
@@ -2274,9 +3035,9 @@
                   },
                   "durationSeconds": null,
                   "metrics": {
-                    "favorites": 71,
-                    "comments": 20,
-                    "shares": 32,
+                    "favorites": 88,
+                    "comments": 24,
+                    "shares": 34,
                     "views": null,
                     "coins": null
                   },
@@ -2287,7 +3048,7 @@
                     "views": "unsupported",
                     "coins": "unsupported"
                   },
-                  "collectedAt": "2026-11-06T03:30:26.810394+00:00",
+                  "collectedAt": "2026-11-06T10:03:47.866899+00:00",
                   "keyword": "亚托莉 -我挚爱的时光-",
                   "refreshMethod": "search-id-confirmed",
                   "workId": "v27448",
@@ -2429,6 +3190,114 @@
           ],
           "review": [
             {
+              "workId": "v7738",
+              "platform": "douyin",
+              "reason": "评论较多，需排查作者自答、抽奖及与作品无关的讨论",
+              "evidence": [
+                {
+                  "platform": "douyin",
+                  "id": "7703233510883145314",
+                  "title": "也是21岁了 #galgame #生日快乐 #gal #君与彼女与彼女之恋",
+                  "description": "",
+                  "tags": [
+                    "galgame",
+                    "生日快乐",
+                    "gal"
+                  ],
+                  "kind": "image",
+                  "url": "https://www.douyin.com/note/7703233510883145314",
+                  "publishedAt": "2026-11-01T16:00:19+00:00",
+                  "likes": 241,
+                  "author": {
+                    "id": "457824473974830",
+                    "name": "跳舞的自",
+                    "url": "https://www.douyin.com/user/MS4wLjABAAAAMDZC9_W5uuUkOAdioxReXZWU_lTGKTJojIlVsyJ_PFo"
+                  },
+                  "durationSeconds": null,
+                  "metrics": {
+                    "favorites": 10,
+                    "comments": 179,
+                    "shares": 3,
+                    "views": null,
+                    "coins": null
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "unsupported",
+                    "coins": "unsupported"
+                  },
+                  "collectedAt": "2026-11-06T09:56:40.636226+00:00",
+                  "keyword": "galgame",
+                  "workId": "v7738",
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "君与彼女与彼女之恋"
+                  ],
+                  "baseline": {
+                    "status": "insufficient",
+                    "sampleCount": 0,
+                    "reason": "缺少作者、同龄快照或可比较的内容类型"
+                  }
+                }
+              ]
+            },
+            {
+              "workId": "v10680",
+              "platform": "douyin",
+              "reason": "评论较多，需排查作者自答、抽奖及与作品无关的讨论",
+              "evidence": [
+                {
+                  "platform": "douyin",
+                  "id": "7704366959307766927",
+                  "title": "今天也深爱着露娜sama#樱小路露娜 #近月少女的礼仪 #galgame",
+                  "description": "",
+                  "tags": [
+                    "樱小路露娜",
+                    "近月少女的礼仪",
+                    "galgame"
+                  ],
+                  "kind": "image",
+                  "url": "https://www.douyin.com/note/7704366959307766927",
+                  "publishedAt": "2026-11-04T17:18:38+00:00",
+                  "likes": 359,
+                  "author": {
+                    "id": "3822322512567447",
+                    "name": "淮夜",
+                    "url": "https://www.douyin.com/user/MS4wLjABAAAAYSUt-w9iYpoYG2_erHU783ZcnWyb_29WQE81c0Gy5aOevOPFML4ehK5YdJN66WYT"
+                  },
+                  "durationSeconds": null,
+                  "metrics": {
+                    "favorites": 19,
+                    "comments": 65,
+                    "shares": 29,
+                    "views": null,
+                    "coins": null
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "unsupported",
+                    "coins": "unsupported"
+                  },
+                  "collectedAt": "2026-11-06T09:59:28.342320+00:00",
+                  "keyword": "近月少女的礼仪",
+                  "workId": "v10680",
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "近月少女的礼仪"
+                  ],
+                  "baseline": {
+                    "status": "insufficient",
+                    "sampleCount": 0,
+                    "reason": "缺少作者、同龄快照或可比较的内容类型"
+                  }
+                }
+              ]
+            },
+            {
               "workId": "v18852",
               "platform": "douyin",
               "reason": "评论较多，需排查作者自答、抽奖及与作品无关的讨论",
@@ -2502,7 +3371,7 @@
                   "kind": "image",
                   "url": "https://www.douyin.com/note/7704210062579654329",
                   "publishedAt": "2026-11-04T07:09:48+00:00",
-                  "likes": 168,
+                  "likes": 174,
                   "author": {
                     "id": "1891636266153294",
                     "name": "茑町千岁",
@@ -2523,7 +3392,7 @@
                     "views": "unsupported",
                     "coins": "unsupported"
                   },
-                  "collectedAt": "2026-11-06T03:24:55.533128+00:00",
+                  "collectedAt": "2026-11-06T09:56:40.636116+00:00",
                   "keyword": "galgame",
                   "workId": "v31813",
                   "matchMethod": "explicit-title",
@@ -2543,7 +3412,7 @@
         "bilibili": {
           "status": "partial",
           "fieldVerificationStatus": "complete",
-          "lastAttemptAt": "2026-11-06T03:38:38.428Z",
+          "lastAttemptAt": "2026-11-06T10:10:35.377Z",
           "searches": 15,
           "queries": [
             "galgame",
@@ -2617,15 +3486,15 @@
           "pagesPerKeyword": 2,
           "window": {
             "start": "2026-10-31T16:00:00.000Z",
-            "end": "2026-11-06T03:24:39.730Z"
+            "end": "2026-11-06T09:56:28.447Z"
           },
           "workResolution": {
-            "resolved": 9,
+            "resolved": 3,
             "failures": 0
           },
-          "inWindowCount": 261,
+          "inWindowCount": 270,
           "identifiedCount": 62,
-          "identifiedWorks": 41,
+          "identifiedWorks": 44,
           "failures": [
             {
               "stage": "search",
@@ -2675,21 +3544,148 @@
             "coins": 20
           },
           "zeroValues": {
-            "favorites": 5,
-            "comments": 3,
+            "favorites": 7,
+            "comments": 9,
             "shares": 12,
             "views": 0,
-            "coins": 10
+            "coins": 9
           },
-          "lastSuccessAt": "2026-11-06T03:38:38.428Z",
-          "popular": [],
+          "lastSuccessAt": "2026-11-06T10:10:35.377Z",
+          "popular": [
+            {
+              "workId": "v62906",
+              "platform": "bilibili",
+              "authorCount": 1,
+              "missingAuthors": 0,
+              "layer": "单账号线索",
+              "aboveNormalAuthors": 0,
+              "maxLikes": 1480,
+              "concentration": 1,
+              "evidence": [
+                {
+                  "platform": "bilibili",
+                  "id": "BV1FfxH6YEDm",
+                  "title": "“如果您不是萝莉控，那肯定是位艺术家。”【Galgame《花鸟水月》试玩】",
+                  "description": "出处：Steam游戏《花鸟水月》\n已在Steam发布试玩demo，欢迎大家来玩！\nhttps://store.steampowered.com/app/4660800/_/\n※配音\n芙洛（金发少女）：@忆辰Rebacca  \n感谢老师的配音~",
+                  "tags": [
+                    "Steam",
+                    "游戏试玩",
+                    "GAL",
+                    "可爱",
+                    "大小姐",
+                    "萝莉"
+                  ],
+                  "url": "https://www.bilibili.com/video/BV1FfxH6YEDm",
+                  "publishedAt": "2026-11-01T02:00:00.000Z",
+                  "likes": 1480,
+                  "kind": "video",
+                  "durationSeconds": 129,
+                  "author": {
+                    "id": "3690990835599915",
+                    "name": "Pygma山鬼工坊",
+                    "url": "https://space.bilibili.com/3690990835599915"
+                  },
+                  "metrics": {
+                    "favorites": 1584,
+                    "comments": 107,
+                    "shares": 231,
+                    "views": 26151,
+                    "coins": 105
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "available",
+                    "coins": "available"
+                  },
+                  "collectedAt": "2026-11-06T10:08:35.148Z",
+                  "keyword": "galgame",
+                  "workId": "v62906",
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "花鸟水月"
+                  ],
+                  "baseline": {
+                    "status": "insufficient",
+                    "sampleCount": 0,
+                    "reason": "缺少作者、同龄快照或可比较的内容类型"
+                  }
+                }
+              ]
+            },
+            {
+              "workId": "v69936",
+              "platform": "bilibili",
+              "authorCount": 1,
+              "missingAuthors": 0,
+              "layer": "单账号线索",
+              "aboveNormalAuthors": 0,
+              "maxLikes": 873,
+              "concentration": 1,
+              "evidence": [
+                {
+                  "platform": "bilibili",
+                  "id": "BV11g486wEeQ",
+                  "title": "国GAL新作《对我而言》pv公布",
+                  "description": "“对我而言，哥哥就是我最爱的哥哥”\n《对我而言》PV公开\n\n新团队好活游戏制作，村里的第一个中专辍学生来了。\n欢迎支持摩点众筹： https://zhongchou.modian.com/item/160607.html\nsteam试玩demo已经上线： https://store.steampowered.com/app/4524870\n\n游戏将于2027年大年三十推出",
+                  "tags": [
+                    "好活游戏",
+                    "galgame",
+                    "对我而言",
+                    "视觉小说",
+                    "AVG",
+                    "国产游戏",
+                    "独立游戏"
+                  ],
+                  "url": "https://www.bilibili.com/video/BV11g486wEeQ",
+                  "publishedAt": "2026-11-05T08:41:42.000Z",
+                  "likes": 873,
+                  "kind": "video",
+                  "durationSeconds": 64,
+                  "author": {
+                    "id": "3747574286649626",
+                    "name": "好活游戏",
+                    "url": "https://space.bilibili.com/3747574286649626"
+                  },
+                  "metrics": {
+                    "favorites": 1225,
+                    "comments": 55,
+                    "shares": 45,
+                    "views": 14109,
+                    "coins": 20
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "available",
+                    "coins": "available"
+                  },
+                  "collectedAt": "2026-11-06T10:08:59.798Z",
+                  "keyword": "视觉小说",
+                  "workId": "v69936",
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "对我而言"
+                  ],
+                  "baseline": {
+                    "status": "insufficient",
+                    "sampleCount": 0,
+                    "reason": "同类同龄观测少于8条",
+                    "scope": "observed-candidates"
+                  }
+                }
+              ]
+            }
+          ],
           "favorites": [
             {
               "workId": "v237",
               "platform": "bilibili",
               "authorCount": 1,
               "layer": "单账号观察",
-              "maxFavorites": 304,
+              "maxFavorites": 308,
               "evidence": [
                 {
                   "platform": "bilibili",
@@ -2710,7 +3706,7 @@
                   ],
                   "url": "https://www.bilibili.com/video/BV1Bg4g68EMm",
                   "publishedAt": "2026-11-03T10:34:39.000Z",
-                  "likes": 355,
+                  "likes": 361,
                   "kind": "video",
                   "durationSeconds": 1161,
                   "author": {
@@ -2719,10 +3715,10 @@
                     "url": "https://space.bilibili.com/22352826"
                   },
                   "metrics": {
-                    "favorites": 304,
+                    "favorites": 308,
                     "comments": 31,
                     "shares": 8,
-                    "views": 4714,
+                    "views": 4799,
                     "coins": 21
                   },
                   "metricAvailability": {
@@ -2732,7 +3728,7 @@
                     "views": "available",
                     "coins": "available"
                   },
-                  "collectedAt": "2026-11-06T03:37:09.973Z",
+                  "collectedAt": "2026-11-06T10:09:09.057Z",
                   "keyword": "视觉小说",
                   "workId": "v237",
                   "matchMethod": "explicit-title",
@@ -2813,7 +3809,7 @@
               "platform": "bilibili",
               "authorCount": 1,
               "layer": "单账号观察",
-              "maxFavorites": 189,
+              "maxFavorites": 193,
               "evidence": [
                 {
                   "platform": "bilibili",
@@ -2832,7 +3828,7 @@
                   ],
                   "url": "https://www.bilibili.com/video/BV11z4c6UEiK",
                   "publishedAt": "2026-11-02T11:36:22.000Z",
-                  "likes": 81,
+                  "likes": 84,
                   "kind": "video",
                   "durationSeconds": 482,
                   "author": {
@@ -2841,10 +3837,10 @@
                     "url": "https://space.bilibili.com/553938914"
                   },
                   "metrics": {
-                    "favorites": 189,
-                    "comments": 17,
+                    "favorites": 193,
+                    "comments": 18,
                     "shares": 8,
-                    "views": 1872,
+                    "views": 1894,
                     "coins": 7
                   },
                   "metricAvailability": {
@@ -2854,7 +3850,7 @@
                     "views": "available",
                     "coins": "available"
                   },
-                  "collectedAt": "2026-11-06T03:34:25.933Z",
+                  "collectedAt": "2026-11-06T10:06:15.585Z",
                   "keyword": "galgame推荐",
                   "workId": "v16070",
                   "matchMethod": "explicit-title",
@@ -2930,14 +3926,13 @@
                   }
                 }
               ]
-            }
-          ],
-          "discussion": [],
-          "watch": [
+            },
             {
               "workId": "v31471",
               "platform": "bilibili",
-              "reason": "发布不足24小时",
+              "authorCount": 1,
+              "layer": "单账号观察",
+              "maxFavorites": 156,
               "evidence": [
                 {
                   "platform": "bilibili",
@@ -2956,7 +3951,7 @@
                   ],
                   "url": "https://www.bilibili.com/video/BV1qk446kEmu",
                   "publishedAt": "2026-11-05T10:00:00.000Z",
-                  "likes": 63,
+                  "likes": 74,
                   "kind": "video",
                   "durationSeconds": 266,
                   "author": {
@@ -2965,10 +3960,10 @@
                     "url": "https://space.bilibili.com/93693614"
                   },
                   "metrics": {
-                    "favorites": 129,
-                    "comments": 12,
-                    "shares": 3,
-                    "views": 1796,
+                    "favorites": 156,
+                    "comments": 14,
+                    "shares": 7,
+                    "views": 2202,
                     "coins": 7
                   },
                   "metricAvailability": {
@@ -2978,7 +3973,7 @@
                     "views": "available",
                     "coins": "available"
                   },
-                  "collectedAt": "2026-11-06T03:33:56.024Z",
+                  "collectedAt": "2026-11-06T10:05:45.088Z",
                   "keyword": "galgame推荐",
                   "workId": "v31471",
                   "matchMethod": "explicit-title",
@@ -2993,8 +3988,69 @@
                   }
                 }
               ]
+            },
+            {
+              "workId": "v26414",
+              "platform": "bilibili",
+              "authorCount": 1,
+              "layer": "单账号观察",
+              "maxFavorites": 103,
+              "evidence": [
+                {
+                  "platform": "bilibili",
+                  "id": "BV15Rxe69EQf",
+                  "title": "穿着旗袍卖包子，她是懂怎么打组合技的😊",
+                  "description": "《星光咖啡馆与死神之蝶》\n以我剪视频的风格和习惯的话，有什么想分享的画面或剧情都会直接剪出来的。没考虑那么多。（注：本作男主昂晴我会称呼为牢晴，当然是爱称啦~）\n夏目这招还是太狠了ヾ(•ω•`)o      知道平时神社里没有穿旗袍的人，就特意穿上旗袍来卖包子。有美少女拉客，这摊位难道还不能卖爆吗？( •̀ ω •́ )✧",
+                  "tags": [
+                    "星光咖啡馆",
+                    "视觉小说",
+                    "柚子社",
+                    "单机游戏",
+                    "GAL"
+                  ],
+                  "url": "https://www.bilibili.com/video/BV15Rxe69EQf",
+                  "publishedAt": "2026-11-03T10:00:00.000Z",
+                  "likes": 239,
+                  "kind": "video",
+                  "durationSeconds": 337,
+                  "author": {
+                    "id": "354622667",
+                    "name": "黑木KL",
+                    "url": "https://space.bilibili.com/354622667"
+                  },
+                  "metrics": {
+                    "favorites": 103,
+                    "comments": 32,
+                    "shares": 4,
+                    "views": 5095,
+                    "coins": 1
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "available",
+                    "coins": "available"
+                  },
+                  "collectedAt": "2026-11-06T10:09:07.926Z",
+                  "keyword": "视觉小说",
+                  "workId": "v26414",
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "星光咖啡馆与死神之蝶"
+                  ],
+                  "baseline": {
+                    "status": "insufficient",
+                    "sampleCount": 1,
+                    "reason": "同类同龄观测少于8条",
+                    "scope": "observed-candidates"
+                  }
+                }
+              ]
             }
           ],
+          "discussion": [],
+          "watch": [],
           "review": [
             {
               "workId": "v22313",
@@ -3020,7 +4076,7 @@
                   ],
                   "url": "https://www.bilibili.com/video/BV1nfx96XEs2",
                   "publishedAt": "2026-11-04T10:54:59.000Z",
-                  "likes": 239,
+                  "likes": 258,
                   "kind": "video",
                   "durationSeconds": 24,
                   "author": {
@@ -3029,11 +4085,11 @@
                     "url": "https://space.bilibili.com/1313291762"
                   },
                   "metrics": {
-                    "favorites": 36,
-                    "comments": 102,
-                    "shares": 39,
-                    "views": 1282,
-                    "coins": 22
+                    "favorites": 39,
+                    "comments": 107,
+                    "shares": 42,
+                    "views": 1353,
+                    "coins": 23
                   },
                   "metricAvailability": {
                     "favorites": "available",
@@ -3042,7 +4098,7 @@
                     "views": "available",
                     "coins": "available"
                   },
-                  "collectedAt": "2026-11-06T03:34:05.869Z",
+                  "collectedAt": "2026-11-06T10:05:55.330Z",
                   "keyword": "galgame推荐",
                   "workId": "v22313",
                   "matchMethod": "explicit-title",
@@ -3082,7 +4138,7 @@
                   ],
                   "url": "https://www.bilibili.com/video/BV15G446PEFi",
                   "publishedAt": "2026-11-05T07:51:32.000Z",
-                  "likes": 148,
+                  "likes": 177,
                   "kind": "video",
                   "durationSeconds": 24,
                   "author": {
@@ -3091,11 +4147,11 @@
                     "url": "https://space.bilibili.com/1313291762"
                   },
                   "metrics": {
-                    "favorites": 23,
-                    "comments": 64,
-                    "shares": 11,
-                    "views": 899,
-                    "coins": 8
+                    "favorites": 28,
+                    "comments": 74,
+                    "shares": 14,
+                    "views": 1064,
+                    "coins": 14
                   },
                   "metricAvailability": {
                     "favorites": "available",
@@ -3104,7 +4160,7 @@
                     "views": "available",
                     "coins": "available"
                   },
-                  "collectedAt": "2026-11-06T03:33:59.224Z",
+                  "collectedAt": "2026-11-06T10:05:48.501Z",
                   "keyword": "galgame推荐",
                   "workId": "v22313",
                   "matchMethod": "explicit-title",
@@ -3197,7 +4253,7 @@
                   ],
                   "url": "https://www.bilibili.com/video/BV15Rxe69EQf",
                   "publishedAt": "2026-11-03T10:00:00.000Z",
-                  "likes": 228,
+                  "likes": 239,
                   "kind": "video",
                   "durationSeconds": 337,
                   "author": {
@@ -3206,10 +4262,10 @@
                     "url": "https://space.bilibili.com/354622667"
                   },
                   "metrics": {
-                    "favorites": 99,
-                    "comments": 31,
+                    "favorites": 103,
+                    "comments": 32,
                     "shares": 4,
-                    "views": 4969,
+                    "views": 5095,
                     "coins": 1
                   },
                   "metricAvailability": {
@@ -3219,7 +4275,7 @@
                     "views": "available",
                     "coins": "available"
                   },
-                  "collectedAt": "2026-11-06T03:37:08.805Z",
+                  "collectedAt": "2026-11-06T10:09:07.926Z",
                   "keyword": "视觉小说",
                   "workId": "v26414",
                   "matchMethod": "explicit-title",
@@ -3259,7 +4315,7 @@
                   ],
                   "url": "https://www.bilibili.com/video/BV1Bg4g68EMm",
                   "publishedAt": "2026-11-03T10:34:39.000Z",
-                  "likes": 355,
+                  "likes": 361,
                   "kind": "video",
                   "durationSeconds": 1161,
                   "author": {
@@ -3268,10 +4324,10 @@
                     "url": "https://space.bilibili.com/22352826"
                   },
                   "metrics": {
-                    "favorites": 304,
+                    "favorites": 308,
                     "comments": 31,
                     "shares": 8,
-                    "views": 4714,
+                    "views": 4799,
                     "coins": 21
                   },
                   "metricAvailability": {
@@ -3281,7 +4337,7 @@
                     "views": "available",
                     "coins": "available"
                   },
-                  "collectedAt": "2026-11-06T03:37:09.973Z",
+                  "collectedAt": "2026-11-06T10:09:09.057Z",
                   "keyword": "视觉小说",
                   "workId": "v237",
                   "matchMethod": "explicit-title",
@@ -3300,7 +4356,6 @@
           ]
         }
       },
-      "finalized": false,
       "settings": {
         "hotMinLikes": 500,
         "favoritesMin": 50,
@@ -3309,7 +4364,9 @@
         "bilibiliFavoriteViewRatio": 0.02,
         "commentsMin": 30,
         "douyinFavoritesMin": 30
-      }
+      },
+      "generatedAt": "2026-11-06T10:10:44.483Z",
+      "finalized": false
     }
   ]
 }

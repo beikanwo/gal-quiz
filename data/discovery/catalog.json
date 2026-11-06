@@ -5473,7 +5473,7 @@
         }
       ],
       "source": "https://vndb.org/v22230",
-      "updatedAt": "2026-11-06T07:57:52.685Z",
+      "updatedAt": "2026-11-06T09:56:27.626Z",
       "detailComplete": true,
       "ratings": {
         "vndb": {
@@ -5483,7 +5483,7 @@
           "metric": "贝叶斯评分",
           "via": "原站",
           "url": "https://vndb.org/v22230",
-          "fetchedAt": "2026-11-06T07:57:52.685Z"
+          "fetchedAt": "2026-11-06T09:56:27.626Z"
         },
         "bangumi": {
           "score": 6.5,
@@ -435021,6 +435021,663 @@
         }
       },
       "ratings": {}
+    },
+    "v58952": {
+      "id": "v58952",
+      "title": "我与你共度的七日",
+      "original": "我与你共度的七日",
+      "aliases": [
+        "我与你共度的七日",
+        "Wo yu Ni Gongdu de Qiri",
+        "The seven days i spent with you",
+        "我與你共度的七日",
+        "君との七日間"
+      ],
+      "released": "2026-06-17",
+      "languages": [
+        "zh-Hans"
+      ],
+      "minutes": 179,
+      "image": "https://t.vndb.org/cv/81/115581.jpg",
+      "cover": {
+        "id": "cv115581",
+        "url": "https://t.vndb.org/cv/81/115581.jpg",
+        "thumbnail": "https://t.vndb.org/cv.t/81/115581.jpg",
+        "sexual": 0,
+        "violence": 0,
+        "kind": "vn",
+        "source": "https://vndb.org/v58952"
+      },
+      "developers": [
+        {
+          "id": "p26032",
+          "name": "再演工作室RErevue"
+        }
+      ],
+      "source": "https://vndb.org/v58952",
+      "updatedAt": "2026-11-06T09:56:27.626Z",
+      "detailComplete": false,
+      "vndbNames": [
+        "Wo yu Ni Gongdu de Qiri",
+        "我与你共度的七日",
+        "The seven days i spent with you",
+        "我與你共度的七日",
+        "君との七日間"
+      ],
+      "matchingAliases": [
+        "我与你共度的七日",
+        "Wo yu Ni Gongdu de Qiri",
+        "The seven days i spent with you",
+        "我與你共度的七日",
+        "君との七日間"
+      ],
+      "coverSourceFlags": {
+        "sexual": 0,
+        "violence": 0
+      },
+      "ratings": {
+        "vndb": {
+          "score": 6.959999999999999,
+          "scale": 10,
+          "votes": 53,
+          "metric": "贝叶斯评分",
+          "via": "原站",
+          "url": "https://vndb.org/v58952",
+          "fetchedAt": "2026-11-06T09:56:27.626Z"
+        }
+      }
+    },
+    "v1203": {
+      "id": "v1203",
+      "title": "潘多拉之梦",
+      "original": "パンドラの夢",
+      "aliases": [
+        "潘多拉之梦",
+        "パンドラの夢",
+        "Pandora no Yume",
+        "Dream in Pandora's Box"
+      ],
+      "released": "2001-11-22",
+      "languages": [
+        "ja",
+        "zh-Hans"
+      ],
+      "minutes": 660,
+      "image": "https://t.vndb.org/cv/37/101537.jpg",
+      "cover": {
+        "id": "cv101537",
+        "url": "https://t.vndb.org/cv/37/101537.jpg",
+        "thumbnail": "https://t.vndb.org/cv.t/37/101537.jpg",
+        "sexual": 0,
+        "violence": 0,
+        "kind": "vn",
+        "source": "https://vndb.org/v1203"
+      },
+      "developers": [
+        {
+          "id": "p144",
+          "name": "ぱじゃまソフト"
+        }
+      ],
+      "source": "https://vndb.org/v1203",
+      "updatedAt": "2026-11-06T09:56:27.626Z",
+      "detailComplete": true,
+      "originalDescription": "The story starts on a summer holiday training camp for members of the arts club. As they are exploring the basement of the European-styled school building, they find a nursing robot called Suu, albeit non functional due to a used-up battery. After being brought back to life by the main character, Hirano Yuito, the robot, of female appearance, recognizes him as her new master.\n\nOn the final day, the protagonist prepares to leave after spending an enjoyable week. An earthquake occurs, but he dismisses it as a casual event.\nHowever, before Yuito knows what's happening, all of them are warped back to a week earlier, memories altogether.\n\nAs the pattern keeps looping, Suu seems to remember faint traces of the week period, and uncannily starts depicting traits of humanity.",
+      "description": "很久很久以前，在某个地方，有一位非常坏的魔法师。\n坏魔法师在远离人烟的森林深处，独自一人生活着。\n不与任何人见面，避人耳目地生活着的魔法师，\n有一天，收到了一封信。\n是来自王宫的信。\n读了那封信，魔法师大吃一惊。\n魔法师急忙向王宫赶去了。",
+      "descriptionLanguage": "中文",
+      "descriptionSource": "https://www.kungal.com/galgame/8552",
+      "staff": [
+        {
+          "id": "s1125",
+          "name": "丸谷 秀人",
+          "role": "scenario",
+          "aliasId": 1900
+        },
+        {
+          "id": "s1232",
+          "name": "和泉 時彦",
+          "role": "scenario",
+          "aliasId": 2093
+        },
+        {
+          "id": "s2932",
+          "name": "大野 哲也",
+          "role": "art",
+          "aliasId": 4340
+        },
+        {
+          "id": "s5695",
+          "name": "まろにぃ",
+          "role": "scenario",
+          "aliasId": 13182
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sf22430",
+          "url": "https://t.vndb.org/sf/30/22430.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/30/22430.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf22431",
+          "url": "https://t.vndb.org/sf/31/22431.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/31/22431.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf22432",
+          "url": "https://t.vndb.org/sf/32/22432.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/32/22432.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf22433",
+          "url": "https://t.vndb.org/sf/33/22433.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/33/22433.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf22434",
+          "url": "https://t.vndb.org/sf/34/22434.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/34/22434.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf22435",
+          "url": "https://t.vndb.org/sf/35/22435.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/35/22435.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        }
+      ],
+      "links": [],
+      "vndbNames": [
+        "Pandora no Yume",
+        "パンドラの夢",
+        "潘多拉之梦",
+        "Dream in Pandora's Box"
+      ],
+      "matchingAliases": [
+        "潘多拉之梦",
+        "パンドラの夢",
+        "Pandora no Yume",
+        "Dream in Pandora's Box"
+      ],
+      "coverSourceFlags": {
+        "sexual": 0,
+        "violence": 0
+      },
+      "ratings": {
+        "vndb": {
+          "score": 7.18,
+          "scale": 10,
+          "votes": 62,
+          "metric": "贝叶斯评分",
+          "via": "原站",
+          "url": "https://vndb.org/v1203",
+          "fetchedAt": "2026-11-06T09:56:27.626Z"
+        },
+        "bangumi": {
+          "score": 7,
+          "votes": 139,
+          "scale": 10,
+          "metric": "站点评分",
+          "url": "https://bgm.tv/subject/17054",
+          "via": "KUN 评分快照",
+          "viaUrl": "https://www.kungal.com/galgame/8552",
+          "fetchedAt": "2026-11-06T10:09:18.416Z"
+        },
+        "erogamescape": {
+          "score": 77,
+          "votes": 287,
+          "scale": 100,
+          "metric": "站点评分",
+          "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=1760",
+          "via": "KUN 评分快照",
+          "viaUrl": "https://www.kungal.com/galgame/8552",
+          "fetchedAt": "2026-11-06T10:09:18.416Z"
+        }
+      },
+      "communityNames": [
+        "パンドラの夢",
+        "Pandora no Yume",
+        "潘多拉之梦"
+      ],
+      "communitySearchNames": [
+        "パンドラの夢",
+        "Pandora no Yume",
+        "潘多拉之梦"
+      ],
+      "community": {
+        "kungal": {
+          "id": "8552",
+          "url": "https://www.kungal.com/galgame/8552"
+        },
+        "bangumi": {
+          "id": 17054,
+          "url": "https://bgm.tv/subject/17054"
+        }
+      },
+      "descriptionSourceName": "KUN 社区",
+      "descriptionMachine": true
+    },
+    "v26581": {
+      "id": "v26581",
+      "title": "巧可甜恋",
+      "original": "あまいろショコラータ",
+      "aliases": [
+        "巧可甜恋",
+        "あまいろショコラータ",
+        "Amairo Chocolata",
+        "Amairo Chocolate",
+        "巧可甜戀",
+        "Amachoco",
+        "あまショコ",
+        "巧克甜恋",
+        "巧克甜戀"
+      ],
+      "released": "2020-01-31",
+      "languages": [
+        "en",
+        "ja",
+        "zh-Hans",
+        "zh-Hant"
+      ],
+      "minutes": 694,
+      "image": "https://t.vndb.org/cv/56/76856.jpg",
+      "cover": {
+        "id": "cv76856",
+        "url": "https://t.vndb.org/cv/56/76856.jpg",
+        "thumbnail": "https://t.vndb.org/cv.t/56/76856.jpg",
+        "sexual": 0,
+        "violence": 0,
+        "kind": "vn",
+        "source": "https://vndb.org/v26581"
+      },
+      "developers": [
+        {
+          "id": "p6193",
+          "name": "きゃべつそふと"
+        }
+      ],
+      "source": "https://vndb.org/v26581",
+      "updatedAt": "2026-11-06T09:56:27.626Z",
+      "detailComplete": true,
+      "originalDescription": "Yuzuki came to the town of Yuunagi as the leaves were starting to change colour. The first person he met was a cute cat-eared waitress, who was handing out pamphlets on the street.\n\n“T-This is Cafe Setaria. Please come in!”\n\nWhen he was led into the cafe by the waitress Chieri, the other girls there also had animal ears. Seeing his wondering look, they worriedly asked him:\n\n“Could it be… that you could see these ears?”\n\nThey explained that they were actually hybrid beasts whose ears and tails cannot be seen by normal humans. After learning about their secret, he started working at the cafe with them, while being both shocked and impressed at the differences between them and humans.",
+      "description": "季节是秋天。\n树木开始染上色彩之时，少年来到了夕渚町。\n\n少年最初遇见的，是一个独自发传单的可爱猫耳女服务员。\n\n“欢、欢迎来到咖啡店‘塞塔利亚’。请多关照。”\n\n在女服务员的带领下进入咖啡店后，那里还有同样长着兽耳的女孩子们。\n面对一脸不可思议的少年，她们面露难色地这样问道。\n\n“难道说，这*耳朵*，您看得见吗……？”\n\n她们解释道，自己的真身是名为兽人的种族，耳朵和尾巴对普通人类来说是看不见的。\n于是，得知了秘密的少年，决定作为同伴一起在咖啡店工作。\n\n少年对人类与兽人的差异感到惊讶与佩服，今天也和兽耳娘们一起努力工作。",
+      "descriptionLanguage": "中文",
+      "descriptionSource": "https://www.kungal.com/galgame/18",
+      "staff": [
+        {
+          "id": "s2725",
+          "name": "梱枝 りこ",
+          "role": "art",
+          "aliasId": 4098
+        },
+        {
+          "id": "s3158",
+          "name": "しらたま",
+          "role": "art",
+          "aliasId": 4592
+        },
+        {
+          "id": "s3167",
+          "name": "しげた",
+          "role": "scenario",
+          "aliasId": 4602
+        },
+        {
+          "id": "s19006",
+          "name": "山蕗 順平",
+          "role": "scenario",
+          "aliasId": 23762
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sf134932",
+          "url": "https://t.vndb.org/sf/32/134932.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/32/134932.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf134933",
+          "url": "https://t.vndb.org/sf/33/134933.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/33/134933.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf134934",
+          "url": "https://t.vndb.org/sf/34/134934.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/34/134934.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf134935",
+          "url": "https://t.vndb.org/sf/35/134935.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/35/134935.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf134937",
+          "url": "https://t.vndb.org/sf/37/134937.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/37/134937.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf149944",
+          "url": "https://t.vndb.org/sf/44/149944.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/44/149944.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E3%81%82%E3%81%BE%E3%81%84%E3%82%8D%E3%82%B7%E3%83%A7%E3%82%B3%E3%83%A9%E3%83%BC%E3%82%BF",
+          "label": "Wikipedia (ja)"
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q85879340",
+          "label": "Wikidata"
+        },
+        {
+          "url": "https://www.mobygames.com/game/145368/",
+          "label": "MobyGames"
+        },
+        {
+          "url": "https://gamefaqs.gamespot.com/-/274455-",
+          "label": "GameFAQs"
+        },
+        {
+          "url": "https://www.animecharactersdatabase.com/source.php?id=106816",
+          "label": "ACDB"
+        },
+        {
+          "url": "https://www.igdb.com/games/amairo-chocolate",
+          "label": "IGDB"
+        },
+        {
+          "url": "https://www.pcgamingwiki.com/wiki/Amairo_Chocolate",
+          "label": "PCGamingWiki"
+        },
+        {
+          "url": "https://lutris.net/games/amairo-chocolate",
+          "label": "Lutris"
+        }
+      ],
+      "vndbNames": [
+        "Amairo Chocolata",
+        "あまいろショコラータ",
+        "Amairo Chocolate",
+        "巧可甜恋",
+        "巧可甜戀",
+        "Amachoco",
+        "あまショコ",
+        "巧克甜恋"
+      ],
+      "matchingAliases": [
+        "巧可甜恋",
+        "あまいろショコラータ",
+        "Amairo Chocolata",
+        "Amairo Chocolate",
+        "巧可甜戀",
+        "Amachoco",
+        "あまショコ",
+        "巧克甜恋",
+        "巧克甜戀"
+      ],
+      "coverSourceFlags": {
+        "sexual": 0,
+        "violence": 0
+      },
+      "ratings": {
+        "vndb": {
+          "score": 6.9,
+          "scale": 10,
+          "votes": 758,
+          "metric": "贝叶斯评分",
+          "via": "原站",
+          "url": "https://vndb.org/v26581",
+          "fetchedAt": "2026-11-06T09:56:27.626Z"
+        },
+        "bangumi": {
+          "score": 6.3,
+          "votes": 908,
+          "scale": 10,
+          "metric": "站点评分",
+          "url": "https://bgm.tv/subject/290343",
+          "via": "KUN 评分快照",
+          "viaUrl": "https://www.kungal.com/galgame/18",
+          "fetchedAt": "2026-11-06T10:09:19.667Z"
+        },
+        "erogamescape": {
+          "score": 72,
+          "votes": 360,
+          "scale": 100,
+          "metric": "站点评分",
+          "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=28581",
+          "via": "KUN 评分快照",
+          "viaUrl": "https://www.kungal.com/galgame/18",
+          "fetchedAt": "2026-11-06T10:09:19.667Z"
+        }
+      },
+      "communityNames": [
+        "あまいろショコラータ",
+        "Amairo Chocolate",
+        "巧可甜恋",
+        "巧克甜戀"
+      ],
+      "communitySearchNames": [
+        "あまいろショコラータ",
+        "Amairo Chocolate",
+        "巧可甜恋",
+        "巧克甜戀"
+      ],
+      "community": {
+        "kungal": {
+          "id": "18",
+          "url": "https://www.kungal.com/galgame/18"
+        },
+        "bangumi": {
+          "id": 290343,
+          "url": "https://bgm.tv/subject/290343"
+        }
+      },
+      "descriptionSourceName": "KUN 社区",
+      "descriptionMachine": true
+    },
+    "v7735": {
+      "id": "v7735",
+      "title": "真夏の夜の雪物語 -MIDSUMMER SNOW NIGHT-",
+      "original": "真夏の夜の雪物語 -MIDSUMMER SNOW NIGHT-",
+      "aliases": [
+        "真夏の夜の雪物語 -MIDSUMMER SNOW NIGHT-",
+        "Manatsu no Yoru no Yuki Monogatari -MIDSUMMER SNOW NIGHT-",
+        "真夏之夜的雪物语",
+        "真夏の夜の雪物語",
+        "Manatsu no Yoru no Yuki Monogatari",
+        "仲夏夜之雪物语"
+      ],
+      "released": "2011-12-22",
+      "languages": [
+        "ja"
+      ],
+      "minutes": 1215,
+      "image": "https://t.vndb.org/cv/80/90980.jpg",
+      "cover": {
+        "id": "cv90980",
+        "url": "https://t.vndb.org/cv/80/90980.jpg",
+        "thumbnail": "https://t.vndb.org/cv.t/80/90980.jpg",
+        "sexual": 0,
+        "violence": 0,
+        "kind": "vn",
+        "source": "https://vndb.org/v7735"
+      },
+      "developers": [
+        {
+          "id": "p2175",
+          "name": "エックスワン"
+        }
+      ],
+      "source": "https://vndb.org/v7735",
+      "updatedAt": "2026-11-06T09:56:27.626Z",
+      "detailComplete": true,
+      "originalDescription": "The debut title from EX-ONE, a pure love story illustrated by Mikeou and written by Saitou Kenji and Fuuyama Yuuki. It’s the height of summer, but snow blankets the mysterious town of Aome-machi where it snows year-round and the legend of the Yuki-onna has been passed down for generations. There are hot springs, beaches and ski resorts in this popular sightseeing town. Yuuya transfers into Aome Gakuen and stays at the Snowflake Lodge which his relatives run. He meets his cousins Mana and Koromo who have opposing personalities, the public morals committee leader Nozomi who doesn’t seem to like him, and the mysterious Yukina who calls him her husband. What secrets do they hold and how will he solve them? And so begins the winter fairy tale in the middle of summer.",
+      "description": "6月中旬，在已经完全变得如同盛夏之日般的炎炎烈日下。\n穿过隧道，那里是一片雪景。\n\n一年到头持续下雪，遭受这一奇怪现象困扰的旅游胜地·青女町。\n那里是“雪女传说”至今依然根深蒂固地流传着，日本第一不可思议的小镇。\n这里有温泉街、滑雪场、海滩等，作为能享受各种休闲活动的城镇而闻名，同时古老的街景和丰富的自然景观也使其成为备受欢迎的游览胜地。\n在这样的城镇里的青女学园，主人公——银发青年风祭夕也转学而来。\n接着，住进了亲戚经营的民宿 Snowflake 的夕也，遇见了今后将会遭遇不可思议事件的少女们。\n\n小时候明明很开朗，现在却给人完全高冷印象的表妹风祭爱奈。\n小时候明明像个男孩子，现在却完全变成了沉稳美人的表姐风祭衣。\n一本正经且不懂变通，不知为何把夕也当成眼中钉的风纪委员长秋濑希美(秋ヶ瀬希美)。\n还有，只有在傍晚的学园才能遇见的，不可思议且充满透明感的少女神城优树菜。\n\n她们所怀抱的不可思议的“秘密”究竟是什么。\n而夕也又将如何去解决这些呢？\n\n下着雪的盛夏之日。\n他与她们的“雪物语（童话）”开始了。",
+      "descriptionLanguage": "中文",
+      "descriptionSource": "https://www.kungal.com/galgame/2406",
+      "staff": [
+        {
+          "id": "s1060",
+          "name": "サイトウ ケンジ",
+          "role": "scenario",
+          "aliasId": 1805
+        },
+        {
+          "id": "s1645",
+          "name": "深山ユーキ",
+          "role": "scenario",
+          "aliasId": 2660
+        },
+        {
+          "id": "s1695",
+          "name": "みけおう",
+          "role": "art",
+          "aliasId": 2739
+        },
+        {
+          "id": "s2279",
+          "name": "三日堂",
+          "role": "scenario",
+          "aliasId": 3510
+        },
+        {
+          "id": "s4244",
+          "name": "代瀬 涼",
+          "role": "scenario",
+          "aliasId": 5835
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sf69852",
+          "url": "https://t.vndb.org/sf/52/69852.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/52/69852.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf69854",
+          "url": "https://t.vndb.org/sf/54/69854.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/54/69854.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E7%9C%9F%E5%A4%8F%E3%81%AE%E5%A4%9C%E3%81%AE%E9%9B%AA%E7%89%A9%E8%AA%9E_-MIDSUMMER_SNOW_NIGHT-",
+          "label": "Wikipedia (ja)"
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q11582975",
+          "label": "Wikidata"
+        }
+      ],
+      "vndbNames": [
+        "Manatsu no Yoru no Yuki Monogatari -MIDSUMMER SNOW NIGHT-",
+        "真夏の夜の雪物語 -MIDSUMMER SNOW NIGHT-",
+        "真夏之夜的雪物语"
+      ],
+      "matchingAliases": [
+        "真夏の夜の雪物語 -MIDSUMMER SNOW NIGHT-",
+        "Manatsu no Yoru no Yuki Monogatari -MIDSUMMER SNOW NIGHT-",
+        "真夏之夜的雪物语",
+        "真夏の夜の雪物語",
+        "Manatsu no Yoru no Yuki Monogatari"
+      ],
+      "coverSourceFlags": {
+        "sexual": 0,
+        "violence": 0
+      },
+      "ratings": {
+        "vndb": {
+          "score": 7.26,
+          "scale": 10,
+          "votes": 66,
+          "metric": "贝叶斯评分",
+          "via": "原站",
+          "url": "https://vndb.org/v7735",
+          "fetchedAt": "2026-11-06T09:56:27.626Z"
+        },
+        "bangumi": {
+          "score": 6.5,
+          "votes": 57,
+          "scale": 10,
+          "metric": "站点评分",
+          "url": "https://bgm.tv/subject/21704",
+          "via": "KUN 评分快照",
+          "viaUrl": "https://www.kungal.com/galgame/2406",
+          "fetchedAt": "2026-11-06T10:09:22.581Z"
+        },
+        "erogamescape": {
+          "score": 70,
+          "votes": 192,
+          "scale": 100,
+          "metric": "站点评分",
+          "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=15852",
+          "via": "KUN 评分快照",
+          "viaUrl": "https://www.kungal.com/galgame/2406",
+          "fetchedAt": "2026-11-06T10:09:22.581Z"
+        }
+      },
+      "communityNames": [
+        "真夏の夜の雪物語",
+        "Manatsu no Yoru no Yuki Monogatari"
+      ],
+      "communitySearchNames": [
+        "真夏の夜の雪物語",
+        "Manatsu no Yoru no Yuki Monogatari",
+        "仲夏夜之雪物语"
+      ],
+      "community": {
+        "kungal": {
+          "id": "2406",
+          "url": "https://www.kungal.com/galgame/2406"
+        },
+        "bangumi": {
+          "id": 21704,
+          "url": "https://bgm.tv/subject/21704"
+        }
+      },
+      "descriptionSourceName": "Bangumi（KUN 资料镜像）",
+      "descriptionMachine": true
     }
   },
   "staff": {
