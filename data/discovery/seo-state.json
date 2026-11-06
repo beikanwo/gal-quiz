@@ -1787,8 +1787,8 @@
       "indexable": true
     },
     "https://www.scurra.top/works/v1286/": {
-      "hash": "fb33762dc4ad4e0897e443cb8b7ea9dace23576596abc22280ae0a43ef8a0c14",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "8a038e16d341ca359a8f4712db1471a2c741f43a1260bdbd55daa1df978b1979",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/works/v2436/": {
@@ -11636,6 +11636,86 @@
       "lastmod": "2026-11-05T10:07:43.192Z",
       "indexable": true
     },
+    "https://www.scurra.top/works/v2285/": {
+      "hash": "93117a031481be99a13c94895cbb16aa9ce5214562672b0959736c8cefd42b9d",
+      "lastmod": "2026-11-06T03:38:45.799Z",
+      "indexable": true
+    },
+    "https://www.scurra.top/works/v34414/": {
+      "hash": "9aacce5227fa4320ed5311d88b675b15b6ab62ebeb915030dd880e67a7593e89",
+      "lastmod": "2026-11-06T03:38:45.799Z",
+      "indexable": true
+    },
+    "https://www.scurra.top/works/v28297/": {
+      "hash": "b14f58045a704509683f1c0fa5726a558ddc7ac0c8dfc61075637b934c9eb37a",
+      "lastmod": "2026-11-06T03:38:45.799Z",
+      "indexable": true
+    },
+    "https://www.scurra.top/works/v21289/": {
+      "hash": "f7b5c11226e03a68946c89c55eb5ae3d06b7f49d92c0c2b27717714f13db342e",
+      "lastmod": "2026-11-06T03:38:45.799Z",
+      "indexable": true
+    },
+    "https://www.scurra.top/works/v31395/": {
+      "hash": "a27387c0734986cf1e05cb5f034eb15cbc8c4bb3cf735d593394336830929099",
+      "lastmod": "2026-11-06T03:38:45.799Z",
+      "indexable": true
+    },
+    "https://www.scurra.top/works/v57431/": {
+      "hash": "99d064db98429213683dfc5ced87ce1d3180c24b5adce8d280c6ffde245ff5a8",
+      "lastmod": "2026-11-06T03:38:45.799Z",
+      "indexable": true
+    },
+    "https://www.scurra.top/works/v50283/": {
+      "hash": "a46a7b7f071b06cb4d765448bd66fbadc6abbb03385ed66f390185952399784b",
+      "lastmod": "2026-11-06T03:38:45.799Z",
+      "indexable": true
+    },
+    "https://www.scurra.top/works/v5834/": {
+      "hash": "138226434d0454bf2c73483a0cfdda21b50174e38072e9b4efefedfe0ec7864f",
+      "lastmod": "2026-11-06T03:38:45.799Z",
+      "indexable": true
+    },
+    "https://www.scurra.top/works/v26664/": {
+      "hash": "a6fd0e7ee16880e6658426e19de828cfe1c794cf5ce577acf40fae18f855ea10",
+      "lastmod": "2026-11-06T03:38:45.799Z",
+      "indexable": true
+    },
+    "https://www.scurra.top/works/v25197/": {
+      "hash": "59d2c2fa8cda09e05732ab4baf9610b6c42f31b4c9a37ff6f52a7fd42d7ffefb",
+      "lastmod": "2026-11-06T03:38:45.799Z",
+      "indexable": true
+    },
+    "https://www.scurra.top/works/v599/": {
+      "hash": "11874adc6c04781840938624140b512a921b03090cd3e86b71c40cdb3e7aa0a5",
+      "lastmod": "2026-11-06T03:38:45.799Z",
+      "indexable": true
+    },
+    "https://www.scurra.top/works/v20148/": {
+      "hash": "e01804eb9476ef913f7e835df735d693e060e77434f0e38f434d5cab21ac2aba",
+      "lastmod": "2026-11-06T03:38:45.799Z",
+      "indexable": true
+    },
+    "https://www.scurra.top/works/v31471/": {
+      "hash": "cb48bdefbd13077f31b3e2e25e097f941da72b88a07b24cccb1365ac1b73e6bd",
+      "lastmod": "2026-11-06T03:38:45.799Z",
+      "indexable": true
+    },
+    "https://www.scurra.top/works/v1282/": {
+      "hash": "1dae302a163346011ec3ec9780be4d0cdb037952bdb323cbb524da7443587756",
+      "lastmod": "2026-11-06T03:38:45.799Z",
+      "indexable": true
+    },
+    "https://www.scurra.top/works/v16070/": {
+      "hash": "2d4b2726d18014fc5f290214592ebdb0be883e673b7ba887eed77b9af7eaf044",
+      "lastmod": "2026-11-06T03:38:45.799Z",
+      "indexable": true
+    },
+    "https://www.scurra.top/works/v22894/": {
+      "hash": "546a9acb03e150cc773f971704a19d70d28fcbca69d9880910c0c3596e1c1bc6",
+      "lastmod": "2026-11-06T03:38:45.799Z",
+      "indexable": true
+    },
     "https://www.scurra.top/staff/s722/": {
       "hash": "d6190a1289f8679d1a7a0df3e25381187351f270386693dd78a546ec683f0134",
       "lastmod": "2026-11-05T10:07:43.192Z",
@@ -12692,473 +12772,478 @@
       "indexable": true
     },
     "https://www.scurra.top/library/": {
-      "hash": "28f2fcbae60aa213aa9219683dfe9de79b35f1a5c8e520c09bddb7a7e6aa2a55",
-      "lastmod": "2026-11-05T20:30:12.515Z",
+      "hash": "083d4d402e6134cfa6d196e8b05fb0ff12a26bbb97a17c44151d4442b69f52ae",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/": {
-      "hash": "6fe3fb43f99f24c0a7d5090b5a8a299cf9529889a51c7c2218cb42b51b9fa6a9",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "dc264f609142d6498245b1cd589e700f4c5123ff2afa76aea77667b9c7061553",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/2/": {
-      "hash": "2c4eb039d19c27357193208d7c21c8f85ab5c85806c540a12854d0c349575585",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "ba810c5e740826e494d45d370caf4026febc01db7fe67771683fd1388423f904",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/3/": {
-      "hash": "9ef468d84d6370d1e7c97bd4c05e2161dc35d06d516e0f9368cd548d61b25bdd",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "5480ba34c62a20067e7c283b99a957235368df6c1a08e612966e0c8206bc02bc",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/4/": {
-      "hash": "73fd43b98184c35a1089b3e95743ed1f5dab9a7baeeec9b131e91db131f87810",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "ee2fe5ded537f94ae36f3bb3996ddace6efd117641d94cb71fa751692dd59c10",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/5/": {
-      "hash": "016fb5b96c816cbcaf80543ff227e4e20fe164c68a364244a1e1cc9fb2011351",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "9cb495c953e8ec53575cb53259ac2bb43817fef6759a738ff2f8579007760d97",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/6/": {
-      "hash": "31e599a3201538b3eef29318f1aa6f1af50e47c778dd758dec807f8cdc87f1e3",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "a878c168988c3f079c5a3bf69557eb9e08318bd180c249a617aa0246d882cb78",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/7/": {
-      "hash": "d344077af284fc9a7711335fa0cee5c1cf3d42937bbb492e8bdf432e421a5601",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "c69aafd28b2ca764868d883f71b62402bfd50898c3830891b0b1fa4977a91e37",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/8/": {
-      "hash": "919840c7e699157bb733490e8c9f5bc727f60699062e1d3b7640944514dccfc9",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "be9de52816357aeccea54886be5b05039ee3305a2df323e3527f294a931ed53e",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/9/": {
-      "hash": "06e1d4874941080da4ebff1cce9ac033899d2fe439ee3524da7295973f3ceb69",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "f089ab468334138782be0c6bcf50529ba8969c54220cde791f712119a13c0d91",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/10/": {
-      "hash": "a8fc3084127101a6a36ac3a3892cdfd337626f4024b226c830812cbfa949fced",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "ad041cc4a113ff67d32fdd1849bdc60f3a00689c778820168e355c4a5746ed05",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/11/": {
-      "hash": "5e8cf0908852a4abb5a5344661e0568d4a26ffe2f95e4a12df88d150cfd1b824",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "256616cc296b8e5c4283a3ca1258d731af23c1e4fe50011c582238ba21bb85e8",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/12/": {
-      "hash": "53d3ddf1be99a1a6e3fd65840bce3312011eeefcbcb6598a34e0b2a2054d0a4c",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "1645b7a008ce868e94099936fc0dece6f87c103ecf3fe0f5cc5db1e184575f20",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/13/": {
-      "hash": "a01e6e4b5f10bc08f48fac3127461ce402a3624eb3856b5654d7dcfd2b9cb4be",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "d955dbd142dd889c75bc9e1c62380fb3dadf7ea1ab2e016ebf70fed42fd7581d",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/14/": {
-      "hash": "cfe43821ed996cfd05df51e805b1f82025eb2aa31096d95acf35424f7536897a",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "f148cb78578e0ea7cd6b943beefa2a7e535c7a34780ba7e115d28f8ec873238e",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/15/": {
-      "hash": "d22c2c9f1b07d5ea5c8e880c996eea0edcb5527132c44f888854cd60d5681706",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "54264fceb0ed05a696d569c1ca2563a77a4e06266ef944b58b056f3a1bdf9cd4",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/16/": {
-      "hash": "bd1559a1a0e61a402d2b6c3fd0b1cdca06339a494e6f801c87c5da957cbc2fb2",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "b886d3551eae24e060f48becc89cdd77b61c778f1a7d8200a6018a7c8712fdc7",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/17/": {
-      "hash": "2b5efcdbe947c54fd0b4c224bb3456e94e98f317185d824d39a3783737b8e2bb",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "d811e0a367c59f57030f9dc394a78f2219b18901c50cef4616980eb5d18f46b9",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/18/": {
-      "hash": "578430815266c29b77c9b973d0ee4ad4102f50553cc0d6ec786f127388cc8a9d",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "718e664e77d94637b24df0b58cdf68f3d1a846a02feac8ae32f0c741b06f5a2c",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/19/": {
-      "hash": "4879309d7994599902aff43e5471e5ce7d6f7b9ba88c9fef0db089fcd6f1ed80",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "8bbb90afaa04943d3daee926e23c64dfa8c928c4f1f771734f0f88f270832c7e",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/20/": {
-      "hash": "fb2ad07c3779ee6fd96d42dc39f76f7c75ab73f0c54fe71ba77fa5f7635995f9",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "630cd9fea1c590f4de4a6381f4b08b60e27a8d4356424a4899ed22e5fbe87003",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/21/": {
-      "hash": "4ce3b0d57618fae0c7c725484d30428a0da4dfe4007bad7c8ff9e7b35c39e501",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "95cd0d8435568a866180b382e1733e7cf298302519a651fd8f1f55cfd3b4a093",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/22/": {
-      "hash": "9fd4fcc96aa98eb3e706033c8f85f1f2731e8a380b3cf6bc2fba95c8a324e01b",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "46a94cb4287ad310381293bf4329858bb4a39323711a25478f1b9323e3736396",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/23/": {
-      "hash": "c7be843b844bc9e428d2876b996695e034a74342527a4a7c2c39aede4e3724d4",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "2aa291edcd73ce33c7886b79c2e815328b0a36724b4db13834c2d81caeee00ad",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/24/": {
-      "hash": "4924fb1367f5fbc9c008b72ebb871e870c5686bbb1cdda40227a473548bcfde3",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "b76faf98a6518e5b42f429dfc8cd93bb19b91ad6700668399e62bfd597eca682",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/25/": {
-      "hash": "28e8c2e1e89fc2f444b07d660dce3ae0c7dccf576bf3da2568c56f9081c8166d",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "f8cdb08a4e85e3953d1f10c74906956d2812dcc6e19e1cd63ae02d3cc2b15718",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/26/": {
-      "hash": "a44da3662a73f85ba4a189b8b31a05057578114189dea337490835bb3495b0f3",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "97ad3ccaf1ba24f6835d65e511ff7bbae5116e3f44240525467d275108d9cb80",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/27/": {
-      "hash": "fd76eaba170bea3070722b7c7c382271f6a5ff5d4653a22064a969db0fb9935d",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "dc4abb306a4fd5e8cbe7b472e41eb038662fdd9f36e1c04a3579fb89964e9976",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/28/": {
-      "hash": "fc7e724161a94195c5a143965bb63560f9f15f2be3fb8595bfc6f86b2910d0e9",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "601a5bdf404840382f8ce6a506bd17d41b06666c2339fd9653a7d2f702841900",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/29/": {
-      "hash": "f446545aa64439ac6bf6dc480ef1698cca4b2b9f679d1bfafccf0d674292532a",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "c3a41f8f83c150f48cb27174c4616b0fb63c64a4d7f66ccb7aac78f291a517dd",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/30/": {
-      "hash": "3d5a662f13bdcbe29d974eb3cbc947ca48de38ff3ae44ece2857ee2637b0d11f",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "e960d31d78156d0644dac9810d41756384af22fa0df798e66ff0ac0614dda8e1",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/31/": {
-      "hash": "07d00994cb91b86a7dbeaeab8c680cecd210e591aad88d88b817e55ce8e2b8e7",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "d19d7def13747689a6ddd45366e50e8a2ce41c9696ecbe66480142714628f804",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/32/": {
-      "hash": "b5a0cb95b3b6059f08151d06b03a0ec01e33d325b66a6404b81072a316fbf9a4",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "55013a7f3db33b9ac090b76cfa5b5c2e04c1df70565690092eb5d7f4d882b53e",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/33/": {
-      "hash": "bd47e804dfdeec20c489529ade7b1b2249417fb236577ea0d2246e620d6715dd",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "70861b239db3c418f18056dcbf0899fc8a08c6e3cd07ef0803e9f4293c3ddc87",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/34/": {
-      "hash": "e014da753157b22279353594a61e1cdf1329adda3ed24f341f334edec17f6b59",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "f2b5662efc09ad0f50fd0997811925af0c7c88ba7df35f70c8777c30d07b9715",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/35/": {
-      "hash": "4dc68ef3ad1271d2b0dfdbc3731e4618cd651e1a04d48c61146d906d95381cb9",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "a9757e5c1ee6a24e8c5088621bf7797ceec6e8c98d4b24465f1d70fb0743fb47",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/36/": {
-      "hash": "6bf13215e032c13b70807bb5c0b5016cc7db412c3629b3172c8944c682b01307",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "0327940bbcf59eb401d70ab42152d7497b6c82e0491b13a1a09faff92ea1d5a7",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/37/": {
-      "hash": "e1feadaf2234f9b77127971d386c2ba26744eb4788681010b9a32bb16fb33952",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "03636fbbeaef2e42f4c6f3d244a6261787f5a9809a455f7c90cd4608494a9c20",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/38/": {
-      "hash": "7f9bb7214a4b0ddb476c3b56d814a84e1b81df39ddba4b53da491374756f249e",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "cb9b2a8cf29a58293b80dc09d540a0e1a3a3f1919fce8ad117fb3e4d128ea247",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/39/": {
-      "hash": "d783b7579f1713c6a1e9277eb77f7ce7c022cc270d09469b129417a9d496be64",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "c37b1528a5affa9d9322d2fb8b961fffc1f3a94afadb3dac841dcaca14b7920d",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/40/": {
-      "hash": "4bb3fbadecbfbd68c628c9e9bb1df2675d35c9373d14048d9791112b2f049d59",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "c4b4be718b28dced1601d62ff26b0400e2b6ee9ea8cb91598e588021c99b2ed1",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/41/": {
-      "hash": "646c2dafd95723b237a992226e50b78848e2a352f68520ba7225db48336699f3",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "1d544705fba673294a25994596135b69b04e671e39d678d68c3c6426c85a4ed3",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/42/": {
-      "hash": "f26e46a09f4e225f8cb649652792a7b695084086fcc24cef41c007c76d922eaf",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "9abd2df61e21b854e6e1a63ab13a5c9f25ce9c638caf71e4277f2f6b93f1a36f",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/43/": {
-      "hash": "5f7bfa160ad03f28de0bc75f744d8eb5a20e9c894be11d5e24ed6aa7e658513e",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "a58cae6d3a742705f44e79ae46c6c62157403561fe72bed61d3356f1ae8315b4",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/44/": {
-      "hash": "0095f8181e7a7f8a14d1ff640fff0c5eae4f77afa9078a5e3aed8a48d71ce1f5",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "63a7898b108417b06998f14d84cc55ce48a0e6e5229e7559c9268a9e442825ba",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/45/": {
-      "hash": "d809bd25b7275ccfc8744bc82c8e8f75b42f95cb3e10d58b2046f2291710e847",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "497fbf3a5563061d8d2996399a1ceb0600b4941b89f6a9b26fb70c574bbb5da6",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/46/": {
-      "hash": "a0d2c739074dabb2faf7c0e834fd4e66bc6eaf55e2deabd093b3949bf8ac2741",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "e32ebb3b524bfe8967f259bde04b0524714da051e98a91799eddcc940ce1cb24",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/47/": {
-      "hash": "89fb5591556fa1fdbcf172b906c68c5426bc81983a1027053b4f3ff4b9d01a15",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "688089765bf5ffe9eedf3ed008eb4ece8d58fdf277b7e44a800469a41a629cfc",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/48/": {
-      "hash": "d11f3b64946071966f60ff8f3003ea6f4892993d17cc383613778e8d8b7ab942",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "198c027592f76bca8fdeede74f9a8cfdd2e2957d18a1230a564d4546250d6e7f",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/49/": {
-      "hash": "7f6af2d2dd4b4096b24857035c90cf59fb2de58a5985a8262f4703bf7a4a6f4b",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "e5c7861f87874876e4925057e861b20b201ccb5f0ce5afc2bef856a13675c830",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/50/": {
-      "hash": "5dddab49f208287095025ca2f129a4b7ff5e23af8faecb8cb12a1175fd848f3f",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "606b6ddb1067c3d802dab945ae2e52afd6f986371d89903fcbc94314106cca13",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/51/": {
-      "hash": "48e4c63747cddfa9c5088a8dc7561234ce26fabaa9f4b0633946438774babaeb",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "d8d71a640a617e5be61d48301b0728e2743dd6a880f4ee10b8da051a410cf179",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/52/": {
-      "hash": "7a0b48424e97bbc781f5b34552aadbc9273de81ed79aa751bd4b765f887d458d",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "b29578517fcd37e90342f1c09c53390b579718f3d888371dd7d13ca0364bcd5c",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/53/": {
-      "hash": "b5c2fb3f91eba565187a77fb12085687724a72ca78a0757a85ba5460187431dc",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "1a73dbbe38fc787c49d2aad9a0b3eb1f1e04f55c5ea536931e11272d8ef56ba5",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/54/": {
-      "hash": "ef21c8ce4a5b8f7a6d5044d02666773ee11e33d19662a36780e460de8ac1627a",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "34d9da90540795b93aa380b25b89312d27104b1044b458712d56a6a40b4629b8",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/55/": {
-      "hash": "b1fd673d37508c5f8e24c10943fad1341addb8df9e2dbf7473faaba75a3957a9",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "001aa29d934ce24d00b7f488658dce8c5442e84a8a71eca347ab81a1f73d4873",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/56/": {
-      "hash": "ee16be41d92558208b44e9cf20905448a2be53ce75d4168c3daa838b953bb408",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "edb690b7e152ff33e5a348b4492ea85d4f278b6087f18df87c1e88e228f07da9",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/57/": {
-      "hash": "b29ec76e8868e47b1d2ca29c20c42bb18d96343f5d12d477cf5af36a54e5fd80",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "47493913c0f32695daa5a83c7012efe188c1f0a070d28a5d1cbace6bf6f510da",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/58/": {
-      "hash": "fd7c5b17c6695b6a7f4c8211b314a0adb8c71c6c47c7c75bff4fda9a9a6f2afc",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "bb9479ac13d2b6a1dce8153c1d9ef94ff9614cdd5aad38981803560552d20ed1",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/59/": {
-      "hash": "c6a50720b7c4cb0765f6a34fa3c24ee6bed0c8ae6b06e15f25bcdc9aeb1303ff",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "393067c625ac2000ba2cc366b2f40abde15a8e1a277c5dd665d3cafaaca47e03",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/60/": {
-      "hash": "3d6b68967beb534e1a4300c26b98f61b453b4b8ad92a6f9fc896fa8b41057cf8",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "8d63a8ff100cd8915ef174e227f7c893612242d8c143eefb34229c37c19f1339",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/61/": {
-      "hash": "9f790f33aa06a75f3ee9f32cd594fe709c48af2424b90df67b640c65bc571ab9",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "d83439a391dcb42b86fadbe5b63575f2f4c6795f749cd95664e77678715fd1d6",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/62/": {
-      "hash": "735306c8f4bde121d97169246ec2da1ef7ebe61404c911ac06e8a661ebe7b633",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "1d338df3f5cec98899a9ddae11c1df6472ba01ec76196b62fd15dd069b6d4f78",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/63/": {
-      "hash": "ec9fab6ed33a8c07771262602613f855a5254ea89ba3fa7340cc09fdc405d43a",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "ca0603ff8282c8978ad8c94ac7c1310fb821dd2dd8b1c8e7795f069aef827308",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/64/": {
-      "hash": "06f40ab450f67a241d2af6fa254ec002488ca7e2f72576dec923114fb6d5eb23",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "0f627f992f896118353226a6c46bfd03b0a0514fca97255a79488026ce6ccb01",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/65/": {
-      "hash": "79b0b813f113f335b91c69edef7bc5d3b387644813186d182d8194efb3495242",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "41ec53507297729b5af0d244cddb9d43a41a7f766e3b6b7bf4c351832795fe2d",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/66/": {
-      "hash": "e7bd905485ae54d01e54554e53685836d233f3684af0f71151ad9cb8729ddfb9",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "f124f6ed4a1eca4a15fe7fcfb612cfd7f2de935a1df0d56c00ece8cc07d9b3c0",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/67/": {
-      "hash": "452b1becdb6343ef27e76738c99f1aeca418f51bb4a8b7109e01a6b361a1a014",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "4b0366e6991aee779bc452e10787cdda450fbd6dfc4ea5f1e1d9e9c266e86551",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/68/": {
-      "hash": "1abde850d1f43b713968e60c165450db00e424a8e4b0267d8087be8de9c9754c",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "c86f9e53e2516d11e23d66cb70a6075dc0d5bd78beea933473e092d767e21967",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/69/": {
-      "hash": "9170b6dda1ed646f7762e21b41e6927262a04ab72633fa717f98e69215baba06",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "555a752b81034ac13e4334c33ab784eedc1edf202f269111206b4d917dcb4390",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/70/": {
-      "hash": "153eb8a065a9ce75c52a3f9a9b77c822aff4661641286d1b65704788f41fe8a7",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "534d3b083dcd83e8e834277319fd7511264aed34cee67e2eb9c44339d1770076",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/71/": {
-      "hash": "6eea31f602cdaca5332003d261b41b5a84bc983905cbf21009b4b4f055ddf369",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "6f1fc85504e17607b9a46dc2b320cf1c5621b89fdbef216edc7a9eeb329efd7a",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/72/": {
-      "hash": "6f4966d0c3cf20679a3a8366f022325954c9d0afa7e7020fc1407207504a990d",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "19397f0e9c0ebe16bedcd2d8a4e464d67d97e21f834d3a622dcc904a1b3a6eac",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/73/": {
-      "hash": "c0e5a08b787a1bb9218cda768dd31436c16f8333efc7558936811975d9adc8d1",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "d3022c3faadb42e89572ae4a53ed2c3b91592989cb3bbf57834ea2c6d3858fd5",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/74/": {
-      "hash": "42ecf3197c52cda9680e9cea9743c431ddefc8decb7529f8f40170322c9ffcfe",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "6b1e8400182c2fa66c2b1f5edd93651a913446b6b629ce6e705661e66c49f23a",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/75/": {
-      "hash": "1f433f23be18aa9a226fa1d86a1630c9e8f4435756c39aea4a5464e8873faa28",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "e29c344b4a2e30008b65957e6830527686f4ad1e8fdb65da1a6856d9363417b0",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/76/": {
-      "hash": "5fcc28ed45923509ab143e7da883b4718be058cf77e361b0efe64fbf800573cd",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "429f6ef02309af224796daa715d8d87da78bce0741b538e32413d4c8c30cf601",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/77/": {
-      "hash": "1da386765cf5df29675f731f92975ffc46d6df348fc22ed9920e477d96e8c6f2",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "1201d137b3bc82ac5d905bfb494fb0c22d251e00642c898cb149334fe1652666",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/78/": {
-      "hash": "fc1c88b383c6c025ecebb27c055c4cdfd5afa615d9b2de409854dfbb40d21bab",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "e72935f27b9cf5ed870b0817c151a89eb01b2c91c4684da4021d4fa13100b973",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/79/": {
-      "hash": "d81299081b3f64efdb285bb705c556929c41e4d8606abfd994c06151030d56cc",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "9f2371d3ef9df2918bb49c9bcd8d2cd1869191208a2d56f91e409d1d3071e131",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/80/": {
-      "hash": "e7fe6e4a68da22827d997aedf5fedc9762214f885c5408ea7b268bcacfbcf535",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "0f6c9cbd263aa298687a4a8e5e262d14ee4d3e3f58d849dade7c7c95682fb90f",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/81/": {
-      "hash": "84018a84e33afabbd9e71f107c3e94c8853d556d11b468f9c386a6a9bbdefcea",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "184dd8fdb18ce69d4872068f611bdd44bd574953daee3fde7031f8fde52a5272",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/82/": {
-      "hash": "c1f6897867f3575512396efdd94d7dab03eaaf4509a6558a73068468923fca62",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "0b3c2bba2f00485803e7482da827105bae37d37e7c3285303ca1be81e6c1e2b0",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/83/": {
-      "hash": "2f8487b10069567856257ec586978ef55155461668eac72c0ca3000022d93a68",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "498c33081642147d49502946d773765245c0ca015829c18e8781009c7f666abe",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/84/": {
-      "hash": "2dbe267af037162c10695c670c26134e6c24155b20d5fee5e9d23a27e0f9956c",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "daf11bc0e31bc1a4188f6b25e80a75481f94360bbda066a30b5aec26ef18ba9b",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/85/": {
-      "hash": "7f103b2c7b6131e7a91b0084b2860f4adde51a3d1eab76a4d820737085b735c9",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "249001f0a16885cd08d016bbf463ef9a414f819a5f3aa2a0ab14afc9bbea52d1",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/86/": {
-      "hash": "f65ddbbecb15af6c63d1ab30894f398d779907aa6c08ff859083b805ba94f569",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "bd4e7ed124b69292b54c6cb0236a53f5383324f97dc87e3e418eac1bd0c683e1",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/87/": {
-      "hash": "43c8baf8788061e2f0c7c7dff162363c32914db3650a621fa36cb64a6e34ee9d",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "0fd94fca8118e587fcf2904f8cc56e01ff0bfa35f78f72c9bb0655828daef331",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/88/": {
-      "hash": "b7236c76dcb16eade4038e21f1aa2c5def3fdfd00d27d18901f5d50c7a54c88b",
-      "lastmod": "2026-11-05T20:30:12.515Z",
+      "hash": "f166d0100172e59c23b4322d5666b572b6589d5962221ca6f96d9edcaefcb66d",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/89/": {
-      "hash": "ce613441292bae4211d2a30e2050a3c5f90a5dc3068e97833fc98051e142a3a5",
-      "lastmod": "2026-11-05T20:30:12.515Z",
+      "hash": "9c937354b58c8f19ee4a206f48690a91797ae5a8cc3bc530ee218beb3c466efe",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/90/": {
-      "hash": "53d3dd76a592846c41152893eb2766e4075716cf3ef6cddf8b78a4c78b3d68a1",
-      "lastmod": "2026-11-05T20:30:12.515Z",
+      "hash": "d1ee63097185a6817fb3ec793f2c2529862c98559ae441049273635168d89224",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/91/": {
-      "hash": "c6e7a801d1cdff2edeb45032849ba2c301ae4345dacf52da10e1b5815cb83752",
-      "lastmod": "2026-11-05T20:30:12.515Z",
+      "hash": "651afed25db452363abac13869cc0f8f11006661fa6bdbae826f28c72b44fa5a",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/92/": {
-      "hash": "07a43622f165e69fd9ef20b579998fc582093ef7a1581f277b6b5b1f8e5ee487",
-      "lastmod": "2026-11-05T20:30:12.515Z",
+      "hash": "94523eed5d85958ac066a60196a9df948c7088436a2e70d81a887c8060086a78",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/works/93/": {
-      "hash": "2b4acdb3ff1b137d9266c72e48034dec0d488300a24fed0a356b0f81bdc01277",
-      "lastmod": "2026-11-05T10:07:43.192Z",
+      "hash": "e0bc161d0d702e8fd628673f6d9758afce22c398acd4f81ec3544dc3b43db841",
+      "lastmod": "2026-11-06T03:38:45.799Z",
+      "indexable": true
+    },
+    "https://www.scurra.top/library/works/94/": {
+      "hash": "15e5e55c7ba06a4e0535c6c1d7a236788f24dfc8ae59ba6a46e90948f672c153",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/library/writers/": {
@@ -13261,10 +13346,15 @@
       "lastmod": "2026-11-05T10:07:43.192Z",
       "indexable": true
     },
+    "https://www.scurra.top/signals/2026-11-06/": {
+      "hash": "8dc1abfc4de2015a171bf5f646cd23c6c7fdde4dec41338310c93d998907fb48",
+      "lastmod": "2026-11-06T03:38:45.799Z",
+      "indexable": true
+    },
     "https://www.scurra.top/signals/": {
-      "hash": "4a08be20d7c6e2118a1aa33d1ef3ab4b3aec90c3034f850b77f46dd81f777930",
-      "lastmod": "2026-11-06T03:23:16.674Z",
-      "indexable": false
+      "hash": "2ff92fbbb9eea10fad65db140aecdcf0866f1659efbca6d372c9a52d9e6cb94e",
+      "lastmod": "2026-11-06T03:38:45.799Z",
+      "indexable": true
     },
     "https://www.scurra.top/search/": {
       "hash": "5efe06b122585895d872dca43d5871cd28af5baf26a6fd40e291c5dae2e26dee",
@@ -13272,8 +13362,8 @@
       "indexable": false
     },
     "https://www.scurra.top/about/": {
-      "hash": "979418e05bbaef0b8e2f52d3e959ff85fb4704032be6224d63018b8a9dfba439",
-      "lastmod": "2026-11-05T20:30:12.515Z",
+      "hash": "0506f0f4e3eb1e853706e3ab92fb460661ff8049d27a63472ad9ba8160192c04",
+      "lastmod": "2026-11-06T03:38:45.799Z",
       "indexable": true
     },
     "https://www.scurra.top/quiz/": {
