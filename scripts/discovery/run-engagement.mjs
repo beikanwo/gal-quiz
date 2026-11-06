@@ -61,7 +61,8 @@ export async function runEngagement(options=args()) {
       if(age>=12&&age<36&&!p.ageSnapshots?.day1||age>=60&&age<84&&!p.ageSnapshots?.day3)return 0;
       return now-Date.parse(p.record.collectedAt)>20*3600000?1:2;
     };
-    const candidates=Object.values(state.posts).filter(p=>p.record.platform===platform&&Date.parse(p.record.publishedAt)>=now-7*DAY).sort((a,b)=>priority(a)-priority(b)||Date.parse(a.record.collectedAt)-Date.parse(b.record.collectedAt));
+    const justObserved=new Set(windowRecords(fresh,window).map(r=>r.id));
+    const candidates=Object.values(state.posts).filter(p=>p.record.platform===platform&&!justObserved.has(p.record.id)&&Date.parse(p.record.publishedAt)>=now-7*DAY).sort((a,b)=>priority(a)-priority(b)||Date.parse(a.record.collectedAt)-Date.parse(b.record.collectedAt));
     const refresh=candidates.slice(0,settings.maxRefreshPerPlatform).map(p=>p.record);
     if(refresh.length&&Date.now()<platformDeadline-60000){
       for(let i=0;i<refresh.length&&Date.now()<platformDeadline-30000;i+=platform==='douyin'?10:5){
