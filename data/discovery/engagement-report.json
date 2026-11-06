@@ -1,35 +1,206 @@
 {
-  "startedAt": "2026-11-05T09:53:12.281Z",
+  "startedAt": "2026-11-06T03:24:38.730Z",
   "mode": "shadow",
   "formalRankingChanged": false,
   "searchWindow": {
-    "start": "2026-10-31T09:53:12.281Z",
-    "end": "2026-11-05T09:53:13.281Z"
+    "start": "2026-10-31T16:00:00.000Z",
+    "end": "2026-11-06T03:24:39.730Z"
   },
   "platforms": {
     "douyin": {
       "status": "partial",
       "fieldVerificationStatus": "complete",
-      "lastAttemptAt": "2026-11-05T09:55:18.808Z",
-      "searches": 8,
+      "lastAttemptAt": "2026-11-06T03:32:14.456Z",
+      "searches": 11,
       "queries": [
         "galgame",
         "视觉小说",
         "冷门视觉小说",
         "galgame推荐",
         "游戏安利",
-        "乌有乡",
-        "时空轮回",
-        "天津罪"
+        "天津罪",
+        "常轨脱离Creative",
+        "尚有佳蜜伴恋心",
+        "国王恋爱",
+        "茧之锤：继承者",
+        "一如她的撒娇方式。",
+        "COCORO",
+        "近月少女的礼仪"
       ],
+      "searchCoverage": [
+        {
+          "keyword": "galgame",
+          "pages": 2,
+          "returned": 17,
+          "inWindow": 17,
+          "outsideWindow": 0,
+          "channel": "general"
+        },
+        {
+          "keyword": "视觉小说",
+          "pages": 2,
+          "returned": 12,
+          "inWindow": 11,
+          "outsideWindow": 1,
+          "channel": "general"
+        },
+        {
+          "keyword": "冷门视觉小说",
+          "pages": 2,
+          "returned": 2,
+          "inWindow": 2,
+          "outsideWindow": 0,
+          "channel": "general"
+        },
+        {
+          "keyword": "galgame推荐",
+          "pages": 2,
+          "returned": 18,
+          "inWindow": 12,
+          "outsideWindow": 6,
+          "channel": "general"
+        },
+        {
+          "keyword": "常轨脱离Creative",
+          "pages": 2,
+          "returned": 3,
+          "inWindow": 3,
+          "outsideWindow": 0,
+          "channel": "general"
+        },
+        {
+          "keyword": "尚有佳蜜伴恋心",
+          "pages": 2,
+          "returned": 0,
+          "inWindow": 0,
+          "outsideWindow": 0,
+          "channel": "general"
+        },
+        {
+          "keyword": "国王恋爱",
+          "pages": 2,
+          "returned": 3,
+          "inWindow": 3,
+          "outsideWindow": 0,
+          "channel": "general"
+        },
+        {
+          "keyword": "茧之锤：继承者",
+          "pages": 2,
+          "returned": 2,
+          "inWindow": 2,
+          "outsideWindow": 0,
+          "channel": "general"
+        },
+        {
+          "keyword": "一如她的撒娇方式。",
+          "pages": 2,
+          "returned": 2,
+          "inWindow": 1,
+          "outsideWindow": 1,
+          "channel": "general"
+        },
+        {
+          "keyword": "COCORO",
+          "pages": 2,
+          "returned": 3,
+          "inWindow": 2,
+          "outsideWindow": 1,
+          "channel": "general"
+        },
+        {
+          "keyword": "近月少女的礼仪",
+          "pages": 2,
+          "returned": 8,
+          "inWindow": 7,
+          "outsideWindow": 1,
+          "channel": "general"
+        }
+      ],
+      "pagesPerKeyword": 2,
+      "window": {
+        "start": "2026-10-31T16:00:00.000Z",
+        "end": "2026-11-06T03:24:39.730Z"
+      },
+      "workResolution": {
+        "resolved": 3,
+        "failures": 0
+      },
+      "inWindowCount": 56,
+      "identifiedCount": 18,
+      "identifiedWorks": 13,
       "failures": [
+        {
+          "stage": "search",
+          "keyword": "游戏安利"
+        },
+        {
+          "stage": "search",
+          "keyword": "天津罪"
+        },
+        {
+          "stage": "refresh",
+          "id": "7704319008585797211"
+        },
         {
           "stage": "refresh",
           "id": "7702794405752687913"
         },
         {
           "stage": "refresh",
-          "id": "7704319008585797211"
+          "id": "7703555268692495666"
+        },
+        {
+          "stage": "refresh",
+          "id": "7704598592296050362"
+        },
+        {
+          "stage": "refresh",
+          "id": "7704440789804304539"
+        },
+        {
+          "stage": "refresh",
+          "id": "7704284113419216738"
+        },
+        {
+          "stage": "refresh",
+          "id": "7704237929036816548"
+        },
+        {
+          "stage": "refresh",
+          "id": "7704210062579654329"
+        },
+        {
+          "stage": "refresh",
+          "id": "7703963391979951291"
+        },
+        {
+          "stage": "refresh",
+          "id": "7704600044410954929"
+        },
+        {
+          "stage": "refresh",
+          "id": "7703269776990201295"
+        },
+        {
+          "stage": "refresh",
+          "id": "7703104071817257595"
+        },
+        {
+          "stage": "refresh",
+          "id": "7703124318247178874"
+        },
+        {
+          "stage": "refresh",
+          "id": "7704876209822077083"
+        },
+        {
+          "stage": "refresh",
+          "id": "7704273197873059771"
+        },
+        {
+          "stage": "refresh",
+          "id": "7703598804313876837"
         }
       ],
       "sampleCount": 20,
@@ -43,30 +214,133 @@
         "coins": 0
       },
       "zeroValues": {
-        "favorites": 0,
+        "favorites": 1,
         "comments": 0,
-        "shares": 0,
+        "shares": 2,
         "views": 0,
         "coins": 0
       },
-      "lastSuccessAt": "2026-11-05T09:55:18.808Z"
+      "lastSuccessAt": "2026-11-06T03:32:14.456Z"
     },
     "bilibili": {
       "status": "partial",
       "fieldVerificationStatus": "complete",
-      "lastAttemptAt": "2026-11-05T09:58:36.434Z",
-      "searches": 10,
+      "lastAttemptAt": "2026-11-06T03:38:38.428Z",
+      "searches": 15,
       "queries": [
         "galgame",
         "视觉小说",
         "冷门视觉小说",
         "galgame推荐",
         "游戏安利",
-        "乌有乡",
-        "时空轮回",
-        "天津罪"
+        "天津罪",
+        "常轨脱离Creative",
+        "尚有佳蜜伴恋心",
+        "国王恋爱",
+        "茧之锤：继承者",
+        "一如她的撒娇方式。",
+        "COCORO",
+        "近月少女的礼仪"
       ],
+      "searchCoverage": [
+        {
+          "keyword": "galgame",
+          "pages": 2
+        },
+        {
+          "keyword": "视觉小说",
+          "pages": 2
+        },
+        {
+          "keyword": "冷门视觉小说",
+          "pages": 1
+        },
+        {
+          "keyword": "galgame推荐",
+          "pages": 2
+        },
+        {
+          "keyword": "游戏安利",
+          "pages": 2
+        },
+        {
+          "keyword": "天津罪",
+          "pages": 1
+        },
+        {
+          "keyword": "常轨脱离Creative",
+          "pages": 1
+        },
+        {
+          "keyword": "尚有佳蜜伴恋心",
+          "pages": 1
+        },
+        {
+          "keyword": "国王恋爱",
+          "pages": 1
+        },
+        {
+          "keyword": "茧之锤：继承者",
+          "pages": 1
+        },
+        {
+          "keyword": "一如她的撒娇方式。",
+          "pages": 1
+        },
+        {
+          "keyword": "COCORO",
+          "pages": 1
+        },
+        {
+          "keyword": "近月少女的礼仪",
+          "pages": 1
+        }
+      ],
+      "pagesPerKeyword": 2,
+      "window": {
+        "start": "2026-10-31T16:00:00.000Z",
+        "end": "2026-11-06T03:24:39.730Z"
+      },
+      "workResolution": {
+        "resolved": 9,
+        "failures": 0
+      },
+      "inWindowCount": 261,
+      "identifiedCount": 62,
+      "identifiedWorks": 41,
       "failures": [
+        {
+          "stage": "search",
+          "keyword": "冷门视觉小说"
+        },
+        {
+          "stage": "search",
+          "keyword": "天津罪"
+        },
+        {
+          "stage": "search",
+          "keyword": "常轨脱离Creative"
+        },
+        {
+          "stage": "search",
+          "keyword": "尚有佳蜜伴恋心"
+        },
+        {
+          "stage": "search",
+          "keyword": "国王恋爱"
+        },
+        {
+          "stage": "search",
+          "keyword": "一如她的撒娇方式。"
+        },
+        {
+          "stage": "search",
+          "keyword": "COCORO"
+        },
+        {
+          "stage": "search",
+          "keyword": "近月少女的礼仪"
+        },
         {
           "stage": "refresh",
           "id": "BV184xP6hETv"
@@ -83,18 +357,18 @@
         "coins": 20
       },
       "zeroValues": {
-        "favorites": 9,
-        "comments": 5,
-        "shares": 11,
-        "views": 2,
-        "coins": 15
+        "favorites": 5,
+        "comments": 3,
+        "shares": 12,
+        "views": 0,
+        "coins": 10
       },
-      "lastSuccessAt": "2026-11-05T09:58:36.434Z"
+      "lastSuccessAt": "2026-11-06T03:38:38.428Z"
     }
   },
-  "finishedAt": "2026-11-05T09:58:39.423Z",
-  "observedPosts": 61,
-  "identityPending": 407,
+  "finishedAt": "2026-11-06T03:38:45.543Z",
+  "observedPosts": 107,
+  "identityPending": 552,
   "trial": {
     "periods": [
       {
@@ -110,7 +384,7 @@
         "supplementUntil": "2026-11-12T16:00:00.000Z"
       }
     ],
-    "closed": 0,
+    "closed": 1,
     "finalized": 0,
     "target": 2
   }
