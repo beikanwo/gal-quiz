@@ -1,6 +1,7 @@
 {
   "mode": "shadow",
   "updatedAt": "2026-11-06T03:38:45.543Z",
+  "rulesUpdatedAt": "2026-11-06T07:27:55.368Z",
   "trial": {
     "periods": [
       {
@@ -27,7 +28,7 @@
       "end": "2026-11-06T03:24:39.730Z",
       "rehearsal": true
     },
-    "generatedAt": "2026-11-06T03:38:45.542Z",
+    "generatedAt": "2026-11-06T07:27:55.368Z",
     "platforms": {
       "douyin": {
         "status": "partial",
@@ -660,9 +661,127 @@
             ]
           }
         ],
-        "favorites": [],
+        "favorites": [
+          {
+            "workId": "v50283",
+            "platform": "douyin",
+            "authorCount": 1,
+            "layer": "单账号观察",
+            "maxFavorites": 42,
+            "evidence": [
+              {
+                "platform": "douyin",
+                "id": "7703983195985920074",
+                "title": "《魔法少女的魔女审判》解说+游戏推荐 补一下#魔法少女的魔女审判 #橘雪莉 #魔裁 #魔法少女的魔女裁判 #galgame",
+                "description": "",
+                "tags": [
+                  "魔法少女的魔女审判",
+                  "橘雪莉",
+                  "魔裁",
+                  "魔法少女的魔女裁判",
+                  "galgame"
+                ],
+                "kind": "video",
+                "url": "https://www.douyin.com/video/7703983195985920074",
+                "publishedAt": "2026-11-03T16:29:26+00:00",
+                "likes": 194,
+                "author": {
+                  "id": "2341339656122176",
+                  "name": "懦懦君",
+                  "url": "https://www.douyin.com/user/MS4wLjABAAAA_XNYkJp2y0jwtb4AZBzjIXlVfWtUXIWy4aPGkVJZ5qDJ405x2Y0xHQT4PujxXbV3"
+                },
+                "durationSeconds": null,
+                "metrics": {
+                  "favorites": 42,
+                  "comments": 15,
+                  "shares": 36,
+                  "views": null,
+                  "coins": null
+                },
+                "metricAvailability": {
+                  "favorites": "available",
+                  "comments": "available",
+                  "shares": "available",
+                  "views": "unsupported",
+                  "coins": "unsupported"
+                },
+                "collectedAt": "2026-11-06T03:32:11.889736+00:00",
+                "keyword": "魔法少女的魔女审判",
+                "refreshMethod": "search-id-confirmed",
+                "workId": "v50283",
+                "matchMethod": "explicit-title",
+                "matchedNames": [
+                  "魔法少女的魔女审判",
+                  "魔裁"
+                ],
+                "baseline": {
+                  "status": "insufficient",
+                  "sampleCount": 0,
+                  "reason": "缺少作者、同龄快照或可比较的内容类型"
+                }
+              }
+            ]
+          }
+        ],
         "discussion": [],
-        "watch": [],
+        "watch": [
+          {
+            "workId": "v2285",
+            "platform": "douyin",
+            "reason": "发布不足24小时",
+            "evidence": [
+              {
+                "platform": "douyin",
+                "id": "7704598592296050362",
+                "title": "eden 头像（直存无水印）#galgame#eden #诗音#头像",
+                "description": "",
+                "tags": [
+                  "galgame",
+                  "eden",
+                  "诗音",
+                  "头像"
+                ],
+                "kind": "image",
+                "url": "https://www.douyin.com/note/7704598592296050362",
+                "publishedAt": "2026-11-05T08:17:29+00:00",
+                "likes": 153,
+                "author": {
+                  "id": "7704246304495240249",
+                  "name": "泉灵优",
+                  "url": "https://www.douyin.com/user/MS4wLjABAAAAyaB2e5_PY9OkIZ8R_hQuCjOEd13zSuOAEuLHLr87hCFunyBjBkDkDJrwJNwQ2Ypl"
+                },
+                "durationSeconds": null,
+                "metrics": {
+                  "favorites": 34,
+                  "comments": 5,
+                  "shares": 9,
+                  "views": null,
+                  "coins": null
+                },
+                "metricAvailability": {
+                  "favorites": "available",
+                  "comments": "available",
+                  "shares": "available",
+                  "views": "unsupported",
+                  "coins": "unsupported"
+                },
+                "collectedAt": "2026-11-06T03:24:55.533018+00:00",
+                "keyword": "galgame",
+                "workId": "v2285",
+                "matchMethod": "explicit-title",
+                "matchedNames": [
+                  "Eden"
+                ],
+                "baseline": {
+                  "status": "insufficient",
+                  "sampleCount": 0,
+                  "reason": "同类同龄观测少于8条",
+                  "scope": "observed-candidates"
+                }
+              }
+            ]
+          }
+        ],
         "review": [
           {
             "workId": "v18852",
@@ -1535,6 +1654,15 @@
           }
         ]
       }
+    },
+    "settings": {
+      "hotMinLikes": 500,
+      "favoritesMin": 50,
+      "douyinFavoriteLikeRatio": 0.2,
+      "bilibiliViewsMin": 1000,
+      "bilibiliFavoriteViewRatio": 0.02,
+      "commentsMin": 30,
+      "douyinFavoritesMin": 30
     }
   },
   "reports": [
@@ -1545,7 +1673,7 @@
         "end": "2026-11-05T16:00:00.000Z",
         "supplementUntil": "2026-11-07T16:00:00.000Z"
       },
-      "generatedAt": "2026-11-06T03:38:45.539Z",
+      "generatedAt": "2026-11-06T07:27:55.368Z",
       "platforms": {
         "douyin": {
           "status": "partial",
@@ -2178,9 +2306,127 @@
               ]
             }
           ],
-          "favorites": [],
+          "favorites": [
+            {
+              "workId": "v50283",
+              "platform": "douyin",
+              "authorCount": 1,
+              "layer": "单账号观察",
+              "maxFavorites": 42,
+              "evidence": [
+                {
+                  "platform": "douyin",
+                  "id": "7703983195985920074",
+                  "title": "《魔法少女的魔女审判》解说+游戏推荐 补一下#魔法少女的魔女审判 #橘雪莉 #魔裁 #魔法少女的魔女裁判 #galgame",
+                  "description": "",
+                  "tags": [
+                    "魔法少女的魔女审判",
+                    "橘雪莉",
+                    "魔裁",
+                    "魔法少女的魔女裁判",
+                    "galgame"
+                  ],
+                  "kind": "video",
+                  "url": "https://www.douyin.com/video/7703983195985920074",
+                  "publishedAt": "2026-11-03T16:29:26+00:00",
+                  "likes": 194,
+                  "author": {
+                    "id": "2341339656122176",
+                    "name": "懦懦君",
+                    "url": "https://www.douyin.com/user/MS4wLjABAAAA_XNYkJp2y0jwtb4AZBzjIXlVfWtUXIWy4aPGkVJZ5qDJ405x2Y0xHQT4PujxXbV3"
+                  },
+                  "durationSeconds": null,
+                  "metrics": {
+                    "favorites": 42,
+                    "comments": 15,
+                    "shares": 36,
+                    "views": null,
+                    "coins": null
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "unsupported",
+                    "coins": "unsupported"
+                  },
+                  "collectedAt": "2026-11-06T03:32:11.889736+00:00",
+                  "keyword": "魔法少女的魔女审判",
+                  "refreshMethod": "search-id-confirmed",
+                  "workId": "v50283",
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "魔法少女的魔女审判",
+                    "魔裁"
+                  ],
+                  "baseline": {
+                    "status": "insufficient",
+                    "sampleCount": 0,
+                    "reason": "缺少作者、同龄快照或可比较的内容类型"
+                  }
+                }
+              ]
+            }
+          ],
           "discussion": [],
-          "watch": [],
+          "watch": [
+            {
+              "workId": "v2285",
+              "platform": "douyin",
+              "reason": "发布不足24小时",
+              "evidence": [
+                {
+                  "platform": "douyin",
+                  "id": "7704598592296050362",
+                  "title": "eden 头像（直存无水印）#galgame#eden #诗音#头像",
+                  "description": "",
+                  "tags": [
+                    "galgame",
+                    "eden",
+                    "诗音",
+                    "头像"
+                  ],
+                  "kind": "image",
+                  "url": "https://www.douyin.com/note/7704598592296050362",
+                  "publishedAt": "2026-11-05T08:17:29+00:00",
+                  "likes": 153,
+                  "author": {
+                    "id": "7704246304495240249",
+                    "name": "泉灵优",
+                    "url": "https://www.douyin.com/user/MS4wLjABAAAAyaB2e5_PY9OkIZ8R_hQuCjOEd13zSuOAEuLHLr87hCFunyBjBkDkDJrwJNwQ2Ypl"
+                  },
+                  "durationSeconds": null,
+                  "metrics": {
+                    "favorites": 34,
+                    "comments": 5,
+                    "shares": 9,
+                    "views": null,
+                    "coins": null
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "unsupported",
+                    "coins": "unsupported"
+                  },
+                  "collectedAt": "2026-11-06T03:24:55.533018+00:00",
+                  "keyword": "galgame",
+                  "workId": "v2285",
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "Eden"
+                  ],
+                  "baseline": {
+                    "status": "insufficient",
+                    "sampleCount": 0,
+                    "reason": "同类同龄观测少于8条",
+                    "scope": "observed-candidates"
+                  }
+                }
+              ]
+            }
+          ],
           "review": [
             {
               "workId": "v18852",
@@ -3054,7 +3300,16 @@
           ]
         }
       },
-      "finalized": false
+      "finalized": false,
+      "settings": {
+        "hotMinLikes": 500,
+        "favoritesMin": 50,
+        "douyinFavoriteLikeRatio": 0.2,
+        "bilibiliViewsMin": 1000,
+        "bilibiliFavoriteViewRatio": 0.02,
+        "commentsMin": 30,
+        "douyinFavoritesMin": 30
+      }
     }
   ]
 }

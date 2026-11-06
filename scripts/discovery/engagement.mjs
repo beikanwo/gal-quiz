@@ -50,7 +50,8 @@ export function buildSignals(records,period,settings,posts=[]) {
     const fav=[];
     for(const r of eligible.filter(r=>r.likes<settings.hotMinLikes)){
       const count=r.metrics?.favorites,views=r.metrics?.views,comments=r.metrics?.comments;
-      const hasFavoriteSignal=Number.isSafeInteger(count)&&count>=settings.favoritesMin&&(r.platform==='douyin'?(r.likes===0||count/r.likes>=settings.douyinFavoriteLikeRatio):Number.isSafeInteger(views)&&views>=settings.bilibiliViewsMin&&count/views>=settings.bilibiliFavoriteViewRatio);
+      const minimum=r.platform==='douyin'?(settings.douyinFavoritesMin??settings.favoritesMin):settings.favoritesMin;
+      const hasFavoriteSignal=Number.isSafeInteger(count)&&count>=minimum&&(r.platform==='douyin'?(r.likes===0||count/r.likes>=settings.douyinFavoriteLikeRatio):Number.isSafeInteger(views)&&views>=settings.bilibiliViewsMin&&count/views>=settings.bilibiliFavoriteViewRatio);
       if(hasFavoriteSignal){if(ageHours(r)<24||r.likes===0)watch.push({workId,platform,reason:r.likes===0?'零点赞基数，暂不计算收藏赞比':'发布不足24小时',evidence:[r]});else fav.push(r);}
       if(Number.isSafeInteger(comments)&&comments>=settings.commentsMin){const approval=settings.discussions?.[`${r.platform}:${r.id}`];const verified=approval?.approved===true&&approval.aboutGame===true&&approval.note&&Number.isFinite(Date.parse(approval.reviewedAt));(verified?discussion:review).push({workId,platform,reason:verified?'人工确认讨论围绕作品':'评论较多，需排查作者自答、抽奖及与作品无关的讨论',evidence:[r]});}
     }
@@ -60,4 +61,14 @@ export function buildSignals(records,period,settings,posts=[]) {
   popular.sort((a,b)=>b.authorCount-a.authorCount||b.aboveNormalAuthors-a.aboveNormalAuthors||b.maxLikes-a.maxLikes||a.workId.localeCompare(b.workId));
   favorites.sort((a,b)=>b.authorCount-a.authorCount||b.maxFavorites-a.maxFavorites||a.workId.localeCompare(b.workId));
   return {popular,favorites,discussion,watch,review:review.sort((a,b)=>(b.evidence[0].metrics?.comments??0)-(a.evidence[0].metrics?.comments??0)).slice(0,10)};
+}
+
+export const signalRules=settings=>Object.fromEntries(['hotMinLikes','favoritesMin','douyinFavoriteLikeRatio','bilibiliViewsMin','bilibiliFavoriteViewRatio','commentsMin'].map(key=>[key,settings[key]]).concat([['douyinFavoritesMin',settings.douyinFavoritesMin??settings.favoritesMin]]));
+
+export function reclassifyReport(report,posts,settings,generatedAt=new Date().toISOString()) {
+  if(report.finalized||report.generatedAt&&Date.parse(report.period.supplementUntil)<Date.parse(generatedAt))return report;
+  return {...report,settings:signalRules(settings),generatedAt,platforms:Object.fromEntries(Object.entries(report.platforms).map(([platform,data])=>{
+    const records=posts.filter(p=>p.record.platform===platform).map(p=>({...p.record,baseline:baseline(p,posts)}));
+    return [platform,{...data,...buildSignals(records,report.period,settings,posts)}];
+  }))};
 }

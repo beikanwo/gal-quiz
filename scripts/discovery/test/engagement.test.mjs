@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { observe,buildSignals,baseline,ageBucket } from '../engagement.mjs';
+import { observe,buildSignals,baseline,ageBucket,reclassifyReport } from '../engagement.mjs';
 import { biliEngagement } from '../engagement-records.mjs';
 import { trialPeriods } from '../run-engagement.mjs';
 const settings={hotMinLikes:500,favoritesMin:50,douyinFavoriteLikeRatio:.3,bilibiliViewsMin:1000,bilibiliFavoriteViewRatio:.02,commentsMin:30};
@@ -51,4 +51,30 @@ test('标题明确标注另一部作品时，不能凭引流标签关联游戏',
 test('两期窗口固定，以北京时间结束，不改正式快照',()=>{
   const p=trialPeriods({firstPeriod:'2026-11-06',intervalDays:5,trialPeriods:2});
   assert.equal(p[0].start,'2026-10-31T16:00:00.000Z');assert.equal(p[1].id,'2026-11-11');assert.equal(p[1].supplementUntil,'2026-11-12T16:00:00.000Z');
+});
+
+test('抖音30收藏/20%的边界准确，B站仍需50收藏，幼龄和零赞继续观察',()=>{
+  const trial={...settings,douyinFavoritesMin:30,douyinFavoriteLikeRatio:.2};
+  assert.equal(buildSignals([r({likes:150,metrics:{favorites:30}})],period,trial).favorites.length,1);
+  assert.equal(buildSignals([r({likes:151,metrics:{favorites:30}})],period,trial).favorites.length,0);
+  assert.equal(buildSignals([r({likes:100,metrics:{favorites:29}})],period,trial).favorites.length,0);
+  assert.equal(buildSignals([r({likes:500,metrics:{favorites:100}})],period,trial).favorites.length,0);
+  assert.equal(buildSignals([r({likes:0,metrics:{favorites:30}})],period,trial).watch.length,1);
+  assert.equal(buildSignals([r({likes:100,metrics:{favorites:30},collectedAt:'2026-11-02T10:00:00Z'})],period,trial).watch.length,1);
+  const bili=r({platform:'bilibili',likes:100,metrics:{favorites:30,views:1000}});
+  assert.equal(buildSignals([bili],period,trial).favorites.length,0);
+});
+
+test('门槛重算保存报告口径和原采集时间；已封存或过补充期的报告不变',()=>{
+  const trial={...settings,douyinFavoritesMin:30,douyinFavoriteLikeRatio:.2};
+  const posts=[{record:r({likes:194,metrics:{favorites:42}})}],before=JSON.stringify(posts);
+  const report={period:{...period,supplementUntil:'2026-11-08T00:00:00Z'},generatedAt:'2026-11-06T00:00:00Z',platforms:{douyin:{status:'partial'}}};
+  const updated=reclassifyReport(report,posts,trial,'2026-11-06T12:00:00Z');
+  assert.equal(updated.settings.douyinFavoritesMin,30);
+  assert.equal(updated.platforms.douyin.favorites.length,1);
+  assert.equal(updated.platforms.douyin.favorites[0].evidence[0].collectedAt,posts[0].record.collectedAt);
+  assert.equal(JSON.stringify(posts),before);
+  const sealed={...report,finalized:true};
+  assert.equal(reclassifyReport(sealed,posts,trial),sealed);
+  assert.equal(reclassifyReport(report,posts,trial,'2026-11-09T00:00:00Z'),report);
 });

@@ -4,7 +4,7 @@ import { args,readJson,writeJson } from './io.mjs';
 import { PLATFORMS,chinaDate,matchWork } from './core.mjs';
 import { canonicalWorks } from './identity-names.mjs';
 import { BilibiliSource,DouyinSource } from './sources.mjs';
-import { observe,buildSignals,baseline,fields } from './engagement.mjs';
+import { observe,reclassifyReport,fields } from './engagement.mjs';
 import { Metadata,seedAliases } from './metadata.mjs';
 import { windowRecords,collectionWindow,engagementQueries,resolveEngagementWorks } from './engagement-discovery.mjs';
 const DAY=86400000;
@@ -91,10 +91,7 @@ export async function runEngagement(options=args()) {
   // Bounded retention; do not fabricate historic age snapshots from mature counts.
   for(const [key,p]of Object.entries(state.posts))if(Date.parse(p.record.publishedAt)<now-60*DAY)delete state.posts[key];
   const posts=Object.values(state.posts);
-  const makeReport=period=>({period,generatedAt:new Date().toISOString(),platforms:Object.fromEntries(PLATFORMS.map(platform=>{
-    const records=posts.filter(p=>p.record.platform===platform).map(p=>({...p.record,baseline:baseline(p,posts)}));
-    return [platform,{...(state.platforms?.[platform]??{status:'unavailable'}),...buildSignals(records,period,settings,posts)}];
-  }))});
+  const makeReport=period=>reclassifyReport({period,platforms:Object.fromEntries(PLATFORMS.map(platform=>[platform,state.platforms?.[platform]??{status:'unavailable'}]))},posts,settings);
   for(const period of periods){
     if(Date.parse(period.end)>now)continue;
     if(state.reports[period.id]?.finalized)continue;
