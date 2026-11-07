@@ -20352,7 +20352,7 @@
             "DC4FD"
           ],
           "released": "2021-02-26",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v29066/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/26/92926.jpg\" data-cover-full=\"https://t.vndb.org/cv/26/92926.jpg\" alt=\"D.C.4 ～ダ・カーポ4～ フォーチュネイトデパーチャーズ封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>D.C.4 ～ダ・カーポ4～ フォーチュネイトデパーチャーズ</h3><p>CIRCUS</p><div class=\"card-heat muted\">2021-02-26</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v29066/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/53/100253.jpg\" data-cover-full=\"https://t.vndb.org/cv/53/100253.jpg\" alt=\"D.C.4 ～ダ・カーポ4～ フォーチュネイトデパーチャーズ封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>D.C.4 ～ダ・カーポ4～ フォーチュネイトデパーチャーズ</h3><p>CIRCUS</p><div class=\"card-heat muted\">2021-02-26</div></a></article>"
         },
         {
           "name": "D.C.5 ～ダ・カーポ5～",
@@ -30572,6 +30572,732 @@
           ],
           "released": "",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/manual-tadaima-404/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>我回来了，404号室</span></div><h3>我回来了，404号室</h3><p>ただいま404号室</p><div class=\"card-heat muted\">发行时间待补充</div></a></article>"
+        },
+        {
+          "name": "永恒与星辰与日常",
+          "aliases": [
+            "永恒与星辰与日常",
+            "永恒与星辰与日常",
+            "Yongheng yu Xingchen yu Richang",
+            "Our Brief Eternity"
+          ],
+          "released": "2026-07-17",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v60544/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/30/120330.jpg\" data-cover-full=\"https://t.vndb.org/cv/30/120330.jpg\" alt=\"永恒与星辰与日常封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>永恒与星辰与日常</h3><p>土豆花制作组</p><div class=\"card-heat muted\">2026-07-17</div></a></article>"
+        },
+        {
+          "name": "小小的身影，重叠的内心",
+          "aliases": [
+            "小小的身影，重叠的内心",
+            "小小的身影，重叠的内心",
+            "Xiaoxiao de Shenying, Chongdie de Neixin",
+            "小さな影、重なる心",
+            "Tiny Shadows Interwoven Hearts"
+          ],
+          "released": "2025-11-07",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v58650/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/83/116683.jpg\" data-cover-full=\"https://t.vndb.org/cv/83/116683.jpg\" alt=\"小小的身影，重叠的内心封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>小小的身影，重叠的内心</h3><p>土豆花制作组</p><div class=\"card-heat muted\">2025-11-07</div></a></article>"
+        },
+        {
+          "name": "我家猫猫是女仆！",
+          "aliases": [
+            "我家猫猫是女仆！",
+            "我家猫猫是女仆！",
+            "Wo Jia Maomao Shi Nüpu!",
+            "My Cat Is a Maid!"
+          ],
+          "released": "2027",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v69282/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/57/147057.jpg\" data-cover-full=\"https://t.vndb.org/cv/57/147057.jpg\" alt=\"我家猫猫是女仆！封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>我家猫猫是女仆！</h3><p>土豆花制作组</p><div class=\"card-heat muted\">2027</div></a></article>"
+        },
+        {
+          "name": "一起做GAL吧！",
+          "aliases": [
+            "一起做GAL吧！",
+            "一起做GAL吧！",
+            "Yiqi Zuo GAL Ba!",
+            "Make GAL together!"
+          ],
+          "released": "2027",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v69870/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/38/149038.jpg\" data-cover-full=\"https://t.vndb.org/cv/38/149038.jpg\" alt=\"一起做GAL吧！封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>一起做GAL吧！</h3><p>土豆花制作组</p><div class=\"card-heat muted\">2027</div></a></article>"
+        },
+        {
+          "name": "病娇灰姑娘",
+          "aliases": [
+            "ヤンデレラ",
+            "病娇灰姑娘",
+            "ヤンデレラ",
+            "Yanderella",
+            "Yanderela",
+            "Яндерелла"
+          ],
+          "released": "2013-08-29",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v16320/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/80/89180.jpg\" data-cover-full=\"https://t.vndb.org/cv/80/89180.jpg\" alt=\"病娇灰姑娘封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>病娇灰姑娘</h3><p>CHARON</p><div class=\"card-heat muted\">2013-08-29</div></a></article>"
+        },
+        {
+          "name": "你和我的表相",
+          "aliases": [
+            "きみとぼくときれいごと",
+            "你和我的表相",
+            "きみとぼくときれいごと",
+            "Kimi to Boku to Kireigoto",
+            "You, Me and Empty Words",
+            "Tú, yo y palabras vacías",
+            "Você, Eu e Palavras Vazias",
+            "你與我以及華而不實的話語"
+          ],
+          "released": "2014-05-28",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v16395/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv/66/22666.jpg\" alt=\"你和我的表相封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>你和我的表相</h3><p>CHARON</p><div class=\"card-heat muted\">2014-05-28</div></a></article>"
+        },
+        {
+          "name": "みっくすおれ",
+          "aliases": [
+            "みっくすおれ",
+            "みっくすおれ",
+            "Mix Ore"
+          ],
+          "released": "2013-06-08",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v16479/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv/99/23099.jpg\" alt=\"みっくすおれ封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>みっくすおれ</h3><p>CHARON</p><div class=\"card-heat muted\">2013-06-08</div></a></article>"
+        },
+        {
+          "name": "月觀行星",
+          "aliases": [
+            "つきみぷらねっと",
+            "月觀行星",
+            "つきみぷらねっと",
+            "Tsukimi Planet",
+            "Planeta Tsukimi",
+            "Планета Тсукими"
+          ],
+          "released": "2015-11-16",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v18757/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv/79/30879.jpg\" alt=\"月觀行星封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>月觀行星</h3><p>CHARON</p><div class=\"card-heat muted\">2015-11-16</div></a></article>"
+        },
+        {
+          "name": "铭日记",
+          "aliases": [
+            "みことにっき",
+            "铭日记",
+            "みことにっき",
+            "Mikoto Nikki",
+            "Diari Mikoto",
+            "O Diário da Mikoto",
+            "Дневник Микото"
+          ],
+          "released": "2013-05-28",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v19470/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv/29/29529.jpg\" alt=\"铭日记封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>铭日记</h3><p>CHARON</p><div class=\"card-heat muted\">2013-05-28</div></a></article>"
+        },
+        {
+          "name": "真琴莫比乌斯",
+          "aliases": [
+            "まことメビウス",
+            "真琴莫比乌斯",
+            "まことメビウス",
+            "Makoto Mobius",
+            "Makoto Möbius"
+          ],
+          "released": "2013-07-30",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v20909/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv/40/32040.jpg\" alt=\"真琴莫比乌斯封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>真琴莫比乌斯</h3><p>CHARON</p><div class=\"card-heat muted\">2013-07-30</div></a></article>"
+        },
+        {
+          "name": "しほりエスケープ",
+          "aliases": [
+            "しほりエスケープ",
+            "しほりエスケープ",
+            "Shihori Escape",
+            "诗穗梨逃亡"
+          ],
+          "released": "2014-05-28",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v21353/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv/65/32765.jpg\" alt=\"しほりエスケープ封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>しほりエスケープ</h3><p>CHARON</p><div class=\"card-heat muted\">2014-05-28</div></a></article>"
+        },
+        {
+          "name": "揍好揍滿幼稚園",
+          "aliases": [
+            "フルボッコようちえん",
+            "揍好揍滿幼稚園",
+            "フルボッコようちえん",
+            "Full Bokko Youchien",
+            "Детский Сад Бокко"
+          ],
+          "released": "2017-04-01",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v22190/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/49/125749.jpg\" data-cover-full=\"https://t.vndb.org/cv/49/125749.jpg\" alt=\"揍好揍滿幼稚園封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>揍好揍滿幼稚園</h3><p>CHARON</p><div class=\"card-heat muted\">2017-04-01</div></a></article>"
+        },
+        {
+          "name": "メンヘラフレシア",
+          "aliases": [
+            "メンヘラフレシア",
+            "メンヘラフレシア",
+            "Menherafflesia",
+            "Menherafresia"
+          ],
+          "released": "2017-06-04",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v22205/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv/40/34040.jpg\" alt=\"メンヘラフレシア封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>メンヘラフレシア</h3><p>CHARON</p><div class=\"card-heat muted\">2017-06-04</div></a></article>"
+        },
+        {
+          "name": "香子兰·审判之庭",
+          "aliases": [
+            "バニラ 審判の園",
+            "香子兰·审判之庭",
+            "バニラ 審判の園",
+            "Vanilla: Shinpan no Sono",
+            "VANILLA - GARDEN OF JUDGEMENT",
+            "Vanilla Referee's Garden"
+          ],
+          "released": "2018-08-10",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v24127/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/12/82412.jpg\" data-cover-full=\"https://t.vndb.org/cv/12/82412.jpg\" alt=\"香子兰·审判之庭封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>香子兰·审判之庭</h3><p>CHARON</p><div class=\"card-heat muted\">2018-08-10</div></a></article>"
+        },
+        {
+          "name": "きみとぼくとかくしごと",
+          "aliases": [
+            "きみとぼくとかくしごと",
+            "きみとぼくとかくしごと",
+            "Kimi to Boku to Kakushigoto",
+            "A Secret Between You and Me",
+            "You and Me and Secret words."
+          ],
+          "released": "2018-05-03",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v24128/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/50/82450.jpg\" data-cover-full=\"https://t.vndb.org/cv/50/82450.jpg\" alt=\"きみとぼくとかくしごと封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>きみとぼくとかくしごと</h3><p>CHARON</p><div class=\"card-heat muted\">2018-05-03</div></a></article>"
+        },
+        {
+          "name": "万華鏡ステラ",
+          "aliases": [
+            "万華鏡ステラ",
+            "万華鏡ステラ",
+            "Kaleido Stella",
+            "KALEIDO STELLA",
+            "Kasutera"
+          ],
+          "released": "2018-12-30",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v25250/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/25/83825.jpg\" data-cover-full=\"https://t.vndb.org/cv/25/83825.jpg\" alt=\"万華鏡ステラ封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>万華鏡ステラ</h3><p>CHARON</p><div class=\"card-heat muted\">2018-12-30</div></a></article>"
+        },
+        {
+          "name": "背徳シレネ - あなたの知らない奈落の底",
+          "aliases": [
+            "背徳シレネ - あなたの知らない奈落の底",
+            "背徳シレネ - あなたの知らない奈落の底",
+            "Haitoku Shirene - Anata no Shiranai Naraku no Soko",
+            "Immoral Sirene - You Don't Know the Depths of Hell",
+            "Immoral Cyrenne"
+          ],
+          "released": "2019-03-12",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v25506/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/38/100138.jpg\" data-cover-full=\"https://t.vndb.org/cv/38/100138.jpg\" alt=\"背徳シレネ - あなたの知らない奈落の底封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>背徳シレネ - あなたの知らない奈落の底</h3><p>CHARON</p><div class=\"card-heat muted\">2019-03-12</div></a></article>"
+        },
+        {
+          "name": "ヘンゼルとグレーテルDS",
+          "aliases": [
+            "ヘンゼルとグレーテルDS",
+            "ヘンゼルとグレーテルDS",
+            "Hansel to Gretel DS",
+            "Hansel and Gretel DS",
+            "Hansel y Gretel (Lado Oscuro)",
+            "Hansel to Gretel DS (Dark Side)",
+            "ヘンゼルとグレーテルDS（ダークサイド）"
+          ],
+          "released": "2019-05-08",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v25758/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv/66/38866.jpg\" alt=\"ヘンゼルとグレーテルDS封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>ヘンゼルとグレーテルDS</h3><p>CHARON</p><div class=\"card-heat muted\">2019-05-08</div></a></article>"
+        },
+        {
+          "name": "冷血症骰子",
+          "aliases": [
+            "サイコロサイコ",
+            "冷血症骰子",
+            "サイコロサイコ",
+            "Saikoro Psycho",
+            "Dice Psycho",
+            "사이코로사이코",
+            "Saikoro Saiko"
+          ],
+          "released": "2019-08-28",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v29067/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/99/81999.jpg\" data-cover-full=\"https://t.vndb.org/cv/99/81999.jpg\" alt=\"冷血症骰子封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>冷血症骰子</h3><p>CHARON</p><div class=\"card-heat muted\">2019-08-28</div></a></article>"
+        },
+        {
+          "name": "トラウマーメイド",
+          "aliases": [
+            "トラウマーメイド",
+            "トラウマーメイド",
+            "Traumermaid"
+          ],
+          "released": "2020-05-05",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v30364/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/88/107788.jpg\" data-cover-full=\"https://t.vndb.org/cv/88/107788.jpg\" alt=\"トラウマーメイド封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>トラウマーメイド</h3><p>CHARON / cream△</p><div class=\"card-heat muted\">2020-05-05</div></a></article>"
+        },
+        {
+          "name": "精神病大王花 Flowering Abyss",
+          "aliases": [
+            "メンヘラフレシア フラワリングアビス",
+            "精神病大王花 Flowering Abyss",
+            "メンヘラフレシア フラワリングアビス",
+            "Menherafflesia: Flowering Abyss"
+          ],
+          "released": "2021-06-25",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v30423/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>精神病大王花 Flowering Abyss</span></div><h3>精神病大王花 Flowering Abyss</h3><p>CHARON</p><div class=\"card-heat muted\">2021-06-25</div></a></article>"
+        },
+        {
+          "name": "虚日记",
+          "aliases": [
+            "うつろにっき",
+            "虚日记",
+            "うつろにっき",
+            "Utsuro Nikki",
+            "Obsessive Love, Utsuro's Diary",
+            "空虚日记"
+          ],
+          "released": "2019-04-26",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v30946/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv/38/47238.jpg\" alt=\"虚日记封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>虚日记</h3><p>CHARON</p><div class=\"card-heat muted\">2019-04-26</div></a></article>"
+        },
+        {
+          "name": "夢美的憂鬱",
+          "aliases": [
+            "ゆめみメランコリイ",
+            "夢美的憂鬱",
+            "ゆめみメランコリイ",
+            "Yumemi Melancholy"
+          ],
+          "released": "2019-02-05",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v31430/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv/84/48284.jpg\" alt=\"夢美的憂鬱封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>夢美的憂鬱</h3><p>CHARON</p><div class=\"card-heat muted\">2019-02-05</div></a></article>"
+        },
+        {
+          "name": "首獵更紗",
+          "aliases": [
+            "クビトリさらさ",
+            "首獵更紗",
+            "クビトリさらさ",
+            "Kubitori Sarasa"
+          ],
+          "released": "2019-03-27",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v32155/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv/99/49899.jpg\" alt=\"首獵更紗封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>首獵更紗</h3><p>CHARON</p><div class=\"card-heat muted\">2019-03-27</div></a></article>"
+        },
+        {
+          "name": "きみとぼくとひとりごと",
+          "aliases": [
+            "きみとぼくとひとりごと",
+            "きみとぼくとひとりごと",
+            "Kimi to Boku to Hitorigoto",
+            "You, me and my words"
+          ],
+          "released": "2021-03-17",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v34312/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/95/106695.jpg\" data-cover-full=\"https://t.vndb.org/cv/95/106695.jpg\" alt=\"きみとぼくとひとりごと封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>きみとぼくとひとりごと</h3><p>CHARON</p><div class=\"card-heat muted\">2021-03-17</div></a></article>"
+        },
+        {
+          "name": "プリンセスケージ -ホストと姫と嘘の恋-",
+          "aliases": [
+            "プリンセスケージ -ホストと姫と嘘の恋-",
+            "プリンセスケージ -ホストと姫と嘘の恋-",
+            "Princess Cage -Host to Hime to Uso no Koi-",
+            "Kagotori"
+          ],
+          "released": "2022-08-13",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v37168/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/63/75763.jpg\" data-cover-full=\"https://t.vndb.org/cv/63/75763.jpg\" alt=\"プリンセスケージ -ホストと姫と嘘の恋-封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>プリンセスケージ -ホストと姫と嘘の恋-</h3><p>CHARON / フェンリルソフト</p><div class=\"card-heat muted\">2022-08-13</div></a></article>"
+        },
+        {
+          "name": "ヤンデレイン",
+          "aliases": [
+            "ヤンデレイン",
+            "ヤンデレイン",
+            "Yanderain"
+          ],
+          "released": "2022-12-31",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v39861/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv/66/61466.jpg\" alt=\"ヤンデレイン封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>ヤンデレイン</h3><p>CHARON</p><div class=\"card-heat muted\">2022-12-31</div></a></article>"
+        },
+        {
+          "name": "ヨナヨナ",
+          "aliases": [
+            "ヨナヨナ",
+            "ヨナヨナ",
+            "Yona Yona"
+          ],
+          "released": "2022-12-31",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v39862/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>ヨナヨナ</span></div><h3>ヨナヨナ</h3><p>CHARON</p><div class=\"card-heat muted\">2022-12-31</div></a></article>"
+        },
+        {
+          "name": "しにいそぐぼくら",
+          "aliases": [
+            "しにいそぐぼくら",
+            "しにいそぐぼくら",
+            "Shiniisogu Bokura",
+            "We wish to die soon"
+          ],
+          "released": "2023-08-13",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v46113/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>しにいそぐぼくら</span></div><h3>しにいそぐぼくら</h3><p>CHARON</p><div class=\"card-heat muted\">2023-08-13</div></a></article>"
+        },
+        {
+          "name": "掴め、人生の右打ち！GOGO全回転 嵐を呼ぶ！炎のパチンカスロード",
+          "aliases": [
+            "掴め、人生の右打ち！GOGO全回転 嵐を呼ぶ！炎のパチンカスロード",
+            "掴め、人生の右打ち！GOGO全回転 嵐を呼ぶ！炎のパチンカスロード",
+            "Tsukame, Jinsei no Migiuchi! GOGO Zen Kaiten Arashi o Yobu! Honoo no Pachinkas Road",
+            "Grab it, hit right in life! GO! GO! full rotation calling the storm PACHINKAS ROAD"
+          ],
+          "released": "2023-08-13",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v46114/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv/97/69197.jpg\" alt=\"掴め、人生の右打ち！GOGO全回転 嵐を呼ぶ！炎のパチンカスロード封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>掴め、人生の右打ち！GOGO全回転 嵐を呼ぶ！炎のパチンカスロード</h3><p>CHARON</p><div class=\"card-heat muted\">2023-08-13</div></a></article>"
+        },
+        {
+          "name": "パラノイア",
+          "aliases": [
+            "パラノイア",
+            "パラノイア",
+            "PARANOIA"
+          ],
+          "released": "2018-03-31",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v46150/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv/34/69234.jpg\" alt=\"パラノイア封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>パラノイア</h3><p>CHARON</p><div class=\"card-heat muted\">2018-03-31</div></a></article>"
+        },
+        {
+          "name": "サイコロ斉子 - メメントモリ",
+          "aliases": [
+            "サイコロ斉子 - メメントモリ",
+            "サイコロ斉子 - メメントモリ",
+            "Saikoro Saiko - Memento Mori"
+          ],
+          "released": "2023-02-11",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v46151/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>サイコロ斉子 - メメントモリ</span></div><h3>サイコロ斉子 - メメントモリ</h3><p>CHARON</p><div class=\"card-heat muted\">2023-02-11</div></a></article>"
+        },
+        {
+          "name": "サイコロ骰子-プロミセス",
+          "aliases": [
+            "サイコロ骰子-プロミセス",
+            "サイコロ骰子-プロミセス",
+            "Saikoro Saiko - Promises"
+          ],
+          "released": "2023-05-02",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v46152/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/98/106698.jpg\" data-cover-full=\"https://t.vndb.org/cv/98/106698.jpg\" alt=\"サイコロ骰子-プロミセス封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>サイコロ骰子-プロミセス</h3><p>CHARON</p><div class=\"card-heat muted\">2023-05-02</div></a></article>"
+        },
+        {
+          "name": "ヤンデレラ デスハーレム",
+          "aliases": [
+            "ヤンデレラ デスハーレム",
+            "ヤンデレラ デスハーレム",
+            "Yanderella Death Harem"
+          ],
+          "released": "2019-04-27",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v46153/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>ヤンデレラ デスハーレム</span></div><h3>ヤンデレラ デスハーレム</h3><p>CHARON</p><div class=\"card-heat muted\">2019-04-27</div></a></article>"
+        },
+        {
+          "name": "ねねねノーブル",
+          "aliases": [
+            "ねねねノーブル",
+            "ねねねノーブル",
+            "Nenene Noble"
+          ],
+          "released": "2019-09-28",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v46154/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/90/106690.jpg\" data-cover-full=\"https://t.vndb.org/cv/90/106690.jpg\" alt=\"ねねねノーブル封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>ねねねノーブル</h3><p>CHARON</p><div class=\"card-heat muted\">2019-09-28</div></a></article>"
+        },
+        {
+          "name": "ミクリサクラメント",
+          "aliases": [
+            "ミクリサクラメント",
+            "ミクリサクラメント",
+            "Mikuri Sacrament"
+          ],
+          "released": "2020-04-01",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v46155/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/91/106691.jpg\" data-cover-full=\"https://t.vndb.org/cv/91/106691.jpg\" alt=\"ミクリサクラメント封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>ミクリサクラメント</h3><p>CHARON</p><div class=\"card-heat muted\">2020-04-01</div></a></article>"
+        },
+        {
+          "name": "まつりメシア",
+          "aliases": [
+            "まつりメシア",
+            "まつりメシア",
+            "Matsuri Messiah"
+          ],
+          "released": "2020-10-01",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v46156/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/94/106694.jpg\" data-cover-full=\"https://t.vndb.org/cv/94/106694.jpg\" alt=\"まつりメシア封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>まつりメシア</h3><p>CHARON</p><div class=\"card-heat muted\">2020-10-01</div></a></article>"
+        },
+        {
+          "name": "みほみドリーム",
+          "aliases": [
+            "みほみドリーム",
+            "みほみドリーム",
+            "Mihomi Dream"
+          ],
+          "released": "2018-10-10",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v46158/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>みほみドリーム</span></div><h3>みほみドリーム</h3><p>CHARON</p><div class=\"card-heat muted\">2018-10-10</div></a></article>"
+        },
+        {
+          "name": "あさみエスケープ",
+          "aliases": [
+            "あさみエスケープ",
+            "あさみエスケープ",
+            "Asami Escape"
+          ],
+          "released": "2019-10-04",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v46159/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/43/87243.jpg\" data-cover-full=\"https://t.vndb.org/cv/43/87243.jpg\" alt=\"あさみエスケープ封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>あさみエスケープ</h3><p>CHARON</p><div class=\"card-heat muted\">2019-10-04</div></a></article>"
+        },
+        {
+          "name": "オーバーナイトティ",
+          "aliases": [
+            "オーバーナイトティ",
+            "オーバーナイトティ",
+            "Overnight Tea"
+          ],
+          "released": "2022-02-11",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v46683/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/92/70192.jpg\" data-cover-full=\"https://t.vndb.org/cv/92/70192.jpg\" alt=\"オーバーナイトティ封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>オーバーナイトティ</h3><p>CHARON</p><div class=\"card-heat muted\">2022-02-11</div></a></article>"
+        },
+        {
+          "name": "家出少女 ～ 女の子を拾いました ～",
+          "aliases": [
+            "家出少女 ～ 女の子を拾いました ～",
+            "家出少女 ～ 女の子を拾いました ～",
+            "Iede Shoujo ~Onna no Ko o Hiroimashita~",
+            "Runaway girl - Picked up girl"
+          ],
+          "released": "2020-11-13",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v46684/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/94/70194.jpg\" data-cover-full=\"https://t.vndb.org/cv/94/70194.jpg\" alt=\"家出少女 ～ 女の子を拾いました ～封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>家出少女 ～ 女の子を拾いました ～</h3><p>CHARON</p><div class=\"card-heat muted\">2020-11-13</div></a></article>"
+        },
+        {
+          "name": "カノバレ～彼女にバレずに浮気しろ！～",
+          "aliases": [
+            "カノバレ～彼女にバレずに浮気しろ！～",
+            "カノバレ～彼女にバレずに浮気しろ！～",
+            "Kanobare ~Kanojo ni Barezu ni Uwaki Shiro!~",
+            "I want to cheat!",
+            "ヤンデレ彼女にバレずに浮気しろ！",
+            "Yandere Kanojo ni Barezu ni Uwaki Shiro!"
+          ],
+          "released": "2021-02-21",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v46685/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/97/70197.jpg\" data-cover-full=\"https://t.vndb.org/cv/97/70197.jpg\" alt=\"カノバレ～彼女にバレずに浮気しろ！～封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>カノバレ～彼女にバレずに浮気しろ！～</h3><p>CHARON / 株式会社ヤナセゲームズ</p><div class=\"card-heat muted\">2021-02-21</div></a></article>"
+        },
+        {
+          "name": "サイコロ災子-ミスフォーチュン-",
+          "aliases": [
+            "サイコロ災子-ミスフォーチュン-",
+            "サイコロ災子-ミスフォーチュン-",
+            "Saikoro Saiko - Miss Fortune"
+          ],
+          "released": "2023-11-16",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v47806/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/99/106699.jpg\" data-cover-full=\"https://t.vndb.org/cv/99/106699.jpg\" alt=\"サイコロ災子-ミスフォーチュン-封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>サイコロ災子-ミスフォーチュン-</h3><p>CHARON</p><div class=\"card-heat muted\">2023-11-16</div></a></article>"
+        },
+        {
+          "name": "凌晨4点不觉间 -虚假世界结局-",
+          "aliases": [
+            "午前４時のまにまに -偽物ワールズエンド-",
+            "凌晨4点不觉间 -虚假世界结局-",
+            "午前４時のまにまに -偽物ワールズエンド-",
+            "Gozen 4-ji no Manimani -Nisemono World's End-",
+            "Fake World's End at 4 AM",
+            "Waruen",
+            "Gozenyojinomanimani",
+            "End of the World at 4 AM"
+          ],
+          "released": "2018-03-25",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v48291/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/31/81031.jpg\" data-cover-full=\"https://t.vndb.org/cv/31/81031.jpg\" alt=\"凌晨4点不觉间 -虚假世界结局-封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>凌晨4点不觉间 -虚假世界结局-</h3><p>CHARON</p><div class=\"card-heat muted\">2018-03-25</div></a></article>"
+        },
+        {
+          "name": "バキバキメモワール",
+          "aliases": [
+            "バキバキメモワール",
+            "バキバキメモワール",
+            "Baki Baki Memoir",
+            "Baki"
+          ],
+          "released": "2022-12-12",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v48823/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/36/141636.jpg\" data-cover-full=\"https://t.vndb.org/cv/36/141636.jpg\" alt=\"バキバキメモワール封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>バキバキメモワール</h3><p>CHARON / 株式会社ヤナセゲームズ</p><div class=\"card-heat muted\">2022-12-12</div></a></article>"
+        },
+        {
+          "name": "みことメモリイ",
+          "aliases": [
+            "みことメモリイ",
+            "みことメモリイ",
+            "Mikoto Memory"
+          ],
+          "released": "2024-02-01",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v49221/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/01/106701.jpg\" data-cover-full=\"https://t.vndb.org/cv/01/106701.jpg\" alt=\"みことメモリイ封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>みことメモリイ</h3><p>CHARON</p><div class=\"card-heat muted\">2024-02-01</div></a></article>"
+        },
+        {
+          "name": "はつものがたり",
+          "aliases": [
+            "はつものがたり",
+            "はつものがたり",
+            "Hatsumonogatari",
+            "Naive Novel"
+          ],
+          "released": "2024-06-14",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v50415/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/55/75255.jpg\" data-cover-full=\"https://t.vndb.org/cv/55/75255.jpg\" alt=\"はつものがたり封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>はつものがたり</h3><p>CHARON / 株式会社ヤナセゲームズ</p><div class=\"card-heat muted\">2024-06-14</div></a></article>"
+        },
+        {
+          "name": "メギアマンテース",
+          "aliases": [
+            "メギアマンテース",
+            "メギアマンテース",
+            "Megi Amantes"
+          ],
+          "released": "2024-06",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v50423/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/00/106700.jpg\" data-cover-full=\"https://t.vndb.org/cv/00/106700.jpg\" alt=\"メギアマンテース封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>メギアマンテース</h3><p>CHARON</p><div class=\"card-heat muted\">2024-06</div></a></article>"
+        },
+        {
+          "name": "失乐园歌留多",
+          "aliases": [
+            "失楽園カルタ",
+            "失乐园歌留多",
+            "失楽園カルタ",
+            "Shitsu Rakuen Karuta",
+            "Lost Paradise of Karuta"
+          ],
+          "released": "2024-08-11",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v50460/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/67/89967.jpg\" data-cover-full=\"https://t.vndb.org/cv/67/89967.jpg\" alt=\"失乐园歌留多封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>失乐园歌留多</h3><p>CHARON</p><div class=\"card-heat muted\">2024-08-11</div></a></article>"
+        },
+        {
+          "name": "まことリングオブフォーチュン",
+          "aliases": [
+            "まことリングオブフォーチュン",
+            "まことリングオブフォーチュン",
+            "Makoto Ring of Fortune"
+          ],
+          "released": "TBA",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v50515/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/83/75383.jpg\" data-cover-full=\"https://t.vndb.org/cv/83/75383.jpg\" alt=\"まことリングオブフォーチュン封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>まことリングオブフォーチュン</h3><p>CHARON</p><div class=\"card-heat muted\">TBA</div></a></article>"
+        },
+        {
+          "name": "少女地獄カルデア",
+          "aliases": [
+            "少女地獄カルデア",
+            "少女地獄カルデア",
+            "Shoujo Jigoku Karudea",
+            "Galaxy Express Chaldea"
+          ],
+          "released": "2024-12-30",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v52201/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/90/99890.jpg\" data-cover-full=\"https://t.vndb.org/cv/90/99890.jpg\" alt=\"少女地獄カルデア封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>少女地獄カルデア</h3><p>CHARON</p><div class=\"card-heat muted\">2024-12-30</div></a></article>"
+        },
+        {
+          "name": "ヤンデレ♥ホロライブ",
+          "aliases": [
+            "ヤンデレ♥ホロライブ",
+            "ヤンデレ♥ホロライブ",
+            "Yandere♥Hololive"
+          ],
+          "released": "",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v53280/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/75/96175.jpg\" data-cover-full=\"https://t.vndb.org/cv/75/96175.jpg\" alt=\"ヤンデレ♥ホロライブ封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>ヤンデレ♥ホロライブ</h3><p>CHARON</p><div class=\"card-heat muted\">发行时间待补充</div></a></article>"
+        },
+        {
+          "name": "バーチャル★ハッピーランド",
+          "aliases": [
+            "バーチャル★ハッピーランド",
+            "バーチャル★ハッピーランド",
+            "Virtual★Happy Land"
+          ],
+          "released": "2025-01-21",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v54533/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/34/102734.jpg\" data-cover-full=\"https://t.vndb.org/cv/34/102734.jpg\" alt=\"バーチャル★ハッピーランド封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>バーチャル★ハッピーランド</h3><p>CHARON / 株式会社ヤナセゲームズ</p><div class=\"card-heat muted\">2025-01-21</div></a></article>"
+        },
+        {
+          "name": "躁のあなた鬱のあたし",
+          "aliases": [
+            "躁のあなた鬱のあたし",
+            "躁のあなた鬱のあたし",
+            "Sou no Anata, Utsu no Atashi",
+            "SouUtsu",
+            "Manic you and depressed me",
+            "Between Your Mania and My Depression｜The Manic You and the Melancholic Me"
+          ],
+          "released": "2025-08-17",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v55541/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/86/106686.jpg\" data-cover-full=\"https://t.vndb.org/cv/86/106686.jpg\" alt=\"躁のあなた鬱のあたし封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>躁のあなた鬱のあたし</h3><p>CHARON</p><div class=\"card-heat muted\">2025-08-17</div></a></article>"
+        },
+        {
+          "name": "なぎさジャッジメント",
+          "aliases": [
+            "なぎさジャッジメント",
+            "なぎさジャッジメント",
+            "Nagisa Judgement"
+          ],
+          "released": "2025-02",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v55545/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>なぎさジャッジメント</span></div><h3>なぎさジャッジメント</h3><p>CHARON</p><div class=\"card-heat muted\">2025-02</div></a></article>"
+        },
+        {
+          "name": "春はあけぼの、我はバケモノ",
+          "aliases": [
+            "春はあけぼの、我はバケモノ",
+            "春はあけぼの、我はバケモノ",
+            "Haru wa Akebono, Ware wa Bakemono",
+            "Spring at Dawn, I Am a Monster."
+          ],
+          "released": "2026-08-20",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v64078/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/87/131387.jpg\" data-cover-full=\"https://t.vndb.org/cv/87/131387.jpg\" alt=\"春はあけぼの、我はバケモノ封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>春はあけぼの、我はバケモノ</h3><p>CHARON</p><div class=\"card-heat muted\">2026-08-20</div></a></article>"
+        },
+        {
+          "name": "染成茜色的坂道",
+          "aliases": [
+            "あかね色に染まる坂",
+            "染成茜色的坂道",
+            "あかね色に染まる坂",
+            "Akaneiro ni Somaru Saka",
+            "あか坂",
+            "AkaSaka",
+            "The Hills Dyed in Rose Madder"
+          ],
+          "released": "2007-07-27",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v547/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/02/88302.jpg\" data-cover-full=\"https://t.vndb.org/cv/02/88302.jpg\" alt=\"染成茜色的坂道封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>染成茜色的坂道</h3><p>feng</p><div class=\"card-heat muted\">2007-07-27</div></a></article>"
+        },
+        {
+          "name": "望见青空之丘",
+          "aliases": [
+            "青空の見える丘",
+            "望见青空之丘",
+            "青空の見える丘",
+            "Aozora no Mieru Oka"
+          ],
+          "released": "2006-04-21",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v1073/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/22/94422.jpg\" data-cover-full=\"https://t.vndb.org/cv/22/94422.jpg\" alt=\"望见青空之丘封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>望见青空之丘</h3><p>feng</p><div class=\"card-heat muted\">2006-04-21</div></a></article>"
+        },
+        {
+          "name": "すてぃーるMyはぁと～Rhapsody of moonlight～",
+          "aliases": [
+            "すてぃーるMyはぁと～Rhapsody of moonlight～",
+            "すてぃーるMyはぁと～Rhapsody of moonlight～",
+            "Steal My Heart ~Rhapsody of Moonlight~",
+            "すてぃ～るMyはぁと～Rhapsody of moonlight～",
+            "smh"
+          ],
+          "released": "2010-07-30",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v4421/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv/64/6764.jpg\" alt=\"すてぃーるMyはぁと～Rhapsody of moonlight～封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>すてぃーるMyはぁと～Rhapsody of moonlight～</h3><p>ぱれっと</p><div class=\"card-heat muted\">2010-07-30</div></a></article>"
+        },
+        {
+          "name": "恋花绽放樱飞时",
+          "aliases": [
+            "恋がさくころ桜どき",
+            "恋花绽放樱飞时",
+            "恋がさくころ桜どき",
+            "Koi ga Saku Koro Sakura Doki",
+            "Saku Saku: Love Blooms with the Cherry Blossoms",
+            "SakuSaku"
+          ],
+          "released": "2014-06-27",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v10304/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/51/76551.jpg\" data-cover-full=\"https://t.vndb.org/cv/51/76551.jpg\" alt=\"恋花绽放樱飞时封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>恋花绽放樱飞时</h3><p>ぱれっと</p><div class=\"card-heat muted\">2014-06-27</div></a></article>"
+        },
+        {
+          "name": "月闇の魔神",
+          "aliases": [
+            "月闇の魔神",
+            "月闇の魔神",
+            "Tsukiyami no Majin"
+          ],
+          "released": "2005-08-14",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v18526/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>月闇の魔神</span></div><h3>月闇の魔神</h3><p>MOON GODDESS</p><div class=\"card-heat muted\">2005-08-14</div></a></article>"
+        },
+        {
+          "name": "as:9-nine- ARTEISIA",
+          "aliases": [
+            "as:9-nine- ARTEISIA",
+            "as:9-nine- ARTEISIA",
+            "アズナイン",
+            "Asnine"
+          ],
+          "released": "2026-06-26",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v52407/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/91/122491.jpg\" data-cover-full=\"https://t.vndb.org/cv/91/122491.jpg\" alt=\"as:9-nine- ARTEISIA封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>as:9-nine- ARTEISIA</h3><p>ぱれっと</p><div class=\"card-heat muted\">2026-06-26</div></a></article>"
+        },
+        {
+          "name": "PURELY×CATION",
+          "aliases": [
+            "PURELY×CATION",
+            "PURELY×CATION",
+            "PURELY×CATION -Only one of the nostalgic youth-",
+            "ピュアリィケーション",
+            "ピュアリケ",
+            "PxC",
+            "PuxC"
+          ],
+          "released": "2016-04-28",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v18723/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/69/99469.jpg\" data-cover-full=\"https://t.vndb.org/cv/69/99469.jpg\" alt=\"PURELY×CATION封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>PURELY×CATION</h3><p>hibiki works</p><div class=\"card-heat muted\">2016-04-28</div></a></article>"
+        },
+        {
+          "name": "まじかりて！",
+          "aliases": [
+            "まじかりて！",
+            "まじかりて！",
+            "Magicalite!"
+          ],
+          "released": "2013-04-01",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v20085/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv/82/50982.jpg\" alt=\"まじかりて！封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>まじかりて！</h3><p>じっぱーそふと</p><div class=\"card-heat muted\">2013-04-01</div></a></article>"
         }
       ]
     },
@@ -31029,6 +31755,15 @@
           ],
           "count": 8,
           "html": "<a class=\"directory-person\" href=\"@@ROOT@@staff/s3023/\"><span class=\"directory-avatar\" aria-hidden=\"true\">錆</span><div><h3>錆縞亭 猫丸</h3><p>8 部剧本参与作品</p><small>癒しん母～世界で一番好きなひと～ / いじわるMyMaster</small></div><span class=\"person-arrow\" aria-hidden=\"true\">↗</span></a>"
+        },
+        {
+          "name": "とみおか",
+          "aliases": [
+            "Tomioka",
+            "とみおか"
+          ],
+          "count": 7,
+          "html": "<a class=\"directory-person\" href=\"@@ROOT@@staff/s11476/\"><span class=\"directory-avatar\" aria-hidden=\"true\">と</span><div><h3>とみおか</h3><p>7 部剧本参与作品</p><small>Summer Pockets / 新妻LOVELY×CATION</small></div><span class=\"person-arrow\" aria-hidden=\"true\">↗</span></a>"
         },
         {
           "name": "松永 北斗",
@@ -31586,6 +32321,15 @@
           ],
           "count": 16,
           "html": "<a class=\"directory-person\" href=\"@@ROOT@@staff/s24422/\"><span class=\"directory-avatar\" aria-hidden=\"true\">m</span><div><h3>meiz</h3><p>16 部原画参与作品</p><small>柯罗的怀表 / 天津罪</small></div><span class=\"person-arrow\" aria-hidden=\"true\">↗</span></a>"
+        },
+        {
+          "name": "和泉 つばす",
+          "aliases": [
+            "Izumi Tsubasu",
+            "和泉 つばす"
+          ],
+          "count": 16,
+          "html": "<a class=\"directory-person\" href=\"@@ROOT@@staff/s2564/\"><span class=\"directory-avatar\" aria-hidden=\"true\">和</span><div><h3>和泉 つばす</h3><p>16 部原画参与作品</p><small>9-nine-九次九日九重色 / Summer Pockets</small></div><span class=\"person-arrow\" aria-hidden=\"true\">↗</span></a>"
         },
         {
           "name": "トリノ",
@@ -32433,6 +33177,15 @@
           ],
           "count": 1,
           "html": "<a class=\"directory-person\" href=\"@@ROOT@@staff/s15188/\"><span class=\"directory-avatar\" aria-hidden=\"true\">影</span><div><h3>影由</h3><p>1 部原画参与作品</p><small>人狼村之谜</small></div><span class=\"person-arrow\" aria-hidden=\"true\">↗</span></a>"
+        },
+        {
+          "name": "えんぎよし",
+          "aliases": [
+            "Engiyoshi",
+            "えんぎよし"
+          ],
+          "count": 1,
+          "html": "<a class=\"directory-person\" href=\"@@ROOT@@staff/s15257/\"><span class=\"directory-avatar\" aria-hidden=\"true\">え</span><div><h3>えんぎよし</h3><p>1 部原画参与作品</p><small>Summer Pockets</small></div><span class=\"person-arrow\" aria-hidden=\"true\">↗</span></a>"
         }
       ]
     },
@@ -32482,6 +33235,14 @@
           ],
           "count": 55,
           "html": "<a class=\"directory-person\" href=\"@@ROOT@@producers/p200/\"><span class=\"directory-avatar producer\" aria-hidden=\"true\">C</span><div><h3>CLOCKUP</h3><p>55 部资料库收录作品</p><small>euphoria / 妖蛆之饵</small></div><span class=\"person-arrow\" aria-hidden=\"true\">↗</span></a>"
+        },
+        {
+          "name": "CHARON",
+          "aliases": [
+            "CHARON"
+          ],
+          "count": 53,
+          "html": "<a class=\"directory-person\" href=\"@@ROOT@@producers/p4855/\"><span class=\"directory-avatar producer\" aria-hidden=\"true\">C</span><div><h3>CHARON</h3><p>53 部资料库收录作品</p><small>病娇灰姑娘 / 铭日记</small></div><span class=\"person-arrow\" aria-hidden=\"true\">↗</span></a>"
         },
         {
           "name": "キッド",
@@ -32734,6 +33495,15 @@
           "html": "<a class=\"directory-person\" href=\"@@ROOT@@producers/p6307/\"><span class=\"directory-avatar producer\" aria-hidden=\"true\">株</span><div><h3>株式会社MAGES.</h3><p>4 部资料库收录作品</p><small>命运石之门 / PSYCHO-PASS サイコパス 選択なき幸福</small></div><span class=\"person-arrow\" aria-hidden=\"true\">↗</span></a>"
         },
         {
+          "name": "土豆花制作组",
+          "aliases": [
+            "Tudou Hua Zhizuo Zu",
+            "土豆花制作组"
+          ],
+          "count": 4,
+          "html": "<a class=\"directory-person\" href=\"@@ROOT@@producers/p27009/\"><span class=\"directory-avatar producer\" aria-hidden=\"true\">土</span><div><h3>土豆花制作组</h3><p>4 部资料库收录作品</p><small>小小的身影，重叠的内心 / 永恒与星辰与日常</small></div><span class=\"person-arrow\" aria-hidden=\"true\">↗</span></a>"
+        },
+        {
           "name": "埃",
           "aliases": [
             "Hokori",
@@ -32817,6 +33587,14 @@
           ],
           "count": 1,
           "html": "<a class=\"directory-person\" href=\"@@ROOT@@producers/p31671/\"><span class=\"directory-avatar producer\" aria-hidden=\"true\">好</span><div><h3>好活游戏</h3><p>1 部资料库收录作品</p><small>对我而言</small></div><span class=\"person-arrow\" aria-hidden=\"true\">↗</span></a>"
+        },
+        {
+          "name": "catproblem9735",
+          "aliases": [
+            "catproblem9735"
+          ],
+          "count": 1,
+          "html": "<a class=\"directory-person\" href=\"@@ROOT@@producers/p31384/\"><span class=\"directory-avatar producer\" aria-hidden=\"true\">c</span><div><h3>catproblem9735</h3><p>1 部资料库收录作品</p><small>I Can Smell You from Here</small></div><span class=\"person-arrow\" aria-hidden=\"true\">↗</span></a>"
         }
       ]
     }

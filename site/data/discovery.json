@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-07T06:45:00.965Z",
+  "updatedAt": "2026-11-07T07:40:11.797Z",
   "entries": [
     {
       "id": "v69315",
@@ -25368,7 +25368,7 @@
         "D.C.4 ~Da Capo 4~ Fortunate Departures",
         "DC4FD"
       ],
-      "image": "https://t.vndb.org/cv/26/92926.jpg",
+      "image": "https://t.vndb.org/cv/53/100253.jpg",
       "subtitle": "CIRCUS",
       "path": "works/v29066/"
     },
@@ -38298,6 +38298,924 @@
       "path": "works/manual-tadaima-404/"
     },
     {
+      "id": "v60544",
+      "type": "work",
+      "name": "永恒与星辰与日常",
+      "aliases": [
+        "永恒与星辰与日常",
+        "永恒与星辰与日常",
+        "Yongheng yu Xingchen yu Richang",
+        "Our Brief Eternity"
+      ],
+      "image": "https://t.vndb.org/cv/30/120330.jpg",
+      "subtitle": "土豆花制作组",
+      "path": "works/v60544/"
+    },
+    {
+      "id": "v58650",
+      "type": "work",
+      "name": "小小的身影，重叠的内心",
+      "aliases": [
+        "小小的身影，重叠的内心",
+        "小小的身影，重叠的内心",
+        "Xiaoxiao de Shenying, Chongdie de Neixin",
+        "小さな影、重なる心",
+        "Tiny Shadows Interwoven Hearts"
+      ],
+      "image": "https://t.vndb.org/cv/83/116683.jpg",
+      "subtitle": "土豆花制作组",
+      "path": "works/v58650/"
+    },
+    {
+      "id": "v69282",
+      "type": "work",
+      "name": "我家猫猫是女仆！",
+      "aliases": [
+        "我家猫猫是女仆！",
+        "我家猫猫是女仆！",
+        "Wo Jia Maomao Shi Nüpu!",
+        "My Cat Is a Maid!"
+      ],
+      "image": "https://t.vndb.org/cv/57/147057.jpg",
+      "subtitle": "土豆花制作组",
+      "path": "works/v69282/"
+    },
+    {
+      "id": "v69870",
+      "type": "work",
+      "name": "一起做GAL吧！",
+      "aliases": [
+        "一起做GAL吧！",
+        "一起做GAL吧！",
+        "Yiqi Zuo GAL Ba!",
+        "Make GAL together!"
+      ],
+      "image": "https://t.vndb.org/cv/38/149038.jpg",
+      "subtitle": "土豆花制作组",
+      "path": "works/v69870/"
+    },
+    {
+      "id": "v16320",
+      "type": "work",
+      "name": "病娇灰姑娘",
+      "aliases": [
+        "ヤンデレラ",
+        "病娇灰姑娘",
+        "ヤンデレラ",
+        "Yanderella",
+        "Yanderela",
+        "Яндерелла"
+      ],
+      "image": "https://t.vndb.org/cv/80/89180.jpg",
+      "subtitle": "CHARON",
+      "path": "works/v16320/"
+    },
+    {
+      "id": "v16395",
+      "type": "work",
+      "name": "你和我的表相",
+      "aliases": [
+        "きみとぼくときれいごと",
+        "你和我的表相",
+        "きみとぼくときれいごと",
+        "Kimi to Boku to Kireigoto",
+        "You, Me and Empty Words",
+        "Tú, yo y palabras vacías",
+        "Você, Eu e Palavras Vazias",
+        "你與我以及華而不實的話語"
+      ],
+      "image": "https://t.vndb.org/cv/66/22666.jpg",
+      "subtitle": "CHARON",
+      "path": "works/v16395/"
+    },
+    {
+      "id": "v16479",
+      "type": "work",
+      "name": "みっくすおれ",
+      "aliases": [
+        "みっくすおれ",
+        "みっくすおれ",
+        "Mix Ore"
+      ],
+      "image": "https://t.vndb.org/cv/99/23099.jpg",
+      "subtitle": "CHARON",
+      "path": "works/v16479/"
+    },
+    {
+      "id": "v18757",
+      "type": "work",
+      "name": "月觀行星",
+      "aliases": [
+        "つきみぷらねっと",
+        "月觀行星",
+        "つきみぷらねっと",
+        "Tsukimi Planet",
+        "Planeta Tsukimi",
+        "Планета Тсукими"
+      ],
+      "image": "https://t.vndb.org/cv/79/30879.jpg",
+      "subtitle": "CHARON",
+      "path": "works/v18757/"
+    },
+    {
+      "id": "v19470",
+      "type": "work",
+      "name": "铭日记",
+      "aliases": [
+        "みことにっき",
+        "铭日记",
+        "みことにっき",
+        "Mikoto Nikki",
+        "Diari Mikoto",
+        "O Diário da Mikoto",
+        "Дневник Микото"
+      ],
+      "image": "https://t.vndb.org/cv/29/29529.jpg",
+      "subtitle": "CHARON",
+      "path": "works/v19470/"
+    },
+    {
+      "id": "v20909",
+      "type": "work",
+      "name": "真琴莫比乌斯",
+      "aliases": [
+        "まことメビウス",
+        "真琴莫比乌斯",
+        "まことメビウス",
+        "Makoto Mobius",
+        "Makoto Möbius"
+      ],
+      "image": "https://t.vndb.org/cv/40/32040.jpg",
+      "subtitle": "CHARON",
+      "path": "works/v20909/"
+    },
+    {
+      "id": "v21353",
+      "type": "work",
+      "name": "しほりエスケープ",
+      "aliases": [
+        "しほりエスケープ",
+        "しほりエスケープ",
+        "Shihori Escape",
+        "诗穗梨逃亡"
+      ],
+      "image": "https://t.vndb.org/cv/65/32765.jpg",
+      "subtitle": "CHARON",
+      "path": "works/v21353/"
+    },
+    {
+      "id": "v22190",
+      "type": "work",
+      "name": "揍好揍滿幼稚園",
+      "aliases": [
+        "フルボッコようちえん",
+        "揍好揍滿幼稚園",
+        "フルボッコようちえん",
+        "Full Bokko Youchien",
+        "Детский Сад Бокко"
+      ],
+      "image": "https://t.vndb.org/cv/49/125749.jpg",
+      "subtitle": "CHARON",
+      "path": "works/v22190/"
+    },
+    {
+      "id": "v22205",
+      "type": "work",
+      "name": "メンヘラフレシア",
+      "aliases": [
+        "メンヘラフレシア",
+        "メンヘラフレシア",
+        "Menherafflesia",
+        "Menherafresia"
+      ],
+      "image": "https://t.vndb.org/cv/40/34040.jpg",
+      "subtitle": "CHARON",
+      "path": "works/v22205/"
+    },
+    {
+      "id": "v24127",
+      "type": "work",
+      "name": "香子兰·审判之庭",
+      "aliases": [
+        "バニラ 審判の園",
+        "香子兰·审判之庭",
+        "バニラ 審判の園",
+        "Vanilla: Shinpan no Sono",
+        "VANILLA - GARDEN OF JUDGEMENT",
+        "Vanilla Referee's Garden"
+      ],
+      "image": "https://t.vndb.org/cv/12/82412.jpg",
+      "subtitle": "CHARON",
+      "path": "works/v24127/"
+    },
+    {
+      "id": "v24128",
+      "type": "work",
+      "name": "きみとぼくとかくしごと",
+      "aliases": [
+        "きみとぼくとかくしごと",
+        "きみとぼくとかくしごと",
+        "Kimi to Boku to Kakushigoto",
+        "A Secret Between You and Me",
+        "You and Me and Secret words."
+      ],
+      "image": "https://t.vndb.org/cv/50/82450.jpg",
+      "subtitle": "CHARON",
+      "path": "works/v24128/"
+    },
+    {
+      "id": "v25250",
+      "type": "work",
+      "name": "万華鏡ステラ",
+      "aliases": [
+        "万華鏡ステラ",
+        "万華鏡ステラ",
+        "Kaleido Stella",
+        "KALEIDO STELLA",
+        "Kasutera"
+      ],
+      "image": "https://t.vndb.org/cv/25/83825.jpg",
+      "subtitle": "CHARON",
+      "path": "works/v25250/"
+    },
+    {
+      "id": "v25506",
+      "type": "work",
+      "name": "背徳シレネ - あなたの知らない奈落の底",
+      "aliases": [
+        "背徳シレネ - あなたの知らない奈落の底",
+        "背徳シレネ - あなたの知らない奈落の底",
+        "Haitoku Shirene - Anata no Shiranai Naraku no Soko",
+        "Immoral Sirene - You Don't Know the Depths of Hell",
+        "Immoral Cyrenne"
+      ],
+      "image": "https://t.vndb.org/cv/38/100138.jpg",
+      "subtitle": "CHARON",
+      "path": "works/v25506/"
+    },
+    {
+      "id": "v25758",
+      "type": "work",
+      "name": "ヘンゼルとグレーテルDS",
+      "aliases": [
+        "ヘンゼルとグレーテルDS",
+        "ヘンゼルとグレーテルDS",
+        "Hansel to Gretel DS",
+        "Hansel and Gretel DS",
+        "Hansel y Gretel (Lado Oscuro)",
+        "Hansel to Gretel DS (Dark Side)",
+        "ヘンゼルとグレーテルDS（ダークサイド）"
+      ],
+      "image": "https://t.vndb.org/cv/66/38866.jpg",
+      "subtitle": "CHARON",
+      "path": "works/v25758/"
+    },
+    {
+      "id": "v29067",
+      "type": "work",
+      "name": "冷血症骰子",
+      "aliases": [
+        "サイコロサイコ",
+        "冷血症骰子",
+        "サイコロサイコ",
+        "Saikoro Psycho",
+        "Dice Psycho",
+        "사이코로사이코",
+        "Saikoro Saiko"
+      ],
+      "image": "https://t.vndb.org/cv/99/81999.jpg",
+      "subtitle": "CHARON",
+      "path": "works/v29067/"
+    },
+    {
+      "id": "v30364",
+      "type": "work",
+      "name": "トラウマーメイド",
+      "aliases": [
+        "トラウマーメイド",
+        "トラウマーメイド",
+        "Traumermaid"
+      ],
+      "image": "https://t.vndb.org/cv/88/107788.jpg",
+      "subtitle": "CHARON / cream△",
+      "path": "works/v30364/"
+    },
+    {
+      "id": "v30423",
+      "type": "work",
+      "name": "精神病大王花 Flowering Abyss",
+      "aliases": [
+        "メンヘラフレシア フラワリングアビス",
+        "精神病大王花 Flowering Abyss",
+        "メンヘラフレシア フラワリングアビス",
+        "Menherafflesia: Flowering Abyss"
+      ],
+      "image": null,
+      "subtitle": "CHARON",
+      "path": "works/v30423/"
+    },
+    {
+      "id": "v30946",
+      "type": "work",
+      "name": "虚日记",
+      "aliases": [
+        "うつろにっき",
+        "虚日记",
+        "うつろにっき",
+        "Utsuro Nikki",
+        "Obsessive Love, Utsuro's Diary",
+        "空虚日记"
+      ],
+      "image": "https://t.vndb.org/cv/38/47238.jpg",
+      "subtitle": "CHARON",
+      "path": "works/v30946/"
+    },
+    {
+      "id": "v31430",
+      "type": "work",
+      "name": "夢美的憂鬱",
+      "aliases": [
+        "ゆめみメランコリイ",
+        "夢美的憂鬱",
+        "ゆめみメランコリイ",
+        "Yumemi Melancholy"
+      ],
+      "image": "https://t.vndb.org/cv/84/48284.jpg",
+      "subtitle": "CHARON",
+      "path": "works/v31430/"
+    },
+    {
+      "id": "v32155",
+      "type": "work",
+      "name": "首獵更紗",
+      "aliases": [
+        "クビトリさらさ",
+        "首獵更紗",
+        "クビトリさらさ",
+        "Kubitori Sarasa"
+      ],
+      "image": "https://t.vndb.org/cv/99/49899.jpg",
+      "subtitle": "CHARON",
+      "path": "works/v32155/"
+    },
+    {
+      "id": "v34312",
+      "type": "work",
+      "name": "きみとぼくとひとりごと",
+      "aliases": [
+        "きみとぼくとひとりごと",
+        "きみとぼくとひとりごと",
+        "Kimi to Boku to Hitorigoto",
+        "You, me and my words"
+      ],
+      "image": "https://t.vndb.org/cv/95/106695.jpg",
+      "subtitle": "CHARON",
+      "path": "works/v34312/"
+    },
+    {
+      "id": "v37168",
+      "type": "work",
+      "name": "プリンセスケージ -ホストと姫と嘘の恋-",
+      "aliases": [
+        "プリンセスケージ -ホストと姫と嘘の恋-",
+        "プリンセスケージ -ホストと姫と嘘の恋-",
+        "Princess Cage -Host to Hime to Uso no Koi-",
+        "Kagotori"
+      ],
+      "image": "https://t.vndb.org/cv/63/75763.jpg",
+      "subtitle": "CHARON / フェンリルソフト",
+      "path": "works/v37168/"
+    },
+    {
+      "id": "v39861",
+      "type": "work",
+      "name": "ヤンデレイン",
+      "aliases": [
+        "ヤンデレイン",
+        "ヤンデレイン",
+        "Yanderain"
+      ],
+      "image": "https://t.vndb.org/cv/66/61466.jpg",
+      "subtitle": "CHARON",
+      "path": "works/v39861/"
+    },
+    {
+      "id": "v39862",
+      "type": "work",
+      "name": "ヨナヨナ",
+      "aliases": [
+        "ヨナヨナ",
+        "ヨナヨナ",
+        "Yona Yona"
+      ],
+      "image": null,
+      "subtitle": "CHARON",
+      "path": "works/v39862/"
+    },
+    {
+      "id": "v46113",
+      "type": "work",
+      "name": "しにいそぐぼくら",
+      "aliases": [
+        "しにいそぐぼくら",
+        "しにいそぐぼくら",
+        "Shiniisogu Bokura",
+        "We wish to die soon"
+      ],
+      "image": null,
+      "subtitle": "CHARON",
+      "path": "works/v46113/"
+    },
+    {
+      "id": "v46114",
+      "type": "work",
+      "name": "掴め、人生の右打ち！GOGO全回転 嵐を呼ぶ！炎のパチンカスロード",
+      "aliases": [
+        "掴め、人生の右打ち！GOGO全回転 嵐を呼ぶ！炎のパチンカスロード",
+        "掴め、人生の右打ち！GOGO全回転 嵐を呼ぶ！炎のパチンカスロード",
+        "Tsukame, Jinsei no Migiuchi! GOGO Zen Kaiten Arashi o Yobu! Honoo no Pachinkas Road",
+        "Grab it, hit right in life! GO! GO! full rotation calling the storm PACHINKAS ROAD"
+      ],
+      "image": "https://t.vndb.org/cv/97/69197.jpg",
+      "subtitle": "CHARON",
+      "path": "works/v46114/"
+    },
+    {
+      "id": "v46150",
+      "type": "work",
+      "name": "パラノイア",
+      "aliases": [
+        "パラノイア",
+        "パラノイア",
+        "PARANOIA"
+      ],
+      "image": "https://t.vndb.org/cv/34/69234.jpg",
+      "subtitle": "CHARON",
+      "path": "works/v46150/"
+    },
+    {
+      "id": "v46151",
+      "type": "work",
+      "name": "サイコロ斉子 - メメントモリ",
+      "aliases": [
+        "サイコロ斉子 - メメントモリ",
+        "サイコロ斉子 - メメントモリ",
+        "Saikoro Saiko - Memento Mori"
+      ],
+      "image": null,
+      "subtitle": "CHARON",
+      "path": "works/v46151/"
+    },
+    {
+      "id": "v46152",
+      "type": "work",
+      "name": "サイコロ骰子-プロミセス",
+      "aliases": [
+        "サイコロ骰子-プロミセス",
+        "サイコロ骰子-プロミセス",
+        "Saikoro Saiko - Promises"
+      ],
+      "image": "https://t.vndb.org/cv/98/106698.jpg",
+      "subtitle": "CHARON",
+      "path": "works/v46152/"
+    },
+    {
+      "id": "v46153",
+      "type": "work",
+      "name": "ヤンデレラ デスハーレム",
+      "aliases": [
+        "ヤンデレラ デスハーレム",
+        "ヤンデレラ デスハーレム",
+        "Yanderella Death Harem"
+      ],
+      "image": null,
+      "subtitle": "CHARON",
+      "path": "works/v46153/"
+    },
+    {
+      "id": "v46154",
+      "type": "work",
+      "name": "ねねねノーブル",
+      "aliases": [
+        "ねねねノーブル",
+        "ねねねノーブル",
+        "Nenene Noble"
+      ],
+      "image": "https://t.vndb.org/cv/90/106690.jpg",
+      "subtitle": "CHARON",
+      "path": "works/v46154/"
+    },
+    {
+      "id": "v46155",
+      "type": "work",
+      "name": "ミクリサクラメント",
+      "aliases": [
+        "ミクリサクラメント",
+        "ミクリサクラメント",
+        "Mikuri Sacrament"
+      ],
+      "image": "https://t.vndb.org/cv/91/106691.jpg",
+      "subtitle": "CHARON",
+      "path": "works/v46155/"
+    },
+    {
+      "id": "v46156",
+      "type": "work",
+      "name": "まつりメシア",
+      "aliases": [
+        "まつりメシア",
+        "まつりメシア",
+        "Matsuri Messiah"
+      ],
+      "image": "https://t.vndb.org/cv/94/106694.jpg",
+      "subtitle": "CHARON",
+      "path": "works/v46156/"
+    },
+    {
+      "id": "v46158",
+      "type": "work",
+      "name": "みほみドリーム",
+      "aliases": [
+        "みほみドリーム",
+        "みほみドリーム",
+        "Mihomi Dream"
+      ],
+      "image": null,
+      "subtitle": "CHARON",
+      "path": "works/v46158/"
+    },
+    {
+      "id": "v46159",
+      "type": "work",
+      "name": "あさみエスケープ",
+      "aliases": [
+        "あさみエスケープ",
+        "あさみエスケープ",
+        "Asami Escape"
+      ],
+      "image": "https://t.vndb.org/cv/43/87243.jpg",
+      "subtitle": "CHARON",
+      "path": "works/v46159/"
+    },
+    {
+      "id": "v46683",
+      "type": "work",
+      "name": "オーバーナイトティ",
+      "aliases": [
+        "オーバーナイトティ",
+        "オーバーナイトティ",
+        "Overnight Tea"
+      ],
+      "image": "https://t.vndb.org/cv/92/70192.jpg",
+      "subtitle": "CHARON",
+      "path": "works/v46683/"
+    },
+    {
+      "id": "v46684",
+      "type": "work",
+      "name": "家出少女 ～ 女の子を拾いました ～",
+      "aliases": [
+        "家出少女 ～ 女の子を拾いました ～",
+        "家出少女 ～ 女の子を拾いました ～",
+        "Iede Shoujo ~Onna no Ko o Hiroimashita~",
+        "Runaway girl - Picked up girl"
+      ],
+      "image": "https://t.vndb.org/cv/94/70194.jpg",
+      "subtitle": "CHARON",
+      "path": "works/v46684/"
+    },
+    {
+      "id": "v46685",
+      "type": "work",
+      "name": "カノバレ～彼女にバレずに浮気しろ！～",
+      "aliases": [
+        "カノバレ～彼女にバレずに浮気しろ！～",
+        "カノバレ～彼女にバレずに浮気しろ！～",
+        "Kanobare ~Kanojo ni Barezu ni Uwaki Shiro!~",
+        "I want to cheat!",
+        "ヤンデレ彼女にバレずに浮気しろ！",
+        "Yandere Kanojo ni Barezu ni Uwaki Shiro!"
+      ],
+      "image": "https://t.vndb.org/cv/97/70197.jpg",
+      "subtitle": "CHARON / 株式会社ヤナセゲームズ",
+      "path": "works/v46685/"
+    },
+    {
+      "id": "v47806",
+      "type": "work",
+      "name": "サイコロ災子-ミスフォーチュン-",
+      "aliases": [
+        "サイコロ災子-ミスフォーチュン-",
+        "サイコロ災子-ミスフォーチュン-",
+        "Saikoro Saiko - Miss Fortune"
+      ],
+      "image": "https://t.vndb.org/cv/99/106699.jpg",
+      "subtitle": "CHARON",
+      "path": "works/v47806/"
+    },
+    {
+      "id": "v48291",
+      "type": "work",
+      "name": "凌晨4点不觉间 -虚假世界结局-",
+      "aliases": [
+        "午前４時のまにまに -偽物ワールズエンド-",
+        "凌晨4点不觉间 -虚假世界结局-",
+        "午前４時のまにまに -偽物ワールズエンド-",
+        "Gozen 4-ji no Manimani -Nisemono World's End-",
+        "Fake World's End at 4 AM",
+        "Waruen",
+        "Gozenyojinomanimani",
+        "End of the World at 4 AM"
+      ],
+      "image": "https://t.vndb.org/cv/31/81031.jpg",
+      "subtitle": "CHARON",
+      "path": "works/v48291/"
+    },
+    {
+      "id": "v48823",
+      "type": "work",
+      "name": "バキバキメモワール",
+      "aliases": [
+        "バキバキメモワール",
+        "バキバキメモワール",
+        "Baki Baki Memoir",
+        "Baki"
+      ],
+      "image": "https://t.vndb.org/cv/36/141636.jpg",
+      "subtitle": "CHARON / 株式会社ヤナセゲームズ",
+      "path": "works/v48823/"
+    },
+    {
+      "id": "v49221",
+      "type": "work",
+      "name": "みことメモリイ",
+      "aliases": [
+        "みことメモリイ",
+        "みことメモリイ",
+        "Mikoto Memory"
+      ],
+      "image": "https://t.vndb.org/cv/01/106701.jpg",
+      "subtitle": "CHARON",
+      "path": "works/v49221/"
+    },
+    {
+      "id": "v50415",
+      "type": "work",
+      "name": "はつものがたり",
+      "aliases": [
+        "はつものがたり",
+        "はつものがたり",
+        "Hatsumonogatari",
+        "Naive Novel"
+      ],
+      "image": "https://t.vndb.org/cv/55/75255.jpg",
+      "subtitle": "CHARON / 株式会社ヤナセゲームズ",
+      "path": "works/v50415/"
+    },
+    {
+      "id": "v50423",
+      "type": "work",
+      "name": "メギアマンテース",
+      "aliases": [
+        "メギアマンテース",
+        "メギアマンテース",
+        "Megi Amantes"
+      ],
+      "image": "https://t.vndb.org/cv/00/106700.jpg",
+      "subtitle": "CHARON",
+      "path": "works/v50423/"
+    },
+    {
+      "id": "v50460",
+      "type": "work",
+      "name": "失乐园歌留多",
+      "aliases": [
+        "失楽園カルタ",
+        "失乐园歌留多",
+        "失楽園カルタ",
+        "Shitsu Rakuen Karuta",
+        "Lost Paradise of Karuta"
+      ],
+      "image": "https://t.vndb.org/cv/67/89967.jpg",
+      "subtitle": "CHARON",
+      "path": "works/v50460/"
+    },
+    {
+      "id": "v50515",
+      "type": "work",
+      "name": "まことリングオブフォーチュン",
+      "aliases": [
+        "まことリングオブフォーチュン",
+        "まことリングオブフォーチュン",
+        "Makoto Ring of Fortune"
+      ],
+      "image": "https://t.vndb.org/cv/83/75383.jpg",
+      "subtitle": "CHARON",
+      "path": "works/v50515/"
+    },
+    {
+      "id": "v52201",
+      "type": "work",
+      "name": "少女地獄カルデア",
+      "aliases": [
+        "少女地獄カルデア",
+        "少女地獄カルデア",
+        "Shoujo Jigoku Karudea",
+        "Galaxy Express Chaldea"
+      ],
+      "image": "https://t.vndb.org/cv/90/99890.jpg",
+      "subtitle": "CHARON",
+      "path": "works/v52201/"
+    },
+    {
+      "id": "v53280",
+      "type": "work",
+      "name": "ヤンデレ♥ホロライブ",
+      "aliases": [
+        "ヤンデレ♥ホロライブ",
+        "ヤンデレ♥ホロライブ",
+        "Yandere♥Hololive"
+      ],
+      "image": "https://t.vndb.org/cv/75/96175.jpg",
+      "subtitle": "CHARON",
+      "path": "works/v53280/"
+    },
+    {
+      "id": "v54533",
+      "type": "work",
+      "name": "バーチャル★ハッピーランド",
+      "aliases": [
+        "バーチャル★ハッピーランド",
+        "バーチャル★ハッピーランド",
+        "Virtual★Happy Land"
+      ],
+      "image": "https://t.vndb.org/cv/34/102734.jpg",
+      "subtitle": "CHARON / 株式会社ヤナセゲームズ",
+      "path": "works/v54533/"
+    },
+    {
+      "id": "v55541",
+      "type": "work",
+      "name": "躁のあなた鬱のあたし",
+      "aliases": [
+        "躁のあなた鬱のあたし",
+        "躁のあなた鬱のあたし",
+        "Sou no Anata, Utsu no Atashi",
+        "SouUtsu",
+        "Manic you and depressed me",
+        "Between Your Mania and My Depression｜The Manic You and the Melancholic Me"
+      ],
+      "image": "https://t.vndb.org/cv/86/106686.jpg",
+      "subtitle": "CHARON",
+      "path": "works/v55541/"
+    },
+    {
+      "id": "v55545",
+      "type": "work",
+      "name": "なぎさジャッジメント",
+      "aliases": [
+        "なぎさジャッジメント",
+        "なぎさジャッジメント",
+        "Nagisa Judgement"
+      ],
+      "image": null,
+      "subtitle": "CHARON",
+      "path": "works/v55545/"
+    },
+    {
+      "id": "v64078",
+      "type": "work",
+      "name": "春はあけぼの、我はバケモノ",
+      "aliases": [
+        "春はあけぼの、我はバケモノ",
+        "春はあけぼの、我はバケモノ",
+        "Haru wa Akebono, Ware wa Bakemono",
+        "Spring at Dawn, I Am a Monster."
+      ],
+      "image": "https://t.vndb.org/cv/87/131387.jpg",
+      "subtitle": "CHARON",
+      "path": "works/v64078/"
+    },
+    {
+      "id": "v547",
+      "type": "work",
+      "name": "染成茜色的坂道",
+      "aliases": [
+        "あかね色に染まる坂",
+        "染成茜色的坂道",
+        "あかね色に染まる坂",
+        "Akaneiro ni Somaru Saka",
+        "あか坂",
+        "AkaSaka",
+        "The Hills Dyed in Rose Madder"
+      ],
+      "image": "https://t.vndb.org/cv/02/88302.jpg",
+      "subtitle": "feng",
+      "path": "works/v547/"
+    },
+    {
+      "id": "v1073",
+      "type": "work",
+      "name": "望见青空之丘",
+      "aliases": [
+        "青空の見える丘",
+        "望见青空之丘",
+        "青空の見える丘",
+        "Aozora no Mieru Oka"
+      ],
+      "image": "https://t.vndb.org/cv/22/94422.jpg",
+      "subtitle": "feng",
+      "path": "works/v1073/"
+    },
+    {
+      "id": "v4421",
+      "type": "work",
+      "name": "すてぃーるMyはぁと～Rhapsody of moonlight～",
+      "aliases": [
+        "すてぃーるMyはぁと～Rhapsody of moonlight～",
+        "すてぃーるMyはぁと～Rhapsody of moonlight～",
+        "Steal My Heart ~Rhapsody of Moonlight~",
+        "すてぃ～るMyはぁと～Rhapsody of moonlight～",
+        "smh"
+      ],
+      "image": "https://t.vndb.org/cv/64/6764.jpg",
+      "subtitle": "ぱれっと",
+      "path": "works/v4421/"
+    },
+    {
+      "id": "v10304",
+      "type": "work",
+      "name": "恋花绽放樱飞时",
+      "aliases": [
+        "恋がさくころ桜どき",
+        "恋花绽放樱飞时",
+        "恋がさくころ桜どき",
+        "Koi ga Saku Koro Sakura Doki",
+        "Saku Saku: Love Blooms with the Cherry Blossoms",
+        "SakuSaku"
+      ],
+      "image": "https://t.vndb.org/cv/51/76551.jpg",
+      "subtitle": "ぱれっと",
+      "path": "works/v10304/"
+    },
+    {
+      "id": "v18526",
+      "type": "work",
+      "name": "月闇の魔神",
+      "aliases": [
+        "月闇の魔神",
+        "月闇の魔神",
+        "Tsukiyami no Majin"
+      ],
+      "image": null,
+      "subtitle": "MOON GODDESS",
+      "path": "works/v18526/"
+    },
+    {
+      "id": "v52407",
+      "type": "work",
+      "name": "as:9-nine- ARTEISIA",
+      "aliases": [
+        "as:9-nine- ARTEISIA",
+        "as:9-nine- ARTEISIA",
+        "アズナイン",
+        "Asnine"
+      ],
+      "image": "https://t.vndb.org/cv/91/122491.jpg",
+      "subtitle": "ぱれっと",
+      "path": "works/v52407/"
+    },
+    {
+      "id": "v18723",
+      "type": "work",
+      "name": "PURELY×CATION",
+      "aliases": [
+        "PURELY×CATION",
+        "PURELY×CATION",
+        "PURELY×CATION -Only one of the nostalgic youth-",
+        "ピュアリィケーション",
+        "ピュアリケ",
+        "PxC",
+        "PuxC"
+      ],
+      "image": "https://t.vndb.org/cv/69/99469.jpg",
+      "subtitle": "hibiki works",
+      "path": "works/v18723/"
+    },
+    {
+      "id": "v20085",
+      "type": "work",
+      "name": "まじかりて！",
+      "aliases": [
+        "まじかりて！",
+        "まじかりて！",
+        "Magicalite!"
+      ],
+      "image": "https://t.vndb.org/cv/82/50982.jpg",
+      "subtitle": "じっぱーそふと",
+      "path": "works/v20085/"
+    },
+    {
       "id": "s722",
       "type": "staff",
       "name": "こぶいち",
@@ -40454,6 +41372,39 @@
       "path": "staff/s48535/"
     },
     {
+      "id": "s2564",
+      "type": "staff",
+      "name": "和泉 つばす",
+      "aliases": [
+        "Izumi Tsubasu",
+        "和泉 つばす"
+      ],
+      "subtitle": "剧本作者 / 原画师",
+      "path": "staff/s2564/"
+    },
+    {
+      "id": "s11476",
+      "type": "staff",
+      "name": "とみおか",
+      "aliases": [
+        "Tomioka",
+        "とみおか"
+      ],
+      "subtitle": "剧本作者 / 原画师",
+      "path": "staff/s11476/"
+    },
+    {
+      "id": "s15257",
+      "type": "staff",
+      "name": "えんぎよし",
+      "aliases": [
+        "Engiyoshi",
+        "えんぎよし"
+      ],
+      "subtitle": "剧本作者 / 原画师",
+      "path": "staff/s15257/"
+    },
+    {
       "id": "p31674",
       "type": "producer",
       "name": "C#4R4CT3R",
@@ -40917,6 +41868,37 @@
       ],
       "subtitle": "制作商",
       "path": "producers/p31671/"
+    },
+    {
+      "id": "p27009",
+      "type": "producer",
+      "name": "土豆花制作组",
+      "aliases": [
+        "Tudou Hua Zhizuo Zu",
+        "土豆花制作组"
+      ],
+      "subtitle": "制作商",
+      "path": "producers/p27009/"
+    },
+    {
+      "id": "p31384",
+      "type": "producer",
+      "name": "catproblem9735",
+      "aliases": [
+        "catproblem9735"
+      ],
+      "subtitle": "制作商",
+      "path": "producers/p31384/"
+    },
+    {
+      "id": "p4855",
+      "type": "producer",
+      "name": "CHARON",
+      "aliases": [
+        "CHARON"
+      ],
+      "subtitle": "制作商",
+      "path": "producers/p4855/"
     }
   ]
 }
