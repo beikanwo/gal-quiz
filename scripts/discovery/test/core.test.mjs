@@ -109,6 +109,14 @@ test('first partial collection publishes only verified evidence; a later partial
   assert.equal(first.platforms.bilibili.lastSuccessAt, null);
   const old = {platforms:{bilibili:{periodId:'2026-10-17',status:'success',ranking:[],lastSuccessAt:'2026-10-17T00:00:00Z'}}};
   assert.equal(combinePeriod(period, {bilibili:partial},old).platforms.bilibili.periodId,'2026-10-17');
+  const fallback = {platforms:{bilibili:{...old.platforms.bilibili,status:'failed',lastSuccessAt:null}}};
+  const recovered = combinePeriod(period, {bilibili:partial},fallback).platforms.bilibili;
+  assert.equal(recovered.periodId,period.id);
+  assert.equal(recovered.status,'partial');
+  assert.equal(recovered.ranking.length,1);
+  assert.equal(combinePeriod(period, {bilibili:{...partial,records:[]}},fallback).platforms.bilibili.periodId,'2026-10-17');
+  fallback.platforms.bilibili.lastSuccessAt = fallback.platforms.bilibili.collectedAt = '2026-10-17T00:00:00Z';
+  assert.equal(combinePeriod(period, {bilibili:partial},fallback).platforms.bilibili.periodId,'2026-10-17');
 });
 test('unrated/explicit images never published; unknown spoiler state is folded', () => {
   const image = { id: 'sf1', url: 'https://t.vndb.org/sf/1.jpg', sexual: 0, violence: 0 };

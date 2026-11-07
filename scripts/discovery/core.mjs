@@ -102,12 +102,15 @@ export function combinePeriod(period, attempts, previous = null, minLikes = 1000
   const platforms = {};
   for (const name of PLATFORMS) {
     const attempt = attempts[name];
-    const currentPartial = attempt?.status === 'partial' && (!previous?.platforms?.[name]?.periodId || previous.platforms[name].periodId === period.id);
+    const old = previous?.platforms?.[name];
+    const evidence = dedupe(attempt?.records ?? []).filter((r) => r.platform === name && qualifies(r, period, minLikes) && r.workId);
+    // A fallback can be marked failed even when its retained snapshot was complete.
+    const oldComplete = old?.status === 'success' || Boolean(old?.lastSuccessAt && old.lastSuccessAt === old.collectedAt);
+    const currentPartial = attempt?.status === 'partial' &&
+      (!old?.periodId || old.periodId === period.id || (!oldComplete && evidence.length > 0));
     if (attempt?.status === 'success' || currentPartial) {
-      const evidence = dedupe(attempt.records ?? []).filter((r) => r.platform === name && qualifies(r, period, minLikes) && r.workId);
       platforms[name] = { status: attempt.status, periodId: period.id, start: period.start, end: period.end, minLikes, collectedAt: attempt.collectedAt, lastSuccessAt: attempt.status === 'success' ? attempt.collectedAt : previous?.platforms?.[name]?.lastSuccessAt ?? null, error: attempt.error ?? null, coverage: attempt.coverage ?? {}, ranking: rankEvidence(evidence) };
     } else {
-      const old = previous?.platforms?.[name];
       platforms[name] = { ...(old ?? { ranking: [], periodId: null, lastSuccessAt: null }), status: 'failed', attemptedAt: attempt?.collectedAt ?? new Date().toISOString(), error: attempt?.error ?? '尚未完成采集验证' };
     }
   }

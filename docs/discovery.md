@@ -72,7 +72,7 @@ GitHub Actions 工作流：`.github/workflows/discovery.yml`。
 
 首次启用：先完成一次 `publish`，确认报告和正式域名，再将 `config/discovery.json` 的 `scheduleEnabled` 改为 `true`。GitHub 的计划任务可能延迟；长期无仓库活动也可能被平台暂停。需要时可以手动运行。
 
-部分搜索词成功、部分受限时记为 `partial`，不视为完整采集。没有完整旧期时只展示已经核实的片段，并显示完成的搜索次数；有完整旧期时继续保留旧期。只有 `success` 才标记该平台本期已经完成，`partial` 和 `failed` 都会在下一次日常检查时重试。
+部分搜索词成功、部分受限时记为 `partial`。上一份快照也是部分采集时，本期有已核实的达标片段就展示本期，并标明搜索覆盖不足。保留旧期的条件是旧快照完整，或本次未获得可展示的片段。只有 `success` 才标记该平台本期已经完成。`partial` 和 `failed` 都会在下一次日常检查时重试。
 
 验证报告位于工作流的 **discovery-verification** Artifact，保留30天。报告只包含清理过的公开内容元数据、范围与状态，不包含 Cookie。平台搜索受排序、页数、网络和登录状态限制；成功不等于全平台全量覆盖。
 

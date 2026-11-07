@@ -10,14 +10,14 @@
       "minLikes": 500,
       "platforms": {
         "douyin": {
-          "status": "failed",
-          "periodId": "2026-11-01",
-          "start": "2026-10-16T16:00:00.000Z",
-          "end": "2026-10-31T16:00:00.000Z",
-          "minLikes": 1000,
-          "collectedAt": "2026-11-02T07:50:37.279Z",
+          "status": "partial",
+          "periodId": "2026-11-06",
+          "start": "2026-10-31T16:00:00.000Z",
+          "end": "2026-11-05T16:00:00.000Z",
+          "minLikes": 500,
+          "collectedAt": "2026-11-06T08:04:23.438Z",
           "lastSuccessAt": null,
-          "error": "抖音采集失败，可能需要有效 Cookie；请检查固定版本依赖与登录状态。",
+          "error": "本期仅完成部分搜索，以下只展示已经核实的片段。",
           "coverage": {
             "keywords": [
               "galgame",
@@ -33,323 +33,205 @@
               "galgame CG"
             ],
             "maxPagesPerQuery": 3,
-            "candidateCount": 133,
-            "qualifiedCount": 36
+            "candidateCount": 123,
+            "qualifiedCount": 24
           },
           "ranking": [
             {
-              "workId": "v22636",
-              "maxLikes": 72189,
-              "count": 2,
-              "evidence": [
-                {
-                  "platform": "douyin",
-                  "id": "7697946181153934633",
-                  "title": "Gal暗黑桃花源，一口气讲完乌有乡全剧情 #乌有乡 #galgame #单机游戏 #猎奇",
-                  "description": "",
-                  "tags": [
-                    "乌有乡",
-                    "galgame",
-                    "单机游戏",
-                    "猎奇"
-                  ],
-                  "kind": "video",
-                  "url": "https://www.douyin.com/video/7697946181153934633",
-                  "publishedAt": "2026-10-18T10:02:53+00:00",
-                  "likes": 72189,
-                  "collectedAt": "2026-11-01T15:20:34.648424+00:00",
-                  "keyword": "galgame",
-                  "workId": "v22636",
-                  "matchMethod": "explicit-title",
-                  "matchedNames": [
-                    "乌有乡"
-                  ]
-                },
-                {
-                  "platform": "douyin",
-                  "id": "7697564767979949355",
-                  "title": "让村子堕入黑暗的源头，乌有乡结局讲了什么内容？ #galgame #单机游戏 #乌有乡 #猎奇",
-                  "description": "",
-                  "tags": [
-                    "galgame",
-                    "单机游戏",
-                    "乌有乡",
-                    "猎奇"
-                  ],
-                  "kind": "video",
-                  "url": "https://www.douyin.com/video/7697564767979949355",
-                  "publishedAt": "2026-10-17T09:37:52+00:00",
-                  "likes": 7264,
-                  "collectedAt": "2026-11-01T14:44:48.397949+00:00",
-                  "keyword": "乌有乡",
-                  "workId": "v22636",
-                  "matchMethod": "explicit-title",
-                  "matchedNames": [
-                    "乌有乡"
-                  ]
-                }
-              ]
-            },
-            {
-              "workId": "v17",
-              "maxLikes": 8893,
+              "workId": "v69452",
+              "maxLikes": 33216,
               "count": 1,
               "evidence": [
                 {
                   "platform": "douyin",
-                  "id": "7700225841325673754",
-                  "title": "科幻悬疑神作Ever17，现在到底值不值得玩？ #galgame #二次元 #悬疑 #ever17 #推荐",
+                  "id": "7704267874738860648",
+                  "title": "陆君两年摸一剑的视觉小说即将登场 究竟是天才之作还是惊世粪作？\n即将揭晓！#二次元 #视觉小说 #桂冠之人 #特摄",
                   "description": "",
                   "tags": [
-                    "galgame",
                     "二次元",
-                    "悬疑",
-                    "ever17",
-                    "推荐"
-                  ],
-                  "kind": "video",
-                  "url": "https://www.douyin.com/video/7700225841325673754",
-                  "publishedAt": "2026-10-24T13:29:08+00:00",
-                  "likes": 8893,
-                  "collectedAt": "2026-11-02T07:44:44.350917+00:00",
-                  "keyword": "美少女游戏",
-                  "workId": "v17",
-                  "matchMethod": "explicit-title",
-                  "matchedNames": [
-                    "Ever17"
-                  ]
-                }
-              ]
-            },
-            {
-              "workId": "v18852",
-              "maxLikes": 8358,
-              "count": 2,
-              "evidence": [
-                {
-                  "platform": "douyin",
-                  "id": "7698046873894721498",
-                  "title": "“你现在  是什么颜色的呢”世上有一种罪  叫天津罪\n它不是人之罪  而是神之罪\n夺走他人拼命求生的意志与愿望  即使是全能的神\n也是一种罪过 \n#天津罪 #水无月萤 #galgame #二次元 #呀吼",
-                  "description": "",
-                  "tags": [
-                    "",
-                    "天津罪",
-                    "水无月萤",
-                    "galgame",
-                    "二次元",
-                    "呀吼"
-                  ],
-                  "kind": "image",
-                  "url": "https://www.douyin.com/note/7698046873894721498",
-                  "publishedAt": "2026-10-18T16:33:31+00:00",
-                  "likes": 8358,
-                  "collectedAt": "2026-11-01T14:45:53.983485+00:00",
-                  "keyword": "天津罪",
-                  "workId": "v18852",
-                  "matchMethod": "explicit-title",
-                  "matchedNames": [
-                    "天津罪"
-                  ]
-                },
-                {
-                  "platform": "douyin",
-                  "id": "7699131825469892713",
-                  "title": "有争议不代表剧情缺陷，而是引起了玩家共鸣 #galgame #紫社 #视觉小说 #杂谈 #天津罪",
-                  "description": "",
-                  "tags": [
-                    "galgame",
-                    "紫社",
                     "视觉小说",
-                    "杂谈",
-                    "天津罪"
+                    "桂冠之人",
+                    "特摄"
                   ],
                   "kind": "video",
-                  "url": "https://www.douyin.com/video/7699131825469892713",
-                  "publishedAt": "2026-10-21T14:43:39+00:00",
-                  "likes": 3872,
-                  "collectedAt": "2026-11-01T15:22:34.621881+00:00",
-                  "keyword": "galgame名场面",
-                  "workId": "v18852",
-                  "matchMethod": "explicit-title",
-                  "matchedNames": [
-                    "天津罪"
-                  ]
-                }
-              ]
-            },
-            {
-              "workId": "v21903",
-              "maxLikes": 7447,
-              "count": 1,
-              "evidence": [
-                {
-                  "platform": "douyin",
-                  "id": "7697576956288945314",
-                  "title": "gal推荐《尚有佳蜜伴恋心》 #galgame #galgame推荐 #游戏推荐 #萝莉 #尚有佳蜜伴恋心",
-                  "description": "",
-                  "tags": [
-                    "galgame",
-                    "galgame推荐",
-                    "游戏推荐",
-                    "萝莉",
-                    "尚有佳蜜伴恋心"
-                  ],
-                  "kind": "video",
-                  "url": "https://www.douyin.com/video/7697576956288945314",
-                  "publishedAt": "2026-10-17T10:09:58+00:00",
-                  "likes": 7447,
-                  "collectedAt": "2026-11-01T14:35:47.729970+00:00",
-                  "keyword": "gal游戏",
-                  "workId": "v21903",
-                  "matchMethod": "explicit-title",
-                  "matchedNames": [
-                    "尚有佳蜜伴恋心"
-                  ]
-                }
-              ]
-            },
-            {
-              "workId": "v53736",
-              "maxLikes": 6433,
-              "count": 1,
-              "evidence": [
-                {
-                  "platform": "douyin",
-                  "id": "7697509548005173745",
-                  "title": "非常好品的一部视觉小说。趁steam秋促终于入手了茧之锤，骨科非常美味😋\n文本含大量宗教文学，文风、画风和配乐都非常符合作品基调，30h+收集了全结局，甚至有把哥哥训成小狗的结局\n#视觉小说 #独立游戏 #女性向 #茧之锤",
-                  "description": "",
-                  "tags": [
-                    "",
-                    "",
-                    "视觉小说",
-                    "独立游戏",
-                    "女性向",
-                    "茧之锤"
-                  ],
-                  "kind": "image",
-                  "url": "https://www.douyin.com/note/7697509548005173745",
-                  "publishedAt": "2026-10-17T05:48:23+00:00",
-                  "likes": 6433,
-                  "collectedAt": "2026-11-01T14:36:32.192850+00:00",
+                  "url": "https://www.douyin.com/video/7704267874738860648",
+                  "publishedAt": "2026-11-04T10:54:08+00:00",
+                  "likes": 33216,
+                  "author": {
+                    "id": "2893532614886285",
+                    "name": "二次元陆君",
+                    "url": "https://www.douyin.com/user/MS4wLjABAAAAqXqcRXoGRl-HoTdBJk3e1n7MAt8l6oz3NeH0A9WxJCyW1ggp9k6NL7a5zltLBKJ8"
+                  },
+                  "durationSeconds": null,
+                  "metrics": {
+                    "favorites": 1022,
+                    "comments": 1729,
+                    "shares": 2546,
+                    "views": null,
+                    "coins": null
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "unsupported",
+                    "coins": "unsupported"
+                  },
+                  "collectedAt": "2026-11-06T07:59:47.157318+00:00",
                   "keyword": "视觉小说",
-                  "workId": "v53736",
+                  "workId": "v69452",
                   "matchMethod": "explicit-title",
                   "matchedNames": [
-                    "茧之锤"
+                    "桂冠之人"
                   ]
                 }
               ]
             },
             {
-              "workId": "v19073",
-              "maxLikes": 4267,
+              "workId": "v16044",
+              "maxLikes": 11581,
               "count": 1,
               "evidence": [
                 {
                   "platform": "douyin",
-                  "id": "7697494346581013115",
-                  "title": "能否回到2025年的那个夏天#galgame #千恋万花  #丛雨 #常陆茉子 #galgame进行曲",
+                  "id": "7704440789804304539",
+                  "title": "好过分..明明是你弄哭我的 #绫地宁宁 #魔女的夜宴 #galgame",
                   "description": "",
                   "tags": [
-                    "galgame",
-                    "千恋万花",
-                    "丛雨",
-                    "常陆茉子",
-                    "galgame进行曲"
+                    "绫地宁宁",
+                    "魔女的夜宴",
+                    "galgame"
                   ],
                   "kind": "video",
-                  "url": "https://www.douyin.com/video/7697494346581013115",
-                  "publishedAt": "2026-10-17T04:49:23+00:00",
-                  "likes": 4267,
-                  "collectedAt": "2026-11-01T15:27:02.665608+00:00",
-                  "keyword": "千恋万花",
-                  "workId": "v19073",
+                  "url": "https://www.douyin.com/video/7704440789804304539",
+                  "publishedAt": "2026-11-05T04:00:00+00:00",
+                  "likes": 11581,
+                  "author": {
+                    "id": "63914179980",
+                    "name": "幺梨梨86",
+                    "url": "https://www.douyin.com/user/MS4wLjABAAAAjdAtXhG9Or0LrpPF1Z0OIyEDqBn1Zm7M2ixsNbyjZYg"
+                  },
+                  "durationSeconds": null,
+                  "metrics": {
+                    "favorites": 1940,
+                    "comments": 77,
+                    "shares": 388,
+                    "views": null,
+                    "coins": null
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "unsupported",
+                    "coins": "unsupported"
+                  },
+                  "collectedAt": "2026-11-06T07:58:55.344852+00:00",
+                  "keyword": "gal游戏",
+                  "workId": "v16044",
                   "matchMethod": "explicit-title",
                   "matchedNames": [
-                    "千恋＊万花",
-                    "千恋万花"
+                    "魔女的夜宴"
                   ]
                 }
               ]
             },
             {
-              "workId": "v10680",
-              "maxLikes": 2813,
-              "count": 2,
+              "workId": "v2285",
+              "maxLikes": 5515,
+              "count": 1,
               "evidence": [
                 {
                   "platform": "douyin",
-                  "id": "7699026715166788879",
-                  "title": "连续三年投票第一，官方为她发明了退役规则｜樱小路露娜 《近月少女的礼仪》樱小路露娜，Getchu 美少女游戏大赏史上第一位三连冠殿堂入り。本期从官方三届获奖感言讲到她被家族软禁的出生、家庭教师的背叛，和她把人生一寸寸赎回来的故事。画面、配音、字幕与剪辑含 AI 辅助制作。#樱小路露娜 #近月少女的礼仪 #Galgame #视觉小说 #Navel",
+                  "id": "7703104071817257595",
+                  "title": "我不愿再失去任何东西了…#galgame推荐 #中二社 #eden #游戏推荐 #galgame",
                   "description": "",
                   "tags": [
-                    "樱小路露娜",
-                    "近月少女的礼仪",
-                    "Galgame",
-                    "视觉小说",
-                    "Navel"
+                    "galgame推荐",
+                    "中二社",
+                    "eden",
+                    "游戏推荐",
+                    "galgame"
                   ],
                   "kind": "video",
-                  "url": "https://www.douyin.com/video/7699026715166788879",
-                  "publishedAt": "2026-10-21T07:55:51+00:00",
-                  "likes": 2813,
-                  "collectedAt": "2026-11-01T15:27:29.900435+00:00",
-                  "keyword": "近月少女的礼仪",
-                  "workId": "v10680",
+                  "url": "https://www.douyin.com/video/7703104071817257595",
+                  "publishedAt": "2026-11-01T07:37:59+00:00",
+                  "likes": 5515,
+                  "author": {
+                    "id": "4037050852718766",
+                    "name": "真昼天下第一",
+                    "url": "https://www.douyin.com/user/MS4wLjABAAAAYYMIAz-Jc3KYSk0_FhV0yJyJnR4-Ewb-XENlXmObHQePN82-EyF7NTgh9tDHeMLG"
+                  },
+                  "durationSeconds": null,
+                  "metrics": {
+                    "favorites": 1120,
+                    "comments": 143,
+                    "shares": 451,
+                    "views": null,
+                    "coins": null
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "unsupported",
+                    "coins": "unsupported"
+                  },
+                  "collectedAt": "2026-11-06T07:59:10.870878+00:00",
+                  "keyword": "美少女游戏",
+                  "workId": "v2285",
                   "matchMethod": "explicit-title",
                   "matchedNames": [
-                    "近月少女的礼仪"
-                  ]
-                },
-                {
-                  "platform": "douyin",
-                  "id": "7697998948677537033",
-                  "title": "输给人气投票的妹妹，官方把她的怪叫感言挂上了榜单 2013年 Getchu 角色投票中，她输给了同作配角露娜，获得第三名；官方把她的落选感言原文挂上榜单，通篇怪叫。续作从 Bad End 接起，让她成为第一女主角；官方广播剧标题也在玩“不让里想奈咕奴奴”。部分使用 AI 辅助制作。#近月少女的礼仪 #少女理论 #大藏里想奈 #Galgame #作品杂谈",
-                  "description": "",
-                  "tags": [
-                    "近月少女的礼仪",
-                    "少女理论",
-                    "大藏里想奈",
-                    "Galgame",
-                    "作品杂谈"
-                  ],
-                  "kind": "video",
-                  "url": "https://www.douyin.com/video/7697998948677537033",
-                  "publishedAt": "2026-10-18T13:27:37+00:00",
-                  "likes": 1342,
-                  "collectedAt": "2026-11-01T15:27:29.900501+00:00",
-                  "keyword": "近月少女的礼仪",
-                  "workId": "v10680",
-                  "matchMethod": "explicit-title",
-                  "matchedNames": [
-                    "近月少女的礼仪"
+                    "Eden"
                   ]
                 }
               ]
             },
             {
               "workId": "v2002",
-              "maxLikes": 2770,
+              "maxLikes": 2834,
               "count": 1,
               "evidence": [
                 {
                   "platform": "douyin",
-                  "id": "7697585830600166697",
-                  "title": "轮回系galgame推荐 #galgame #二次元 #推荐 #命运石之门 #轮回",
+                  "id": "7703269776990201295",
+                  "title": "Galgame推荐。哪些是你认为此生必玩的作品？\n#游戏时长统计 #命运石之门 #Galgame #单机游戏 #steam游戏",
                   "description": "",
                   "tags": [
-                    "galgame",
-                    "二次元",
-                    "推荐",
+                    "",
+                    "",
+                    "游戏时长统计",
                     "命运石之门",
-                    "轮回"
+                    "galgame",
+                    "单机游戏",
+                    "steam游戏"
                   ],
-                  "kind": "video",
-                  "url": "https://www.douyin.com/video/7697585830600166697",
-                  "publishedAt": "2026-10-17T10:44:29+00:00",
-                  "likes": 2770,
-                  "collectedAt": "2026-11-01T15:25:46.216062+00:00",
-                  "keyword": "命运石之门",
+                  "kind": "image",
+                  "url": "https://www.douyin.com/note/7703269776990201295",
+                  "publishedAt": "2026-11-01T18:21:03+00:00",
+                  "likes": 2834,
+                  "author": {
+                    "id": "2381986229922928",
+                    "name": "鬼神",
+                    "url": "https://www.douyin.com/user/MS4wLjABAAAA0uQKYmFsHF9CeKb3RovjdwC2Qk1z4gtJa7VCQw3ihdbNd-pWwaeGQ6X5j294mk3i"
+                  },
+                  "durationSeconds": null,
+                  "metrics": {
+                    "favorites": 1324,
+                    "comments": 180,
+                    "shares": 547,
+                    "views": null,
+                    "coins": null
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "unsupported",
+                    "coins": "unsupported"
+                  },
+                  "collectedAt": "2026-11-06T07:58:36.834925+00:00",
+                  "keyword": "galgame",
                   "workId": "v2002",
                   "matchMethod": "explicit-title",
                   "matchedNames": [
@@ -359,79 +241,366 @@
               ]
             },
             {
-              "workId": "v1143",
-              "maxLikes": 2231,
+              "workId": "v19513",
+              "maxLikes": 2301,
               "count": 1,
               "evidence": [
                 {
                   "platform": "douyin",
-                  "id": "7702682821198754278",
-                  "title": "最强群像恋爱游戏《请认真和我谈恋爱》 #galgame #请认真和我谈恋爱 #恋爱游戏 #游戏解说 #gal",
+                  "id": "7704696011432361600",
+                  "title": "gal推荐《生命的备件》 #galgame #galgame推荐 #游戏推荐 #生命的备件 #催泪",
                   "description": "",
                   "tags": [
                     "galgame",
-                    "请认真和我谈恋爱",
-                    "恋爱游戏",
-                    "游戏解说",
-                    "gal"
+                    "galgame推荐",
+                    "游戏推荐",
+                    "生命的备件",
+                    "催泪"
                   ],
                   "kind": "video",
-                  "url": "https://www.douyin.com/video/7702682821198754278",
-                  "publishedAt": "2026-10-31T04:23:19+00:00",
-                  "likes": 2231,
-                  "collectedAt": "2026-11-02T07:44:12.272362+00:00",
-                  "keyword": "gal游戏",
-                  "workId": "v1143",
+                  "url": "https://www.douyin.com/video/7704696011432361600",
+                  "publishedAt": "2026-11-05T14:35:32+00:00",
+                  "likes": 2301,
+                  "author": {
+                    "id": "7665231454536582201",
+                    "name": "推晃悠的心事",
+                    "url": "https://www.douyin.com/user/MS4wLjABAAAAMG6P36tEXCKn-Fkq4buEseWC9lnubkR9AoudrkwgKuUem8i0HjNQo2IXkVEuqZny"
+                  },
+                  "durationSeconds": null,
+                  "metrics": {
+                    "favorites": 562,
+                    "comments": 54,
+                    "shares": 338,
+                    "views": null,
+                    "coins": null
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "unsupported",
+                    "coins": "unsupported"
+                  },
+                  "collectedAt": "2026-11-06T08:00:38.713767+00:00",
+                  "keyword": "galgame名场面",
+                  "workId": "v19513",
                   "matchMethod": "explicit-title",
                   "matchedNames": [
-                    "认真和我谈恋爱！！"
+                    "生命的备件"
                   ]
                 }
               ]
             },
             {
-              "workId": "v69315",
-              "maxLikes": 1271,
+              "workId": "v515",
+              "maxLikes": 1707,
               "count": 1,
               "evidence": [
                 {
                   "platform": "douyin",
-                  "id": "7700644152693837056",
-                  "title": "这可能是近年最佳的\"视觉小说\" #视觉小说 #galgame #千禧年 #rain98",
+                  "id": "7704157368889138021",
+                  "title": "就算只是一夜的风花雪月……#恋狱月狂病 #ig社 #innocentgrey #雨宫初音 #galgame",
+                  "description": "",
+                  "tags": [
+                    "",
+                    "ig社",
+                    "innocentgrey",
+                    "雨宫初音",
+                    "galgame"
+                  ],
+                  "kind": "image",
+                  "url": "https://www.douyin.com/note/7704157368889138021",
+                  "publishedAt": "2026-11-04T03:45:19+00:00",
+                  "likes": 1707,
+                  "author": {
+                    "id": "2701912841398027",
+                    "name": "心像",
+                    "url": "https://www.douyin.com/user/MS4wLjABAAAAJ-TQw4Id4daxIKBDoVt20X4IgU1RyELG9tafNEklU-AGs5vN0xfb3MB5T3zIv2tF"
+                  },
+                  "durationSeconds": null,
+                  "metrics": {
+                    "favorites": 201,
+                    "comments": 54,
+                    "shares": 157,
+                    "views": null,
+                    "coins": null
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "unsupported",
+                    "coins": "unsupported"
+                  },
+                  "collectedAt": "2026-11-06T07:58:55.344904+00:00",
+                  "keyword": "gal游戏",
+                  "workId": "v515",
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "恋狱～月狂病～"
+                  ]
+                }
+              ]
+            },
+            {
+              "workId": "v21289",
+              "maxLikes": 1571,
+              "count": 2,
+              "evidence": [
+                {
+                  "platform": "douyin",
+                  "id": "7703142635984129331",
+                  "title": "现实版狼人杀有多上头？聊聊《人狼村之谜》 #视觉小说 #人狼村之谜 #杂谈  #悬疑 #民俗",
                   "description": "",
                   "tags": [
                     "视觉小说",
-                    "galgame",
-                    "千禧年",
-                    "rain98"
+                    "人狼村之谜",
+                    "杂谈",
+                    "悬疑",
+                    "民俗"
                   ],
                   "kind": "video",
-                  "url": "https://www.douyin.com/video/7700644152693837056",
-                  "publishedAt": "2026-10-25T16:32:27+00:00",
-                  "likes": 1271,
-                  "collectedAt": "2026-11-02T07:45:01.599979+00:00",
+                  "url": "https://www.douyin.com/video/7703142635984129331",
+                  "publishedAt": "2026-11-01T10:07:45+00:00",
+                  "likes": 1571,
+                  "author": {
+                    "id": "4372071538242152",
+                    "name": "只是小丑好吧",
+                    "url": "https://www.douyin.com/user/MS4wLjABAAAAPXxfGe5AioV620xxCzpmS-rfTiA8xpHDf2AthN1_pewaR-huqoPdf3JVMORL0zJX"
+                  },
+                  "durationSeconds": null,
+                  "metrics": {
+                    "favorites": 241,
+                    "comments": 48,
+                    "shares": 261,
+                    "views": null,
+                    "coins": null
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "unsupported",
+                    "coins": "unsupported"
+                  },
+                  "collectedAt": "2026-11-06T07:59:47.157361+00:00",
                   "keyword": "视觉小说",
-                  "workId": "v69315",
+                  "workId": "v21289",
                   "matchMethod": "explicit-title",
                   "matchedNames": [
-                    "Rain98"
+                    "人狼村之谜"
+                  ]
+                },
+                {
+                  "platform": "douyin",
+                  "id": "7702762141337570611",
+                  "title": "轮回悬疑神作#Galgame #galgame推荐 #人狼村之谜 #悬疑",
+                  "description": "",
+                  "tags": [
+                    "Galgame",
+                    "galgame推荐",
+                    "人狼村之谜",
+                    "悬疑"
+                  ],
+                  "kind": "video",
+                  "url": "https://www.douyin.com/video/7702762141337570611",
+                  "publishedAt": "2026-11-03T09:00:00+00:00",
+                  "likes": 617,
+                  "author": {
+                    "id": "2367666037459844",
+                    "name": "罪恋Zolny",
+                    "url": "https://www.douyin.com/user/MS4wLjABAAAAd5I4EGpSlTZQE1wQGaiFbzOt0_D69md3-EVfvUybbmT8ILTkdKQv975gz7MHu4fS"
+                  },
+                  "durationSeconds": null,
+                  "metrics": {
+                    "favorites": 109,
+                    "comments": 27,
+                    "shares": 116,
+                    "views": null,
+                    "coins": null
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "unsupported",
+                    "coins": "unsupported"
+                  },
+                  "collectedAt": "2026-11-06T08:00:38.713851+00:00",
+                  "keyword": "galgame名场面",
+                  "workId": "v21289",
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "人狼村之谜"
+                  ]
+                }
+              ]
+            },
+            {
+              "workId": "v1282",
+              "maxLikes": 1305,
+              "count": 1,
+              "evidence": [
+                {
+                  "platform": "douyin",
+                  "id": "7704323845049755210",
+                  "title": "躺在被窝玩好舒服好喜欢狗男。#古早#乙女游戏 #月下绮谭",
+                  "description": "",
+                  "tags": [
+                    "",
+                    "",
+                    "古早",
+                    "乙女游戏",
+                    "月下绮谭"
+                  ],
+                  "kind": "image",
+                  "url": "https://www.douyin.com/note/7704323845049755210",
+                  "publishedAt": "2026-11-04T14:31:20+00:00",
+                  "likes": 1305,
+                  "author": {
+                    "id": "1901528347850297",
+                    "name": "最爱芭菲男",
+                    "url": "https://www.douyin.com/user/MS4wLjABAAAAMFXMdV9-kCPWzjmU3mColSGlkJzX74f-DaRV9yJPGBLSimCyqc_xuYTc8e_el--F"
+                  },
+                  "durationSeconds": null,
+                  "metrics": {
+                    "favorites": 141,
+                    "comments": 18,
+                    "shares": 79,
+                    "views": null,
+                    "coins": null
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "unsupported",
+                    "coins": "unsupported"
+                  },
+                  "collectedAt": "2026-11-06T07:59:10.870829+00:00",
+                  "keyword": "美少女游戏",
+                  "workId": "v1282",
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "月下绮谭"
+                  ]
+                }
+              ]
+            },
+            {
+              "workId": "v917",
+              "maxLikes": 1154,
+              "count": 1,
+              "evidence": [
+                {
+                  "platform": "douyin",
+                  "id": "7702889541259369846",
+                  "title": "百合gal最长的河。#花吻在上  #galgame#百合#游戏",
+                  "description": "",
+                  "tags": [
+                    "",
+                    "",
+                    "花吻在上",
+                    "galgame",
+                    "百合",
+                    "游戏"
+                  ],
+                  "kind": "image",
+                  "url": "https://www.douyin.com/note/7702889541259369846",
+                  "publishedAt": "2026-10-31T17:45:30+00:00",
+                  "likes": 1154,
+                  "author": {
+                    "id": "3735514600714100",
+                    "name": "就一予",
+                    "url": "https://www.douyin.com/user/MS4wLjABAAAA_5nTH_6Fqva5zDTPcvcjjJpVZu84xvKZWKxQ5MHkfIj4AzxAviQnjEns3cKeij9E"
+                  },
+                  "durationSeconds": null,
+                  "metrics": {
+                    "favorites": 154,
+                    "comments": 70,
+                    "shares": 151,
+                    "views": null,
+                    "coins": null
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "unsupported",
+                    "coins": "unsupported"
+                  },
+                  "collectedAt": "2026-11-06T07:59:10.870887+00:00",
+                  "keyword": "美少女游戏",
+                  "workId": "v917",
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "花吻在上"
+                  ]
+                }
+              ]
+            },
+            {
+              "workId": "v240",
+              "maxLikes": 1107,
+              "count": 1,
+              "evidence": [
+                {
+                  "platform": "douyin",
+                  "id": "7704339271122017961",
+                  "title": "二十五年岁月流转，同一轮仓木山的明月，两种截然不同的美学表达\n#galgame #无颜之月 #仓木铃菜 #仓木水菜 #无颜之月重制版",
+                  "description": "",
+                  "tags": [
+                    "galgame",
+                    "无颜之月",
+                    "仓木铃菜",
+                    "仓木水菜",
+                    "无颜之月重制版"
+                  ],
+                  "kind": "image",
+                  "url": "https://www.douyin.com/note/7704339271122017961",
+                  "publishedAt": "2026-11-04T15:31:13+00:00",
+                  "likes": 1107,
+                  "author": {
+                    "id": "60484145395",
+                    "name": "自私自利自我",
+                    "url": "https://www.douyin.com/user/MS4wLjABAAAAa6RN5iFaLVAbf_ABZv1c80ROYoe2-olZEz5h8eeK4I0"
+                  },
+                  "durationSeconds": null,
+                  "metrics": {
+                    "favorites": 258,
+                    "comments": 32,
+                    "shares": 322,
+                    "views": null,
+                    "coins": null
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "unsupported",
+                    "coins": "unsupported"
+                  },
+                  "collectedAt": "2026-11-06T07:58:36.834855+00:00",
+                  "keyword": "galgame",
+                  "workId": "v240",
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "无颜之月"
                   ]
                 }
               ]
             }
-          ],
-          "identityReviewedAt": "2026-11-02T09:18:45.641Z",
-          "attemptedAt": "2026-11-06T08:04:23.438Z"
+          ]
         },
         "bilibili": {
-          "status": "failed",
-          "periodId": "2026-11-01",
-          "start": "2026-10-16T16:00:00.000Z",
-          "end": "2026-10-31T16:00:00.000Z",
-          "minLikes": 1000,
-          "collectedAt": "2026-11-02T08:00:35.270Z",
+          "status": "partial",
+          "periodId": "2026-11-06",
+          "start": "2026-10-31T16:00:00.000Z",
+          "end": "2026-11-05T16:00:00.000Z",
+          "minLikes": 500,
+          "collectedAt": "2026-11-06T08:20:24.996Z",
           "lastSuccessAt": null,
-          "error": "尚未完成采集验证",
+          "error": "本期仅完成部分搜索，以下只展示已经核实的片段。",
           "coverage": {
             "keywords": [
               "galgame",
@@ -441,40 +610,77 @@
               "galgame CG",
               "galgame名场面"
             ],
-            "queries": 6,
-            "pages": 16,
+            "queries": 33,
+            "pages": 53,
             "failedQueries": [
-              "galgame名场面"
+              "galgame CG",
+              "galgame名场面",
+              "樱之刻",
+              "CLANNAD",
+              "ATRI",
+              "近月少女的礼仪",
+              "苍之彼方的四重奏",
+              "缘之空",
+              "恋爱绮谭",
+              "恋爱借贷",
+              "恋爱我就借走了",
+              "恋爱喜剧突转",
+              "二人终末论",
+              "星空列车与白的旅行",
+              "星之终途"
             ],
             "maxPagesPerQuery": 3,
-            "candidateCount": 275,
-            "qualifiedCount": 143
+            "candidateCount": 705,
+            "qualifiedCount": 68
           },
           "ranking": [
             {
               "workId": "v69315",
-              "maxLikes": 20728,
-              "count": 6,
+              "maxLikes": 11917,
+              "count": 2,
               "evidence": [
                 {
                   "platform": "bilibili",
-                  "id": "BV1RjJ96fE1C",
-                  "title": "浪漫惊悚文字冒险《Rain98》第二支PV公开！Demo现已上线Steam！",
-                  "description": "1998年，东京。\n一间阴郁的小公寓，一位神秘的少女，还有一场让世界步入灭亡的奇妙仪式。\n你将与雨原玲奈（CV：土屋李央）共同生活，在充盈着Lo-Fi气息的日常中，一步步走近她的秘密。\n她散发着危险的气息，却又让人难以移开目光。\n这场看似普通的同居生活，最终会将你和玲奈带向何处？\n\nDemo现已开放试玩：\nhttps://store.steampowered.com/app/3738760/Rain98_Demo/\n官方玩家QQ群：\n1109834990",
+                  "id": "BV1DYxb6YEtm",
+                  "title": "“在雨中跳着失真的舞”",
+                  "description": "电视机雪花屏，千禧年的雨下个不停。\n玲奈的笔记，未麻的卧室，电次的梦，真嗣等待的列车…\n所有的脸都在失真中融化。\n别去修补这盘坏掉的录像带。\n就让我们死在这个电子旧梦里。",
                   "tags": [
-                    "PV",
                     "雨原玲奈",
                     "Rain98",
-                    "我在B站做游戏",
-                    "Lo-Fi",
-                    "demo",
+                    "影视神仙剪刀手",
+                    "电锯人",
+                    "梦核",
+                    "Lo-fi",
+                    "影视剪辑",
+                    "游戏",
                     "steam",
-                    "心理恐怖"
+                    "千禧年"
                   ],
-                  "url": "https://www.bilibili.com/video/BV1RjJ96fE1C",
-                  "publishedAt": "2026-10-16T16:30:00.000Z",
-                  "likes": 20728,
-                  "collectedAt": "2026-11-01T15:10:17.628Z",
+                  "url": "https://www.bilibili.com/video/BV1DYxb6YEtm",
+                  "publishedAt": "2026-11-02T04:00:00.000Z",
+                  "likes": 11917,
+                  "kind": "video",
+                  "durationSeconds": 73,
+                  "author": {
+                    "id": "33159593",
+                    "name": "努力の巳宝宝",
+                    "url": "https://space.bilibili.com/33159593"
+                  },
+                  "metrics": {
+                    "favorites": 6491,
+                    "comments": 220,
+                    "shares": 284,
+                    "views": 82862,
+                    "coins": 2346
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "available",
+                    "coins": "available"
+                  },
+                  "collectedAt": "2026-11-06T08:20:22.263Z",
                   "keyword": "Rain98",
                   "workId": "v69315",
                   "matchMethod": "explicit-title",
@@ -484,127 +690,47 @@
                 },
                 {
                   "platform": "bilibili",
-                  "id": "BV1Jhnb6TEkc",
-                  "title": "回到1998和美少女毁灭世界？！《Rain98》究竟讲了什么故事？",
-                  "description": "《Rain98》\n爆肝 7000字\n24分钟一口气带你看完全剧情\n爆肝不易跪求三连!~",
+                  "id": "BV1vP4V6wEX7",
+                  "title": "寄宿在美少女家，与她同居世界将迎来毁灭，你会如何抉择？",
+                  "description": "果然日系的阴湿感还是更有那味",
                   "tags": [
-                    "雨原玲奈",
                     "游戏杂谈",
-                    "单机游戏",
                     "美少女",
-                    "Rain98",
-                    "steam",
-                    "推荐宝藏游戏",
-                    "Lo-Fi",
-                    "文字冒险游戏",
-                    "游戏剧情"
+                    "世界",
+                    "搞笑",
+                    "少女",
+                    "#雨原玲奈",
+                    "#rain98",
+                    "#Lo-fi",
+                    "隐紫",
+                    "#steam"
                   ],
-                  "url": "https://www.bilibili.com/video/BV1Jhnb6TEkc",
-                  "publishedAt": "2026-10-23T10:00:00.000Z",
-                  "likes": 14564,
-                  "collectedAt": "2026-11-02T07:52:44.062Z",
-                  "keyword": "美少女游戏",
-                  "workId": "v69315",
-                  "matchMethod": "explicit-title",
-                  "matchedNames": [
-                    "Rain98"
-                  ]
-                },
-                {
-                  "platform": "bilibili",
-                  "id": "BV1mgnL6VEWA",
-                  "title": "【补档】千万别玩《Rain98》！！！",
-                  "description": "游戏名：《Rain98》\n英文名：《Rain98》\n游戏简介：\n东京，1998。不肯停息的落雨，寻求灭亡的少女。几个离群无依的年轻人，将作出左右世界的选择。\n\n系统需求\n最低配置:\n操作系统: Windows® 10\n处理器: Intel Core i3\n显卡: Intel HD Graphics 4000\n存储空间: 需要 2 GB 可用空间\n支持 VR: 未対応\n推荐配置:\n操作系统: Windows® 10\n处理器: Intel Core i7\n显卡: NVIDIA GeForce GTX 1060\n存储空间: 需要 4 GB 可用空间\n支持 VR: 未対応",
-                  "tags": [
-                    "Rain98",
-                    "把兴趣玩出名堂",
-                    "游戏杂谈",
-                    "STEAM"
-                  ],
-                  "url": "https://www.bilibili.com/video/BV1mgnL6VEWA",
-                  "publishedAt": "2026-10-19T02:30:00.000Z",
-                  "likes": 6746,
-                  "collectedAt": "2026-11-01T15:10:18.736Z",
+                  "url": "https://www.bilibili.com/video/BV1vP4V6wEX7",
+                  "publishedAt": "2026-11-03T11:57:45.000Z",
+                  "likes": 3445,
+                  "kind": "video",
+                  "durationSeconds": 310,
+                  "author": {
+                    "id": "3151252",
+                    "name": "隐紫大人不会吐槽",
+                    "url": "https://space.bilibili.com/3151252"
+                  },
+                  "metrics": {
+                    "favorites": 3178,
+                    "comments": 41,
+                    "shares": 6,
+                    "views": 128636,
+                    "coins": 1945
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "available",
+                    "coins": "available"
+                  },
+                  "collectedAt": "2026-11-06T08:20:20.975Z",
                   "keyword": "Rain98",
-                  "workId": "v69315",
-                  "matchMethod": "explicit-title",
-                  "matchedNames": [
-                    "Rain98"
-                  ]
-                },
-                {
-                  "platform": "bilibili",
-                  "id": "BV1QRxC6yEot",
-                  "title": "回到1998 与少女一起毁灭世界《Rain98》Demo的故事",
-                  "description": "喜欢视频的小伙伴记得三连关注支持一下，谢谢啦！",
-                  "tags": [
-                    "雨原玲奈",
-                    "Rain98",
-                    "Lo-fi",
-                    "steam",
-                    "剧情解说",
-                    "单机游戏",
-                    "剧情"
-                  ],
-                  "url": "https://www.bilibili.com/video/BV1QRxC6yEot",
-                  "publishedAt": "2026-10-31T09:00:00.000Z",
-                  "likes": 5888,
-                  "collectedAt": "2026-11-01T15:10:20.997Z",
-                  "keyword": "Rain98",
-                  "workId": "v69315",
-                  "matchMethod": "explicit-title",
-                  "matchedNames": [
-                    "Rain98"
-                  ]
-                },
-                {
-                  "platform": "bilibili",
-                  "id": "BV14nnh6QEog",
-                  "title": "taffy要摸脚🦶",
-                  "description": "-",
-                  "tags": [
-                    "游戏实况",
-                    "雨原玲奈",
-                    "剧情",
-                    "世界末日",
-                    "rain98",
-                    "永雏塔菲",
-                    "Lo-fi",
-                    "demo",
-                    "steam",
-                    "galgame"
-                  ],
-                  "url": "https://www.bilibili.com/video/BV14nnh6QEog",
-                  "publishedAt": "2026-10-23T11:19:34.000Z",
-                  "likes": 5254,
-                  "collectedAt": "2026-11-02T07:51:54.615Z",
-                  "keyword": "gal游戏",
-                  "workId": "v69315",
-                  "matchMethod": "explicit-title",
-                  "matchedNames": [
-                    "Rain98"
-                  ]
-                },
-                {
-                  "platform": "bilibili",
-                  "id": "BV1tLJR6JEFM",
-                  "title": "史上最惊悚浪漫的灭世仪式！与诡异少女的同居生活《Rain98》",
-                  "description": "相关游戏：《Rain98》",
-                  "tags": [
-                    "游戏杂谈",
-                    "独立游戏",
-                    "steam",
-                    "单机游戏",
-                    "rain98",
-                    "推荐宝藏游戏",
-                    "游戏鉴赏家",
-                    "视觉小说"
-                  ],
-                  "url": "https://www.bilibili.com/video/BV1tLJR6JEFM",
-                  "publishedAt": "2026-10-20T03:50:00.000Z",
-                  "likes": 4750,
-                  "collectedAt": "2026-11-02T07:53:48.371Z",
-                  "keyword": "视觉小说",
                   "workId": "v69315",
                   "matchMethod": "explicit-title",
                   "matchedNames": [
@@ -614,234 +740,111 @@
               ]
             },
             {
-              "workId": "v61460",
-              "maxLikes": 10095,
+              "workId": "v62906",
+              "maxLikes": 1467,
               "count": 1,
               "evidence": [
                 {
                   "platform": "bilibili",
-                  "id": "BV1Ypnz6pE7B",
-                  "title": "若世界只剩下你我，便不再有苦痛...蔷薇向视觉小说《二人终末论》",
-                  "description": "汉化老师@蓝色沸点康主义  非常感谢",
+                  "id": "BV1FfxH6YEDm",
+                  "title": "“如果您不是萝莉控，那肯定是位艺术家。”【Galgame《花鸟水月》试玩】",
+                  "description": "出处：Steam游戏《花鸟水月》\n已在Steam发布试玩demo，欢迎大家来玩！\nhttps://store.steampowered.com/app/4660800/_/\n※配音\n芙洛（金发少女）：@忆辰Rebacca  \n感谢老师的配音~",
                   "tags": [
-                    "冷门",
-                    "独立游戏",
-                    "游戏实况",
-                    "剧情",
-                    "实况解说",
-                    "电子榨菜",
-                    "蔷薇向",
+                    "Steam",
+                    "游戏试玩",
+                    "GAL",
+                    "可爱",
+                    "大小姐",
+                    "萝莉"
+                  ],
+                  "url": "https://www.bilibili.com/video/BV1FfxH6YEDm",
+                  "publishedAt": "2026-11-01T02:00:00.000Z",
+                  "likes": 1467,
+                  "kind": "video",
+                  "durationSeconds": 129,
+                  "author": {
+                    "id": "3690990835599915",
+                    "name": "Pygma山鬼工坊",
+                    "url": "https://space.bilibili.com/3690990835599915"
+                  },
+                  "metrics": {
+                    "favorites": 1571,
+                    "comments": 106,
+                    "shares": 231,
+                    "views": 26032,
+                    "coins": 103
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "available",
+                    "coins": "available"
+                  },
+                  "collectedAt": "2026-11-06T08:20:04.012Z",
+                  "keyword": "花鸟水月",
+                  "workId": "v62906",
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "花鸟水月"
+                  ]
+                }
+              ]
+            },
+            {
+              "workId": "v69936",
+              "maxLikes": 873,
+              "count": 1,
+              "evidence": [
+                {
+                  "platform": "bilibili",
+                  "id": "BV11g486wEeQ",
+                  "title": "国GAL新作《对我而言》pv公布",
+                  "description": "“对我而言，哥哥就是我最爱的哥哥”\n《对我而言》PV公开\n\n新团队好活游戏制作，村里的第一个中专辍学生来了。\n欢迎支持摩点众筹： https://zhongchou.modian.com/item/160607.html\nsteam试玩demo已经上线： https://store.steampowered.com/app/4524870\n\n游戏将于2027年大年三十推出",
+                  "tags": [
+                    "好活游戏",
+                    "galgame",
+                    "对我而言",
                     "视觉小说",
                     "AVG",
-                    "忧郁"
+                    "国产游戏",
+                    "独立游戏"
                   ],
-                  "url": "https://www.bilibili.com/video/BV1Ypnz6pE7B",
-                  "publishedAt": "2026-10-23T07:08:45.000Z",
-                  "likes": 10095,
-                  "collectedAt": "2026-11-02T07:53:46.128Z",
-                  "keyword": "视觉小说",
-                  "workId": "v61460",
+                  "url": "https://www.bilibili.com/video/BV11g486wEeQ",
+                  "publishedAt": "2026-11-05T08:41:42.000Z",
+                  "likes": 873,
+                  "kind": "video",
+                  "durationSeconds": 64,
+                  "author": {
+                    "id": "3747574286649626",
+                    "name": "好活游戏",
+                    "url": "https://space.bilibili.com/3747574286649626"
+                  },
+                  "metrics": {
+                    "favorites": 1224,
+                    "comments": 53,
+                    "shares": 45,
+                    "views": 14100,
+                    "coins": 20
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "available",
+                    "coins": "available"
+                  },
+                  "collectedAt": "2026-11-06T08:20:08.295Z",
+                  "keyword": "对我而言",
+                  "workId": "v69936",
                   "matchMethod": "explicit-title",
                   "matchedNames": [
-                    "二人终末论"
-                  ]
-                }
-              ]
-            },
-            {
-              "workId": "v19073",
-              "maxLikes": 3601,
-              "count": 1,
-              "evidence": [
-                {
-                  "platform": "bilibili",
-                  "id": "BV121HK6HELU",
-                  "title": "长难句合集",
-                  "description": "",
-                  "tags": [
-                    "galgame",
-                    "千恋万花",
-                    "长难句",
-                    "柚子社"
-                  ],
-                  "url": "https://www.bilibili.com/video/BV121HK6HELU",
-                  "publishedAt": "2026-10-24T10:09:58.000Z",
-                  "likes": 3601,
-                  "collectedAt": "2026-11-02T07:51:33.760Z",
-                  "keyword": "galgame",
-                  "workId": "v19073",
-                  "matchMethod": "explicit-title",
-                  "matchedNames": [
-                    "千恋＊万花",
-                    "千恋万花"
-                  ]
-                }
-              ]
-            },
-            {
-              "workId": "v63828",
-              "maxLikes": 1888,
-              "count": 1,
-              "evidence": [
-                {
-                  "platform": "bilibili",
-                  "id": "BV1XKxj6YEbv",
-                  "title": "2026最具争议？神人乐子游戏！富哥男主每条线都脚踏两条船！颜艺社男主还能这么渣？《王様恋愛（国王恋爱）》（不是哥们11）",
-                  "description": "游戏名《王様恋愛》；\nasa有三宝，颜艺傻子与三角。这一作一个不落啊ლ(´ڡ`ლ)；\n有一说一随着主包年龄的衰老，确实是越来越喜欢这种杂耍的杂技后空翻的王国资产的游戏了；\n总的来说游戏调性算是更拔一点的《劈腿之恋》，共通线非常有乐子，个人线相对拉了。",
-                  "tags": [
-                    "泛式",
-                    "游戏杂谈",
-                    "国王恋爱",
-                    "安安玛丽安",
-                    "劈腿之恋",
-                    "旮旯给木",
-                    "借恋",
-                    "颜艺社",
-                    "乐子",
-                    "GAL"
-                  ],
-                  "url": "https://www.bilibili.com/video/BV1XKxj6YEbv",
-                  "publishedAt": "2026-10-28T10:00:00.000Z",
-                  "likes": 1888,
-                  "collectedAt": "2026-11-02T07:52:03.040Z",
-                  "keyword": "gal游戏",
-                  "workId": "v63828",
-                  "matchMethod": "reviewed"
-                }
-              ]
-            },
-            {
-              "workId": "v18335",
-              "maxLikes": 1624,
-              "count": 1,
-              "evidence": [
-                {
-                  "platform": "bilibili",
-                  "id": "BV1PuHP6uEF4",
-                  "title": "肯恰那！又毒舌又独的女主你见过吗？原本以为是高手，结果一碰就碎了啊，一如她的撒娇方式游戏推荐",
-                  "description": "仅供娱乐",
-                  "tags": [
-                    "戏画",
-                    "GAL",
-                    "安安玛丽安",
-                    "一如她的撒娇方式",
-                    "戏画社",
-                    "galgame"
-                  ],
-                  "url": "https://www.bilibili.com/video/BV1PuHP6uEF4",
-                  "publishedAt": "2026-10-24T08:03:15.000Z",
-                  "likes": 1624,
-                  "collectedAt": "2026-11-02T07:51:54.615Z",
-                  "keyword": "gal游戏",
-                  "workId": "v18335",
-                  "matchMethod": "explicit-title",
-                  "matchedNames": [
-                    "一如她的撒娇方式。"
-                  ]
-                }
-              ]
-            },
-            {
-              "workId": "v52780",
-              "maxLikes": 1475,
-              "count": 1,
-              "evidence": [
-                {
-                  "platform": "bilibili",
-                  "id": "BV1LNJi65EeT",
-                  "title": "阵容这么豪华还是拉完了？我问你这能怪羊姐吗！？第一次配音的旮旯给木《COCORO》，阵容有多神？",
-                  "description": "游戏名《COCORO》\n这也是我们羊姐第一次作为主役参与尬了给木的制作，有一说一配的还真没啥毛病，属于是舒适区了。难道说臭中杯另有其人。。。。。",
-                  "tags": [
-                    "旮旯给木",
-                    "羊宫妃那",
-                    "Galgame",
-                    "美少女游戏"
-                  ],
-                  "url": "https://www.bilibili.com/video/BV1LNJi65EeT",
-                  "publishedAt": "2026-10-17T12:11:33.000Z",
-                  "likes": 1475,
-                  "collectedAt": "2026-11-02T07:53:23.025Z",
-                  "keyword": "美少女游戏",
-                  "workId": "v52780",
-                  "matchMethod": "explicit-title",
-                  "matchedNames": [
-                    "COCORO"
-                  ]
-                }
-              ]
-            },
-            {
-              "workId": "v47937",
-              "maxLikes": 1203,
-              "count": 1,
-              "evidence": [
-                {
-                  "platform": "bilibili",
-                  "id": "BV1vnnr6aEfe",
-                  "title": "没有一个人幸福的幸福故事—锐评anemoi真结局",
-                  "description": "玩着真烧心",
-                  "tags": [
-                    "朱比华",
-                    "锐评",
-                    "anemoi",
-                    "key社",
-                    "galgame",
-                    "游戏杂谈",
-                    "二次元",
-                    "galgame推荐",
-                    "视觉小说"
-                  ],
-                  "url": "https://www.bilibili.com/video/BV1vnnr6aEfe",
-                  "publishedAt": "2026-10-21T14:40:24.000Z",
-                  "likes": 1203,
-                  "collectedAt": "2026-11-02T07:54:05.417Z",
-                  "keyword": "视觉小说",
-                  "workId": "v47937",
-                  "matchMethod": "explicit-title",
-                  "matchedNames": [
-                    "anemoi",
-                    "Anemoi"
-                  ]
-                }
-              ]
-            },
-            {
-              "workId": "v66",
-              "maxLikes": 1045,
-              "count": 1,
-              "evidence": [
-                {
-                  "platform": "bilibili",
-                  "id": "BV1K1HK6pEjM",
-                  "title": "我们终其一生，都在寻找母亲吗？| 浅谈《CROSS†CHANNEL》【游戏漫谈】",
-                  "description": "审核大大辛苦了！\n\n好想用那张牛来做封面啊！！\n————————\n弗洛伊德《性学三论》\n《超越快乐原则》\n《梦的解析》\n《自我与本我》",
-                  "tags": [
-                    "杂谈",
-                    "游戏杂谈",
-                    "田中罗密欧",
-                    "文字游戏",
-                    "GAL",
-                    "galgame",
-                    "精神分析",
-                    "视觉小说",
-                    "CROSS CHANNEL"
-                  ],
-                  "url": "https://www.bilibili.com/video/BV1K1HK6pEjM",
-                  "publishedAt": "2026-10-24T10:10:34.000Z",
-                  "likes": 1045,
-                  "collectedAt": "2026-11-02T07:54:20.676Z",
-                  "keyword": "视觉小说",
-                  "workId": "v66",
-                  "matchMethod": "explicit-title",
-                  "matchedNames": [
-                    "CROSS†CHANNEL"
+                    "对我而言"
                   ]
                 }
               ]
             }
-          ],
-          "identityReviewedAt": "2026-11-02T09:18:45.641Z",
-          "attemptedAt": "2026-11-06T08:20:24.996Z"
+          ]
         }
       }
     },
@@ -1688,12 +1691,12 @@
     }
   ],
   "lastAttempt": {
-    "at": "2026-11-06T08:20:24.998Z",
+    "at": "2026-11-07T04:03:04.968Z",
     "periodId": "2026-11-06",
     "platforms": {
       "douyin": {
         "status": "partial",
-        "error": "抖音采集失败，可能需要有效 Cookie；请检查固定版本依赖与登录状态。",
+        "error": "本期仅完成部分搜索，以下只展示已经核实的片段。",
         "collectedAt": "2026-11-06T08:04:23.438Z",
         "fetched": 123,
         "qualified": 24,
@@ -1943,7 +1946,7 @@
       },
       "bilibili": {
         "status": "partial",
-        "error": null,
+        "error": "本期仅完成部分搜索，以下只展示已经核实的片段。",
         "collectedAt": "2026-11-06T08:20:24.996Z",
         "fetched": 705,
         "qualified": 68,
