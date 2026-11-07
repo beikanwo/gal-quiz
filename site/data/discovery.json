@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-06T19:55:58.296Z",
+  "updatedAt": "2026-11-07T04:54:55.785Z",
   "entries": [
     {
       "id": "v69315",
@@ -38194,6 +38194,43 @@
       "image": "https://t.vndb.org/cv/80/90980.jpg",
       "subtitle": "エックスワン",
       "path": "works/v7735/"
+    },
+    {
+      "id": "v64572",
+      "type": "work",
+      "name": "曙之羁绊 - 黄昏轮回",
+      "aliases": [
+        "アケノヨスガ - Twilight Loop -",
+        "曙之羁绊 - 黄昏轮回",
+        "アケノヨスガ - Twilight Loop -",
+        "Akeno no Yosuga -Twilight Loop-"
+      ],
+      "image": "https://t.vndb.org/cv/51/132651.jpg",
+      "subtitle": "CHARON",
+      "path": "works/v64572/"
+    },
+    {
+      "id": "v69304",
+      "type": "work",
+      "name": "I Can Smell You from Here",
+      "aliases": [
+        "I Can Smell You from Here",
+        "I Can Smell You from Here"
+      ],
+      "image": "https://t.vndb.org/cv/91/147191.jpg",
+      "subtitle": "catproblem9735",
+      "path": "works/v69304/"
+    },
+    {
+      "id": "manual-tadaima-404",
+      "type": "work",
+      "name": "我回来了，404号室",
+      "aliases": [
+        "ただいま404号室"
+      ],
+      "image": null,
+      "subtitle": "",
+      "path": "works/manual-tadaima-404/"
     },
     {
       "id": "s722",

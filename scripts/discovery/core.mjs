@@ -20,9 +20,15 @@ export function scheduledPeriodFor(index, config, now = new Date()) {
 export function qualifies(record, period, minLikes = 1000) {
   const time = Date.parse(record.publishedAt);
   return PLATFORMS.includes(record.platform) && typeof record.id === 'string' && record.id.length > 0 &&
-    Number.isInteger(record.likes) && record.likes >= minLikes && Number.isFinite(time) &&
+    Number.isSafeInteger(record.likes) && record.likes >= minLikes &&
+    /(?:Z|[+-]\d{2}:\d{2})$/i.test(record.publishedAt) && /(?:Z|[+-]\d{2}:\d{2})$/i.test(record.collectedAt) &&
     time >= Date.parse(period.start) && time < Date.parse(period.end) &&
     Number.isFinite(Date.parse(record.collectedAt)) && time <= Date.parse(record.collectedAt) && Boolean(safeUrl(record.url));
+}
+export function declaredGameNames(record) {
+  return [record.title, record.description].filter(Boolean).flatMap(text =>
+    [...text.matchAll(/(?:^|\n)\s*(?:[-–—]\s*)?(?:游戏名(?:称)?|遊戲名(?:稱)?|作品名(?:称|稱)?)\s*[:：]\s*([^\r\n]{2,100})/g)]
+      .map(match => match[1].trim()));
 }
 export function safeUrl(value) {
   try { const u = new URL(value); return u.protocol === 'https:' && !u.username && !u.password ? u.href : null; } catch { return null; }
@@ -72,6 +78,9 @@ export function matchWork(record, works, overrides = {}) {
   const chosen=works[reduced[0].id];
   if(/对比|對比|VS|\bvs\b/.test(record.title??''))return {status:'pending',reason:'比较内容可能涉及多作品，须人工核对',candidates:[chosen.id]};
   const known=[chosen.title,chosen.original,...(chosen.matchingAliases??[]),...Object.entries(overrides.aliases??{}).filter(([,id])=>id===chosen.id).map(([name])=>name)].filter(Boolean).map(normalize);
+  if (declaredGameNames(record).some(name => !known.includes(normalize(name)))) {
+    return { status: 'pending', reason: '明确标注的完整游戏名与命中别名不一致', candidates: [] };
+  }
   const titleQuoted=[...(record.title??'').matchAll(/《([^》]+)》|「([^」]+)」|【([^】]+)】/g)].map(m=>normalize(m[1]??m[2]??m[3]));
   if(!reduced[0].hits.some(h=>normalize(record.title).includes(normalize(h)))&&titleQuoted.some(q=>!known.includes(q)))return {status:'pending',reason:'标题标注其他名称，标签或简介中的作品名不能消除身份冲突',candidates:[chosen.id]};
   const quoted=[...text.matchAll(/《([^》]+)》|「([^」]+)」|【([^】]+)】/g)].map(m=>normalize(m[1]??m[2]??m[3]));
@@ -79,7 +88,7 @@ export function matchWork(record, works, overrides = {}) {
   if (/系列世界观|系列世界觀|系列剧情|系列劇情|系列盘点|系列作品|多部游戏|游戏盘点|游戏榜单/i.test(text) || /盘点|盤點|》\s*系列|系列[:：]/.test(record.title ?? '')) return { status: 'pending', reason: '介绍涉及整个系列或多个游戏，需要核对具体条目', candidates: [reduced[0].id] };
   const primary=[record.title,record.description].join(' ');
   const gameFootage=/CG|游戏画面|遊戲畫面|游戏片段|配音实况|游戏实况|実況|\b(?:op|ed)\b/i.test(primary)||(record.tags??[]).some(tag=>/^(?:游戏CG|游戏实况|游戏片段|GalgameCG)$/i.test(tag));
-  if (/\b(?:gmv|mmd|vtuber|minecraft|cosplay|cos)\b|手书|手書|联动|联動|手机游戏|手游|手遊|我的世界|鸣潮|原神|虚拟主播|直播背景|自己的\s*galgame/i.test(text)||(/二创|二創|同人|自制|混剪/.test(text)&&!gameFootage)) return { status: 'pending', reason: '可能是二创、联动或其他游戏，需要核对原画面', candidates: [reduced[0].id] };
+  if (/\b(?:gmv|mmd|vtuber|minecraft|cosplay|cos)\b|手书|手書|联动|联動|手机游戏|手游|手遊|我的世界|鸣潮|原神|虚拟主播|直播背景|自己的\s*galgame/i.test(text)||(/二创|二創|同人|自制|混剪|影视剪辑|影視剪輯/.test(text)&&!gameFootage)) return { status: 'pending', reason: '可能是二创、联动或其他游戏，需要核对原画面', candidates: [reduced[0].id] };
   if (/动画|動漫|动漫|番剧|番劇|\b(?:amv|mad)\b/i.test(primary)||(/动画|動漫|动漫|番剧|番劇|\b(?:amv|mad)\b/i.test(text)&&!gameFootage)) return { status: 'pending', reason: '需要区分游戏与动画等改编画面', candidates: [reduced[0].id] };
   if (!/galgame|gal游戏|美少女游戏|视觉小说|遊戲|游戏|实况|実況|CG|游戏截图/i.test(text)) return { status: 'pending', reason: '作品名明确，但画面来源尚未确认', candidates: [reduced[0].id] };
   return { status: 'matched', workId: reduced[0].id, method: 'explicit-title', matchedNames:[...new Set(reduced[0].hits)] };
@@ -103,15 +112,15 @@ export function combinePeriod(period, attempts, previous = null, minLikes = 1000
   for (const name of PLATFORMS) {
     const attempt = attempts[name];
     const old = previous?.platforms?.[name];
-    const evidence = dedupe(attempt?.records ?? []).filter((r) => r.platform === name && qualifies(r, period, minLikes) && r.workId);
-    // A fallback can be marked failed even when its retained snapshot was complete.
-    const oldComplete = old?.status === 'success' || Boolean(old?.lastSuccessAt && old.lastSuccessAt === old.collectedAt);
-    const currentPartial = attempt?.status === 'partial' &&
-      (!old?.periodId || old.periodId === period.id || (!oldComplete && evidence.length > 0));
-    if (attempt?.status === 'success' || currentPartial) {
-      platforms[name] = { status: attempt.status, periodId: period.id, start: period.start, end: period.end, minLikes, collectedAt: attempt.collectedAt, lastSuccessAt: attempt.status === 'success' ? attempt.collectedAt : previous?.platforms?.[name]?.lastSuccessAt ?? null, error: attempt.error ?? null, coverage: attempt.coverage ?? {}, ranking: rankEvidence(evidence) };
+    const threshold = attempt?.minLikes ?? minLikes;
+    const evidence = dedupe(attempt?.records ?? []).filter(r =>
+      r.platform === name && qualifies(r, period, threshold) && r.workId);
+    if (['success', 'partial'].includes(attempt?.status)) {
+      platforms[name] = { status: attempt.status, periodId: period.id, start: period.start, end: period.end, minLikes: threshold, collectedAt: attempt.collectedAt, lastSuccessAt: attempt.status === 'success' ? attempt.collectedAt : old?.lastSuccessAt ?? null, error: attempt.error ?? null, coverage: attempt.coverage ?? {}, ranking: rankEvidence(evidence) };
+    } else if (old?.periodId === period.id && old.start === period.start && old.end === period.end) {
+      platforms[name] = old;
     } else {
-      platforms[name] = { ...(old ?? { ranking: [], periodId: null, lastSuccessAt: null }), status: 'failed', attemptedAt: attempt?.collectedAt ?? new Date().toISOString(), error: attempt?.error ?? '尚未完成采集验证' };
+      platforms[name] = { ranking: [], periodId: null, lastSuccessAt: old?.lastSuccessAt ?? null, status: 'failed', attemptedAt: attempt?.collectedAt ?? new Date().toISOString(), error: attempt?.error ?? '尚未完成采集验证' };
     }
   }
   return { ...period, minLikes, platforms };

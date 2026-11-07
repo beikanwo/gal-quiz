@@ -16,7 +16,7 @@ export async function run(options = args()) {
   const reviewedPeriod = options['review-only'] && index.periods.find(p => p.id === priorReview.periodId);
   const period = reviewedPeriod ? { id:reviewedPeriod.id, start:reviewedPeriod.start, end:reviewedPeriod.end, endDate:reviewedPeriod.endDate } :
     options.probe ? periodFor(null,now,config.intervalDays) : scheduledPeriodFor(index,config,now);
-  const minLikes = reviewedPeriod?.minLikes ?? config.minLikes;
+  const defaultMinLikes = reviewedPeriod?.minLikes ?? config.minLikes;
   const existing = index.periods.find((p) => p.id === period?.id);
   const complete = existing && PLATFORMS.every((p) => existing.platforms[p]?.status === 'success');
   const due = Boolean(period && (!complete || options.force));
@@ -42,6 +42,8 @@ export async function run(options = args()) {
   if (selected.some((p) => !PLATFORMS.includes(p))) throw new Error('未知平台');
   const saved = options['review-only'] ? await readJson('data/discovery/review.json', { records: [] }) : null;
   for (const platform of selected) {
+    const minLikes = (reviewedPeriod ? reviewedPeriod.platforms[platform]?.minLikes :
+      config.platformMinLikes?.[platform]) ?? defaultMinLikes;
     if (existing?.platforms?.[platform]?.status === 'success' && !options.force && !options.probe && !options['review-only']) {
       const previous = existing.platforms[platform];
       attempts[platform] = { ...previous, records: previous.ranking.flatMap((r) => r.evidence), reviewRecords: priorReview.periodId === period.id ? priorReview.records.filter((r) => r.platform === platform) : previous.ranking.flatMap((r) => r.evidence) };
@@ -81,13 +83,26 @@ export async function run(options = args()) {
           try {
             const batch = await source.search(keyword, options.probe ? 1 : config.pagesPerKeyword, period);
             records.push(...batch.records); queries++; pages += batch.pages;
-            if (batch.partial) failedQueries.push(keyword);
+            if (batch.partial) { failedQueries.push(keyword); error = batch.error ?? error; }
           } catch (e) { failedQueries.push(keyword); error = publicError(e); }
+        }
+        // Add recent uploads alongside the high-playback search, which favors a few large posts.
+        if (platform === 'bilibili' && !options.probe) {
+          for (const keyword of ['galgame', '视觉小说']) {
+            if (Date.now() >= deadline) { failedQueries.push(`${keyword}（最新）`); continue; }
+            try {
+              const batch = await source.search(keyword, 1, period, { order: 'pubdate' });
+              records.push(...batch.records); queries++; pages += batch.pages;
+              if (batch.partial) { failedQueries.push(`${keyword}（最新）`); error = batch.error ?? error; }
+            } catch (e) { failedQueries.push(`${keyword}（最新）`); error = publicError(e); }
+          }
         }
         if (failedQueries.length) status = queries ? 'partial' : 'failed';
       }
     } catch (e) { status = 'failed'; error = publicError(e); }
-    const qualified = dedupe(records).filter((r) => qualifies(r, period, minLikes) && canonicalEvidenceUrl(r.platform, r.id, r.kind) === r.url);
+    const isQualified = r => r.platform === platform && qualifies(r, period, minLikes) &&
+      canonicalEvidenceUrl(r.platform, r.id, r.kind) === r.url;
+    const qualified = dedupe(records).filter(isQualified);
     const matched = [];
     const identify = async (record) => {
       let decision = matchWork(record, matchingWorks(), overrides);
@@ -117,8 +132,8 @@ export async function run(options = args()) {
           console.log(`${platform}：补足作品搜索 ${keyword}`);
           const batch = await source.search(keyword, config.targetSearchPages ?? 2, period);
           queries++; pages += batch.pages; records.push(...batch.records);
-          if (batch.partial) { status = 'partial'; failedQueries.push(keyword); }
-          for (const record of dedupe(batch.records).filter((r) => qualifies(r, period, minLikes))) await identify(record);
+          if (batch.partial) { status = 'partial'; failedQueries.push(keyword); error = batch.error ?? error; }
+          for (const record of dedupe(batch.records).filter(isQualified)) await identify(record);
         } catch { status = 'partial'; failedQueries.push(keyword); }
       }
     }
@@ -131,7 +146,8 @@ export async function run(options = args()) {
         for (const name of names) {
           try {
             const batch = await source.search(name, config.pagesPerKeyword, period); queries++; pages += batch.pages;
-            for (const record of batch.records.filter((r) => qualifies(r, period, minLikes))) {
+            if (batch.partial) { status = 'partial'; failedQueries.push(name); error = batch.error ?? error; }
+            for (const record of batch.records.filter(isQualified)) {
               records.push(record);
               const decision = matchWork(record, matchingWorks(), overrides);
               if (decision.status === 'matched' && (canonical.get(decision.workId) ?? decision.workId) === id) matched.push({ ...record, workId: id, matchMethod: decision.method, ...(decision.matchedNames?{matchedNames:decision.matchedNames}:{}) });
@@ -141,8 +157,8 @@ export async function run(options = args()) {
         }
       }
     }
-    const qualifiedRecords = dedupe(records).filter((r) => qualifies(r, period, minLikes) && canonicalEvidenceUrl(r.platform, r.id, r.kind) === r.url);
-    attempts[platform] = { status, error, collectedAt: saved ? saved.platforms[platform].collectedAt : new Date().toISOString(), records: dedupe(matched), coverage: { keywords, queries, pages, failedQueries: savedCoverage?.failedQueries ?? failedQueries, maxPagesPerQuery: savedCoverage?.maxPagesPerQuery ?? (options.probe ? 1 : config.pagesPerKeyword), candidateCount: savedCoverage?.candidateCount ?? dedupe(records).length, qualifiedCount: qualifiedRecords.length } };
+    const qualifiedRecords = dedupe(records).filter(isQualified);
+    attempts[platform] = { status, error, minLikes, collectedAt: saved ? saved.platforms[platform].collectedAt : new Date().toISOString(), records: dedupe(matched), coverage: { keywords, queries, pages, failedQueries: savedCoverage?.failedQueries ?? failedQueries, maxPagesPerQuery: savedCoverage?.maxPagesPerQuery ?? (options.probe ? 1 : config.pagesPerKeyword), candidateCount: savedCoverage?.candidateCount ?? dedupe(records).length, qualifiedCount: qualifiedRecords.length } };
     report.platforms[platform] = { status, error, collectedAt: attempts[platform].collectedAt, fetched: attempts[platform].coverage.candidateCount, qualified: qualifiedRecords.length, matched: dedupe(matched).length, sample: dedupe(matched).slice(0, 5), coverage: attempts[platform].coverage };
     console.log(`${platform}：${status}；候选 ${dedupe(records).length}，达标 ${qualifiedRecords.length}，明确对应 ${dedupe(matched).length}`);
     // Persist sanitized qualified evidence for corrections without storing credentials or media payloads.
@@ -157,7 +173,7 @@ export async function run(options = args()) {
   }
   if (options.probe) return report;
   const previous = existing ?? index.periods[0];
-  const snapshot = combinePeriod(period, attempts, previous, minLikes);
+  const snapshot = combinePeriod(period, attempts, previous, defaultMinLikes);
   const success = selected.some((p) => ['success', 'partial'].includes(attempts[p]?.status));
   index.lastAttempt = { at: report.finishedAt, periodId: period.id, platforms: report.platforms };
   if (success) {

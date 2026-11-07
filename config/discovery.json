@@ -3,6 +3,7 @@
   "origin": "https://www.scurra.top",
   "intervalDays": 5,
   "minLikes": 500,
+  "platformMinLikes": { "bilibili": 350 },
   "recurringRanking": {
     "startDate": "2026-11-06",
     "windowPeriods": 6,

@@ -30479,6 +30479,34 @@
           ],
           "released": "2011-12-22",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v7735/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/80/90980.jpg\" data-cover-full=\"https://t.vndb.org/cv/80/90980.jpg\" alt=\"真夏の夜の雪物語 -MIDSUMMER SNOW NIGHT-封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>真夏の夜の雪物語 -MIDSUMMER SNOW NIGHT-</h3><p>エックスワン</p><div class=\"card-heat muted\">2011-12-22</div></a></article>"
+        },
+        {
+          "name": "曙之羁绊 - 黄昏轮回",
+          "aliases": [
+            "アケノヨスガ - Twilight Loop -",
+            "曙之羁绊 - 黄昏轮回",
+            "アケノヨスガ - Twilight Loop -",
+            "Akeno no Yosuga -Twilight Loop-"
+          ],
+          "released": "2026",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v64572/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/51/132651.jpg\" data-cover-full=\"https://t.vndb.org/cv/51/132651.jpg\" alt=\"曙之羁绊 - 黄昏轮回封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>曙之羁绊 - 黄昏轮回</h3><p>CHARON</p><div class=\"card-heat muted\">2026</div></a></article>"
+        },
+        {
+          "name": "I Can Smell You from Here",
+          "aliases": [
+            "I Can Smell You from Here",
+            "I Can Smell You from Here"
+          ],
+          "released": "2026-09-14",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v69304/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/91/147191.jpg\" data-cover-full=\"https://t.vndb.org/cv/91/147191.jpg\" alt=\"I Can Smell You from Here封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>I Can Smell You from Here</h3><p>catproblem9735</p><div class=\"card-heat muted\">2026-09-14</div></a></article>"
+        },
+        {
+          "name": "我回来了，404号室",
+          "aliases": [
+            "ただいま404号室"
+          ],
+          "released": "",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/manual-tadaima-404/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>我回来了，404号室</span></div><h3>我回来了，404号室</h3><p>ただいま404号室</p><div class=\"card-heat muted\">发行时间待补充</div></a></article>"
         }
       ]
     },

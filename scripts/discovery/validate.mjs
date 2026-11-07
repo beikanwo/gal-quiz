@@ -29,11 +29,19 @@ for (const file of manifest.files) {
 }
 for (const period of periods.periods) for (const [platform, data] of Object.entries(period.platforms)) {
   const records = data.ranking.flatMap((r) => r.evidence ?? []);
+  if (data.periodId !== null) {
+    assert.equal(data.periodId, period.id, '期次只可展示当期证据');
+    assert.equal(data.start, period.start, '平台窗口起点与期次不一致');
+    assert.equal(data.end, period.end, '平台窗口终点与期次不一致');
+    assert.ok(Number.isSafeInteger(data.minLikes) && data.minLikes >= 0, '平台点赞门槛无效');
+  } else {
+    assert.equal(records.length, 0, '未采集的平台不应含热榜证据');
+  }
   for (const r of records) {
     assert.equal(r.platform, platform);
     assert.equal(r.url, canonicalEvidenceUrl(platform, r.id, r.kind));
     assert.ok(catalog.works[r.workId], `片段引用不存在作品 ${r.workId}`);
-    assert.ok(qualifies(r, data.start ? data : period, data.minLikes ?? period.minLikes), `片段不符合所属期次 ${r.id}`);
+    assert.ok(qualifies(r, period, data.minLikes), `片段不符合所属期次 ${r.id}`);
     const identity=matchWork(r,identities,overrides);
     assert.ok(identity.status==='matched'&&identity.workId===r.workId,`来源身份复核未通过 ${platform}:${r.id}`);
   }

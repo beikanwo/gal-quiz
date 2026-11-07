@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-06T19:55:58.296Z",
+  "updatedAt": "2026-11-07T04:54:55.785Z",
   "works": {
     "v69315": {
       "id": "v69315",
@@ -460491,6 +460491,187 @@
           "lastSuccessAt": "2026-11-06T19:53:09.863Z"
         }
       }
+    },
+    "v64572": {
+      "id": "v64572",
+      "title": "曙之羁绊 - 黄昏轮回",
+      "original": "アケノヨスガ - Twilight Loop -",
+      "aliases": [
+        "曙之羁绊 - 黄昏轮回",
+        "アケノヨスガ - Twilight Loop -",
+        "Akeno no Yosuga -Twilight Loop-"
+      ],
+      "released": "2026",
+      "languages": [],
+      "minutes": null,
+      "image": "https://t.vndb.org/cv/51/132651.jpg",
+      "cover": {
+        "id": "cv132651",
+        "url": "https://t.vndb.org/cv/51/132651.jpg",
+        "thumbnail": "https://t.vndb.org/cv.t/51/132651.jpg",
+        "sexual": 0,
+        "violence": 0,
+        "kind": "vn",
+        "source": "https://vndb.org/v64572"
+      },
+      "developers": [
+        {
+          "id": "p4855",
+          "name": "CHARON"
+        }
+      ],
+      "source": "https://vndb.org/v64572",
+      "updatedAt": "2026-11-07T04:53:37.826Z",
+      "detailComplete": true,
+      "originalDescription": "Every day at 5 PM, a girl named Akane dies.\n\nThe protagonist, Keita, becomes aware of this loop and struggles to change her fate.\nHowever, no matter what choices he makes, her death is inevitable.\n\nAs the story unfolds, a shocking truth emerges—\nAkane has been dying repeatedly to protect Keita.",
+      "description": "Every day at 5 PM, a girl named Akane dies.\n\nThe protagonist, Keita, becomes aware of this loop and struggles to change her fate.\nHowever, no matter what choices he makes, her death is inevitable.\n\nAs the story unfolds, a shocking truth emerges—\nAkane has been dying repeatedly to protect Keita.",
+      "descriptionLanguage": "原文",
+      "descriptionSource": "https://vndb.org/v64572",
+      "staff": [],
+      "screenshots": [
+        {
+          "id": "sf254798",
+          "url": "https://t.vndb.org/sf/98/254798.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/98/254798.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf254799",
+          "url": "https://t.vndb.org/sf/99/254799.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/99/254799.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf254801",
+          "url": "https://t.vndb.org/sf/01/254801.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/01/254801.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf254803",
+          "url": "https://t.vndb.org/sf/03/254803.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/03/254803.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf254804",
+          "url": "https://t.vndb.org/sf/04/254804.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/04/254804.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf254806",
+          "url": "https://t.vndb.org/sf/06/254806.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/06/254806.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        }
+      ],
+      "links": [],
+      "vndbNames": [
+        "Akeno no Yosuga -Twilight Loop-",
+        "アケノヨスガ - Twilight Loop -",
+        "曙之羁绊 - 黄昏轮回"
+      ],
+      "matchingAliases": [
+        "曙之羁绊 - 黄昏轮回",
+        "アケノヨスガ - Twilight Loop -",
+        "Akeno no Yosuga -Twilight Loop-"
+      ],
+      "coverSourceFlags": {
+        "sexual": 0,
+        "violence": 0
+      }
+    },
+    "v69304": {
+      "id": "v69304",
+      "title": "I Can Smell You from Here",
+      "original": "I Can Smell You from Here",
+      "aliases": [
+        "I Can Smell You from Here"
+      ],
+      "released": "2026-09-14",
+      "languages": [
+        "en"
+      ],
+      "minutes": 75,
+      "image": "https://t.vndb.org/cv/91/147191.jpg",
+      "cover": {
+        "id": "cv147191",
+        "url": "https://t.vndb.org/cv/91/147191.jpg",
+        "thumbnail": "https://t.vndb.org/cv.t/91/147191.jpg",
+        "sexual": 0,
+        "violence": 0,
+        "kind": "vn",
+        "source": "https://vndb.org/v69304"
+      },
+      "developers": [
+        {
+          "id": "p31384",
+          "name": "catproblem9735"
+        }
+      ],
+      "source": "https://vndb.org/v69304",
+      "updatedAt": "2026-11-07T04:53:37.826Z",
+      "detailComplete": true,
+      "originalDescription": "You are an incel going on his first-ever date, with his first-ever match from a dating app. What could possibly go wrong?",
+      "description": "You are an incel going on his first-ever date, with his first-ever match from a dating app. What could possibly go wrong?",
+      "descriptionLanguage": "原文",
+      "descriptionSource": "https://vndb.org/v69304",
+      "staff": [],
+      "screenshots": [],
+      "links": [],
+      "vndbNames": [
+        "I Can Smell You from Here"
+      ],
+      "matchingAliases": [
+        "I Can Smell You from Here"
+      ],
+      "coverSourceFlags": {
+        "sexual": 0,
+        "violence": 0
+      },
+      "ratings": {
+        "vndb": {
+          "score": 6.45,
+          "scale": 10,
+          "votes": 6,
+          "metric": "贝叶斯评分",
+          "via": "原站",
+          "url": "https://vndb.org/v69304",
+          "fetchedAt": "2026-11-07T04:53:37.826Z"
+        }
+      }
+    },
+    "manual-tadaima-404": {
+      "title": "我回来了，404号室",
+      "original": "ただいま404号室",
+      "matchingAliases": [
+        "我回来了404号室",
+        "ただいま404号室"
+      ],
+      "description": "青木昴独自搬进便宜的404号室，意外遇见被困在房间里的幽灵少年狛野凛太。一起生活的两人逐渐发现，这个房间曾经发生过什么。",
+      "descriptionLanguage": "中文",
+      "descriptionSource": "https://novelgame.jp/games/show/15006",
+      "descriptionSourceName": "据作者发布页整理",
+      "source": "https://novelgame.jp/games/show/15006",
+      "id": "manual-tadaima-404",
+      "image": null,
+      "screenshots": [],
+      "staff": [],
+      "developers": [],
+      "updatedAt": "2026-11-07T04:53:39.616Z"
     }
   },
   "staff": {

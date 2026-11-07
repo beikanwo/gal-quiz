@@ -1,6 +1,8 @@
 {
   "aliases": {
-    "茧之锤": "v53736"
+    "茧之锤": "v53736",
+    "桂冠之人 Laureate": "v69452",
+    "晓之缘 - Twilight Loop -": "v64572"
   },
   "evidence": {
     "bilibili:BV1XKxj6YEbv": {
@@ -17,9 +19,28 @@
     "douyin:7704440789804304539": {
       "exclude": true,
       "note": "用户确认是绫地宁宁的真人 COS 视频，作品标签仅说明角色出处，排除出游戏内容热度统计。"
+    },
+    "bilibili:BV1DYxb6YEtm": {
+      "exclude": true,
+      "note": "标题、作者简介和标签表明是 Rain98 与动画等多个来源的混剪，排除单部游戏的热度统计。"
+    },
+    "bilibili:BV1BZ4A65ETM": {
+      "workId": "manual-tadaima-404",
+      "confirmedGame": true,
+      "note": "投稿简介直接指向作者的《ただいま404号室》发布页，标题剧情与作者介绍一致。"
     }
   },
   "works": {
+    "manual-tadaima-404": {
+      "title": "我回来了，404号室",
+      "original": "ただいま404号室",
+      "matchingAliases": ["我回来了404号室", "ただいま404号室"],
+      "description": "青木昴独自搬进便宜的404号室，意外遇见被困在房间里的幽灵少年狛野凛太。一起生活的两人逐渐发现，这个房间曾经发生过什么。",
+      "descriptionLanguage": "中文",
+      "descriptionSource": "https://novelgame.jp/games/show/15006",
+      "descriptionSourceName": "据作者发布页整理",
+      "source": "https://novelgame.jp/games/show/15006"
+    },
     "v22636": {
       "description": "一本记着“地图上没有的村子”的手记，把青年引向了来待村。这里被反常艳红的山林包围，村民正准备二十年一度的祭典，并将他奉为来访神。两名少女负责招待他，而这份盛情背后，是村落代代传承的古老仪式。",
       "descriptionSource": "https://www.kungal.com/galgame/258",

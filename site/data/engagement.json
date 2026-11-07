@@ -1326,7 +1326,7 @@
         ],
         "favorites": [
           {
-            "workId": "v237",
+            "workId": "v64572",
             "platform": "bilibili",
             "authorCount": 1,
             "layer": "单账号观察",
@@ -1375,10 +1375,10 @@
                 },
                 "collectedAt": "2026-11-06T10:09:09.057Z",
                 "keyword": "视觉小说",
-                "workId": "v237",
+                "workId": "v64572",
                 "matchMethod": "explicit-title",
                 "matchedNames": [
-                  "Twilight"
+                  "晓之缘 - Twilight Loop -"
                 ],
                 "baseline": {
                   "status": "insufficient",
@@ -1996,7 +1996,7 @@
             ]
           },
           {
-            "workId": "v237",
+            "workId": "v64572",
             "platform": "bilibili",
             "reason": "评论较多，需排查作者自答、抽奖及与作品无关的讨论",
             "evidence": [
@@ -2043,10 +2043,10 @@
                 },
                 "collectedAt": "2026-11-06T10:09:09.057Z",
                 "keyword": "视觉小说",
-                "workId": "v237",
+                "workId": "v64572",
                 "matchMethod": "explicit-title",
                 "matchedNames": [
-                  "Twilight"
+                  "晓之缘 - Twilight Loop -"
                 ],
                 "baseline": {
                   "status": "insufficient",
@@ -3561,7 +3561,7 @@
           ],
           "favorites": [
             {
-              "workId": "v237",
+              "workId": "v64572",
               "platform": "bilibili",
               "authorCount": 1,
               "layer": "单账号观察",
@@ -3610,10 +3610,10 @@
                   },
                   "collectedAt": "2026-11-06T10:09:09.057Z",
                   "keyword": "视觉小说",
-                  "workId": "v237",
+                  "workId": "v64572",
                   "matchMethod": "explicit-title",
                   "matchedNames": [
-                    "Twilight"
+                    "晓之缘 - Twilight Loop -"
                   ],
                   "baseline": {
                     "status": "insufficient",
@@ -4172,7 +4172,7 @@
               ]
             },
             {
-              "workId": "v237",
+              "workId": "v64572",
               "platform": "bilibili",
               "reason": "评论较多，需排查作者自答、抽奖及与作品无关的讨论",
               "evidence": [
@@ -4219,10 +4219,10 @@
                   },
                   "collectedAt": "2026-11-06T10:09:09.057Z",
                   "keyword": "视觉小说",
-                  "workId": "v237",
+                  "workId": "v64572",
                   "matchMethod": "explicit-title",
                   "matchedNames": [
-                    "Twilight"
+                    "晓之缘 - Twilight Loop -"
                   ],
                   "baseline": {
                     "status": "insufficient",

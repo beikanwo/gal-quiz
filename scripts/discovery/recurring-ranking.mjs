@@ -16,13 +16,13 @@ export function recurringRanking(index, config, works) {
       const current = source?.periodId === period.id &&
         ['success', 'partial'].includes(source.status) &&
         source.start === period.start && source.end === period.end &&
-        source.minLikes === period.minLikes;
+        source.minLikes === (config.platformMinLikes?.[platform] ?? period.minLikes);
       if (!current || source.status !== 'success') incomplete = true;
       if (!current) continue;
       for (const row of source.ranking ?? []) {
         if (!works[row.workId]) continue;
         const evidence = (row.evidence ?? []).filter(e => e.workId === row.workId &&
-          e.platform === platform && qualifies(e, period, period.minLikes) &&
+          e.platform === platform && qualifies(e, period, source.minLikes) &&
           e.url === canonicalEvidenceUrl(platform, e.id, e.kind));
         if (!evidence.length) continue;
         if (!groups.has(row.workId)) groups.set(row.workId, { workId: row.workId, periods: new Set(), evidence: new Set() });

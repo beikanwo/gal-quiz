@@ -9,7 +9,8 @@ import { windowRecords } from './engagement-discovery.mjs';
 const execute = promisify(execFile);
 const ua = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/131.0.0.0 Safari/537.36';
 const clean = (s) => String(s ?? '').replace(/<[^>]*>/g, '').replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;/g, "'").slice(0, 4000);
-const iso = (seconds) => Number.isFinite(Number(seconds)) && Number(seconds) > 0 ? new Date(Number(seconds) * 1000).toISOString() : null;
+const iso = seconds => Number.isSafeInteger(seconds) && seconds > 0 && seconds <= 8640000000000 ?
+  new Date(seconds * 1000).toISOString() : null;
 export async function fetchJson(url, options = {}) {
   for (let attempt = 0; attempt < 3; attempt++) {
     try {
@@ -47,6 +48,10 @@ export class BilibiliSource {
   headers() { return { 'User-Agent': ua, Referer: 'https://www.bilibili.com/', ...(this.cookie ? { Cookie: this.cookie } : {}) }; }
   async search(keyword, pages = 3, period, options = {}) {
     const records = [];
+    const start = Date.parse(period.start);
+    const end = Date.parse(period.end);
+    const inWindow = seconds => Boolean(iso(seconds)) && seconds * 1000 >= start && seconds * 1000 < end;
+    let invalidDetails = 0;
     if (!this.bootstrapped) {
       if (!this.cookie) {
         try {
@@ -59,7 +64,7 @@ export class BilibiliSource {
     let fetched = 0;
     for (let page = 1; page <= pages; page++) {
       try {
-      const params = { search_type: 'video', keyword, order: options.order==='pubdate'?'pubdate':'click', page, page_size: 20, pubtime_begin_s: Math.floor(Date.parse(period.start) / 1000), pubtime_end_s: Math.floor(Date.parse(period.end) / 1000) - 1 };
+      const params = { search_type: 'video', keyword, order: options.order==='pubdate'?'pubdate':'click', page, page_size: 20, pubtime_begin_s: Math.ceil(start / 1000), pubtime_end_s: Math.ceil(end / 1000) - 1 };
       let result = await fetchJson(`https://api.bilibili.com/x/web-interface/search/type?${new URLSearchParams(params)}`, { headers: this.headers() });
       if (result.code !== 0) {
         if (!this.keys) {
@@ -75,17 +80,23 @@ export class BilibiliSource {
       const items = result.data.result ?? [];
       if (!items.length) break;
       for (const item of items) {
-        if (!iso(item.pubdate) || Date.parse(iso(item.pubdate)) < Date.parse(period.start) || Date.parse(iso(item.pubdate)) >= Date.parse(period.end)) continue;
+        if (!canonicalEvidenceUrl('bilibili', item.bvid) || !inWindow(item.pubdate)) continue;
         // Search results do not reliably expose likes; always fetch actual detail statistics.
-        let detail = this.details.get(item.bvid);
-        if (!detail) {
+        let observed = this.details.get(item.bvid);
+        if (!observed) {
           await pause(850);
-          detail = await fetchJson(`https://api.bilibili.com/x/web-interface/view?bvid=${encodeURIComponent(item.bvid)}`, { headers: this.headers() });
-          this.details.set(item.bvid, detail);
+          const detail = await fetchJson(`https://api.bilibili.com/x/web-interface/view?bvid=${encodeURIComponent(item.bvid)}`, { headers: this.headers() });
+          observed = { detail, collectedAt: new Date().toISOString() };
         }
-        if (detail.code !== 0 || !Number.isInteger(detail.data?.stat?.like)) throw failure('B站视频详情未返回可靠点赞数，本轮未发布。');
+        const { detail, collectedAt } = observed;
         const d = detail.data;
-        records.push({ platform: 'bilibili', id: d.bvid, title: clean(d.title), description: clean(d.desc), tags: String(item.tag ?? '').split(','), url: canonicalEvidenceUrl('bilibili', d.bvid), publishedAt: iso(d.pubdate), likes: d.stat.like, ...biliEngagement(d), collectedAt: new Date().toISOString(), keyword });
+        if (detail.code !== 0 || d?.bvid !== item.bvid || !iso(d.pubdate) || !Number.isSafeInteger(d.stat?.like) || d.stat.like < 0) {
+          invalidDetails++;
+          continue;
+        }
+        this.details.set(item.bvid, observed);
+        if (!inWindow(d.pubdate)) continue;
+        records.push({ platform: 'bilibili', id: d.bvid, title: clean(d.title), description: clean(d.desc), tags: String(item.tag ?? '').split(','), url: canonicalEvidenceUrl('bilibili', d.bvid), publishedAt: iso(d.pubdate), likes: d.stat.like, ...biliEngagement(d), collectedAt, keyword });
       }
       await pause(1300);
       } catch (error) {
@@ -93,14 +104,15 @@ export class BilibiliSource {
         throw error;
       }
     }
-    return { records, pages: fetched };
+    return { records, pages: fetched, partial: invalidDetails > 0,
+      ...(invalidDetails > 0 ? { error: `B站有 ${invalidDetails} 条视频详情未通过核对。` } : {}) };
   }
   async refreshMany(records) {
     const result={records:[],failedIds:[]};
     for(const record of records){
       try{await pause(850);const response=await fetchJson(`https://api.bilibili.com/x/web-interface/view?bvid=${encodeURIComponent(record.id)}`,{headers:this.headers()});const d=response.data;
-        if(response.code!==0||!Number.isSafeInteger(d?.stat?.like)||d.stat.like<0||d.bvid!==record.id)throw Error();
-        result.records.push({...record,title:clean(d.title),description:clean(d.desc),likes:d.stat.like,...biliEngagement(d),collectedAt:new Date().toISOString()});
+        if(response.code!==0||!Number.isSafeInteger(d?.stat?.like)||d.stat.like<0||d.bvid!==record.id||!iso(d.pubdate))throw Error();
+        result.records.push({...record,title:clean(d.title),description:clean(d.desc),publishedAt:iso(d.pubdate),likes:d.stat.like,...biliEngagement(d),collectedAt:new Date().toISOString()});
       }catch{result.failedIds.push(record.id);}
     }return result;
   }

@@ -541,15 +541,14 @@
                 }
               ]
             }
-          ],
-          "identityReviewedAt": "2026-11-07T04:39:56.121Z"
+          ]
         },
         "bilibili": {
           "status": "partial",
           "periodId": "2026-11-06",
           "start": "2026-10-31T16:00:00.000Z",
           "end": "2026-11-05T16:00:00.000Z",
-          "minLikes": 500,
+          "minLikes": 350,
           "collectedAt": "2026-11-06T08:20:24.996Z",
           "lastSuccessAt": null,
           "error": "本期仅完成部分搜索，以下只展示已经核实的片段。",
@@ -583,63 +582,14 @@
             ],
             "maxPagesPerQuery": 3,
             "candidateCount": 705,
-            "qualifiedCount": 68
+            "qualifiedCount": 69
           },
           "ranking": [
             {
               "workId": "v69315",
-              "maxLikes": 11917,
-              "count": 2,
+              "maxLikes": 3445,
+              "count": 1,
               "evidence": [
-                {
-                  "platform": "bilibili",
-                  "id": "BV1DYxb6YEtm",
-                  "title": "“在雨中跳着失真的舞”",
-                  "description": "电视机雪花屏，千禧年的雨下个不停。\n玲奈的笔记，未麻的卧室，电次的梦，真嗣等待的列车…\n所有的脸都在失真中融化。\n别去修补这盘坏掉的录像带。\n就让我们死在这个电子旧梦里。",
-                  "tags": [
-                    "雨原玲奈",
-                    "Rain98",
-                    "影视神仙剪刀手",
-                    "电锯人",
-                    "梦核",
-                    "Lo-fi",
-                    "影视剪辑",
-                    "游戏",
-                    "steam",
-                    "千禧年"
-                  ],
-                  "url": "https://www.bilibili.com/video/BV1DYxb6YEtm",
-                  "publishedAt": "2026-11-02T04:00:00.000Z",
-                  "likes": 11917,
-                  "kind": "video",
-                  "durationSeconds": 73,
-                  "author": {
-                    "id": "33159593",
-                    "name": "努力の巳宝宝",
-                    "url": "https://space.bilibili.com/33159593"
-                  },
-                  "metrics": {
-                    "favorites": 6491,
-                    "comments": 220,
-                    "shares": 284,
-                    "views": 82862,
-                    "coins": 2346
-                  },
-                  "metricAvailability": {
-                    "favorites": "available",
-                    "comments": "available",
-                    "shares": "available",
-                    "views": "available",
-                    "coins": "available"
-                  },
-                  "collectedAt": "2026-11-06T08:20:22.263Z",
-                  "keyword": "Rain98",
-                  "workId": "v69315",
-                  "matchMethod": "explicit-title",
-                  "matchedNames": [
-                    "Rain98"
-                  ]
-                },
                 {
                   "platform": "bilibili",
                   "id": "BV1vP4V6wEX7",
@@ -688,6 +638,113 @@
                   "matchedNames": [
                     "Rain98"
                   ]
+                }
+              ]
+            },
+            {
+              "workId": "v69304",
+              "maxLikes": 1802,
+              "count": 1,
+              "evidence": [
+                {
+                  "platform": "bilibili",
+                  "id": "BV1jJxQ6rESz",
+                  "title": "网恋奔现第一天，就被对象吃掉，是种什么体验？视觉小说 I Can Smell You From Here",
+                  "description": "喜欢记得关注三连~谢谢支持！",
+                  "tags": [
+                    "整点电子榨菜",
+                    "模拟恐怖",
+                    "Steam",
+                    "独立游戏",
+                    "游戏解说",
+                    "恐怖游戏",
+                    "悬疑",
+                    "剧情",
+                    "游戏"
+                  ],
+                  "url": "https://www.bilibili.com/video/BV1jJxQ6rESz",
+                  "publishedAt": "2026-11-04T10:15:00.000Z",
+                  "likes": 1802,
+                  "kind": "video",
+                  "durationSeconds": 603,
+                  "author": {
+                    "id": "785025",
+                    "name": "阿力阿力栗",
+                    "url": "https://space.bilibili.com/785025"
+                  },
+                  "metrics": {
+                    "favorites": 735,
+                    "comments": 63,
+                    "shares": 10,
+                    "views": 20156,
+                    "coins": 150
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "available",
+                    "coins": "available"
+                  },
+                  "collectedAt": "2026-11-06T08:07:41.608Z",
+                  "keyword": "视觉小说",
+                  "workId": "v69304",
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "I Can Smell You from Here"
+                  ]
+                }
+              ]
+            },
+            {
+              "workId": "manual-tadaima-404",
+              "maxLikes": 1523,
+              "count": 1,
+              "evidence": [
+                {
+                  "platform": "bilibili",
+                  "id": "BV1BZ4A65ETM",
+                  "title": "搬进新公寓，迎接我的是粘人开朗的红毛幽灵少年《我回来了404号室》",
+                  "description": "其实是红毛少年，不过作者画成正太了（\n游戏地址：https://novelgame.jp/games/show/15006",
+                  "tags": [
+                    "整点电子榨菜",
+                    "电子榨菜",
+                    "视觉小说",
+                    "游戏实况",
+                    "游戏解说",
+                    "少年",
+                    "正太",
+                    "可爱",
+                    "二次元"
+                  ],
+                  "url": "https://www.bilibili.com/video/BV1BZ4A65ETM",
+                  "publishedAt": "2026-11-02T15:46:23.000Z",
+                  "likes": 1523,
+                  "kind": "video",
+                  "durationSeconds": 5148,
+                  "author": {
+                    "id": "533850221",
+                    "name": "怜风daze",
+                    "url": "https://space.bilibili.com/533850221"
+                  },
+                  "metrics": {
+                    "favorites": 1845,
+                    "comments": 9,
+                    "shares": 24,
+                    "views": 14779,
+                    "coins": 45
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "available",
+                    "coins": "available"
+                  },
+                  "collectedAt": "2026-11-06T08:07:43.826Z",
+                  "keyword": "视觉小说",
+                  "workId": "manual-tadaima-404",
+                  "matchMethod": "reviewed"
                 }
               ]
             },
@@ -744,6 +801,57 @@
               ]
             },
             {
+              "workId": "v69452",
+              "maxLikes": 1255,
+              "count": 1,
+              "evidence": [
+                {
+                  "platform": "bilibili",
+                  "id": "BV1rjx96HEnB",
+                  "title": "陆君两年摸一剑的视觉小说即将登场",
+                  "description": "本体已送审，希望兄弟们点点愿望单\n审核通过后就发布\n品类：视觉小说\n定价：16元\n折扣后：12.8元\n风格为无厘头+些许伤感\n究竟是天才之作还是惊世粪作？\n即将揭晓！\nsteam demo版本已更新 可以前去体验\n搜索《桂冠之人 Laureate》",
+                  "tags": [
+                    "视觉小说",
+                    "特摄",
+                    "二次元"
+                  ],
+                  "url": "https://www.bilibili.com/video/BV1rjx96HEnB",
+                  "publishedAt": "2026-11-04T12:51:48.000Z",
+                  "likes": 1255,
+                  "kind": "video",
+                  "durationSeconds": 39,
+                  "author": {
+                    "id": "32589074",
+                    "name": "二次元陆君_",
+                    "url": "https://space.bilibili.com/32589074"
+                  },
+                  "metrics": {
+                    "favorites": 216,
+                    "comments": 174,
+                    "shares": 216,
+                    "views": 12434,
+                    "coins": 226
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "available",
+                    "coins": "available"
+                  },
+                  "collectedAt": "2026-11-06T08:07:47.407Z",
+                  "keyword": "视觉小说",
+                  "workId": "v69452",
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "桂冠之人",
+                    "Laureate",
+                    "桂冠之人 Laureate"
+                  ]
+                }
+              ]
+            },
+            {
               "workId": "v69936",
               "maxLikes": 873,
               "count": 1,
@@ -792,6 +900,62 @@
                   "matchMethod": "explicit-title",
                   "matchedNames": [
                     "对我而言"
+                  ]
+                }
+              ]
+            },
+            {
+              "workId": "v64572",
+              "maxLikes": 361,
+              "count": 1,
+              "evidence": [
+                {
+                  "platform": "bilibili",
+                  "id": "BV1Bg4g68EMm",
+                  "title": "少女和你被困在了同一个时间线无法逃出！你要如何拯救她的死亡？",
+                  "description": "-如果喜欢视频不要忘记【点赞 收藏 关注我】\n\n-剪辑：棠棣\n\n-后期：棠棣\n\n-字幕：棠棣\n\n-游戏名：晓之缘 - Twilight Loop -",
+                  "tags": [
+                    "独立游戏",
+                    "剧情",
+                    "棠棣Tendy",
+                    "电子榨菜",
+                    "Charon",
+                    "视觉小说",
+                    "全程高能",
+                    "实况解说",
+                    "GAL",
+                    "猎奇"
+                  ],
+                  "url": "https://www.bilibili.com/video/BV1Bg4g68EMm",
+                  "publishedAt": "2026-11-03T10:34:39.000Z",
+                  "likes": 361,
+                  "kind": "video",
+                  "durationSeconds": 1161,
+                  "author": {
+                    "id": "22352826",
+                    "name": "棠棣Tendy",
+                    "url": "https://space.bilibili.com/22352826"
+                  },
+                  "metrics": {
+                    "favorites": 308,
+                    "comments": 31,
+                    "shares": 8,
+                    "views": 4799,
+                    "coins": 21
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "available",
+                    "coins": "available"
+                  },
+                  "collectedAt": "2026-11-06T10:09:09.057Z",
+                  "keyword": "视觉小说",
+                  "workId": "v64572",
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "晓之缘 - Twilight Loop -"
                   ]
                 }
               ]
@@ -1643,7 +1807,7 @@
     }
   ],
   "lastAttempt": {
-    "at": "2026-11-07T04:03:04.968Z",
+    "at": "2026-11-07T04:54:55.785Z",
     "periodId": "2026-11-06",
     "platforms": {
       "douyin": {
@@ -1652,7 +1816,7 @@
         "collectedAt": "2026-11-06T08:04:23.438Z",
         "fetched": 123,
         "qualified": 24,
-        "matched": 11,
+        "matched": 10,
         "sample": [
           {
             "platform": "douyin",
@@ -1901,8 +2065,8 @@
         "error": "本期仅完成部分搜索，以下只展示已经核实的片段。",
         "collectedAt": "2026-11-06T08:20:24.996Z",
         "fetched": 705,
-        "qualified": 68,
-        "matched": 4,
+        "qualified": 69,
+        "matched": 7,
         "sample": [
           {
             "platform": "bilibili",
@@ -2046,37 +2210,36 @@
           },
           {
             "platform": "bilibili",
-            "id": "BV1DYxb6YEtm",
-            "title": "“在雨中跳着失真的舞”",
-            "description": "电视机雪花屏，千禧年的雨下个不停。\n玲奈的笔记，未麻的卧室，电次的梦，真嗣等待的列车…\n所有的脸都在失真中融化。\n别去修补这盘坏掉的录像带。\n就让我们死在这个电子旧梦里。",
+            "id": "BV1jJxQ6rESz",
+            "title": "网恋奔现第一天，就被对象吃掉，是种什么体验？视觉小说 I Can Smell You From Here",
+            "description": "喜欢记得关注三连~谢谢支持！",
             "tags": [
-              "雨原玲奈",
-              "Rain98",
-              "影视神仙剪刀手",
-              "电锯人",
-              "梦核",
-              "Lo-fi",
-              "影视剪辑",
-              "游戏",
-              "steam",
-              "千禧年"
+              "整点电子榨菜",
+              "模拟恐怖",
+              "Steam",
+              "独立游戏",
+              "游戏解说",
+              "恐怖游戏",
+              "悬疑",
+              "剧情",
+              "游戏"
             ],
-            "url": "https://www.bilibili.com/video/BV1DYxb6YEtm",
-            "publishedAt": "2026-11-02T04:00:00.000Z",
-            "likes": 11917,
+            "url": "https://www.bilibili.com/video/BV1jJxQ6rESz",
+            "publishedAt": "2026-11-04T10:15:00.000Z",
+            "likes": 1802,
             "kind": "video",
-            "durationSeconds": 73,
+            "durationSeconds": 603,
             "author": {
-              "id": "33159593",
-              "name": "努力の巳宝宝",
-              "url": "https://space.bilibili.com/33159593"
+              "id": "785025",
+              "name": "阿力阿力栗",
+              "url": "https://space.bilibili.com/785025"
             },
             "metrics": {
-              "favorites": 6491,
-              "comments": 220,
-              "shares": 284,
-              "views": 82862,
-              "coins": 2346
+              "favorites": 735,
+              "comments": 63,
+              "shares": 10,
+              "views": 20156,
+              "coins": 150
             },
             "metricAvailability": {
               "favorites": "available",
@@ -2085,13 +2248,58 @@
               "views": "available",
               "coins": "available"
             },
-            "collectedAt": "2026-11-06T08:20:22.263Z",
-            "keyword": "Rain98",
-            "workId": "v69315",
+            "collectedAt": "2026-11-06T08:07:41.608Z",
+            "keyword": "视觉小说",
+            "workId": "v69304",
             "matchMethod": "explicit-title",
             "matchedNames": [
-              "Rain98"
+              "I Can Smell You from Here"
             ]
+          },
+          {
+            "platform": "bilibili",
+            "id": "BV1BZ4A65ETM",
+            "title": "搬进新公寓，迎接我的是粘人开朗的红毛幽灵少年《我回来了404号室》",
+            "description": "其实是红毛少年，不过作者画成正太了（\n游戏地址：https://novelgame.jp/games/show/15006",
+            "tags": [
+              "整点电子榨菜",
+              "电子榨菜",
+              "视觉小说",
+              "游戏实况",
+              "游戏解说",
+              "少年",
+              "正太",
+              "可爱",
+              "二次元"
+            ],
+            "url": "https://www.bilibili.com/video/BV1BZ4A65ETM",
+            "publishedAt": "2026-11-02T15:46:23.000Z",
+            "likes": 1523,
+            "kind": "video",
+            "durationSeconds": 5148,
+            "author": {
+              "id": "533850221",
+              "name": "怜风daze",
+              "url": "https://space.bilibili.com/533850221"
+            },
+            "metrics": {
+              "favorites": 1845,
+              "comments": 9,
+              "shares": 24,
+              "views": 14779,
+              "coins": 45
+            },
+            "metricAvailability": {
+              "favorites": "available",
+              "comments": "available",
+              "shares": "available",
+              "views": "available",
+              "coins": "available"
+            },
+            "collectedAt": "2026-11-06T08:07:43.826Z",
+            "keyword": "视觉小说",
+            "workId": "manual-tadaima-404",
+            "matchMethod": "reviewed"
           }
         ],
         "coverage": {
@@ -2124,7 +2332,7 @@
           ],
           "maxPagesPerQuery": 3,
           "candidateCount": 705,
-          "qualifiedCount": 68
+          "qualifiedCount": 69
         }
       }
     }
