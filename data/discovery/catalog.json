@@ -346878,7 +346878,7 @@
         }
       ],
       "source": "https://vndb.org/v66",
-      "updatedAt": "2026-11-02T07:43:32.252Z",
+      "updatedAt": "2026-11-07T09:17:37.248Z",
       "detailComplete": true,
       "originalDescription": "Gunjo Academy is a facility designed to gather and isolate those students who got a high score on an adaptation exam (scoring high on this exam indicates that the student is less likely to be able to be adapted to the society) mandated by the government.\n\nAfter a failed summer vacation with other members of the school's broadcasting club, Kurosu Taichi and some of the other club members return to the city, only to find that the world had completely changed.",
       "description": "大家还团结在一起的去年夏天……\n\n濒临崩溃的广播部里引发的各种对立……然后是和解……\n\n学院漫长的暑假。濒临崩溃的广播部众人，在个人的层面上也处于崩溃边缘。自从初夏的合宿回来以后，部员们便四分五裂。如今，正经参加社团活动的只剩下一人。\n\n主人公是广播部的一员。\n\n在暑假里冷清的学校，与三三两两露面的伙伴们，主人公逐渐产生交集。来到屋顶，部长宫澄见里(宮澄見里)正在组装巨大的广播天线。独自一人。那是作为暑假广播部的“社团活动”，将其完成并播送广播也成了课题。以前是大家共同参与的。大家还团结在一起的去年夏天。如今，参与的只有一人。曾经的伙伴们冷眼注视着这样的两人。随之引发的各种对立。然后是和解。四分五裂的部员们的心，一点点地相互贴近。\n\n——暑假最后一天，发送装置完成。\n\n装置承载着信息，向世界——",
@@ -346992,7 +346992,7 @@
           "metric": "贝叶斯评分",
           "via": "原站",
           "url": "https://vndb.org/v66",
-          "fetchedAt": "2026-11-02T07:43:32.252Z"
+          "fetchedAt": "2026-11-07T09:17:37.248Z"
         },
         "bangumi": {
           "score": 8.5,
@@ -469793,6 +469793,399 @@
       "coverSourceFlags": {
         "sexual": 0,
         "violence": 0
+      }
+    },
+    "v28755": {
+      "id": "v28755",
+      "title": "深埋之星",
+      "original": "베리드 스타즈",
+      "aliases": [
+        "深埋之星",
+        "베리드 스타즈",
+        "Buried Stars",
+        "ベリード・スターズ"
+      ],
+      "released": "2020-07-30",
+      "languages": [
+        "en",
+        "ja",
+        "ko",
+        "zh-Hans",
+        "zh-Hant"
+      ],
+      "minutes": 1986,
+      "image": "https://t.vndb.org/cv/59/87459.jpg",
+      "cover": {
+        "id": "cv87459",
+        "url": "https://t.vndb.org/cv/59/87459.jpg",
+        "thumbnail": "https://t.vndb.org/cv.t/59/87459.jpg",
+        "sexual": 0,
+        "violence": 0,
+        "kind": "release",
+        "releaseId": "r73073",
+        "source": "https://vndb.org/r73073"
+      },
+      "developers": [
+        {
+          "id": "p11882",
+          "name": "스튜디오 라르고"
+        }
+      ],
+      "source": "https://vndb.org/v28755",
+      "updatedAt": "2026-11-07T09:17:37.248Z",
+      "detailComplete": true,
+      "originalDescription": "\"Nobody can wear two masks without revealing their true self.\"\n\nIt was the finals of the fourth season of \"Buried Stars\" a survival audition competition featuring public contestants.\nThe stage collapsed during the live broadcast, trapping the contestants and a number of the staff.\n\nWith hours to go until the arrival of a rescue team, their sponsored smartwatches are the only way to know what's going on in the outside world. By connecting to SNS via their smartwatches, they can see thousands of comments of worry, support, criticism and mockery. The survivors on the inside and the communicators on the outside wait for rescue.\n\nThen an anonymous user on SNS forewarns of murder, saying that they must pay for their crimes, and the survivors become further divided as their predicament worsens...\n\nWill the survivors be able to last until the rescue team arrives?\nWho is the unknown killer, and why are they doing this?\n\nWhat choice will the main character make at the end of this survival game?",
+      "description": "“没有人能永远隐藏在双重面具之下而不暴露真实的自己。”\n\n在素人生存选秀节目“深埋之星”第四季的决赛直播中，舞台轰然崩塌，参演者和部分工作人员受困其中。\n\n救援队还需数小时才能抵达，赞助商提供的智能手表是了解外部情况的唯一工具。\n社交媒体上充斥着担心和支持的声音，同时也有着各种责骂和嘲笑。\n在这喧嚣之中，有人借助智能手表与内部幸存者交流，有人则试图与外部沟通。大家都等待着救援的到来。\n\n此时，社交媒体上的某个匿名账户发出了杀人预告：有人将为自己犯下的罪行受到惩罚。\n幸存者们深陷分裂和困境的泥沼……\n\n在救援队到达之前，幸存者们能否全身而退？\n这个身份不明的凶手到底是谁？又为何要这样做？\n\n在这场生存游戏的最后，主角将会作何选择？",
+      "descriptionLanguage": "中文",
+      "descriptionSource": "https://www.kungal.com/galgame/28369",
+      "staff": [],
+      "screenshots": [
+        {
+          "id": "sf142205",
+          "url": "https://t.vndb.org/sf/05/142205.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/05/142205.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf142213",
+          "url": "https://t.vndb.org/sf/13/142213.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/13/142213.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf142217",
+          "url": "https://t.vndb.org/sf/17/142217.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/17/142217.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf142218",
+          "url": "https://t.vndb.org/sf/18/142218.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/18/142218.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf142285",
+          "url": "https://t.vndb.org/sf/85/142285.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/85/142285.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf142286",
+          "url": "https://t.vndb.org/sf/86/142286.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/86/142286.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        }
+      ],
+      "links": [],
+      "vndbNames": [
+        "Buried Stars",
+        "베리드 스타즈",
+        "ベリード・スターズ",
+        "深埋之星"
+      ],
+      "matchingAliases": [
+        "深埋之星",
+        "베리드 스타즈",
+        "Buried Stars",
+        "ベリード・スターズ"
+      ],
+      "coverSourceFlags": {
+        "sexual": 0.07,
+        "violence": 0
+      },
+      "ratings": {
+        "vndb": {
+          "score": 6.970000000000001,
+          "scale": 10,
+          "votes": 220,
+          "metric": "贝叶斯评分",
+          "via": "原站",
+          "url": "https://vndb.org/v28755",
+          "fetchedAt": "2026-11-07T09:17:37.248Z"
+        },
+        "bangumi": {
+          "score": 6.4,
+          "votes": 127,
+          "scale": 10,
+          "metric": "站点评分",
+          "url": "https://bgm.tv/subject/310477",
+          "via": "KUN 评分快照",
+          "viaUrl": "https://www.kungal.com/galgame/28369",
+          "fetchedAt": "2026-11-07T09:31:46.658Z"
+        }
+      },
+      "communityNames": [
+        "ベリード・スターズ",
+        "Buried Stars",
+        "深埋之星"
+      ],
+      "communitySearchNames": [
+        "ベリード・スターズ",
+        "Buried Stars",
+        "深埋之星"
+      ],
+      "community": {
+        "kungal": {
+          "id": "28369",
+          "url": "https://www.kungal.com/galgame/28369"
+        },
+        "bangumi": {
+          "id": 310477,
+          "url": "https://bgm.tv/subject/310477"
+        }
+      },
+      "descriptionSourceName": "Bangumi（KUN 资料镜像）",
+      "descriptionMachine": false
+    },
+    "v12402": {
+      "id": "v12402",
+      "title": "海市蜃楼之馆",
+      "original": "ファタモルガーナの館",
+      "aliases": [
+        "海市蜃楼之馆",
+        "ファタモルガーナの館",
+        "Fata Morgana no Yakata",
+        "The House in Fata Morgana",
+        "海市蜃樓之館",
+        "ファタモル",
+        "Fata Moru"
+      ],
+      "released": "2012-12-31",
+      "languages": [
+        "en",
+        "es",
+        "fr",
+        "it",
+        "ja",
+        "ko",
+        "pt-br",
+        "ru",
+        "zh-Hans",
+        "zh-Hant"
+      ],
+      "minutes": 2116,
+      "image": "https://t.vndb.org/cv/31/77731.jpg",
+      "cover": {
+        "id": "cv77731",
+        "url": "https://t.vndb.org/cv/31/77731.jpg",
+        "thumbnail": "https://t.vndb.org/cv.t/31/77731.jpg",
+        "sexual": 0,
+        "violence": 0,
+        "kind": "vn",
+        "source": "https://vndb.org/v12402"
+      },
+      "developers": [
+        {
+          "id": "p3354",
+          "name": "NOVECT"
+        }
+      ],
+      "source": "https://vndb.org/v12402",
+      "updatedAt": "2026-11-07T09:17:37.248Z",
+      "detailComplete": true,
+      "originalDescription": "You awaken in a decrepit old mansion.\n\nA woman with eyes of jade stands before You, informing You that You are the Master of the house, and she Your Maid. However, You have no memories, no concept of self—or, indeed, any certainty that You are even alive.\n\nThe Maid invites You to join her on a journey through the mansion's lifeless halls, to behold the numerous tragedies that have befallen its residents. She suggests that among them, perhaps You will find some trace of Yourself.\n\nBeyond the first door lies the year 1603.\nIt is an era of unparalleled beauty, where art and theatre flourish. Roses bloom abundantly in the garden where the inseparable Rhodes siblings play, and though they appear to be free of worry and strife... not everyone is content to see them happy.\n\nBeyond the second door lies the year 1707.\nIn this era, the mansion lies in ruins, and a beast dwells within. He claims to yearn for a life of serenity, but it is not long before he yields to his innate savagery and a massacre ensues.\n\nBeyond the third door lies the year 1869.\nIn this technologically advanced era, people are always on the move. The mansion's master is an ambitious businessman who has invested in the rail industry. However, his obsession with wealth and power leads him to neglect and mistreat his wife.\n\nBeyond the fourth door lies the year 1099.\nThe Maid tells You that this is the final tale. In this era, You see a young man who claims to be cursed and a girl with white hair, called Giselle, who has been branded a witch and marked for death.\n\nHaving borne witness to these four tragedies, each set in a different time and place, You are now free to choose whether You wish to end Your story here... or press on.\n\nBut there are those who would say, \"You were able to bear them because they weren't your tragedies.\"",
+      "description": "“你”回过神来，发现自己身处一栋古老的洋馆之中。  \n\n眼前站着一位拥有翡翠色眼瞳、爱慕地称呼你为“主人”的女仆。  \n\n然而，“你”失去了记忆，不知道自己究竟是谁。  \n\n甚至连自己是否还活着都无法确信。  \n\n面对这样的“你”，女仆打算让你看看这座洋馆中发生过的种种悲剧。  \n\n在其中，或许会有“你”留下的痕迹……  \n\n第一扇门通向1603年。  \n\n在高贵蔷薇盛开的华丽时代，相亲相爱的罗兹兄妹就在那里。  \n\n在旁人看来，不安与不幸的阴影似乎与他们毫不沾边……  \n\n第二扇门通向1707年。  \n\n在那个时代，洋馆已化作废墟。  \n\n栖息在洋馆里的野兽，虽然渴望着一个安宁的世界，但最终还是无法抑制作为野兽的暴力性，走上了屠杀之路。  \n\n第三扇门通向1869年。  \n\n那是一个文明发展、人们生活变得匆忙的时代。  \n\n从事铁路事业的资本家青年，因为过度追求金钱与权力，变得不再顾及妻子。  \n\n第四扇门通向1099年。  \n\n女仆说，这是最后一扇门。  \n\n那个时代里，有一位宣告自己是“被诅咒的存在”的青年，以及被烙上魔女印记的白发少女“吉泽尔”。  \n\n“你”将目睹跨越时代与地点的四场悲剧。  \n\n是为这些故事画上休止符，还是去追寻前方的未来……  \n\n一切都取决于你的选择。但是，或许也有人会这么说吧。  \n\n【正因为是别人的悲剧，所以至今才能忍受下来吧】",
+      "descriptionLanguage": "中文",
+      "descriptionSource": "https://www.kungal.com/galgame/2399",
+      "staff": [
+        {
+          "id": "s6859",
+          "name": "縹 けいか",
+          "role": "scenario",
+          "aliasId": 8910
+        },
+        {
+          "id": "s6860",
+          "name": "靄太郎",
+          "role": "art",
+          "aliasId": 8911
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sf45367",
+          "url": "https://t.vndb.org/sf/67/45367.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/67/45367.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf45368",
+          "url": "https://t.vndb.org/sf/68/45368.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/68/45368.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf95238",
+          "url": "https://t.vndb.org/sf/38/95238.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/38/95238.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf95240",
+          "url": "https://t.vndb.org/sf/40/95240.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/40/95240.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf95241",
+          "url": "https://t.vndb.org/sf/41/95241.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/41/95241.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf100647",
+          "url": "https://t.vndb.org/sf/47/100647.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/47/100647.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://en.wikipedia.org/wiki/The_House_in_Fata_Morgana",
+          "label": "Wikipedia (en)"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%82%BF%E3%83%A2%E3%83%AB%E3%82%AC%E3%83%BC%E3%83%8A%E3%81%AE%E9%A4%A8",
+          "label": "Wikipedia (ja)"
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q22129090",
+          "label": "Wikidata"
+        },
+        {
+          "url": "https://www.mobygames.com/game/108568/",
+          "label": "MobyGames"
+        },
+        {
+          "url": "https://gamefaqs.gamespot.com/-/893672-",
+          "label": "GameFAQs"
+        },
+        {
+          "url": "https://gamefaqs.gamespot.com/-/193453-",
+          "label": "GameFAQs"
+        },
+        {
+          "url": "https://gamefaqs.gamespot.com/-/196359-",
+          "label": "GameFAQs"
+        },
+        {
+          "url": "https://www.igdb.com/games/the-house-in-fata-morgana",
+          "label": "IGDB"
+        },
+        {
+          "url": "https://www.pcgamingwiki.com/wiki/The_House_in_Fata_Morgana",
+          "label": "PCGamingWiki"
+        },
+        {
+          "url": "https://lutris.net/games/the-house-in-fata-morgana",
+          "label": "Lutris"
+        },
+        {
+          "url": "https://lutris.net/games/the-house-of-fata-morgana",
+          "label": "Lutris"
+        }
+      ],
+      "vndbNames": [
+        "Fata Morgana no Yakata",
+        "ファタモルガーナの館",
+        "The House in Fata Morgana",
+        "海市蜃楼之馆",
+        "海市蜃樓之館",
+        "ファタモル",
+        "Fata Moru"
+      ],
+      "matchingAliases": [
+        "海市蜃楼之馆",
+        "ファタモルガーナの館",
+        "Fata Morgana no Yakata",
+        "The House in Fata Morgana",
+        "海市蜃樓之館",
+        "ファタモル",
+        "Fata Moru"
+      ],
+      "coverSourceFlags": {
+        "sexual": 0,
+        "violence": 0
+      },
+      "ratings": {
+        "vndb": {
+          "score": 8.790000000000001,
+          "scale": 10,
+          "votes": 7801,
+          "metric": "贝叶斯评分",
+          "via": "原站",
+          "url": "https://vndb.org/v12402",
+          "fetchedAt": "2026-11-07T09:17:37.248Z"
+        },
+        "bangumi": {
+          "score": 8.4,
+          "votes": 3138,
+          "scale": 10,
+          "metric": "站点评分",
+          "url": "https://bgm.tv/subject/73806",
+          "via": "KUN 评分快照",
+          "viaUrl": "https://www.kungal.com/galgame/2399",
+          "fetchedAt": "2026-11-07T09:31:49.552Z"
+        },
+        "erogamescape": {
+          "score": 89,
+          "votes": 469,
+          "scale": 100,
+          "metric": "站点评分",
+          "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=18111",
+          "via": "KUN 评分快照",
+          "viaUrl": "https://www.kungal.com/galgame/2399",
+          "fetchedAt": "2026-11-07T09:31:49.552Z"
+        }
+      },
+      "descriptionSourceName": "KUN 社区",
+      "descriptionMachine": true,
+      "communityNames": [
+        "ファタモルガーナの館",
+        "Fata Morgana no Yakata",
+        "海市蜃楼之馆",
+        "海市蜃樓之館"
+      ],
+      "communitySearchNames": [
+        "ファタモルガーナの館",
+        "Fata Morgana no Yakata",
+        "海市蜃楼之馆",
+        "海市蜃樓之館"
+      ],
+      "community": {
+        "kungal": {
+          "id": "2399",
+          "url": "https://www.kungal.com/galgame/2399"
+        },
+        "bangumi": {
+          "id": 73806,
+          "url": "https://bgm.tv/subject/73806"
+        }
       }
     }
   },

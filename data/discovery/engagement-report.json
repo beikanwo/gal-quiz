@@ -1,17 +1,17 @@
 {
-  "startedAt": "2026-11-06T09:56:27.447Z",
+  "startedAt": "2026-11-07T09:17:37.044Z",
   "mode": "shadow",
   "formalRankingChanged": false,
   "searchWindow": {
     "start": "2026-10-31T16:00:00.000Z",
-    "end": "2026-11-06T09:56:28.447Z"
+    "end": "2026-11-07T09:17:38.044Z"
   },
   "platforms": {
     "douyin": {
       "status": "partial",
       "fieldVerificationStatus": "complete",
-      "lastAttemptAt": "2026-11-06T10:03:51.139Z",
-      "searches": 11,
+      "lastAttemptAt": "2026-11-07T09:25:08.686Z",
+      "searches": 12,
       "queries": [
         "galgame",
         "视觉小说",
@@ -20,12 +20,12 @@
         "游戏安利",
         "天津罪",
         "常轨脱离Creative",
-        "尚有佳蜜伴恋心",
-        "国王恋爱",
-        "茧之锤：继承者",
-        "一如她的撒娇方式。",
-        "COCORO",
-        "近月少女的礼仪"
+        "Eden",
+        "I Can Smell You from Here",
+        "命运石之门",
+        "花鸟水月",
+        "恋狱～月狂病～",
+        "人狼村之谜"
       ],
       "searchCoverage": [
         {
@@ -37,31 +37,15 @@
           "channel": "general"
         },
         {
-          "keyword": "冷门视觉小说",
-          "pages": 2,
-          "returned": 2,
-          "inWindow": 1,
-          "outsideWindow": 1,
-          "channel": "general"
-        },
-        {
-          "keyword": "galgame推荐",
+          "keyword": "视觉小说",
           "pages": 2,
           "returned": 16,
-          "inWindow": 13,
-          "outsideWindow": 3,
+          "inWindow": 14,
+          "outsideWindow": 2,
           "channel": "general"
         },
         {
-          "keyword": "游戏安利",
-          "pages": 2,
-          "returned": 18,
-          "inWindow": 17,
-          "outsideWindow": 1,
-          "channel": "general"
-        },
-        {
-          "keyword": "常轨脱离Creative",
+          "keyword": "冷门视觉小说",
           "pages": 2,
           "returned": 3,
           "inWindow": 2,
@@ -69,7 +53,55 @@
           "channel": "general"
         },
         {
-          "keyword": "尚有佳蜜伴恋心",
+          "keyword": "galgame推荐",
+          "pages": 2,
+          "returned": 14,
+          "inWindow": 13,
+          "outsideWindow": 1,
+          "channel": "general"
+        },
+        {
+          "keyword": "游戏安利",
+          "pages": 2,
+          "returned": 13,
+          "inWindow": 13,
+          "outsideWindow": 0,
+          "channel": "general"
+        },
+        {
+          "keyword": "天津罪",
+          "pages": 2,
+          "returned": 5,
+          "inWindow": 5,
+          "outsideWindow": 0,
+          "channel": "general"
+        },
+        {
+          "keyword": "常轨脱离Creative",
+          "pages": 2,
+          "returned": 8,
+          "inWindow": 6,
+          "outsideWindow": 2,
+          "channel": "general"
+        },
+        {
+          "keyword": "I Can Smell You from Here",
+          "pages": 2,
+          "returned": 4,
+          "inWindow": 4,
+          "outsideWindow": 0,
+          "channel": "general"
+        },
+        {
+          "keyword": "命运石之门",
+          "pages": 2,
+          "returned": 10,
+          "inWindow": 10,
+          "outsideWindow": 0,
+          "channel": "general"
+        },
+        {
+          "keyword": "花鸟水月",
           "pages": 2,
           "returned": 1,
           "inWindow": 1,
@@ -77,66 +109,38 @@
           "channel": "general"
         },
         {
-          "keyword": "国王恋爱",
+          "keyword": "恋狱～月狂病～",
           "pages": 2,
-          "returned": 4,
-          "inWindow": 3,
-          "outsideWindow": 1,
-          "channel": "general"
-        },
-        {
-          "keyword": "茧之锤：继承者",
-          "pages": 2,
-          "returned": 3,
-          "inWindow": 2,
-          "outsideWindow": 1,
-          "channel": "general"
-        },
-        {
-          "keyword": "一如她的撒娇方式。",
-          "pages": 2,
-          "returned": 2,
-          "inWindow": 1,
-          "outsideWindow": 1,
-          "channel": "general"
-        },
-        {
-          "keyword": "COCORO",
-          "pages": 2,
-          "returned": 2,
-          "inWindow": 2,
+          "returned": 0,
+          "inWindow": 0,
           "outsideWindow": 0,
           "channel": "general"
         },
         {
-          "keyword": "近月少女的礼仪",
+          "keyword": "人狼村之谜",
           "pages": 2,
-          "returned": 7,
-          "inWindow": 6,
-          "outsideWindow": 1,
+          "returned": 17,
+          "inWindow": 14,
+          "outsideWindow": 3,
           "channel": "general"
         }
       ],
       "pagesPerKeyword": 2,
       "window": {
         "start": "2026-10-31T16:00:00.000Z",
-        "end": "2026-11-06T09:56:28.447Z"
+        "end": "2026-11-07T09:17:38.044Z"
       },
       "workResolution": {
-        "resolved": 1,
+        "resolved": 0,
         "failures": 0
       },
-      "inWindowCount": 65,
-      "identifiedCount": 18,
-      "identifiedWorks": 15,
+      "inWindowCount": 94,
+      "identifiedCount": 24,
+      "identifiedWorks": 18,
       "failures": [
         {
           "stage": "search",
-          "keyword": "视觉小说"
-        },
-        {
-          "stage": "search",
-          "keyword": "天津罪"
+          "keyword": "Eden"
         },
         {
           "stage": "refresh",
@@ -148,22 +152,6 @@
         },
         {
           "stage": "refresh",
-          "id": "7704600044410954929"
-        },
-        {
-          "stage": "refresh",
-          "id": "7703983195985920074"
-        },
-        {
-          "stage": "refresh",
-          "id": "7702794405752687913"
-        },
-        {
-          "stage": "refresh",
-          "id": "7703555268692495666"
-        },
-        {
-          "stage": "refresh",
           "id": "7704284113419216738"
         },
         {
@@ -172,11 +160,7 @@
         },
         {
           "stage": "refresh",
-          "id": "7703104071817257595"
-        },
-        {
-          "stage": "refresh",
-          "id": "7703124318247178874"
+          "id": "7704600044410954929"
         },
         {
           "stage": "refresh",
@@ -184,15 +168,51 @@
         },
         {
           "stage": "refresh",
+          "id": "7704210062579654329"
+        },
+        {
+          "stage": "refresh",
+          "id": "7704310784126248315"
+        },
+        {
+          "stage": "refresh",
+          "id": "7704273197873059771"
+        },
+        {
+          "stage": "refresh",
+          "id": "7704366959307766927"
+        },
+        {
+          "stage": "refresh",
+          "id": "7704668084564403833"
+        },
+        {
+          "stage": "refresh",
+          "id": "7702794405752687913"
+        },
+        {
+          "stage": "refresh",
           "id": "7703598804313876837"
         },
         {
           "stage": "refresh",
-          "id": "7702762141337570611"
+          "id": "7703983195985920074"
         },
         {
           "stage": "refresh",
-          "id": "7703142635984129331"
+          "id": "7703963391979951291"
+        },
+        {
+          "stage": "refresh",
+          "id": "7703964285352942949"
+        },
+        {
+          "stage": "refresh",
+          "id": "7703845508028939466"
+        },
+        {
+          "stage": "refresh",
+          "id": "7703512765507307258"
         }
       ],
       "sampleCount": 20,
@@ -206,18 +226,18 @@
         "coins": 0
       },
       "zeroValues": {
-        "favorites": 0,
-        "comments": 0,
-        "shares": 0,
+        "favorites": 1,
+        "comments": 1,
+        "shares": 1,
         "views": 0,
         "coins": 0
       },
-      "lastSuccessAt": "2026-11-06T10:03:51.139Z"
+      "lastSuccessAt": "2026-11-07T09:25:08.686Z"
     },
     "bilibili": {
       "status": "partial",
       "fieldVerificationStatus": "complete",
-      "lastAttemptAt": "2026-11-06T10:10:35.377Z",
+      "lastAttemptAt": "2026-11-07T09:33:11.774Z",
       "searches": 15,
       "queries": [
         "galgame",
@@ -227,12 +247,12 @@
         "游戏安利",
         "天津罪",
         "常轨脱离Creative",
-        "尚有佳蜜伴恋心",
-        "国王恋爱",
-        "茧之锤：继承者",
-        "一如她的撒娇方式。",
-        "COCORO",
-        "近月少女的礼仪"
+        "Eden",
+        "I Can Smell You from Here",
+        "命运石之门",
+        "花鸟水月",
+        "恋狱～月狂病～",
+        "人狼村之谜"
       ],
       "searchCoverage": [
         {
@@ -264,41 +284,41 @@
           "pages": 1
         },
         {
-          "keyword": "尚有佳蜜伴恋心",
+          "keyword": "Eden",
+          "pages": 2
+        },
+        {
+          "keyword": "I Can Smell You from Here",
           "pages": 1
         },
         {
-          "keyword": "国王恋爱",
+          "keyword": "命运石之门",
+          "pages": 2
+        },
+        {
+          "keyword": "花鸟水月",
           "pages": 1
         },
         {
-          "keyword": "茧之锤：继承者",
+          "keyword": "恋狱～月狂病～",
           "pages": 1
         },
         {
-          "keyword": "一如她的撒娇方式。",
-          "pages": 1
-        },
-        {
-          "keyword": "COCORO",
-          "pages": 1
-        },
-        {
-          "keyword": "近月少女的礼仪",
-          "pages": 1
+          "keyword": "人狼村之谜",
+          "pages": 2
         }
       ],
       "pagesPerKeyword": 2,
       "window": {
         "start": "2026-10-31T16:00:00.000Z",
-        "end": "2026-11-06T09:56:28.447Z"
+        "end": "2026-11-07T09:17:38.044Z"
       },
       "workResolution": {
-        "resolved": 3,
+        "resolved": 2,
         "failures": 0
       },
-      "inWindowCount": 270,
-      "identifiedCount": 62,
+      "inWindowCount": 347,
+      "identifiedCount": 92,
       "identifiedWorks": 44,
       "failures": [
         {
@@ -315,27 +335,11 @@
         },
         {
           "stage": "search",
-          "keyword": "尚有佳蜜伴恋心"
+          "keyword": "I Can Smell You from Here"
         },
         {
           "stage": "search",
-          "keyword": "国王恋爱"
-        },
-        {
-          "stage": "search",
-          "keyword": "一如她的撒娇方式。"
-        },
-        {
-          "stage": "search",
-          "keyword": "COCORO"
-        },
-        {
-          "stage": "search",
-          "keyword": "近月少女的礼仪"
-        },
-        {
-          "stage": "refresh",
-          "id": "BV184xP6hETv"
+          "keyword": "花鸟水月"
         }
       ],
       "sampleCount": 20,
@@ -349,18 +353,18 @@
         "coins": 20
       },
       "zeroValues": {
-        "favorites": 7,
-        "comments": 9,
-        "shares": 12,
+        "favorites": 4,
+        "comments": 11,
+        "shares": 14,
         "views": 0,
-        "coins": 9
+        "coins": 12
       },
-      "lastSuccessAt": "2026-11-06T10:10:35.377Z"
+      "lastSuccessAt": "2026-11-07T09:33:11.774Z"
     }
   },
-  "finishedAt": "2026-11-06T10:10:44.488Z",
-  "observedPosts": 130,
-  "identityPending": 647,
+  "finishedAt": "2026-11-07T09:33:26.204Z",
+  "observedPosts": 193,
+  "identityPending": 886,
   "trial": {
     "periods": [
       {

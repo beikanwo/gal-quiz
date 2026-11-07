@@ -31298,6 +31298,33 @@
           ],
           "released": "2013-04-01",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v20085/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv/82/50982.jpg\" alt=\"まじかりて！封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>まじかりて！</h3><p>じっぱーそふと</p><div class=\"card-heat muted\">2013-04-01</div></a></article>"
+        },
+        {
+          "name": "深埋之星",
+          "aliases": [
+            "베리드 스타즈",
+            "深埋之星",
+            "베리드 스타즈",
+            "Buried Stars",
+            "ベリード・スターズ"
+          ],
+          "released": "2020-07-30",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v28755/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/59/87459.jpg\" data-cover-full=\"https://t.vndb.org/cv/59/87459.jpg\" alt=\"深埋之星封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>深埋之星</h3><p>스튜디오 라르고</p><div class=\"card-heat muted\">2020-07-30</div></a></article>"
+        },
+        {
+          "name": "海市蜃楼之馆",
+          "aliases": [
+            "ファタモルガーナの館",
+            "海市蜃楼之馆",
+            "ファタモルガーナの館",
+            "Fata Morgana no Yakata",
+            "The House in Fata Morgana",
+            "海市蜃樓之館",
+            "ファタモル",
+            "Fata Moru"
+          ],
+          "released": "2012-12-31",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v12402/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/31/77731.jpg\" data-cover-full=\"https://t.vndb.org/cv/31/77731.jpg\" alt=\"海市蜃楼之馆封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>海市蜃楼之馆</h3><p>NOVECT</p><div class=\"card-heat muted\">2012-12-31</div></a></article>"
         }
       ]
     },

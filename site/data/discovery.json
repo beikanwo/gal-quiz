@@ -39216,6 +39216,39 @@
       "path": "works/v20085/"
     },
     {
+      "id": "v28755",
+      "type": "work",
+      "name": "深埋之星",
+      "aliases": [
+        "베리드 스타즈",
+        "深埋之星",
+        "베리드 스타즈",
+        "Buried Stars",
+        "ベリード・スターズ"
+      ],
+      "image": "https://t.vndb.org/cv/59/87459.jpg",
+      "subtitle": "스튜디오 라르고",
+      "path": "works/v28755/"
+    },
+    {
+      "id": "v12402",
+      "type": "work",
+      "name": "海市蜃楼之馆",
+      "aliases": [
+        "ファタモルガーナの館",
+        "海市蜃楼之馆",
+        "ファタモルガーナの館",
+        "Fata Morgana no Yakata",
+        "The House in Fata Morgana",
+        "海市蜃樓之館",
+        "ファタモル",
+        "Fata Moru"
+      ],
+      "image": "https://t.vndb.org/cv/31/77731.jpg",
+      "subtitle": "NOVECT",
+      "path": "works/v12402/"
+    },
+    {
       "id": "s722",
       "type": "staff",
       "name": "こぶいち",
