@@ -2,18 +2,18 @@
   "version": 1,
   "pages": {
     "https://www.scurra.top/": {
-      "hash": "c34e7636a6e1bf84c78f4e3a1dbe40e024f42c3e07214fe518cc01af48e8efdd",
-      "lastmod": "2026-11-07T04:03:08.040Z",
+      "hash": "b75832873a109ac40638db3bfb0815d6c9a494f600217e78cb1b8703a7774bf3",
+      "lastmod": "2026-11-07T04:39:58.179Z",
       "indexable": true
     },
     "https://www.scurra.top/periods/": {
-      "hash": "cd3c0f71fd64afbf2f8905a3ed3dd2e2ac4e359acdb0153b4306771d498f93fc",
-      "lastmod": "2026-11-07T04:03:08.040Z",
+      "hash": "d2086218b1151f14407cce40ff12109766850cb583afc0e6868a301f1e2ce66e",
+      "lastmod": "2026-11-07T04:39:58.179Z",
       "indexable": true
     },
     "https://www.scurra.top/periods/2026-11-06/": {
-      "hash": "4e5dc5eebb1540f7e2598ce5a3ae644e127bd7a05a59e86ddbd349defc1f55c8",
-      "lastmod": "2026-11-07T04:03:08.040Z",
+      "hash": "7cb8d088e2992c54d6828683bca20b43a65052b711ff90a20f14e201b3bab8d2",
+      "lastmod": "2026-11-07T04:39:58.179Z",
       "indexable": true
     },
     "https://www.scurra.top/periods/2026-11-01/": {
@@ -132,8 +132,8 @@
       "indexable": true
     },
     "https://www.scurra.top/works/v16044/": {
-      "hash": "3425b64ebfbc4e2c8c118cf19052997985a8980e467daf6a9467c9914003dbec",
-      "lastmod": "2026-11-07T04:03:08.040Z",
+      "hash": "9d76ef2897213d717432c7e46c5ce8d0877b5900ba544fe31b0d5c9f306d9e68",
+      "lastmod": "2026-11-07T04:39:58.179Z",
       "indexable": true
     },
     "https://www.scurra.top/works/v18149/": {
@@ -14732,13 +14732,13 @@
       "indexable": true
     },
     "https://www.scurra.top/signals/2026-11-06/": {
-      "hash": "edac90338f695489655b5e3a9ead85e8cb74137eb28a6d6252d50a727d5f0050",
-      "lastmod": "2026-11-06T19:56:01.621Z",
+      "hash": "cefc93f67407721ccb0496a5953d75bbf39c8823d3cb93ef134e5cf293161149",
+      "lastmod": "2026-11-07T04:40:37.431Z",
       "indexable": true
     },
     "https://www.scurra.top/signals/": {
-      "hash": "13000f0ca08f7073c2941712aba243db2affbf146311204b073ca4613033be2d",
-      "lastmod": "2026-11-06T19:56:01.621Z",
+      "hash": "aa026568644fe1913439c0f20dbd2dc41e9ef5218dce7ff30d6653b42ec0d646",
+      "lastmod": "2026-11-07T04:40:37.431Z",
       "indexable": true
     },
     "https://www.scurra.top/search/": {

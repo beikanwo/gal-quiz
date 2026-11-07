@@ -348,66 +348,6 @@
             ]
           },
           {
-            "workId": "v16044",
-            "platform": "douyin",
-            "authorCount": 1,
-            "missingAuthors": 0,
-            "layer": "单账号线索",
-            "aboveNormalAuthors": 0,
-            "maxLikes": 11712,
-            "concentration": 1,
-            "evidence": [
-              {
-                "platform": "douyin",
-                "id": "7704440789804304539",
-                "title": "好过分..明明是你弄哭我的 #绫地宁宁 #魔女的夜宴 #galgame",
-                "description": "",
-                "tags": [
-                  "绫地宁宁",
-                  "魔女的夜宴",
-                  "galgame"
-                ],
-                "kind": "video",
-                "url": "https://www.douyin.com/video/7704440789804304539",
-                "publishedAt": "2026-11-05T04:00:00+00:00",
-                "likes": 11712,
-                "author": {
-                  "id": "63914179980",
-                  "name": "幺梨梨86",
-                  "url": "https://www.douyin.com/user/MS4wLjABAAAAjdAtXhG9Or0LrpPF1Z0OIyEDqBn1Zm7M2ixsNbyjZYg"
-                },
-                "durationSeconds": null,
-                "metrics": {
-                  "favorites": 1968,
-                  "comments": 77,
-                  "shares": 392,
-                  "views": null,
-                  "coins": null
-                },
-                "metricAvailability": {
-                  "favorites": "available",
-                  "comments": "available",
-                  "shares": "available",
-                  "views": "unsupported",
-                  "coins": "unsupported"
-                },
-                "collectedAt": "2026-11-06T10:02:13.707485+00:00",
-                "keyword": "魔女的夜宴",
-                "refreshMethod": "search-id-confirmed",
-                "workId": "v16044",
-                "matchMethod": "explicit-title",
-                "matchedNames": [
-                  "魔女的夜宴"
-                ],
-                "baseline": {
-                  "status": "insufficient",
-                  "sampleCount": 0,
-                  "reason": "缺少作者、同龄快照或可比较的内容类型"
-                }
-              }
-            ]
-          },
-          {
             "workId": "v777",
             "platform": "douyin",
             "authorCount": 1,
@@ -2190,7 +2130,7 @@
       "commentsMin": 30,
       "douyinFavoritesMin": 30
     },
-    "generatedAt": "2026-11-06T10:10:44.487Z"
+    "generatedAt": "2026-11-07T04:39:57.732Z"
   },
   "reports": [
     {
@@ -2510,66 +2450,6 @@
                   "matchMethod": "explicit-title",
                   "matchedNames": [
                     "人狼村之谜"
-                  ],
-                  "baseline": {
-                    "status": "insufficient",
-                    "sampleCount": 0,
-                    "reason": "缺少作者、同龄快照或可比较的内容类型"
-                  }
-                }
-              ]
-            },
-            {
-              "workId": "v16044",
-              "platform": "douyin",
-              "authorCount": 1,
-              "missingAuthors": 0,
-              "layer": "单账号线索",
-              "aboveNormalAuthors": 0,
-              "maxLikes": 11712,
-              "concentration": 1,
-              "evidence": [
-                {
-                  "platform": "douyin",
-                  "id": "7704440789804304539",
-                  "title": "好过分..明明是你弄哭我的 #绫地宁宁 #魔女的夜宴 #galgame",
-                  "description": "",
-                  "tags": [
-                    "绫地宁宁",
-                    "魔女的夜宴",
-                    "galgame"
-                  ],
-                  "kind": "video",
-                  "url": "https://www.douyin.com/video/7704440789804304539",
-                  "publishedAt": "2026-11-05T04:00:00+00:00",
-                  "likes": 11712,
-                  "author": {
-                    "id": "63914179980",
-                    "name": "幺梨梨86",
-                    "url": "https://www.douyin.com/user/MS4wLjABAAAAjdAtXhG9Or0LrpPF1Z0OIyEDqBn1Zm7M2ixsNbyjZYg"
-                  },
-                  "durationSeconds": null,
-                  "metrics": {
-                    "favorites": 1968,
-                    "comments": 77,
-                    "shares": 392,
-                    "views": null,
-                    "coins": null
-                  },
-                  "metricAvailability": {
-                    "favorites": "available",
-                    "comments": "available",
-                    "shares": "available",
-                    "views": "unsupported",
-                    "coins": "unsupported"
-                  },
-                  "collectedAt": "2026-11-06T10:02:13.707485+00:00",
-                  "keyword": "魔女的夜宴",
-                  "refreshMethod": "search-id-confirmed",
-                  "workId": "v16044",
-                  "matchMethod": "explicit-title",
-                  "matchedNames": [
-                    "魔女的夜宴"
                   ],
                   "baseline": {
                     "status": "insufficient",
@@ -4365,7 +4245,7 @@
         "commentsMin": 30,
         "douyinFavoritesMin": 30
       },
-      "generatedAt": "2026-11-06T10:10:44.483Z",
+      "generatedAt": "2026-11-07T04:39:57.729Z",
       "finalized": false
     }
   ]

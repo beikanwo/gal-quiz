@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-11-02T09:21:16.450Z",
-  "checked": 26,
-  "retained": 26,
+  "checkedAt": "2026-11-07T04:39:56.121Z",
+  "checked": 41,
+  "retained": 40,
   "quarantined": [
     {
       "platform": "douyin",
@@ -86,6 +86,53 @@
       "reason": "没有找到明确作品名",
       "candidates": [],
       "auditStatus": "pending"
+    },
+    {
+      "platform": "douyin",
+      "id": "7704440789804304539",
+      "title": "好过分..明明是你弄哭我的 #绫地宁宁 #魔女的夜宴 #galgame",
+      "description": "",
+      "tags": [
+        "绫地宁宁",
+        "魔女的夜宴",
+        "galgame"
+      ],
+      "kind": "video",
+      "url": "https://www.douyin.com/video/7704440789804304539",
+      "publishedAt": "2026-11-05T04:00:00+00:00",
+      "likes": 11581,
+      "author": {
+        "id": "63914179980",
+        "name": "幺梨梨86",
+        "url": "https://www.douyin.com/user/MS4wLjABAAAAjdAtXhG9Or0LrpPF1Z0OIyEDqBn1Zm7M2ixsNbyjZYg"
+      },
+      "durationSeconds": null,
+      "metrics": {
+        "favorites": 1940,
+        "comments": 77,
+        "shares": 388,
+        "views": null,
+        "coins": null
+      },
+      "metricAvailability": {
+        "favorites": "available",
+        "comments": "available",
+        "shares": "available",
+        "views": "unsupported",
+        "coins": "unsupported"
+      },
+      "collectedAt": "2026-11-06T07:58:55.344852+00:00",
+      "keyword": "gal游戏",
+      "workId": "v16044",
+      "matchMethod": "explicit-title",
+      "matchedNames": [
+        "魔女的夜宴"
+      ],
+      "previousWorkId": "v16044",
+      "periodId": "2026-11-06",
+      "reason": "用户确认是绫地宁宁的真人 COS 视频，作品标签仅说明角色出处，排除出游戏内容热度统计。",
+      "candidates": [],
+      "auditStatus": "excluded"
     }
   ]
 }
