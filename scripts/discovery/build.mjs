@@ -66,7 +66,7 @@ function cover(w, cls = '') {
 }
 function card(w, rank) {
   if (!w) return '';
-  return `<article class="work-card"><a href="@@ROOT@@${workPath(w.id)}">${cover(w)}<h3>${esc(w.title)}</h3><p>${esc((w.developers ?? []).map((p) => p.name).join(' / ') || w.original || '作品资料')}</p>${rank ? `<div class="card-heat"><span>${number(rank.maxLikes)} 赞</span><span>${rank.count} 条片段</span></div><p class="muted">最高赞片段发布于 ${date(rank.evidence[0].publishedAt)}</p>` : `<div class="card-heat muted">${esc(w.released ?? '发行时间待补充')}</div>`}</a></article>`;
+  return `<article class="work-card"><a href="@@ROOT@@${workPath(w.id)}">${cover(w)}<h3>${esc(w.title)}</h3><p>${esc((w.developers ?? []).map((p) => p.name).join(' / ') || w.original || '作品资料')}</p>${rank ? `<div class="card-heat"><span>${number(rank.maxLikes)} 赞</span><span>${rank.count} 条片段</span></div><p class="muted">片段发布 <time datetime="${esc(rank.evidence[0].publishedAt)}" title="最高赞片段的发布时间">${date(rank.evidence[0].publishedAt)}</time></p>` : `<div class="card-heat muted">${esc(w.released ?? '发行时间待补充')}</div>`}</a></article>`;
 }
 function workRail(name, ranking, full) {
   const cards = ranking.slice(0, full ? undefined : 10).map((r) => card(work(r.workId), r)).join('');
