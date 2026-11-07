@@ -1,26 +1,30 @@
 {
-  "startedAt": "2026-11-07T13:31:33.290Z",
+  "startedAt": "2026-11-07T22:16:53.775Z",
   "before": {
     "total": 2642,
-    "detailed": 2578,
-    "chinese": 1493,
-    "covers": 1723,
-    "communityChecked": 1501,
-    "communityPending": 1141,
-    "failed": 1042,
+    "detailed": 2641,
+    "chinese": 1600,
+    "covers": 1724,
+    "communityChecked": 1621,
+    "communityPending": 1021,
+    "failed": 1127,
     "ratings": {
-      "bangumi": 1355,
+      "bangumi": 1437,
       "vndb": 2290,
-      "erogamescape": 1385
+      "erogamescape": 1487
     }
   },
   "stages": {
-    "vndb": 66,
+    "vndb": 0,
     "community": 120,
-    "bangumi": 676,
-    "cover": 66
+    "bangumi": 1058,
+    "cover": 0
   },
   "failures": [
+    {
+      "workId": "v26721",
+      "stage": "bangumi"
+    },
     {
       "workId": "v2285",
       "stage": "bangumi"
@@ -42,371 +46,1331 @@
       "stage": "bangumi"
     },
     {
-      "workId": "v3823",
+      "workId": "v19073",
       "stage": "bangumi"
     },
     {
-      "workId": "v4886",
+      "workId": "v83",
       "stage": "bangumi"
     },
     {
-      "workId": "v5575",
+      "workId": "v179",
       "stage": "bangumi"
     },
     {
-      "workId": "v8174",
+      "workId": "v532",
       "stage": "bangumi"
     },
     {
-      "workId": "v8175",
+      "workId": "v632",
       "stage": "bangumi"
     },
     {
-      "workId": "v10016",
+      "workId": "v701",
       "stage": "bangumi"
     },
     {
-      "workId": "v10637",
+      "workId": "v893",
       "stage": "bangumi"
     },
     {
-      "workId": "v11093",
+      "workId": "v1322",
       "stage": "bangumi"
     },
     {
-      "workId": "v11433",
+      "workId": "v1618",
       "stage": "bangumi"
     },
     {
-      "workId": "v12488",
+      "workId": "v1740",
       "stage": "bangumi"
     },
     {
-      "workId": "v13342",
+      "workId": "v1950",
       "stage": "bangumi"
     },
     {
-      "workId": "v14893",
+      "workId": "v2027",
       "stage": "bangumi"
     },
     {
-      "workId": "v15147",
+      "workId": "v2352",
       "stage": "bangumi"
     },
     {
-      "workId": "v15731",
+      "workId": "v4806",
       "stage": "bangumi"
     },
     {
-      "workId": "v16212",
+      "workId": "v7253",
       "stage": "bangumi"
     },
     {
-      "workId": "v18276",
+      "workId": "v7600",
       "stage": "bangumi"
     },
     {
-      "workId": "v18670",
+      "workId": "v8213",
       "stage": "bangumi"
     },
     {
-      "workId": "v18690",
+      "workId": "v8438",
       "stage": "bangumi"
     },
     {
-      "workId": "v18759",
+      "workId": "v11582",
       "stage": "bangumi"
     },
     {
-      "workId": "v19131",
+      "workId": "v12167",
       "stage": "bangumi"
     },
     {
-      "workId": "v19391",
+      "workId": "v16044",
       "stage": "bangumi"
     },
     {
-      "workId": "v19530",
+      "workId": "v18149",
       "stage": "bangumi"
     },
     {
-      "workId": "v19886",
+      "workId": "v22230",
       "stage": "bangumi"
     },
     {
-      "workId": "v20261",
+      "workId": "v26414",
       "stage": "bangumi"
     },
     {
-      "workId": "v20315",
+      "workId": "v34192",
       "stage": "bangumi"
     },
     {
-      "workId": "v20367",
+      "workId": "v40520",
       "stage": "bangumi"
     },
     {
-      "workId": "v21474",
+      "workId": "v56650",
       "stage": "bangumi"
     },
     {
-      "workId": "v22152",
+      "workId": "v25",
       "stage": "bangumi"
     },
     {
-      "workId": "v22713",
+      "workId": "v263",
       "stage": "bangumi"
     },
     {
-      "workId": "v24626",
+      "workId": "v775",
       "stage": "bangumi"
     },
     {
-      "workId": "v24853",
+      "workId": "v1021",
       "stage": "bangumi"
     },
     {
-      "workId": "v25964",
+      "workId": "v1129",
       "stage": "bangumi"
     },
     {
-      "workId": "v26791",
+      "workId": "v1486",
       "stage": "bangumi"
     },
     {
-      "workId": "v31272",
+      "workId": "v1545",
       "stage": "bangumi"
     },
     {
-      "workId": "v33719",
+      "workId": "v3067",
       "stage": "bangumi"
     },
     {
-      "workId": "v33837",
+      "workId": "v3240",
       "stage": "bangumi"
     },
     {
-      "workId": "v36366",
+      "workId": "v4259",
       "stage": "bangumi"
     },
     {
-      "workId": "v38511",
+      "workId": "v4822",
       "stage": "bangumi"
     },
     {
-      "workId": "v41944",
+      "workId": "v6683",
       "stage": "bangumi"
     },
     {
-      "workId": "v47880",
+      "workId": "v6820",
       "stage": "bangumi"
     },
     {
-      "workId": "v49143",
+      "workId": "v7143",
       "stage": "bangumi"
     },
     {
-      "workId": "v51363",
+      "workId": "v7666",
       "stage": "bangumi"
     },
     {
-      "workId": "v51364",
+      "workId": "v8231",
       "stage": "bangumi"
     },
     {
-      "workId": "v53594",
+      "workId": "v11726",
       "stage": "bangumi"
     },
     {
-      "workId": "v57736",
+      "workId": "v14838",
       "stage": "bangumi"
     },
     {
-      "workId": "v58547",
+      "workId": "v16103",
       "stage": "bangumi"
     },
     {
-      "workId": "v64431",
+      "workId": "v17632",
       "stage": "bangumi"
     },
     {
-      "workId": "v64683",
+      "workId": "v18842",
       "stage": "bangumi"
     },
     {
-      "workId": "v192",
+      "workId": "v21530",
       "stage": "bangumi"
     },
     {
-      "workId": "v362",
+      "workId": "v23501",
       "stage": "bangumi"
     },
     {
-      "workId": "v363",
+      "workId": "v28286",
       "stage": "bangumi"
     },
     {
-      "workId": "v815",
+      "workId": "v29402",
       "stage": "bangumi"
     },
     {
-      "workId": "v927",
+      "workId": "v30233",
       "stage": "bangumi"
     },
     {
-      "workId": "v948",
+      "workId": "v30234",
       "stage": "bangumi"
     },
     {
-      "workId": "v1023",
+      "workId": "v32183",
       "stage": "bangumi"
     },
     {
-      "workId": "v1136",
+      "workId": "v33036",
       "stage": "bangumi"
     },
     {
-      "workId": "v1375",
+      "workId": "v77",
       "stage": "bangumi"
     },
     {
-      "workId": "v1437",
+      "workId": "v419",
       "stage": "bangumi"
     },
     {
-      "workId": "v1507",
+      "workId": "v689",
       "stage": "bangumi"
     },
     {
-      "workId": "v1508",
+      "workId": "v690",
       "stage": "bangumi"
     },
     {
-      "workId": "v4521",
+      "workId": "v1155",
       "stage": "bangumi"
     },
     {
-      "workId": "v6954",
+      "workId": "v1376",
       "stage": "bangumi"
     },
     {
-      "workId": "v8437",
+      "workId": "v1517",
       "stage": "bangumi"
     },
     {
-      "workId": "v12561",
+      "workId": "v1547",
       "stage": "bangumi"
     },
     {
-      "workId": "v15879",
+      "workId": "v1742",
       "stage": "bangumi"
     },
     {
-      "workId": "v18907",
+      "workId": "v2886",
       "stage": "bangumi"
     },
     {
-      "workId": "v20941",
+      "workId": "v2936",
       "stage": "bangumi"
     },
     {
-      "workId": "v24506",
+      "workId": "v3925",
       "stage": "bangumi"
     },
     {
-      "workId": "v27053",
+      "workId": "v3992",
       "stage": "bangumi"
     },
     {
-      "workId": "v44198",
+      "workId": "v6668",
       "stage": "bangumi"
     },
     {
-      "workId": "v45481",
+      "workId": "v6678",
       "stage": "bangumi"
     },
     {
-      "workId": "v354",
+      "workId": "v10244",
       "stage": "bangumi"
     },
     {
-      "workId": "v1379",
+      "workId": "v10957",
       "stage": "bangumi"
     },
     {
-      "workId": "v1590",
+      "workId": "v11316",
       "stage": "bangumi"
     },
     {
-      "workId": "v3817",
+      "workId": "v12602",
       "stage": "bangumi"
     },
     {
-      "workId": "v9913",
+      "workId": "v13108",
       "stage": "bangumi"
     },
     {
-      "workId": "v17999",
+      "workId": "v16208",
       "stage": "bangumi"
     },
     {
-      "workId": "v26513",
+      "workId": "v18141",
       "stage": "bangumi"
     },
     {
-      "workId": "v34025",
+      "workId": "v24725",
       "stage": "bangumi"
     },
     {
-      "workId": "v7043",
+      "workId": "v24987",
       "stage": "bangumi"
     },
     {
-      "workId": "v18780",
+      "workId": "v31436",
       "stage": "bangumi"
     },
     {
-      "workId": "v2346",
+      "workId": "v32021",
       "stage": "bangumi"
     },
     {
-      "workId": "v19817",
+      "workId": "v61834",
       "stage": "bangumi"
     },
     {
-      "workId": "v21393",
+      "workId": "v1256",
       "stage": "bangumi"
     },
     {
-      "workId": "v21432",
+      "workId": "v2226",
       "stage": "bangumi"
     },
     {
-      "workId": "v22075",
+      "workId": "v2574",
       "stage": "bangumi"
     },
     {
-      "workId": "v22137",
+      "workId": "v2835",
       "stage": "bangumi"
     },
     {
-      "workId": "v22283",
+      "workId": "v7786",
       "stage": "bangumi"
     },
     {
-      "workId": "v22788",
+      "workId": "v8158",
       "stage": "bangumi"
     },
     {
-      "workId": "v23205",
+      "workId": "v10341",
       "stage": "bangumi"
     },
     {
-      "workId": "v23908",
+      "workId": "v10803",
       "stage": "bangumi"
     },
     {
-      "workId": "v24320",
+      "workId": "v12476",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v18790",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v21495",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v26001",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v635",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v1126",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v1417",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v1619",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v1620",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v5835",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v652",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v816",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v93",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v94",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v358",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v405",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v444",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v1380",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v2884",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v4215",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v4572",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v4573",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v6913",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v5096",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v439",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v443",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v579",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v1070",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v2809",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v5895",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v10335",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v18592",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v32787",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v39292",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v67571",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v183",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v1107",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v26052",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v7623",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v21343",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v22636",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v1981",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v2107",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v2273",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v2655",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v2691",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v2916",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v2927",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v3230",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v3602",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v4115",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v4922",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v5443",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v5569",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v6593",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v6636",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v6637",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v6742",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v6831",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v7804",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v8073",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v10078",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v10207",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v11123",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v12225",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v12433",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v12840",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v12949",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v13327",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v15127",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v15496",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v16093",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v17263",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v17949",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v18650",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v19042",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v19236",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v19355",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v21346",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v22903",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v24381",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v24581",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v24983",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v25050",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v28622",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v29242",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v30750",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v48766",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v52145",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v55876",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v56750",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v65620",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v490",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v679",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v1117",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v1133",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v1716",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v3076",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v3706",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v5468",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v6145",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v6540",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v10099",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v12914",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v14071",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v18806",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v16570",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v17845",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v18077",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v18146",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v19192",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v20297",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v21178",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v21620",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v25007",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v27032",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v30835",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v37172",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v48959",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v54472",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v24417",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v26594",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v32690",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v359",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v1061",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v2633",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v2678",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v3372",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v3663",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v3804",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v3956",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v4287",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v4291",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v5100",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v5101",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v6360",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v6980",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v7805",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v9679",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v10324",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v11068",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v11996",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v12611",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v12797",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v14895",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v15874",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v18450",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v18927",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v20855",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v22656",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v26305",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v29403",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v43465",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v51121",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v54707",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v60525",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v18852",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v7",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v99",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v264",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v318",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v320",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v4189",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v10597",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v12562",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v15637",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v21523",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v51923",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v62721",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v195",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v492",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v540",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v541",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v542",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v543",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v963",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v3790",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v3861",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v4316",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v5249",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v6183",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v6663",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v7294",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v10958",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v14760",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v16742",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v18145",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v21979",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v27161",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v29032",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v35348",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v39985",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v43768",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v47188",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v51507",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v52441",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v53322",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v54057",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v58310",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v63442",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v455",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v1651",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v2589",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v2672",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v5107",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v6747",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v49427",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v57252",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v23288",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v14018",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v3061",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v3533",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v5230",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v5956",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v6378",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v10142",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v10877",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v15873",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v1833",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v4200",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v22297",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v12794",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v21903",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v193",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v630",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v1179",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v1569",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v2057",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v3789",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v3811",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v18335",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v26530",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v28731",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v54050",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v18778",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v19658",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v19829",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v21668",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v23740",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v24689",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v24803",
       "stage": "bangumi"
     },
     {
@@ -426,6 +1390,10 @@
       "stage": "bangumi"
     },
     {
+      "workId": "v26523",
+      "stage": "bangumi"
+    },
+    {
       "workId": "v26765",
       "stage": "bangumi"
     },
@@ -435,6 +1403,10 @@
     },
     {
       "workId": "v27236",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v27449",
       "stage": "bangumi"
     },
     {
@@ -498,6 +1470,10 @@
       "stage": "bangumi"
     },
     {
+      "workId": "v50153",
+      "stage": "bangumi"
+    },
+    {
       "workId": "v50868",
       "stage": "bangumi"
     },
@@ -535,6 +1511,10 @@
     },
     {
       "workId": "v17796",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v1306",
       "stage": "bangumi"
     },
     {
@@ -610,6 +1590,10 @@
       "stage": "bangumi"
     },
     {
+      "workId": "v1552",
+      "stage": "bangumi"
+    },
+    {
       "workId": "v2071",
       "stage": "bangumi"
     },
@@ -671,6 +1655,10 @@
     },
     {
       "workId": "v26989",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v31002",
       "stage": "bangumi"
     },
     {
@@ -834,11 +1822,19 @@
       "stage": "bangumi"
     },
     {
+      "workId": "v7738",
+      "stage": "bangumi"
+    },
+    {
       "workId": "v13666",
       "stage": "bangumi"
     },
     {
       "workId": "v19035",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v21667",
       "stage": "bangumi"
     },
     {
@@ -882,6 +1878,10 @@
       "stage": "bangumi"
     },
     {
+      "workId": "v29057",
+      "stage": "bangumi"
+    },
+    {
       "workId": "v32132",
       "stage": "bangumi"
     },
@@ -907,6 +1907,10 @@
     },
     {
       "workId": "v4707",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v1143",
       "stage": "bangumi"
     },
     {
@@ -1130,6 +2134,10 @@
       "stage": "bangumi"
     },
     {
+      "workId": "v2715",
+      "stage": "bangumi"
+    },
+    {
       "workId": "v2724",
       "stage": "bangumi"
     },
@@ -1326,6 +2334,10 @@
       "stage": "bangumi"
     },
     {
+      "workId": "v19233",
+      "stage": "bangumi"
+    },
+    {
       "workId": "v19269",
       "stage": "bangumi"
     },
@@ -1379,6 +2391,10 @@
     },
     {
       "workId": "v25996",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v26232",
       "stage": "bangumi"
     },
     {
@@ -1438,6 +2454,10 @@
       "stage": "bangumi"
     },
     {
+      "workId": "v49274",
+      "stage": "bangumi"
+    },
+    {
       "workId": "v50152",
       "stage": "bangumi"
     },
@@ -1447,6 +2467,10 @@
     },
     {
       "workId": "v55877",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v55886",
       "stage": "bangumi"
     },
     {
@@ -1495,6 +2519,10 @@
     },
     {
       "workId": "v65624",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v10680",
       "stage": "bangumi"
     },
     {
@@ -1554,7 +2582,15 @@
       "stage": "bangumi"
     },
     {
+      "workId": "v729",
+      "stage": "bangumi"
+    },
+    {
       "workId": "v1185",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v1194",
       "stage": "bangumi"
     },
     {
@@ -1634,6 +2670,10 @@
       "stage": "bangumi"
     },
     {
+      "workId": "v28666",
+      "stage": "bangumi"
+    },
+    {
       "workId": "v33099",
       "stage": "bangumi"
     },
@@ -1663,6 +2703,14 @@
     },
     {
       "workId": "v7838",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v33205",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v53590",
       "stage": "bangumi"
     },
     {
@@ -1754,6 +2802,10 @@
       "stage": "bangumi"
     },
     {
+      "workId": "v11301",
+      "stage": "bangumi"
+    },
+    {
       "workId": "v11487",
       "stage": "bangumi"
     },
@@ -1774,7 +2826,15 @@
       "stage": "bangumi"
     },
     {
+      "workId": "v15538",
+      "stage": "bangumi"
+    },
+    {
       "workId": "v16483",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v16802",
       "stage": "bangumi"
     },
     {
@@ -1838,6 +2898,10 @@
       "stage": "bangumi"
     },
     {
+      "workId": "v25144",
+      "stage": "bangumi"
+    },
+    {
       "workId": "v25809",
       "stage": "bangumi"
     },
@@ -1890,11 +2954,19 @@
       "stage": "bangumi"
     },
     {
+      "workId": "v33175",
+      "stage": "bangumi"
+    },
+    {
       "workId": "v33494",
       "stage": "bangumi"
     },
     {
       "workId": "v35899",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v38037",
       "stage": "bangumi"
     },
     {
@@ -1942,7 +3014,19 @@
       "stage": "bangumi"
     },
     {
+      "workId": "v43468",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v47552",
+      "stage": "bangumi"
+    },
+    {
       "workId": "v47553",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v50215",
       "stage": "bangumi"
     },
     {
@@ -1962,6 +3046,10 @@
       "stage": "bangumi"
     },
     {
+      "workId": "v21465",
+      "stage": "bangumi"
+    },
+    {
       "workId": "v22175",
       "stage": "bangumi"
     },
@@ -1974,7 +3062,15 @@
       "stage": "bangumi"
     },
     {
+      "workId": "v28712",
+      "stage": "bangumi"
+    },
+    {
       "workId": "v32269",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v32797",
       "stage": "bangumi"
     },
     {
@@ -1999,6 +3095,10 @@
     },
     {
       "workId": "v57740",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v60663",
       "stage": "bangumi"
     },
     {
@@ -2174,6 +3274,10 @@
       "stage": "bangumi"
     },
     {
+      "workId": "v10557",
+      "stage": "bangumi"
+    },
+    {
       "workId": "v10979",
       "stage": "bangumi"
     },
@@ -2247,6 +3351,10 @@
     },
     {
       "workId": "v8551",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v9303",
       "stage": "bangumi"
     },
     {
@@ -2351,6 +3459,10 @@
     },
     {
       "workId": "v2546",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v6589",
       "stage": "bangumi"
     },
     {
@@ -2566,6 +3678,10 @@
       "stage": "bangumi"
     },
     {
+      "workId": "v36",
+      "stage": "bangumi"
+    },
+    {
       "workId": "v3079",
       "stage": "bangumi"
     },
@@ -2607,6 +3723,386 @@
     },
     {
       "workId": "v2527",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v6091",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v6641",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v7108",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v7722",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v9124",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v9127",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v11580",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v14265",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v15347",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v1354",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v1755",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v4851",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v7302",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v14062",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v17516",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v48837",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v16342",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v22014",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v6710",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v8170",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v8900",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v12559",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v14269",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v16069",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v7081",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v7794",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v10980",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v12856",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v14551",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v15653",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v17004",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v19104",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v21455",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v26000",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v41195",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v66805",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v68674",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v68675",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v236",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v504",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v1329",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v1617",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v2553",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v2870",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v4042",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v9198",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v12831",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v13718",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v16511",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v29066",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v20432",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v31136",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v33143",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v49951",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v27959",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v28640",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v29368",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v31396",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v39756",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v14327",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v16166",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v17829",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v18144",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v18344",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v18651",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v18807",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v35466",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v63828",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v766",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v814",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v6714",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v11300",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v16339",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v19444",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v22045",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v25366",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v26418",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v26419",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v28633",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v30238",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v30239",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v32811",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v36615",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v36616",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v52702",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v66",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v914",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v20431",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v28806",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v3144",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v4334",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v60196",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v7771",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v12849",
+      "stage": "bangumi"
+    },
+    {
+      "workId": "v30012",
       "stage": "bangumi"
     },
     {
@@ -2674,20 +4170,20 @@
       "stage": "bangumi"
     }
   ],
-  "updatedAt": "2026-11-07T13:41:36.931Z",
+  "updatedAt": "2026-11-07T22:31:08.044Z",
   "after": {
     "total": 2642,
     "detailed": 2641,
-    "chinese": 1600,
+    "chinese": 1702,
     "covers": 1724,
-    "communityChecked": 1621,
-    "communityPending": 1021,
-    "failed": 1127,
+    "communityChecked": 1741,
+    "communityPending": 901,
+    "failed": 1202,
     "ratings": {
-      "bangumi": 1437,
+      "bangumi": 1523,
       "vndb": 2290,
-      "erogamescape": 1487
+      "erogamescape": 1576
     }
   },
-  "finishedAt": "2026-11-07T13:41:36.931Z"
+  "finishedAt": "2026-11-07T22:31:08.044Z"
 }
