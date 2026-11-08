@@ -1,146 +1,53 @@
 {
-  "startedAt": "2026-11-07T09:17:37.044Z",
+  "startedAt": "2026-11-08T09:34:14.151Z",
   "mode": "shadow",
   "formalRankingChanged": false,
   "searchWindow": {
-    "start": "2026-10-31T16:00:00.000Z",
-    "end": "2026-11-07T09:17:38.044Z"
+    "start": "2026-11-03T09:34:14.151Z",
+    "end": "2026-11-08T09:34:15.151Z"
   },
   "platforms": {
     "douyin": {
-      "status": "partial",
-      "fieldVerificationStatus": "complete",
-      "lastAttemptAt": "2026-11-07T09:25:08.686Z",
-      "searches": 12,
+      "status": "failed",
+      "fieldVerificationStatus": "incomplete",
+      "lastAttemptAt": "2026-11-08T09:34:14.474Z",
+      "searches": 0,
       "queries": [
         "galgame",
         "视觉小说",
         "冷门视觉小说",
         "galgame推荐",
         "游戏安利",
-        "天津罪",
         "常轨脱离Creative",
-        "Eden",
-        "I Can Smell You from Here",
-        "命运石之门",
-        "花鸟水月",
-        "恋狱～月狂病～",
-        "人狼村之谜"
+        "天津罪",
+        "白色相簿2",
+        "樱之诗",
+        "樱之刻",
+        "CLANNAD",
+        "ATRI",
+        "夏日口袋"
       ],
-      "searchCoverage": [
-        {
-          "keyword": "galgame",
-          "pages": 2,
-          "returned": 18,
-          "inWindow": 18,
-          "outsideWindow": 0,
-          "channel": "general"
-        },
-        {
-          "keyword": "视觉小说",
-          "pages": 2,
-          "returned": 16,
-          "inWindow": 14,
-          "outsideWindow": 2,
-          "channel": "general"
-        },
-        {
-          "keyword": "冷门视觉小说",
-          "pages": 2,
-          "returned": 3,
-          "inWindow": 2,
-          "outsideWindow": 1,
-          "channel": "general"
-        },
-        {
-          "keyword": "galgame推荐",
-          "pages": 2,
-          "returned": 14,
-          "inWindow": 13,
-          "outsideWindow": 1,
-          "channel": "general"
-        },
-        {
-          "keyword": "游戏安利",
-          "pages": 2,
-          "returned": 13,
-          "inWindow": 13,
-          "outsideWindow": 0,
-          "channel": "general"
-        },
-        {
-          "keyword": "天津罪",
-          "pages": 2,
-          "returned": 5,
-          "inWindow": 5,
-          "outsideWindow": 0,
-          "channel": "general"
-        },
-        {
-          "keyword": "常轨脱离Creative",
-          "pages": 2,
-          "returned": 8,
-          "inWindow": 6,
-          "outsideWindow": 2,
-          "channel": "general"
-        },
-        {
-          "keyword": "I Can Smell You from Here",
-          "pages": 2,
-          "returned": 4,
-          "inWindow": 4,
-          "outsideWindow": 0,
-          "channel": "general"
-        },
-        {
-          "keyword": "命运石之门",
-          "pages": 2,
-          "returned": 10,
-          "inWindow": 10,
-          "outsideWindow": 0,
-          "channel": "general"
-        },
-        {
-          "keyword": "花鸟水月",
-          "pages": 2,
-          "returned": 1,
-          "inWindow": 1,
-          "outsideWindow": 0,
-          "channel": "general"
-        },
-        {
-          "keyword": "恋狱～月狂病～",
-          "pages": 2,
-          "returned": 0,
-          "inWindow": 0,
-          "outsideWindow": 0,
-          "channel": "general"
-        },
-        {
-          "keyword": "人狼村之谜",
-          "pages": 2,
-          "returned": 17,
-          "inWindow": 14,
-          "outsideWindow": 3,
-          "channel": "general"
-        }
-      ],
+      "searchCoverage": [],
       "pagesPerKeyword": 2,
       "window": {
-        "start": "2026-10-31T16:00:00.000Z",
-        "end": "2026-11-07T09:17:38.044Z"
+        "start": "2026-11-03T09:34:14.151Z",
+        "end": "2026-11-08T09:34:15.151Z"
       },
       "workResolution": {
         "resolved": 0,
         "failures": 0
       },
-      "inWindowCount": 94,
-      "identifiedCount": 24,
-      "identifiedWorks": 18,
+      "inWindowCount": 0,
+      "identifiedCount": 0,
+      "identifiedWorks": 0,
       "failures": [
         {
           "stage": "search",
-          "keyword": "Eden"
+          "keyword": "galgame"
+        },
+        {
+          "stage": "search",
+          "keyword": "视觉小说"
         },
         {
           "stage": "refresh",
@@ -152,14 +59,6 @@
         },
         {
           "stage": "refresh",
-          "id": "7704284113419216738"
-        },
-        {
-          "stage": "refresh",
-          "id": "7704237929036816548"
-        },
-        {
-          "stage": "refresh",
           "id": "7704600044410954929"
         },
         {
@@ -168,27 +67,47 @@
         },
         {
           "stage": "refresh",
-          "id": "7704210062579654329"
-        },
-        {
-          "stage": "refresh",
-          "id": "7704310784126248315"
-        },
-        {
-          "stage": "refresh",
-          "id": "7704273197873059771"
-        },
-        {
-          "stage": "refresh",
-          "id": "7704366959307766927"
-        },
-        {
-          "stage": "refresh",
           "id": "7704668084564403833"
         },
         {
           "stage": "refresh",
-          "id": "7702794405752687913"
+          "id": "7705117795389805041"
+        },
+        {
+          "stage": "refresh",
+          "id": "7705039253478270629"
+        },
+        {
+          "stage": "refresh",
+          "id": "7705033944755901888"
+        },
+        {
+          "stage": "refresh",
+          "id": "7704511844132914402"
+        },
+        {
+          "stage": "refresh",
+          "id": "7704696011432361600"
+        },
+        {
+          "stage": "refresh",
+          "id": "7705266800876363690"
+        },
+        {
+          "stage": "refresh",
+          "id": "7705025615925153075"
+        },
+        {
+          "stage": "refresh",
+          "id": "7705177472761558515"
+        },
+        {
+          "stage": "refresh",
+          "id": "7704284113419216738"
+        },
+        {
+          "stage": "refresh",
+          "id": "7704237929036816548"
         },
         {
           "stage": "refresh",
@@ -200,35 +119,31 @@
         },
         {
           "stage": "refresh",
+          "id": "7704210062579654329"
+        },
+        {
+          "stage": "refresh",
           "id": "7703963391979951291"
         },
         {
           "stage": "refresh",
-          "id": "7703964285352942949"
-        },
-        {
-          "stage": "refresh",
-          "id": "7703845508028939466"
-        },
-        {
-          "stage": "refresh",
-          "id": "7703512765507307258"
+          "id": "7704310784126248315"
         }
       ],
-      "sampleCount": 20,
+      "sampleCount": 0,
       "sampleTarget": 20,
       "available": {
-        "author": 20,
-        "favorites": 20,
-        "comments": 20,
-        "shares": 20,
+        "author": 0,
+        "favorites": 0,
+        "comments": 0,
+        "shares": 0,
         "views": 0,
         "coins": 0
       },
       "zeroValues": {
-        "favorites": 1,
-        "comments": 1,
-        "shares": 1,
+        "favorites": 0,
+        "comments": 0,
+        "shares": 0,
         "views": 0,
         "coins": 0
       },
@@ -237,7 +152,7 @@
     "bilibili": {
       "status": "partial",
       "fieldVerificationStatus": "complete",
-      "lastAttemptAt": "2026-11-07T09:33:11.774Z",
+      "lastAttemptAt": "2026-11-08T09:43:24.174Z",
       "searches": 15,
       "queries": [
         "galgame",
@@ -245,14 +160,14 @@
         "冷门视觉小说",
         "galgame推荐",
         "游戏安利",
-        "天津罪",
         "常轨脱离Creative",
-        "Eden",
-        "I Can Smell You from Here",
-        "命运石之门",
-        "花鸟水月",
-        "恋狱～月狂病～",
-        "人狼村之谜"
+        "天津罪",
+        "白色相簿2",
+        "樱之诗",
+        "樱之刻",
+        "CLANNAD",
+        "ATRI",
+        "夏日口袋"
       ],
       "searchCoverage": [
         {
@@ -276,50 +191,50 @@
           "pages": 2
         },
         {
-          "keyword": "天津罪",
-          "pages": 1
-        },
-        {
           "keyword": "常轨脱离Creative",
           "pages": 1
         },
         {
-          "keyword": "Eden",
+          "keyword": "天津罪",
+          "pages": 1
+        },
+        {
+          "keyword": "白色相簿2",
           "pages": 2
         },
         {
-          "keyword": "I Can Smell You from Here",
+          "keyword": "樱之诗",
           "pages": 1
         },
         {
-          "keyword": "命运石之门",
+          "keyword": "樱之刻",
+          "pages": 1
+        },
+        {
+          "keyword": "CLANNAD",
           "pages": 2
         },
         {
-          "keyword": "花鸟水月",
-          "pages": 1
+          "keyword": "ATRI",
+          "pages": 2
         },
         {
-          "keyword": "恋狱～月狂病～",
-          "pages": 1
-        },
-        {
-          "keyword": "人狼村之谜",
+          "keyword": "夏日口袋",
           "pages": 2
         }
       ],
       "pagesPerKeyword": 2,
       "window": {
-        "start": "2026-10-31T16:00:00.000Z",
-        "end": "2026-11-07T09:17:38.044Z"
+        "start": "2026-11-03T09:34:14.151Z",
+        "end": "2026-11-08T09:34:15.151Z"
       },
       "workResolution": {
-        "resolved": 2,
+        "resolved": 3,
         "failures": 0
       },
-      "inWindowCount": 347,
-      "identifiedCount": 92,
-      "identifiedWorks": 44,
+      "inWindowCount": 386,
+      "identifiedCount": 93,
+      "identifiedWorks": 50,
       "failures": [
         {
           "stage": "search",
@@ -327,19 +242,35 @@
         },
         {
           "stage": "search",
-          "keyword": "天津罪"
-        },
-        {
-          "stage": "search",
           "keyword": "常轨脱离Creative"
         },
         {
           "stage": "search",
-          "keyword": "I Can Smell You from Here"
+          "keyword": "天津罪"
         },
         {
           "stage": "search",
-          "keyword": "花鸟水月"
+          "keyword": "白色相簿2"
+        },
+        {
+          "stage": "search",
+          "keyword": "樱之诗"
+        },
+        {
+          "stage": "search",
+          "keyword": "樱之刻"
+        },
+        {
+          "stage": "search",
+          "keyword": "CLANNAD"
+        },
+        {
+          "stage": "search",
+          "keyword": "ATRI"
+        },
+        {
+          "stage": "search",
+          "keyword": "夏日口袋"
         }
       ],
       "sampleCount": 20,
@@ -353,18 +284,18 @@
         "coins": 20
       },
       "zeroValues": {
-        "favorites": 4,
-        "comments": 11,
-        "shares": 14,
-        "views": 0,
-        "coins": 12
+        "favorites": 6,
+        "comments": 7,
+        "shares": 12,
+        "views": 1,
+        "coins": 11
       },
-      "lastSuccessAt": "2026-11-07T09:33:11.774Z"
+      "lastSuccessAt": "2026-11-08T09:43:24.174Z"
     }
   },
-  "finishedAt": "2026-11-07T09:33:26.204Z",
-  "observedPosts": 193,
-  "identityPending": 886,
+  "finishedAt": "2026-11-08T09:43:34.746Z",
+  "observedPosts": 238,
+  "identityPending": 1094,
   "trial": {
     "periods": [
       {
@@ -381,7 +312,7 @@
       }
     ],
     "closed": 1,
-    "finalized": 0,
+    "finalized": 1,
     "target": 2
   }
 }
