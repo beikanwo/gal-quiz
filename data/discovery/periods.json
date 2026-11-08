@@ -15,7 +15,7 @@
           "start": "2026-10-31T16:00:00.000Z",
           "end": "2026-11-05T16:00:00.000Z",
           "minLikes": 500,
-          "collectedAt": "2026-11-07T07:21:30.449Z",
+          "collectedAt": "2026-11-08T07:33:23.907Z",
           "lastSuccessAt": null,
           "error": "抖音采集失败，可能需要有效 Cookie；请检查固定版本依赖与登录状态。",
           "coverage": {
@@ -27,19 +27,20 @@
               "galgame CG",
               "galgame名场面"
             ],
-            "queries": 5,
-            "pages": 15,
+            "queries": 4,
+            "pages": 12,
             "failedQueries": [
+              "美少女游戏",
               "galgame CG"
             ],
             "maxPagesPerQuery": 3,
-            "candidateCount": 121,
-            "qualifiedCount": 34
+            "candidateCount": 119,
+            "qualifiedCount": 37
           },
           "ranking": [
             {
               "workId": "v69452",
-              "maxLikes": 35647,
+              "maxLikes": 38034,
               "count": 1,
               "evidence": [
                 {
@@ -56,7 +57,7 @@
                   "kind": "video",
                   "url": "https://www.douyin.com/video/7704267874738860648",
                   "publishedAt": "2026-11-04T10:54:08+00:00",
-                  "likes": 35647,
+                  "likes": 38034,
                   "author": {
                     "id": "2893532614886285",
                     "name": "二次元陆君",
@@ -64,9 +65,9 @@
                   },
                   "durationSeconds": null,
                   "metrics": {
-                    "favorites": 1124,
-                    "comments": 1786,
-                    "shares": 2694,
+                    "favorites": 1212,
+                    "comments": 1839,
+                    "shares": 2786,
                     "views": null,
                     "coins": null
                   },
@@ -77,7 +78,7 @@
                     "views": "unsupported",
                     "coins": "unsupported"
                   },
-                  "collectedAt": "2026-11-07T07:17:01.169834+00:00",
+                  "collectedAt": "2026-11-08T07:28:18.591966+00:00",
                   "keyword": "视觉小说",
                   "workId": "v69452",
                   "matchMethod": "explicit-title",
@@ -88,8 +89,59 @@
               ]
             },
             {
+              "workId": "v16044",
+              "maxLikes": 13271,
+              "count": 1,
+              "evidence": [
+                {
+                  "platform": "douyin",
+                  "id": "7702930560993501873",
+                  "title": "每天这样来一遍，感觉好通透呀 #galgame #魔女的夜宴 #柚子社 #绫地宁宁 #美咕噜",
+                  "description": "",
+                  "tags": [
+                    "galgame",
+                    "魔女的夜宴",
+                    "柚子社",
+                    "绫地宁宁",
+                    "美咕噜"
+                  ],
+                  "kind": "video",
+                  "url": "https://www.douyin.com/video/7702930560993501873",
+                  "publishedAt": "2026-10-31T20:24:41+00:00",
+                  "likes": 13271,
+                  "author": {
+                    "id": "1563918428026953",
+                    "name": "丛中下小雨",
+                    "url": "https://www.douyin.com/user/MS4wLjABAAAALWaAaKmNnyekW8RYmrIiHVbklxHA97FTh-XFRNl0JPrlxMizf_UVfQbe0wgvHz0y"
+                  },
+                  "durationSeconds": null,
+                  "metrics": {
+                    "favorites": 1624,
+                    "comments": 236,
+                    "shares": 4048,
+                    "views": null,
+                    "coins": null
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "unsupported",
+                    "coins": "unsupported"
+                  },
+                  "collectedAt": "2026-11-08T07:29:19.067476+00:00",
+                  "keyword": "galgame名场面",
+                  "workId": "v16044",
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "魔女的夜宴"
+                  ]
+                }
+              ]
+            },
+            {
               "workId": "v19513",
-              "maxLikes": 8964,
+              "maxLikes": 11320,
               "count": 1,
               "evidence": [
                 {
@@ -107,7 +159,7 @@
                   "kind": "video",
                   "url": "https://www.douyin.com/video/7704696011432361600",
                   "publishedAt": "2026-11-05T14:35:32+00:00",
-                  "likes": 8964,
+                  "likes": 11320,
                   "author": {
                     "id": "7665231454536582201",
                     "name": "推晃悠的心事",
@@ -115,9 +167,9 @@
                   },
                   "durationSeconds": null,
                   "metrics": {
-                    "favorites": 2075,
-                    "comments": 105,
-                    "shares": 1295,
+                    "favorites": 2620,
+                    "comments": 122,
+                    "shares": 1649,
                     "views": null,
                     "coins": null
                   },
@@ -128,7 +180,7 @@
                     "views": "unsupported",
                     "coins": "unsupported"
                   },
-                  "collectedAt": "2026-11-07T07:17:48.545562+00:00",
+                  "collectedAt": "2026-11-08T07:29:19.067412+00:00",
                   "keyword": "galgame名场面",
                   "workId": "v19513",
                   "matchMethod": "explicit-title",
@@ -140,7 +192,7 @@
             },
             {
               "workId": "v2285",
-              "maxLikes": 5760,
+              "maxLikes": 6016,
               "count": 1,
               "evidence": [
                 {
@@ -158,7 +210,7 @@
                   "kind": "video",
                   "url": "https://www.douyin.com/video/7703104071817257595",
                   "publishedAt": "2026-11-01T07:37:59+00:00",
-                  "likes": 5760,
+                  "likes": 6016,
                   "author": {
                     "id": "4037050852718766",
                     "name": "真昼天下第一",
@@ -166,9 +218,9 @@
                   },
                   "durationSeconds": null,
                   "metrics": {
-                    "favorites": 1189,
-                    "comments": 148,
-                    "shares": 472,
+                    "favorites": 1261,
+                    "comments": 153,
+                    "shares": 489,
                     "views": null,
                     "coins": null
                   },
@@ -179,8 +231,8 @@
                     "views": "unsupported",
                     "coins": "unsupported"
                   },
-                  "collectedAt": "2026-11-07T07:16:42.656516+00:00",
-                  "keyword": "美少女游戏",
+                  "collectedAt": "2026-11-08T07:27:31.918676+00:00",
+                  "keyword": "gal游戏",
                   "workId": "v2285",
                   "matchMethod": "explicit-title",
                   "matchedNames": [
@@ -191,7 +243,7 @@
             },
             {
               "workId": "v2002",
-              "maxLikes": 3261,
+              "maxLikes": 3650,
               "count": 1,
               "evidence": [
                 {
@@ -211,7 +263,7 @@
                   "kind": "image",
                   "url": "https://www.douyin.com/note/7703269776990201295",
                   "publishedAt": "2026-11-01T18:21:03+00:00",
-                  "likes": 3261,
+                  "likes": 3650,
                   "author": {
                     "id": "2381986229922928",
                     "name": "鬼神",
@@ -219,9 +271,9 @@
                   },
                   "durationSeconds": null,
                   "metrics": {
-                    "favorites": 1501,
-                    "comments": 189,
-                    "shares": 613,
+                    "favorites": 1665,
+                    "comments": 201,
+                    "shares": 662,
                     "views": null,
                     "coins": null
                   },
@@ -232,7 +284,7 @@
                     "views": "unsupported",
                     "coins": "unsupported"
                   },
-                  "collectedAt": "2026-11-07T07:16:18.877519+00:00",
+                  "collectedAt": "2026-11-08T07:27:31.918642+00:00",
                   "keyword": "gal游戏",
                   "workId": "v2002",
                   "matchMethod": "explicit-title",
@@ -599,7 +651,7 @@
           "start": "2026-10-31T16:00:00.000Z",
           "end": "2026-11-05T16:00:00.000Z",
           "minLikes": 350,
-          "collectedAt": "2026-11-07T07:40:11.761Z",
+          "collectedAt": "2026-11-08T07:53:08.039Z",
           "lastSuccessAt": null,
           "error": "B站有 1 条视频详情未通过核对。",
           "coverage": {
@@ -611,14 +663,15 @@
               "galgame CG",
               "galgame名场面"
             ],
-            "queries": 42,
-            "pages": 64,
+            "queries": 44,
+            "pages": 66,
             "failedQueries": [
               "galgame CG",
               "galgame名场面",
               "樱之刻",
               "CLANNAD",
               "ATRI",
+              "夏日口袋",
               "近月少女的礼仪",
               "苍之彼方的四重奏",
               "缘之空",
@@ -638,16 +691,18 @@
               "桂冠之人",
               "曙之羁绊 - 黄昏轮回",
               "アケノヨスガ - Twilight Loop -",
-              "Summer Pockets"
+              "Summer Pockets",
+              "天使☆嚣嚣 RE-BOOT!",
+              "天使☆騒々 RE-BOOT!"
             ],
             "maxPagesPerQuery": 3,
-            "candidateCount": 762,
-            "qualifiedCount": 106
+            "candidateCount": 760,
+            "qualifiedCount": 121
           },
           "ranking": [
             {
               "workId": "v69315",
-              "maxLikes": 3450,
+              "maxLikes": 3458,
               "count": 1,
               "evidence": [
                 {
@@ -669,7 +724,7 @@
                   ],
                   "url": "https://www.bilibili.com/video/BV1vP4V6wEX7",
                   "publishedAt": "2026-11-03T11:57:45.000Z",
-                  "likes": 3450,
+                  "likes": 3458,
                   "kind": "video",
                   "durationSeconds": 310,
                   "author": {
@@ -678,10 +733,10 @@
                     "url": "https://space.bilibili.com/3151252"
                   },
                   "metrics": {
-                    "favorites": 3177,
+                    "favorites": 3181,
                     "comments": 41,
                     "shares": 7,
-                    "views": 128744,
+                    "views": 128822,
                     "coins": 1947
                   },
                   "metricAvailability": {
@@ -691,7 +746,7 @@
                     "views": "available",
                     "coins": "available"
                   },
-                  "collectedAt": "2026-11-07T07:23:32.565Z",
+                  "collectedAt": "2026-11-08T07:35:31.011Z",
                   "keyword": "Rain98",
                   "workId": "v69315",
                   "matchMethod": "explicit-title",
@@ -703,7 +758,7 @@
             },
             {
               "workId": "manual-tadaima-404",
-              "maxLikes": 2184,
+              "maxLikes": 2415,
               "count": 1,
               "evidence": [
                 {
@@ -724,7 +779,7 @@
                   ],
                   "url": "https://www.bilibili.com/video/BV1BZ4A65ETM",
                   "publishedAt": "2026-11-02T15:46:23.000Z",
-                  "likes": 2184,
+                  "likes": 2415,
                   "kind": "video",
                   "durationSeconds": 5148,
                   "author": {
@@ -733,10 +788,10 @@
                     "url": "https://space.bilibili.com/533850221"
                   },
                   "metrics": {
-                    "favorites": 2702,
-                    "comments": 11,
-                    "shares": 37,
-                    "views": 24723,
+                    "favorites": 2922,
+                    "comments": 12,
+                    "shares": 40,
+                    "views": 27603,
                     "coins": 66
                   },
                   "metricAvailability": {
@@ -746,7 +801,7 @@
                     "views": "available",
                     "coins": "available"
                   },
-                  "collectedAt": "2026-11-07T07:24:38.741Z",
+                  "collectedAt": "2026-11-08T07:36:39.456Z",
                   "keyword": "我回来了，404号室",
                   "workId": "manual-tadaima-404",
                   "matchMethod": "reviewed"
@@ -755,7 +810,7 @@
             },
             {
               "workId": "v69304",
-              "maxLikes": 2082,
+              "maxLikes": 2306,
               "count": 1,
               "evidence": [
                 {
@@ -776,7 +831,7 @@
                   ],
                   "url": "https://www.bilibili.com/video/BV1jJxQ6rESz",
                   "publishedAt": "2026-11-04T10:15:00.000Z",
-                  "likes": 2082,
+                  "likes": 2306,
                   "kind": "video",
                   "durationSeconds": 603,
                   "author": {
@@ -785,11 +840,11 @@
                     "url": "https://space.bilibili.com/785025"
                   },
                   "metrics": {
-                    "favorites": 836,
-                    "comments": 59,
-                    "shares": 14,
-                    "views": 24701,
-                    "coins": 177
+                    "favorites": 924,
+                    "comments": 61,
+                    "shares": 16,
+                    "views": 29093,
+                    "coins": 210
                   },
                   "metricAvailability": {
                     "favorites": "available",
@@ -798,7 +853,7 @@
                     "views": "available",
                     "coins": "available"
                   },
-                  "collectedAt": "2026-11-07T07:24:39.786Z",
+                  "collectedAt": "2026-11-08T07:36:38.384Z",
                   "keyword": "I Can Smell You from Here",
                   "workId": "v69304",
                   "matchMethod": "explicit-title",
@@ -810,7 +865,7 @@
             },
             {
               "workId": "v62906",
-              "maxLikes": 1561,
+              "maxLikes": 1688,
               "count": 1,
               "evidence": [
                 {
@@ -828,7 +883,7 @@
                   ],
                   "url": "https://www.bilibili.com/video/BV1FfxH6YEDm",
                   "publishedAt": "2026-11-01T02:00:00.000Z",
-                  "likes": 1561,
+                  "likes": 1688,
                   "kind": "video",
                   "durationSeconds": 129,
                   "author": {
@@ -837,11 +892,11 @@
                     "url": "https://space.bilibili.com/3690990835599915"
                   },
                   "metrics": {
-                    "favorites": 1673,
-                    "comments": 116,
-                    "shares": 247,
-                    "views": 27498,
-                    "coins": 111
+                    "favorites": 1832,
+                    "comments": 120,
+                    "shares": 260,
+                    "views": 29224,
+                    "coins": 119
                   },
                   "metricAvailability": {
                     "favorites": "available",
@@ -850,7 +905,7 @@
                     "views": "available",
                     "coins": "available"
                   },
-                  "collectedAt": "2026-11-07T07:21:37.623Z",
+                  "collectedAt": "2026-11-08T07:33:34.669Z",
                   "keyword": "花鸟水月",
                   "workId": "v62906",
                   "matchMethod": "explicit-title",
@@ -862,7 +917,7 @@
             },
             {
               "workId": "v69452",
-              "maxLikes": 1463,
+              "maxLikes": 1602,
               "count": 1,
               "evidence": [
                 {
@@ -877,7 +932,7 @@
                   ],
                   "url": "https://www.bilibili.com/video/BV1rjx96HEnB",
                   "publishedAt": "2026-11-04T12:51:48.000Z",
-                  "likes": 1463,
+                  "likes": 1602,
                   "kind": "video",
                   "durationSeconds": 39,
                   "author": {
@@ -886,11 +941,11 @@
                     "url": "https://space.bilibili.com/32589074"
                   },
                   "metrics": {
-                    "favorites": 260,
-                    "comments": 185,
-                    "shares": 239,
-                    "views": 14171,
-                    "coins": 250
+                    "favorites": 288,
+                    "comments": 192,
+                    "shares": 250,
+                    "views": 15332,
+                    "coins": 258
                   },
                   "metricAvailability": {
                     "favorites": "available",
@@ -899,7 +954,7 @@
                     "views": "available",
                     "coins": "available"
                   },
-                  "collectedAt": "2026-11-07T07:24:44.180Z",
+                  "collectedAt": "2026-11-08T07:36:45.033Z",
                   "keyword": "视觉小说",
                   "workId": "v69452",
                   "matchMethod": "explicit-title",
@@ -913,7 +968,7 @@
             },
             {
               "workId": "v69936",
-              "maxLikes": 874,
+              "maxLikes": 878,
               "count": 1,
               "evidence": [
                 {
@@ -932,7 +987,7 @@
                   ],
                   "url": "https://www.bilibili.com/video/BV11g486wEeQ",
                   "publishedAt": "2026-11-05T08:41:42.000Z",
-                  "likes": 874,
+                  "likes": 878,
                   "kind": "video",
                   "durationSeconds": 64,
                   "author": {
@@ -941,10 +996,10 @@
                     "url": "https://space.bilibili.com/3747574286649626"
                   },
                   "metrics": {
-                    "favorites": 1224,
+                    "favorites": 1222,
                     "comments": 55,
                     "shares": 45,
-                    "views": 14207,
+                    "views": 14274,
                     "coins": 22
                   },
                   "metricAvailability": {
@@ -954,7 +1009,7 @@
                     "views": "available",
                     "coins": "available"
                   },
-                  "collectedAt": "2026-11-07T07:21:48.453Z",
+                  "collectedAt": "2026-11-08T07:33:46.043Z",
                   "keyword": "对我而言",
                   "workId": "v69936",
                   "matchMethod": "explicit-title",
@@ -965,8 +1020,59 @@
               ]
             },
             {
+              "workId": "v40520",
+              "maxLikes": 678,
+              "count": 1,
+              "evidence": [
+                {
+                  "platform": "bilibili",
+                  "id": "BV1wTxb6HEQc",
+                  "title": "“我之所以成为天使...肯定就是为了与你相遇”",
+                  "description": "破廉耻！！！\n网上说说得了现实谁不想急头白脸和上流天使谈上一场恋爱\n家人们我想说实话，感觉这部半步拔作，主线有点敷衍，个人线更是难评\n不过我都玩废萌了，女主够可爱就行了，白雪乃爱NB",
+                  "tags": [
+                    "天使纷扰",
+                    "白雪乃爱",
+                    "galgame",
+                    "柚子社",
+                    "天使☆嚣嚣RE-BOOT"
+                  ],
+                  "url": "https://www.bilibili.com/video/BV1wTxb6HEQc",
+                  "publishedAt": "2026-11-01T15:33:56.000Z",
+                  "likes": 678,
+                  "kind": "video",
+                  "durationSeconds": 40,
+                  "author": {
+                    "id": "105426409",
+                    "name": "苹果0721",
+                    "url": "https://space.bilibili.com/105426409"
+                  },
+                  "metrics": {
+                    "favorites": 335,
+                    "comments": 20,
+                    "shares": 18,
+                    "views": 4047,
+                    "coins": 9
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "available",
+                    "coins": "available"
+                  },
+                  "collectedAt": "2026-11-08T07:34:30.870Z",
+                  "keyword": "天使☆騒々 RE-BOOT!",
+                  "workId": "v40520",
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "天使☆嚣嚣 RE-BOOT!"
+                  ]
+                }
+              ]
+            },
+            {
               "workId": "v20424",
-              "maxLikes": 386,
+              "maxLikes": 434,
               "count": 1,
               "evidence": [
                 {
@@ -988,7 +1094,7 @@
                   ],
                   "url": "https://www.bilibili.com/video/BV1aDxX6uEqL",
                   "publishedAt": "2026-11-04T14:04:50.000Z",
-                  "likes": 386,
+                  "likes": 434,
                   "kind": "video",
                   "durationSeconds": 30,
                   "author": {
@@ -997,11 +1103,11 @@
                     "url": "https://space.bilibili.com/445714830"
                   },
                   "metrics": {
-                    "favorites": 148,
-                    "comments": 63,
-                    "shares": 20,
-                    "views": 1480,
-                    "coins": 142
+                    "favorites": 162,
+                    "comments": 67,
+                    "shares": 25,
+                    "views": 1657,
+                    "coins": 155
                   },
                   "metricAvailability": {
                     "favorites": "available",
@@ -1010,7 +1116,7 @@
                     "views": "available",
                     "coins": "available"
                   },
-                  "collectedAt": "2026-11-07T07:31:12.482Z",
+                  "collectedAt": "2026-11-08T07:44:22.186Z",
                   "keyword": "Summer Pockets",
                   "workId": "v20424",
                   "matchMethod": "explicit-title",
@@ -1023,7 +1129,7 @@
             },
             {
               "workId": "v64572",
-              "maxLikes": 377,
+              "maxLikes": 426,
               "count": 1,
               "evidence": [
                 {
@@ -1045,7 +1151,7 @@
                   ],
                   "url": "https://www.bilibili.com/video/BV1Bg4g68EMm",
                   "publishedAt": "2026-11-03T10:34:39.000Z",
-                  "likes": 377,
+                  "likes": 426,
                   "kind": "video",
                   "durationSeconds": 1161,
                   "author": {
@@ -1054,10 +1160,10 @@
                     "url": "https://space.bilibili.com/22352826"
                   },
                   "metrics": {
-                    "favorites": 320,
-                    "comments": 31,
+                    "favorites": 368,
+                    "comments": 33,
                     "shares": 8,
-                    "views": 5199,
+                    "views": 6009,
                     "coins": 24
                   },
                   "metricAvailability": {
@@ -1067,7 +1173,7 @@
                     "views": "available",
                     "coins": "available"
                   },
-                  "collectedAt": "2026-11-07T07:24:51.805Z",
+                  "collectedAt": "2026-11-08T07:36:50.402Z",
                   "keyword": "视觉小说",
                   "workId": "v64572",
                   "matchMethod": "explicit-title",
@@ -1924,16 +2030,16 @@
     }
   ],
   "lastAttempt": {
-    "at": "2026-11-07T07:40:11.797Z",
+    "at": "2026-11-08T07:53:08.044Z",
     "periodId": "2026-11-06",
     "platforms": {
       "douyin": {
         "status": "partial",
         "error": "抖音采集失败，可能需要有效 Cookie；请检查固定版本依赖与登录状态。",
-        "collectedAt": "2026-11-07T07:21:30.449Z",
-        "fetched": 121,
-        "qualified": 34,
-        "matched": 11,
+        "collectedAt": "2026-11-08T07:33:23.907Z",
+        "fetched": 119,
+        "qualified": 37,
+        "matched": 12,
         "sample": [
           {
             "platform": "douyin",
@@ -1950,7 +2056,7 @@
             "kind": "video",
             "url": "https://www.douyin.com/video/7704696011432361600",
             "publishedAt": "2026-11-05T14:35:32+00:00",
-            "likes": 8964,
+            "likes": 11320,
             "author": {
               "id": "7665231454536582201",
               "name": "推晃悠的心事",
@@ -1958,9 +2064,9 @@
             },
             "durationSeconds": null,
             "metrics": {
-              "favorites": 2075,
-              "comments": 105,
-              "shares": 1295,
+              "favorites": 2620,
+              "comments": 122,
+              "shares": 1649,
               "views": null,
               "coins": null
             },
@@ -1971,7 +2077,7 @@
               "views": "unsupported",
               "coins": "unsupported"
             },
-            "collectedAt": "2026-11-07T07:17:48.545562+00:00",
+            "collectedAt": "2026-11-08T07:29:19.067412+00:00",
             "keyword": "galgame名场面",
             "workId": "v19513",
             "matchMethod": "explicit-title",
@@ -2084,7 +2190,7 @@
             "kind": "image",
             "url": "https://www.douyin.com/note/7703269776990201295",
             "publishedAt": "2026-11-01T18:21:03+00:00",
-            "likes": 3261,
+            "likes": 3650,
             "author": {
               "id": "2381986229922928",
               "name": "鬼神",
@@ -2092,9 +2198,9 @@
             },
             "durationSeconds": null,
             "metrics": {
-              "favorites": 1501,
-              "comments": 189,
-              "shares": 613,
+              "favorites": 1665,
+              "comments": 201,
+              "shares": 662,
               "views": null,
               "coins": null
             },
@@ -2105,7 +2211,7 @@
               "views": "unsupported",
               "coins": "unsupported"
             },
-            "collectedAt": "2026-11-07T07:16:18.877519+00:00",
+            "collectedAt": "2026-11-08T07:27:31.918642+00:00",
             "keyword": "gal游戏",
             "workId": "v2002",
             "matchMethod": "explicit-title",
@@ -2128,7 +2234,7 @@
             "kind": "video",
             "url": "https://www.douyin.com/video/7703104071817257595",
             "publishedAt": "2026-11-01T07:37:59+00:00",
-            "likes": 5760,
+            "likes": 6016,
             "author": {
               "id": "4037050852718766",
               "name": "真昼天下第一",
@@ -2136,9 +2242,9 @@
             },
             "durationSeconds": null,
             "metrics": {
-              "favorites": 1189,
-              "comments": 148,
-              "shares": 472,
+              "favorites": 1261,
+              "comments": 153,
+              "shares": 489,
               "views": null,
               "coins": null
             },
@@ -2149,8 +2255,8 @@
               "views": "unsupported",
               "coins": "unsupported"
             },
-            "collectedAt": "2026-11-07T07:16:42.656516+00:00",
-            "keyword": "美少女游戏",
+            "collectedAt": "2026-11-08T07:27:31.918676+00:00",
+            "keyword": "gal游戏",
             "workId": "v2285",
             "matchMethod": "explicit-title",
             "matchedNames": [
@@ -2167,23 +2273,24 @@
             "galgame CG",
             "galgame名场面"
           ],
-          "queries": 5,
-          "pages": 15,
+          "queries": 4,
+          "pages": 12,
           "failedQueries": [
+            "美少女游戏",
             "galgame CG"
           ],
           "maxPagesPerQuery": 3,
-          "candidateCount": 121,
-          "qualifiedCount": 34
+          "candidateCount": 119,
+          "qualifiedCount": 37
         }
       },
       "bilibili": {
         "status": "partial",
         "error": "B站有 1 条视频详情未通过核对。",
-        "collectedAt": "2026-11-07T07:40:11.761Z",
-        "fetched": 762,
-        "qualified": 106,
-        "matched": 8,
+        "collectedAt": "2026-11-08T07:53:08.039Z",
+        "fetched": 760,
+        "qualified": 121,
+        "matched": 9,
         "sample": [
           {
             "platform": "bilibili",
@@ -2200,7 +2307,7 @@
             ],
             "url": "https://www.bilibili.com/video/BV1FfxH6YEDm",
             "publishedAt": "2026-11-01T02:00:00.000Z",
-            "likes": 1561,
+            "likes": 1688,
             "kind": "video",
             "durationSeconds": 129,
             "author": {
@@ -2209,11 +2316,11 @@
               "url": "https://space.bilibili.com/3690990835599915"
             },
             "metrics": {
-              "favorites": 1673,
-              "comments": 116,
-              "shares": 247,
-              "views": 27498,
-              "coins": 111
+              "favorites": 1832,
+              "comments": 120,
+              "shares": 260,
+              "views": 29224,
+              "coins": 119
             },
             "metricAvailability": {
               "favorites": "available",
@@ -2222,7 +2329,7 @@
               "views": "available",
               "coins": "available"
             },
-            "collectedAt": "2026-11-07T07:21:37.623Z",
+            "collectedAt": "2026-11-08T07:33:34.669Z",
             "keyword": "花鸟水月",
             "workId": "v62906",
             "matchMethod": "explicit-title",
@@ -2246,7 +2353,7 @@
             ],
             "url": "https://www.bilibili.com/video/BV11g486wEeQ",
             "publishedAt": "2026-11-05T08:41:42.000Z",
-            "likes": 874,
+            "likes": 878,
             "kind": "video",
             "durationSeconds": 64,
             "author": {
@@ -2255,10 +2362,10 @@
               "url": "https://space.bilibili.com/3747574286649626"
             },
             "metrics": {
-              "favorites": 1224,
+              "favorites": 1222,
               "comments": 55,
               "shares": 45,
-              "views": 14207,
+              "views": 14274,
               "coins": 22
             },
             "metricAvailability": {
@@ -2268,7 +2375,7 @@
               "views": "available",
               "coins": "available"
             },
-            "collectedAt": "2026-11-07T07:21:48.453Z",
+            "collectedAt": "2026-11-08T07:33:46.043Z",
             "keyword": "对我而言",
             "workId": "v69936",
             "matchMethod": "explicit-title",
@@ -2295,7 +2402,7 @@
             ],
             "url": "https://www.bilibili.com/video/BV1vP4V6wEX7",
             "publishedAt": "2026-11-03T11:57:45.000Z",
-            "likes": 3450,
+            "likes": 3458,
             "kind": "video",
             "durationSeconds": 310,
             "author": {
@@ -2304,10 +2411,10 @@
               "url": "https://space.bilibili.com/3151252"
             },
             "metrics": {
-              "favorites": 3177,
+              "favorites": 3181,
               "comments": 41,
               "shares": 7,
-              "views": 128744,
+              "views": 128822,
               "coins": 1947
             },
             "metricAvailability": {
@@ -2317,7 +2424,7 @@
               "views": "available",
               "coins": "available"
             },
-            "collectedAt": "2026-11-07T07:23:32.565Z",
+            "collectedAt": "2026-11-08T07:35:31.011Z",
             "keyword": "Rain98",
             "workId": "v69315",
             "matchMethod": "explicit-title",
@@ -2343,7 +2450,7 @@
             ],
             "url": "https://www.bilibili.com/video/BV1jJxQ6rESz",
             "publishedAt": "2026-11-04T10:15:00.000Z",
-            "likes": 2082,
+            "likes": 2306,
             "kind": "video",
             "durationSeconds": 603,
             "author": {
@@ -2352,11 +2459,11 @@
               "url": "https://space.bilibili.com/785025"
             },
             "metrics": {
-              "favorites": 836,
-              "comments": 59,
-              "shares": 14,
-              "views": 24701,
-              "coins": 177
+              "favorites": 924,
+              "comments": 61,
+              "shares": 16,
+              "views": 29093,
+              "coins": 210
             },
             "metricAvailability": {
               "favorites": "available",
@@ -2365,7 +2472,7 @@
               "views": "available",
               "coins": "available"
             },
-            "collectedAt": "2026-11-07T07:24:39.786Z",
+            "collectedAt": "2026-11-08T07:36:38.384Z",
             "keyword": "I Can Smell You from Here",
             "workId": "v69304",
             "matchMethod": "explicit-title",
@@ -2391,7 +2498,7 @@
             ],
             "url": "https://www.bilibili.com/video/BV1BZ4A65ETM",
             "publishedAt": "2026-11-02T15:46:23.000Z",
-            "likes": 2184,
+            "likes": 2415,
             "kind": "video",
             "durationSeconds": 5148,
             "author": {
@@ -2400,10 +2507,10 @@
               "url": "https://space.bilibili.com/533850221"
             },
             "metrics": {
-              "favorites": 2702,
-              "comments": 11,
-              "shares": 37,
-              "views": 24723,
+              "favorites": 2922,
+              "comments": 12,
+              "shares": 40,
+              "views": 27603,
               "coins": 66
             },
             "metricAvailability": {
@@ -2413,7 +2520,7 @@
               "views": "available",
               "coins": "available"
             },
-            "collectedAt": "2026-11-07T07:24:38.741Z",
+            "collectedAt": "2026-11-08T07:36:39.456Z",
             "keyword": "我回来了，404号室",
             "workId": "manual-tadaima-404",
             "matchMethod": "reviewed"
@@ -2428,14 +2535,15 @@
             "galgame CG",
             "galgame名场面"
           ],
-          "queries": 42,
-          "pages": 64,
+          "queries": 44,
+          "pages": 66,
           "failedQueries": [
             "galgame CG",
             "galgame名场面",
             "樱之刻",
             "CLANNAD",
             "ATRI",
+            "夏日口袋",
             "近月少女的礼仪",
             "苍之彼方的四重奏",
             "缘之空",
@@ -2455,11 +2563,13 @@
             "桂冠之人",
             "曙之羁绊 - 黄昏轮回",
             "アケノヨスガ - Twilight Loop -",
-            "Summer Pockets"
+            "Summer Pockets",
+            "天使☆嚣嚣 RE-BOOT!",
+            "天使☆騒々 RE-BOOT!"
           ],
           "maxPagesPerQuery": 3,
-          "candidateCount": 762,
-          "qualifiedCount": 106
+          "candidateCount": 760,
+          "qualifiedCount": 121
         }
       }
     }

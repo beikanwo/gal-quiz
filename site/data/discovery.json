@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-08T06:52:12.158Z",
+  "updatedAt": "2026-11-08T07:53:08.044Z",
   "entries": [
     {
       "id": "v69315",
@@ -443,7 +443,9 @@
         "Angelic☆Chaos RE-BOOT!",
         "天使☆囂囂 RE-BOOT!",
         "天使☆骚骚 RE-BOOT!",
-        "しりぶと"
+        "しりぶと",
+        "天使☆嚣嚣 RE-BOOT! | 天使纷扰",
+        "天使☆囂囂 RE-BOOT! | 天使紛擾"
       ],
       "image": "https://t.vndb.org/cv/66/88666.jpg",
       "subtitle": "ゆずソフト",
@@ -13577,9 +13579,10 @@
       "aliases": [
         "恋とHしかしていない！",
         "恋とHしかしていない！",
-        "Koi to H Shika Shiteinai!",
+        "Koi to H shika Shiteinai!",
         "恋Ｈ",
         "KoiH",
+        "Koi to H Shika Shiteinai!",
         "只做恋爱和H！"
       ],
       "image": null,
@@ -14758,7 +14761,7 @@
         "デモンベイン",
         "Zanma Taisei Demonbane"
       ],
-      "image": "https://t.vndb.org/cv/69/93369.jpg",
+      "image": null,
       "subtitle": "ニトロプラス",
       "path": "works/v231/"
     },
@@ -35251,7 +35254,7 @@
       "aliases": [
         "愚者ノ教鞭 ～今しかできないことがたくさんあるんだ！～",
         "愚者ノ教鞭 ～今しかできないことがたくさんあるんだ！～",
-        "Gusha no Kyouben ~Ima Shika Dekinai Koto ga Takusan Arun Da!~",
+        "Gusha no Kyouben ~Ima shika Dekinai Koto ga Takusan Arun Da!~",
         "Gusya no Kyoben"
       ],
       "image": "https://t.vndb.org/cv/40/143140.jpg",
@@ -38056,10 +38059,10 @@
     {
       "id": "v10700",
       "type": "work",
-      "name": "亲吻那片花瓣 米卡艾尔的少女们",
+      "name": "亲吻那片花瓣 米迦勒的少女们",
       "aliases": [
         "その花びらにくちづけを　ミカエルの乙女たち",
-        "亲吻那片花瓣 米卡艾尔的少女们",
+        "亲吻那片花瓣 米迦勒的少女们",
         "その花びらにくちづけを　ミカエルの乙女たち",
         "Sono Hanabira ni Kuchizuke o: Michael no Otome-tachi",
         "A Kiss For The Petals - Maidens of Michael",
@@ -39507,6 +39510,1028 @@
       "image": "https://t.vndb.org/cv/31/77731.jpg",
       "subtitle": "NOVECT",
       "path": "works/v12402/"
+    },
+    {
+      "id": "v1975",
+      "type": "work",
+      "name": "美学 YURIKA＆ASUNA",
+      "aliases": [
+        "美学 YURIKA＆ASUNA",
+        "美学 YURIKA＆ASUNA",
+        "Bigaku Yurika & Asuna"
+      ],
+      "image": null,
+      "subtitle": "M no Violet",
+      "path": "works/v1975/"
+    },
+    {
+      "id": "v16",
+      "type": "work",
+      "name": "雪之華",
+      "aliases": [
+        "ゆのはな",
+        "雪之華",
+        "ゆのはな",
+        "Yunohana",
+        "유노하나",
+        "雪之华"
+      ],
+      "image": "https://t.vndb.org/cv/56/108856.jpg",
+      "subtitle": "PULLTOP",
+      "path": "works/v16/"
+    },
+    {
+      "id": "v335",
+      "type": "work",
+      "name": "Garden",
+      "aliases": [
+        "Garden",
+        "Garden",
+        "ガーデン"
+      ],
+      "image": "https://t.vndb.org/cv/34/72634.jpg",
+      "subtitle": "CUFFS",
+      "path": "works/v335/"
+    },
+    {
+      "id": "v427",
+      "type": "work",
+      "name": "Clover Point 四叶奇迹",
+      "aliases": [
+        "Clover Point",
+        "Clover Point 四叶奇迹",
+        "Clover Point",
+        "クローバーポイント"
+      ],
+      "image": "https://t.vndb.org/cv/83/125183.jpg",
+      "subtitle": "メテオ",
+      "path": "works/v427/"
+    },
+    {
+      "id": "v614",
+      "type": "work",
+      "name": "塔ノ沢魔術研究会",
+      "aliases": [
+        "塔ノ沢魔術研究会",
+        "塔ノ沢魔術研究会",
+        "Tounosawa Majutsu Kenkyuukai"
+      ],
+      "image": "https://t.vndb.org/cv/92/29892.jpg",
+      "subtitle": "NOA",
+      "path": "works/v614/"
+    },
+    {
+      "id": "v1022",
+      "type": "work",
+      "name": "夜刀姫斬鬼行",
+      "aliases": [
+        "夜刀姫斬鬼行",
+        "夜刀姫斬鬼行",
+        "Yatohime Zankikou",
+        "The Princess of Yato - Katana",
+        "夜刀姫斬鬼行（やとひめざんきこう）"
+      ],
+      "image": null,
+      "subtitle": "Terios",
+      "path": "works/v1022/"
+    },
+    {
+      "id": "v2382",
+      "type": "work",
+      "name": "フォーチュンクッキー",
+      "aliases": [
+        "フォーチュンクッキー",
+        "フォーチュンクッキー",
+        "Fortune Cookie"
+      ],
+      "image": null,
+      "subtitle": "smart",
+      "path": "works/v2382/"
+    },
+    {
+      "id": "v2383",
+      "type": "work",
+      "name": "フォーチュンクッキーセレクト",
+      "aliases": [
+        "フォーチュンクッキーセレクト",
+        "フォーチュンクッキーセレクト",
+        "Fortune Cookie Select"
+      ],
+      "image": "https://t.vndb.org/cv/83/2883.jpg",
+      "subtitle": "",
+      "path": "works/v2383/"
+    },
+    {
+      "id": "v2617",
+      "type": "work",
+      "name": "ハチミツ乙女blossomdays",
+      "aliases": [
+        "ハチミツ乙女blossomdays",
+        "ハチミツ乙女blossomdays",
+        "Hachimitsu Otome Blossomdays"
+      ],
+      "image": "https://t.vndb.org/cv/39/106539.jpg",
+      "subtitle": "ルピナス",
+      "path": "works/v2617/"
+    },
+    {
+      "id": "v4054",
+      "type": "work",
+      "name": "てこいれぷりんせす！～僕が見えない君のため～",
+      "aliases": [
+        "てこいれぷりんせす！～僕が見えない君のため～",
+        "てこいれぷりんせす！～僕が見えない君のため～",
+        "Tekoire Princess! ~Boku ga Mienai Kimi no Tame~",
+        "TekoPri",
+        "TekoPuri",
+        "てこぷり"
+      ],
+      "image": null,
+      "subtitle": "propeller",
+      "path": "works/v4054/"
+    },
+    {
+      "id": "v4507",
+      "type": "work",
+      "name": "はるはろ！",
+      "aliases": [
+        "はるはろ！",
+        "はるはろ！",
+        "Haruharo!"
+      ],
+      "image": "https://t.vndb.org/cv/38/9938.jpg",
+      "subtitle": "PULLTOP / propeller",
+      "path": "works/v4507/"
+    },
+    {
+      "id": "v4942",
+      "type": "work",
+      "name": "カミカゼ☆エクスプローラー！",
+      "aliases": [
+        "カミカゼ☆エクスプローラー！",
+        "カミカゼ☆エクスプローラー！",
+        "Kamikaze ☆ Explorer!",
+        "神风探索者"
+      ],
+      "image": "https://t.vndb.org/cv/07/107507.jpg",
+      "subtitle": "クロシェット",
+      "path": "works/v4942/"
+    },
+    {
+      "id": "v5482",
+      "type": "work",
+      "name": "操心術0",
+      "aliases": [
+        "操心術0",
+        "操心術0",
+        "Soushinjutsu Rei",
+        "Soushinjutsu 0"
+      ],
+      "image": null,
+      "subtitle": "Studio 邪恋",
+      "path": "works/v5482/"
+    },
+    {
+      "id": "v6611",
+      "type": "work",
+      "name": "神聖にして侵すべからず",
+      "aliases": [
+        "神聖にして侵すべからず",
+        "神聖にして侵すべからず",
+        "Shinsei ni Shite Okasubekarazu",
+        "A little little queen of kingdom"
+      ],
+      "image": "https://t.vndb.org/cv/68/150968.jpg",
+      "subtitle": "PULLTOP",
+      "path": "works/v6611/"
+    },
+    {
+      "id": "v8246",
+      "type": "work",
+      "name": "結衣とお兄ちゃんのここだけの話",
+      "aliases": [
+        "結衣とお兄ちゃんのここだけの話",
+        "結衣とお兄ちゃんのここだけの話",
+        "Yui to Onii-chan no Koko Dake no Hanashi",
+        "Yuikoko",
+        "結依とお兄ちゃんの*だけの話"
+      ],
+      "image": null,
+      "subtitle": "丹下拳闘倶楽部",
+      "path": "works/v8246/"
+    },
+    {
+      "id": "v8247",
+      "type": "work",
+      "name": "あやねぇの教育的☆姉導!",
+      "aliases": [
+        "あやねぇの教育的☆姉導!",
+        "あやねぇの教育的☆姉導!",
+        "Aya-nee no Kyouikuteki☆Shidou!",
+        "AYA's educational guidance"
+      ],
+      "image": null,
+      "subtitle": "丹下拳闘倶楽部",
+      "path": "works/v8247/"
+    },
+    {
+      "id": "v9092",
+      "type": "work",
+      "name": "プリズム◇リコレクション！",
+      "aliases": [
+        "プリズム◇リコレクション！",
+        "プリズム◇リコレクション！",
+        "Prism ◇ Recollection!",
+        "Pricolle"
+      ],
+      "image": "https://t.vndb.org/cv/08/107508.jpg",
+      "subtitle": "クロシェット",
+      "path": "works/v9092/"
+    },
+    {
+      "id": "v10764",
+      "type": "work",
+      "name": "新撰組 ～幕末幻視行～",
+      "aliases": [
+        "新撰組 ～幕末幻視行～",
+        "新撰組 ～幕末幻視行～",
+        "Shinsengumi - Bakumatsu Genshikou"
+      ],
+      "image": "https://t.vndb.org/cv/91/35591.jpg",
+      "subtitle": "ウルフチーム",
+      "path": "works/v10764/"
+    },
+    {
+      "id": "v11785",
+      "type": "work",
+      "name": "さつきのキモチ",
+      "aliases": [
+        "さつきのキモチ",
+        "さつきのキモチ",
+        "Satsuki no Kimochi"
+      ],
+      "image": "https://t.vndb.org/cv/90/14990.jpg",
+      "subtitle": "Optimist",
+      "path": "works/v11785/"
+    },
+    {
+      "id": "v12437",
+      "type": "work",
+      "name": "ひめごとユニオン ～We are in the springtime of life!～",
+      "aliases": [
+        "ひめごとユニオン ～We are in the springtime of life!～",
+        "ひめごとユニオン ～We are in the springtime of life!～",
+        "Himegoto Union ~We Are in the Springtime of Life!~",
+        "ひめユニ",
+        "himeuni"
+      ],
+      "image": null,
+      "subtitle": "Seven Wonder",
+      "path": "works/v12437/"
+    },
+    {
+      "id": "v12615",
+      "type": "work",
+      "name": "ローデビル！",
+      "aliases": [
+        "ローデビル！",
+        "ローデビル！",
+        "Low Devil!"
+      ],
+      "image": "https://t.vndb.org/cv/87/16187.jpg",
+      "subtitle": "Black Light",
+      "path": "works/v12615/"
+    },
+    {
+      "id": "v12616",
+      "type": "work",
+      "name": "ろーでび ～小悪魔的偏愛論～",
+      "aliases": [
+        "ろーでび ～小悪魔的偏愛論～",
+        "ろーでび ～小悪魔的偏愛論～",
+        "Lo-Devi ~Koakumateki Hen'airon~",
+        "ローデビコアクマテキヘンアイロン"
+      ],
+      "image": null,
+      "subtitle": "Black Light",
+      "path": "works/v12616/"
+    },
+    {
+      "id": "v47676",
+      "type": "work",
+      "name": "イチャ×2スタディ 由乃 ~Dear Future~",
+      "aliases": [
+        "イチャ×2スタディ 由乃 ~Dear Future~",
+        "イチャ×2スタディ 由乃 ~Dear Future~",
+        "Icha x2 Study Yuno ~Dear Future~"
+      ],
+      "image": null,
+      "subtitle": "ま～まれぇど",
+      "path": "works/v47676/"
+    },
+    {
+      "id": "v52031",
+      "type": "work",
+      "name": "バカップル・サプリメント",
+      "aliases": [
+        "バカップル・サプリメント",
+        "バカップル・サプリメント",
+        "Bakappuru Supplement",
+        "Baka Couple Supplement: They never stop getting along.",
+        "Bakaple"
+      ],
+      "image": "https://t.vndb.org/cv/12/100112.jpg",
+      "subtitle": "ま～まれぇど",
+      "path": "works/v52031/"
+    },
+    {
+      "id": "v302",
+      "type": "work",
+      "name": "で・る・た！～おねだり天使とひとつ屋根のした～",
+      "aliases": [
+        "で・る・た！～おねだり天使とひとつ屋根のした～",
+        "で・る・た！～おねだり天使とひとつ屋根のした～",
+        "De-l-ta! ~Onedari Tenshi to Hitotsu Yane no Shita~",
+        "でるた ～おねだり天使とひとつ屋根の下～",
+        "Delta ~Onedari Tenshi to Hitotsu Yane no Shita~",
+        "De-ru-ta!"
+      ],
+      "image": null,
+      "subtitle": "アトリエかぐや Honky-Tonk Pumpkin",
+      "path": "works/v302/"
+    },
+    {
+      "id": "v321",
+      "type": "work",
+      "name": "艶女医～2人のエッチな女医とエロエロ研修体験～",
+      "aliases": [
+        "艶女医～2人のエッチな女医とエロエロ研修体験～",
+        "艶女医～2人のエッチな女医とエロエロ研修体験～",
+        "Enjoy ~Futari no Ecchi na Joi to Eroero Kenshuu Taiken~",
+        "Enjoi",
+        "エンジョイ"
+      ],
+      "image": null,
+      "subtitle": "アトリエかぐや BerkshireYorkshire",
+      "path": "works/v321/"
+    },
+    {
+      "id": "v353",
+      "type": "work",
+      "name": "委員長は承認せず! ～It Is a Next CHOice～",
+      "aliases": [
+        "委員長は承認せず! ～It Is a Next CHOice～",
+        "委員長は承認せず! ～It Is a Next CHOice～",
+        "Iinchou wa Shounin Sezu! ~It Is a Next CHOice~",
+        "IINCHO"
+      ],
+      "image": "https://t.vndb.org/cv/97/113297.jpg",
+      "subtitle": "Chien",
+      "path": "works/v353/"
+    },
+    {
+      "id": "v456",
+      "type": "work",
+      "name": "幼なじみと甘～くエッチに過ごす方法",
+      "aliases": [
+        "幼なじみと甘～くエッチに過ごす方法",
+        "幼なじみと甘～くエッチに過ごす方法",
+        "Osananajimi to Ama~ku Ecchi ni Sugosu Houhou",
+        "Osananajimi to Amaku H ni Sugosu Houhou",
+        "How to have more H and more sweet time with a childhood friends"
+      ],
+      "image": null,
+      "subtitle": "アトリエかぐや BerkshireYorkshire",
+      "path": "works/v456/"
+    },
+    {
+      "id": "v687",
+      "type": "work",
+      "name": "故郷の詩",
+      "aliases": [
+        "故郷の詩",
+        "故郷の詩",
+        "Kokyou no Uta"
+      ],
+      "image": "https://t.vndb.org/cv/05/5.jpg",
+      "subtitle": "Waffle",
+      "path": "works/v687/"
+    },
+    {
+      "id": "v1100",
+      "type": "work",
+      "name": "釣☆カノジョ～あの娘は釣り頃、釣られ頃～",
+      "aliases": [
+        "釣☆カノジョ～あの娘は釣り頃、釣られ頃～",
+        "釣☆カノジョ～あの娘は釣り頃、釣られ頃～",
+        "Choo☆Kanojo ~Ano Ko wa Tsuri Goro, Tsurare Goro~",
+        "Chou ☆ Kanojo",
+        "Tyou ☆ Kanojo",
+        "Tsuri ☆ Kanojo"
+      ],
+      "image": "https://t.vndb.org/cv/34/124234.jpg",
+      "subtitle": "げーせん18",
+      "path": "works/v1100/"
+    },
+    {
+      "id": "v1181",
+      "type": "work",
+      "name": "W.L.O. 世界恋愛機構",
+      "aliases": [
+        "W.L.O. 世界恋愛機構",
+        "W.L.O. 世界恋愛機構",
+        "W. L. O. Sekai Ren'ai Kikou",
+        "World Love Organization",
+        "WLO",
+        "未来のために、いま恋愛しよう。"
+      ],
+      "image": "https://t.vndb.org/cv/77/27877.jpg",
+      "subtitle": "あかべぇそふとつぅ",
+      "path": "works/v1181/"
+    },
+    {
+      "id": "v1222",
+      "type": "work",
+      "name": "ご奉仕★プリンセス",
+      "aliases": [
+        "ご奉仕★プリンセス",
+        "ご奉仕★プリンセス",
+        "Gohoushi ★ Princess"
+      ],
+      "image": null,
+      "subtitle": "WendyBell",
+      "path": "works/v1222/"
+    },
+    {
+      "id": "v1253",
+      "type": "work",
+      "name": "オレと彼女は主従なカンケイ",
+      "aliases": [
+        "オレと彼女は主従なカンケイ",
+        "オレと彼女は主従なカンケイ",
+        "Ore to Kanojo wa Shujuu na Kankei"
+      ],
+      "image": null,
+      "subtitle": "アトリエかぐや Honky-Tonk Pumpkin",
+      "path": "works/v1253/"
+    },
+    {
+      "id": "v1887",
+      "type": "work",
+      "name": "エンジェルメイド",
+      "aliases": [
+        "エンジェルメイド",
+        "エンジェルメイド",
+        "Angel Maid"
+      ],
+      "image": null,
+      "subtitle": "キャリエール",
+      "path": "works/v1887/"
+    },
+    {
+      "id": "v2101",
+      "type": "work",
+      "name": "キャリばん-キャリエールファンディスク-",
+      "aliases": [
+        "キャリばん-キャリエールファンディスク-",
+        "キャリばん-キャリエールファンディスク-",
+        "Carriban -Carriere Fandisc-"
+      ],
+      "image": "https://t.vndb.org/cv/29/18329.jpg",
+      "subtitle": "キャリエール",
+      "path": "works/v2101/"
+    },
+    {
+      "id": "v2142",
+      "type": "work",
+      "name": "恥辱病棟～堕ちた白衣の天使たち～",
+      "aliases": [
+        "恥辱病棟～堕ちた白衣の天使たち～",
+        "恥辱病棟～堕ちた白衣の天使たち～",
+        "Chijoku Byoutou ~Ochita Hakui no Tenshi-tachi~",
+        "Sexual Hospital - Falling angels in white"
+      ],
+      "image": null,
+      "subtitle": "Black Lilith",
+      "path": "works/v2142/"
+    },
+    {
+      "id": "v2219",
+      "type": "work",
+      "name": "マゾ×ラブ",
+      "aliases": [
+        "マゾ×ラブ",
+        "マゾ×ラブ",
+        "Mazo x Love",
+        "Mazolove",
+        "Masochist × Love"
+      ],
+      "image": null,
+      "subtitle": "10mile",
+      "path": "works/v2219/"
+    },
+    {
+      "id": "v2367",
+      "type": "work",
+      "name": "W.L.O. 世界恋愛機構 L.L.S. -LOVE LOVE SHOW-",
+      "aliases": [
+        "W.L.O. 世界恋愛機構 L.L.S. -LOVE LOVE SHOW-",
+        "W.L.O. 世界恋愛機構 L.L.S. -LOVE LOVE SHOW-",
+        "W. L. O. Sekai Ren'ai Kikou L.L.S. -Love Love Show-",
+        "World Love Organization LLS",
+        "WLO LLS"
+      ],
+      "image": "https://t.vndb.org/cv/76/27876.jpg",
+      "subtitle": "あかべぇそふとつぅ",
+      "path": "works/v2367/"
+    },
+    {
+      "id": "v3216",
+      "type": "work",
+      "name": "新妻イカせてミルク！ 団地妻、昼下がりの下半身事情",
+      "aliases": [
+        "新妻イカせてミルク！ 団地妻、昼下がりの下半身事情",
+        "新妻イカせてミルク！ 団地妻、昼下がりの下半身事情",
+        "Niizuma Ikasete Milk! Danchizuma, Hirusagari no Kahanshin Jijou"
+      ],
+      "image": null,
+      "subtitle": "アトリエかぐや Honky-Tonk Pumpkin",
+      "path": "works/v3216/"
+    },
+    {
+      "id": "v3294",
+      "type": "work",
+      "name": "姉です。（Death）～姉死覚悟の「弟しぼり」な夏が来る！～",
+      "aliases": [
+        "姉です。（Death）～姉死覚悟の「弟しぼり」な夏が来る！～",
+        "姉です。（Death）～姉死覚悟の「弟しぼり」な夏が来る！～",
+        "AneDeath. ~Ane-jini Kakugo no \"Otouto-shibori\" na Natsu ga Kuru!~",
+        "Anedesu -Anejini Kakugo no Otouto Shibori na Natsu ga Kuru!-"
+      ],
+      "image": null,
+      "subtitle": "アトリエかぐや Honky-Tonk Pumpkin",
+      "path": "works/v3294/"
+    },
+    {
+      "id": "v3543",
+      "type": "work",
+      "name": "おしえて Re:メイド",
+      "aliases": [
+        "おしえて Re:メイド",
+        "おしえて Re:メイド",
+        "Oshiete Re: Maid"
+      ],
+      "image": null,
+      "subtitle": "ユニゾンシフト・アクセント",
+      "path": "works/v3543/"
+    },
+    {
+      "id": "v3887",
+      "type": "work",
+      "name": "あねぼく～お姉ちゃんは美人3姉妹～",
+      "aliases": [
+        "あねぼく～お姉ちゃんは美人3姉妹～",
+        "あねぼく～お姉ちゃんは美人3姉妹～",
+        "Aneboku ~Onee-chan wa Bijin 3 Shimai~"
+      ],
+      "image": null,
+      "subtitle": "TinkerBell",
+      "path": "works/v3887/"
+    },
+    {
+      "id": "v4040",
+      "type": "work",
+      "name": "霧谷伯爵家の六姉妹",
+      "aliases": [
+        "霧谷伯爵家の六姉妹",
+        "霧谷伯爵家の六姉妹",
+        "Kiriya Hakushakuke no Roku Shimai",
+        "雾谷伯爵家的六姐妹"
+      ],
+      "image": null,
+      "subtitle": "アトリエかぐや TEAM HEARTBEAT",
+      "path": "works/v4040/"
+    },
+    {
+      "id": "v5238",
+      "type": "work",
+      "name": "なりもの♪",
+      "aliases": [
+        "なりもの♪",
+        "なりもの♪",
+        "Narimono♪"
+      ],
+      "image": null,
+      "subtitle": "Skunk Works",
+      "path": "works/v5238/"
+    },
+    {
+      "id": "v5585",
+      "type": "work",
+      "name": "代々木人妻専門学院～乳妻たちのアンニュイ～",
+      "aliases": [
+        "代々木人妻専門学院～乳妻たちのアンニュイ～",
+        "代々木人妻専門学院～乳妻たちのアンニュイ～",
+        "Yoyogi Hitozuma Senmon Gakuin ~Nyuuzuma-tachi no Ennui~",
+        "Yoyogi Hitoduma Senmon Gakuin"
+      ],
+      "image": null,
+      "subtitle": "LUCHA!",
+      "path": "works/v5585/"
+    },
+    {
+      "id": "v6080",
+      "type": "work",
+      "name": "魔女っこ de’GO♪GO♪～ポールとミラ☆クル大作戦～",
+      "aliases": [
+        "魔女っこ de’GO♪GO♪～ポールとミラ☆クル大作戦～",
+        "魔女っこ de’GO♪GO♪～ポールとミラ☆クル大作戦～",
+        "Majokko de' Go♪Go♪ ~Pole to Mira☆cle Daisakusen~"
+      ],
+      "image": null,
+      "subtitle": "LUCHA!",
+      "path": "works/v6080/"
+    },
+    {
+      "id": "v6193",
+      "type": "work",
+      "name": "Milkyway3",
+      "aliases": [
+        "Milkyway3",
+        "Milkyway3",
+        "Milkyway 3"
+      ],
+      "image": "https://t.vndb.org/cv/30/73730.jpg",
+      "subtitle": "Witch",
+      "path": "works/v6193/"
+    },
+    {
+      "id": "v6393",
+      "type": "work",
+      "name": "さくら色カルテット",
+      "aliases": [
+        "さくら色カルテット",
+        "さくら色カルテット",
+        "Sakurairo Quartet"
+      ],
+      "image": "https://t.vndb.org/cv/06/94306.jpg",
+      "subtitle": "アトリエかぐや BerkshireYorkshire",
+      "path": "works/v6393/"
+    },
+    {
+      "id": "v6472",
+      "type": "work",
+      "name": "へんし～ん!!! ～パンツになってクンクンペロペロ～",
+      "aliases": [
+        "へんし～ん!!! ～パンツになってクンクンペロペロ～",
+        "へんし～ん!!! ～パンツになってクンクンペロペロ～",
+        "Henshi~n!!! ~Pantsu ni Natte Kunkun Peropero~",
+        "Henshin 3"
+      ],
+      "image": null,
+      "subtitle": "May-Be SOFT",
+      "path": "works/v6472/"
+    },
+    {
+      "id": "v7092",
+      "type": "work",
+      "name": "はらハラしちゃう! ～親にはナイショの子作り性活～ －朝霧姉妹編－",
+      "aliases": [
+        "はらハラしちゃう! ～親にはナイショの子作り性活～ －朝霧姉妹編－",
+        "はらハラしちゃう! ～親にはナイショの子作り性活～ －朝霧姉妹編－",
+        "Harahara Shichau! ~Oya ni wa Naisho no Kozukuri Seikatsu~ -Asagiri Shimai Hen-"
+      ],
+      "image": null,
+      "subtitle": "アトリエかぐや",
+      "path": "works/v7092/"
+    },
+    {
+      "id": "v7194",
+      "type": "work",
+      "name": "聖マリエス学園～イカせて！お姉さま～",
+      "aliases": [
+        "聖マリエス学園～イカせて！お姉さま～",
+        "聖マリエス学園～イカせて！お姉さま～",
+        "Sei Maries Gakuen ~Ikasete! Onee-sama~",
+        "St. Marieth School - Let me cum! My sweetheart"
+      ],
+      "image": null,
+      "subtitle": "リリス",
+      "path": "works/v7194/"
+    },
+    {
+      "id": "v7264",
+      "type": "work",
+      "name": "禁断の病棟 ~特殊精神科医 遊佐惣介の診察記録~",
+      "aliases": [
+        "禁断の病棟 ~特殊精神科医 遊佐惣介の診察記録~",
+        "禁断の病棟 ~特殊精神科医 遊佐惣介の診察記録~",
+        "Kindan no Byoutou ~Tokushu Seishinkai Yusa Sousuke no Shinsatsu Kiroku~",
+        "The Forbidden Hospital Ward"
+      ],
+      "image": null,
+      "subtitle": "アトリエかぐや TEAM HEARTBEAT",
+      "path": "works/v7264/"
+    },
+    {
+      "id": "v7603",
+      "type": "work",
+      "name": "ロウきゅーぶ！",
+      "aliases": [
+        "ロウきゅーぶ！",
+        "ロウきゅーぶ！",
+        "Rou-Kyuu-Bu!",
+        "Ro-Kyu-Bu!"
+      ],
+      "image": "https://t.vndb.org/cv/26/97426.jpg",
+      "subtitle": "株式会社アスキー・メディアワークス / 株式会社ブリッジ",
+      "path": "works/v7603/"
+    },
+    {
+      "id": "v7622",
+      "type": "work",
+      "name": "だらしなくてエッチなお姉さんが転がり込んできた。どうする!?",
+      "aliases": [
+        "だらしなくてエッチなお姉さんが転がり込んできた。どうする!?",
+        "だらしなくてエッチなお姉さんが転がり込んできた。どうする!?",
+        "Darashinakute Ecchi na Onee-san ga Koragarikondekita. Dou Suru!?",
+        "My Alluring Elder Sister Came to Stay! What Should I Do!?"
+      ],
+      "image": null,
+      "subtitle": "劇團近未来",
+      "path": "works/v7622/"
+    },
+    {
+      "id": "v7656",
+      "type": "work",
+      "name": "姉はカノジョで専属メイド",
+      "aliases": [
+        "姉はカノジョで専属メイド",
+        "姉はカノジョで専属メイド",
+        "Ane wa Kanojo de Senzoku Maid",
+        "Ane ha Kanojyo de Senzoku Meido"
+      ],
+      "image": null,
+      "subtitle": "アトリエかぐや",
+      "path": "works/v7656/"
+    },
+    {
+      "id": "v7962",
+      "type": "work",
+      "name": "おしかけ魔法少女ユイ",
+      "aliases": [
+        "おしかけ魔法少女ユイ",
+        "おしかけ魔法少女ユイ",
+        "Oshikake Mahou Shoujo Yui",
+        "Oshikake Mahoushoujo Yui (Such a pushy magical girl Yui)"
+      ],
+      "image": null,
+      "subtitle": "リリス",
+      "path": "works/v7962/"
+    },
+    {
+      "id": "v10047",
+      "type": "work",
+      "name": "えれくと！",
+      "aliases": [
+        "えれくと！",
+        "えれくと！",
+        "Erect!",
+        "Erekuto!"
+      ],
+      "image": null,
+      "subtitle": "アストロノーツ・スピカ",
+      "path": "works/v10047/"
+    },
+    {
+      "id": "v10230",
+      "type": "work",
+      "name": "おしえてKissMe",
+      "aliases": [
+        "おしえてKissMe",
+        "おしえてKissMe",
+        "Oshiete KissMe"
+      ],
+      "image": null,
+      "subtitle": "わんこソフト",
+      "path": "works/v10230/"
+    },
+    {
+      "id": "v11224",
+      "type": "work",
+      "name": "姉母娘でイクッ！ ～大好きな姉を奪ったくせに浮気を続けるクズ旦那から姉の娘と共にネトリ返す～",
+      "aliases": [
+        "姉母娘でイクッ！ ～大好きな姉を奪ったくせに浮気を続けるクズ旦那から姉の娘と共にネトリ返す～",
+        "姉母娘でイクッ！ ～大好きな姉を奪ったくせに浮気を続けるクズ旦那から姉の娘と共にネトリ返す～",
+        "Ane Oyako de Iku! ~Daisuki na Ane o Ubatta Kuse ni Uwaki o Tsuzukeru Kuzu Danna Kara Ane no Musume to Tomo ni Netorikaesu~"
+      ],
+      "image": null,
+      "subtitle": "アトリエかぐや",
+      "path": "works/v11224/"
+    },
+    {
+      "id": "v14934",
+      "type": "work",
+      "name": "ちぇ～んじ!　～あの娘になってクンクンペロペロ～",
+      "aliases": [
+        "ちぇ～んじ!　～あの娘になってクンクンペロペロ～",
+        "ちぇ～んじ!　～あの娘になってクンクンペロペロ～",
+        "Cha~nge! ~Ano Ko ni Natte Kunkun Peropero~",
+        "Change!"
+      ],
+      "image": null,
+      "subtitle": "May-Be SOFT",
+      "path": "works/v14934/"
+    },
+    {
+      "id": "v18888",
+      "type": "work",
+      "name": "空のつくりかた -under the same sky，over the rainbow-",
+      "aliases": [
+        "空のつくりかた -under the same sky，over the rainbow-",
+        "空のつくりかた -under the same sky，over the rainbow-",
+        "Sora no Tsukurikata -Under the Same Sky, Over the Rainbow-",
+        "天空的作法",
+        "Soratsuku"
+      ],
+      "image": "https://t.vndb.org/cv/70/92970.jpg",
+      "subtitle": "COSMIC CUTE",
+      "path": "works/v18888/"
+    },
+    {
+      "id": "v27367",
+      "type": "work",
+      "name": "アイシング-love coating-",
+      "aliases": [
+        "アイシング-love coating-",
+        "アイシング-love coating-",
+        "Icing -love coating-"
+      ],
+      "image": "https://t.vndb.org/cv/59/84659.jpg",
+      "subtitle": "はちみつそふと",
+      "path": "works/v27367/"
+    },
+    {
+      "id": "v28877",
+      "type": "work",
+      "name": "おね→ショタ←おね",
+      "aliases": [
+        "おね→ショタ←おね",
+        "おね→ショタ←おね",
+        "One → Shota ← One",
+        "Oneshota"
+      ],
+      "image": null,
+      "subtitle": "あざらしそふと+1",
+      "path": "works/v28877/"
+    },
+    {
+      "id": "v29909",
+      "type": "work",
+      "name": "吹弹！丰盈！波涛汹涌！异世界魅魔学园！",
+      "aliases": [
+        "もっと！孕ませ！炎のおっぱい異世界超エロ♥サキュバス学園！",
+        "吹弹！丰盈！波涛汹涌！异世界魅魔学园！",
+        "もっと！孕ませ！炎のおっぱい異世界超エロ♥サキュバス学園！",
+        "Motto! Haramase! Honoo no Oppai Isekai Chou Ero ♥ Succubus Gakuen!",
+        "OPPAI Succubus Academy Sucky and Busty, Demonic and Lusty!",
+        "EroSucc",
+        "hsuc",
+        "EroSuccubus",
+        "More! Knock Me Up! A Super Ero-Succubus Academy in the Parallel World of Fiery Boobs!"
+      ],
+      "image": null,
+      "subtitle": "みるくふぁくとりー",
+      "path": "works/v29909/"
+    },
+    {
+      "id": "v51010",
+      "type": "work",
+      "name": "欢迎来到龙娘咖啡厅",
+      "aliases": [
+        "ドラ・コンカフェ",
+        "欢迎来到龙娘咖啡厅",
+        "ドラ・コンカフェ",
+        "Dora-Con Cafe",
+        "Welcome to Café Lumière! ～A Dragon Girl Concept Café ～",
+        "Dragon Girls x Concept Cafe"
+      ],
+      "image": null,
+      "subtitle": "Cuteuphoria",
+      "path": "works/v51010/"
+    },
+    {
+      "id": "v58020",
+      "type": "work",
+      "name": "ドラ・コンカフェ2",
+      "aliases": [
+        "ドラ・コンカフェ2",
+        "ドラ・コンカフェ2",
+        "Dora-Con Cafe 2"
+      ],
+      "image": null,
+      "subtitle": "Cuteuphoria",
+      "path": "works/v58020/"
+    },
+    {
+      "id": "v67381",
+      "type": "work",
+      "name": "今日の2-X",
+      "aliases": [
+        "今日の2-X",
+        "今日の2-X",
+        "Kyou no Nippeke"
+      ],
+      "image": null,
+      "subtitle": "Waffle",
+      "path": "works/v67381/"
+    },
+    {
+      "id": "v3272",
+      "type": "work",
+      "name": "もっと 姉、ちゃんとしようよっ！",
+      "aliases": [
+        "もっと 姉、ちゃんとしようよっ！",
+        "もっと 姉、ちゃんとしようよっ！",
+        "Motto Nee, Chanto Shiyou yo!",
+        "Motto Nee-chan to Shiyou yo!",
+        "もっと姉しよ",
+        "Motto Nee Shiyo"
+      ],
+      "image": null,
+      "subtitle": "きゃんでぃそふと",
+      "path": "works/v3272/"
+    },
+    {
+      "id": "v7332",
+      "type": "work",
+      "name": "もっと 姉、ちゃんとしようよっ！ アフターストーリー",
+      "aliases": [
+        "もっと 姉、ちゃんとしようよっ！ アフターストーリー",
+        "もっと 姉、ちゃんとしようよっ！ アフターストーリー",
+        "Motto Nee, Chanto Shiyou yo! Afterstory"
+      ],
+      "image": "https://t.vndb.org/cv/23/28423.jpg",
+      "subtitle": "きゃんでぃそふと",
+      "path": "works/v7332/"
+    },
+    {
+      "id": "v10614",
+      "type": "work",
+      "name": "ガンナイトガール",
+      "aliases": [
+        "ガンナイトガール",
+        "ガンナイトガール",
+        "Gun Knight Girl"
+      ],
+      "image": "https://t.vndb.org/cv/44/89244.jpg",
+      "subtitle": "きゃんでぃそふと",
+      "path": "works/v10614/"
+    },
+    {
+      "id": "v15473",
+      "type": "work",
+      "name": "七色轮回",
+      "aliases": [
+        "なないろリンカネーション",
+        "七色轮回",
+        "なないろリンカネーション",
+        "Nanairo Reincarnation",
+        "ななリン",
+        "nanarin"
+      ],
+      "image": "https://t.vndb.org/cv/43/76843.jpg",
+      "subtitle": "シルキーズプラス WASABI / シルキーズプラスアルファ",
+      "path": "works/v15473/"
+    },
+    {
+      "id": "v18495",
+      "type": "work",
+      "name": "あけいろ怪奇譚",
+      "aliases": [
+        "あけいろ怪奇譚",
+        "あけいろ怪奇譚",
+        "Akeiro Kaikitan",
+        "绯色怪奇谭"
+      ],
+      "image": null,
+      "subtitle": "シルキーズプラス WASABI",
+      "path": "works/v18495/"
+    },
+    {
+      "id": "v56343",
+      "type": "work",
+      "name": "久我山栞的死法手账",
+      "aliases": [
+        "久我山栞の死様手帖",
+        "久我山栞的死法手账",
+        "久我山栞の死様手帖",
+        "Kugayama Shiori no Shinizama Techou",
+        "Kugayama Shiori's Death Diary"
+      ],
+      "image": "https://t.vndb.org/cv/34/123934.jpg",
+      "subtitle": "Laplacian",
+      "path": "works/v56343/"
     },
     {
       "id": "s722",
@@ -41696,6 +42721,50 @@
       ],
       "subtitle": "剧本作者 / 原画师",
       "path": "staff/s15257/"
+    },
+    {
+      "id": "s787",
+      "type": "staff",
+      "name": "J・さいろー",
+      "aliases": [
+        "J-Sairo",
+        "J・さいろー"
+      ],
+      "subtitle": "剧本作者 / 原画师",
+      "path": "staff/s787/"
+    },
+    {
+      "id": "s1855",
+      "type": "staff",
+      "name": "七央 結日",
+      "aliases": [
+        "Nanao Yuhi",
+        "七央 結日"
+      ],
+      "subtitle": "剧本作者 / 原画师",
+      "path": "staff/s1855/"
+    },
+    {
+      "id": "s3959",
+      "type": "staff",
+      "name": "かずき ふみ",
+      "aliases": [
+        "Kazuki Fumi",
+        "かずき ふみ"
+      ],
+      "subtitle": "剧本作者 / 原画师",
+      "path": "staff/s3959/"
+    },
+    {
+      "id": "s30868",
+      "type": "staff",
+      "name": "ほかん",
+      "aliases": [
+        "Hokan",
+        "ほかん"
+      ],
+      "subtitle": "剧本作者 / 原画师",
+      "path": "staff/s30868/"
     },
     {
       "id": "p31674",

@@ -361,7 +361,9 @@
             "Angelic☆Chaos RE-BOOT!",
             "天使☆囂囂 RE-BOOT!",
             "天使☆骚骚 RE-BOOT!",
-            "しりぶと"
+            "しりぶと",
+            "天使☆嚣嚣 RE-BOOT! | 天使纷扰",
+            "天使☆囂囂 RE-BOOT! | 天使紛擾"
           ],
           "released": "2023-04-28",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v40520/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/66/88666.jpg\" data-cover-full=\"https://t.vndb.org/cv/66/88666.jpg\" alt=\"天使☆嚣嚣 RE-BOOT!封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>天使☆嚣嚣 RE-BOOT!</h3><p>ゆずソフト</p><div class=\"card-heat muted\">2023-04-28</div></a></article>"
@@ -10894,9 +10896,10 @@
           "aliases": [
             "恋とHしかしていない！",
             "恋とHしかしていない！",
-            "Koi to H Shika Shiteinai!",
+            "Koi to H shika Shiteinai!",
             "恋Ｈ",
             "KoiH",
+            "Koi to H Shika Shiteinai!",
             "只做恋爱和H！"
           ],
           "released": "2023-09-29",
@@ -11845,7 +11848,7 @@
             "Zanma Taisei Demonbane"
           ],
           "released": "2003-04-25",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v231/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/69/93369.jpg\" data-cover-full=\"https://t.vndb.org/cv/69/93369.jpg\" alt=\"斩魔大圣Demonbane封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>斩魔大圣Demonbane</h3><p>ニトロプラス</p><div class=\"card-heat muted\">2003-04-25</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v231/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无封面</span>斩魔大圣Demonbane</span></div><h3>斩魔大圣Demonbane</h3><p>ニトロプラス</p><div class=\"card-heat muted\">2003-04-25</div></a></article>"
         },
         {
           "name": "機神飛翔デモンベイン",
@@ -28206,7 +28209,7 @@
           "aliases": [
             "愚者ノ教鞭 ～今しかできないことがたくさんあるんだ！～",
             "愚者ノ教鞭 ～今しかできないことがたくさんあるんだ！～",
-            "Gusha no Kyouben ~Ima Shika Dekinai Koto ga Takusan Arun Da!~",
+            "Gusha no Kyouben ~Ima shika Dekinai Koto ga Takusan Arun Da!~",
             "Gusya no Kyoben"
           ],
           "released": "2016-10-28",
@@ -30432,10 +30435,10 @@
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v8434/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>亲吻那片花瓣 莉莉·白金</span></div><h3>亲吻那片花瓣 莉莉·白金</h3><p>ふぐり屋</p><div class=\"card-heat muted\">2011-11-18</div></a></article>"
         },
         {
-          "name": "亲吻那片花瓣 米卡艾尔的少女们",
+          "name": "亲吻那片花瓣 米迦勒的少女们",
           "aliases": [
             "その花びらにくちづけを　ミカエルの乙女たち",
-            "亲吻那片花瓣 米卡艾尔的少女们",
+            "亲吻那片花瓣 米迦勒的少女们",
             "その花びらにくちづけを　ミカエルの乙女たち",
             "Sono Hanabira ni Kuchizuke o: Michael no Otome-tachi",
             "A Kiss For The Petals - Maidens of Michael",
@@ -30444,7 +30447,7 @@
             "花吻在上11"
           ],
           "released": "2012-11-30",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v10700/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/51/104751.jpg\" data-cover-full=\"https://t.vndb.org/cv/51/104751.jpg\" alt=\"亲吻那片花瓣 米卡艾尔的少女们封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>亲吻那片花瓣 米卡艾尔的少女们</h3><p>ゆりんゆりん</p><div class=\"card-heat muted\">2012-11-30</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v10700/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/51/104751.jpg\" data-cover-full=\"https://t.vndb.org/cv/51/104751.jpg\" alt=\"亲吻那片花瓣 米迦勒的少女们封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>亲吻那片花瓣 米迦勒的少女们</h3><p>ゆりんゆりん</p><div class=\"card-heat muted\">2012-11-30</div></a></article>"
         },
         {
           "name": "亲吻那片花瓣 画室的恋人们",
@@ -31585,6 +31588,809 @@
           ],
           "released": "2012-12-31",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v12402/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/31/77731.jpg\" data-cover-full=\"https://t.vndb.org/cv/31/77731.jpg\" alt=\"海市蜃楼之馆封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>海市蜃楼之馆</h3><p>NOVECT</p><div class=\"card-heat muted\">2012-12-31</div></a></article>"
+        },
+        {
+          "name": "美学 YURIKA＆ASUNA",
+          "aliases": [
+            "美学 YURIKA＆ASUNA",
+            "美学 YURIKA＆ASUNA",
+            "Bigaku Yurika & Asuna"
+          ],
+          "released": "2008-10-24",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v1975/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>美学 YURIKA＆ASUNA</span></div><h3>美学 YURIKA＆ASUNA</h3><p>M no Violet</p><div class=\"card-heat muted\">2008-10-24</div></a></article>"
+        },
+        {
+          "name": "雪之華",
+          "aliases": [
+            "ゆのはな",
+            "雪之華",
+            "ゆのはな",
+            "Yunohana",
+            "유노하나",
+            "雪之华"
+          ],
+          "released": "2005-03-25",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v16/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/56/108856.jpg\" data-cover-full=\"https://t.vndb.org/cv/56/108856.jpg\" alt=\"雪之華封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>雪之華</h3><p>PULLTOP</p><div class=\"card-heat muted\">2005-03-25</div></a></article>"
+        },
+        {
+          "name": "Garden",
+          "aliases": [
+            "Garden",
+            "Garden",
+            "ガーデン"
+          ],
+          "released": "2008-01-25",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v335/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/34/72634.jpg\" data-cover-full=\"https://t.vndb.org/cv/34/72634.jpg\" alt=\"Garden封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>Garden</h3><p>CUFFS</p><div class=\"card-heat muted\">2008-01-25</div></a></article>"
+        },
+        {
+          "name": "Clover Point 四叶奇迹",
+          "aliases": [
+            "Clover Point",
+            "Clover Point 四叶奇迹",
+            "Clover Point",
+            "クローバーポイント"
+          ],
+          "released": "2007-12-21",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v427/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/83/125183.jpg\" data-cover-full=\"https://t.vndb.org/cv/83/125183.jpg\" alt=\"Clover Point 四叶奇迹封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>Clover Point 四叶奇迹</h3><p>メテオ</p><div class=\"card-heat muted\">2007-12-21</div></a></article>"
+        },
+        {
+          "name": "塔ノ沢魔術研究会",
+          "aliases": [
+            "塔ノ沢魔術研究会",
+            "塔ノ沢魔術研究会",
+            "Tounosawa Majutsu Kenkyuukai"
+          ],
+          "released": "2003-05-23",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v614/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv/92/29892.jpg\" alt=\"塔ノ沢魔術研究会封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>塔ノ沢魔術研究会</h3><p>NOA</p><div class=\"card-heat muted\">2003-05-23</div></a></article>"
+        },
+        {
+          "name": "夜刀姫斬鬼行",
+          "aliases": [
+            "夜刀姫斬鬼行",
+            "夜刀姫斬鬼行",
+            "Yatohime Zankikou",
+            "The Princess of Yato - Katana",
+            "夜刀姫斬鬼行（やとひめざんきこう）"
+          ],
+          "released": "2005-12-16",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v1022/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>夜刀姫斬鬼行</span></div><h3>夜刀姫斬鬼行</h3><p>Terios</p><div class=\"card-heat muted\">2005-12-16</div></a></article>"
+        },
+        {
+          "name": "フォーチュンクッキー",
+          "aliases": [
+            "フォーチュンクッキー",
+            "フォーチュンクッキー",
+            "Fortune Cookie"
+          ],
+          "released": "2004-03-19",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v2382/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>フォーチュンクッキー</span></div><h3>フォーチュンクッキー</h3><p>smart</p><div class=\"card-heat muted\">2004-03-19</div></a></article>"
+        },
+        {
+          "name": "フォーチュンクッキーセレクト",
+          "aliases": [
+            "フォーチュンクッキーセレクト",
+            "フォーチュンクッキーセレクト",
+            "Fortune Cookie Select"
+          ],
+          "released": "2004-09-24",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v2383/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv/83/2883.jpg\" alt=\"フォーチュンクッキーセレクト封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>フォーチュンクッキーセレクト</h3><p>フォーチュンクッキーセレクト</p><div class=\"card-heat muted\">2004-09-24</div></a></article>"
+        },
+        {
+          "name": "ハチミツ乙女blossomdays",
+          "aliases": [
+            "ハチミツ乙女blossomdays",
+            "ハチミツ乙女blossomdays",
+            "Hachimitsu Otome Blossomdays"
+          ],
+          "released": "2009-10-23",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v2617/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/39/106539.jpg\" data-cover-full=\"https://t.vndb.org/cv/39/106539.jpg\" alt=\"ハチミツ乙女blossomdays封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>ハチミツ乙女blossomdays</h3><p>ルピナス</p><div class=\"card-heat muted\">2009-10-23</div></a></article>"
+        },
+        {
+          "name": "てこいれぷりんせす！～僕が見えない君のため～",
+          "aliases": [
+            "てこいれぷりんせす！～僕が見えない君のため～",
+            "てこいれぷりんせす！～僕が見えない君のため～",
+            "Tekoire Princess! ~Boku ga Mienai Kimi no Tame~",
+            "TekoPri",
+            "TekoPuri",
+            "てこぷり"
+          ],
+          "released": "2004-09-17",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v4054/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>てこいれぷりんせす！～僕が見えない君のため～</span></div><h3>てこいれぷりんせす！～僕が見えない君のため～</h3><p>propeller</p><div class=\"card-heat muted\">2004-09-17</div></a></article>"
+        },
+        {
+          "name": "はるはろ！",
+          "aliases": [
+            "はるはろ！",
+            "はるはろ！",
+            "Haruharo!"
+          ],
+          "released": "",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v4507/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv/38/9938.jpg\" alt=\"はるはろ！封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>はるはろ！</h3><p>PULLTOP / propeller</p><div class=\"card-heat muted\">发行时间待补充</div></a></article>"
+        },
+        {
+          "name": "カミカゼ☆エクスプローラー！",
+          "aliases": [
+            "カミカゼ☆エクスプローラー！",
+            "カミカゼ☆エクスプローラー！",
+            "Kamikaze ☆ Explorer!",
+            "神风探索者"
+          ],
+          "released": "2011-05-27",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v4942/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/07/107507.jpg\" data-cover-full=\"https://t.vndb.org/cv/07/107507.jpg\" alt=\"カミカゼ☆エクスプローラー！封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>カミカゼ☆エクスプローラー！</h3><p>クロシェット</p><div class=\"card-heat muted\">2011-05-27</div></a></article>"
+        },
+        {
+          "name": "操心術0",
+          "aliases": [
+            "操心術0",
+            "操心術0",
+            "Soushinjutsu Rei",
+            "Soushinjutsu 0"
+          ],
+          "released": "2011-01-28",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v5482/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>操心術0</span></div><h3>操心術0</h3><p>Studio 邪恋</p><div class=\"card-heat muted\">2011-01-28</div></a></article>"
+        },
+        {
+          "name": "神聖にして侵すべからず",
+          "aliases": [
+            "神聖にして侵すべからず",
+            "神聖にして侵すべからず",
+            "Shinsei ni Shite Okasubekarazu",
+            "A little little queen of kingdom"
+          ],
+          "released": "2011-10-28",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v6611/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/68/150968.jpg\" data-cover-full=\"https://t.vndb.org/cv/68/150968.jpg\" alt=\"神聖にして侵すべからず封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>神聖にして侵すべからず</h3><p>PULLTOP</p><div class=\"card-heat muted\">2011-10-28</div></a></article>"
+        },
+        {
+          "name": "結衣とお兄ちゃんのここだけの話",
+          "aliases": [
+            "結衣とお兄ちゃんのここだけの話",
+            "結衣とお兄ちゃんのここだけの話",
+            "Yui to Onii-chan no Koko Dake no Hanashi",
+            "Yuikoko",
+            "結依とお兄ちゃんの*だけの話"
+          ],
+          "released": "2006-12-31",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v8246/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>結衣とお兄ちゃんのここだけの話</span></div><h3>結衣とお兄ちゃんのここだけの話</h3><p>丹下拳闘倶楽部</p><div class=\"card-heat muted\">2006-12-31</div></a></article>"
+        },
+        {
+          "name": "あやねぇの教育的☆姉導!",
+          "aliases": [
+            "あやねぇの教育的☆姉導!",
+            "あやねぇの教育的☆姉導!",
+            "Aya-nee no Kyouikuteki☆Shidou!",
+            "AYA's educational guidance"
+          ],
+          "released": "2006-12-31",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v8247/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>あやねぇの教育的☆姉導!</span></div><h3>あやねぇの教育的☆姉導!</h3><p>丹下拳闘倶楽部</p><div class=\"card-heat muted\">2006-12-31</div></a></article>"
+        },
+        {
+          "name": "プリズム◇リコレクション！",
+          "aliases": [
+            "プリズム◇リコレクション！",
+            "プリズム◇リコレクション！",
+            "Prism ◇ Recollection!",
+            "Pricolle"
+          ],
+          "released": "2013-02-22",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v9092/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/08/107508.jpg\" data-cover-full=\"https://t.vndb.org/cv/08/107508.jpg\" alt=\"プリズム◇リコレクション！封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>プリズム◇リコレクション！</h3><p>クロシェット</p><div class=\"card-heat muted\">2013-02-22</div></a></article>"
+        },
+        {
+          "name": "新撰組 ～幕末幻視行～",
+          "aliases": [
+            "新撰組 ～幕末幻視行～",
+            "新撰組 ～幕末幻視行～",
+            "Shinsengumi - Bakumatsu Genshikou"
+          ],
+          "released": "1991-11-10",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v10764/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv/91/35591.jpg\" alt=\"新撰組 ～幕末幻視行～封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>新撰組 ～幕末幻視行～</h3><p>ウルフチーム</p><div class=\"card-heat muted\">1991-11-10</div></a></article>"
+        },
+        {
+          "name": "さつきのキモチ",
+          "aliases": [
+            "さつきのキモチ",
+            "さつきのキモチ",
+            "Satsuki no Kimochi"
+          ],
+          "released": "1998-12-18",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v11785/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv/90/14990.jpg\" alt=\"さつきのキモチ封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>さつきのキモチ</h3><p>Optimist</p><div class=\"card-heat muted\">1998-12-18</div></a></article>"
+        },
+        {
+          "name": "ひめごとユニオン ～We are in the springtime of life!～",
+          "aliases": [
+            "ひめごとユニオン ～We are in the springtime of life!～",
+            "ひめごとユニオン ～We are in the springtime of life!～",
+            "Himegoto Union ~We Are in the Springtime of Life!~",
+            "ひめユニ",
+            "himeuni"
+          ],
+          "released": "2013-09-27",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v12437/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>ひめごとユニオン ～We are in the springtime of life!～</span></div><h3>ひめごとユニオン ～We are in the springtime of life!～</h3><p>Seven Wonder</p><div class=\"card-heat muted\">2013-09-27</div></a></article>"
+        },
+        {
+          "name": "ローデビル！",
+          "aliases": [
+            "ローデビル！",
+            "ローデビル！",
+            "Low Devil!"
+          ],
+          "released": "2001-10-26",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v12615/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv/87/16187.jpg\" alt=\"ローデビル！封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>ローデビル！</h3><p>Black Light</p><div class=\"card-heat muted\">2001-10-26</div></a></article>"
+        },
+        {
+          "name": "ろーでび ～小悪魔的偏愛論～",
+          "aliases": [
+            "ろーでび ～小悪魔的偏愛論～",
+            "ろーでび ～小悪魔的偏愛論～",
+            "Lo-Devi ~Koakumateki Hen'airon~",
+            "ローデビコアクマテキヘンアイロン"
+          ],
+          "released": "2004-06-04",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v12616/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>ろーでび ～小悪魔的偏愛論～</span></div><h3>ろーでび ～小悪魔的偏愛論～</h3><p>Black Light</p><div class=\"card-heat muted\">2004-06-04</div></a></article>"
+        },
+        {
+          "name": "イチャ×2スタディ 由乃 ~Dear Future~",
+          "aliases": [
+            "イチャ×2スタディ 由乃 ~Dear Future~",
+            "イチャ×2スタディ 由乃 ~Dear Future~",
+            "Icha x2 Study Yuno ~Dear Future~"
+          ],
+          "released": "2024-03-29",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v47676/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>イチャ×2スタディ 由乃 ~Dear Future~</span></div><h3>イチャ×2スタディ 由乃 ~Dear Future~</h3><p>ま～まれぇど</p><div class=\"card-heat muted\">2024-03-29</div></a></article>"
+        },
+        {
+          "name": "バカップル・サプリメント",
+          "aliases": [
+            "バカップル・サプリメント",
+            "バカップル・サプリメント",
+            "Bakappuru Supplement",
+            "Baka Couple Supplement: They never stop getting along.",
+            "Bakaple"
+          ],
+          "released": "2025-11-28",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v52031/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/12/100112.jpg\" data-cover-full=\"https://t.vndb.org/cv/12/100112.jpg\" alt=\"バカップル・サプリメント封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>バカップル・サプリメント</h3><p>ま～まれぇど</p><div class=\"card-heat muted\">2025-11-28</div></a></article>"
+        },
+        {
+          "name": "で・る・た！～おねだり天使とひとつ屋根のした～",
+          "aliases": [
+            "で・る・た！～おねだり天使とひとつ屋根のした～",
+            "で・る・た！～おねだり天使とひとつ屋根のした～",
+            "De-l-ta! ~Onedari Tenshi to Hitotsu Yane no Shita~",
+            "でるた ～おねだり天使とひとつ屋根の下～",
+            "Delta ~Onedari Tenshi to Hitotsu Yane no Shita~",
+            "De-ru-ta!"
+          ],
+          "released": "2007-04-27",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v302/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>で・る・た！～おねだり天使とひとつ屋根のした～</span></div><h3>で・る・た！～おねだり天使とひとつ屋根のした～</h3><p>アトリエかぐや Honky-Tonk Pumpkin</p><div class=\"card-heat muted\">2007-04-27</div></a></article>"
+        },
+        {
+          "name": "艶女医～2人のエッチな女医とエロエロ研修体験～",
+          "aliases": [
+            "艶女医～2人のエッチな女医とエロエロ研修体験～",
+            "艶女医～2人のエッチな女医とエロエロ研修体験～",
+            "Enjoy ~Futari no Ecchi na Joi to Eroero Kenshuu Taiken~",
+            "Enjoi",
+            "エンジョイ"
+          ],
+          "released": "2007-09-28",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v321/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>艶女医～2人のエッチな女医とエロエロ研修体験～</span></div><h3>艶女医～2人のエッチな女医とエロエロ研修体験～</h3><p>アトリエかぐや BerkshireYorkshire</p><div class=\"card-heat muted\">2007-09-28</div></a></article>"
+        },
+        {
+          "name": "委員長は承認せず! ～It Is a Next CHOice～",
+          "aliases": [
+            "委員長は承認せず! ～It Is a Next CHOice～",
+            "委員長は承認せず! ～It Is a Next CHOice～",
+            "Iinchou wa Shounin Sezu! ~It Is a Next CHOice~",
+            "IINCHO"
+          ],
+          "released": "2006-06-02",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v353/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/97/113297.jpg\" data-cover-full=\"https://t.vndb.org/cv/97/113297.jpg\" alt=\"委員長は承認せず! ～It Is a Next CHOice～封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>委員長は承認せず! ～It Is a Next CHOice～</h3><p>Chien</p><div class=\"card-heat muted\">2006-06-02</div></a></article>"
+        },
+        {
+          "name": "幼なじみと甘～くエッチに過ごす方法",
+          "aliases": [
+            "幼なじみと甘～くエッチに過ごす方法",
+            "幼なじみと甘～くエッチに過ごす方法",
+            "Osananajimi to Ama~ku Ecchi ni Sugosu Houhou",
+            "Osananajimi to Amaku H ni Sugosu Houhou",
+            "How to have more H and more sweet time with a childhood friends"
+          ],
+          "released": "2007-02-23",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v456/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>幼なじみと甘～くエッチに過ごす方法</span></div><h3>幼なじみと甘～くエッチに過ごす方法</h3><p>アトリエかぐや BerkshireYorkshire</p><div class=\"card-heat muted\">2007-02-23</div></a></article>"
+        },
+        {
+          "name": "故郷の詩",
+          "aliases": [
+            "故郷の詩",
+            "故郷の詩",
+            "Kokyou no Uta"
+          ],
+          "released": "2006-09-22",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v687/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv/05/5.jpg\" alt=\"故郷の詩封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>故郷の詩</h3><p>Waffle</p><div class=\"card-heat muted\">2006-09-22</div></a></article>"
+        },
+        {
+          "name": "釣☆カノジョ～あの娘は釣り頃、釣られ頃～",
+          "aliases": [
+            "釣☆カノジョ～あの娘は釣り頃、釣られ頃～",
+            "釣☆カノジョ～あの娘は釣り頃、釣られ頃～",
+            "Choo☆Kanojo ~Ano Ko wa Tsuri Goro, Tsurare Goro~",
+            "Chou ☆ Kanojo",
+            "Tyou ☆ Kanojo",
+            "Tsuri ☆ Kanojo"
+          ],
+          "released": "2007-07-27",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v1100/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/34/124234.jpg\" data-cover-full=\"https://t.vndb.org/cv/34/124234.jpg\" alt=\"釣☆カノジョ～あの娘は釣り頃、釣られ頃～封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>釣☆カノジョ～あの娘は釣り頃、釣られ頃～</h3><p>げーせん18</p><div class=\"card-heat muted\">2007-07-27</div></a></article>"
+        },
+        {
+          "name": "W.L.O. 世界恋愛機構",
+          "aliases": [
+            "W.L.O. 世界恋愛機構",
+            "W.L.O. 世界恋愛機構",
+            "W. L. O. Sekai Ren'ai Kikou",
+            "World Love Organization",
+            "WLO",
+            "未来のために、いま恋愛しよう。"
+          ],
+          "released": "2009-03-26",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v1181/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv/77/27877.jpg\" alt=\"W.L.O. 世界恋愛機構封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>W.L.O. 世界恋愛機構</h3><p>あかべぇそふとつぅ</p><div class=\"card-heat muted\">2009-03-26</div></a></article>"
+        },
+        {
+          "name": "ご奉仕★プリンセス",
+          "aliases": [
+            "ご奉仕★プリンセス",
+            "ご奉仕★プリンセス",
+            "Gohoushi ★ Princess"
+          ],
+          "released": "2007-02-23",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v1222/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>ご奉仕★プリンセス</span></div><h3>ご奉仕★プリンセス</h3><p>WendyBell</p><div class=\"card-heat muted\">2007-02-23</div></a></article>"
+        },
+        {
+          "name": "オレと彼女は主従なカンケイ",
+          "aliases": [
+            "オレと彼女は主従なカンケイ",
+            "オレと彼女は主従なカンケイ",
+            "Ore to Kanojo wa Shujuu na Kankei"
+          ],
+          "released": "2007-11-30",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v1253/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>オレと彼女は主従なカンケイ</span></div><h3>オレと彼女は主従なカンケイ</h3><p>アトリエかぐや Honky-Tonk Pumpkin</p><div class=\"card-heat muted\">2007-11-30</div></a></article>"
+        },
+        {
+          "name": "エンジェルメイド",
+          "aliases": [
+            "エンジェルメイド",
+            "エンジェルメイド",
+            "Angel Maid"
+          ],
+          "released": "2004-03-19",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v1887/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>エンジェルメイド</span></div><h3>エンジェルメイド</h3><p>キャリエール</p><div class=\"card-heat muted\">2004-03-19</div></a></article>"
+        },
+        {
+          "name": "キャリばん-キャリエールファンディスク-",
+          "aliases": [
+            "キャリばん-キャリエールファンディスク-",
+            "キャリばん-キャリエールファンディスク-",
+            "Carriban -Carriere Fandisc-"
+          ],
+          "released": "2004-08-27",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v2101/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv/29/18329.jpg\" alt=\"キャリばん-キャリエールファンディスク-封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>キャリばん-キャリエールファンディスク-</h3><p>キャリエール</p><div class=\"card-heat muted\">2004-08-27</div></a></article>"
+        },
+        {
+          "name": "恥辱病棟～堕ちた白衣の天使たち～",
+          "aliases": [
+            "恥辱病棟～堕ちた白衣の天使たち～",
+            "恥辱病棟～堕ちた白衣の天使たち～",
+            "Chijoku Byoutou ~Ochita Hakui no Tenshi-tachi~",
+            "Sexual Hospital - Falling angels in white"
+          ],
+          "released": "2004-08-18",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v2142/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>恥辱病棟～堕ちた白衣の天使たち～</span></div><h3>恥辱病棟～堕ちた白衣の天使たち～</h3><p>Black Lilith</p><div class=\"card-heat muted\">2004-08-18</div></a></article>"
+        },
+        {
+          "name": "マゾ×ラブ",
+          "aliases": [
+            "マゾ×ラブ",
+            "マゾ×ラブ",
+            "Mazo x Love",
+            "Mazolove",
+            "Masochist × Love"
+          ],
+          "released": "2009-08-28",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v2219/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>マゾ×ラブ</span></div><h3>マゾ×ラブ</h3><p>10mile</p><div class=\"card-heat muted\">2009-08-28</div></a></article>"
+        },
+        {
+          "name": "W.L.O. 世界恋愛機構 L.L.S. -LOVE LOVE SHOW-",
+          "aliases": [
+            "W.L.O. 世界恋愛機構 L.L.S. -LOVE LOVE SHOW-",
+            "W.L.O. 世界恋愛機構 L.L.S. -LOVE LOVE SHOW-",
+            "W. L. O. Sekai Ren'ai Kikou L.L.S. -Love Love Show-",
+            "World Love Organization LLS",
+            "WLO LLS"
+          ],
+          "released": "2009-09-24",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v2367/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv/76/27876.jpg\" alt=\"W.L.O. 世界恋愛機構 L.L.S. -LOVE LOVE SHOW-封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>W.L.O. 世界恋愛機構 L.L.S. -LOVE LOVE SHOW-</h3><p>あかべぇそふとつぅ</p><div class=\"card-heat muted\">2009-09-24</div></a></article>"
+        },
+        {
+          "name": "新妻イカせてミルク！ 団地妻、昼下がりの下半身事情",
+          "aliases": [
+            "新妻イカせてミルク！ 団地妻、昼下がりの下半身事情",
+            "新妻イカせてミルク！ 団地妻、昼下がりの下半身事情",
+            "Niizuma Ikasete Milk! Danchizuma, Hirusagari no Kahanshin Jijou"
+          ],
+          "released": "2008-04-25",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v3216/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>新妻イカせてミルク！ 団地妻、昼下がりの下半身事情</span></div><h3>新妻イカせてミルク！ 団地妻、昼下がりの下半身事情</h3><p>アトリエかぐや Honky-Tonk Pumpkin</p><div class=\"card-heat muted\">2008-04-25</div></a></article>"
+        },
+        {
+          "name": "姉です。（Death）～姉死覚悟の「弟しぼり」な夏が来る！～",
+          "aliases": [
+            "姉です。（Death）～姉死覚悟の「弟しぼり」な夏が来る！～",
+            "姉です。（Death）～姉死覚悟の「弟しぼり」な夏が来る！～",
+            "AneDeath. ~Ane-jini Kakugo no \"Otouto-shibori\" na Natsu ga Kuru!~",
+            "Anedesu -Anejini Kakugo no Otouto Shibori na Natsu ga Kuru!-"
+          ],
+          "released": "2010-02-26",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v3294/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>姉です。（Death）～姉死覚悟の「弟しぼり」な夏が来る！～</span></div><h3>姉です。（Death）～姉死覚悟の「弟しぼり」な夏が来る！～</h3><p>アトリエかぐや Honky-Tonk Pumpkin</p><div class=\"card-heat muted\">2010-02-26</div></a></article>"
+        },
+        {
+          "name": "おしえて Re:メイド",
+          "aliases": [
+            "おしえて Re:メイド",
+            "おしえて Re:メイド",
+            "Oshiete Re: Maid"
+          ],
+          "released": "2006-07-28",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v3543/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>おしえて Re:メイド</span></div><h3>おしえて Re:メイド</h3><p>ユニゾンシフト・アクセント</p><div class=\"card-heat muted\">2006-07-28</div></a></article>"
+        },
+        {
+          "name": "あねぼく～お姉ちゃんは美人3姉妹～",
+          "aliases": [
+            "あねぼく～お姉ちゃんは美人3姉妹～",
+            "あねぼく～お姉ちゃんは美人3姉妹～",
+            "Aneboku ~Onee-chan wa Bijin 3 Shimai~"
+          ],
+          "released": "2010-04-23",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v3887/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>あねぼく～お姉ちゃんは美人3姉妹～</span></div><h3>あねぼく～お姉ちゃんは美人3姉妹～</h3><p>TinkerBell</p><div class=\"card-heat muted\">2010-04-23</div></a></article>"
+        },
+        {
+          "name": "霧谷伯爵家の六姉妹",
+          "aliases": [
+            "霧谷伯爵家の六姉妹",
+            "霧谷伯爵家の六姉妹",
+            "Kiriya Hakushakuke no Roku Shimai",
+            "雾谷伯爵家的六姐妹"
+          ],
+          "released": "2010-05-28",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v4040/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>霧谷伯爵家の六姉妹</span></div><h3>霧谷伯爵家の六姉妹</h3><p>アトリエかぐや TEAM HEARTBEAT</p><div class=\"card-heat muted\">2010-05-28</div></a></article>"
+        },
+        {
+          "name": "なりもの♪",
+          "aliases": [
+            "なりもの♪",
+            "なりもの♪",
+            "Narimono♪"
+          ],
+          "released": "2007-03-02",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v5238/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>なりもの♪</span></div><h3>なりもの♪</h3><p>Skunk Works</p><div class=\"card-heat muted\">2007-03-02</div></a></article>"
+        },
+        {
+          "name": "代々木人妻専門学院～乳妻たちのアンニュイ～",
+          "aliases": [
+            "代々木人妻専門学院～乳妻たちのアンニュイ～",
+            "代々木人妻専門学院～乳妻たちのアンニュイ～",
+            "Yoyogi Hitozuma Senmon Gakuin ~Nyuuzuma-tachi no Ennui~",
+            "Yoyogi Hitoduma Senmon Gakuin"
+          ],
+          "released": "2006-06-30",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v5585/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>代々木人妻専門学院～乳妻たちのアンニュイ～</span></div><h3>代々木人妻専門学院～乳妻たちのアンニュイ～</h3><p>LUCHA!</p><div class=\"card-heat muted\">2006-06-30</div></a></article>"
+        },
+        {
+          "name": "魔女っこ de’GO♪GO♪～ポールとミラ☆クル大作戦～",
+          "aliases": [
+            "魔女っこ de’GO♪GO♪～ポールとミラ☆クル大作戦～",
+            "魔女っこ de’GO♪GO♪～ポールとミラ☆クル大作戦～",
+            "Majokko de' Go♪Go♪ ~Pole to Mira☆cle Daisakusen~"
+          ],
+          "released": "2004-03-19",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v6080/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>魔女っこ de’GO♪GO♪～ポールとミラ☆クル大作戦～</span></div><h3>魔女っこ de’GO♪GO♪～ポールとミラ☆クル大作戦～</h3><p>LUCHA!</p><div class=\"card-heat muted\">2004-03-19</div></a></article>"
+        },
+        {
+          "name": "Milkyway3",
+          "aliases": [
+            "Milkyway3",
+            "Milkyway3",
+            "Milkyway 3"
+          ],
+          "released": "2005-04-28",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v6193/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/30/73730.jpg\" data-cover-full=\"https://t.vndb.org/cv/30/73730.jpg\" alt=\"Milkyway3封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>Milkyway3</h3><p>Witch</p><div class=\"card-heat muted\">2005-04-28</div></a></article>"
+        },
+        {
+          "name": "さくら色カルテット",
+          "aliases": [
+            "さくら色カルテット",
+            "さくら色カルテット",
+            "Sakurairo Quartet"
+          ],
+          "released": "2011-04-08",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v6393/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/06/94306.jpg\" data-cover-full=\"https://t.vndb.org/cv/06/94306.jpg\" alt=\"さくら色カルテット封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>さくら色カルテット</h3><p>アトリエかぐや BerkshireYorkshire</p><div class=\"card-heat muted\">2011-04-08</div></a></article>"
+        },
+        {
+          "name": "へんし～ん!!! ～パンツになってクンクンペロペロ～",
+          "aliases": [
+            "へんし～ん!!! ～パンツになってクンクンペロペロ～",
+            "へんし～ん!!! ～パンツになってクンクンペロペロ～",
+            "Henshi~n!!! ~Pantsu ni Natte Kunkun Peropero~",
+            "Henshin 3"
+          ],
+          "released": "2011-05-20",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v6472/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>へんし～ん!!! ～パンツになってクンクンペロペロ～</span></div><h3>へんし～ん!!! ～パンツになってクンクンペロペロ～</h3><p>May-Be SOFT</p><div class=\"card-heat muted\">2011-05-20</div></a></article>"
+        },
+        {
+          "name": "はらハラしちゃう! ～親にはナイショの子作り性活～ －朝霧姉妹編－",
+          "aliases": [
+            "はらハラしちゃう! ～親にはナイショの子作り性活～ －朝霧姉妹編－",
+            "はらハラしちゃう! ～親にはナイショの子作り性活～ －朝霧姉妹編－",
+            "Harahara Shichau! ~Oya ni wa Naisho no Kozukuri Seikatsu~ -Asagiri Shimai Hen-"
+          ],
+          "released": "2011-06-24",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v7092/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>はらハラしちゃう! ～親にはナイショの子作り性活～ －朝霧姉妹編－</span></div><h3>はらハラしちゃう! ～親にはナイショの子作り性活～ －朝霧姉妹編－</h3><p>アトリエかぐや</p><div class=\"card-heat muted\">2011-06-24</div></a></article>"
+        },
+        {
+          "name": "聖マリエス学園～イカせて！お姉さま～",
+          "aliases": [
+            "聖マリエス学園～イカせて！お姉さま～",
+            "聖マリエス学園～イカせて！お姉さま～",
+            "Sei Maries Gakuen ~Ikasete! Onee-sama~",
+            "St. Marieth School - Let me cum! My sweetheart"
+          ],
+          "released": "2004-07-23",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v7194/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>聖マリエス学園～イカせて！お姉さま～</span></div><h3>聖マリエス学園～イカせて！お姉さま～</h3><p>リリス</p><div class=\"card-heat muted\">2004-07-23</div></a></article>"
+        },
+        {
+          "name": "禁断の病棟 ~特殊精神科医 遊佐惣介の診察記録~",
+          "aliases": [
+            "禁断の病棟 ~特殊精神科医 遊佐惣介の診察記録~",
+            "禁断の病棟 ~特殊精神科医 遊佐惣介の診察記録~",
+            "Kindan no Byoutou ~Tokushu Seishinkai Yusa Sousuke no Shinsatsu Kiroku~",
+            "The Forbidden Hospital Ward"
+          ],
+          "released": "2011-07-29",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v7264/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>禁断の病棟 ~特殊精神科医 遊佐惣介の診察記録~</span></div><h3>禁断の病棟 ~特殊精神科医 遊佐惣介の診察記録~</h3><p>アトリエかぐや TEAM HEARTBEAT</p><div class=\"card-heat muted\">2011-07-29</div></a></article>"
+        },
+        {
+          "name": "ロウきゅーぶ！",
+          "aliases": [
+            "ロウきゅーぶ！",
+            "ロウきゅーぶ！",
+            "Rou-Kyuu-Bu!",
+            "Ro-Kyu-Bu!"
+          ],
+          "released": "2011-10-27",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v7603/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/26/97426.jpg\" data-cover-full=\"https://t.vndb.org/cv/26/97426.jpg\" alt=\"ロウきゅーぶ！封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>ロウきゅーぶ！</h3><p>株式会社アスキー・メディアワークス / 株式会社ブリッジ</p><div class=\"card-heat muted\">2011-10-27</div></a></article>"
+        },
+        {
+          "name": "だらしなくてエッチなお姉さんが転がり込んできた。どうする!?",
+          "aliases": [
+            "だらしなくてエッチなお姉さんが転がり込んできた。どうする!?",
+            "だらしなくてエッチなお姉さんが転がり込んできた。どうする!?",
+            "Darashinakute Ecchi na Onee-san ga Koragarikondekita. Dou Suru!?",
+            "My Alluring Elder Sister Came to Stay! What Should I Do!?"
+          ],
+          "released": "2011-08-05",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v7622/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>だらしなくてエッチなお姉さんが転がり込んできた。どうする!?</span></div><h3>だらしなくてエッチなお姉さんが転がり込んできた。どうする!?</h3><p>劇團近未来</p><div class=\"card-heat muted\">2011-08-05</div></a></article>"
+        },
+        {
+          "name": "姉はカノジョで専属メイド",
+          "aliases": [
+            "姉はカノジョで専属メイド",
+            "姉はカノジョで専属メイド",
+            "Ane wa Kanojo de Senzoku Maid",
+            "Ane ha Kanojyo de Senzoku Meido"
+          ],
+          "released": "2011-09-30",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v7656/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>姉はカノジョで専属メイド</span></div><h3>姉はカノジョで専属メイド</h3><p>アトリエかぐや</p><div class=\"card-heat muted\">2011-09-30</div></a></article>"
+        },
+        {
+          "name": "おしかけ魔法少女ユイ",
+          "aliases": [
+            "おしかけ魔法少女ユイ",
+            "おしかけ魔法少女ユイ",
+            "Oshikake Mahou Shoujo Yui",
+            "Oshikake Mahoushoujo Yui (Such a pushy magical girl Yui)"
+          ],
+          "released": "2004-06-19",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v7962/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>おしかけ魔法少女ユイ</span></div><h3>おしかけ魔法少女ユイ</h3><p>リリス</p><div class=\"card-heat muted\">2004-06-19</div></a></article>"
+        },
+        {
+          "name": "えれくと！",
+          "aliases": [
+            "えれくと！",
+            "えれくと！",
+            "Erect!",
+            "Erekuto!"
+          ],
+          "released": "2012-06-29",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v10047/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>えれくと！</span></div><h3>えれくと！</h3><p>アストロノーツ・スピカ</p><div class=\"card-heat muted\">2012-06-29</div></a></article>"
+        },
+        {
+          "name": "おしえてKissMe",
+          "aliases": [
+            "おしえてKissMe",
+            "おしえてKissMe",
+            "Oshiete KissMe"
+          ],
+          "released": "2005-09-30",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v10230/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>おしえてKissMe</span></div><h3>おしえてKissMe</h3><p>わんこソフト</p><div class=\"card-heat muted\">2005-09-30</div></a></article>"
+        },
+        {
+          "name": "姉母娘でイクッ！ ～大好きな姉を奪ったくせに浮気を続けるクズ旦那から姉の娘と共にネトリ返す～",
+          "aliases": [
+            "姉母娘でイクッ！ ～大好きな姉を奪ったくせに浮気を続けるクズ旦那から姉の娘と共にネトリ返す～",
+            "姉母娘でイクッ！ ～大好きな姉を奪ったくせに浮気を続けるクズ旦那から姉の娘と共にネトリ返す～",
+            "Ane Oyako de Iku! ~Daisuki na Ane o Ubatta Kuse ni Uwaki o Tsuzukeru Kuzu Danna Kara Ane no Musume to Tomo ni Netorikaesu~"
+          ],
+          "released": "2012-10-26",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v11224/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>姉母娘でイクッ！ ～大好きな姉を奪ったくせに浮気を続けるクズ旦那から姉の娘と共にネトリ返す～</span></div><h3>姉母娘でイクッ！ ～大好きな姉を奪ったくせに浮気を続けるクズ旦那から姉の娘と共にネトリ返す～</h3><p>アトリエかぐや</p><div class=\"card-heat muted\">2012-10-26</div></a></article>"
+        },
+        {
+          "name": "ちぇ～んじ!　～あの娘になってクンクンペロペロ～",
+          "aliases": [
+            "ちぇ～んじ!　～あの娘になってクンクンペロペロ～",
+            "ちぇ～んじ!　～あの娘になってクンクンペロペロ～",
+            "Cha~nge! ~Ano Ko ni Natte Kunkun Peropero~",
+            "Change!"
+          ],
+          "released": "2014-07-25",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v14934/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>ちぇ～んじ!　～あの娘になってクンクンペロペロ～</span></div><h3>ちぇ～んじ!　～あの娘になってクンクンペロペロ～</h3><p>May-Be SOFT</p><div class=\"card-heat muted\">2014-07-25</div></a></article>"
+        },
+        {
+          "name": "空のつくりかた -under the same sky，over the rainbow-",
+          "aliases": [
+            "空のつくりかた -under the same sky，over the rainbow-",
+            "空のつくりかた -under the same sky，over the rainbow-",
+            "Sora no Tsukurikata -Under the Same Sky, Over the Rainbow-",
+            "天空的作法",
+            "Soratsuku"
+          ],
+          "released": "2016-10-28",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v18888/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/70/92970.jpg\" data-cover-full=\"https://t.vndb.org/cv/70/92970.jpg\" alt=\"空のつくりかた -under the same sky，over the rainbow-封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>空のつくりかた -under the same sky，over the rainbow-</h3><p>COSMIC CUTE</p><div class=\"card-heat muted\">2016-10-28</div></a></article>"
+        },
+        {
+          "name": "アイシング-love coating-",
+          "aliases": [
+            "アイシング-love coating-",
+            "アイシング-love coating-",
+            "Icing -love coating-"
+          ],
+          "released": "2020-03-27",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v27367/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/59/84659.jpg\" data-cover-full=\"https://t.vndb.org/cv/59/84659.jpg\" alt=\"アイシング-love coating-封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>アイシング-love coating-</h3><p>はちみつそふと</p><div class=\"card-heat muted\">2020-03-27</div></a></article>"
+        },
+        {
+          "name": "おね→ショタ←おね",
+          "aliases": [
+            "おね→ショタ←おね",
+            "おね→ショタ←おね",
+            "One → Shota ← One",
+            "Oneshota"
+          ],
+          "released": "2020-11-27",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v28877/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>おね→ショタ←おね</span></div><h3>おね→ショタ←おね</h3><p>あざらしそふと+1</p><div class=\"card-heat muted\">2020-11-27</div></a></article>"
+        },
+        {
+          "name": "吹弹！丰盈！波涛汹涌！异世界魅魔学园！",
+          "aliases": [
+            "もっと！孕ませ！炎のおっぱい異世界超エロ♥サキュバス学園！",
+            "吹弹！丰盈！波涛汹涌！异世界魅魔学园！",
+            "もっと！孕ませ！炎のおっぱい異世界超エロ♥サキュバス学園！",
+            "Motto! Haramase! Honoo no Oppai Isekai Chou Ero ♥ Succubus Gakuen!",
+            "OPPAI Succubus Academy Sucky and Busty, Demonic and Lusty!",
+            "EroSucc",
+            "hsuc",
+            "EroSuccubus",
+            "More! Knock Me Up! A Super Ero-Succubus Academy in the Parallel World of Fiery Boobs!"
+          ],
+          "released": "2021-04-30",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v29909/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>吹弹！丰盈！波涛汹涌！异世界魅魔学园！</span></div><h3>吹弹！丰盈！波涛汹涌！异世界魅魔学园！</h3><p>みるくふぁくとりー</p><div class=\"card-heat muted\">2021-04-30</div></a></article>"
+        },
+        {
+          "name": "欢迎来到龙娘咖啡厅",
+          "aliases": [
+            "ドラ・コンカフェ",
+            "欢迎来到龙娘咖啡厅",
+            "ドラ・コンカフェ",
+            "Dora-Con Cafe",
+            "Welcome to Café Lumière! ～A Dragon Girl Concept Café ～",
+            "Dragon Girls x Concept Cafe"
+          ],
+          "released": "2024-11-29",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v51010/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>欢迎来到龙娘咖啡厅</span></div><h3>欢迎来到龙娘咖啡厅</h3><p>Cuteuphoria</p><div class=\"card-heat muted\">2024-11-29</div></a></article>"
+        },
+        {
+          "name": "ドラ・コンカフェ2",
+          "aliases": [
+            "ドラ・コンカフェ2",
+            "ドラ・コンカフェ2",
+            "Dora-Con Cafe 2"
+          ],
+          "released": "2026-02-27",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v58020/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>ドラ・コンカフェ2</span></div><h3>ドラ・コンカフェ2</h3><p>Cuteuphoria</p><div class=\"card-heat muted\">2026-02-27</div></a></article>"
+        },
+        {
+          "name": "今日の2-X",
+          "aliases": [
+            "今日の2-X",
+            "今日の2-X",
+            "Kyou no Nippeke"
+          ],
+          "released": "2026-11-27",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v67381/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>今日の2-X</span></div><h3>今日の2-X</h3><p>Waffle</p><div class=\"card-heat muted\">2026-11-27</div></a></article>"
+        },
+        {
+          "name": "もっと 姉、ちゃんとしようよっ！",
+          "aliases": [
+            "もっと 姉、ちゃんとしようよっ！",
+            "もっと 姉、ちゃんとしようよっ！",
+            "Motto Nee, Chanto Shiyou yo!",
+            "Motto Nee-chan to Shiyou yo!",
+            "もっと姉しよ",
+            "Motto Nee Shiyo"
+          ],
+          "released": "2010-07-30",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v3272/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>もっと 姉、ちゃんとしようよっ！</span></div><h3>もっと 姉、ちゃんとしようよっ！</h3><p>きゃんでぃそふと</p><div class=\"card-heat muted\">2010-07-30</div></a></article>"
+        },
+        {
+          "name": "もっと 姉、ちゃんとしようよっ！ アフターストーリー",
+          "aliases": [
+            "もっと 姉、ちゃんとしようよっ！ アフターストーリー",
+            "もっと 姉、ちゃんとしようよっ！ アフターストーリー",
+            "Motto Nee, Chanto Shiyou yo! Afterstory"
+          ],
+          "released": "2011-06-24",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v7332/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv/23/28423.jpg\" alt=\"もっと 姉、ちゃんとしようよっ！ アフターストーリー封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>もっと 姉、ちゃんとしようよっ！ アフターストーリー</h3><p>きゃんでぃそふと</p><div class=\"card-heat muted\">2011-06-24</div></a></article>"
+        },
+        {
+          "name": "ガンナイトガール",
+          "aliases": [
+            "ガンナイトガール",
+            "ガンナイトガール",
+            "Gun Knight Girl"
+          ],
+          "released": "2012-12-21",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v10614/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/44/89244.jpg\" data-cover-full=\"https://t.vndb.org/cv/44/89244.jpg\" alt=\"ガンナイトガール封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>ガンナイトガール</h3><p>きゃんでぃそふと</p><div class=\"card-heat muted\">2012-12-21</div></a></article>"
+        },
+        {
+          "name": "七色轮回",
+          "aliases": [
+            "なないろリンカネーション",
+            "七色轮回",
+            "なないろリンカネーション",
+            "Nanairo Reincarnation",
+            "ななリン",
+            "nanarin"
+          ],
+          "released": "2014-09-26",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v15473/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/43/76843.jpg\" data-cover-full=\"https://t.vndb.org/cv/43/76843.jpg\" alt=\"七色轮回封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>七色轮回</h3><p>シルキーズプラス WASABI / シルキーズプラスアルファ</p><div class=\"card-heat muted\">2014-09-26</div></a></article>"
+        },
+        {
+          "name": "あけいろ怪奇譚",
+          "aliases": [
+            "あけいろ怪奇譚",
+            "あけいろ怪奇譚",
+            "Akeiro Kaikitan",
+            "绯色怪奇谭"
+          ],
+          "released": "2016-03-25",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v18495/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>あけいろ怪奇譚</span></div><h3>あけいろ怪奇譚</h3><p>シルキーズプラス WASABI</p><div class=\"card-heat muted\">2016-03-25</div></a></article>"
+        },
+        {
+          "name": "久我山栞的死法手账",
+          "aliases": [
+            "久我山栞の死様手帖",
+            "久我山栞的死法手账",
+            "久我山栞の死様手帖",
+            "Kugayama Shiori no Shinizama Techou",
+            "Kugayama Shiori's Death Diary"
+          ],
+          "released": "2026-04-29",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v56343/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/34/123934.jpg\" data-cover-full=\"https://t.vndb.org/cv/34/123934.jpg\" alt=\"久我山栞的死法手账封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>久我山栞的死法手账</h3><p>Laplacian</p><div class=\"card-heat muted\">2026-04-29</div></a></article>"
         }
       ]
     },
@@ -31621,6 +32427,15 @@
           "html": "<a class=\"directory-person\" href=\"@@ROOT@@staff/s1131/\"><span class=\"directory-avatar\" aria-hidden=\"true\">風</span><div><h3>風間 ぼなんざ</h3><p>72 部剧本参与作品</p><small>时钟机关的Ley-line -黄昏时的境界线- / 时钟机关的Ley-line -残影之夜将明时-</small></div><span class=\"person-arrow\" aria-hidden=\"true\">↗</span></a>"
         },
         {
+          "name": "七央 結日",
+          "aliases": [
+            "Nanao Yuhi",
+            "七央 結日"
+          ],
+          "count": 70,
+          "html": "<a class=\"directory-person\" href=\"@@ROOT@@staff/s1855/\"><span class=\"directory-avatar\" aria-hidden=\"true\">七</span><div><h3>七央 結日</h3><p>70 部剧本参与作品</p><small>天使☆嚣嚣 RE-BOOT! / ももいろクローゼット</small></div><span class=\"person-arrow\" aria-hidden=\"true\">↗</span></a>"
+        },
+        {
           "name": "おんぼろ月",
           "aliases": [
             "Onborozuki",
@@ -31646,6 +32461,15 @@
           ],
           "count": 43,
           "html": "<a class=\"directory-person\" href=\"@@ROOT@@staff/s1805/\"><span class=\"directory-avatar\" aria-hidden=\"true\">高</span><div><h3>高嶋 栄二</h3><p>43 部剧本参与作品</p><small>仰望夜空的星辰 / 尚有佳蜜伴恋心</small></div><span class=\"person-arrow\" aria-hidden=\"true\">↗</span></a>"
+        },
+        {
+          "name": "J・さいろー",
+          "aliases": [
+            "J-Sairo",
+            "J・さいろー"
+          ],
+          "count": 36,
+          "html": "<a class=\"directory-person\" href=\"@@ROOT@@staff/s787/\"><span class=\"directory-avatar\" aria-hidden=\"true\">J</span><div><h3>J・さいろー</h3><p>36 部剧本参与作品</p><small>Riddle Joker / DRACU-RIOT!</small></div><span class=\"person-arrow\" aria-hidden=\"true\">↗</span></a>"
         },
         {
           "name": "籐太",
@@ -31727,6 +32551,15 @@
           ],
           "count": 24,
           "html": "<a class=\"directory-person\" href=\"@@ROOT@@staff/s4175/\"><span class=\"directory-avatar\" aria-hidden=\"true\">ハ</span><div><h3>ハサマ</h3><p>24 部剧本参与作品</p><small>Summer Pockets / 猫娘乐园 Vol.4</small></div><span class=\"person-arrow\" aria-hidden=\"true\">↗</span></a>"
+        },
+        {
+          "name": "かずき ふみ",
+          "aliases": [
+            "Kazuki Fumi",
+            "かずき ふみ"
+          ],
+          "count": 24,
+          "html": "<a class=\"directory-person\" href=\"@@ROOT@@staff/s3959/\"><span class=\"directory-avatar\" aria-hidden=\"true\">か</span><div><h3>かずき ふみ</h3><p>24 部剧本参与作品</p><small>9-nine-九次九日九重色 / 9-nine-天色天歌天籁音</small></div><span class=\"person-arrow\" aria-hidden=\"true\">↗</span></a>"
         },
         {
           "name": "魁",
@@ -33194,6 +34027,15 @@
           ],
           "count": 2,
           "html": "<a class=\"directory-person\" href=\"@@ROOT@@staff/s1587/\"><span class=\"directory-avatar\" aria-hidden=\"true\">ふ</span><div><h3>ふゆの 春秋</h3><p>2 部原画参与作品</p><small>こくはく / Goes!</small></div><span class=\"person-arrow\" aria-hidden=\"true\">↗</span></a>"
+        },
+        {
+          "name": "ほかん",
+          "aliases": [
+            "Hokan",
+            "ほかん"
+          ],
+          "count": 2,
+          "html": "<a class=\"directory-person\" href=\"@@ROOT@@staff/s30868/\"><span class=\"directory-avatar\" aria-hidden=\"true\">ほ</span><div><h3>ほかん</h3><p>2 部原画参与作品</p><small>天使☆嚣嚣 RE-BOOT! / 聚光灯下的青柠恋曲</small></div><span class=\"person-arrow\" aria-hidden=\"true\">↗</span></a>"
         },
         {
           "name": "煎路",
