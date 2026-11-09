@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-09T07:22:30.544Z",
+  "updatedAt": "2026-11-09T08:26:10.868Z",
   "entries": [
     {
       "id": "v69315",
@@ -1077,7 +1077,7 @@
         "Pia♥Carrot e Youkoso!! 4",
         "Welcome to Pia Carrot 4"
       ],
-      "image": "https://t.vndb.org/cv/36/94436.jpg",
+      "image": "https://t.vndb.org/cv/32/94432.jpg",
       "subtitle": "カクテル・ソフト",
       "path": "works/v2936/"
     },
@@ -24770,15 +24770,15 @@
     {
       "id": "v16342",
       "type": "work",
-      "name": "11月のアルカディア",
+      "name": "11月的理想乡",
       "aliases": [
         "11月のアルカディア",
+        "11月的理想乡",
         "11月のアルカディア",
         "11gatsu no Arcadia",
         "11月的Arcadia",
         "Juuichigatsu no Arcadia",
-        "Arcadia of November",
-        "11月的理想乡"
+        "Arcadia of November"
       ],
       "image": "https://t.vndb.org/cv/23/27123.jpg",
       "subtitle": "LevoL",
@@ -36023,8 +36023,8 @@
         "メサイア",
         "Messiah"
       ],
-      "image": "https://t.vndb.org/cv/88/92588.jpg",
-      "subtitle": "CORE",
+      "image": null,
+      "subtitle": "CORE-DUSK",
       "path": "works/v1612/"
     },
     {
@@ -36036,8 +36036,8 @@
         "メサイア～パラノイア∞パラドックス",
         "MESSIAH ~ Paranoia ∞ Paradox"
       ],
-      "image": "https://t.vndb.org/cv/57/4557.jpg",
-      "subtitle": "CORE",
+      "image": "https://t.vndb.org/cv/01/152501.jpg",
+      "subtitle": "CORE-DUSK",
       "path": "works/v1613/"
     },
     {
@@ -38336,10 +38336,10 @@
     {
       "id": "v10700",
       "type": "work",
-      "name": "亲吻那片花瓣 米迦勒的少女们",
+      "name": "亲吻那片花瓣：米迦勒的少女们",
       "aliases": [
         "その花びらにくちづけを　ミカエルの乙女たち",
-        "亲吻那片花瓣 米迦勒的少女们",
+        "亲吻那片花瓣：米迦勒的少女们",
         "その花びらにくちづけを　ミカエルの乙女たち",
         "Sono Hanabira ni Kuchizuke o: Michael no Otome-tachi",
         "A Kiss For The Petals - Maidens of Michael",

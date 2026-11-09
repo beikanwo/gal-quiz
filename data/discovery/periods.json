@@ -651,7 +651,7 @@
           "start": "2026-10-31T16:00:00.000Z",
           "end": "2026-11-05T16:00:00.000Z",
           "minLikes": 350,
-          "collectedAt": "2026-11-08T07:53:08.039Z",
+          "collectedAt": "2026-11-09T08:26:10.862Z",
           "lastSuccessAt": null,
           "error": "B站有 1 条视频详情未通过核对。",
           "coverage": {
@@ -679,7 +679,6 @@
               "恋爱借贷",
               "恋爱我就借走了",
               "恋爱喜剧突转",
-              "二人终末论",
               "星空列车与白的旅行",
               "星之终途",
               "花鸟水月",
@@ -696,13 +695,13 @@
               "天使☆騒々 RE-BOOT!"
             ],
             "maxPagesPerQuery": 3,
-            "candidateCount": 760,
-            "qualifiedCount": 121
+            "candidateCount": 753,
+            "qualifiedCount": 127
           },
           "ranking": [
             {
               "workId": "v69315",
-              "maxLikes": 3458,
+              "maxLikes": 3464,
               "count": 1,
               "evidence": [
                 {
@@ -724,7 +723,7 @@
                   ],
                   "url": "https://www.bilibili.com/video/BV1vP4V6wEX7",
                   "publishedAt": "2026-11-03T11:57:45.000Z",
-                  "likes": 3458,
+                  "likes": 3464,
                   "kind": "video",
                   "durationSeconds": 310,
                   "author": {
@@ -736,7 +735,7 @@
                     "favorites": 3181,
                     "comments": 41,
                     "shares": 7,
-                    "views": 128822,
+                    "views": 128877,
                     "coins": 1947
                   },
                   "metricAvailability": {
@@ -746,7 +745,7 @@
                     "views": "available",
                     "coins": "available"
                   },
-                  "collectedAt": "2026-11-08T07:35:31.011Z",
+                  "collectedAt": "2026-11-09T08:08:55.764Z",
                   "keyword": "Rain98",
                   "workId": "v69315",
                   "matchMethod": "explicit-title",
@@ -758,7 +757,7 @@
             },
             {
               "workId": "manual-tadaima-404",
-              "maxLikes": 2415,
+              "maxLikes": 2602,
               "count": 1,
               "evidence": [
                 {
@@ -779,7 +778,7 @@
                   ],
                   "url": "https://www.bilibili.com/video/BV1BZ4A65ETM",
                   "publishedAt": "2026-11-02T15:46:23.000Z",
-                  "likes": 2415,
+                  "likes": 2602,
                   "kind": "video",
                   "durationSeconds": 5148,
                   "author": {
@@ -788,11 +787,11 @@
                     "url": "https://space.bilibili.com/533850221"
                   },
                   "metrics": {
-                    "favorites": 2922,
-                    "comments": 12,
-                    "shares": 40,
-                    "views": 27603,
-                    "coins": 66
+                    "favorites": 3086,
+                    "comments": 13,
+                    "shares": 43,
+                    "views": 30231,
+                    "coins": 76
                   },
                   "metricAvailability": {
                     "favorites": "available",
@@ -801,7 +800,7 @@
                     "views": "available",
                     "coins": "available"
                   },
-                  "collectedAt": "2026-11-08T07:36:39.456Z",
+                  "collectedAt": "2026-11-09T08:10:02.729Z",
                   "keyword": "我回来了，404号室",
                   "workId": "manual-tadaima-404",
                   "matchMethod": "reviewed"
@@ -810,7 +809,7 @@
             },
             {
               "workId": "v69304",
-              "maxLikes": 2306,
+              "maxLikes": 2412,
               "count": 1,
               "evidence": [
                 {
@@ -831,7 +830,7 @@
                   ],
                   "url": "https://www.bilibili.com/video/BV1jJxQ6rESz",
                   "publishedAt": "2026-11-04T10:15:00.000Z",
-                  "likes": 2306,
+                  "likes": 2412,
                   "kind": "video",
                   "durationSeconds": 603,
                   "author": {
@@ -840,11 +839,11 @@
                     "url": "https://space.bilibili.com/785025"
                   },
                   "metrics": {
-                    "favorites": 924,
+                    "favorites": 975,
                     "comments": 61,
                     "shares": 16,
-                    "views": 29093,
-                    "coins": 210
+                    "views": 31284,
+                    "coins": 221
                   },
                   "metricAvailability": {
                     "favorites": "available",
@@ -853,7 +852,7 @@
                     "views": "available",
                     "coins": "available"
                   },
-                  "collectedAt": "2026-11-08T07:36:38.384Z",
+                  "collectedAt": "2026-11-09T08:10:01.656Z",
                   "keyword": "I Can Smell You from Here",
                   "workId": "v69304",
                   "matchMethod": "explicit-title",
@@ -865,7 +864,7 @@
             },
             {
               "workId": "v62906",
-              "maxLikes": 1688,
+              "maxLikes": 1755,
               "count": 1,
               "evidence": [
                 {
@@ -883,7 +882,7 @@
                   ],
                   "url": "https://www.bilibili.com/video/BV1FfxH6YEDm",
                   "publishedAt": "2026-11-01T02:00:00.000Z",
-                  "likes": 1688,
+                  "likes": 1755,
                   "kind": "video",
                   "durationSeconds": 129,
                   "author": {
@@ -892,11 +891,11 @@
                     "url": "https://space.bilibili.com/3690990835599915"
                   },
                   "metrics": {
-                    "favorites": 1832,
-                    "comments": 120,
-                    "shares": 260,
-                    "views": 29224,
-                    "coins": 119
+                    "favorites": 1919,
+                    "comments": 122,
+                    "shares": 265,
+                    "views": 30150,
+                    "coins": 128
                   },
                   "metricAvailability": {
                     "favorites": "available",
@@ -905,7 +904,7 @@
                     "views": "available",
                     "coins": "available"
                   },
-                  "collectedAt": "2026-11-08T07:33:34.669Z",
+                  "collectedAt": "2026-11-09T08:07:00.631Z",
                   "keyword": "花鸟水月",
                   "workId": "v62906",
                   "matchMethod": "explicit-title",
@@ -917,7 +916,7 @@
             },
             {
               "workId": "v69452",
-              "maxLikes": 1602,
+              "maxLikes": 1657,
               "count": 1,
               "evidence": [
                 {
@@ -932,7 +931,7 @@
                   ],
                   "url": "https://www.bilibili.com/video/BV1rjx96HEnB",
                   "publishedAt": "2026-11-04T12:51:48.000Z",
-                  "likes": 1602,
+                  "likes": 1657,
                   "kind": "video",
                   "durationSeconds": 39,
                   "author": {
@@ -941,11 +940,11 @@
                     "url": "https://space.bilibili.com/32589074"
                   },
                   "metrics": {
-                    "favorites": 288,
-                    "comments": 192,
-                    "shares": 250,
-                    "views": 15332,
-                    "coins": 258
+                    "favorites": 297,
+                    "comments": 193,
+                    "shares": 258,
+                    "views": 16049,
+                    "coins": 267
                   },
                   "metricAvailability": {
                     "favorites": "available",
@@ -954,7 +953,7 @@
                     "views": "available",
                     "coins": "available"
                   },
-                  "collectedAt": "2026-11-08T07:36:45.033Z",
+                  "collectedAt": "2026-11-09T08:10:08.338Z",
                   "keyword": "视觉小说",
                   "workId": "v69452",
                   "matchMethod": "explicit-title",
@@ -968,7 +967,7 @@
             },
             {
               "workId": "v69936",
-              "maxLikes": 878,
+              "maxLikes": 881,
               "count": 1,
               "evidence": [
                 {
@@ -987,7 +986,7 @@
                   ],
                   "url": "https://www.bilibili.com/video/BV11g486wEeQ",
                   "publishedAt": "2026-11-05T08:41:42.000Z",
-                  "likes": 878,
+                  "likes": 881,
                   "kind": "video",
                   "durationSeconds": 64,
                   "author": {
@@ -996,10 +995,10 @@
                     "url": "https://space.bilibili.com/3747574286649626"
                   },
                   "metrics": {
-                    "favorites": 1222,
+                    "favorites": 1225,
                     "comments": 55,
-                    "shares": 45,
-                    "views": 14274,
+                    "shares": 46,
+                    "views": 14310,
                     "coins": 22
                   },
                   "metricAvailability": {
@@ -1009,7 +1008,7 @@
                     "views": "available",
                     "coins": "available"
                   },
-                  "collectedAt": "2026-11-08T07:33:46.043Z",
+                  "collectedAt": "2026-11-09T08:07:08.372Z",
                   "keyword": "对我而言",
                   "workId": "v69936",
                   "matchMethod": "explicit-title",
@@ -1021,7 +1020,7 @@
             },
             {
               "workId": "v40520",
-              "maxLikes": 678,
+              "maxLikes": 817,
               "count": 1,
               "evidence": [
                 {
@@ -1038,7 +1037,7 @@
                   ],
                   "url": "https://www.bilibili.com/video/BV1wTxb6HEQc",
                   "publishedAt": "2026-11-01T15:33:56.000Z",
-                  "likes": 678,
+                  "likes": 817,
                   "kind": "video",
                   "durationSeconds": 40,
                   "author": {
@@ -1047,11 +1046,11 @@
                     "url": "https://space.bilibili.com/105426409"
                   },
                   "metrics": {
-                    "favorites": 335,
+                    "favorites": 425,
                     "comments": 20,
                     "shares": 18,
-                    "views": 4047,
-                    "coins": 9
+                    "views": 4850,
+                    "coins": 10
                   },
                   "metricAvailability": {
                     "favorites": "available",
@@ -1060,7 +1059,7 @@
                     "views": "available",
                     "coins": "available"
                   },
-                  "collectedAt": "2026-11-08T07:34:30.870Z",
+                  "collectedAt": "2026-11-09T08:07:46.850Z",
                   "keyword": "天使☆騒々 RE-BOOT!",
                   "workId": "v40520",
                   "matchMethod": "explicit-title",
@@ -1071,65 +1070,8 @@
               ]
             },
             {
-              "workId": "v20424",
-              "maxLikes": 434,
-              "count": 1,
-              "evidence": [
-                {
-                  "platform": "bilibili",
-                  "id": "BV1aDxX6uEqL",
-                  "title": "鸟白岛的涂鸦小人们",
-                  "description": "图会放在评论区置顶，想要的自取喵",
-                  "tags": [
-                    "久岛鸥",
-                    "紬文德斯",
-                    "空门苍",
-                    "鸣濑白羽",
-                    "AI绘画",
-                    "Summer Pockets",
-                    "夏日口袋",
-                    "羽未",
-                    "Galgame",
-                    "涂鸦小人"
-                  ],
-                  "url": "https://www.bilibili.com/video/BV1aDxX6uEqL",
-                  "publishedAt": "2026-11-04T14:04:50.000Z",
-                  "likes": 434,
-                  "kind": "video",
-                  "durationSeconds": 30,
-                  "author": {
-                    "id": "445714830",
-                    "name": "珂学家星梦",
-                    "url": "https://space.bilibili.com/445714830"
-                  },
-                  "metrics": {
-                    "favorites": 162,
-                    "comments": 67,
-                    "shares": 25,
-                    "views": 1657,
-                    "coins": 155
-                  },
-                  "metricAvailability": {
-                    "favorites": "available",
-                    "comments": "available",
-                    "shares": "available",
-                    "views": "available",
-                    "coins": "available"
-                  },
-                  "collectedAt": "2026-11-08T07:44:22.186Z",
-                  "keyword": "Summer Pockets",
-                  "workId": "v20424",
-                  "matchMethod": "explicit-title",
-                  "matchedNames": [
-                    "Summer Pockets",
-                    "夏日口袋"
-                  ]
-                }
-              ]
-            },
-            {
               "workId": "v64572",
-              "maxLikes": 426,
+              "maxLikes": 498,
               "count": 1,
               "evidence": [
                 {
@@ -1151,7 +1093,7 @@
                   ],
                   "url": "https://www.bilibili.com/video/BV1Bg4g68EMm",
                   "publishedAt": "2026-11-03T10:34:39.000Z",
-                  "likes": 426,
+                  "likes": 498,
                   "kind": "video",
                   "durationSeconds": 1161,
                   "author": {
@@ -1160,11 +1102,11 @@
                     "url": "https://space.bilibili.com/22352826"
                   },
                   "metrics": {
-                    "favorites": 368,
-                    "comments": 33,
-                    "shares": 8,
-                    "views": 6009,
-                    "coins": 24
+                    "favorites": 461,
+                    "comments": 35,
+                    "shares": 11,
+                    "views": 7343,
+                    "coins": 29
                   },
                   "metricAvailability": {
                     "favorites": "available",
@@ -1173,12 +1115,69 @@
                     "views": "available",
                     "coins": "available"
                   },
-                  "collectedAt": "2026-11-08T07:36:50.402Z",
+                  "collectedAt": "2026-11-09T08:10:13.759Z",
                   "keyword": "视觉小说",
                   "workId": "v64572",
                   "matchMethod": "explicit-title",
                   "matchedNames": [
                     "晓之缘 - Twilight Loop -"
+                  ]
+                }
+              ]
+            },
+            {
+              "workId": "v20424",
+              "maxLikes": 472,
+              "count": 1,
+              "evidence": [
+                {
+                  "platform": "bilibili",
+                  "id": "BV1aDxX6uEqL",
+                  "title": "鸟白岛的涂鸦小人们",
+                  "description": "图会放在评论区置顶，想要的自取喵",
+                  "tags": [
+                    "久岛鸥",
+                    "紬文德斯",
+                    "空门苍",
+                    "鸣濑白羽",
+                    "AI绘画",
+                    "Summer Pockets",
+                    "夏日口袋",
+                    "羽未",
+                    "Galgame",
+                    "涂鸦小人"
+                  ],
+                  "url": "https://www.bilibili.com/video/BV1aDxX6uEqL",
+                  "publishedAt": "2026-11-04T14:04:50.000Z",
+                  "likes": 472,
+                  "kind": "video",
+                  "durationSeconds": 30,
+                  "author": {
+                    "id": "445714830",
+                    "name": "珂学家星梦",
+                    "url": "https://space.bilibili.com/445714830"
+                  },
+                  "metrics": {
+                    "favorites": 176,
+                    "comments": 71,
+                    "shares": 26,
+                    "views": 1767,
+                    "coins": 161
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "available",
+                    "coins": "available"
+                  },
+                  "collectedAt": "2026-11-09T08:17:45.462Z",
+                  "keyword": "Summer Pockets",
+                  "workId": "v20424",
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "Summer Pockets",
+                    "夏日口袋"
                   ]
                 }
               ]
@@ -2030,14 +2029,14 @@
     }
   ],
   "lastAttempt": {
-    "at": "2026-11-08T07:53:08.044Z",
+    "at": "2026-11-09T08:26:10.868Z",
     "periodId": "2026-11-06",
     "platforms": {
       "douyin": {
-        "status": "partial",
-        "error": "抖音采集失败，可能需要有效 Cookie；请检查固定版本依赖与登录状态。",
-        "collectedAt": "2026-11-08T07:33:23.907Z",
-        "fetched": 119,
+        "status": "failed",
+        "error": "抖音采集进程未就绪或请求超时；请安装固定版本的 DouK 并配置登录状态。",
+        "collectedAt": "2026-11-09T08:06:46.556Z",
+        "fetched": 37,
         "qualified": 37,
         "matched": 12,
         "sample": [
@@ -2273,23 +2272,27 @@
             "galgame CG",
             "galgame名场面"
           ],
-          "queries": 4,
-          "pages": 12,
+          "queries": 0,
+          "pages": 0,
           "failedQueries": [
+            "galgame",
+            "gal游戏",
             "美少女游戏",
-            "galgame CG"
+            "视觉小说",
+            "galgame CG",
+            "galgame名场面"
           ],
           "maxPagesPerQuery": 3,
-          "candidateCount": 119,
+          "candidateCount": 37,
           "qualifiedCount": 37
         }
       },
       "bilibili": {
         "status": "partial",
         "error": "B站有 1 条视频详情未通过核对。",
-        "collectedAt": "2026-11-08T07:53:08.039Z",
-        "fetched": 760,
-        "qualified": 121,
+        "collectedAt": "2026-11-09T08:26:10.862Z",
+        "fetched": 753,
+        "qualified": 127,
         "matched": 9,
         "sample": [
           {
@@ -2307,7 +2310,7 @@
             ],
             "url": "https://www.bilibili.com/video/BV1FfxH6YEDm",
             "publishedAt": "2026-11-01T02:00:00.000Z",
-            "likes": 1688,
+            "likes": 1755,
             "kind": "video",
             "durationSeconds": 129,
             "author": {
@@ -2316,11 +2319,11 @@
               "url": "https://space.bilibili.com/3690990835599915"
             },
             "metrics": {
-              "favorites": 1832,
-              "comments": 120,
-              "shares": 260,
-              "views": 29224,
-              "coins": 119
+              "favorites": 1919,
+              "comments": 122,
+              "shares": 265,
+              "views": 30150,
+              "coins": 128
             },
             "metricAvailability": {
               "favorites": "available",
@@ -2329,7 +2332,7 @@
               "views": "available",
               "coins": "available"
             },
-            "collectedAt": "2026-11-08T07:33:34.669Z",
+            "collectedAt": "2026-11-09T08:07:00.631Z",
             "keyword": "花鸟水月",
             "workId": "v62906",
             "matchMethod": "explicit-title",
@@ -2353,7 +2356,7 @@
             ],
             "url": "https://www.bilibili.com/video/BV11g486wEeQ",
             "publishedAt": "2026-11-05T08:41:42.000Z",
-            "likes": 878,
+            "likes": 881,
             "kind": "video",
             "durationSeconds": 64,
             "author": {
@@ -2362,10 +2365,10 @@
               "url": "https://space.bilibili.com/3747574286649626"
             },
             "metrics": {
-              "favorites": 1222,
+              "favorites": 1225,
               "comments": 55,
-              "shares": 45,
-              "views": 14274,
+              "shares": 46,
+              "views": 14310,
               "coins": 22
             },
             "metricAvailability": {
@@ -2375,7 +2378,7 @@
               "views": "available",
               "coins": "available"
             },
-            "collectedAt": "2026-11-08T07:33:46.043Z",
+            "collectedAt": "2026-11-09T08:07:08.372Z",
             "keyword": "对我而言",
             "workId": "v69936",
             "matchMethod": "explicit-title",
@@ -2402,7 +2405,7 @@
             ],
             "url": "https://www.bilibili.com/video/BV1vP4V6wEX7",
             "publishedAt": "2026-11-03T11:57:45.000Z",
-            "likes": 3458,
+            "likes": 3464,
             "kind": "video",
             "durationSeconds": 310,
             "author": {
@@ -2414,7 +2417,7 @@
               "favorites": 3181,
               "comments": 41,
               "shares": 7,
-              "views": 128822,
+              "views": 128877,
               "coins": 1947
             },
             "metricAvailability": {
@@ -2424,7 +2427,7 @@
               "views": "available",
               "coins": "available"
             },
-            "collectedAt": "2026-11-08T07:35:31.011Z",
+            "collectedAt": "2026-11-09T08:08:55.764Z",
             "keyword": "Rain98",
             "workId": "v69315",
             "matchMethod": "explicit-title",
@@ -2450,7 +2453,7 @@
             ],
             "url": "https://www.bilibili.com/video/BV1jJxQ6rESz",
             "publishedAt": "2026-11-04T10:15:00.000Z",
-            "likes": 2306,
+            "likes": 2412,
             "kind": "video",
             "durationSeconds": 603,
             "author": {
@@ -2459,11 +2462,11 @@
               "url": "https://space.bilibili.com/785025"
             },
             "metrics": {
-              "favorites": 924,
+              "favorites": 975,
               "comments": 61,
               "shares": 16,
-              "views": 29093,
-              "coins": 210
+              "views": 31284,
+              "coins": 221
             },
             "metricAvailability": {
               "favorites": "available",
@@ -2472,7 +2475,7 @@
               "views": "available",
               "coins": "available"
             },
-            "collectedAt": "2026-11-08T07:36:38.384Z",
+            "collectedAt": "2026-11-09T08:10:01.656Z",
             "keyword": "I Can Smell You from Here",
             "workId": "v69304",
             "matchMethod": "explicit-title",
@@ -2498,7 +2501,7 @@
             ],
             "url": "https://www.bilibili.com/video/BV1BZ4A65ETM",
             "publishedAt": "2026-11-02T15:46:23.000Z",
-            "likes": 2415,
+            "likes": 2602,
             "kind": "video",
             "durationSeconds": 5148,
             "author": {
@@ -2507,11 +2510,11 @@
               "url": "https://space.bilibili.com/533850221"
             },
             "metrics": {
-              "favorites": 2922,
-              "comments": 12,
-              "shares": 40,
-              "views": 27603,
-              "coins": 66
+              "favorites": 3086,
+              "comments": 13,
+              "shares": 43,
+              "views": 30231,
+              "coins": 76
             },
             "metricAvailability": {
               "favorites": "available",
@@ -2520,7 +2523,7 @@
               "views": "available",
               "coins": "available"
             },
-            "collectedAt": "2026-11-08T07:36:39.456Z",
+            "collectedAt": "2026-11-09T08:10:02.729Z",
             "keyword": "我回来了，404号室",
             "workId": "manual-tadaima-404",
             "matchMethod": "reviewed"
@@ -2551,7 +2554,6 @@
             "恋爱借贷",
             "恋爱我就借走了",
             "恋爱喜剧突转",
-            "二人终末论",
             "星空列车与白的旅行",
             "星之终途",
             "花鸟水月",
@@ -2568,8 +2570,8 @@
             "天使☆騒々 RE-BOOT!"
           ],
           "maxPagesPerQuery": 3,
-          "candidateCount": 760,
-          "qualifiedCount": 121
+          "candidateCount": 753,
+          "qualifiedCount": 127
         }
       }
     }
