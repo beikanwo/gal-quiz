@@ -1,17 +1,17 @@
 {
-  "startedAt": "2026-11-08T09:34:14.151Z",
+  "startedAt": "2026-11-09T10:24:43.727Z",
   "mode": "shadow",
   "formalRankingChanged": false,
   "searchWindow": {
-    "start": "2026-11-03T09:34:14.151Z",
-    "end": "2026-11-08T09:34:15.151Z"
+    "start": "2026-11-04T10:24:43.727Z",
+    "end": "2026-11-09T10:24:44.727Z"
   },
   "platforms": {
     "douyin": {
-      "status": "failed",
-      "fieldVerificationStatus": "incomplete",
-      "lastAttemptAt": "2026-11-08T09:34:14.474Z",
-      "searches": 0,
+      "status": "partial",
+      "fieldVerificationStatus": "complete",
+      "lastAttemptAt": "2026-11-09T10:32:27.049Z",
+      "searches": 12,
       "queries": [
         "galgame",
         "视觉小说",
@@ -20,34 +20,127 @@
         "游戏安利",
         "常轨脱离Creative",
         "天津罪",
-        "白色相簿2",
         "樱之诗",
         "樱之刻",
         "CLANNAD",
         "ATRI",
-        "夏日口袋"
+        "夏日口袋",
+        "千恋万花"
       ],
-      "searchCoverage": [],
+      "searchCoverage": [
+        {
+          "keyword": "galgame",
+          "pages": 2,
+          "returned": 18,
+          "inWindow": 15,
+          "outsideWindow": 3,
+          "channel": "general"
+        },
+        {
+          "keyword": "视觉小说",
+          "pages": 2,
+          "returned": 15,
+          "inWindow": 14,
+          "outsideWindow": 1,
+          "channel": "general"
+        },
+        {
+          "keyword": "冷门视觉小说",
+          "pages": 2,
+          "returned": 2,
+          "inWindow": 1,
+          "outsideWindow": 1,
+          "channel": "general"
+        },
+        {
+          "keyword": "galgame推荐",
+          "pages": 2,
+          "returned": 15,
+          "inWindow": 13,
+          "outsideWindow": 2,
+          "channel": "general"
+        },
+        {
+          "keyword": "游戏安利",
+          "pages": 2,
+          "returned": 15,
+          "inWindow": 11,
+          "outsideWindow": 4,
+          "channel": "general"
+        },
+        {
+          "keyword": "常轨脱离Creative",
+          "pages": 2,
+          "returned": 7,
+          "inWindow": 5,
+          "outsideWindow": 2,
+          "channel": "general"
+        },
+        {
+          "keyword": "天津罪",
+          "pages": 2,
+          "returned": 8,
+          "inWindow": 7,
+          "outsideWindow": 1,
+          "channel": "general"
+        },
+        {
+          "keyword": "樱之诗",
+          "pages": 2,
+          "returned": 12,
+          "inWindow": 11,
+          "outsideWindow": 1,
+          "channel": "general"
+        },
+        {
+          "keyword": "樱之刻",
+          "pages": 2,
+          "returned": 10,
+          "inWindow": 9,
+          "outsideWindow": 1,
+          "channel": "general"
+        },
+        {
+          "keyword": "CLANNAD",
+          "pages": 2,
+          "returned": 18,
+          "inWindow": 18,
+          "outsideWindow": 0,
+          "channel": "general"
+        },
+        {
+          "keyword": "夏日口袋",
+          "pages": 2,
+          "returned": 15,
+          "inWindow": 15,
+          "outsideWindow": 0,
+          "channel": "general"
+        },
+        {
+          "keyword": "千恋万花",
+          "pages": 2,
+          "returned": 18,
+          "inWindow": 17,
+          "outsideWindow": 1,
+          "channel": "general"
+        }
+      ],
       "pagesPerKeyword": 2,
       "window": {
-        "start": "2026-11-03T09:34:14.151Z",
-        "end": "2026-11-08T09:34:15.151Z"
+        "start": "2026-11-04T10:24:43.727Z",
+        "end": "2026-11-09T10:24:44.727Z"
       },
       "workResolution": {
-        "resolved": 0,
+        "resolved": 2,
         "failures": 0
       },
-      "inWindowCount": 0,
-      "identifiedCount": 0,
-      "identifiedWorks": 0,
+      "inWindowCount": 123,
+      "identifiedCount": 41,
+      "identifiedWorks": 18,
       "failures": [
         {
           "stage": "search",
-          "keyword": "galgame"
-        },
-        {
-          "stage": "search",
-          "keyword": "视觉小说"
+          "keyword": "ATRI"
         },
         {
           "stage": "refresh",
@@ -79,15 +172,7 @@
         },
         {
           "stage": "refresh",
-          "id": "7705033944755901888"
-        },
-        {
-          "stage": "refresh",
-          "id": "7704511844132914402"
-        },
-        {
-          "stage": "refresh",
-          "id": "7704696011432361600"
+          "id": "7704959573006942885"
         },
         {
           "stage": "refresh",
@@ -128,31 +213,39 @@
         {
           "stage": "refresh",
           "id": "7704310784126248315"
+        },
+        {
+          "stage": "refresh",
+          "id": "7703964285352942949"
+        },
+        {
+          "stage": "refresh",
+          "id": "7703845508028939466"
         }
       ],
-      "sampleCount": 0,
+      "sampleCount": 20,
       "sampleTarget": 20,
       "available": {
-        "author": 0,
-        "favorites": 0,
-        "comments": 0,
-        "shares": 0,
+        "author": 20,
+        "favorites": 20,
+        "comments": 20,
+        "shares": 20,
         "views": 0,
         "coins": 0
       },
       "zeroValues": {
-        "favorites": 0,
-        "comments": 0,
-        "shares": 0,
+        "favorites": 2,
+        "comments": 1,
+        "shares": 5,
         "views": 0,
         "coins": 0
       },
-      "lastSuccessAt": "2026-11-07T09:25:08.686Z"
+      "lastSuccessAt": "2026-11-09T10:32:27.049Z"
     },
     "bilibili": {
       "status": "partial",
       "fieldVerificationStatus": "complete",
-      "lastAttemptAt": "2026-11-08T09:43:24.174Z",
+      "lastAttemptAt": "2026-11-09T10:41:20.304Z",
       "searches": 15,
       "queries": [
         "galgame",
@@ -162,12 +255,12 @@
         "游戏安利",
         "常轨脱离Creative",
         "天津罪",
-        "白色相簿2",
         "樱之诗",
         "樱之刻",
         "CLANNAD",
         "ATRI",
-        "夏日口袋"
+        "夏日口袋",
+        "千恋万花"
       ],
       "searchCoverage": [
         {
@@ -199,10 +292,6 @@
           "pages": 1
         },
         {
-          "keyword": "白色相簿2",
-          "pages": 2
-        },
-        {
           "keyword": "樱之诗",
           "pages": 1
         },
@@ -221,20 +310,24 @@
         {
           "keyword": "夏日口袋",
           "pages": 2
+        },
+        {
+          "keyword": "千恋万花",
+          "pages": 2
         }
       ],
       "pagesPerKeyword": 2,
       "window": {
-        "start": "2026-11-03T09:34:14.151Z",
-        "end": "2026-11-08T09:34:15.151Z"
+        "start": "2026-11-04T10:24:43.727Z",
+        "end": "2026-11-09T10:24:44.727Z"
       },
       "workResolution": {
-        "resolved": 3,
+        "resolved": 2,
         "failures": 0
       },
-      "inWindowCount": 386,
-      "identifiedCount": 93,
-      "identifiedWorks": 50,
+      "inWindowCount": 388,
+      "identifiedCount": 91,
+      "identifiedWorks": 36,
       "failures": [
         {
           "stage": "search",
@@ -250,10 +343,6 @@
         },
         {
           "stage": "search",
-          "keyword": "白色相簿2"
-        },
-        {
-          "stage": "search",
           "keyword": "樱之诗"
         },
         {
@@ -262,15 +351,11 @@
         },
         {
           "stage": "search",
-          "keyword": "CLANNAD"
-        },
-        {
-          "stage": "search",
-          "keyword": "ATRI"
-        },
-        {
-          "stage": "search",
           "keyword": "夏日口袋"
+        },
+        {
+          "stage": "refresh",
+          "id": "BV1ib4E6JEiU"
         }
       ],
       "sampleCount": 20,
@@ -284,18 +369,18 @@
         "coins": 20
       },
       "zeroValues": {
-        "favorites": 6,
-        "comments": 7,
-        "shares": 12,
-        "views": 1,
-        "coins": 11
+        "favorites": 4,
+        "comments": 6,
+        "shares": 10,
+        "views": 0,
+        "coins": 6
       },
-      "lastSuccessAt": "2026-11-08T09:43:24.174Z"
+      "lastSuccessAt": "2026-11-09T10:41:20.304Z"
     }
   },
-  "finishedAt": "2026-11-08T09:43:34.746Z",
-  "observedPosts": 238,
-  "identityPending": 1094,
+  "finishedAt": "2026-11-09T10:41:33.894Z",
+  "observedPosts": 312,
+  "identityPending": 1308,
   "trial": {
     "periods": [
       {

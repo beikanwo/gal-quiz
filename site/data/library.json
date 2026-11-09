@@ -32707,6 +32707,53 @@
           ],
           "released": "2023-10-23",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v37179/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/49/94049.jpg\" data-cover-full=\"https://t.vndb.org/cv/49/94049.jpg\" alt=\"杀死公主封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>杀死公主</h3><p>Black Tabby Games</p><div class=\"card-heat muted\">2023-10-23</div></a></article>"
+        },
+        {
+          "name": "遗作",
+          "aliases": [
+            "遺作",
+            "遗作",
+            "遺作",
+            "Isaku",
+            "유작"
+          ],
+          "released": "1995-08-25",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v2340/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv/49/43949.jpg\" alt=\"遗作封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>遗作</h3><p>elf</p><div class=\"card-heat muted\">1995-08-25</div></a></article>"
+        },
+        {
+          "name": "Obey Me!",
+          "aliases": [
+            "Obey Me!",
+            "Obey Me!",
+            "Obey Me! – One Master to Rule Them All",
+            "服從我！動漫風格乙女向戀愛模擬遊戲"
+          ],
+          "released": "2019-12-11",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v26796/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv/35/46735.jpg\" alt=\"Obey Me!封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>Obey Me!</h3><p>ナウプロダクション</p><div class=\"card-heat muted\">2019-12-11</div></a></article>"
+        },
+        {
+          "name": "DEVILS DEVEL CONCEPT",
+          "aliases": [
+            "DEVILS DEVEL CONCEPT",
+            "DEVILS DEVEL CONCEPT",
+            "DDC"
+          ],
+          "released": "2009-02-26",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v1308/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/16/142316.jpg\" data-cover-full=\"https://t.vndb.org/cv/16/142316.jpg\" alt=\"DEVILS DEVEL CONCEPT封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>DEVILS DEVEL CONCEPT</h3><p>暁WORKS</p><div class=\"card-heat muted\">2009-02-26</div></a></article>"
+        },
+        {
+          "name": "银色事件",
+          "aliases": [
+            "シルバー事件",
+            "银色事件",
+            "シルバー事件",
+            "Silver Jiken",
+            "The Silver Case",
+            "The Silver",
+            "TSC"
+          ],
+          "released": "1999-10-05",
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v20032/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/38/78338.jpg\" data-cover-full=\"https://t.vndb.org/cv/38/78338.jpg\" alt=\"银色事件封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>银色事件</h3><p>株式会社グラスホッパー・マニファクチュア</p><div class=\"card-heat muted\">1999-10-05</div></a></article>"
         }
       ]
     },

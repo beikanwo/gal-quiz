@@ -6717,7 +6717,7 @@
         }
       ],
       "source": "https://vndb.org/v56650",
-      "updatedAt": "2026-11-09T08:02:42.662Z",
+      "updatedAt": "2026-11-09T10:24:43.868Z",
       "detailComplete": true,
       "ratings": {
         "vndb": {
@@ -6727,7 +6727,7 @@
           "metric": "贝叶斯评分",
           "via": "原站",
           "url": "https://vndb.org/v56650",
-          "fetchedAt": "2026-11-09T08:02:42.662Z"
+          "fetchedAt": "2026-11-09T10:24:43.868Z"
         },
         "bangumi": {
           "score": 6.9,
@@ -359062,7 +359062,7 @@
         }
       ],
       "source": "https://vndb.org/v66",
-      "updatedAt": "2026-11-07T09:17:37.248Z",
+      "updatedAt": "2026-11-09T10:24:43.868Z",
       "detailComplete": true,
       "originalDescription": "Gunjo Academy is a facility designed to gather and isolate those students who got a high score on an adaptation exam (scoring high on this exam indicates that the student is less likely to be able to be adapted to the society) mandated by the government.\n\nAfter a failed summer vacation with other members of the school's broadcasting club, Kurosu Taichi and some of the other club members return to the city, only to find that the world had completely changed.",
       "description": "大家还团结在一起的去年夏天……\n\n濒临崩溃的广播部里引发的各种对立……然后是和解……\n\n学院漫长的暑假。濒临崩溃的广播部众人，在个人的层面上也处于崩溃边缘。自从初夏的合宿回来以后，部员们便四分五裂。如今，正经参加社团活动的只剩下一人。\n\n主人公是广播部的一员。\n\n在暑假里冷清的学校，与三三两两露面的伙伴们，主人公逐渐产生交集。来到屋顶，部长宫澄见里(宮澄見里)正在组装巨大的广播天线。独自一人。那是作为暑假广播部的“社团活动”，将其完成并播送广播也成了课题。以前是大家共同参与的。大家还团结在一起的去年夏天。如今，参与的只有一人。曾经的伙伴们冷眼注视着这样的两人。随之引发的各种对立。然后是和解。四分五裂的部员们的心，一点点地相互贴近。\n\n——暑假最后一天，发送装置完成。\n\n装置承载着信息，向世界——",
@@ -359172,11 +359172,11 @@
         "vndb": {
           "score": 7.890000000000001,
           "scale": 10,
-          "votes": 4902,
+          "votes": 4903,
           "metric": "贝叶斯评分",
           "via": "原站",
           "url": "https://vndb.org/v66",
-          "fetchedAt": "2026-11-07T09:17:37.248Z"
+          "fetchedAt": "2026-11-09T10:24:43.868Z"
         },
         "bangumi": {
           "score": 8.5,
@@ -519662,6 +519662,735 @@
           "lastSuccessAt": "2026-11-08T14:01:53.465Z"
         }
       }
+    },
+    "v2340": {
+      "id": "v2340",
+      "title": "遗作",
+      "original": "遺作",
+      "aliases": [
+        "遗作",
+        "遺作",
+        "Isaku",
+        "유작"
+      ],
+      "released": "1995-08-25",
+      "languages": [
+        "ja",
+        "ko",
+        "zh-Hans"
+      ],
+      "minutes": 720,
+      "image": "https://t.vndb.org/cv/49/43949.jpg",
+      "cover": {
+        "id": "cv43949",
+        "url": "https://t.vndb.org/cv/49/43949.jpg",
+        "thumbnail": "https://t.vndb.org/cv/49/43949.jpg",
+        "sexual": 0,
+        "violence": 0,
+        "kind": "vn",
+        "source": "https://vndb.org/v2340"
+      },
+      "developers": [
+        {
+          "id": "p131",
+          "name": "elf"
+        }
+      ],
+      "source": "https://vndb.org/v2340",
+      "updatedAt": "2026-11-09T10:24:43.868Z",
+      "detailComplete": true,
+      "originalDescription": "Unlike the sequels that follows you take on the role of Kenta, a high school student trapped by Isaku, the eldest brother of the Itou Family on the last floor of an abandoned school building together with fellow classmates and a teacher. \n\nThe main objective of the game is to have the player and his companions escape from a locked school building, and to avoid having your companions captured by Isaku.\n\nThe only way out is through a stairwell, the doors of which are locked on every floor. The player must search the rooms on each floor for clues and items that will lead him to locate the keys that will open the stairwell doors and allow him to descend to the next level and ultimately to a final confrontation with Isaku himself.",
+      "description": "Unlike the sequels that follows you take on the role of Kenta, a high school student trapped by Isaku, the eldest brother of the Itou Family on the last floor of an abandoned school building together with fellow classmates and a teacher. \n\nThe main objective of the game is to have the player and his companions escape from a locked school building, and to avoid having your companions captured by Isaku.\n\nThe only way out is through a stairwell, the doors of which are locked on every floor. The player must search the rooms on each floor for clues and items that will lead him to locate the keys that will open the stairwell doors and allow him to descend to the next level and ultimately to a final confrontation with Isaku himself.",
+      "descriptionLanguage": "原文",
+      "descriptionSource": "https://vndb.org/v2340",
+      "staff": [
+        {
+          "id": "s238",
+          "name": "上田 メタヲ",
+          "role": "art",
+          "aliasId": 407
+        },
+        {
+          "id": "s505",
+          "name": "蛭田 昌人",
+          "role": "scenario",
+          "aliasId": 949
+        },
+        {
+          "id": "s1800",
+          "name": "横田 守",
+          "role": "art",
+          "aliasId": 2872
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sf31387",
+          "url": "https://t.vndb.org/sf/87/31387.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/87/31387.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf31390",
+          "url": "https://t.vndb.org/sf/90/31390.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/90/31390.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf31394",
+          "url": "https://t.vndb.org/sf/94/31394.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/94/31394.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf102762",
+          "url": "https://t.vndb.org/sf/62/102762.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/62/102762.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E9%81%BA%E4%BD%9C_(%E3%82%B2%E3%83%BC%E3%83%A0)",
+          "label": "Wikipedia (ja)"
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q751168",
+          "label": "Wikidata"
+        },
+        {
+          "url": "https://www.mobygames.com/game/48468/",
+          "label": "MobyGames"
+        }
+      ],
+      "vndbNames": [
+        "Isaku",
+        "遺作",
+        "유작",
+        "遗作"
+      ],
+      "matchingAliases": [
+        "遗作",
+        "遺作",
+        "Isaku",
+        "유작"
+      ],
+      "coverSourceFlags": {
+        "sexual": 0,
+        "violence": 0
+      },
+      "ratings": {
+        "vndb": {
+          "score": 7.090000000000001,
+          "scale": 10,
+          "votes": 119,
+          "metric": "贝叶斯评分",
+          "via": "原站",
+          "url": "https://vndb.org/v2340",
+          "fetchedAt": "2026-11-09T10:24:43.868Z"
+        },
+        "bangumi": {
+          "score": 7,
+          "votes": 315,
+          "scale": 10,
+          "metric": "站点评分",
+          "url": "https://bgm.tv/subject/25204",
+          "via": "KUN 评分快照",
+          "viaUrl": "https://www.kungal.com/galgame/2032",
+          "fetchedAt": "2026-11-09T10:28:22.232Z"
+        },
+        "erogamescape": {
+          "score": 80,
+          "votes": 47,
+          "scale": 100,
+          "metric": "站点评分",
+          "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=9731",
+          "via": "KUN 评分快照",
+          "viaUrl": "https://www.kungal.com/galgame/2032",
+          "fetchedAt": "2026-11-09T10:28:22.232Z"
+        }
+      },
+      "communityNames": [
+        "遺作",
+        "Isaku",
+        "遗作"
+      ],
+      "communitySearchNames": [
+        "遺作",
+        "Isaku",
+        "遗作"
+      ],
+      "community": {
+        "kungal": {
+          "id": "2032",
+          "url": "https://www.kungal.com/galgame/2032"
+        },
+        "bangumi": {
+          "id": 25204,
+          "url": "https://bgm.tv/subject/25204"
+        }
+      }
+    },
+    "v26796": {
+      "id": "v26796",
+      "title": "Obey Me!",
+      "original": "Obey Me!",
+      "aliases": [
+        "Obey Me!",
+        "Obey Me! – One Master to Rule Them All",
+        "服從我！動漫風格乙女向戀愛模擬遊戲"
+      ],
+      "released": "2019-12-11",
+      "languages": [
+        "en",
+        "ja",
+        "ko",
+        "zh-Hant"
+      ],
+      "minutes": 2415,
+      "image": "https://t.vndb.org/cv/35/46735.jpg",
+      "cover": {
+        "id": "cv46735",
+        "url": "https://t.vndb.org/cv/35/46735.jpg",
+        "thumbnail": "https://t.vndb.org/cv/35/46735.jpg",
+        "sexual": 0,
+        "violence": 0,
+        "kind": "vn",
+        "source": "https://vndb.org/v26796"
+      },
+      "developers": [
+        {
+          "id": "p8930",
+          "name": "ナウプロダクション"
+        }
+      ],
+      "source": "https://vndb.org/v26796",
+      "updatedAt": "2026-11-09T10:24:43.868Z",
+      "detailComplete": true,
+      "originalDescription": "Become the master who brings the handsome demon brothers down to their knees and enjoy life at the Academy in the Devildom! You have been selected to become an exchange student at RAD, a school for demons. Awaiting you are 7 demon brothers and a mountain of tasks...?!\n\nThere is only 1 rule you have to remember to survive...\n\nOne Master to RULE them all!",
+      "description": "▶▷▶享受与恶魔们的非日常生活吧！◀◁◀\n角色们在你身边欢笑、哭泣，然后，如果能成为朋友呢？——如果能成为恋人呢？\n角色们逐渐融入你的生活——这就是服從我！動漫風格乙女向戀愛模擬遊戲的最大特征！\n\n▶ 会收到充满魅力的角色们发来的消息和电话！\n▶你与角色的互动将影响之后的故事！\n\n■故事\n成为让帅气恶魔兄弟屈服的主人，享受在魔界学院的生活吧！\n被选为恶魔学园RAD的交换留学生的你，在魔界等待着的是7位帅气的恶魔兄弟和堆积如山的课题...！？\n为了生存下去必须记住的唯一规则是...\n成为让恶魔们屈服的唯一的主人！\n\n■只属于你的帅气恶魔的后宫\n享受服從我！動漫風格乙女向戀愛模擬遊戲的方式由你决定！\n让恶魔兄弟屈服？还是追求新的浪漫？\n说不定会被天使或世界最强的魔术师所爱……？\n\n■课题通过可爱的卡牌战斗来完成\n魔界的恶魔在觊觎你的灵魂…！？\n借助7位帅气兄弟的力量，在卡牌战斗中打倒他们吧！\n享受队伍编成、可爱的Q版角色以及每个关卡各不相同的音乐吧！\n收集卡牌、培育角色，在战斗中取得胜利！",
+      "descriptionLanguage": "中文",
+      "descriptionSource": "https://www.kungal.com/galgame/26854",
+      "staff": [],
+      "screenshots": [
+        {
+          "id": "sf146923",
+          "url": "https://t.vndb.org/sf/23/146923.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/23/146923.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf146931",
+          "url": "https://t.vndb.org/sf/31/146931.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/31/146931.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf146932",
+          "url": "https://t.vndb.org/sf/32/146932.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/32/146932.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf146933",
+          "url": "https://t.vndb.org/sf/33/146933.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/33/146933.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf146934",
+          "url": "https://t.vndb.org/sf/34/146934.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/34/146934.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf146935",
+          "url": "https://t.vndb.org/sf/35/146935.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/35/146935.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://ja.wikipedia.org/wiki/Obey_Me!",
+          "label": "Wikipedia (ja)"
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q97011183",
+          "label": "Wikidata"
+        }
+      ],
+      "vndbNames": [
+        "Obey Me!",
+        "Obey Me! – One Master to Rule Them All"
+      ],
+      "matchingAliases": [
+        "Obey Me!",
+        "Obey Me! – One Master to Rule Them All",
+        "服從我！動漫風格乙女向戀愛模擬遊戲"
+      ],
+      "coverSourceFlags": {
+        "sexual": 0,
+        "violence": 0
+      },
+      "ratings": {
+        "vndb": {
+          "score": 6.840000000000001,
+          "scale": 10,
+          "votes": 250,
+          "metric": "贝叶斯评分",
+          "via": "原站",
+          "url": "https://vndb.org/v26796",
+          "fetchedAt": "2026-11-09T10:24:43.868Z"
+        },
+        "bangumi": {
+          "score": 6.3,
+          "votes": 12,
+          "scale": 10,
+          "metric": "站点评分",
+          "url": "https://bgm.tv/subject/327402",
+          "via": "KUN 评分快照",
+          "viaUrl": "https://www.kungal.com/galgame/26854",
+          "fetchedAt": "2026-11-09T10:28:54.426Z"
+        }
+      },
+      "communityNames": [
+        "Obey Me!",
+        "服從我！動漫風格乙女向戀愛模擬遊戲"
+      ],
+      "communitySearchNames": [
+        "Obey Me!",
+        "服從我！動漫風格乙女向戀愛模擬遊戲"
+      ],
+      "community": {
+        "kungal": {
+          "id": "26854",
+          "url": "https://www.kungal.com/galgame/26854"
+        },
+        "bangumi": {
+          "id": 327402,
+          "url": "https://bgm.tv/subject/327402"
+        }
+      },
+      "descriptionSourceName": "Bangumi（KUN 资料镜像）",
+      "descriptionMachine": true
+    },
+    "v1308": {
+      "id": "v1308",
+      "title": "DEVILS DEVEL CONCEPT",
+      "original": "DEVILS DEVEL CONCEPT",
+      "aliases": [
+        "DEVILS DEVEL CONCEPT",
+        "DDC"
+      ],
+      "released": "2009-02-26",
+      "languages": [
+        "en",
+        "ja",
+        "ko",
+        "zh-Hans"
+      ],
+      "minutes": 4255,
+      "image": "https://t.vndb.org/cv/16/142316.jpg",
+      "cover": {
+        "id": "cv142316",
+        "url": "https://t.vndb.org/cv/16/142316.jpg",
+        "thumbnail": "https://t.vndb.org/cv.t/16/142316.jpg",
+        "sexual": 0,
+        "violence": 0,
+        "kind": "vn",
+        "source": "https://vndb.org/v1308"
+      },
+      "developers": [
+        {
+          "id": "p180",
+          "name": "暁WORKS"
+        }
+      ],
+      "source": "https://vndb.org/v1308",
+      "updatedAt": "2026-11-09T10:24:43.868Z",
+      "detailComplete": true,
+      "originalDescription": "Human, monsters, and beasts... The world doesn't forgive them... There is a town where mysterious cases often happen. The ones who have special ability called Enja. The origin of Enja is \"devil\". They get together as if led by something unseen and kill each other. \n\nSora is an Enja boy. He lost his parents several years ago and now lives alone. His life is full of peace, rest, and destruction. Peaceful school life with friends. Strange dreams he has every day. Battles against devils that appear in the town at night. \n\nHis \"contract\" leads him to a hell of sadness, fights, and carnage. He also meets some girls along the way. Love, obedience, subordination, immorality, and desire. Sora, who doesn't know how to love, is a broken human. What does Sora get, what does Sora lose through contracts with the girls? At the end of the contract, he meets the last devil...",
+      "description": "人类、怪物、禽兽——\n「世界」不会容纳它们……\n\n不为人知地发生奇怪事件的城市「鶴伎町」。\n那里是各种各样的「灾厄」、「诅咒」、以及与其因缘纠缠的人物们聚集的战场。\n被称为『缘者』的特异能力者们。以及，他们的先祖──『恶魔』。\n仿佛被不可视的漩涡吞噬一般，他们聚集于此，然后，互相残杀。\n\n時雨楚良是一个身为缘者的少年。\n数年前父母双亡，现在一边过着独身生活、一边就读于私立白岭学园的他的日常，被平稳与安逸、以及破坏点缀着。\n与友人们的平凡学园生活。每晚都会做的不可思议的梦。与出现在夜晚的城市的恶魔的死斗。\n他持有的「契约」，将他诱往悲剧与斗争与杀戮的地狱。\n然后，他将与之邂逅。与新的「契约」。与其持有者的少女们。\n\n恋爱。\n不知情爱为何物，身为坏掉人类的他，在与少女们的「契约」之中，会得到什么，又会失去什么呢。\n俄而在那「契约」的尽头，他将与之邂逅。\n与那最后的恶魔……",
+      "descriptionLanguage": "中文",
+      "descriptionSource": "https://www.kungal.com/galgame/3369",
+      "staff": [
+        {
+          "id": "s2087",
+          "name": "オズケイ イチロウ",
+          "role": "scenario",
+          "aliasId": 3248
+        },
+        {
+          "id": "s2362",
+          "name": "refeia",
+          "role": "art",
+          "aliasId": 3625
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sf11556",
+          "url": "https://t.vndb.org/sf/56/11556.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/56/11556.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf11557",
+          "url": "https://t.vndb.org/sf/57/11557.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/57/11557.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf11558",
+          "url": "https://t.vndb.org/sf/58/11558.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/58/11558.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf11559",
+          "url": "https://t.vndb.org/sf/59/11559.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/59/11559.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf11560",
+          "url": "https://t.vndb.org/sf/60/11560.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/60/11560.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf11561",
+          "url": "https://t.vndb.org/sf/61/11561.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/61/11561.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        }
+      ],
+      "links": [],
+      "vndbNames": [
+        "DEVILS DEVEL CONCEPT",
+        "DDC"
+      ],
+      "matchingAliases": [
+        "DEVILS DEVEL CONCEPT",
+        "DDC"
+      ],
+      "coverSourceFlags": {
+        "sexual": 0,
+        "violence": 0
+      },
+      "ratings": {
+        "vndb": {
+          "score": 6.88,
+          "scale": 10,
+          "votes": 115,
+          "metric": "贝叶斯评分",
+          "via": "原站",
+          "url": "https://vndb.org/v1308",
+          "fetchedAt": "2026-11-09T10:24:43.868Z"
+        },
+        "bangumi": {
+          "score": 6.1,
+          "votes": 99,
+          "scale": 10,
+          "metric": "站点评分",
+          "url": "https://bgm.tv/subject/15745",
+          "via": "KUN 评分快照",
+          "viaUrl": "https://www.kungal.com/galgame/3369",
+          "fetchedAt": "2026-11-09T10:40:05.543Z"
+        },
+        "erogamescape": {
+          "score": 70,
+          "votes": 171,
+          "scale": 100,
+          "metric": "站点评分",
+          "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=11481",
+          "via": "KUN 评分快照",
+          "viaUrl": "https://www.kungal.com/galgame/3369",
+          "fetchedAt": "2026-11-09T10:40:05.543Z"
+        }
+      },
+      "communityNames": [
+        "DEVILS DEVEL CONCEPT"
+      ],
+      "communitySearchNames": [
+        "DEVILS DEVEL CONCEPT"
+      ],
+      "community": {
+        "kungal": {
+          "id": "3369",
+          "url": "https://www.kungal.com/galgame/3369"
+        },
+        "bangumi": {
+          "id": 15745,
+          "url": "https://bgm.tv/subject/15745"
+        }
+      },
+      "descriptionSourceName": "Bangumi（KUN 资料镜像）",
+      "descriptionMachine": false
+    },
+    "v20032": {
+      "id": "v20032",
+      "title": "银色事件",
+      "original": "シルバー事件",
+      "aliases": [
+        "银色事件",
+        "シルバー事件",
+        "Silver Jiken",
+        "The Silver Case",
+        "The Silver",
+        "TSC"
+      ],
+      "released": "1999-10-05",
+      "languages": [
+        "en",
+        "es",
+        "fr",
+        "ja",
+        "ru",
+        "zh-Hans"
+      ],
+      "minutes": 1080,
+      "image": "https://t.vndb.org/cv/38/78338.jpg",
+      "cover": {
+        "id": "cv78338",
+        "url": "https://t.vndb.org/cv/38/78338.jpg",
+        "thumbnail": "https://t.vndb.org/cv.t/38/78338.jpg",
+        "sexual": 0,
+        "violence": 0,
+        "kind": "vn",
+        "source": "https://vndb.org/v20032"
+      },
+      "developers": [
+        {
+          "id": "p6387",
+          "name": "株式会社グラスホッパー・マニファクチュア"
+        }
+      ],
+      "source": "https://vndb.org/v20032",
+      "updatedAt": "2026-11-09T10:24:43.868Z",
+      "detailComplete": true,
+      "originalDescription": "1999 - the \"24 Wards\". A string of mysterious serial killings plagues the city. The detectives of the 24 Wards Heinous Crimes Unit have their eyes on one man: Kamui Uehara, legendary serial killer and assassin of a number of government officials 20 years prior in the now-famous \"Silver Case\". However, nobody knows who - or what - Kamui really is. Has he really returned? Who is this infamous serial killer?\n\n\n\nThe game also has an adventure game sequel, \"Flower, Sun, and Rain\".",
+      "description": "1999年——“24区”。一连串神秘的连环杀人案困扰着这座城市。24区恶性犯罪部门的刑警们将目光锁定在一个男人身上：上原神威，他是传说中的连环杀手，也是20年前如今闻名遐迩的“银色事件”中数名政府官员的暗杀者。然而，没有人知道神威究竟是谁——或者究竟是什么。他真的回来了吗？这个声名狼藉的连环杀手究竟是谁？\n\n本作还有一部冒险游戏续作《花、太阳与雨》。",
+      "descriptionLanguage": "中文",
+      "descriptionSource": "https://www.kungal.com/galgame/22238",
+      "staff": [
+        {
+          "id": "s11479",
+          "name": "須田 剛一",
+          "role": "scenario",
+          "aliasId": 14543
+        },
+        {
+          "id": "s11484",
+          "name": "大岡 まさひ",
+          "role": "scenario",
+          "aliasId": 14548
+        },
+        {
+          "id": "s11485",
+          "name": "加藤 さこ",
+          "role": "scenario",
+          "aliasId": 14549
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sf98979",
+          "url": "https://t.vndb.org/sf/79/98979.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/79/98979.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf98980",
+          "url": "https://t.vndb.org/sf/80/98980.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/80/98980.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf98981",
+          "url": "https://t.vndb.org/sf/81/98981.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/81/98981.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf98982",
+          "url": "https://t.vndb.org/sf/82/98982.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/82/98982.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf98998",
+          "url": "https://t.vndb.org/sf/98/98998.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/98/98998.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf98999",
+          "url": "https://t.vndb.org/sf/99/98999.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/99/98999.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Silver_Case",
+          "label": "Wikipedia (en)"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%B7%E3%83%AB%E3%83%90%E3%83%BC%E4%BA%8B%E4%BB%B6",
+          "label": "Wikipedia (ja)"
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q3989298",
+          "label": "Wikidata"
+        },
+        {
+          "url": "https://www.mobygames.com/game/87085/",
+          "label": "MobyGames"
+        },
+        {
+          "url": "https://gamefaqs.gamespot.com/-/576108-",
+          "label": "GameFAQs"
+        },
+        {
+          "url": "https://gamefaqs.gamespot.com/-/200321-",
+          "label": "GameFAQs"
+        },
+        {
+          "url": "https://www.igdb.com/games/the-silver-case",
+          "label": "IGDB"
+        },
+        {
+          "url": "https://www.igdb.com/games/silver-jiken",
+          "label": "IGDB"
+        },
+        {
+          "url": "https://www.pcgamingwiki.com/wiki/The_Silver_Case",
+          "label": "PCGamingWiki"
+        },
+        {
+          "url": "https://lutris.net/games/the-silver-case",
+          "label": "Lutris"
+        }
+      ],
+      "vndbNames": [
+        "Silver Jiken",
+        "シルバー事件",
+        "The Silver Case",
+        "银色事件",
+        "The Silver",
+        "TSC"
+      ],
+      "matchingAliases": [
+        "银色事件",
+        "シルバー事件",
+        "Silver Jiken",
+        "The Silver Case",
+        "The Silver",
+        "TSC"
+      ],
+      "coverSourceFlags": {
+        "sexual": 0,
+        "violence": 0
+      },
+      "ratings": {
+        "vndb": {
+          "score": 8.129999999999999,
+          "scale": 10,
+          "votes": 1014,
+          "metric": "贝叶斯评分",
+          "via": "原站",
+          "url": "https://vndb.org/v20032",
+          "fetchedAt": "2026-11-09T10:24:43.868Z"
+        },
+        "bangumi": {
+          "score": 7.9,
+          "votes": 95,
+          "scale": 10,
+          "metric": "站点评分",
+          "url": "https://bgm.tv/subject/194804",
+          "via": "KUN 评分快照",
+          "viaUrl": "https://www.kungal.com/galgame/22238",
+          "fetchedAt": "2026-11-09T10:40:11.902Z"
+        },
+        "erogamescape": {
+          "score": 85,
+          "votes": 7,
+          "scale": 100,
+          "metric": "站点评分",
+          "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=38284",
+          "via": "KUN 评分快照",
+          "viaUrl": "https://www.kungal.com/galgame/22238",
+          "fetchedAt": "2026-11-09T10:40:11.902Z"
+        }
+      },
+      "communityNames": [
+        "シルバー事件",
+        "The Silver Case",
+        "银色事件"
+      ],
+      "communitySearchNames": [
+        "シルバー事件",
+        "The Silver Case",
+        "银色事件"
+      ],
+      "community": {
+        "kungal": {
+          "id": "22238",
+          "url": "https://www.kungal.com/galgame/22238"
+        },
+        "bangumi": {
+          "id": 194804,
+          "url": "https://bgm.tv/subject/194804"
+        }
+      },
+      "descriptionSourceName": "KUN 社区",
+      "descriptionMachine": true
     }
   },
   "staff": {
