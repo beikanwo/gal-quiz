@@ -29902,7 +29902,8 @@
             "PP -Pianissimo- 提线木偶的轮舞",
             "PP -ピアニッシモ- 操リ人形ノ輪舞",
             "PP -Pianissimo- Ayatsuri Ningyou no Rinbu",
-            "Rondo Del Burattino"
+            "Rondo Del Burattino",
+            "PP -Pianissimo- 提线木偶之轮舞"
           ],
           "released": "2006-09-29",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v564/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/98/77298.jpg\" data-cover-full=\"https://t.vndb.org/cv/98/77298.jpg\" alt=\"PP -Pianissimo- 提线木偶的轮舞封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>PP -Pianissimo- 提线木偶的轮舞</h3><p>Innocent Grey</p><div class=\"card-heat muted\">2006-09-29</div></a></article>"
@@ -29936,7 +29937,8 @@
             "蒐集者～コレクター～",
             "Shuushuusha ~Collector~",
             "しゅうしゅうしゃ ～これくたー～",
-            "蒐集者（しゅうしゅうしゃ）～コレクター～"
+            "蒐集者（しゅうしゅうしゃ）～コレクター～",
+            "搜集者～收藏家～"
           ],
           "released": "2001-07-19",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v4660/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/41/131841.jpg\" data-cover-full=\"https://t.vndb.org/cv/41/131841.jpg\" alt=\"蒐集者～コレクター～封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>蒐集者～コレクター～</h3><p>ミンク</p><div class=\"card-heat muted\">2001-07-19</div></a></article>"
@@ -30014,7 +30016,8 @@
             "少女魔法学 リトルウィッチロマネスク",
             "少女魔法学 リトルウィッチロマネスク",
             "Shoujo Mahou Gaku: Little Witch Romanesque",
-            "Girlish Grimoire Littlewitch Romanesque"
+            "Girlish Grimoire Littlewitch Romanesque",
+            "少女魔法学小魔女浪漫史 editio perfecta"
           ],
           "released": "2005-07-29",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v575/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/49/120649.jpg\" data-cover-full=\"https://t.vndb.org/cv/49/120649.jpg\" alt=\"少女魔法学 リトルウィッチロマネスク封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>少女魔法学 リトルウィッチロマネスク</h3><p>リトルウィッチ</p><div class=\"card-heat muted\">2005-07-29</div></a></article>"
@@ -30045,7 +30048,9 @@
           "aliases": [
             "対魔忍紅",
             "対魔忍紅",
-            "Taimanin Kurenai"
+            "Taimanin Kurenai",
+            "対魔忍 紅",
+            "对魔忍 红"
           ],
           "released": "2015-09-25",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v17708/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>対魔忍紅</span></div><h3>対魔忍紅</h3><p>Black Lilith</p><div class=\"card-heat muted\">2015-09-25</div></a></article>"
@@ -30055,7 +30060,8 @@
           "aliases": [
             "対魔忍アサギZERO",
             "対魔忍アサギZERO",
-            "Taimanin Asagi ZERO"
+            "Taimanin Asagi ZERO",
+            "对魔忍阿莎姬 ZERO"
           ],
           "released": "2018-08-31",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v18712/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>対魔忍アサギZERO</span></div><h3>対魔忍アサギZERO</h3><p>Black Lilith</p><div class=\"card-heat muted\">2018-08-31</div></a></article>"
@@ -30065,7 +30071,8 @@
           "aliases": [
             "初恋サンカイメ",
             "初恋サンカイメ",
-            "Hatsukoi Sankaime"
+            "Hatsukoi Sankaime",
+            "第三次初恋"
           ],
           "released": "2016-12-22",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v19737/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/42/89142.jpg\" data-cover-full=\"https://t.vndb.org/cv/42/89142.jpg\" alt=\"初恋サンカイメ封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>初恋サンカイメ</h3><p>ういんどみる</p><div class=\"card-heat muted\">2016-12-22</div></a></article>"
@@ -30076,7 +30083,8 @@
             "僕のエルフお姉さん",
             "僕のエルフお姉さん",
             "Boku no Elf Onee-san",
-            "My elf elder sister."
+            "My elf elder sister.",
+            "我的精灵大姐姐"
           ],
           "released": "2016-12-23",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v19824/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>僕のエルフお姉さん</span></div><h3>僕のエルフお姉さん</h3><p>Black Lilith</p><div class=\"card-heat muted\">2016-12-23</div></a></article>"
@@ -30099,7 +30107,8 @@
             "Doll～ウロボロス2～",
             "Doll～ウロボロス2～",
             "Doll ~Uroboros 2~",
-            "Doll 3"
+            "Doll 3",
+            "Doll～衔尾蛇2～"
           ],
           "released": "2001-11-16",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v2276/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv/49/2749.jpg\" alt=\"Doll～ウロボロス2～封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>Doll～ウロボロス2～</h3><p>Forester</p><div class=\"card-heat muted\">2001-11-16</div></a></article>"
@@ -30140,7 +30149,8 @@
             "Doll ～伝承の力～",
             "Doll ～伝承の力～",
             "Doll ~Denshou no Chikara~",
-            "ドール"
+            "ドール",
+            "Doll ～传承之力～"
           ],
           "released": "1999-07-23",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v4801/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>Doll ～伝承の力～</span></div><h3>Doll ～伝承の力～</h3><p>Forester</p><div class=\"card-heat muted\">1999-07-23</div></a></article>"
@@ -30151,7 +30161,8 @@
             "DOLL～ウロボロスに名を連ねる者～",
             "DOLL～ウロボロスに名を連ねる者～",
             "Doll ~Uroboros ni Na o Tsuraneru Mono~",
-            "Doll 2"
+            "Doll 2",
+            "DOLL～名列衔尾蛇之人～"
           ],
           "released": "2001-06-22",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v4841/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/03/134203.jpg\" data-cover-full=\"https://t.vndb.org/cv/03/134203.jpg\" alt=\"DOLL～ウロボロスに名を連ねる者～封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>DOLL～ウロボロスに名を連ねる者～</h3><p>Forester</p><div class=\"card-heat muted\">2001-06-22</div></a></article>"
@@ -30161,7 +30172,8 @@
           "aliases": [
             "学園Z～淫蕩女教師の陰謀～",
             "学園Z～淫蕩女教師の陰謀～",
-            "Gakuen Z ~Intou Onna Kyoushi no Inbou~"
+            "Gakuen Z ~Intou Onna Kyoushi no Inbou~",
+            "学园Z～淫荡女教师的阴谋～"
           ],
           "released": "2000-12-22",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v14481/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/17/139817.jpg\" data-cover-full=\"https://t.vndb.org/cv/17/139817.jpg\" alt=\"学園Z～淫蕩女教師の陰謀～封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>学園Z～淫蕩女教師の陰謀～</h3><p>Forester</p><div class=\"card-heat muted\">2000-12-22</div></a></article>"
@@ -30171,7 +30183,8 @@
           "aliases": [
             "鈍色のバタフライ",
             "鈍色のバタフライ",
-            "Nibiiro no Butterfly"
+            "Nibiiro no Butterfly",
+            "钝色的蝴蝶"
           ],
           "released": "2010-08-18",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v12514/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv/06/34106.jpg\" alt=\"鈍色のバタフライ封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>鈍色のバタフライ</h3><p>有限会社マジテック</p><div class=\"card-heat muted\">2010-08-18</div></a></article>"
@@ -30184,7 +30197,8 @@
             "D.M.L.C.-デスマッチラブコメ-",
             "D.M.L.C. -Death Match Love Comedy-",
             "D.M.L.C.！歡鬧炸戀生死鬥",
-            "Death Match Love Come"
+            "Death Match Love Come",
+            "死亡竞赛爱情喜剧！"
           ],
           "released": "2013-04-24",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v15053/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/05/84605.jpg\" data-cover-full=\"https://t.vndb.org/cv/05/84605.jpg\" alt=\"D.M.L.C.！ 欢闹炸恋生死斗封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>D.M.L.C.！ 欢闹炸恋生死斗</h3><p>株式会社ケムコ</p><div class=\"card-heat muted\">2013-04-24</div></a></article>"
@@ -30206,7 +30220,8 @@
             "黒のコマンドメント",
             "黒のコマンドメント",
             "Kuro no Commandment",
-            "黒の令達"
+            "黒の令達",
+            "黑色传令"
           ],
           "released": "2014-02-17",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v22286/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv/14/34114.jpg\" alt=\"黒のコマンドメント封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>黒のコマンドメント</h3><p>株式会社ケムコ</p><div class=\"card-heat muted\">2014-02-17</div></a></article>"
@@ -30219,7 +30234,8 @@
             "Saiaku Naru Saiyaku Ningen ni Sasagu",
             "さささぐ",
             "Sasasagu",
-            "献给最糟的灾厄之人"
+            "献给最糟的灾厄之人",
+            "献给最不幸的灾厄之人"
           ],
           "released": "2018-08-22",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v23077/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/56/131256.jpg\" data-cover-full=\"https://t.vndb.org/cv/56/131256.jpg\" alt=\"最悪なる災厄人間に捧ぐ封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>最悪なる災厄人間に捧ぐ</h3><p>株式会社ケムコ / ウォーターフェニックス</p><div class=\"card-heat muted\">2018-08-22</div></a></article>"
@@ -30238,7 +30254,8 @@
           "aliases": [
             "千里の棋譜",
             "千里の棋譜",
-            "Senri no Kifu"
+            "Senri no Kifu",
+            "千里的棋谱"
           ],
           "released": "2015-07-08",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v26903/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/25/85425.jpg\" data-cover-full=\"https://t.vndb.org/cv/25/85425.jpg\" alt=\"千里の棋譜封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>千里の棋譜</h3><p>Child Dream / 株式会社ミスタ・ストーリーズ</p><div class=\"card-heat muted\">2015-07-08</div></a></article>"
@@ -30251,7 +30268,8 @@
             "Archetype Arcadia",
             "Akiaka",
             "Arc2",
-            "アキアカ"
+            "アキアカ",
+            "原初理想乡"
           ],
           "released": "2021-10-21",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v31580/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/32/80132.jpg\" data-cover-full=\"https://t.vndb.org/cv/32/80132.jpg\" alt=\"アーキタイプ・アーカディア封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>アーキタイプ・アーカディア</h3><p>株式会社ケムコ / ウォーターフェニックス</p><div class=\"card-heat muted\">2021-10-21</div></a></article>"
@@ -30272,7 +30290,8 @@
             "時空の旅人",
             "時空の旅人",
             "Toki no Tabibito",
-            "Time Stranger"
+            "Time Stranger",
+            "时空旅人"
           ],
           "released": "1986-12-26",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v4603/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv/70/5670.jpg\" alt=\"時空の旅人封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>時空の旅人</h3><p>株式会社ケムコ</p><div class=\"card-heat muted\">1986-12-26</div></a></article>"
@@ -30293,7 +30312,8 @@
             "アマカノ",
             "アマカノ",
             "Amakano",
-            "甜蜜女友"
+            "甜蜜女友",
+            "甜蜜女友1"
           ],
           "released": "2014-12-19",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v15679/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/12/96612.jpg\" data-cover-full=\"https://t.vndb.org/cv/12/96612.jpg\" alt=\"アマカノ封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>アマカノ</h3><p>あざらしそふと</p><div class=\"card-heat muted\">2014-12-19</div></a></article>"
@@ -30304,7 +30324,8 @@
             "アマカノ+",
             "アマカノ+",
             "Amakano+",
-            "甜蜜女友+"
+            "甜蜜女友+",
+            "甜蜜女友1＋"
           ],
           "released": "2016-12-22",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v19810/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/64/111564.jpg\" data-cover-full=\"https://t.vndb.org/cv/64/111564.jpg\" alt=\"アマカノ+封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>アマカノ+</h3><p>あざらしそふと</p><div class=\"card-heat muted\">2016-12-22</div></a></article>"
@@ -30315,7 +30336,9 @@
             "D.C. Girl’s Symphony～ダ・カーポ～ガールズ シンフォニー",
             "D.C. Girl’s Symphony～ダ・カーポ～ガールズ シンフォニー",
             "D.C. Girl's Symphony ~Da Capo Girl's Symphony~",
-            "DCGS"
+            "DCGS",
+            "D.C~少女恋色交响曲",
+            "D.C~少女戀色交響曲"
           ],
           "released": "2008-09-26",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v969/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/36/152636.jpg\" data-cover-full=\"https://t.vndb.org/cv/36/152636.jpg\" alt=\"D.C. Girl’s Symphony～ダ・カーポ～ガールズ シンフォニー封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>D.C. Girl’s Symphony～ダ・カーポ～ガールズ シンフォニー</h3><p>Sanctuary / 株式会社RED FLAGSHIP</p><div class=\"card-heat muted\">2008-09-26</div></a></article>"
@@ -30328,7 +30351,8 @@
             "Under the Moon ～つきいろ絵本～",
             "Under the Moon ~Tsukiiro Ehon~",
             "アンダー ザ ムーン",
-            "Under the Moon ～月色绘本～"
+            "Under the Moon ～月色绘本～",
+            "Under the Moon：月色绘本"
           ],
           "released": "2007-08-24",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v1283/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/85/84985.jpg\" data-cover-full=\"https://t.vndb.org/cv/85/84985.jpg\" alt=\"Under the Moon ～月色繪本～封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>Under the Moon ～月色繪本～</h3><p>シュガービーンズ</p><div class=\"card-heat muted\">2007-08-24</div></a></article>"
@@ -30339,7 +30363,8 @@
             "いじわるMyMaster",
             "いじわるMyMaster",
             "Ijiwaru MyMaster",
-            "Cruel MyMaster"
+            "Cruel MyMaster",
+            "我的坏心主人"
           ],
           "released": "2008-03-28",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v1289/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv/58/61358.jpg\" alt=\"いじわるMyMaster封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>いじわるMyMaster</h3><p>シュガービーンズ</p><div class=\"card-heat muted\">2008-03-28</div></a></article>"
@@ -30353,7 +30378,8 @@
             "Love☆Drops ~Miracle Doukyo Monogatari~",
             "Love Drops",
             "らぶ☆どろ",
-            "Love☆Drops～不可思议同居物语～"
+            "Love☆Drops～不可思议同居物语～",
+            "Love☆Drops：奇迹同居物语"
           ],
           "released": "2006-03-03",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v1405/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv/31/47031.jpg\" alt=\"Love☆Drops～不可思議同居物語～封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>Love☆Drops～不可思議同居物語～</h3><p>シュガービーンズ</p><div class=\"card-heat muted\">2006-03-03</div></a></article>"
@@ -30374,7 +30400,8 @@
             "赤ずきんと迷いの森",
             "赤ずきんと迷いの森",
             "Akazukin to Mayoi no Mori",
-            "Red Riding Hood and the Lost Forest"
+            "Red Riding Hood and the Lost Forest",
+            "小红帽与迷失的森林"
           ],
           "released": "2011-05-20",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v6256/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv/98/48898.jpg\" alt=\"赤ずきんと迷いの森封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>赤ずきんと迷いの森</h3><p>キャラメリアトルテ</p><div class=\"card-heat muted\">2011-05-20</div></a></article>"
@@ -30385,7 +30412,8 @@
             "妹選抜☆総選挙 ～365人の妹いちゃラブマニフェスト～",
             "妹選抜☆総選挙 ～365人の妹いちゃラブマニフェスト～",
             "Imouto Senbatsu☆Sousenkyo ~365-nin no Imouto Icha Love Manifest~",
-            "Imosen"
+            "Imosen",
+            "妹选拔总选举"
           ],
           "released": "2011-12-22",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v8037/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/09/139209.jpg\" data-cover-full=\"https://t.vndb.org/cv/09/139209.jpg\" alt=\"妹選抜☆総選挙 ～365人の妹いちゃラブマニフェスト～封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>妹選抜☆総選挙 ～365人の妹いちゃラブマニフェスト～</h3><p>Latte</p><div class=\"card-heat muted\">2011-12-22</div></a></article>"
@@ -30395,7 +30423,8 @@
           "aliases": [
             "トリック・オア・アリス",
             "トリック・オア・アリス",
-            "Trick or Alice"
+            "Trick or Alice",
+            "不给糖就捣蛋·爱丽丝"
           ],
           "released": "2012-08-04",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v8820/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/74/95974.jpg\" data-cover-full=\"https://t.vndb.org/cv/74/95974.jpg\" alt=\"トリック・オア・アリス封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>トリック・オア・アリス</h3><p>little cheese</p><div class=\"card-heat muted\">2012-08-04</div></a></article>"
@@ -30406,7 +30435,8 @@
             "戦国†恋姫～乙女絢爛☆戦国絵巻～",
             "戦国†恋姫～乙女絢爛☆戦国絵巻～",
             "Sengoku † Koihime ~Otome Kenran ☆ Sengoku Emaki~",
-            "Senkoi"
+            "Senkoi",
+            "战国恋姬"
           ],
           "released": "2013-12-20",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v13188/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/73/97773.jpg\" data-cover-full=\"https://t.vndb.org/cv/73/97773.jpg\" alt=\"戦国†恋姫～乙女絢爛☆戦国絵巻～封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>戦国†恋姫～乙女絢爛☆戦国絵巻～</h3><p>ベースソン</p><div class=\"card-heat muted\">2013-12-20</div></a></article>"
@@ -30466,7 +30496,9 @@
           "aliases": [
             "学食のおばさん～母さんの汁の味～",
             "学食のおばさん～母さんの汁の味～",
-            "Gakushoku no Oba-san ~Kaa-san no Shiru no Aji~"
+            "Gakushoku no Oba-san ~Kaa-san no Shiru no Aji~",
+            "学食のおばさん The Motion～母さんの汁の味～",
+            "食堂大妈 The Motion～妈妈汁液的味道～"
           ],
           "released": "2007-12-21",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v2472/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>学食のおばさん～母さんの汁の味～</span></div><h3>学食のおばさん～母さんの汁の味～</h3><p>Guilty+</p><div class=\"card-heat muted\">2007-12-21</div></a></article>"
@@ -30476,7 +30508,9 @@
           "aliases": [
             "癒しん母～世界で一番好きなひと～",
             "癒しん母～世界で一番好きなひと～",
-            "Iyashinbo ~Sekai de Ichiban Suki na Hito~"
+            "Iyashinbo ~Sekai de Ichiban Suki na Hito~",
+            "癒しん母～世界で一番好きなひと～ The Motion",
+            "治愈之母～世界上最喜欢的人～ The Motion"
           ],
           "released": "2007-06-22",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v2971/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>癒しん母～世界で一番好きなひと～</span></div><h3>癒しん母～世界で一番好きなひと～</h3><p>Guilty+</p><div class=\"card-heat muted\">2007-06-22</div></a></article>"
@@ -30486,7 +30520,9 @@
           "aliases": [
             "熟母喰い ～元グラドルのお母さん～",
             "熟母喰い ～元グラドルのお母さん～",
-            "Jukubo Gui ~Moto Gradol no Okaa-san~"
+            "Jukubo Gui ~Moto Gradol no Okaa-san~",
+            "Jukubo Gui ~Moto Guradoru no Okaa-san~",
+            "吞噬熟母 ～前写真偶像的妈妈～"
           ],
           "released": "2007-01-19",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v3358/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>熟母喰い ～元グラドルのお母さん～</span></div><h3>熟母喰い ～元グラドルのお母さん～</h3><p>Guilty+</p><div class=\"card-heat muted\">2007-01-19</div></a></article>"
@@ -30496,7 +30532,8 @@
           "aliases": [
             "親戚の小母さん～離れの熟女、本家の後妻～",
             "親戚の小母さん～離れの熟女、本家の後妻～",
-            "Shinseki no Oba-san ~Hanare no Netsujo, Honke no Gosai~"
+            "Shinseki no Oba-san ~Hanare no Netsujo, Honke no Gosai~",
+            "亲戚的伯母～别院的熟女、本家的后妻～"
           ],
           "released": "2006-03-31",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v4399/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>親戚の小母さん～離れの熟女、本家の後妻～</span></div><h3>親戚の小母さん～離れの熟女、本家の後妻～</h3><p>Guilty+</p><div class=\"card-heat muted\">2006-03-31</div></a></article>"
@@ -30506,7 +30543,8 @@
           "aliases": [
             "クラスメイトのお母さん -Immoral Teacher-",
             "クラスメイトのお母さん -Immoral Teacher-",
-            "Classmate no Okaa-san -Immoral Teacher-"
+            "Classmate no Okaa-san -Immoral Teacher-",
+            "同班同学的妈妈 -Immoral Teacher-"
           ],
           "released": "2006-08-04",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v5862/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>クラスメイトのお母さん -Immoral Teacher-</span></div><h3>クラスメイトのお母さん -Immoral Teacher-</h3><p>Guilty+</p><div class=\"card-heat muted\">2006-08-04</div></a></article>"
@@ -30516,7 +30554,9 @@
           "aliases": [
             "Vampire Sweetie",
             "Vampire Sweetie",
-            "ヴァンパイアスウィーティ"
+            "ヴァンパイアスウィーティ",
+            "VAMPIRE SWEETIE",
+            "与吸血鬼的恋爱"
           ],
           "released": "2012-04-27",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v5128/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv/73/48473.jpg\" alt=\"Vampire Sweetie封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>Vampire Sweetie</h3><p>シュガービーンズ</p><div class=\"card-heat muted\">2012-04-27</div></a></article>"
@@ -30561,7 +30601,8 @@
             "SonoHana 2",
             "花吻在上2",
             "亲吻那片花瓣2",
-            "Kissing the petal 2 My dear prince"
+            "Kissing the petal 2 My dear prince",
+            "花吻在上2~亲吻我的花瓣~我的王子大人"
           ],
           "released": "2007-05-29",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v922/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/70/92670.jpg\" data-cover-full=\"https://t.vndb.org/cv/70/92670.jpg\" alt=\"花吻在上-我的王子大人封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>花吻在上-我的王子大人</h3><p>ふぐり屋</p><div class=\"card-heat muted\">2007-05-29</div></a></article>"
@@ -30579,7 +30620,8 @@
             "SonoHana 3",
             "亲吻那片花瓣3",
             "花吻在上3",
-            "Kissing the petal 3 Join by a hand like a lover"
+            "Kissing the petal 3 Join by a hand like a lover",
+            "花吻在上3~亲吻那片花瓣 ～恋人的羁绊～"
           ],
           "released": "2007-07-14",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v925/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>亲吻那片花瓣 ～恋人的羁绊～</span></div><h3>亲吻那片花瓣 ～恋人的羁绊～</h3><p>ふぐり屋</p><div class=\"card-heat muted\">2007-07-14</div></a></article>"
@@ -30596,7 +30638,8 @@
             "SonoHana 4",
             "亲吻那片花瓣4",
             "花吻在上4",
-            "Kissing the petal 4 Photograph of dear"
+            "Kissing the petal 4 Photograph of dear",
+            "花吻在上4~亲吻那片花瓣 ～珍爱的相片～"
           ],
           "released": "2008-06-06",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v926/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>亲吻那片花瓣 ～珍爱的相片～</span></div><h3>亲吻那片花瓣 ～珍爱的相片～</h3><p>ふぐり屋</p><div class=\"card-heat muted\">2008-06-06</div></a></article>"
@@ -30611,7 +30654,8 @@
             "A Kiss For The Petals - The Joy Of Loving You",
             "SonoHana 5",
             "亲吻那片花瓣5",
-            "花吻在上5"
+            "花吻在上5",
+            "花吻在上5~亲吻那片花瓣 ～爱上你的幸福～"
           ],
           "released": "2008-07-25",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v938/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>亲吻那片花瓣 ～爱上你的幸福～</span></div><h3>亲吻那片花瓣 ～爱上你的幸福～</h3><p>ふぐり屋</p><div class=\"card-heat muted\">2008-07-25</div></a></article>"
@@ -30631,7 +30675,8 @@
           "aliases": [
             "あまからツインズ～双姉といっしょ～",
             "あまからツインズ～双姉といっしょ～",
-            "Amakara Twins ~Futanee to Issho~"
+            "Amakara Twins ~Futanee to Issho~",
+            "又甜又辣双胞胎～和双姐姐在一起～"
           ],
           "released": "2006-09-08",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v1531/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>あまからツインズ～双姉といっしょ～</span></div><h3>あまからツインズ～双姉といっしょ～</h3><p>あねせん</p><div class=\"card-heat muted\">2006-09-08</div></a></article>"
@@ -30641,7 +30686,8 @@
           "aliases": [
             "秋のうららの外伝 まゆのおさな妻日記",
             "秋のうららの外伝 まゆのおさな妻日記",
-            "Aki no Urara no Gaiden Mayu no Osanazuma Nikki"
+            "Aki no Urara no Gaiden Mayu no Osanazuma Nikki",
+            "真由的幼妻日记"
           ],
           "released": "2007-08-17",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v1853/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>秋のうららの外伝 まゆのおさな妻日記</span></div><h3>秋のうららの外伝 まゆのおさな妻日記</h3><p>ブルームハンドル</p><div class=\"card-heat muted\">2007-08-17</div></a></article>"
@@ -30657,7 +30703,8 @@
             "Kissing the Petal: A Whisper with Lips and Kisses",
             "SonoHana 6",
             "亲吻那片花瓣6",
-            "花吻在上6"
+            "花吻在上6",
+            "花吻在上6~亲吻那片花瓣~呢喃的双唇"
           ],
           "released": "2008-12-05",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v2511/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>亲吻那片花瓣 呢喃的双唇</span></div><h3>亲吻那片花瓣 呢喃的双唇</h3><p>ふぐり屋</p><div class=\"card-heat muted\">2008-12-05</div></a></article>"
@@ -30667,7 +30714,8 @@
           "aliases": [
             "優姉といっしょ",
             "優姉といっしょ",
-            "Yuu-nee to Issho"
+            "Yuu-nee to Issho",
+            "与优姐一起"
           ],
           "released": "2005-07-01",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v2653/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>優姉といっしょ</span></div><h3>優姉といっしょ</h3><p>あねせん</p><div class=\"card-heat muted\">2005-07-01</div></a></article>"
@@ -30677,7 +30725,8 @@
           "aliases": [
             "は～とぶれいく　～恋のトライアングル注意報～",
             "は～とぶれいく　～恋のトライアングル注意報～",
-            "Heartbreak ~Koi no Triangle Chuuihou~"
+            "Heartbreak ~Koi no Triangle Chuuihou~",
+            "心碎　～恋爱三角注意报～"
           ],
           "released": "2005-05-20",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v2781/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv/64/3364.jpg\" alt=\"は～とぶれいく　～恋のトライアングル注意報～封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>は～とぶれいく　～恋のトライアングル注意報～</h3><p>パティスリー</p><div class=\"card-heat muted\">2005-05-20</div></a></article>"
@@ -30693,7 +30742,8 @@
             "SonoHana 7",
             "亲吻那片花瓣7",
             "花吻在上7",
-            "Kissing the Petal: sweet, desirable and melting kiss"
+            "Kissing the Petal: sweet, desirable and melting kiss",
+            "花吻在上7~亲吻那片花瓣 甜蜜相思的融化之吻"
           ],
           "released": "2009-12-11",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v3031/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>亲吻那片花瓣 甜蜜相思的融化之吻</span></div><h3>亲吻那片花瓣 甜蜜相思的融化之吻</h3><p>ふぐり屋</p><div class=\"card-heat muted\">2009-12-11</div></a></article>"
@@ -30709,7 +30759,9 @@
             "SonoHana 8",
             "花吻在上8",
             "亲吻那片花瓣8",
-            "Kissing the Petal: Petal-colored angel"
+            "Kissing the Petal: Petal-colored angel",
+            "花吻在上8~亲吻那片花瓣~天使的花之吻痕",
+            "その花びらにくちづけを　天使の花びら染め"
           ],
           "released": "2010-02-12",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v3413/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>花吻在上~天使的花之吻痕</span></div><h3>花吻在上~天使的花之吻痕</h3><p>ふぐり屋</p><div class=\"card-heat muted\">2010-02-12</div></a></article>"
@@ -30719,7 +30771,8 @@
           "aliases": [
             "はなひらっ！",
             "はなひらっ！",
-            "Hanahira!"
+            "Hanahira!",
+            "花瓣!"
           ],
           "released": "2010-09-25",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v5244/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/81/139581.jpg\" data-cover-full=\"https://t.vndb.org/cv/81/139581.jpg\" alt=\"はなひらっ！封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>はなひらっ！</h3><p>ふぐり屋 / ゆりんゆりん</p><div class=\"card-heat muted\">2010-09-25</div></a></article>"
@@ -30735,7 +30788,8 @@
             "SonoHana 9",
             "亲吻那片花瓣9",
             "花吻在上9",
-            "Kissing the Petal: Melting hot adult kiss"
+            "Kissing the Petal: Melting hot adult kiss",
+            "花吻在上9~亲吻那片花瓣 甜蜜成熟的融化之吻"
           ],
           "released": "2010-11-29",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v5744/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>亲吻那片花瓣 甜蜜成熟的融化之吻</span></div><h3>亲吻那片花瓣 甜蜜成熟的融化之吻</h3><p>ふぐり屋</p><div class=\"card-heat muted\">2010-11-29</div></a></article>"
@@ -30758,7 +30812,8 @@
             "しろのぴかぴかお星さま",
             "しろのぴかぴかお星さま",
             "Shiro no Pikapika Ohoshi-sama",
-            "Shiropika"
+            "Shiropika",
+            "白之闪亮小星星"
           ],
           "released": "2013-01-25",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v11070/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/88/101588.jpg\" data-cover-full=\"https://t.vndb.org/cv/88/101588.jpg\" alt=\"しろのぴかぴかお星さま封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>しろのぴかぴかお星さま</h3><p>Sweetlight</p><div class=\"card-heat muted\">2013-01-25</div></a></article>"
@@ -30768,7 +30823,8 @@
           "aliases": [
             "杜氏の郷",
             "杜氏の郷",
-            "Touji no Sato"
+            "Touji no Sato",
+            "杜氏之乡"
           ],
           "released": "2004-11-26",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v514/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/16/144216.jpg\" data-cover-full=\"https://t.vndb.org/cv/16/144216.jpg\" alt=\"杜氏の郷封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>杜氏の郷</h3><p>ハートブリング</p><div class=\"card-heat muted\">2004-11-26</div></a></article>"
@@ -30778,7 +30834,8 @@
           "aliases": [
             "こなゆき ふるり　～柚子原町カーリング部～",
             "こなゆき ふるり　～柚子原町カーリング部～",
-            "Konayuki Fururi ~Yuzuhara-chou Curling-bu~"
+            "Konayuki Fururi ~Yuzuhara-chou Curling-bu~",
+            "粉雪飘飘　～柚子原町冰壶部～"
           ],
           "released": "2008-03-28",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v1248/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/11/109211.jpg\" data-cover-full=\"https://t.vndb.org/cv/11/109211.jpg\" alt=\"こなゆき ふるり　～柚子原町カーリング部～封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>こなゆき ふるり　～柚子原町カーリング部～</h3><p>ブルームハンドル</p><div class=\"card-heat muted\">2008-03-28</div></a></article>"
@@ -30788,7 +30845,8 @@
           "aliases": [
             "はぴとら－HappyTransportation－",
             "はぴとら－HappyTransportation－",
-            "Hapitora -Happy Transportation-"
+            "Hapitora -Happy Transportation-",
+            "幸福运输－HappyTransportation－"
           ],
           "released": "2009-09-25",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v2514/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>はぴとら－HappyTransportation－</span></div><h3>はぴとら－HappyTransportation－</h3><p>ブルームハンドル</p><div class=\"card-heat muted\">2009-09-25</div></a></article>"
@@ -30798,7 +30856,8 @@
           "aliases": [
             "はぴとら 外伝 アイナの新婚日記",
             "はぴとら 外伝 アイナの新婚日記",
-            "Hapitora Gaiden Aina no Shinkon Nikki"
+            "Hapitora Gaiden Aina no Shinkon Nikki",
+            "幸福运输 外传 爱奈的新婚日记"
           ],
           "released": "2010-01-22",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v3252/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>はぴとら 外伝 アイナの新婚日記</span></div><h3>はぴとら 外伝 アイナの新婚日記</h3><p>ブルームハンドル</p><div class=\"card-heat muted\">2010-01-22</div></a></article>"
@@ -30808,7 +30867,8 @@
           "aliases": [
             "こなゆき ふるり～柚子原町カーリング部～ 外伝 冴子の通い妻日記",
             "こなゆき ふるり～柚子原町カーリング部～ 外伝 冴子の通い妻日記",
-            "Konayuki Fururi ~Yuzuhara-chou Curling-Bu~ Gaiden: Saeko no Kayoizuma Nikki"
+            "Konayuki Fururi ~Yuzuhara-chou Curling-Bu~ Gaiden: Saeko no Kayoizuma Nikki",
+            "粉雪飘飘～柚子原町冰壶部～ 外传 冴子的通勤妻日记"
           ],
           "released": "2008-08-29",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v4039/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/15/109215.jpg\" data-cover-full=\"https://t.vndb.org/cv/15/109215.jpg\" alt=\"こなゆき ふるり～柚子原町カーリング部～ 外伝 冴子の通い妻日記封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>こなゆき ふるり～柚子原町カーリング部～ 外伝 冴子の通い妻日記</h3><p>ブルームハンドル</p><div class=\"card-heat muted\">2008-08-29</div></a></article>"
@@ -30819,7 +30879,9 @@
             "波の間に間に～さざなみ診療所～",
             "波の間に間に～さざなみ診療所～",
             "Nami no Mani Mani ~Sazanami Shinryoujo~",
-            "波の間に間に　+ぷらす"
+            "波の間に間に　+ぷらす",
+            "波与波之间",
+            "波與波之間"
           ],
           "released": "2006-01-27",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v4131/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/16/109216.jpg\" data-cover-full=\"https://t.vndb.org/cv/16/109216.jpg\" alt=\"波の間に間に～さざなみ診療所～封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>波の間に間に～さざなみ診療所～</h3><p>ブルームハンドル</p><div class=\"card-heat muted\">2006-01-27</div></a></article>"
@@ -30829,7 +30891,8 @@
           "aliases": [
             "沙紀のらぶらぶはねむーん",
             "沙紀のらぶらぶはねむーん",
-            "Saki no Love Love Honeymoon"
+            "Saki no Love Love Honeymoon",
+            "沙纪的甜蜜蜜月"
           ],
           "released": "2004-05-31",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v5072/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/62/143862.jpg\" data-cover-full=\"https://t.vndb.org/cv/62/143862.jpg\" alt=\"沙紀のらぶらぶはねむーん封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>沙紀のらぶらぶはねむーん</h3><p>D.O.</p><div class=\"card-heat muted\">2004-05-31</div></a></article>"
@@ -30840,7 +30903,8 @@
             "桜待坂Stories Vol.2「せんせいがおしえてあげる！」",
             "桜待坂Stories Vol.2「せんせいがおしえてあげる！」",
             "Sakura Machizaka Stories Vol. 2 \"Sensei ga Oshiete Ageru!\"",
-            "せんせいがおしえてあげる 桜待坂 Stories Vol.2"
+            "せんせいがおしえてあげる 桜待坂 Stories Vol.2",
+            "樱待坂Stories Vol.2「老师来教你！"
           ],
           "released": "2005-06-24",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v5544/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/97/148397.jpg\" data-cover-full=\"https://t.vndb.org/cv/97/148397.jpg\" alt=\"桜待坂Stories Vol.2「せんせいがおしえてあげる！」封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>桜待坂Stories Vol.2「せんせいがおしえてあげる！」</h3><p>ivory</p><div class=\"card-heat muted\">2005-06-24</div></a></article>"
@@ -30850,7 +30914,8 @@
           "aliases": [
             "波の間に間に 外伝 裕美子さんの新婚日記",
             "波の間に間に 外伝 裕美子さんの新婚日記",
-            "Nami no Mani Mani Gaiden Yumiko-san no Shinkon Nikki"
+            "Nami no Mani Mani Gaiden Yumiko-san no Shinkon Nikki",
+            "波与波之间 外传 裕美子的新婚日记"
           ],
           "released": "2006-12-29",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v6344/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>波の間に間に 外伝 裕美子さんの新婚日記</span></div><h3>波の間に間に 外伝 裕美子さんの新婚日記</h3><p>ブルームハンドル</p><div class=\"card-heat muted\">2006-12-29</div></a></article>"
@@ -30860,7 +30925,8 @@
           "aliases": [
             "れすとあ",
             "れすとあ",
-            "Restore"
+            "Restore",
+            "还原"
           ],
           "released": "2003-06-27",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v6463/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/48/143848.jpg\" data-cover-full=\"https://t.vndb.org/cv/48/143848.jpg\" alt=\"れすとあ封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>れすとあ</h3><p>D.O.</p><div class=\"card-heat muted\">2003-06-27</div></a></article>"
@@ -30886,7 +30952,8 @@
             "SonoHana 10",
             "亲吻那片花瓣10",
             "花吻在上10",
-            "Kissing the Petal: Lily platinum"
+            "Kissing the Petal: Lily platinum",
+            "花吻在上10~亲吻那片花瓣 莉莉·白金"
           ],
           "released": "2011-11-18",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v8434/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>亲吻那片花瓣 莉莉·白金</span></div><h3>亲吻那片花瓣 莉莉·白金</h3><p>ふぐり屋</p><div class=\"card-heat muted\">2011-11-18</div></a></article>"
@@ -30901,7 +30968,8 @@
             "A Kiss For The Petals - Maidens of Michael",
             "SonoHana 11",
             "亲吻那片花瓣11",
-            "花吻在上11"
+            "花吻在上11",
+            "花吻在上11~亲吻那片花瓣～米卡艾尔的少女们"
           ],
           "released": "2012-11-30",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v10700/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/51/104751.jpg\" data-cover-full=\"https://t.vndb.org/cv/51/104751.jpg\" alt=\"亲吻那片花瓣：米迦勒的少女们封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>亲吻那片花瓣：米迦勒的少女们</h3><p>ゆりんゆりん</p><div class=\"card-heat muted\">2012-11-30</div></a></article>"
@@ -30914,7 +30982,8 @@
             "その花びらにくちづけを　アトリエの恋人たち",
             "Sono Hanabira ni Kuchizuke o: Atelier no Koibito-tachi",
             "A Kiss For The Petals - Lovers of the Atelier,",
-            "Sono Hanabira 12"
+            "Sono Hanabira 12",
+            "花吻在上12~亲吻那片花瓣~画室的恋人们"
           ],
           "released": "2013-03-29",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v12097/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>亲吻那片花瓣 画室的恋人们</span></div><h3>亲吻那片花瓣 画室的恋人们</h3><p>ゆりんゆりん</p><div class=\"card-heat muted\">2013-03-29</div></a></article>"
@@ -30924,7 +30993,8 @@
           "aliases": [
             "この部室は帰宅しない部が占拠しました。 ぽーたぶる 学園サマー・ウォーズ編",
             "この部室は帰宅しない部が占拠しました。 ぽーたぶる 学園サマー・ウォーズ編",
-            "Kono Bushitsu wa Kitaku Shinai Bu ga Senkyo Shimashita. Portable - Gakuen Summer Wars Hen"
+            "Kono Bushitsu wa Kitaku Shinai Bu ga Senkyo Shimashita. Portable - Gakuen Summer Wars Hen",
+            "这间活动室被不回家部占领了携带版 学园夏日战争篇"
           ],
           "released": "2012-08-02",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v12450/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>この部室は帰宅しない部が占拠しました。 ぽーたぶる 学園サマー・ウォーズ編</span></div><h3>この部室は帰宅しない部が占拠しました。 ぽーたぶる 学園サマー・ウォーズ編</h3><p>BOOST ON</p><div class=\"card-heat muted\">2012-08-02</div></a></article>"
@@ -30948,7 +31018,8 @@
             "Sono Hanabira ni Kuchizuke o: Shirayuki no Kishi",
             "Sono Hanabira 13 - Snow White Knight",
             "A Kiss For The Petals - Snow White's Knight",
-            "Sono Hanabira ni Kuchizuke o: Snow White Knight"
+            "Sono Hanabira ni Kuchizuke o: Snow White Knight",
+            "花吻在上 亲吻那片花瓣 ～白雪的骑士～"
           ],
           "released": "2013-12-20",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v12645/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv/80/16880.jpg\" alt=\"花吻在上 白雪骑士封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>花吻在上 白雪骑士</h3><p>ゆりんゆりん</p><div class=\"card-heat muted\">2013-12-20</div></a></article>"
@@ -30963,7 +31034,9 @@
             "Sono Hanabira 14 - My Sworn Love for You",
             "A Kiss For The Petals - My Sworn Love For You",
             "Kissing the Petal: I pledge my love to you",
-            "Sono Hanabira ni Kuchizuke o: My Sworn Love for You - English"
+            "Sono Hanabira ni Kuchizuke o: My Sworn Love for You - English",
+            "花吻在上17~亲吻那片花瓣~对你誓言的爱",
+            "親吻那片花瓣 與你誓約的愛"
           ],
           "released": "2014-05-23",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v15277/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>亲吻那片花瓣 对你誓言的爱</span></div><h3>亲吻那片花瓣 对你誓言的爱</h3><p>ふぐり屋</p><div class=\"card-heat muted\">2014-05-23</div></a></article>"
@@ -30978,7 +31051,8 @@
             "A Kiss For The Petals - Remembering How We Met",
             "親吻那片花瓣 回憶邂逅時",
             "A Kiss For The Petals - For Old Times' Sake",
-            "はなであ"
+            "はなであ",
+            "花吻在上18～亲吻那片花瓣～番外2 相遇时的回忆"
           ],
           "released": "2015-03-13",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v16263/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/26/77726.jpg\" data-cover-full=\"https://t.vndb.org/cv/26/77726.jpg\" alt=\"亲吻那片花瓣 回忆邂逅时封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>亲吻那片花瓣 回忆邂逅时</h3><p>聖ミカエル女子学園</p><div class=\"card-heat muted\">2015-03-13</div></a></article>"
@@ -30993,7 +31067,8 @@
             "Sono Hanabira - YuriCycle",
             "A Kiss For The Petals - Yuricycle",
             "Sono Hanabira ni Kuchiduke wo - Yuririn",
-            "Kissing the Petal: Yuririn"
+            "Kissing the Petal: Yuririn",
+            "花吻在上20～亲吻那片花瓣～番外3 悠铃铃～百合式自行车瘦身计划"
           ],
           "released": "2015-11-20",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v18666/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv/73/27273.jpg\" alt=\"亲吻那片花瓣 番外3 悠铃铃～百合式自行车瘦身计划封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>亲吻那片花瓣 番外3 悠铃铃～百合式自行车瘦身计划</h3><p>ふぐり屋</p><div class=\"card-heat muted\">2015-11-20</div></a></article>"
@@ -31004,7 +31079,8 @@
             "恋と恋するユートピア",
             "恋と恋するユートピア",
             "Koi to Koi Suru Utopia",
-            "Koipia"
+            "Koipia",
+            "恋爱与恋爱的乌托邦"
           ],
           "released": "2016-06-24",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v18696/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/80/111480.jpg\" data-cover-full=\"https://t.vndb.org/cv/80/111480.jpg\" alt=\"恋と恋するユートピア封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>恋と恋するユートピア</h3><p>らぶまてぃっく</p><div class=\"card-heat muted\">2016-06-24</div></a></article>"
@@ -31015,7 +31091,8 @@
             "みんなでニャンニャン",
             "みんなでニャンニャン",
             "Minna de Nyan Nyan",
-            "Let's Meow Meow!"
+            "Let's Meow Meow!",
+            "大家一起喵喵叫"
           ],
           "released": "2003-10-17",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v1/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>みんなでニャンニャン</span></div><h3>みんなでニャンニャン</h3><p>闇雲通信</p><div class=\"card-heat muted\">2003-10-17</div></a></article>"
@@ -31027,7 +31104,8 @@
             "性愛学園ふぇち科",
             "Seiai Gakuen Fechika",
             "Cosplay Fetish Academy",
-            "CFA"
+            "CFA",
+            "性爱学园恋物科"
           ],
           "released": "2005-02-25",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v154/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>性愛学園ふぇち科</span></div><h3>性愛学園ふぇち科</h3><p>せ・き・ら・ら</p><div class=\"card-heat muted\">2005-02-25</div></a></article>"
@@ -31037,7 +31115,8 @@
           "aliases": [
             "人形の館～淫夢に抱かれたメイドたち～",
             "人形の館～淫夢に抱かれたメイドたち～",
-            "Ningyou no Yakata ~Inmu ni Dakereta Maid-tachi~"
+            "Ningyou no Yakata ~Inmu ni Dakereta Maid-tachi~",
+            "人偶之馆～被淫梦拥抱的女仆们～"
           ],
           "released": "2002-10-25",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v1114/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>人形の館～淫夢に抱かれたメイドたち～</span></div><h3>人形の館～淫夢に抱かれたメイドたち～</h3><p>アトリエかぐや TEAM HEARTBEAT</p><div class=\"card-heat muted\">2002-10-25</div></a></article>"
@@ -31049,7 +31128,8 @@
             "弄ing～もてあそばれたい～",
             "Moteasobing ~Moteasobaretai~",
             "弄ing（もてあそばれたい）",
-            "Rouing ~Moteasobaretai~"
+            "Rouing ~Moteasobaretai~",
+            "弄ing～想被玩弄～"
           ],
           "released": "2004-06-04",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v1679/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>弄ing～もてあそばれたい～</span></div><h3>弄ing～もてあそばれたい～</h3><p>闇雲通信</p><div class=\"card-heat muted\">2004-06-04</div></a></article>"
@@ -31059,7 +31139,8 @@
           "aliases": [
             "裸エプロン学園",
             "裸エプロン学園",
-            "Hadaka Apron Gakuen"
+            "Hadaka Apron Gakuen",
+            "裸体围裙学园"
           ],
           "released": "2004-07-30",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v2721/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>裸エプロン学園</span></div><h3>裸エプロン学園</h3><p>せ・き・ら・ら</p><div class=\"card-heat muted\">2004-07-30</div></a></article>"
@@ -31079,7 +31160,8 @@
           "aliases": [
             "孕ませ催眠プリンセス",
             "孕ませ催眠プリンセス",
-            "Haramase Saimin Princess"
+            "Haramase Saimin Princess",
+            "受孕催眠公主"
           ],
           "released": "2007-12-07",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v5528/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>孕ませ催眠プリンセス</span></div><h3>孕ませ催眠プリンセス</h3><p>Erotica Black</p><div class=\"card-heat muted\">2007-12-07</div></a></article>"
@@ -31090,7 +31172,8 @@
             "コスってギンギン",
             "コスってギンギン",
             "Kosutte Gingin",
-            "Costume Gingin"
+            "Costume Gingin",
+            "COS到硬邦邦　第二卷　女教师篇"
           ],
           "released": "2005-04-08",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v6418/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>コスってギンギン</span></div><h3>コスってギンギン</h3><p>ポアシャラ</p><div class=\"card-heat muted\">2005-04-08</div></a></article>"
@@ -31123,7 +31206,8 @@
             "その花びらにくちづけを　れぼりゅーしょん！ りなぎさ",
             "Sono Hanabira ni Kuchizuke o: Revolution! Rinagisa",
             "A Kiss For The Petals Revolution! – Rinagisa",
-            "Kissing the Petal: Revolution Rinagisa"
+            "Kissing the Petal: Revolution Rinagisa",
+            "花吻在上21~亲吻那片花瓣~革命 莉奈与褚"
           ],
           "released": "2015-12-25",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v18754/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>親吻那片花瓣~革命 莉菜與渚</span></div><h3>親吻那片花瓣~革命 莉菜與渚</h3><p>ふぐり屋</p><div class=\"card-heat muted\">2015-12-25</div></a></article>"
@@ -31157,7 +31241,8 @@
             "Hua Du Zhi Lian",
             "Spiritus Habitat In Vobis",
             "Meet in Paris",
-            "Love in Flower Capital"
+            "Love in Flower Capital",
+            "花都之戀"
           ],
           "released": "2022-04-27",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v35383/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/50/120150.jpg\" data-cover-full=\"https://t.vndb.org/cv/50/120150.jpg\" alt=\"花都之恋封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>花都之恋</h3><p>0x0Real Studio</p><div class=\"card-heat muted\">2022-04-27</div></a></article>"
@@ -33038,7 +33123,7 @@
             "Blue Blaster Extra"
           ],
           "released": "2006-12-22",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v3065/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>ブルーブラスターファンディスク～クロウディア奪還作戦～</span></div><h3>ブルーブラスターファンディスク～クロウディア奪還作戦～</h3><p>工画堂スタジオ</p><div class=\"card-heat muted\">2006-12-22</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v3065/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>ブルーブラスターファンディスク～クロウディア奪還作戦～</span></div><h3>ブルーブラスターファンディスク～クロウディア奪還作戦～</h3><p>工画堂スタジオ</p><div class=\"card-heat muted\">2006-12-22</div></a></article>"
         },
         {
           "name": "Palais de Carnaval",
@@ -33189,7 +33274,7 @@
             "Emmy THE FUNNY GAME"
           ],
           "released": "1984",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v26982/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>エミー</span></div><h3>エミー</h3><p>工画堂スタジオ</p><div class=\"card-heat muted\">1984</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v26982/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>エミー</span></div><h3>エミー</h3><p>工画堂スタジオ</p><div class=\"card-heat muted\">1984</div></a></article>"
         },
         {
           "name": "夢現Re:Idol",
@@ -33351,7 +33436,7 @@
             "Circus Disk Christmas Days 2"
           ],
           "released": "2008-07-25",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v947/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>C.D.C.D.2 ～シーディーシーディー2～</span></div><h3>C.D.C.D.2 ～シーディーシーディー2～</h3><p>CIRCUS</p><div class=\"card-heat muted\">2008-07-25</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v947/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>C.D.C.D.2 ～シーディーシーディー2～</span></div><h3>C.D.C.D.2 ～シーディーシーディー2～</h3><p>CIRCUS</p><div class=\"card-heat muted\">2008-07-25</div></a></article>"
         },
         {
           "name": "D.C.II To You ～ダ・カーポII～トゥーユー サイドエピソード",
@@ -33481,7 +33566,7 @@
             "DC2DM"
           ],
           "released": "2015-04-24",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v16261/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>D.C.II Dearest Marriage ～ダ・カーポII～ ディアレストマリッジ</span></div><h3>D.C.II Dearest Marriage ～ダ・カーポII～ ディアレストマリッジ</h3><p>CIRCUS</p><div class=\"card-heat muted\">2015-04-24</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v16261/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/29/94929.jpg\" data-cover-full=\"https://t.vndb.org/cv/29/94929.jpg\" alt=\"D.C.II Dearest Marriage ～ダ・カーポII～ ディアレストマリッジ封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>D.C.II Dearest Marriage ～ダ・カーポII～ ディアレストマリッジ</h3><p>CIRCUS</p><div class=\"card-heat muted\">2015-04-24</div></a></article>"
         },
         {
           "name": "D.S. -Dal Segno-",
@@ -33512,7 +33597,7 @@
             "My Pet Hisui"
           ],
           "released": "2004-10-16",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v18516/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>マイペット翡翠</span></div><h3>マイペット翡翠</h3><p>MOON GODDESS</p><div class=\"card-heat muted\">2004-10-16</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v18516/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>マイペット翡翠</span></div><h3>マイペット翡翠</h3><p>MOON GODDESS</p><div class=\"card-heat muted\">2004-10-16</div></a></article>"
         },
         {
           "name": "マイペットシエル",
@@ -33522,7 +33607,7 @@
             "My Pet Ciel"
           ],
           "released": "2004-11-27",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v18518/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>マイペットシエル</span></div><h3>マイペットシエル</h3><p>MOON GODDESS</p><div class=\"card-heat muted\">2004-11-27</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v18518/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>マイペットシエル</span></div><h3>マイペットシエル</h3><p>MOON GODDESS</p><div class=\"card-heat muted\">2004-11-27</div></a></article>"
         },
         {
           "name": "D.S. i.F. -Dal Segno- in Future",
@@ -33589,7 +33674,7 @@
             "龙姬混~日子"
           ],
           "released": "2020-10-30",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v28634/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>龍姬混~日子</span></div><h3>龍姬混~日子</h3><p>ワールプール</p><div class=\"card-heat muted\">2020-10-30</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v28634/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/27/76927.jpg\" data-cover-full=\"https://t.vndb.org/cv/27/76927.jpg\" alt=\"龍姬混~日子封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>龍姬混~日子</h3><p>ワールプール</p><div class=\"card-heat muted\">2020-10-30</div></a></article>"
         },
         {
           "name": "龍姬混~日子 LOVE + PLUS",
@@ -33601,7 +33686,7 @@
             "Slobbish Dragon Princess LOVE + PLUS"
           ],
           "released": "2020-12-18",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v30029/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>龍姬混~日子 LOVE + PLUS</span></div><h3>龍姬混~日子 LOVE + PLUS</h3><p>ワールプール</p><div class=\"card-heat muted\">2020-12-18</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v30029/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>龍姬混~日子 LOVE + PLUS</span></div><h3>龍姬混~日子 LOVE + PLUS</h3><p>ワールプール</p><div class=\"card-heat muted\">2020-12-18</div></a></article>"
         },
         {
           "name": "龍姬混~日子２",
@@ -33613,7 +33698,7 @@
             "Slobbish Dragon Princess 2"
           ],
           "released": "2021-06-25",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v30649/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>龍姬混~日子２</span></div><h3>龍姬混~日子２</h3><p>ワールプール</p><div class=\"card-heat muted\">2021-06-25</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v30649/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/01/77001.jpg\" data-cover-full=\"https://t.vndb.org/cv/01/77001.jpg\" alt=\"龍姬混~日子２封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>龍姬混~日子２</h3><p>ワールプール</p><div class=\"card-heat muted\">2021-06-25</div></a></article>"
         },
         {
           "name": "龍姬混~日子３",
@@ -33625,7 +33710,7 @@
             "Slobbish Dragon Princess 3"
           ],
           "released": "2022-10-28",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v37055/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>龍姬混~日子３</span></div><h3>龍姬混~日子３</h3><p>ワールプール</p><div class=\"card-heat muted\">2022-10-28</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v37055/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>龍姬混~日子３</span></div><h3>龍姬混~日子３</h3><p>ワールプール</p><div class=\"card-heat muted\">2022-10-28</div></a></article>"
         },
         {
           "name": "貓忍之心 SPIN!",
@@ -33637,7 +33722,7 @@
             "NEKO-NIN exHeart SPIN!"
           ],
           "released": "2023-09-29",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v45381/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>貓忍之心 SPIN!</span></div><h3>貓忍之心 SPIN!</h3><p>ワールプール</p><div class=\"card-heat muted\">2023-09-29</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v45381/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/53/108653.jpg\" data-cover-full=\"https://t.vndb.org/cv/53/108653.jpg\" alt=\"貓忍之心 SPIN!封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>貓忍之心 SPIN!</h3><p>ワールプール</p><div class=\"card-heat muted\">2023-09-29</div></a></article>"
         },
         {
           "name": "猫忍之心 SPIN! LOVE+PLUS",
@@ -33670,7 +33755,7 @@
             "D.C.P.K. ~Da CaPoker~"
           ],
           "released": "2008-02-29",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v276/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>D.C.P.K.～ダ・カーポーカー～</span></div><h3>D.C.P.K.～ダ・カーポーカー～</h3><p>CIRCUS</p><div class=\"card-heat muted\">2008-02-29</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v276/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>D.C.P.K.～ダ・カーポーカー～</span></div><h3>D.C.P.K.～ダ・カーポーカー～</h3><p>CIRCUS</p><div class=\"card-heat muted\">2008-02-29</div></a></article>"
         },
         {
           "name": "ホームメイド -Homemaid-",
@@ -33724,7 +33809,7 @@
             "Renge"
           ],
           "released": "2007-08-31",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v409/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>恋夏～れんげ～</span></div><h3>恋夏～れんげ～</h3><p>CIRCUS / Joker</p><div class=\"card-heat muted\">2007-08-31</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v409/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>恋夏～れんげ～</span></div><h3>恋夏～れんげ～</h3><p>CIRCUS / Joker</p><div class=\"card-heat muted\">2007-08-31</div></a></article>"
         },
         {
           "name": "Canvas3 ～白銀のポートレート～",
@@ -34013,7 +34098,7 @@
             "Watashi ga Anata o Mamoru Tame no Itsutsu no Yakusoku"
           ],
           "released": "2018-09-28",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v21272/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>私があなたを護るための5つの約束～捨て勇者ひろいました。～</span></div><h3>私があなたを護るための5つの約束～捨て勇者ひろいました。～</h3><p>One-Shot</p><div class=\"card-heat muted\">2018-09-28</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v21272/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>私があなたを護るための5つの約束～捨て勇者ひろいました。～</span></div><h3>私があなたを護るための5つの約束～捨て勇者ひろいました。～</h3><p>One-Shot</p><div class=\"card-heat muted\">2018-09-28</div></a></article>"
         },
         {
           "name": "げっちゅ屋★げっちゅ！！",
@@ -34034,7 +34119,7 @@
             "Koe no Oshigoto! - Female Senior High School Student do a Blushing Character Voice Story"
           ],
           "released": "2013-07-25",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v28299/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>こえでおしごと！</span></div><h3>こえでおしごと！</h3><p>ワニブックス</p><div class=\"card-heat muted\">2013-07-25</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v28299/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>こえでおしごと！</span></div><h3>こえでおしごと！</h3><p>ワニブックス</p><div class=\"card-heat muted\">2013-07-25</div></a></article>"
         },
         {
           "name": "夢みる恋の結びかた",
@@ -34045,7 +34130,7 @@
             "Yumekoi"
           ],
           "released": "2009-07-31",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v1741/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>夢みる恋の結びかた</span></div><h3>夢みる恋の結びかた</h3><p>あてゅ・わぁくす</p><div class=\"card-heat muted\">2009-07-31</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v1741/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>夢みる恋の結びかた</span></div><h3>夢みる恋の結びかた</h3><p>あてゅ・わぁくす</p><div class=\"card-heat muted\">2009-07-31</div></a></article>"
         },
         {
           "name": "メルクリア ～水の都に恋の花束を～",
@@ -34055,7 +34140,7 @@
             "Mercuria ~Mizu no Miyako ni Koi no Hanataba o~"
           ],
           "released": "2010-01-29",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v2630/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>メルクリア ～水の都に恋の花束を～</span></div><h3>メルクリア ～水の都に恋の花束を～</h3><p>Hearts</p><div class=\"card-heat muted\">2010-01-29</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v2630/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>メルクリア ～水の都に恋の花束を～</span></div><h3>メルクリア ～水の都に恋の花束を～</h3><p>Hearts</p><div class=\"card-heat muted\">2010-01-29</div></a></article>"
         },
         {
           "name": "変恋≒黒歴史",
@@ -34111,7 +34196,7 @@
             "Kokoro... 2"
           ],
           "released": "2000-08-25",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v4252/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>コ・コ・ロ…II</span></div><h3>コ・コ・ロ…II</h3><p>Aaru</p><div class=\"card-heat muted\">2000-08-25</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v4252/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>コ・コ・ロ…II</span></div><h3>コ・コ・ロ…II</h3><p>Aaru</p><div class=\"card-heat muted\">2000-08-25</div></a></article>"
         },
         {
           "name": "卒業写真2 ～Raspberry Dream～",
@@ -34134,7 +34219,7 @@
             "霧島診察室の午後"
           ],
           "released": "1995-08-11",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v7990/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>霧島診療室の午後</span></div><h3>霧島診療室の午後</h3><p>May-Be SOFT</p><div class=\"card-heat muted\">1995-08-11</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v7990/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>霧島診療室の午後</span></div><h3>霧島診療室の午後</h3><p>May-Be SOFT</p><div class=\"card-heat muted\">1995-08-11</div></a></article>"
         },
         {
           "name": "HIGH スク～ル DAYS",
@@ -34156,7 +34241,7 @@
             "File: Kokubou Soushou Jouhoukyoku Jouhou Rouei Taisaku-bu Josei Jinmon'in"
           ],
           "released": "1994-11-30",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v7993/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>ＦＩＬＥ 国防総省　情報局　情報漏洩対策部女性尋問員</span></div><h3>ＦＩＬＥ 国防総省　情報局　情報漏洩対策部女性尋問員</h3><p>May-Be SOFT</p><div class=\"card-heat muted\">1994-11-30</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v7993/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>ＦＩＬＥ 国防総省　情報局　情報漏洩対策部女性尋問員</span></div><h3>ＦＩＬＥ 国防総省　情報局　情報漏洩対策部女性尋問員</h3><p>May-Be SOFT</p><div class=\"card-heat muted\">1994-11-30</div></a></article>"
         },
         {
           "name": "Ce'st la vie",
@@ -34179,7 +34264,7 @@
             "Promise"
           ],
           "released": "1997-07-25",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v7995/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>やくそく</span></div><h3>やくそく</h3><p>May-Be SOFT</p><div class=\"card-heat muted\">1997-07-25</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v7995/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>やくそく</span></div><h3>やくそく</h3><p>May-Be SOFT</p><div class=\"card-heat muted\">1997-07-25</div></a></article>"
         },
         {
           "name": "Bacta 2 The Resurrection of Bacta",
@@ -34189,7 +34274,7 @@
             "バクタ2"
           ],
           "released": "1994-02-05",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v8569/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>Bacta 2 The Resurrection of Bacta</span></div><h3>Bacta 2 The Resurrection of Bacta</h3><p>姫屋ソフト</p><div class=\"card-heat muted\">1994-02-05</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v8569/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>Bacta 2 The Resurrection of Bacta</span></div><h3>Bacta 2 The Resurrection of Bacta</h3><p>姫屋ソフト</p><div class=\"card-heat muted\">1994-02-05</div></a></article>"
         },
         {
           "name": "卒業写真 ～ネイキッドカラー～",
@@ -34220,7 +34305,7 @@
             "Tenshi no Hina"
           ],
           "released": "2000-01-28",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v10274/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>天使のひな</span></div><h3>天使のひな</h3><p>BELL-DA</p><div class=\"card-heat muted\">2000-01-28</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v10274/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>天使のひな</span></div><h3>天使のひな</h3><p>BELL-DA</p><div class=\"card-heat muted\">2000-01-28</div></a></article>"
         },
         {
           "name": "舞夢",
@@ -34230,7 +34315,7 @@
             "Mime"
           ],
           "released": "1995-09-29",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v17599/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>舞夢</span></div><h3>舞夢</h3><p>スタジオ・トゥインクル</p><div class=\"card-heat muted\">1995-09-29</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v17599/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>舞夢</span></div><h3>舞夢</h3><p>スタジオ・トゥインクル</p><div class=\"card-heat muted\">1995-09-29</div></a></article>"
         },
         {
           "name": "美少女恋愛麻雀シリーズ2nd 私立鳳凰学園 1年純愛組",
@@ -34250,7 +34335,7 @@
             "Aries"
           ],
           "released": "2000-04-28",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v313/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>Aries -アリエス-</span></div><h3>Aries -アリエス-</h3><p>CIRCUS</p><div class=\"card-heat muted\">2000-04-28</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v313/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>Aries -アリエス-</span></div><h3>Aries -アリエス-</h3><p>CIRCUS</p><div class=\"card-heat muted\">2000-04-28</div></a></article>"
         },
         {
           "name": "闇鍋Aries～明日への挑戦状～",
@@ -34399,7 +34484,7 @@
             "Sukumizu 2 ~I Can't Swim~"
           ],
           "released": "2005-08-26",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v337/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>すくみず２～泳・げ・な・い～</span></div><h3>すくみず２～泳・げ・な・い～</h3><p>サーカス・フェティッシュ</p><div class=\"card-heat muted\">2005-08-26</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v337/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>すくみず２～泳・げ・な・い～</span></div><h3>すくみず２～泳・げ・な・い～</h3><p>サーカス・フェティッシュ</p><div class=\"card-heat muted\">2005-08-26</div></a></article>"
         },
         {
           "name": "Artificial Mermaid -Silver Chaos II-",
@@ -34463,7 +34548,7 @@
             "Tower of Inferno"
           ],
           "released": "2011-05-27",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v7022/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>獄淫の尖塔</span></div><h3>獄淫の尖塔</h3><p>Black Cyc</p><div class=\"card-heat muted\">2011-05-27</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v7022/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>獄淫の尖塔</span></div><h3>獄淫の尖塔</h3><p>Black Cyc</p><div class=\"card-heat muted\">2011-05-27</div></a></article>"
         },
         {
           "name": "あねよめカルテット",
@@ -34474,7 +34559,7 @@
             "Fiancee is quartet of elder sisters."
           ],
           "released": "2014-10-31",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v15639/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>あねよめカルテット</span></div><h3>あねよめカルテット</h3><p>きゃんでぃそふと</p><div class=\"card-heat muted\">2014-10-31</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v15639/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>あねよめカルテット</span></div><h3>あねよめカルテット</h3><p>きゃんでぃそふと</p><div class=\"card-heat muted\">2014-10-31</div></a></article>"
         },
         {
           "name": "ぱにっくちゃん",
@@ -34484,7 +34569,7 @@
             "Panic-chan"
           ],
           "released": "1997-08-08",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v17442/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>ぱにっくちゃん</span></div><h3>ぱにっくちゃん</h3><p>イマジニア株式会社</p><div class=\"card-heat muted\">1997-08-08</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v17442/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>ぱにっくちゃん</span></div><h3>ぱにっくちゃん</h3><p>イマジニア株式会社</p><div class=\"card-heat muted\">1997-08-08</div></a></article>"
         },
         {
           "name": "あねよめコンチェルト",
@@ -34495,7 +34580,7 @@
             "Concerto of Elder Sister Brides."
           ],
           "released": "2015-09-25",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v17851/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>あねよめコンチェルト</span></div><h3>あねよめコンチェルト</h3><p>きゃんでぃそふと</p><div class=\"card-heat muted\">2015-09-25</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v17851/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>あねよめコンチェルト</span></div><h3>あねよめコンチェルト</h3><p>きゃんでぃそふと</p><div class=\"card-heat muted\">2015-09-25</div></a></article>"
         },
         {
           "name": "ぜったい遵守★にゅ～こづくりわーるど",
@@ -34506,7 +34591,7 @@
             "Zettai Junshu 3"
           ],
           "released": "2016-12-22",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v19311/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>ぜったい遵守★にゅ～こづくりわーるど</span></div><h3>ぜったい遵守★にゅ～こづくりわーるど</h3><p>softhouse-seal GRANDEE</p><div class=\"card-heat muted\">2016-12-22</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v19311/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>ぜったい遵守★にゅ～こづくりわーるど</span></div><h3>ぜったい遵守★にゅ～こづくりわーるど</h3><p>softhouse-seal GRANDEE</p><div class=\"card-heat muted\">2016-12-22</div></a></article>"
         },
         {
           "name": "都市传说解体中心",
@@ -34541,7 +34626,7 @@
             "Kura no Naka wa Kiken ga Ippai!?"
           ],
           "released": "2007-06-29",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v4280/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>蔵の中はキケンがいっぱい!?</span></div><h3>蔵の中はキケンがいっぱい!?</h3><p>FAIRYTALE ETHIX</p><div class=\"card-heat muted\">2007-06-29</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v4280/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>蔵の中はキケンがいっぱい!?</span></div><h3>蔵の中はキケンがいっぱい!?</h3><p>FAIRYTALE ETHIX</p><div class=\"card-heat muted\">2007-06-29</div></a></article>"
         },
         {
           "name": "女体採集～女の股に潜む蝶～",
@@ -34551,7 +34636,7 @@
             "Nyotai Saishuu ~Onna no Mata ni Hisomu Chou~"
           ],
           "released": "2007-06-22",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v4384/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>女体採集～女の股に潜む蝶～</span></div><h3>女体採集～女の股に潜む蝶～</h3><p>覇王Darkness</p><div class=\"card-heat muted\">2007-06-22</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v4384/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>女体採集～女の股に潜む蝶～</span></div><h3>女体採集～女の股に潜む蝶～</h3><p>覇王Darkness</p><div class=\"card-heat muted\">2007-06-22</div></a></article>"
         },
         {
           "name": "大人はもう寝る時間",
@@ -34562,7 +34647,7 @@
             "otona ha mou neru zikan"
           ],
           "released": "2008-12-29",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v5064/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>大人はもう寝る時間</span></div><h3>大人はもう寝る時間</h3><p>X-BangBang</p><div class=\"card-heat muted\">2008-12-29</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v5064/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>大人はもう寝る時間</span></div><h3>大人はもう寝る時間</h3><p>X-BangBang</p><div class=\"card-heat muted\">2008-12-29</div></a></article>"
         },
         {
           "name": "ドナー",
@@ -34594,7 +34679,7 @@
             "Mitama no Yuki"
           ],
           "released": "2005-03-25",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v5863/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>御魂のゆき</span></div><h3>御魂のゆき</h3><p>LiFox</p><div class=\"card-heat muted\">2005-03-25</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v5863/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>御魂のゆき</span></div><h3>御魂のゆき</h3><p>LiFox</p><div class=\"card-heat muted\">2005-03-25</div></a></article>"
         },
         {
           "name": "in white",
@@ -34615,7 +34700,7 @@
             "MAGICAL GIRL YURI -Episode.0-"
           ],
           "released": "2011-12-03",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v9706/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>魔法少女YURI～Episode.0～</span></div><h3>魔法少女YURI～Episode.0～</h3><p>触KING会</p><div class=\"card-heat muted\">2011-12-03</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v9706/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>魔法少女YURI～Episode.0～</span></div><h3>魔法少女YURI～Episode.0～</h3><p>触KING会</p><div class=\"card-heat muted\">2011-12-03</div></a></article>"
         },
         {
           "name": "おね～さんDAY☆BY☆DAY",
@@ -34625,7 +34710,7 @@
             "One~san Day☆by☆Day"
           ],
           "released": "2004-03-26",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v10192/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>おね～さんDAY☆BY☆DAY</span></div><h3>おね～さんDAY☆BY☆DAY</h3><p>Azurite</p><div class=\"card-heat muted\">2004-03-26</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v10192/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>おね～さんDAY☆BY☆DAY</span></div><h3>おね～さんDAY☆BY☆DAY</h3><p>Azurite</p><div class=\"card-heat muted\">2004-03-26</div></a></article>"
         },
         {
           "name": "我所希冀的未来",
@@ -34648,7 +34733,7 @@
             "The tentacle hunter, Yuri"
           ],
           "released": "2006-07-09",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v15878/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>触手ハンターYURI</span></div><h3>触手ハンターYURI</h3><p>触KING会</p><div class=\"card-heat muted\">2006-07-09</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v15878/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>触手ハンターYURI</span></div><h3>触手ハンターYURI</h3><p>触KING会</p><div class=\"card-heat muted\">2006-07-09</div></a></article>"
         },
         {
           "name": "渋谷DAYS＠ ～渋デジ探偵．COMシリーズ",
@@ -34669,7 +34754,7 @@
             "The Man Who Squirmed"
           ],
           "released": "2012-12-31",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v40251/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>孕ませ触手男♂ OL・魔法少女とのじゅぷじゅぷ生活</span></div><h3>孕ませ触手男♂ OL・魔法少女とのじゅぷじゅぷ生活</h3><p>S.S.T.ワークス</p><div class=\"card-heat muted\">2012-12-31</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v40251/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>孕ませ触手男♂ OL・魔法少女とのじゅぷじゅぷ生活</span></div><h3>孕ませ触手男♂ OL・魔法少女とのじゅぷじゅぷ生活</h3><p>S.S.T.ワークス</p><div class=\"card-heat muted\">2012-12-31</div></a></article>"
         },
         {
           "name": "散華 ～無常の風は時を選ばず～",
@@ -34679,7 +34764,7 @@
             "Sange ~Mujou no Kaze wa Toki o Erabazu~"
           ],
           "released": "2010-12-10",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v43135/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>散華 ～無常の風は時を選ばず～</span></div><h3>散華 ～無常の風は時を選ばず～</h3><p>クレッセント</p><div class=\"card-heat muted\">2010-12-10</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v43135/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>散華 ～無常の風は時を選ばず～</span></div><h3>散華 ～無常の風は時を選ばず～</h3><p>クレッセント</p><div class=\"card-heat muted\">2010-12-10</div></a></article>"
         },
         {
           "name": "ホロビノセカイ。 -Rebirth The World-",
@@ -34700,7 +34785,7 @@
             "Sayla Heroine: The Conclusive All Day Gangbang"
           ],
           "released": "2011-01-09",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v49968/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>女勇者セイラ完結編～セイラの１日は輪姦で始まり輪姦で終わる～</span></div><h3>女勇者セイラ完結編～セイラの１日は輪姦で始まり輪姦で終わる～</h3><p>触KING会</p><div class=\"card-heat muted\">2011-01-09</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v49968/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>女勇者セイラ完結編～セイラの１日は輪姦で始まり輪姦で終わる～</span></div><h3>女勇者セイラ完結編～セイラの１日は輪姦で始まり輪姦で終わる～</h3><p>触KING会</p><div class=\"card-heat muted\">2011-01-09</div></a></article>"
         },
         {
           "name": "女勇者セイラ～ボストロール達の逆襲輪姦～",
@@ -34711,7 +34796,7 @@
             "Sayla Heroine: Counter Orgy of the Boss Trolls"
           ],
           "released": "2010-12-23",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v49969/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>女勇者セイラ～ボストロール達の逆襲輪姦～</span></div><h3>女勇者セイラ～ボストロール達の逆襲輪姦～</h3><p>触KING会</p><div class=\"card-heat muted\">2010-12-23</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v49969/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>女勇者セイラ～ボストロール達の逆襲輪姦～</span></div><h3>女勇者セイラ～ボストロール達の逆襲輪姦～</h3><p>触KING会</p><div class=\"card-heat muted\">2010-12-23</div></a></article>"
         },
         {
           "name": "Gift～にじいろストーリーズ～",
@@ -34776,7 +34861,7 @@
             "CLEAR CRYSTAL STORIES"
           ],
           "released": "2008-05-03",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v469/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>Clear～クリスタルストーリーズ～</span></div><h3>Clear～クリスタルストーリーズ～</h3><p>MOONSTONE</p><div class=\"card-heat muted\">2008-05-03</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v469/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>Clear～クリスタルストーリーズ～</span></div><h3>Clear～クリスタルストーリーズ～</h3><p>MOONSTONE</p><div class=\"card-heat muted\">2008-05-03</div></a></article>"
         },
         {
           "name": "マジスキ～Marginal Skip～",
@@ -34809,7 +34894,7 @@
             "Imopara"
           ],
           "released": "2011-01-28",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v5295/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>妹ぱらだいす！～お兄ちゃんと5人の妹のエッチしまくりな毎日～</span></div><h3>妹ぱらだいす！～お兄ちゃんと5人の妹のエッチしまくりな毎日～</h3><p>MOONSTONE Cherry</p><div class=\"card-heat muted\">2011-01-28</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v5295/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>妹ぱらだいす！～お兄ちゃんと5人の妹のエッチしまくりな毎日～</span></div><h3>妹ぱらだいす！～お兄ちゃんと5人の妹のエッチしまくりな毎日～</h3><p>MOONSTONE Cherry</p><div class=\"card-heat muted\">2011-01-28</div></a></article>"
         },
         {
           "name": "樱之杜†净梦者",
@@ -34872,7 +34957,7 @@
             "Uchikano"
           ],
           "released": "2018-06-29",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v22658/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>同居女友</span></div><h3>同居女友</h3><p>Argonauts</p><div class=\"card-heat muted\">2018-06-29</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v22658/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>同居女友</span></div><h3>同居女友</h3><p>Argonauts</p><div class=\"card-heat muted\">2018-06-29</div></a></article>"
         },
         {
           "name": "家有妹妹",
@@ -34884,7 +34969,7 @@
             "Uchikano: Living With My Sister"
           ],
           "released": "2018-11-30",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v22725/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>家有妹妹</span></div><h3>家有妹妹</h3><p>Argonauts</p><div class=\"card-heat muted\">2018-11-30</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v22725/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>家有妹妹</span></div><h3>家有妹妹</h3><p>Argonauts</p><div class=\"card-heat muted\">2018-11-30</div></a></article>"
         },
         {
           "name": "家の恋人",
@@ -34895,7 +34980,7 @@
             "Uchikano: Living With My Lovers"
           ],
           "released": "2019-04-26",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v22726/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>家の恋人</span></div><h3>家の恋人</h3><p>Argonauts</p><div class=\"card-heat muted\">2019-04-26</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v22726/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/05/77805.jpg\" data-cover-full=\"https://t.vndb.org/cv/05/77805.jpg\" alt=\"家の恋人封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>家の恋人</h3><p>Argonauts</p><div class=\"card-heat muted\">2019-04-26</div></a></article>"
         },
         {
           "name": "セックスアンダーワールドへようこそ！",
@@ -34906,7 +34991,7 @@
             "SUW"
           ],
           "released": "2021-05-28",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v29936/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>セックスアンダーワールドへようこそ！</span></div><h3>セックスアンダーワールドへようこそ！</h3><p>MOONSTONE Cherry</p><div class=\"card-heat muted\">2021-05-28</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v29936/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>セックスアンダーワールドへようこそ！</span></div><h3>セックスアンダーワールドへようこそ！</h3><p>MOONSTONE Cherry</p><div class=\"card-heat muted\">2021-05-28</div></a></article>"
         },
         {
           "name": "夕凪荘のＳ級の彼女たち",
@@ -34918,7 +35003,7 @@
             "Welcome to Yunagi-so!"
           ],
           "released": "2022-10-28",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v37083/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>夕凪荘のＳ級の彼女たち</span></div><h3>夕凪荘のＳ級の彼女たち</h3><p>MOONSTONE Cherry</p><div class=\"card-heat muted\">2022-10-28</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v37083/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>夕凪荘のＳ級の彼女たち</span></div><h3>夕凪荘のＳ級の彼女たち</h3><p>MOONSTONE Cherry</p><div class=\"card-heat muted\">2022-10-28</div></a></article>"
         },
         {
           "name": "夕凪荘のＳ級の彼女たち2",
@@ -34928,7 +35013,7 @@
             "Yuunagi-sou no S-kyuu no Kanojo-tachi 2"
           ],
           "released": "2023-12-22",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v47110/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>夕凪荘のＳ級の彼女たち2</span></div><h3>夕凪荘のＳ級の彼女たち2</h3><p>MOONSTONE Cherry</p><div class=\"card-heat muted\">2023-12-22</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v47110/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>夕凪荘のＳ級の彼女たち2</span></div><h3>夕凪荘のＳ級の彼女たち2</h3><p>MOONSTONE Cherry</p><div class=\"card-heat muted\">2023-12-22</div></a></article>"
         },
         {
           "name": "夏への方舟Ⅰ",
@@ -34939,7 +35024,7 @@
             "Summer's Ark 1"
           ],
           "released": "2024-05-31",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v49542/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>夏への方舟Ⅰ</span></div><h3>夏への方舟Ⅰ</h3><p>Argonauts</p><div class=\"card-heat muted\">2024-05-31</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v49542/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>夏への方舟Ⅰ</span></div><h3>夏への方舟Ⅰ</h3><p>Argonauts</p><div class=\"card-heat muted\">2024-05-31</div></a></article>"
         },
         {
           "name": "夏への方舟Ⅱ",
@@ -34950,7 +35035,7 @@
             "Summer's Ark 2"
           ],
           "released": "2024-09-27",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v49543/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>夏への方舟Ⅱ</span></div><h3>夏への方舟Ⅱ</h3><p>Argonauts</p><div class=\"card-heat muted\">2024-09-27</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v49543/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>夏への方舟Ⅱ</span></div><h3>夏への方舟Ⅱ</h3><p>Argonauts</p><div class=\"card-heat muted\">2024-09-27</div></a></article>"
         },
         {
           "name": "夏への方舟Ⅲ",
@@ -34961,7 +35046,7 @@
             "Summer's Ark 3"
           ],
           "released": "2025-01-31",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v49544/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>夏への方舟Ⅲ</span></div><h3>夏への方舟Ⅲ</h3><p>Argonauts</p><div class=\"card-heat muted\">2025-01-31</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v49544/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>夏への方舟Ⅲ</span></div><h3>夏への方舟Ⅲ</h3><p>Argonauts</p><div class=\"card-heat muted\">2025-01-31</div></a></article>"
         },
         {
           "name": "ホめられて伸びるＳＲ少女たち",
@@ -34994,7 +35079,10 @@
           "aliases": [
             "ホめられて伸びるＳＲ少女たち２",
             "ホめられて伸びるＳＲ少女たち２",
-            "Homerarete Nobiru SR Shoujo-tachi 2"
+            "Homerarete Nobiru SR Shoujo-tachi 2",
+            "Hamerarete Nobiru SR Shoujo-tachi 2",
+            "Homerarete Nobiru Special Rare Girls!! 2",
+            "Hamerarete Nobiru Special Rare Girls!! 2"
           ],
           "released": "2026-12-25",
           "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v69055/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/49/146049.jpg\" data-cover-full=\"https://t.vndb.org/cv/49/146049.jpg\" alt=\"ホめられて伸びるＳＲ少女たち２封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>ホめられて伸びるＳＲ少女たち２</h3><p>MOONSTONE Cherry</p><div class=\"card-heat muted\">2026-12-25</div></a></article>"
@@ -35051,7 +35139,7 @@
             "Witch's Wish"
           ],
           "released": "2009-06-11",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v13396/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>魔女になる。</span></div><h3>魔女になる。</h3><p>株式会社タムソフト</p><div class=\"card-heat muted\">2009-06-11</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v13396/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/75/101775.jpg\" data-cover-full=\"https://t.vndb.org/cv/75/101775.jpg\" alt=\"魔女になる。封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>魔女になる。</h3><p>株式会社タムソフト</p><div class=\"card-heat muted\">2009-06-11</div></a></article>"
         },
         {
           "name": "帝都幻想",
@@ -35085,7 +35173,7 @@
             "Eternal snow blooming season of love."
           ],
           "released": "2019-03-29",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v22610/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>白恋Sakura ＊ Gram</span></div><h3>白恋Sakura ＊ Gram</h3><p>ナナウィンド</p><div class=\"card-heat muted\">2019-03-29</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v22610/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/50/117750.jpg\" data-cover-full=\"https://t.vndb.org/cv/50/117750.jpg\" alt=\"白恋Sakura ＊ Gram封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>白恋Sakura ＊ Gram</h3><p>ナナウィンド</p><div class=\"card-heat muted\">2019-03-29</div></a></article>"
         },
         {
           "name": "白恋サクラ＊グラムＬＦ",
@@ -35096,7 +35184,7 @@
             "白恋Sakura ＊ Gram LＦ"
           ],
           "released": "2023-07-28",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v32818/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>白恋サクラ＊グラムＬＦ</span></div><h3>白恋サクラ＊グラムＬＦ</h3><p>ナナウィンド</p><div class=\"card-heat muted\">2023-07-28</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v32818/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>白恋サクラ＊グラムＬＦ</span></div><h3>白恋サクラ＊グラムＬＦ</h3><p>ナナウィンド</p><div class=\"card-heat muted\">2023-07-28</div></a></article>"
         },
         {
           "name": "初恋撫子（こいおとめ）",
@@ -35137,7 +35225,7 @@
             "Injoku Shinryou Club"
           ],
           "released": "2009-11-27",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v2789/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>淫辱心療クラブ</span></div><h3>淫辱心療クラブ</h3><p>Liquid-Shine</p><div class=\"card-heat muted\">2009-11-27</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v2789/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>淫辱心療クラブ</span></div><h3>淫辱心療クラブ</h3><p>Liquid-Shine</p><div class=\"card-heat muted\">2009-11-27</div></a></article>"
         },
         {
           "name": "花與乙女的祝福～皇家花束～",
@@ -35193,7 +35281,7 @@
             "Maid Service ~Despair Chapter~"
           ],
           "released": "2001-12-21",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v6065/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>メイドの館 ～絶望編～</span></div><h3>メイドの館 ～絶望編～</h3><p>メイド倶楽部</p><div class=\"card-heat muted\">2001-12-21</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v6065/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>メイドの館 ～絶望編～</span></div><h3>メイドの館 ～絶望編～</h3><p>メイド倶楽部</p><div class=\"card-heat muted\">2001-12-21</div></a></article>"
         },
         {
           "name": "デッドエンド　Orchestral Manoeuvres in the Dead End",
@@ -35215,7 +35303,7 @@
             "OtotsukiFD"
           ],
           "released": "2019-06-28",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v25494/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>少女缔结月之光辉Fullmoon Days</span></div><h3>少女缔结月之光辉Fullmoon Days</h3><p>ensemble</p><div class=\"card-heat muted\">2019-06-28</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v25494/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>少女缔结月之光辉Fullmoon Days</span></div><h3>少女缔结月之光辉Fullmoon Days</h3><p>ensemble</p><div class=\"card-heat muted\">2019-06-28</div></a></article>"
         },
         {
           "name": "福音は謳う Holograph Memories",
@@ -35235,7 +35323,7 @@
             "~Oume Tokkai~ Chikan Densha G-cup Niizuma Chiemi"
           ],
           "released": "2009-06-26",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v1757/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>～追雌特快～　痴漢電車　Gカップ新妻　ちえみ</span></div><h3>～追雌特快～　痴漢電車　Gカップ新妻　ちえみ</h3><p>みるくぱい</p><div class=\"card-heat muted\">2009-06-26</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v1757/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>～追雌特快～　痴漢電車　Gカップ新妻　ちえみ</span></div><h3>～追雌特快～　痴漢電車　Gカップ新妻　ちえみ</h3><p>みるくぱい</p><div class=\"card-heat muted\">2009-06-26</div></a></article>"
         },
         {
           "name": "～追雌特快～痴漢電車Hカップ若妻まいな",
@@ -35245,7 +35333,7 @@
             "~Oume Tokkai~ Chikan Densha H-cup Wakazuma Maina"
           ],
           "released": "2009-07-24",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v2201/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>～追雌特快～痴漢電車Hカップ若妻まいな</span></div><h3>～追雌特快～痴漢電車Hカップ若妻まいな</h3><p>みるくぱい</p><div class=\"card-heat muted\">2009-07-24</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v2201/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>～追雌特快～痴漢電車Hカップ若妻まいな</span></div><h3>～追雌特快～痴漢電車Hカップ若妻まいな</h3><p>みるくぱい</p><div class=\"card-heat muted\">2009-07-24</div></a></article>"
         },
         {
           "name": "淫落の血族～禁断の呪縛～",
@@ -35255,7 +35343,7 @@
             "Inraku no Ketsuzoku ~Kindan no Jubaku~"
           ],
           "released": "2008-09-26",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v3171/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>淫落の血族～禁断の呪縛～</span></div><h3>淫落の血族～禁断の呪縛～</h3><p>ローズティアラ / 株式会社天沼矛</p><div class=\"card-heat muted\">2008-09-26</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v3171/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>淫落の血族～禁断の呪縛～</span></div><h3>淫落の血族～禁断の呪縛～</h3><p>ローズティアラ / 株式会社天沼矛</p><div class=\"card-heat muted\">2008-09-26</div></a></article>"
         },
         {
           "name": "風紀委員長 聖薇～あなたなんて大嫌い、死ねばいいのに～",
@@ -35266,7 +35354,7 @@
             "風紀委員長 聖薇（せいら）～あなたなんて大嫌い、死ねばいいのに～"
           ],
           "released": "2010-05-28",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v4009/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>風紀委員長 聖薇～あなたなんて大嫌い、死ねばいいのに～</span></div><h3>風紀委員長 聖薇～あなたなんて大嫌い、死ねばいいのに～</h3><p>シルキーズ</p><div class=\"card-heat muted\">2010-05-28</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v4009/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>風紀委員長 聖薇～あなたなんて大嫌い、死ねばいいのに～</span></div><h3>風紀委員長 聖薇～あなたなんて大嫌い、死ねばいいのに～</h3><p>シルキーズ</p><div class=\"card-heat muted\">2010-05-28</div></a></article>"
         },
         {
           "name": "なまたま",
@@ -35277,7 +35365,7 @@
             "Namatama"
           ],
           "released": "2007-03-30",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v4500/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>なまたま</span></div><h3>なまたま</h3><p>らぱぷる</p><div class=\"card-heat muted\">2007-03-30</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v4500/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>なまたま</span></div><h3>なまたま</h3><p>らぱぷる</p><div class=\"card-heat muted\">2007-03-30</div></a></article>"
         },
         {
           "name": "娼母清華～背徳の交わり～",
@@ -35287,7 +35375,7 @@
             "Shoubo Seika ~Haitoku no Majiwari~"
           ],
           "released": "2010-07-30",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v4650/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>娼母清華～背徳の交わり～</span></div><h3>娼母清華～背徳の交わり～</h3><p>ローズクラウン</p><div class=\"card-heat muted\">2010-07-30</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v4650/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>娼母清華～背徳の交わり～</span></div><h3>娼母清華～背徳の交わり～</h3><p>ローズクラウン</p><div class=\"card-heat muted\">2010-07-30</div></a></article>"
         },
         {
           "name": "水恋～みずこい～",
@@ -35297,7 +35385,7 @@
             "Mizukoi"
           ],
           "released": "2007-08-31",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v5242/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>水恋～みずこい～</span></div><h3>水恋～みずこい～</h3><p>らぱぷる</p><div class=\"card-heat muted\">2007-08-31</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v5242/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>水恋～みずこい～</span></div><h3>水恋～みずこい～</h3><p>らぱぷる</p><div class=\"card-heat muted\">2007-08-31</div></a></article>"
         },
         {
           "name": "触祭の都",
@@ -35307,7 +35395,7 @@
             "Shokusai no Miyako"
           ],
           "released": "2011-01-28",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v6021/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>触祭の都</span></div><h3>触祭の都</h3><p>SYOKU / 株式会社天沼矛</p><div class=\"card-heat muted\">2011-01-28</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v6021/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>触祭の都</span></div><h3>触祭の都</h3><p>SYOKU / 株式会社天沼矛</p><div class=\"card-heat muted\">2011-01-28</div></a></article>"
         },
         {
           "name": "マジカルチェンジゆうきくん",
@@ -35327,7 +35415,7 @@
             "Megami Ryoujoku ~Koukou Souryo Skuld~"
           ],
           "released": "2009-02-27",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v6167/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>女神凌辱 ～肛交僧侶スクルド～</span></div><h3>女神凌辱 ～肛交僧侶スクルド～</h3><p>みるくぱい</p><div class=\"card-heat muted\">2009-02-27</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v6167/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>女神凌辱 ～肛交僧侶スクルド～</span></div><h3>女神凌辱 ～肛交僧侶スクルド～</h3><p>みるくぱい</p><div class=\"card-heat muted\">2009-02-27</div></a></article>"
         },
         {
           "name": "女神凌辱 ～パイズリ姫ベルダンディー～",
@@ -35337,7 +35425,7 @@
             "Megami Ryoujoku ~Paizuri Hime Verdandi~"
           ],
           "released": "2009-01-30",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v6168/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>女神凌辱 ～パイズリ姫ベルダンディー～</span></div><h3>女神凌辱 ～パイズリ姫ベルダンディー～</h3><p>みるくぱい</p><div class=\"card-heat muted\">2009-01-30</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v6168/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>女神凌辱 ～パイズリ姫ベルダンディー～</span></div><h3>女神凌辱 ～パイズリ姫ベルダンディー～</h3><p>みるくぱい</p><div class=\"card-heat muted\">2009-01-30</div></a></article>"
         },
         {
           "name": "桜花繚乱",
@@ -35358,7 +35446,7 @@
             "Beloved Mother Shame -Delusional Buxom Indulgence"
           ],
           "released": "2011-05-27",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v7042/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>愛母乳辱～妄執の巨乳責めザンマイ～</span></div><h3>愛母乳辱～妄執の巨乳責めザンマイ～</h3><p>アメノムラクモ</p><div class=\"card-heat muted\">2011-05-27</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v7042/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>愛母乳辱～妄執の巨乳責めザンマイ～</span></div><h3>愛母乳辱～妄執の巨乳責めザンマイ～</h3><p>アメノムラクモ</p><div class=\"card-heat muted\">2011-05-27</div></a></article>"
         },
         {
           "name": "皇女姦落 ～高貴な乙女は目覚めない辱夢を見るか？～",
@@ -35369,7 +35457,7 @@
             "Imperial Princess of Fornication - Do You Wish to See Her Unwaking Shame? -"
           ],
           "released": "2011-06-24",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v8393/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>皇女姦落 ～高貴な乙女は目覚めない辱夢を見るか？～</span></div><h3>皇女姦落 ～高貴な乙女は目覚めない辱夢を見るか？～</h3><p>サークル メルキュール</p><div class=\"card-heat muted\">2011-06-24</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v8393/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>皇女姦落 ～高貴な乙女は目覚めない辱夢を見るか？～</span></div><h3>皇女姦落 ～高貴な乙女は目覚めない辱夢を見るか？～</h3><p>サークル メルキュール</p><div class=\"card-heat muted\">2011-06-24</div></a></article>"
         },
         {
           "name": "爆走女装計画～もしも俺が女装させられてレディースに入隊させられたら～",
@@ -35380,7 +35468,7 @@
             "Cross Dressing Plan ~When They Dress Me Up as a Woman and Make Me Join the Ladies~"
           ],
           "released": "2011-12-16",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v8577/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>爆走女装計画～もしも俺が女装させられてレディースに入隊させられたら～</span></div><h3>爆走女装計画～もしも俺が女装させられてレディースに入隊させられたら～</h3><p>トルピード</p><div class=\"card-heat muted\">2011-12-16</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v8577/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>爆走女装計画～もしも俺が女装させられてレディースに入隊させられたら～</span></div><h3>爆走女装計画～もしも俺が女装させられてレディースに入隊させられたら～</h3><p>トルピード</p><div class=\"card-heat muted\">2011-12-16</div></a></article>"
         },
         {
           "name": "淫獄女学園～用務員の卑劣な罠～",
@@ -35390,7 +35478,7 @@
             "Ingoku Jogakuen ~Youmuin no Hiretsu na Wana~"
           ],
           "released": "2012-01-27",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v9259/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>淫獄女学園～用務員の卑劣な罠～</span></div><h3>淫獄女学園～用務員の卑劣な罠～</h3><p>アンダームーン / 株式会社天沼矛</p><div class=\"card-heat muted\">2012-01-27</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v9259/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>淫獄女学園～用務員の卑劣な罠～</span></div><h3>淫獄女学園～用務員の卑劣な罠～</h3><p>アンダームーン / 株式会社天沼矛</p><div class=\"card-heat muted\">2012-01-27</div></a></article>"
         },
         {
           "name": "不可視な愛情～透明なボクに感じるママ～",
@@ -35401,7 +35489,7 @@
             "Invisible Affection"
           ],
           "released": "2012-01-27",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v9323/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>不可視な愛情～透明なボクに感じるママ～</span></div><h3>不可視な愛情～透明なボクに感じるママ～</h3><p>アパタイト</p><div class=\"card-heat muted\">2012-01-27</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v9323/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>不可視な愛情～透明なボクに感じるママ～</span></div><h3>不可視な愛情～透明なボクに感じるママ～</h3><p>アパタイト</p><div class=\"card-heat muted\">2012-01-27</div></a></article>"
         },
         {
           "name": "果汁戦隊☆フルーツレンジャー",
@@ -35412,7 +35500,7 @@
             "Fruity Rangers: Peach's Predicament"
           ],
           "released": "2012-03-23",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v9908/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>果汁戦隊☆フルーツレンジャー</span></div><h3>果汁戦隊☆フルーツレンジャー</h3><p>トルピード</p><div class=\"card-heat muted\">2012-03-23</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v9908/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>果汁戦隊☆フルーツレンジャー</span></div><h3>果汁戦隊☆フルーツレンジャー</h3><p>トルピード</p><div class=\"card-heat muted\">2012-03-23</div></a></article>"
         },
         {
           "name": "新入社員 沙織 ～いいなりペット育成痴漢研修～",
@@ -35422,7 +35510,7 @@
             "Shinnyuu Shain Saori ~Iinari Pet Ikusei Chikan Kenshuu~"
           ],
           "released": "2012-04-20",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v10101/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>新入社員 沙織 ～いいなりペット育成痴漢研修～</span></div><h3>新入社員 沙織 ～いいなりペット育成痴漢研修～</h3><p>トルピード</p><div class=\"card-heat muted\">2012-04-20</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v10101/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>新入社員 沙織 ～いいなりペット育成痴漢研修～</span></div><h3>新入社員 沙織 ～いいなりペット育成痴漢研修～</h3><p>トルピード</p><div class=\"card-heat muted\">2012-04-20</div></a></article>"
         },
         {
           "name": "義妹のネトリクリニック～妻の知らない入院性活",
@@ -35432,7 +35520,7 @@
             "Gimai no Netori Clinic ~Tsuma no Shiranai Nyuuin Seikatsu"
           ],
           "released": "2012-05-25",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v10224/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>義妹のネトリクリニック～妻の知らない入院性活</span></div><h3>義妹のネトリクリニック～妻の知らない入院性活</h3><p>アパタイト</p><div class=\"card-heat muted\">2012-05-25</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v10224/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>義妹のネトリクリニック～妻の知らない入院性活</span></div><h3>義妹のネトリクリニック～妻の知らない入院性活</h3><p>アパタイト</p><div class=\"card-heat muted\">2012-05-25</div></a></article>"
         },
         {
           "name": "妻の母との背徳淫姦 ～お義母さん、女房とするより興奮するよ～",
@@ -35442,7 +35530,7 @@
             "Tsuma no Haha to no Haitoku Inkan ~Okaa-san, Nyoubou to Suru yori Koufun Suru yo~"
           ],
           "released": "2012-06-22",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v10530/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>妻の母との背徳淫姦 ～お義母さん、女房とするより興奮するよ～</span></div><h3>妻の母との背徳淫姦 ～お義母さん、女房とするより興奮するよ～</h3><p>アパタイト</p><div class=\"card-heat muted\">2012-06-22</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v10530/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>妻の母との背徳淫姦 ～お義母さん、女房とするより興奮するよ～</span></div><h3>妻の母との背徳淫姦 ～お義母さん、女房とするより興奮するよ～</h3><p>アパタイト</p><div class=\"card-heat muted\">2012-06-22</div></a></article>"
         },
         {
           "name": "泡に魅入られた人妻 ～お仕事と割り切っていたはずなのに~",
@@ -35453,7 +35541,7 @@
             "Soap-Sudded Seductress ~Blurring the Lines Between Work and Play~"
           ],
           "released": "2012-09-21",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v11104/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>泡に魅入られた人妻 ～お仕事と割り切っていたはずなのに~</span></div><h3>泡に魅入られた人妻 ～お仕事と割り切っていたはずなのに~</h3><p>モノグラム</p><div class=\"card-heat muted\">2012-09-21</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v11104/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>泡に魅入られた人妻 ～お仕事と割り切っていたはずなのに~</span></div><h3>泡に魅入られた人妻 ～お仕事と割り切っていたはずなのに~</h3><p>モノグラム</p><div class=\"card-heat muted\">2012-09-21</div></a></article>"
         },
         {
           "name": "蟲島 -Arachnid Bug-",
@@ -35463,7 +35551,7 @@
             "Mushijima -Arachnid Bug-"
           ],
           "released": "2012-08-10",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v11206/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>蟲島 -Arachnid Bug-</span></div><h3>蟲島 -Arachnid Bug-</h3><p>元禄ソフト</p><div class=\"card-heat muted\">2012-08-10</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v11206/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>蟲島 -Arachnid Bug-</span></div><h3>蟲島 -Arachnid Bug-</h3><p>元禄ソフト</p><div class=\"card-heat muted\">2012-08-10</div></a></article>"
         },
         {
           "name": "淫辱選挙戦 ～白濁に染まる会長選～",
@@ -35473,7 +35561,7 @@
             "Injoku Senkyosen ~Hakudaku ni Somaru Kaichou Sen~"
           ],
           "released": "2013-05-31",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v12382/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>淫辱選挙戦 ～白濁に染まる会長選～</span></div><h3>淫辱選挙戦 ～白濁に染まる会長選～</h3><p>アンダームーン / 株式会社天沼矛</p><div class=\"card-heat muted\">2013-05-31</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v12382/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>淫辱選挙戦 ～白濁に染まる会長選～</span></div><h3>淫辱選挙戦 ～白濁に染まる会長選～</h3><p>アンダームーン / 株式会社天沼矛</p><div class=\"card-heat muted\">2013-05-31</div></a></article>"
         },
         {
           "name": "女学園の性欲食堂 ～特精ソースで傀儡に変わる少女たち～",
@@ -35483,7 +35571,7 @@
             "Jogakuen no Seiyoku Shokudou ~Tokusei Sauce de Kugutsu ni Kawaru Shoujo-tachi~"
           ],
           "released": "2013-08-30",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v12701/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>女学園の性欲食堂 ～特精ソースで傀儡に変わる少女たち～</span></div><h3>女学園の性欲食堂 ～特精ソースで傀儡に変わる少女たち～</h3><p>アンダームーン / 株式会社天沼矛</p><div class=\"card-heat muted\">2013-08-30</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v12701/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>女学園の性欲食堂 ～特精ソースで傀儡に変わる少女たち～</span></div><h3>女学園の性欲食堂 ～特精ソースで傀儡に変わる少女たち～</h3><p>アンダームーン / 株式会社天沼矛</p><div class=\"card-heat muted\">2013-08-30</div></a></article>"
         },
         {
           "name": "姉妻淫欲調教 ～ブ男でヒッキーな僕との義兄には言えない秘密のエクスタシー",
@@ -35493,7 +35581,7 @@
             "Anezuma In'yoku Choukyou ~Buotoko de Hikkii na Boku to no Gikei ni wa Ienai Himitsu no Ecstasy"
           ],
           "released": "2013-10-18",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v13061/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>姉妻淫欲調教 ～ブ男でヒッキーな僕との義兄には言えない秘密のエクスタシー</span></div><h3>姉妻淫欲調教 ～ブ男でヒッキーな僕との義兄には言えない秘密のエクスタシー</h3><p>アパタイト</p><div class=\"card-heat muted\">2013-10-18</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v13061/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>姉妻淫欲調教 ～ブ男でヒッキーな僕との義兄には言えない秘密のエクスタシー</span></div><h3>姉妻淫欲調教 ～ブ男でヒッキーな僕との義兄には言えない秘密のエクスタシー</h3><p>アパタイト</p><div class=\"card-heat muted\">2013-10-18</div></a></article>"
         },
         {
           "name": "牝贄プロジェクト ～新人OL、社畜の刻印～ 彼女はカエレナイ",
@@ -35503,7 +35591,7 @@
             "Mesu Nie Project ~Shinjin OL, Shachiku no Kokuin~ Kanojo wa Kaerenai"
           ],
           "released": "2013-10-18",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v13469/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>牝贄プロジェクト ～新人OL、社畜の刻印～ 彼女はカエレナイ</span></div><h3>牝贄プロジェクト ～新人OL、社畜の刻印～ 彼女はカエレナイ</h3><p>スピンドル</p><div class=\"card-heat muted\">2013-10-18</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v13469/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>牝贄プロジェクト ～新人OL、社畜の刻印～ 彼女はカエレナイ</span></div><h3>牝贄プロジェクト ～新人OL、社畜の刻印～ 彼女はカエレナイ</h3><p>スピンドル</p><div class=\"card-heat muted\">2013-10-18</div></a></article>"
         },
         {
           "name": "モン娘ハート ～搾精されるは世界のためっ!?～",
@@ -35513,7 +35601,7 @@
             "Mon Musume Heart ~Sakusei Sareru wa Sekai no Tame!?~"
           ],
           "released": "2013-11-22",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v13788/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>モン娘ハート ～搾精されるは世界のためっ!?～</span></div><h3>モン娘ハート ～搾精されるは世界のためっ!?～</h3><p>スピンドル</p><div class=\"card-heat muted\">2013-11-22</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v13788/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>モン娘ハート ～搾精されるは世界のためっ!?～</span></div><h3>モン娘ハート ～搾精されるは世界のためっ!?～</h3><p>スピンドル</p><div class=\"card-heat muted\">2013-11-22</div></a></article>"
         },
         {
           "name": "放課後野交授業 美貌母娘の特別レッスン",
@@ -35523,7 +35611,7 @@
             "Houkago Yakou Jugyou: Bibou Oyako no Tokubetsu Lesson"
           ],
           "released": "2014-01-24",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v14090/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>放課後野交授業 美貌母娘の特別レッスン</span></div><h3>放課後野交授業 美貌母娘の特別レッスン</h3><p>スピンドル</p><div class=\"card-heat muted\">2014-01-24</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v14090/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>放課後野交授業 美貌母娘の特別レッスン</span></div><h3>放課後野交授業 美貌母娘の特別レッスン</h3><p>スピンドル</p><div class=\"card-heat muted\">2014-01-24</div></a></article>"
         },
         {
           "name": "近親母姦 ～今日もまた、お母さんがぼくを求めてくる～",
@@ -35533,7 +35621,7 @@
             "Kinshin Bokan ~Kyou mo Mata, Okaa-san ga Boku o Motomete Kuru~"
           ],
           "released": "2014-03-20",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v14231/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>近親母姦 ～今日もまた、お母さんがぼくを求めてくる～</span></div><h3>近親母姦 ～今日もまた、お母さんがぼくを求めてくる～</h3><p>スピンドル</p><div class=\"card-heat muted\">2014-03-20</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v14231/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>近親母姦 ～今日もまた、お母さんがぼくを求めてくる～</span></div><h3>近親母姦 ～今日もまた、お母さんがぼくを求めてくる～</h3><p>スピンドル</p><div class=\"card-heat muted\">2014-03-20</div></a></article>"
         },
         {
           "name": "双性の姫君 ～ふたなり姉妹と魔王の求愛～",
@@ -35543,7 +35631,7 @@
             "Sousei no Himegimi ~Futanari Shimai to Maou no Kyuuai~"
           ],
           "released": "2014-04-25",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v14594/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>双性の姫君 ～ふたなり姉妹と魔王の求愛～</span></div><h3>双性の姫君 ～ふたなり姉妹と魔王の求愛～</h3><p>アンモライト</p><div class=\"card-heat muted\">2014-04-25</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v14594/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>双性の姫君 ～ふたなり姉妹と魔王の求愛～</span></div><h3>双性の姫君 ～ふたなり姉妹と魔王の求愛～</h3><p>アンモライト</p><div class=\"card-heat muted\">2014-04-25</div></a></article>"
         },
         {
           "name": "愛娘の彼ママとの淫蜜交尾 ～奥さん、バレそうなのが興奮するんだろ？～",
@@ -35553,7 +35641,7 @@
             "Manamusume no Kare Mama to no Inmitsu Koubi ~Oku-san, Baresou na no ga Koufun Surun Daro?~"
           ],
           "released": "2014-06-20",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v14962/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>愛娘の彼ママとの淫蜜交尾 ～奥さん、バレそうなのが興奮するんだろ？～</span></div><h3>愛娘の彼ママとの淫蜜交尾 ～奥さん、バレそうなのが興奮するんだろ？～</h3><p>アパタイト</p><div class=\"card-heat muted\">2014-06-20</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v14962/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>愛娘の彼ママとの淫蜜交尾 ～奥さん、バレそうなのが興奮するんだろ？～</span></div><h3>愛娘の彼ママとの淫蜜交尾 ～奥さん、バレそうなのが興奮するんだろ？～</h3><p>アパタイト</p><div class=\"card-heat muted\">2014-06-20</div></a></article>"
         },
         {
           "name": "ママは同級生 ～あなたの父親だけじゃ満足できないの～",
@@ -35563,7 +35651,7 @@
             "Mama wa Doukyuusei ~Anata no Chichioya Dake ja Manzoku Dekinai no~"
           ],
           "released": "2014-10-31",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v15899/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>ママは同級生 ～あなたの父親だけじゃ満足できないの～</span></div><h3>ママは同級生 ～あなたの父親だけじゃ満足できないの～</h3><p>スピンドル</p><div class=\"card-heat muted\">2014-10-31</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v15899/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>ママは同級生 ～あなたの父親だけじゃ満足できないの～</span></div><h3>ママは同級生 ～あなたの父親だけじゃ満足できないの～</h3><p>スピンドル</p><div class=\"card-heat muted\">2014-10-31</div></a></article>"
         },
         {
           "name": "痴女志向～太ったおじさんじゃなきゃダメなの！～",
@@ -35573,7 +35661,7 @@
             "Chijo Shikou ~Futotta Oji-san Janakya Dame na no!~"
           ],
           "released": "2015-02-27",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v16922/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>痴女志向～太ったおじさんじゃなきゃダメなの！～</span></div><h3>痴女志向～太ったおじさんじゃなきゃダメなの！～</h3><p>スピンドル</p><div class=\"card-heat muted\">2015-02-27</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v16922/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>痴女志向～太ったおじさんじゃなきゃダメなの！～</span></div><h3>痴女志向～太ったおじさんじゃなきゃダメなの！～</h3><p>スピンドル</p><div class=\"card-heat muted\">2015-02-27</div></a></article>"
         },
         {
           "name": "淫辱痴感 ～あなたなんかには、屈しない！～",
@@ -35583,7 +35671,7 @@
             "Injoku Chikan ~Anata Nanka ni wa, Kusshinai!~"
           ],
           "released": "2015-04-24",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v16957/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>淫辱痴感 ～あなたなんかには、屈しない！～</span></div><h3>淫辱痴感 ～あなたなんかには、屈しない！～</h3><p>スピンドル</p><div class=\"card-heat muted\">2015-04-24</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v16957/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>淫辱痴感 ～あなたなんかには、屈しない！～</span></div><h3>淫辱痴感 ～あなたなんかには、屈しない！～</h3><p>スピンドル</p><div class=\"card-heat muted\">2015-04-24</div></a></article>"
         },
         {
           "name": "XX of the Dead",
@@ -35603,7 +35691,7 @@
             "Shirudaku Niku Gangu Shitei ~Ore no Shokushu de Shouhinka~"
           ],
           "released": "2015-12-10",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v18585/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>汁だく肉玩具姉弟 ～俺の触手で商品化～</span></div><h3>汁だく肉玩具姉弟 ～俺の触手で商品化～</h3><p>アパタイト</p><div class=\"card-heat muted\">2015-12-10</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v18585/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>汁だく肉玩具姉弟 ～俺の触手で商品化～</span></div><h3>汁だく肉玩具姉弟 ～俺の触手で商品化～</h3><p>アパタイト</p><div class=\"card-heat muted\">2015-12-10</div></a></article>"
         },
         {
           "name": "お前のママをシェアしようぜ ～息子へのいじめっ子達に堕される美母～",
@@ -35613,7 +35701,7 @@
             "Omae no Mama o Share Shiyou ze ~Musuko e no Ijimekko-tachi ni Otosareru Bibo~"
           ],
           "released": "2016-03-04",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v18949/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>お前のママをシェアしようぜ ～息子へのいじめっ子達に堕される美母～</span></div><h3>お前のママをシェアしようぜ ～息子へのいじめっ子達に堕される美母～</h3><p>アパダッシュ</p><div class=\"card-heat muted\">2016-03-04</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v18949/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>お前のママをシェアしようぜ ～息子へのいじめっ子達に堕される美母～</span></div><h3>お前のママをシェアしようぜ ～息子へのいじめっ子達に堕される美母～</h3><p>アパダッシュ</p><div class=\"card-heat muted\">2016-03-04</div></a></article>"
         },
         {
           "name": "幼馴染みが父親とデキていた件について ～おやじからの羞恥ネトリ調教～",
@@ -35623,7 +35711,7 @@
             "Osananajimi ga Chichioya to Dekiteita Ken ni Tsuite ~Oyaji kara no Shuuchi Netori Choukyou~"
           ],
           "released": "2016-04-01",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v19097/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>幼馴染みが父親とデキていた件について ～おやじからの羞恥ネトリ調教～</span></div><h3>幼馴染みが父親とデキていた件について ～おやじからの羞恥ネトリ調教～</h3><p>アパタイト</p><div class=\"card-heat muted\">2016-04-01</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v19097/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>幼馴染みが父親とデキていた件について ～おやじからの羞恥ネトリ調教～</span></div><h3>幼馴染みが父親とデキていた件について ～おやじからの羞恥ネトリ調教～</h3><p>アパタイト</p><div class=\"card-heat muted\">2016-04-01</div></a></article>"
         },
         {
           "name": "社淫狂育～これまでの恨み、すべて晴らしてやる！～",
@@ -35633,7 +35721,7 @@
             "Shain Kyouiku ~Koremade no Urami, Subete Harashite Yaru!~"
           ],
           "released": "2016-01-22",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v19118/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>社淫狂育～これまでの恨み、すべて晴らしてやる！～</span></div><h3>社淫狂育～これまでの恨み、すべて晴らしてやる！～</h3><p>ディレッタント</p><div class=\"card-heat muted\">2016-01-22</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v19118/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>社淫狂育～これまでの恨み、すべて晴らしてやる！～</span></div><h3>社淫狂育～これまでの恨み、すべて晴らしてやる！～</h3><p>ディレッタント</p><div class=\"card-heat muted\">2016-01-22</div></a></article>"
         },
         {
           "name": "人妻店長の痴態勤務 ～夜勤バイトの愉しみ方～",
@@ -35644,7 +35732,7 @@
             "The Married Manager's Scandalous Services - The Pleasures of the Night Shift"
           ],
           "released": "2016-10-14",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v19959/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>人妻店長の痴態勤務 ～夜勤バイトの愉しみ方～</span></div><h3>人妻店長の痴態勤務 ～夜勤バイトの愉しみ方～</h3><p>アパタイト</p><div class=\"card-heat muted\">2016-10-14</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v19959/\"><div class=\"cover \"><img src=\"https://t.vndb.org/cv.t/24/111124.jpg\" data-cover-full=\"https://t.vndb.org/cv/24/111124.jpg\" alt=\"人妻店長の痴態勤務 ～夜勤バイトの愉しみ方～封面\" loading=\"lazy\" referrerpolicy=\"no-referrer\"></div><h3>人妻店長の痴態勤務 ～夜勤バイトの愉しみ方～</h3><p>アパタイト</p><div class=\"card-heat muted\">2016-10-14</div></a></article>"
         },
         {
           "name": "透明人間 挿れ喰い仲三",
@@ -35654,7 +35742,7 @@
             "Toumei Ningen - Iregui Chuuzou"
           ],
           "released": "2017-09-29",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v21428/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>透明人間 挿れ喰い仲三</span></div><h3>透明人間 挿れ喰い仲三</h3><p>Mink EGO</p><div class=\"card-heat muted\">2017-09-29</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v21428/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>透明人間 挿れ喰い仲三</span></div><h3>透明人間 挿れ喰い仲三</h3><p>Mink EGO</p><div class=\"card-heat muted\">2017-09-29</div></a></article>"
         },
         {
           "name": "いもうと ～蜜壺・第二章～",
@@ -35664,7 +35752,7 @@
             "Imouto ~Mitsutsubo: Dai Nishou~"
           ],
           "released": "2018-01-26",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v21921/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>いもうと ～蜜壺・第二章～</span></div><h3>いもうと ～蜜壺・第二章～</h3><p>Mink EGO</p><div class=\"card-heat muted\">2018-01-26</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v21921/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>いもうと ～蜜壺・第二章～</span></div><h3>いもうと ～蜜壺・第二章～</h3><p>Mink EGO</p><div class=\"card-heat muted\">2018-01-26</div></a></article>"
         },
         {
           "name": "虜ノ歪 ～音大卒の元歌姫が響かせる淫らな啼き声～",
@@ -35674,7 +35762,7 @@
             "Toriko no Yugami ~Ondai Sotsu no Moto Utahime ga Hibikaseru Midara na Nakigoe~"
           ],
           "released": "2018-05-25",
-          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v22600/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>封面尚未采集</span>虜ノ歪 ～音大卒の元歌姫が響かせる淫らな啼き声～</span></div><h3>虜ノ歪 ～音大卒の元歌姫が響かせる淫らな啼き声～</h3><p>Guilty</p><div class=\"card-heat muted\">2018-05-25</div></a></article>"
+          "html": "<article class=\"work-card\"><a href=\"@@ROOT@@works/v22600/\"><div class=\"cover \"><span class=\"cover-fallback\" aria-label=\"暂无封面\"><span>暂无符合展示标准的封面</span>虜ノ歪 ～音大卒の元歌姫が響かせる淫らな啼き声～</span></div><h3>虜ノ歪 ～音大卒の元歌姫が響かせる淫らな啼き声～</h3><p>Guilty</p><div class=\"card-heat muted\">2018-05-25</div></a></article>"
         },
         {
           "name": "俺の上であがく六人の伽女",
