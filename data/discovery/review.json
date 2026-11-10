@@ -3,12 +3,12 @@
   "periodId": "2026-11-06",
   "platforms": {
     "douyin": {
-      "status": "failed",
-      "collectedAt": "2026-11-09T08:06:46.556Z"
+      "status": "partial",
+      "collectedAt": "2026-11-10T08:34:21.249Z"
     },
     "bilibili": {
       "status": "partial",
-      "collectedAt": "2026-11-09T08:26:10.862Z"
+      "collectedAt": "2026-11-10T08:42:51.507Z"
     }
   },
   "records": [
@@ -27,7 +27,7 @@
       "kind": "video",
       "url": "https://www.douyin.com/video/7704696011432361600",
       "publishedAt": "2026-11-05T14:35:32+00:00",
-      "likes": 11320,
+      "likes": 13325,
       "author": {
         "id": "7665231454536582201",
         "name": "推晃悠的心事",
@@ -35,9 +35,9 @@
       },
       "durationSeconds": null,
       "metrics": {
-        "favorites": 2620,
-        "comments": 122,
-        "shares": 1649,
+        "favorites": 3184,
+        "comments": 150,
+        "shares": 1970,
         "views": null,
         "coins": null
       },
@@ -48,7 +48,7 @@
         "views": "unsupported",
         "coins": "unsupported"
       },
-      "collectedAt": "2026-11-08T07:29:19.067412+00:00",
+      "collectedAt": "2026-11-10T08:29:58.809451+00:00",
       "keyword": "galgame名场面"
     },
     {
@@ -102,7 +102,7 @@
       "kind": "video",
       "url": "https://www.douyin.com/video/7704418829690610042",
       "publishedAt": "2026-11-04T20:40:04+00:00",
-      "likes": 4234,
+      "likes": 4996,
       "author": {
         "id": "97877248992",
         "name": "Trust",
@@ -110,9 +110,9 @@
       },
       "durationSeconds": null,
       "metrics": {
-        "favorites": 864,
-        "comments": 110,
-        "shares": 1842,
+        "favorites": 1023,
+        "comments": 126,
+        "shares": 2191,
         "views": null,
         "coins": null
       },
@@ -123,7 +123,7 @@
         "views": "unsupported",
         "coins": "unsupported"
       },
-      "collectedAt": "2026-11-08T07:29:19.067428+00:00",
+      "collectedAt": "2026-11-10T08:29:58.809462+00:00",
       "keyword": "galgame名场面"
     },
     {
@@ -251,7 +251,7 @@
       "kind": "video",
       "url": "https://www.douyin.com/video/7703488403890867497",
       "publishedAt": "2026-11-02T08:29:27+00:00",
-      "likes": 2329,
+      "likes": 2430,
       "author": {
         "id": "955922235270712",
         "name": "Akira",
@@ -259,9 +259,9 @@
       },
       "durationSeconds": null,
       "metrics": {
-        "favorites": 1529,
-        "comments": 66,
-        "shares": 496,
+        "favorites": 1579,
+        "comments": 69,
+        "shares": 532,
         "views": null,
         "coins": null
       },
@@ -272,8 +272,8 @@
         "views": "unsupported",
         "coins": "unsupported"
       },
-      "collectedAt": "2026-11-08T07:27:31.918630+00:00",
-      "keyword": "gal游戏"
+      "collectedAt": "2026-11-10T08:29:58.809471+00:00",
+      "keyword": "galgame名场面"
     },
     {
       "platform": "douyin",
@@ -369,7 +369,7 @@
       "kind": "video",
       "url": "https://www.douyin.com/video/7703104071817257595",
       "publishedAt": "2026-11-01T07:37:59+00:00",
-      "likes": 6016,
+      "likes": 6204,
       "author": {
         "id": "4037050852718766",
         "name": "真昼天下第一",
@@ -377,9 +377,9 @@
       },
       "durationSeconds": null,
       "metrics": {
-        "favorites": 1261,
+        "favorites": 1310,
         "comments": 153,
-        "shares": 489,
+        "shares": 523,
         "views": null,
         "coins": null
       },
@@ -390,8 +390,8 @@
         "views": "unsupported",
         "coins": "unsupported"
       },
-      "collectedAt": "2026-11-08T07:27:31.918676+00:00",
-      "keyword": "gal游戏"
+      "collectedAt": "2026-11-10T08:28:55.246673+00:00",
+      "keyword": "美少女游戏"
     },
     {
       "platform": "douyin",
@@ -749,7 +749,7 @@
       "kind": "video",
       "url": "https://www.douyin.com/video/7703247503285636392",
       "publishedAt": "2026-11-01T16:54:56+00:00",
-      "likes": 4302,
+      "likes": 5036,
       "author": {
         "id": "7479749704047166521",
         "name": "萝卜军师（攻略大师）",
@@ -757,9 +757,9 @@
       },
       "durationSeconds": null,
       "metrics": {
-        "favorites": 2734,
-        "comments": 51,
-        "shares": 745,
+        "favorites": 3203,
+        "comments": 14,
+        "shares": 897,
         "views": null,
         "coins": null
       },
@@ -770,7 +770,7 @@
         "views": "unsupported",
         "coins": "unsupported"
       },
-      "collectedAt": "2026-11-07T07:16:42.656502+00:00",
+      "collectedAt": "2026-11-10T08:28:55.246664+00:00",
       "keyword": "美少女游戏"
     },
     {
@@ -789,7 +789,7 @@
       "kind": "image",
       "url": "https://www.douyin.com/note/7702889541259369846",
       "publishedAt": "2026-10-31T17:45:30+00:00",
-      "likes": 1154,
+      "likes": 2612,
       "author": {
         "id": "3735514600714100",
         "name": "就一予",
@@ -797,9 +797,9 @@
       },
       "durationSeconds": null,
       "metrics": {
-        "favorites": 154,
-        "comments": 70,
-        "shares": 151,
+        "favorites": 307,
+        "comments": 138,
+        "shares": 300,
         "views": null,
         "coins": null
       },
@@ -810,7 +810,7 @@
         "views": "unsupported",
         "coins": "unsupported"
       },
-      "collectedAt": "2026-11-06T07:59:10.870887+00:00",
+      "collectedAt": "2026-11-10T08:28:55.246684+00:00",
       "keyword": "美少女游戏"
     },
     {
@@ -1211,7 +1211,7 @@
       "kind": "video",
       "url": "https://www.douyin.com/video/7704630226424319232",
       "publishedAt": "2026-11-05T12:30:00+00:00",
-      "likes": 521,
+      "likes": 997,
       "author": {
         "id": "3622217997629108",
         "name": "正经游戏玩家🎮煮✌️",
@@ -1219,9 +1219,9 @@
       },
       "durationSeconds": null,
       "metrics": {
-        "favorites": 575,
-        "comments": 13,
-        "shares": 59,
+        "favorites": 1020,
+        "comments": 21,
+        "shares": 142,
         "views": null,
         "coins": null
       },
@@ -1232,7 +1232,7 @@
         "views": "unsupported",
         "coins": "unsupported"
       },
-      "collectedAt": "2026-11-07T07:16:42.656378+00:00",
+      "collectedAt": "2026-11-10T08:28:55.246636+00:00",
       "keyword": "美少女游戏"
     },
     {
@@ -1324,7 +1324,7 @@
       "kind": "video",
       "url": "https://www.douyin.com/video/7703153715133320906",
       "publishedAt": "2026-11-01T10:50:38+00:00",
-      "likes": 1935,
+      "likes": 2085,
       "author": {
         "id": "4356686405962840",
         "name": "Loinst",
@@ -1332,9 +1332,9 @@
       },
       "durationSeconds": null,
       "metrics": {
-        "favorites": 370,
-        "comments": 191,
-        "shares": 437,
+        "favorites": 399,
+        "comments": 198,
+        "shares": 477,
         "views": null,
         "coins": null
       },
@@ -1345,7 +1345,7 @@
         "views": "unsupported",
         "coins": "unsupported"
       },
-      "collectedAt": "2026-11-08T07:27:31.918664+00:00",
+      "collectedAt": "2026-11-10T08:28:31.038981+00:00",
       "keyword": "gal游戏"
     },
     {
@@ -1424,6 +1424,43 @@
       "keyword": "galgame名场面"
     },
     {
+      "platform": "douyin",
+      "id": "7703909338477630952",
+      "title": "攻略对象之广自由度之高，古早日乙不烧心 《Palais de Reine》\n平台：steam、Dlsite、PC碟\n #乙女游戏 #女性向游戏 #日乙",
+      "description": "",
+      "tags": [
+        "乙女游戏",
+        "女性向游戏",
+        "日乙"
+      ],
+      "kind": "video",
+      "url": "https://www.douyin.com/video/7703909338477630952",
+      "publishedAt": "2026-11-03T11:42:50+00:00",
+      "likes": 1966,
+      "author": {
+        "id": "666770368890025",
+        "name": "歯牙生苔",
+        "url": "https://www.douyin.com/user/MS4wLjABAAAAUez4wOnVPaPYpRbDmpHYcTPOo7BjTZDYZWyKuIKZKps"
+      },
+      "durationSeconds": null,
+      "metrics": {
+        "favorites": 657,
+        "comments": 37,
+        "shares": 294,
+        "views": null,
+        "coins": null
+      },
+      "metricAvailability": {
+        "favorites": "available",
+        "comments": "available",
+        "shares": "available",
+        "views": "unsupported",
+        "coins": "unsupported"
+      },
+      "collectedAt": "2026-11-10T08:28:55.246645+00:00",
+      "keyword": "美少女游戏"
+    },
+    {
       "platform": "bilibili",
       "id": "BV1U8x46oE7q",
       "title": "我的世界Galgame文明:第二集",
@@ -1442,7 +1479,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1U8x46oE7q",
       "publishedAt": "2026-11-01T11:01:53.000Z",
-      "likes": 20188,
+      "likes": 20333,
       "kind": "video",
       "durationSeconds": 377,
       "author": {
@@ -1451,11 +1488,11 @@
         "url": "https://space.bilibili.com/1074845220"
       },
       "metrics": {
-        "favorites": 7152,
-        "comments": 387,
-        "shares": 639,
-        "views": 154526,
-        "coins": 1518
+        "favorites": 7212,
+        "comments": 391,
+        "shares": 649,
+        "views": 155927,
+        "coins": 1525
       },
       "metricAvailability": {
         "favorites": "available",
@@ -1464,7 +1501,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:06:49.459Z",
+      "collectedAt": "2026-11-10T08:34:25.384Z",
       "keyword": "galgame名场面"
     },
     {
@@ -1477,7 +1514,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1P1xQ69ET4",
       "publishedAt": "2026-11-04T06:36:22.000Z",
-      "likes": 1169,
+      "likes": 1286,
       "kind": "video",
       "durationSeconds": 34,
       "author": {
@@ -1486,11 +1523,11 @@
         "url": "https://space.bilibili.com/1489625347"
       },
       "metrics": {
-        "favorites": 183,
-        "comments": 108,
-        "shares": 112,
-        "views": 70796,
-        "coins": 8
+        "favorites": 203,
+        "comments": 109,
+        "shares": 124,
+        "views": 78835,
+        "coins": 10
       },
       "metricAvailability": {
         "favorites": "available",
@@ -1499,7 +1536,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:06:51.794Z",
+      "collectedAt": "2026-11-10T08:34:26.530Z",
       "keyword": "galgame"
     },
     {
@@ -1512,7 +1549,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1VHxS6aEo4",
       "publishedAt": "2026-11-04T04:27:25.000Z",
-      "likes": 1498,
+      "likes": 1536,
       "kind": "video",
       "durationSeconds": 46,
       "author": {
@@ -1521,10 +1558,10 @@
         "url": "https://space.bilibili.com/1489625347"
       },
       "metrics": {
-        "favorites": 274,
-        "comments": 141,
-        "shares": 81,
-        "views": 54817,
+        "favorites": 284,
+        "comments": 143,
+        "shares": 84,
+        "views": 57204,
         "coins": 10
       },
       "metricAvailability": {
@@ -1534,7 +1571,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:06:53.071Z",
+      "collectedAt": "2026-11-10T08:34:27.794Z",
       "keyword": "gal游戏"
     },
     {
@@ -1556,7 +1593,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1S84c6REQk",
       "publishedAt": "2026-11-02T04:19:17.000Z",
-      "likes": 1745,
+      "likes": 1759,
       "kind": "video",
       "durationSeconds": 255,
       "author": {
@@ -1568,7 +1605,7 @@
         "favorites": 334,
         "comments": 93,
         "shares": 307,
-        "views": 33008,
+        "views": 33367,
         "coins": 201
       },
       "metricAvailability": {
@@ -1578,7 +1615,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:06:57.392Z",
+      "collectedAt": "2026-11-10T08:34:33.269Z",
       "keyword": "galgame"
     },
     {
@@ -1596,7 +1633,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1FfxH6YEDm",
       "publishedAt": "2026-11-01T02:00:00.000Z",
-      "likes": 1755,
+      "likes": 1803,
       "kind": "video",
       "durationSeconds": 129,
       "author": {
@@ -1605,11 +1642,11 @@
         "url": "https://space.bilibili.com/3690990835599915"
       },
       "metrics": {
-        "favorites": 1919,
-        "comments": 122,
-        "shares": 265,
-        "views": 30150,
-        "coins": 128
+        "favorites": 1986,
+        "comments": 125,
+        "shares": 274,
+        "views": 30990,
+        "coins": 130
       },
       "metricAvailability": {
         "favorites": "available",
@@ -1618,8 +1655,8 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:00.631Z",
-      "keyword": "花鸟水月"
+      "collectedAt": "2026-11-10T08:34:35.447Z",
+      "keyword": "gal游戏"
     },
     {
       "platform": "bilibili",
@@ -1640,7 +1677,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV127xt6REjj",
       "publishedAt": "2026-11-02T03:20:00.000Z",
-      "likes": 1780,
+      "likes": 1847,
       "kind": "video",
       "durationSeconds": 142,
       "author": {
@@ -1649,11 +1686,11 @@
         "url": "https://space.bilibili.com/495061433"
       },
       "metrics": {
-        "favorites": 863,
-        "comments": 287,
-        "shares": 637,
-        "views": 37873,
-        "coins": 265
+        "favorites": 906,
+        "comments": 297,
+        "shares": 667,
+        "views": 39966,
+        "coins": 274
       },
       "metricAvailability": {
         "favorites": "available",
@@ -1662,7 +1699,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:06:56.303Z",
+      "collectedAt": "2026-11-10T08:34:29.997Z",
       "keyword": "galgame"
     },
     {
@@ -1684,7 +1721,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1V1xt6iEUf",
       "publishedAt": "2026-11-03T09:00:00.000Z",
-      "likes": 1995,
+      "likes": 2064,
       "kind": "video",
       "durationSeconds": 106,
       "author": {
@@ -1693,11 +1730,11 @@
         "url": "https://space.bilibili.com/3690999140321293"
       },
       "metrics": {
-        "favorites": 1401,
-        "comments": 362,
-        "shares": 45,
-        "views": 31494,
-        "coins": 1464
+        "favorites": 1470,
+        "comments": 376,
+        "shares": 47,
+        "views": 33039,
+        "coins": 1517
       },
       "metricAvailability": {
         "favorites": "available",
@@ -1706,7 +1743,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:06:58.472Z",
+      "collectedAt": "2026-11-10T08:34:34.361Z",
       "keyword": "gal游戏"
     },
     {
@@ -1723,7 +1760,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1DF4t6cEuo",
       "publishedAt": "2026-11-05T09:00:00.000Z",
-      "likes": 1346,
+      "likes": 1355,
       "kind": "video",
       "durationSeconds": 52,
       "author": {
@@ -1732,10 +1769,10 @@
         "url": "https://space.bilibili.com/365304488"
       },
       "metrics": {
-        "favorites": 475,
+        "favorites": 483,
         "comments": 216,
-        "shares": 784,
-        "views": 20055,
+        "shares": 786,
+        "views": 20204,
         "coins": 28
       },
       "metricAvailability": {
@@ -1745,7 +1782,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:05.149Z",
+      "collectedAt": "2026-11-10T08:34:39.965Z",
       "keyword": "galgame"
     },
     {
@@ -1764,7 +1801,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV11g486wEeQ",
       "publishedAt": "2026-11-05T08:41:42.000Z",
-      "likes": 881,
+      "likes": 882,
       "kind": "video",
       "durationSeconds": 64,
       "author": {
@@ -1773,10 +1810,10 @@
         "url": "https://space.bilibili.com/3747574286649626"
       },
       "metrics": {
-        "favorites": 1225,
+        "favorites": 1228,
         "comments": 55,
-        "shares": 46,
-        "views": 14310,
+        "shares": 47,
+        "views": 14343,
         "coins": 22
       },
       "metricAvailability": {
@@ -1786,8 +1823,8 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:08.372Z",
-      "keyword": "对我而言"
+      "collectedAt": "2026-11-10T08:34:44.335Z",
+      "keyword": "视觉小说"
     },
     {
       "platform": "bilibili",
@@ -1807,7 +1844,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1hBx96TE9P",
       "publishedAt": "2026-11-05T01:00:00.000Z",
-      "likes": 704,
+      "likes": 705,
       "kind": "video",
       "durationSeconds": 87,
       "author": {
@@ -1816,10 +1853,10 @@
         "url": "https://space.bilibili.com/204982469"
       },
       "metrics": {
-        "favorites": 899,
+        "favorites": 900,
         "comments": 27,
         "shares": 22,
-        "views": 12872,
+        "views": 12883,
         "coins": 33
       },
       "metricAvailability": {
@@ -1829,7 +1866,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:12.173Z",
+      "collectedAt": "2026-11-10T08:34:49.230Z",
       "keyword": "galgame CG"
     },
     {
@@ -1850,7 +1887,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1Ya4t6uEdH",
       "publishedAt": "2026-11-05T04:11:14.000Z",
-      "likes": 733,
+      "likes": 774,
       "kind": "video",
       "durationSeconds": 376,
       "author": {
@@ -1859,11 +1896,11 @@
         "url": "https://space.bilibili.com/506179530"
       },
       "metrics": {
-        "favorites": 852,
-        "comments": 136,
-        "shares": 299,
-        "views": 14719,
-        "coins": 192
+        "favorites": 894,
+        "comments": 140,
+        "shares": 310,
+        "views": 15362,
+        "coins": 194
       },
       "metricAvailability": {
         "favorites": "available",
@@ -1872,7 +1909,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:07.297Z",
+      "collectedAt": "2026-11-10T08:34:42.150Z",
       "keyword": "视觉小说"
     },
     {
@@ -1894,7 +1931,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1VU4w6aEHr",
       "publishedAt": "2026-11-02T09:32:03.000Z",
-      "likes": 714,
+      "likes": 727,
       "kind": "video",
       "durationSeconds": 575,
       "author": {
@@ -1903,10 +1940,10 @@
         "url": "https://space.bilibili.com/241215063"
       },
       "metrics": {
-        "favorites": 781,
+        "favorites": 797,
         "comments": 33,
-        "shares": 19,
-        "views": 12588,
+        "shares": 20,
+        "views": 12970,
         "coins": 41
       },
       "metricAvailability": {
@@ -1916,7 +1953,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:13.255Z",
+      "collectedAt": "2026-11-10T08:34:48.142Z",
       "keyword": "美少女游戏"
     },
     {
@@ -1936,7 +1973,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1i5xm6bEmx",
       "publishedAt": "2026-11-03T16:10:23.000Z",
-      "likes": 593,
+      "likes": 615,
       "kind": "video",
       "durationSeconds": 32,
       "author": {
@@ -1945,10 +1982,10 @@
         "url": "https://space.bilibili.com/527525595"
       },
       "metrics": {
-        "favorites": 151,
+        "favorites": 157,
         "comments": 73,
         "shares": 68,
-        "views": 9137,
+        "views": 9334,
         "coins": 30
       },
       "metricAvailability": {
@@ -1958,7 +1995,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:18.873Z",
+      "collectedAt": "2026-11-10T08:34:54.026Z",
       "keyword": "galgame"
     },
     {
@@ -1980,7 +2017,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV19j4M6mEXb",
       "publishedAt": "2026-11-03T05:55:13.000Z",
-      "likes": 584,
+      "likes": 592,
       "kind": "video",
       "durationSeconds": 93,
       "author": {
@@ -1989,10 +2026,10 @@
         "url": "https://space.bilibili.com/3632310624717268"
       },
       "metrics": {
-        "favorites": 242,
-        "comments": 85,
-        "shares": 108,
-        "views": 7035,
+        "favorites": 251,
+        "comments": 86,
+        "shares": 111,
+        "views": 7196,
         "coins": 66
       },
       "metricAvailability": {
@@ -2002,7 +2039,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:25.348Z",
+      "collectedAt": "2026-11-10T08:35:01.706Z",
       "keyword": "视觉小说"
     },
     {
@@ -2020,7 +2057,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1bk4t6aEoZ",
       "publishedAt": "2026-11-05T05:04:07.000Z",
-      "likes": 1141,
+      "likes": 1158,
       "kind": "video",
       "durationSeconds": 15,
       "author": {
@@ -2029,10 +2066,10 @@
         "url": "https://space.bilibili.com/3244798"
       },
       "metrics": {
-        "favorites": 536,
+        "favorites": 543,
         "comments": 38,
         "shares": 21,
-        "views": 7663,
+        "views": 7858,
         "coins": 54
       },
       "metricAvailability": {
@@ -2042,7 +2079,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:23.176Z",
+      "collectedAt": "2026-11-10T08:34:59.522Z",
       "keyword": "galgame"
     },
     {
@@ -2058,7 +2095,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1Texs67E5A",
       "publishedAt": "2026-11-01T06:06:58.000Z",
-      "likes": 582,
+      "likes": 589,
       "kind": "video",
       "durationSeconds": 269,
       "author": {
@@ -2069,8 +2106,8 @@
       "metrics": {
         "favorites": 37,
         "comments": 67,
-        "shares": 8,
-        "views": 5720,
+        "shares": 9,
+        "views": 5795,
         "coins": 81
       },
       "metricAvailability": {
@@ -2080,7 +2117,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:37.580Z",
+      "collectedAt": "2026-11-10T08:35:14.030Z",
       "keyword": "galgame"
     },
     {
@@ -2095,7 +2132,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1Gqxd61E2N",
       "publishedAt": "2026-11-04T15:25:26.000Z",
-      "likes": 1776,
+      "likes": 1778,
       "kind": "video",
       "durationSeconds": 10,
       "author": {
@@ -2104,10 +2141,10 @@
         "url": "https://space.bilibili.com/3546897425894089"
       },
       "metrics": {
-        "favorites": 1310,
+        "favorites": 1309,
         "comments": 7,
         "shares": 17,
-        "views": 6011,
+        "views": 6031,
         "coins": 17
       },
       "metricAvailability": {
@@ -2117,7 +2154,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:33.447Z",
+      "collectedAt": "2026-11-10T08:35:11.589Z",
       "keyword": "galgame"
     },
     {
@@ -2137,7 +2174,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1Ug4F6SErN",
       "publishedAt": "2026-11-02T10:00:00.000Z",
-      "likes": 697,
+      "likes": 705,
       "kind": "video",
       "durationSeconds": 672,
       "author": {
@@ -2146,11 +2183,11 @@
         "url": "https://space.bilibili.com/2072586344"
       },
       "metrics": {
-        "favorites": 127,
+        "favorites": 128,
         "comments": 45,
-        "shares": 38,
-        "views": 5791,
-        "coins": 159
+        "shares": 39,
+        "views": 5928,
+        "coins": 163
       },
       "metricAvailability": {
         "favorites": "available",
@@ -2159,8 +2196,8 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:36.504Z",
-      "keyword": "Summer Pockets"
+      "collectedAt": "2026-11-10T08:35:12.945Z",
+      "keyword": "galgame"
     },
     {
       "platform": "bilibili",
@@ -2181,7 +2218,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1gz4t6eEug",
       "publishedAt": "2026-11-05T10:00:00.000Z",
-      "likes": 2358,
+      "likes": 2612,
       "kind": "video",
       "durationSeconds": 345,
       "author": {
@@ -2190,11 +2227,11 @@
         "url": "https://space.bilibili.com/11517336"
       },
       "metrics": {
-        "favorites": 1572,
-        "comments": 227,
-        "shares": 472,
-        "views": 26635,
-        "coins": 1880
+        "favorites": 1769,
+        "comments": 246,
+        "shares": 518,
+        "views": 30610,
+        "coins": 2057
       },
       "metricAvailability": {
         "favorites": "available",
@@ -2203,8 +2240,8 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:01.711Z",
-      "keyword": "Summer Pockets"
+      "collectedAt": "2026-11-10T08:34:36.544Z",
+      "keyword": "galgame"
     },
     {
       "platform": "bilibili",
@@ -2222,7 +2259,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1k5xh6sEYc",
       "publishedAt": "2026-11-02T02:27:24.000Z",
-      "likes": 790,
+      "likes": 824,
       "kind": "video",
       "durationSeconds": 14,
       "author": {
@@ -2231,11 +2268,11 @@
         "url": "https://space.bilibili.com/41929988"
       },
       "metrics": {
-        "favorites": 579,
+        "favorites": 602,
         "comments": 42,
-        "shares": 44,
-        "views": 4458,
-        "coins": 63
+        "shares": 45,
+        "views": 4594,
+        "coins": 65
       },
       "metricAvailability": {
         "favorites": "available",
@@ -2244,7 +2281,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:51.172Z",
+      "collectedAt": "2026-11-10T08:35:27.550Z",
       "keyword": "galgame"
     },
     {
@@ -2298,7 +2335,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1GU4w6aEfN",
       "publishedAt": "2026-11-02T09:32:47.000Z",
-      "likes": 1023,
+      "likes": 1056,
       "kind": "video",
       "durationSeconds": 147,
       "author": {
@@ -2307,11 +2344,11 @@
         "url": "https://space.bilibili.com/266534465"
       },
       "metrics": {
-        "favorites": 686,
-        "comments": 129,
-        "shares": 39,
-        "views": 4201,
-        "coins": 173
+        "favorites": 719,
+        "comments": 136,
+        "shares": 41,
+        "views": 4353,
+        "coins": 182
       },
       "metricAvailability": {
         "favorites": "available",
@@ -2320,7 +2357,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:54.488Z",
+      "collectedAt": "2026-11-10T08:38:01.970Z",
       "keyword": "视觉小说"
     },
     {
@@ -2380,7 +2417,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1vP4V6wEX7",
       "publishedAt": "2026-11-03T11:57:45.000Z",
-      "likes": 3464,
+      "likes": 3467,
       "kind": "video",
       "durationSeconds": 310,
       "author": {
@@ -2389,10 +2426,10 @@
         "url": "https://space.bilibili.com/3151252"
       },
       "metrics": {
-        "favorites": 3181,
+        "favorites": 3183,
         "comments": 41,
         "shares": 7,
-        "views": 128877,
+        "views": 128921,
         "coins": 1947
       },
       "metricAvailability": {
@@ -2402,8 +2439,8 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:08:55.764Z",
-      "keyword": "Rain98"
+      "collectedAt": "2026-11-10T08:36:32.160Z",
+      "keyword": "美少女游戏"
     },
     {
       "platform": "bilibili",
@@ -2424,7 +2461,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1Koxx6nEro",
       "publishedAt": "2026-11-01T12:13:22.000Z",
-      "likes": 5836,
+      "likes": 5879,
       "kind": "video",
       "durationSeconds": 196,
       "author": {
@@ -2433,10 +2470,10 @@
         "url": "https://space.bilibili.com/552165374"
       },
       "metrics": {
-        "favorites": 2744,
-        "comments": 239,
-        "shares": 159,
-        "views": 109547,
+        "favorites": 2784,
+        "comments": 244,
+        "shares": 161,
+        "views": 110808,
         "coins": 240
       },
       "metricAvailability": {
@@ -2446,7 +2483,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:08:57.019Z",
+      "collectedAt": "2026-11-10T08:36:33.439Z",
       "keyword": "美少女游戏"
     },
     {
@@ -2468,7 +2505,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV19R4b6GEcT",
       "publishedAt": "2026-11-05T11:01:06.000Z",
-      "likes": 4071,
+      "likes": 4151,
       "kind": "video",
       "durationSeconds": 429,
       "author": {
@@ -2477,11 +2514,11 @@
         "url": "https://space.bilibili.com/367927"
       },
       "metrics": {
-        "favorites": 2149,
-        "comments": 513,
-        "shares": 235,
-        "views": 151217,
-        "coins": 221
+        "favorites": 2192,
+        "comments": 534,
+        "shares": 238,
+        "views": 153197,
+        "coins": 224
       },
       "metricAvailability": {
         "favorites": "available",
@@ -2490,7 +2527,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:08:54.688Z",
+      "collectedAt": "2026-11-10T08:36:31.075Z",
       "keyword": "美少女游戏"
     },
     {
@@ -2524,7 +2561,7 @@
         "favorites": 188,
         "comments": 27,
         "shares": 10,
-        "views": 34833,
+        "views": 34866,
         "coins": 31
       },
       "metricAvailability": {
@@ -2534,7 +2571,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:08:59.396Z",
+      "collectedAt": "2026-11-10T08:36:37.995Z",
       "keyword": "美少女游戏"
     },
     {
@@ -2554,7 +2591,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1gE446FEzL",
       "publishedAt": "2026-11-05T12:00:00.000Z",
-      "likes": 1221,
+      "likes": 1362,
       "kind": "video",
       "durationSeconds": 520,
       "author": {
@@ -2563,11 +2600,11 @@
         "url": "https://space.bilibili.com/7817472"
       },
       "metrics": {
-        "favorites": 775,
-        "comments": 45,
-        "shares": 8,
-        "views": 168182,
-        "coins": 33
+        "favorites": 908,
+        "comments": 48,
+        "shares": 9,
+        "views": 207102,
+        "coins": 36
       },
       "metricAvailability": {
         "favorites": "available",
@@ -2576,7 +2613,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:08:53.602Z",
+      "collectedAt": "2026-11-10T08:36:29.980Z",
       "keyword": "美少女游戏"
     },
     {
@@ -2598,7 +2635,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1ry4h6oE5h",
       "publishedAt": "2026-11-05T13:41:22.000Z",
-      "likes": 8551,
+      "likes": 8633,
       "kind": "video",
       "durationSeconds": 101,
       "author": {
@@ -2607,11 +2644,11 @@
         "url": "https://space.bilibili.com/574115689"
       },
       "metrics": {
-        "favorites": 235,
-        "comments": 238,
-        "shares": 120,
-        "views": 72867,
-        "coins": 239
+        "favorites": 273,
+        "comments": 258,
+        "shares": 128,
+        "views": 80971,
+        "coins": 245
       },
       "metricAvailability": {
         "favorites": "available",
@@ -2620,7 +2657,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:08:58.320Z",
+      "collectedAt": "2026-11-10T08:36:34.724Z",
       "keyword": "美少女游戏"
     },
     {
@@ -2642,7 +2679,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1sT4A6JEYL",
       "publishedAt": "2026-11-02T08:42:44.000Z",
-      "likes": 585,
+      "likes": 587,
       "kind": "video",
       "durationSeconds": 29,
       "author": {
@@ -2651,10 +2688,10 @@
         "url": "https://space.bilibili.com/1623572885"
       },
       "metrics": {
-        "favorites": 194,
+        "favorites": 197,
         "comments": 31,
         "shares": 6,
-        "views": 10727,
+        "views": 10787,
         "coins": 44
       },
       "metricAvailability": {
@@ -2664,7 +2701,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:09:09.556Z",
+      "collectedAt": "2026-11-10T08:36:46.220Z",
       "keyword": "美少女游戏"
     },
     {
@@ -2686,7 +2723,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1PyxQ6sEQZ",
       "publishedAt": "2026-11-04T07:05:00.000Z",
-      "likes": 717,
+      "likes": 728,
       "kind": "video",
       "durationSeconds": 234,
       "author": {
@@ -2695,11 +2732,11 @@
         "url": "https://space.bilibili.com/657516"
       },
       "metrics": {
-        "favorites": 19,
-        "comments": 33,
+        "favorites": 21,
+        "comments": 34,
         "shares": 5,
-        "views": 8935,
-        "coins": 21
+        "views": 9557,
+        "coins": 23
       },
       "metricAvailability": {
         "favorites": "available",
@@ -2708,7 +2745,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:09:13.175Z",
+      "collectedAt": "2026-11-10T08:36:50.036Z",
       "keyword": "美少女游戏"
     },
     {
@@ -2730,7 +2767,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1i7xS6NE6S",
       "publishedAt": "2026-11-04T10:00:00.000Z",
-      "likes": 5852,
+      "likes": 5989,
       "kind": "video",
       "durationSeconds": 2018,
       "author": {
@@ -2739,11 +2776,11 @@
         "url": "https://space.bilibili.com/16152032"
       },
       "metrics": {
-        "favorites": 3748,
-        "comments": 100,
-        "shares": 76,
-        "views": 71882,
-        "coins": 702
+        "favorites": 3837,
+        "comments": 102,
+        "shares": 80,
+        "views": 73869,
+        "coins": 730
       },
       "metricAvailability": {
         "favorites": "available",
@@ -2752,7 +2789,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:10:00.579Z",
+      "collectedAt": "2026-11-10T08:37:38.132Z",
       "keyword": "视觉小说"
     },
     {
@@ -2773,7 +2810,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1jJxQ6rESz",
       "publishedAt": "2026-11-04T10:15:00.000Z",
-      "likes": 2412,
+      "likes": 2506,
       "kind": "video",
       "durationSeconds": 603,
       "author": {
@@ -2782,11 +2819,11 @@
         "url": "https://space.bilibili.com/785025"
       },
       "metrics": {
-        "favorites": 975,
-        "comments": 61,
-        "shares": 16,
-        "views": 31284,
-        "coins": 221
+        "favorites": 1058,
+        "comments": 63,
+        "shares": 18,
+        "views": 33396,
+        "coins": 226
       },
       "metricAvailability": {
         "favorites": "available",
@@ -2795,8 +2832,8 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:10:01.656Z",
-      "keyword": "I Can Smell You from Here"
+      "collectedAt": "2026-11-10T08:37:39.224Z",
+      "keyword": "视觉小说"
     },
     {
       "platform": "bilibili",
@@ -2816,7 +2853,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1BZ4A65ETM",
       "publishedAt": "2026-11-02T15:46:23.000Z",
-      "likes": 2602,
+      "likes": 2720,
       "kind": "video",
       "durationSeconds": 5148,
       "author": {
@@ -2825,11 +2862,11 @@
         "url": "https://space.bilibili.com/533850221"
       },
       "metrics": {
-        "favorites": 3086,
-        "comments": 13,
+        "favorites": 3190,
+        "comments": 15,
         "shares": 43,
-        "views": 30231,
-        "coins": 76
+        "views": 31415,
+        "coins": 78
       },
       "metricAvailability": {
         "favorites": "available",
@@ -2838,8 +2875,8 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:10:02.729Z",
-      "keyword": "我回来了，404号室"
+      "collectedAt": "2026-11-10T08:37:40.318Z",
+      "keyword": "视觉小说"
     },
     {
       "platform": "bilibili",
@@ -2860,7 +2897,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1z9x463Ea5",
       "publishedAt": "2026-11-01T12:00:00.000Z",
-      "likes": 652,
+      "likes": 661,
       "kind": "video",
       "durationSeconds": 474,
       "author": {
@@ -2869,11 +2906,11 @@
         "url": "https://space.bilibili.com/198601484"
       },
       "metrics": {
-        "favorites": 1081,
-        "comments": 100,
-        "shares": 40,
-        "views": 16887,
-        "coins": 132
+        "favorites": 1096,
+        "comments": 107,
+        "shares": 41,
+        "views": 17320,
+        "coins": 134
       },
       "metricAvailability": {
         "favorites": "available",
@@ -2882,7 +2919,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:10:07.261Z",
+      "collectedAt": "2026-11-10T08:37:45.995Z",
       "keyword": "视觉小说"
     },
     {
@@ -2902,7 +2939,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1U8x46oECX",
       "publishedAt": "2026-11-01T11:00:00.000Z",
-      "likes": 1471,
+      "likes": 1476,
       "kind": "video",
       "durationSeconds": 34,
       "author": {
@@ -2911,10 +2948,10 @@
         "url": "https://space.bilibili.com/1998538847"
       },
       "metrics": {
-        "favorites": 605,
+        "favorites": 607,
         "comments": 57,
         "shares": 70,
-        "views": 14117,
+        "views": 14198,
         "coins": 115
       },
       "metricAvailability": {
@@ -2924,7 +2961,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:10:09.436Z",
+      "collectedAt": "2026-11-10T08:37:48.172Z",
       "keyword": "视觉小说"
     },
     {
@@ -2939,7 +2976,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1rjx96HEnB",
       "publishedAt": "2026-11-04T12:51:48.000Z",
-      "likes": 1657,
+      "likes": 1715,
       "kind": "video",
       "durationSeconds": 39,
       "author": {
@@ -2948,11 +2985,11 @@
         "url": "https://space.bilibili.com/32589074"
       },
       "metrics": {
-        "favorites": 297,
-        "comments": 193,
-        "shares": 258,
-        "views": 16049,
-        "coins": 267
+        "favorites": 309,
+        "comments": 197,
+        "shares": 264,
+        "views": 16761,
+        "coins": 272
       },
       "metricAvailability": {
         "favorites": "available",
@@ -2961,7 +2998,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:10:08.338Z",
+      "collectedAt": "2026-11-10T08:37:47.087Z",
       "keyword": "视觉小说"
     },
     {
@@ -2983,7 +3020,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV14MxW6LEmG",
       "publishedAt": "2026-11-03T03:30:32.000Z",
-      "likes": 2172,
+      "likes": 2241,
       "kind": "video",
       "durationSeconds": 2960,
       "author": {
@@ -2992,11 +3029,11 @@
         "url": "https://space.bilibili.com/44939113"
       },
       "metrics": {
-        "favorites": 3170,
+        "favorites": 3256,
         "comments": 16,
         "shares": 8,
-        "views": 23709,
-        "coins": 132
+        "views": 24383,
+        "coins": 136
       },
       "metricAvailability": {
         "favorites": "available",
@@ -3005,7 +3042,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:10:03.820Z",
+      "collectedAt": "2026-11-10T08:37:41.414Z",
       "keyword": "视觉小说"
     },
     {
@@ -3022,7 +3059,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1hj4P6wExu",
       "publishedAt": "2026-11-02T13:45:35.000Z",
-      "likes": 1498,
+      "likes": 1583,
       "kind": "video",
       "durationSeconds": 61,
       "author": {
@@ -3031,11 +3068,11 @@
         "url": "https://space.bilibili.com/1586997653"
       },
       "metrics": {
-        "favorites": 1585,
-        "comments": 66,
-        "shares": 62,
-        "views": 8279,
-        "coins": 74
+        "favorites": 1663,
+        "comments": 72,
+        "shares": 68,
+        "views": 8664,
+        "coins": 80
       },
       "metricAvailability": {
         "favorites": "available",
@@ -3044,7 +3081,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:10:11.590Z",
+      "collectedAt": "2026-11-10T08:37:49.263Z",
       "keyword": "视觉小说"
     },
     {
@@ -3078,7 +3115,7 @@
         "favorites": 209,
         "comments": 18,
         "shares": 4,
-        "views": 2410,
+        "views": 2413,
         "coins": 13
       },
       "metricAvailability": {
@@ -3088,7 +3125,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:10:40.068Z",
+      "collectedAt": "2026-11-10T08:38:22.698Z",
       "keyword": "视觉小说"
     },
     {
@@ -3140,7 +3177,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1Vj4b6uEYL",
       "publishedAt": "2026-11-05T11:13:41.000Z",
-      "likes": 1970,
+      "likes": 2215,
       "kind": "video",
       "durationSeconds": 11,
       "author": {
@@ -3149,11 +3186,11 @@
         "url": "https://space.bilibili.com/25107064"
       },
       "metrics": {
-        "favorites": 904,
-        "comments": 16,
-        "shares": 25,
-        "views": 6408,
-        "coins": 29
+        "favorites": 992,
+        "comments": 19,
+        "shares": 27,
+        "views": 6809,
+        "coins": 35
       },
       "metricAvailability": {
         "favorites": "available",
@@ -3162,8 +3199,8 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:27.501Z",
-      "keyword": "樱之诗"
+      "collectedAt": "2026-11-10T08:35:02.798Z",
+      "keyword": "galgame"
     },
     {
       "platform": "bilibili",
@@ -4241,7 +4278,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1Bg4g68EMm",
       "publishedAt": "2026-11-03T10:34:39.000Z",
-      "likes": 498,
+      "likes": 534,
       "kind": "video",
       "durationSeconds": 1161,
       "author": {
@@ -4250,10 +4287,10 @@
         "url": "https://space.bilibili.com/22352826"
       },
       "metrics": {
-        "favorites": 461,
+        "favorites": 523,
         "comments": 35,
         "shares": 11,
-        "views": 7343,
+        "views": 8296,
         "coins": 29
       },
       "metricAvailability": {
@@ -4263,7 +4300,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:10:13.759Z",
+      "collectedAt": "2026-11-10T08:37:51.441Z",
       "keyword": "视觉小说"
     },
     {
@@ -4282,7 +4319,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1CL486ZEWK",
       "publishedAt": "2026-11-05T09:32:50.000Z",
-      "likes": 2693,
+      "likes": 3405,
       "kind": "video",
       "durationSeconds": 4218,
       "author": {
@@ -4291,11 +4328,11 @@
         "url": "https://space.bilibili.com/689826730"
       },
       "metrics": {
-        "favorites": 1671,
-        "comments": 43,
-        "shares": 19,
-        "views": 183954,
-        "coins": 47
+        "favorites": 2022,
+        "comments": 61,
+        "shares": 25,
+        "views": 227732,
+        "coins": 57
       },
       "metricAvailability": {
         "favorites": "available",
@@ -4304,7 +4341,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:06:48.379Z",
+      "collectedAt": "2026-11-10T08:34:23.193Z",
       "keyword": "galgame名场面"
     },
     {
@@ -4321,7 +4358,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1LHxS6aEH2",
       "publishedAt": "2026-11-04T04:29:03.000Z",
-      "likes": 735,
+      "likes": 888,
       "kind": "video",
       "durationSeconds": 258,
       "author": {
@@ -4330,11 +4367,11 @@
         "url": "https://space.bilibili.com/3493283038758991"
       },
       "metrics": {
-        "favorites": 307,
-        "comments": 225,
-        "shares": 401,
-        "views": 30659,
-        "coins": 32
+        "favorites": 380,
+        "comments": 272,
+        "shares": 492,
+        "views": 37906,
+        "coins": 44
       },
       "metricAvailability": {
         "favorites": "available",
@@ -4343,7 +4380,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:06:59.552Z",
+      "collectedAt": "2026-11-10T08:34:32.171Z",
       "keyword": "galgame"
     },
     {
@@ -4364,7 +4401,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1PZ4u6zEVY",
       "publishedAt": "2026-11-03T10:00:37.000Z",
-      "likes": 450,
+      "likes": 452,
       "kind": "video",
       "durationSeconds": 26,
       "author": {
@@ -4376,7 +4413,7 @@
         "favorites": 132,
         "comments": 32,
         "shares": 122,
-        "views": 19530,
+        "views": 19677,
         "coins": 6
       },
       "metricAvailability": {
@@ -4386,7 +4423,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:06.223Z",
+      "collectedAt": "2026-11-10T08:34:41.050Z",
       "keyword": "gal游戏"
     },
     {
@@ -4405,7 +4442,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1Hx436uE1V",
       "publishedAt": "2026-11-03T07:20:00.000Z",
-      "likes": 756,
+      "likes": 846,
       "kind": "video",
       "durationSeconds": 540,
       "author": {
@@ -4414,11 +4451,11 @@
         "url": "https://space.bilibili.com/436456538"
       },
       "metrics": {
-        "favorites": 1370,
-        "comments": 106,
-        "shares": 262,
-        "views": 21325,
-        "coins": 174
+        "favorites": 1531,
+        "comments": 110,
+        "shares": 291,
+        "views": 23684,
+        "coins": 189
       },
       "metricAvailability": {
         "favorites": "available",
@@ -4427,7 +4464,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:03.866Z",
+      "collectedAt": "2026-11-10T08:34:38.733Z",
       "keyword": "galgame"
     },
     {
@@ -4443,7 +4480,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1pB4M6YEu7",
       "publishedAt": "2026-11-03T04:34:46.000Z",
-      "likes": 533,
+      "likes": 539,
       "kind": "video",
       "durationSeconds": 143,
       "author": {
@@ -4452,11 +4489,11 @@
         "url": "https://space.bilibili.com/444053806"
       },
       "metrics": {
-        "favorites": 548,
-        "comments": 94,
+        "favorites": 558,
+        "comments": 95,
         "shares": 31,
-        "views": 8381,
-        "coins": 110
+        "views": 8665,
+        "coins": 112
       },
       "metricAvailability": {
         "favorites": "available",
@@ -4465,7 +4502,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:21.024Z",
+      "collectedAt": "2026-11-10T08:34:56.201Z",
       "keyword": "galgame"
     },
     {
@@ -4484,7 +4521,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1KS4t6ZEDU",
       "publishedAt": "2026-11-05T12:23:05.000Z",
-      "likes": 437,
+      "likes": 451,
       "kind": "video",
       "durationSeconds": 220,
       "author": {
@@ -4493,11 +4530,11 @@
         "url": "https://space.bilibili.com/1517064"
       },
       "metrics": {
-        "favorites": 513,
-        "comments": 61,
-        "shares": 129,
-        "views": 8628,
-        "coins": 101
+        "favorites": 528,
+        "comments": 66,
+        "shares": 136,
+        "views": 8809,
+        "coins": 102
       },
       "metricAvailability": {
         "favorites": "available",
@@ -4506,7 +4543,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:19.950Z",
+      "collectedAt": "2026-11-10T08:34:55.113Z",
       "keyword": "视觉小说"
     },
     {
@@ -4524,7 +4561,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1Ft4u6FEmY",
       "publishedAt": "2026-11-03T02:16:54.000Z",
-      "likes": 383,
+      "likes": 391,
       "kind": "video",
       "durationSeconds": 1017,
       "author": {
@@ -4533,11 +4570,11 @@
         "url": "https://space.bilibili.com/12442571"
       },
       "metrics": {
-        "favorites": 331,
-        "comments": 147,
+        "favorites": 337,
+        "comments": 148,
         "shares": 37,
-        "views": 7566,
-        "coins": 294
+        "views": 7730,
+        "coins": 300
       },
       "metricAvailability": {
         "favorites": "available",
@@ -4546,7 +4583,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:24.269Z",
+      "collectedAt": "2026-11-10T08:35:00.616Z",
       "keyword": "galgame"
     },
     {
@@ -4560,7 +4597,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1QrxW6XERv",
       "publishedAt": "2026-11-01T10:15:00.000Z",
-      "likes": 671,
+      "likes": 752,
       "kind": "video",
       "durationSeconds": 34,
       "author": {
@@ -4569,11 +4606,11 @@
         "url": "https://space.bilibili.com/632301376"
       },
       "metrics": {
-        "favorites": 347,
-        "comments": 34,
-        "shares": 26,
-        "views": 4802,
-        "coins": 2
+        "favorites": 405,
+        "comments": 38,
+        "shares": 30,
+        "views": 5251,
+        "coins": 4
       },
       "metricAvailability": {
         "favorites": "available",
@@ -4582,7 +4619,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:47.939Z",
+      "collectedAt": "2026-11-10T08:35:21.010Z",
       "keyword": "galgame"
     },
     {
@@ -4602,7 +4639,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1ss4P6dEZ6",
       "publishedAt": "2026-11-02T14:09:16.000Z",
-      "likes": 1213,
+      "likes": 1424,
       "kind": "video",
       "durationSeconds": 30,
       "author": {
@@ -4611,11 +4648,11 @@
         "url": "https://space.bilibili.com/45362212"
       },
       "metrics": {
-        "favorites": 408,
-        "comments": 39,
-        "shares": 15,
-        "views": 7002,
-        "coins": 43
+        "favorites": 467,
+        "comments": 42,
+        "shares": 18,
+        "views": 8105,
+        "coins": 45
       },
       "metricAvailability": {
         "favorites": "available",
@@ -4624,7 +4661,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:26.423Z",
+      "collectedAt": "2026-11-10T08:34:58.430Z",
       "keyword": "galgame"
     },
     {
@@ -4684,7 +4721,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1wfxW63ERD",
       "publishedAt": "2026-11-03T03:30:00.000Z",
-      "likes": 1374,
+      "likes": 1620,
       "kind": "video",
       "durationSeconds": 66,
       "author": {
@@ -4693,11 +4730,11 @@
         "url": "https://space.bilibili.com/3707046625020305"
       },
       "metrics": {
-        "favorites": 749,
+        "favorites": 859,
         "comments": 18,
-        "shares": 7,
-        "views": 2927,
-        "coins": 27
+        "shares": 10,
+        "views": 3267,
+        "coins": 34
       },
       "metricAvailability": {
         "favorites": "available",
@@ -4706,7 +4743,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:08:15.804Z",
+      "collectedAt": "2026-11-10T08:35:48.515Z",
       "keyword": "gal游戏"
     },
     {
@@ -4725,7 +4762,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1g7xa6GEJX",
       "publishedAt": "2026-11-02T11:30:00.000Z",
-      "likes": 655,
+      "likes": 745,
       "kind": "video",
       "durationSeconds": 143,
       "author": {
@@ -4734,11 +4771,11 @@
         "url": "https://space.bilibili.com/383133804"
       },
       "metrics": {
-        "favorites": 283,
-        "comments": 21,
-        "shares": 16,
-        "views": 2417,
-        "coins": 95
+        "favorites": 319,
+        "comments": 28,
+        "shares": 21,
+        "views": 2680,
+        "coins": 114
       },
       "metricAvailability": {
         "favorites": "available",
@@ -4747,7 +4784,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:08:32.193Z",
+      "collectedAt": "2026-11-10T08:36:03.426Z",
       "keyword": "gal游戏"
     },
     {
@@ -4769,7 +4806,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1SS436QEj4",
       "publishedAt": "2026-11-05T04:00:00.000Z",
-      "likes": 466,
+      "likes": 469,
       "kind": "video",
       "durationSeconds": 1845,
       "author": {
@@ -4781,7 +4818,7 @@
         "favorites": 346,
         "comments": 22,
         "shares": 8,
-        "views": 20037,
+        "views": 20100,
         "coins": 132
       },
       "metricAvailability": {
@@ -4791,7 +4828,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:09:03.933Z",
+      "collectedAt": "2026-11-10T08:36:40.589Z",
       "keyword": "美少女游戏"
     },
     {
@@ -4809,7 +4846,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1T2xd6zE2M",
       "publishedAt": "2026-11-05T09:30:00.000Z",
-      "likes": 2491,
+      "likes": 2750,
       "kind": "video",
       "durationSeconds": 1622,
       "author": {
@@ -4818,10 +4855,10 @@
         "url": "https://space.bilibili.com/410877001"
       },
       "metrics": {
-        "favorites": 891,
-        "comments": 13,
-        "shares": 11,
-        "views": 29217,
+        "favorites": 1001,
+        "comments": 21,
+        "shares": 12,
+        "views": 80097,
         "coins": 20
       },
       "metricAvailability": {
@@ -4831,7 +4868,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:09:00.474Z",
+      "collectedAt": "2026-11-10T08:36:35.810Z",
       "keyword": "美少女游戏"
     },
     {
@@ -4847,7 +4884,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV17x4t6VErB",
       "publishedAt": "2026-11-05T04:28:25.000Z",
-      "likes": 479,
+      "likes": 480,
       "kind": "video",
       "durationSeconds": 2026,
       "author": {
@@ -4856,10 +4893,10 @@
         "url": "https://space.bilibili.com/18677260"
       },
       "metrics": {
-        "favorites": 221,
+        "favorites": 223,
         "comments": 16,
-        "shares": 2,
-        "views": 24818,
+        "shares": 3,
+        "views": 45557,
         "coins": 17
       },
       "metricAvailability": {
@@ -4869,7 +4906,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:09:01.548Z",
+      "collectedAt": "2026-11-10T08:36:36.903Z",
       "keyword": "美少女游戏"
     },
     {
@@ -4899,10 +4936,10 @@
         "url": "https://space.bilibili.com/213371"
       },
       "metrics": {
-        "favorites": 319,
+        "favorites": 318,
         "comments": 12,
         "shares": 4,
-        "views": 4108,
+        "views": 4129,
         "coins": 36
       },
       "metricAvailability": {
@@ -4912,7 +4949,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:09:16.966Z",
+      "collectedAt": "2026-11-10T08:36:56.002Z",
       "keyword": "美少女游戏"
     },
     {
@@ -4934,7 +4971,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1px4w67EBA",
       "publishedAt": "2026-11-02T10:51:39.000Z",
-      "likes": 474,
+      "likes": 486,
       "kind": "video",
       "durationSeconds": 15,
       "author": {
@@ -4943,10 +4980,10 @@
         "url": "https://space.bilibili.com/3546963263883902"
       },
       "metrics": {
-        "favorites": 71,
+        "favorites": 74,
         "comments": 42,
         "shares": 8,
-        "views": 3986,
+        "views": 4104,
         "coins": 29
       },
       "metricAvailability": {
@@ -4956,7 +4993,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:09:19.131Z",
+      "collectedAt": "2026-11-10T08:36:57.087Z",
       "keyword": "美少女游戏"
     },
     {
@@ -4978,7 +5015,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1zvxX6JEkL",
       "publishedAt": "2026-11-05T02:00:00.000Z",
-      "likes": 520,
+      "likes": 543,
       "kind": "video",
       "durationSeconds": 82,
       "author": {
@@ -4987,11 +5024,11 @@
         "url": "https://space.bilibili.com/642690823"
       },
       "metrics": {
-        "favorites": 108,
-        "comments": 42,
+        "favorites": 109,
+        "comments": 44,
         "shares": 20,
-        "views": 4009,
-        "coins": 204
+        "views": 4237,
+        "coins": 219
       },
       "metricAvailability": {
         "favorites": "available",
@@ -5000,7 +5037,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:09:18.057Z",
+      "collectedAt": "2026-11-10T08:36:54.908Z",
       "keyword": "美少女游戏"
     },
     {
@@ -5031,10 +5068,10 @@
         "url": "https://space.bilibili.com/67693530"
       },
       "metrics": {
-        "favorites": 58,
+        "favorites": 59,
         "comments": 9,
         "shares": 4,
-        "views": 2518,
+        "views": 2537,
         "coins": 3
       },
       "metricAvailability": {
@@ -5044,7 +5081,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:09:26.744Z",
+      "collectedAt": "2026-11-10T08:37:03.646Z",
       "keyword": "美少女游戏"
     },
     {
@@ -5066,7 +5103,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1ua4c6sEEe",
       "publishedAt": "2026-11-02T11:00:00.000Z",
-      "likes": 385,
+      "likes": 391,
       "kind": "video",
       "durationSeconds": 1179,
       "author": {
@@ -5075,11 +5112,11 @@
         "url": "https://space.bilibili.com/85559433"
       },
       "metrics": {
-        "favorites": 256,
+        "favorites": 257,
         "comments": 29,
         "shares": 15,
-        "views": 19789,
-        "coins": 115
+        "views": 20419,
+        "coins": 117
       },
       "metricAvailability": {
         "favorites": "available",
@@ -5088,7 +5125,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:10:05.977Z",
+      "collectedAt": "2026-11-10T08:37:43.623Z",
       "keyword": "视觉小说"
     },
     {
@@ -5110,20 +5147,20 @@
       ],
       "url": "https://www.bilibili.com/video/BV1vsx76gEhj",
       "publishedAt": "2026-11-04T02:50:00.000Z",
-      "likes": 538,
+      "likes": 591,
       "kind": "video",
-      "durationSeconds": 76219,
+      "durationSeconds": 84334,
       "author": {
         "id": "296335474",
         "name": "爱讲故事的陈同学",
         "url": "https://space.bilibili.com/296335474"
       },
       "metrics": {
-        "favorites": 925,
-        "comments": 39,
-        "shares": 23,
-        "views": 13882,
-        "coins": 97
+        "favorites": 975,
+        "comments": 46,
+        "shares": 27,
+        "views": 19149,
+        "coins": 141
       },
       "metricAvailability": {
         "favorites": "available",
@@ -5132,7 +5169,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:10:10.517Z",
+      "collectedAt": "2026-11-10T08:37:44.716Z",
       "keyword": "视觉小说"
     },
     {
@@ -5149,7 +5186,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1jrxt6uEE7",
       "publishedAt": "2026-11-01T16:29:59.000Z",
-      "likes": 466,
+      "likes": 488,
       "kind": "video",
       "durationSeconds": 278,
       "author": {
@@ -5158,11 +5195,11 @@
         "url": "https://space.bilibili.com/397453092"
       },
       "metrics": {
-        "favorites": 247,
-        "comments": 20,
-        "shares": 58,
-        "views": 2751,
-        "coins": 13
+        "favorites": 260,
+        "comments": 21,
+        "shares": 59,
+        "views": 2903,
+        "coins": 15
       },
       "metricAvailability": {
         "favorites": "available",
@@ -5171,8 +5208,8 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:10:34.470Z",
-      "keyword": "9-nine"
+      "collectedAt": "2026-11-10T08:38:13.401Z",
+      "keyword": "视觉小说"
     },
     {
       "platform": "bilibili",
@@ -5193,7 +5230,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1EWxd6sEA4",
       "publishedAt": "2026-11-04T15:01:34.000Z",
-      "likes": 437,
+      "likes": 447,
       "kind": "video",
       "durationSeconds": 8455,
       "author": {
@@ -5202,10 +5239,10 @@
         "url": "https://space.bilibili.com/271318"
       },
       "metrics": {
-        "favorites": 310,
+        "favorites": 318,
         "comments": 29,
-        "shares": 13,
-        "views": 2408,
+        "shares": 14,
+        "views": 2457,
         "coins": 58
       },
       "metricAvailability": {
@@ -5215,7 +5252,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:10:41.493Z",
+      "collectedAt": "2026-11-10T08:38:20.330Z",
       "keyword": "视觉小说"
     },
     {
@@ -5813,7 +5850,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1pUxQ6QEGQ",
       "publishedAt": "2026-11-04T06:39:37.000Z",
-      "likes": 1144,
+      "likes": 1584,
       "kind": "video",
       "durationSeconds": 34,
       "author": {
@@ -5822,11 +5859,11 @@
         "url": "https://space.bilibili.com/173509842"
       },
       "metrics": {
-        "favorites": 1514,
-        "comments": 48,
-        "shares": 58,
-        "views": 129164,
-        "coins": 19
+        "favorites": 2016,
+        "comments": 71,
+        "shares": 88,
+        "views": 175777,
+        "coins": 21
       },
       "metricAvailability": {
         "favorites": "available",
@@ -5835,7 +5872,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:06:50.536Z",
+      "collectedAt": "2026-11-10T08:34:24.288Z",
       "keyword": "galgame"
     },
     {
@@ -5900,7 +5937,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1kj4t6JE6r",
       "publishedAt": "2026-11-05T06:17:20.000Z",
-      "likes": 1289,
+      "likes": 1436,
       "kind": "video",
       "durationSeconds": 71,
       "author": {
@@ -5909,11 +5946,11 @@
         "url": "https://space.bilibili.com/398499399"
       },
       "metrics": {
-        "favorites": 699,
-        "comments": 35,
-        "shares": 37,
-        "views": 48903,
-        "coins": 6
+        "favorites": 784,
+        "comments": 37,
+        "shares": 42,
+        "views": 54923,
+        "coins": 10
       },
       "metricAvailability": {
         "favorites": "available",
@@ -5922,7 +5959,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:06:54.145Z",
+      "collectedAt": "2026-11-10T08:34:28.905Z",
       "keyword": "gal游戏"
     },
     {
@@ -5941,7 +5978,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1gtx46FEfM",
       "publishedAt": "2026-11-01T11:36:16.000Z",
-      "likes": 778,
+      "likes": 783,
       "kind": "video",
       "durationSeconds": 152,
       "author": {
@@ -5950,10 +5987,10 @@
         "url": "https://space.bilibili.com/2903441"
       },
       "metrics": {
-        "favorites": 1296,
+        "favorites": 1298,
         "comments": 8,
         "shares": 13,
-        "views": 38042,
+        "views": 38179,
         "coins": 49
       },
       "metricAvailability": {
@@ -5963,7 +6000,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:06:55.229Z",
+      "collectedAt": "2026-11-10T08:34:31.086Z",
       "keyword": "galgame"
     },
     {
@@ -5985,7 +6022,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1gWxm6pEov",
       "publishedAt": "2026-11-04T03:00:00.000Z",
-      "likes": 367,
+      "likes": 377,
       "kind": "video",
       "durationSeconds": 256,
       "author": {
@@ -5994,11 +6031,11 @@
         "url": "https://space.bilibili.com/313767827"
       },
       "metrics": {
-        "favorites": 264,
-        "comments": 120,
-        "shares": 197,
-        "views": 11097,
-        "coins": 64
+        "favorites": 274,
+        "comments": 127,
+        "shares": 208,
+        "views": 11645,
+        "coins": 66
       },
       "metricAvailability": {
         "favorites": "available",
@@ -6007,7 +6044,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:15.415Z",
+      "collectedAt": "2026-11-10T08:34:50.321Z",
       "keyword": "视觉小说"
     },
     {
@@ -6016,14 +6053,15 @@
       "title": "尼~尼~起床啦~",
       "description": "二乃妹妹小恶魔模式",
       "tags": [
+        "初音岛",
         "D.C.5",
         "常坂二乃",
-        "galgame",
-        "D.C.4"
+        "D.C.4",
+        "galgame"
       ],
       "url": "https://www.bilibili.com/video/BV1XZx16nEhQ",
       "publishedAt": "2026-11-04T00:20:00.000Z",
-      "likes": 399,
+      "likes": 420,
       "kind": "video",
       "durationSeconds": 200,
       "author": {
@@ -6032,11 +6070,11 @@
         "url": "https://space.bilibili.com/289172847"
       },
       "metrics": {
-        "favorites": 496,
-        "comments": 27,
+        "favorites": 512,
+        "comments": 28,
         "shares": 39,
-        "views": 8188,
-        "coins": 25
+        "views": 8433,
+        "coins": 27
       },
       "metricAvailability": {
         "favorites": "available",
@@ -6045,7 +6083,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:22.100Z",
+      "collectedAt": "2026-11-10T08:34:57.335Z",
       "keyword": "galgame"
     },
     {
@@ -6062,7 +6100,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1wTxb6HEQc",
       "publishedAt": "2026-11-01T15:33:56.000Z",
-      "likes": 817,
+      "likes": 931,
       "kind": "video",
       "durationSeconds": 40,
       "author": {
@@ -6071,11 +6109,11 @@
         "url": "https://space.bilibili.com/105426409"
       },
       "metrics": {
-        "favorites": 425,
-        "comments": 20,
-        "shares": 18,
-        "views": 4850,
-        "coins": 10
+        "favorites": 513,
+        "comments": 21,
+        "shares": 21,
+        "views": 5469,
+        "coins": 12
       },
       "metricAvailability": {
         "favorites": "available",
@@ -6084,8 +6122,8 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:46.850Z",
-      "keyword": "天使☆騒々 RE-BOOT!"
+      "collectedAt": "2026-11-10T08:35:16.200Z",
+      "keyword": "galgame"
     },
     {
       "platform": "bilibili",
@@ -6106,7 +6144,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1oNxR62EvN",
       "publishedAt": "2026-11-04T10:37:19.000Z",
-      "likes": 530,
+      "likes": 542,
       "kind": "video",
       "durationSeconds": 72,
       "author": {
@@ -6115,11 +6153,11 @@
         "url": "https://space.bilibili.com/3546929195649784"
       },
       "metrics": {
-        "favorites": 162,
-        "comments": 74,
-        "shares": 56,
-        "views": 45605,
-        "coins": 18
+        "favorites": 170,
+        "comments": 77,
+        "shares": 60,
+        "views": 46607,
+        "coins": 20
       },
       "metricAvailability": {
         "favorites": "available",
@@ -6128,7 +6166,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:08:00.400Z",
+      "collectedAt": "2026-11-10T08:35:36.315Z",
       "keyword": "gal游戏"
     },
     {
@@ -6148,7 +6186,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1tFx96AErH",
       "publishedAt": "2026-11-05T07:00:00.000Z",
-      "likes": 485,
+      "likes": 538,
       "kind": "video",
       "durationSeconds": 75,
       "author": {
@@ -6157,11 +6195,11 @@
         "url": "https://space.bilibili.com/3546683386366311"
       },
       "metrics": {
-        "favorites": 289,
-        "comments": 248,
-        "shares": 219,
-        "views": 20241,
-        "coins": 143
+        "favorites": 305,
+        "comments": 275,
+        "shares": 245,
+        "views": 21651,
+        "coins": 167
       },
       "metricAvailability": {
         "favorites": "available",
@@ -6170,7 +6208,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:10:04.896Z",
+      "collectedAt": "2026-11-10T08:37:42.527Z",
       "keyword": "视觉小说"
     },
     {
@@ -6189,7 +6227,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1FT4g6YEjk",
       "publishedAt": "2026-11-03T11:00:01.000Z",
-      "likes": 403,
+      "likes": 419,
       "kind": "video",
       "durationSeconds": 285,
       "author": {
@@ -6198,11 +6236,11 @@
         "url": "https://space.bilibili.com/1069221113"
       },
       "metrics": {
-        "favorites": 180,
-        "comments": 57,
+        "favorites": 189,
+        "comments": 58,
         "shares": 2,
-        "views": 2517,
-        "coins": 46
+        "views": 2635,
+        "coins": 47
       },
       "metricAvailability": {
         "favorites": "available",
@@ -6211,7 +6249,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:10:38.992Z",
+      "collectedAt": "2026-11-10T08:38:19.046Z",
       "keyword": "视觉小说"
     },
     {
@@ -6441,7 +6479,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1zLxQ65EcY",
       "publishedAt": "2026-11-04T07:57:33.000Z",
-      "likes": 413,
+      "likes": 453,
       "kind": "video",
       "durationSeconds": 43,
       "author": {
@@ -6450,10 +6488,10 @@
         "url": "https://space.bilibili.com/1587321016"
       },
       "metrics": {
-        "favorites": 474,
+        "favorites": 547,
         "comments": 32,
-        "shares": 20,
-        "views": 24239,
+        "shares": 22,
+        "views": 27337,
         "coins": 8
       },
       "metricAvailability": {
@@ -6463,7 +6501,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:02.789Z",
+      "collectedAt": "2026-11-10T08:34:37.638Z",
       "keyword": "gal游戏"
     },
     {
@@ -6485,7 +6523,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1RtxQ6KEuQ",
       "publishedAt": "2026-11-04T12:00:00.000Z",
-      "likes": 394,
+      "likes": 616,
       "kind": "video",
       "durationSeconds": 584,
       "author": {
@@ -6494,11 +6532,11 @@
         "url": "https://space.bilibili.com/3546725358766193"
       },
       "metrics": {
-        "favorites": 1010,
+        "favorites": 1324,
         "comments": 15,
-        "shares": 13,
-        "views": 12487,
-        "coins": 51
+        "shares": 14,
+        "views": 13778,
+        "coins": 68
       },
       "metricAvailability": {
         "favorites": "available",
@@ -6507,7 +6545,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:14.336Z",
+      "collectedAt": "2026-11-10T08:34:47.050Z",
       "keyword": "galgame"
     },
     {
@@ -6736,7 +6774,7 @@
       "kind": "video",
       "url": "https://www.douyin.com/video/7704418829690610042",
       "publishedAt": "2026-11-04T20:40:04+00:00",
-      "likes": 4234,
+      "likes": 4996,
       "author": {
         "id": "97877248992",
         "name": "Trust",
@@ -6744,9 +6782,9 @@
       },
       "durationSeconds": null,
       "metrics": {
-        "favorites": 864,
-        "comments": 110,
-        "shares": 1842,
+        "favorites": 1023,
+        "comments": 126,
+        "shares": 2191,
         "views": null,
         "coins": null
       },
@@ -6757,7 +6795,7 @@
         "views": "unsupported",
         "coins": "unsupported"
       },
-      "collectedAt": "2026-11-08T07:29:19.067428+00:00",
+      "collectedAt": "2026-11-10T08:29:58.809462+00:00",
       "keyword": "galgame名场面",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -6811,7 +6849,7 @@
       "kind": "video",
       "url": "https://www.douyin.com/video/7703488403890867497",
       "publishedAt": "2026-11-02T08:29:27+00:00",
-      "likes": 2329,
+      "likes": 2430,
       "author": {
         "id": "955922235270712",
         "name": "Akira",
@@ -6819,9 +6857,9 @@
       },
       "durationSeconds": null,
       "metrics": {
-        "favorites": 1529,
-        "comments": 66,
-        "shares": 496,
+        "favorites": 1579,
+        "comments": 69,
+        "shares": 532,
         "views": null,
         "coins": null
       },
@@ -6832,8 +6870,8 @@
         "views": "unsupported",
         "coins": "unsupported"
       },
-      "collectedAt": "2026-11-08T07:27:31.918630+00:00",
-      "keyword": "gal游戏",
+      "collectedAt": "2026-11-10T08:29:58.809471+00:00",
+      "keyword": "galgame名场面",
       "reason": "没有找到明确作品名",
       "candidates": []
     },
@@ -7136,7 +7174,7 @@
       "kind": "video",
       "url": "https://www.douyin.com/video/7703247503285636392",
       "publishedAt": "2026-11-01T16:54:56+00:00",
-      "likes": 4302,
+      "likes": 5036,
       "author": {
         "id": "7479749704047166521",
         "name": "萝卜军师（攻略大师）",
@@ -7144,9 +7182,9 @@
       },
       "durationSeconds": null,
       "metrics": {
-        "favorites": 2734,
-        "comments": 51,
-        "shares": 745,
+        "favorites": 3203,
+        "comments": 14,
+        "shares": 897,
         "views": null,
         "coins": null
       },
@@ -7157,7 +7195,7 @@
         "views": "unsupported",
         "coins": "unsupported"
       },
-      "collectedAt": "2026-11-07T07:16:42.656502+00:00",
+      "collectedAt": "2026-11-10T08:28:55.246664+00:00",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -7465,7 +7503,7 @@
       "kind": "video",
       "url": "https://www.douyin.com/video/7704630226424319232",
       "publishedAt": "2026-11-05T12:30:00+00:00",
-      "likes": 521,
+      "likes": 997,
       "author": {
         "id": "3622217997629108",
         "name": "正经游戏玩家🎮煮✌️",
@@ -7473,9 +7511,9 @@
       },
       "durationSeconds": null,
       "metrics": {
-        "favorites": 575,
-        "comments": 13,
-        "shares": 59,
+        "favorites": 1020,
+        "comments": 21,
+        "shares": 142,
         "views": null,
         "coins": null
       },
@@ -7486,7 +7524,7 @@
         "views": "unsupported",
         "coins": "unsupported"
       },
-      "collectedAt": "2026-11-07T07:16:42.656378+00:00",
+      "collectedAt": "2026-11-10T08:28:55.246636+00:00",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -7584,7 +7622,7 @@
       "kind": "video",
       "url": "https://www.douyin.com/video/7703153715133320906",
       "publishedAt": "2026-11-01T10:50:38+00:00",
-      "likes": 1935,
+      "likes": 2085,
       "author": {
         "id": "4356686405962840",
         "name": "Loinst",
@@ -7592,9 +7630,9 @@
       },
       "durationSeconds": null,
       "metrics": {
-        "favorites": 370,
-        "comments": 191,
-        "shares": 437,
+        "favorites": 399,
+        "comments": 198,
+        "shares": 477,
         "views": null,
         "coins": null
       },
@@ -7605,7 +7643,7 @@
         "views": "unsupported",
         "coins": "unsupported"
       },
-      "collectedAt": "2026-11-08T07:27:31.918664+00:00",
+      "collectedAt": "2026-11-10T08:28:31.038981+00:00",
       "keyword": "gal游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -7667,7 +7705,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1U8x46oE7q",
       "publishedAt": "2026-11-01T11:01:53.000Z",
-      "likes": 20188,
+      "likes": 20333,
       "kind": "video",
       "durationSeconds": 377,
       "author": {
@@ -7676,11 +7714,11 @@
         "url": "https://space.bilibili.com/1074845220"
       },
       "metrics": {
-        "favorites": 7152,
-        "comments": 387,
-        "shares": 639,
-        "views": 154526,
-        "coins": 1518
+        "favorites": 7212,
+        "comments": 391,
+        "shares": 649,
+        "views": 155927,
+        "coins": 1525
       },
       "metricAvailability": {
         "favorites": "available",
@@ -7689,7 +7727,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:06:49.459Z",
+      "collectedAt": "2026-11-10T08:34:25.384Z",
       "keyword": "galgame名场面",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -7704,7 +7742,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1P1xQ69ET4",
       "publishedAt": "2026-11-04T06:36:22.000Z",
-      "likes": 1169,
+      "likes": 1286,
       "kind": "video",
       "durationSeconds": 34,
       "author": {
@@ -7713,11 +7751,11 @@
         "url": "https://space.bilibili.com/1489625347"
       },
       "metrics": {
-        "favorites": 183,
-        "comments": 108,
-        "shares": 112,
-        "views": 70796,
-        "coins": 8
+        "favorites": 203,
+        "comments": 109,
+        "shares": 124,
+        "views": 78835,
+        "coins": 10
       },
       "metricAvailability": {
         "favorites": "available",
@@ -7726,7 +7764,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:06:51.794Z",
+      "collectedAt": "2026-11-10T08:34:26.530Z",
       "keyword": "galgame",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -7741,7 +7779,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1VHxS6aEo4",
       "publishedAt": "2026-11-04T04:27:25.000Z",
-      "likes": 1498,
+      "likes": 1536,
       "kind": "video",
       "durationSeconds": 46,
       "author": {
@@ -7750,10 +7788,10 @@
         "url": "https://space.bilibili.com/1489625347"
       },
       "metrics": {
-        "favorites": 274,
-        "comments": 141,
-        "shares": 81,
-        "views": 54817,
+        "favorites": 284,
+        "comments": 143,
+        "shares": 84,
+        "views": 57204,
         "coins": 10
       },
       "metricAvailability": {
@@ -7763,7 +7801,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:06:53.071Z",
+      "collectedAt": "2026-11-10T08:34:27.794Z",
       "keyword": "gal游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -7787,7 +7825,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1S84c6REQk",
       "publishedAt": "2026-11-02T04:19:17.000Z",
-      "likes": 1745,
+      "likes": 1759,
       "kind": "video",
       "durationSeconds": 255,
       "author": {
@@ -7799,7 +7837,7 @@
         "favorites": 334,
         "comments": 93,
         "shares": 307,
-        "views": 33008,
+        "views": 33367,
         "coins": 201
       },
       "metricAvailability": {
@@ -7809,7 +7847,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:06:57.392Z",
+      "collectedAt": "2026-11-10T08:34:33.269Z",
       "keyword": "galgame",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -7833,7 +7871,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV127xt6REjj",
       "publishedAt": "2026-11-02T03:20:00.000Z",
-      "likes": 1780,
+      "likes": 1847,
       "kind": "video",
       "durationSeconds": 142,
       "author": {
@@ -7842,11 +7880,11 @@
         "url": "https://space.bilibili.com/495061433"
       },
       "metrics": {
-        "favorites": 863,
-        "comments": 287,
-        "shares": 637,
-        "views": 37873,
-        "coins": 265
+        "favorites": 906,
+        "comments": 297,
+        "shares": 667,
+        "views": 39966,
+        "coins": 274
       },
       "metricAvailability": {
         "favorites": "available",
@@ -7855,7 +7893,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:06:56.303Z",
+      "collectedAt": "2026-11-10T08:34:29.997Z",
       "keyword": "galgame",
       "reason": "可能是二创、联动或其他游戏，需要核对原画面",
       "candidates": [
@@ -7881,7 +7919,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1V1xt6iEUf",
       "publishedAt": "2026-11-03T09:00:00.000Z",
-      "likes": 1995,
+      "likes": 2064,
       "kind": "video",
       "durationSeconds": 106,
       "author": {
@@ -7890,11 +7928,11 @@
         "url": "https://space.bilibili.com/3690999140321293"
       },
       "metrics": {
-        "favorites": 1401,
-        "comments": 362,
-        "shares": 45,
-        "views": 31494,
-        "coins": 1464
+        "favorites": 1470,
+        "comments": 376,
+        "shares": 47,
+        "views": 33039,
+        "coins": 1517
       },
       "metricAvailability": {
         "favorites": "available",
@@ -7903,7 +7941,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:06:58.472Z",
+      "collectedAt": "2026-11-10T08:34:34.361Z",
       "keyword": "gal游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -7922,7 +7960,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1DF4t6cEuo",
       "publishedAt": "2026-11-05T09:00:00.000Z",
-      "likes": 1346,
+      "likes": 1355,
       "kind": "video",
       "durationSeconds": 52,
       "author": {
@@ -7931,10 +7969,10 @@
         "url": "https://space.bilibili.com/365304488"
       },
       "metrics": {
-        "favorites": 475,
+        "favorites": 483,
         "comments": 216,
-        "shares": 784,
-        "views": 20055,
+        "shares": 786,
+        "views": 20204,
         "coins": 28
       },
       "metricAvailability": {
@@ -7944,7 +7982,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:05.149Z",
+      "collectedAt": "2026-11-10T08:34:39.965Z",
       "keyword": "galgame",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -7967,7 +8005,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1hBx96TE9P",
       "publishedAt": "2026-11-05T01:00:00.000Z",
-      "likes": 704,
+      "likes": 705,
       "kind": "video",
       "durationSeconds": 87,
       "author": {
@@ -7976,10 +8014,10 @@
         "url": "https://space.bilibili.com/204982469"
       },
       "metrics": {
-        "favorites": 899,
+        "favorites": 900,
         "comments": 27,
         "shares": 22,
-        "views": 12872,
+        "views": 12883,
         "coins": 33
       },
       "metricAvailability": {
@@ -7989,7 +8027,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:12.173Z",
+      "collectedAt": "2026-11-10T08:34:49.230Z",
       "keyword": "galgame CG",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -8012,7 +8050,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1Ya4t6uEdH",
       "publishedAt": "2026-11-05T04:11:14.000Z",
-      "likes": 733,
+      "likes": 774,
       "kind": "video",
       "durationSeconds": 376,
       "author": {
@@ -8021,11 +8059,11 @@
         "url": "https://space.bilibili.com/506179530"
       },
       "metrics": {
-        "favorites": 852,
-        "comments": 136,
-        "shares": 299,
-        "views": 14719,
-        "coins": 192
+        "favorites": 894,
+        "comments": 140,
+        "shares": 310,
+        "views": 15362,
+        "coins": 194
       },
       "metricAvailability": {
         "favorites": "available",
@@ -8034,7 +8072,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:07.297Z",
+      "collectedAt": "2026-11-10T08:34:42.150Z",
       "keyword": "视觉小说",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -8058,7 +8096,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1VU4w6aEHr",
       "publishedAt": "2026-11-02T09:32:03.000Z",
-      "likes": 714,
+      "likes": 727,
       "kind": "video",
       "durationSeconds": 575,
       "author": {
@@ -8067,10 +8105,10 @@
         "url": "https://space.bilibili.com/241215063"
       },
       "metrics": {
-        "favorites": 781,
+        "favorites": 797,
         "comments": 33,
-        "shares": 19,
-        "views": 12588,
+        "shares": 20,
+        "views": 12970,
         "coins": 41
       },
       "metricAvailability": {
@@ -8080,7 +8118,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:13.255Z",
+      "collectedAt": "2026-11-10T08:34:48.142Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -8102,7 +8140,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1i5xm6bEmx",
       "publishedAt": "2026-11-03T16:10:23.000Z",
-      "likes": 593,
+      "likes": 615,
       "kind": "video",
       "durationSeconds": 32,
       "author": {
@@ -8111,10 +8149,10 @@
         "url": "https://space.bilibili.com/527525595"
       },
       "metrics": {
-        "favorites": 151,
+        "favorites": 157,
         "comments": 73,
         "shares": 68,
-        "views": 9137,
+        "views": 9334,
         "coins": 30
       },
       "metricAvailability": {
@@ -8124,7 +8162,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:18.873Z",
+      "collectedAt": "2026-11-10T08:34:54.026Z",
       "keyword": "galgame",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -8148,7 +8186,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV19j4M6mEXb",
       "publishedAt": "2026-11-03T05:55:13.000Z",
-      "likes": 584,
+      "likes": 592,
       "kind": "video",
       "durationSeconds": 93,
       "author": {
@@ -8157,10 +8195,10 @@
         "url": "https://space.bilibili.com/3632310624717268"
       },
       "metrics": {
-        "favorites": 242,
-        "comments": 85,
-        "shares": 108,
-        "views": 7035,
+        "favorites": 251,
+        "comments": 86,
+        "shares": 111,
+        "views": 7196,
         "coins": 66
       },
       "metricAvailability": {
@@ -8170,7 +8208,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:25.348Z",
+      "collectedAt": "2026-11-10T08:35:01.706Z",
       "keyword": "视觉小说",
       "reason": "标题标注其他名称，标签或简介中的作品名不能消除身份冲突",
       "candidates": [
@@ -8192,7 +8230,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1bk4t6aEoZ",
       "publishedAt": "2026-11-05T05:04:07.000Z",
-      "likes": 1141,
+      "likes": 1158,
       "kind": "video",
       "durationSeconds": 15,
       "author": {
@@ -8201,10 +8239,10 @@
         "url": "https://space.bilibili.com/3244798"
       },
       "metrics": {
-        "favorites": 536,
+        "favorites": 543,
         "comments": 38,
         "shares": 21,
-        "views": 7663,
+        "views": 7858,
         "coins": 54
       },
       "metricAvailability": {
@@ -8214,7 +8252,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:23.176Z",
+      "collectedAt": "2026-11-10T08:34:59.522Z",
       "keyword": "galgame",
       "reason": "标题标注其他名称，标签或简介中的作品名不能消除身份冲突",
       "candidates": [
@@ -8234,7 +8272,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1Texs67E5A",
       "publishedAt": "2026-11-01T06:06:58.000Z",
-      "likes": 582,
+      "likes": 589,
       "kind": "video",
       "durationSeconds": 269,
       "author": {
@@ -8245,8 +8283,8 @@
       "metrics": {
         "favorites": 37,
         "comments": 67,
-        "shares": 8,
-        "views": 5720,
+        "shares": 9,
+        "views": 5795,
         "coins": 81
       },
       "metricAvailability": {
@@ -8256,7 +8294,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:37.580Z",
+      "collectedAt": "2026-11-10T08:35:14.030Z",
       "keyword": "galgame",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -8273,7 +8311,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1Gqxd61E2N",
       "publishedAt": "2026-11-04T15:25:26.000Z",
-      "likes": 1776,
+      "likes": 1778,
       "kind": "video",
       "durationSeconds": 10,
       "author": {
@@ -8282,10 +8320,10 @@
         "url": "https://space.bilibili.com/3546897425894089"
       },
       "metrics": {
-        "favorites": 1310,
+        "favorites": 1309,
         "comments": 7,
         "shares": 17,
-        "views": 6011,
+        "views": 6031,
         "coins": 17
       },
       "metricAvailability": {
@@ -8295,7 +8333,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:33.447Z",
+      "collectedAt": "2026-11-10T08:35:11.589Z",
       "keyword": "galgame",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -8317,7 +8355,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1Ug4F6SErN",
       "publishedAt": "2026-11-02T10:00:00.000Z",
-      "likes": 697,
+      "likes": 705,
       "kind": "video",
       "durationSeconds": 672,
       "author": {
@@ -8326,11 +8364,11 @@
         "url": "https://space.bilibili.com/2072586344"
       },
       "metrics": {
-        "favorites": 127,
+        "favorites": 128,
         "comments": 45,
-        "shares": 38,
-        "views": 5791,
-        "coins": 159
+        "shares": 39,
+        "views": 5928,
+        "coins": 163
       },
       "metricAvailability": {
         "favorites": "available",
@@ -8339,8 +8377,8 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:36.504Z",
-      "keyword": "Summer Pockets",
+      "collectedAt": "2026-11-10T08:35:12.945Z",
+      "keyword": "galgame",
       "reason": "涉及多个作品或名称有歧义",
       "candidates": [
         "v20424",
@@ -8366,7 +8404,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1gz4t6eEug",
       "publishedAt": "2026-11-05T10:00:00.000Z",
-      "likes": 2358,
+      "likes": 2612,
       "kind": "video",
       "durationSeconds": 345,
       "author": {
@@ -8375,11 +8413,11 @@
         "url": "https://space.bilibili.com/11517336"
       },
       "metrics": {
-        "favorites": 1572,
-        "comments": 227,
-        "shares": 472,
-        "views": 26635,
-        "coins": 1880
+        "favorites": 1769,
+        "comments": 246,
+        "shares": 518,
+        "views": 30610,
+        "coins": 2057
       },
       "metricAvailability": {
         "favorites": "available",
@@ -8388,8 +8426,8 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:01.711Z",
-      "keyword": "Summer Pockets",
+      "collectedAt": "2026-11-10T08:34:36.544Z",
+      "keyword": "galgame",
       "reason": "明确标注的名称含额外副标题，需核对具体作品或版本",
       "candidates": [
         "v20424"
@@ -8411,7 +8449,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1k5xh6sEYc",
       "publishedAt": "2026-11-02T02:27:24.000Z",
-      "likes": 790,
+      "likes": 824,
       "kind": "video",
       "durationSeconds": 14,
       "author": {
@@ -8420,11 +8458,11 @@
         "url": "https://space.bilibili.com/41929988"
       },
       "metrics": {
-        "favorites": 579,
+        "favorites": 602,
         "comments": 42,
-        "shares": 44,
-        "views": 4458,
-        "coins": 63
+        "shares": 45,
+        "views": 4594,
+        "coins": 65
       },
       "metricAvailability": {
         "favorites": "available",
@@ -8433,7 +8471,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:51.172Z",
+      "collectedAt": "2026-11-10T08:35:27.550Z",
       "keyword": "galgame",
       "reason": "可能是二创、联动或其他游戏，需要核对原画面",
       "candidates": [
@@ -8493,7 +8531,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1GU4w6aEfN",
       "publishedAt": "2026-11-02T09:32:47.000Z",
-      "likes": 1023,
+      "likes": 1056,
       "kind": "video",
       "durationSeconds": 147,
       "author": {
@@ -8502,11 +8540,11 @@
         "url": "https://space.bilibili.com/266534465"
       },
       "metrics": {
-        "favorites": 686,
-        "comments": 129,
-        "shares": 39,
-        "views": 4201,
-        "coins": 173
+        "favorites": 719,
+        "comments": 136,
+        "shares": 41,
+        "views": 4353,
+        "coins": 182
       },
       "metricAvailability": {
         "favorites": "available",
@@ -8515,7 +8553,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:54.488Z",
+      "collectedAt": "2026-11-10T08:38:01.970Z",
       "keyword": "视觉小说",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -8581,7 +8619,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1Koxx6nEro",
       "publishedAt": "2026-11-01T12:13:22.000Z",
-      "likes": 5836,
+      "likes": 5879,
       "kind": "video",
       "durationSeconds": 196,
       "author": {
@@ -8590,10 +8628,10 @@
         "url": "https://space.bilibili.com/552165374"
       },
       "metrics": {
-        "favorites": 2744,
-        "comments": 239,
-        "shares": 159,
-        "views": 109547,
+        "favorites": 2784,
+        "comments": 244,
+        "shares": 161,
+        "views": 110808,
         "coins": 240
       },
       "metricAvailability": {
@@ -8603,7 +8641,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:08:57.019Z",
+      "collectedAt": "2026-11-10T08:36:33.439Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -8627,7 +8665,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV19R4b6GEcT",
       "publishedAt": "2026-11-05T11:01:06.000Z",
-      "likes": 4071,
+      "likes": 4151,
       "kind": "video",
       "durationSeconds": 429,
       "author": {
@@ -8636,11 +8674,11 @@
         "url": "https://space.bilibili.com/367927"
       },
       "metrics": {
-        "favorites": 2149,
-        "comments": 513,
-        "shares": 235,
-        "views": 151217,
-        "coins": 221
+        "favorites": 2192,
+        "comments": 534,
+        "shares": 238,
+        "views": 153197,
+        "coins": 224
       },
       "metricAvailability": {
         "favorites": "available",
@@ -8649,7 +8687,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:08:54.688Z",
+      "collectedAt": "2026-11-10T08:36:31.075Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -8685,7 +8723,7 @@
         "favorites": 188,
         "comments": 27,
         "shares": 10,
-        "views": 34833,
+        "views": 34866,
         "coins": 31
       },
       "metricAvailability": {
@@ -8695,7 +8733,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:08:59.396Z",
+      "collectedAt": "2026-11-10T08:36:37.995Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -8717,7 +8755,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1gE446FEzL",
       "publishedAt": "2026-11-05T12:00:00.000Z",
-      "likes": 1221,
+      "likes": 1362,
       "kind": "video",
       "durationSeconds": 520,
       "author": {
@@ -8726,11 +8764,11 @@
         "url": "https://space.bilibili.com/7817472"
       },
       "metrics": {
-        "favorites": 775,
-        "comments": 45,
-        "shares": 8,
-        "views": 168182,
-        "coins": 33
+        "favorites": 908,
+        "comments": 48,
+        "shares": 9,
+        "views": 207102,
+        "coins": 36
       },
       "metricAvailability": {
         "favorites": "available",
@@ -8739,7 +8777,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:08:53.602Z",
+      "collectedAt": "2026-11-10T08:36:29.980Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -8763,7 +8801,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1ry4h6oE5h",
       "publishedAt": "2026-11-05T13:41:22.000Z",
-      "likes": 8551,
+      "likes": 8633,
       "kind": "video",
       "durationSeconds": 101,
       "author": {
@@ -8772,11 +8810,11 @@
         "url": "https://space.bilibili.com/574115689"
       },
       "metrics": {
-        "favorites": 235,
-        "comments": 238,
-        "shares": 120,
-        "views": 72867,
-        "coins": 239
+        "favorites": 273,
+        "comments": 258,
+        "shares": 128,
+        "views": 80971,
+        "coins": 245
       },
       "metricAvailability": {
         "favorites": "available",
@@ -8785,7 +8823,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:08:58.320Z",
+      "collectedAt": "2026-11-10T08:36:34.724Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -8809,7 +8847,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1sT4A6JEYL",
       "publishedAt": "2026-11-02T08:42:44.000Z",
-      "likes": 585,
+      "likes": 587,
       "kind": "video",
       "durationSeconds": 29,
       "author": {
@@ -8818,10 +8856,10 @@
         "url": "https://space.bilibili.com/1623572885"
       },
       "metrics": {
-        "favorites": 194,
+        "favorites": 197,
         "comments": 31,
         "shares": 6,
-        "views": 10727,
+        "views": 10787,
         "coins": 44
       },
       "metricAvailability": {
@@ -8831,7 +8869,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:09:09.556Z",
+      "collectedAt": "2026-11-10T08:36:46.220Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -8855,7 +8893,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1PyxQ6sEQZ",
       "publishedAt": "2026-11-04T07:05:00.000Z",
-      "likes": 717,
+      "likes": 728,
       "kind": "video",
       "durationSeconds": 234,
       "author": {
@@ -8864,11 +8902,11 @@
         "url": "https://space.bilibili.com/657516"
       },
       "metrics": {
-        "favorites": 19,
-        "comments": 33,
+        "favorites": 21,
+        "comments": 34,
         "shares": 5,
-        "views": 8935,
-        "coins": 21
+        "views": 9557,
+        "coins": 23
       },
       "metricAvailability": {
         "favorites": "available",
@@ -8877,7 +8915,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:09:13.175Z",
+      "collectedAt": "2026-11-10T08:36:50.036Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -8901,7 +8939,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1i7xS6NE6S",
       "publishedAt": "2026-11-04T10:00:00.000Z",
-      "likes": 5852,
+      "likes": 5989,
       "kind": "video",
       "durationSeconds": 2018,
       "author": {
@@ -8910,11 +8948,11 @@
         "url": "https://space.bilibili.com/16152032"
       },
       "metrics": {
-        "favorites": 3748,
-        "comments": 100,
-        "shares": 76,
-        "views": 71882,
-        "coins": 702
+        "favorites": 3837,
+        "comments": 102,
+        "shares": 80,
+        "views": 73869,
+        "coins": 730
       },
       "metricAvailability": {
         "favorites": "available",
@@ -8923,7 +8961,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:10:00.579Z",
+      "collectedAt": "2026-11-10T08:37:38.132Z",
       "keyword": "视觉小说",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -8947,7 +8985,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1z9x463Ea5",
       "publishedAt": "2026-11-01T12:00:00.000Z",
-      "likes": 652,
+      "likes": 661,
       "kind": "video",
       "durationSeconds": 474,
       "author": {
@@ -8956,11 +8994,11 @@
         "url": "https://space.bilibili.com/198601484"
       },
       "metrics": {
-        "favorites": 1081,
-        "comments": 100,
-        "shares": 40,
-        "views": 16887,
-        "coins": 132
+        "favorites": 1096,
+        "comments": 107,
+        "shares": 41,
+        "views": 17320,
+        "coins": 134
       },
       "metricAvailability": {
         "favorites": "available",
@@ -8969,7 +9007,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:10:07.261Z",
+      "collectedAt": "2026-11-10T08:37:45.995Z",
       "keyword": "视觉小说",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -8991,7 +9029,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1U8x46oECX",
       "publishedAt": "2026-11-01T11:00:00.000Z",
-      "likes": 1471,
+      "likes": 1476,
       "kind": "video",
       "durationSeconds": 34,
       "author": {
@@ -9000,10 +9038,10 @@
         "url": "https://space.bilibili.com/1998538847"
       },
       "metrics": {
-        "favorites": 605,
+        "favorites": 607,
         "comments": 57,
         "shares": 70,
-        "views": 14117,
+        "views": 14198,
         "coins": 115
       },
       "metricAvailability": {
@@ -9013,7 +9051,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:10:09.436Z",
+      "collectedAt": "2026-11-10T08:37:48.172Z",
       "keyword": "视觉小说",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -9037,7 +9075,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV14MxW6LEmG",
       "publishedAt": "2026-11-03T03:30:32.000Z",
-      "likes": 2172,
+      "likes": 2241,
       "kind": "video",
       "durationSeconds": 2960,
       "author": {
@@ -9046,11 +9084,11 @@
         "url": "https://space.bilibili.com/44939113"
       },
       "metrics": {
-        "favorites": 3170,
+        "favorites": 3256,
         "comments": 16,
         "shares": 8,
-        "views": 23709,
-        "coins": 132
+        "views": 24383,
+        "coins": 136
       },
       "metricAvailability": {
         "favorites": "available",
@@ -9059,7 +9097,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:10:03.820Z",
+      "collectedAt": "2026-11-10T08:37:41.414Z",
       "keyword": "视觉小说",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -9078,7 +9116,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1hj4P6wExu",
       "publishedAt": "2026-11-02T13:45:35.000Z",
-      "likes": 1498,
+      "likes": 1583,
       "kind": "video",
       "durationSeconds": 61,
       "author": {
@@ -9087,11 +9125,11 @@
         "url": "https://space.bilibili.com/1586997653"
       },
       "metrics": {
-        "favorites": 1585,
-        "comments": 66,
-        "shares": 62,
-        "views": 8279,
-        "coins": 74
+        "favorites": 1663,
+        "comments": 72,
+        "shares": 68,
+        "views": 8664,
+        "coins": 80
       },
       "metricAvailability": {
         "favorites": "available",
@@ -9100,7 +9138,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:10:11.590Z",
+      "collectedAt": "2026-11-10T08:37:49.263Z",
       "keyword": "视觉小说",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -9136,7 +9174,7 @@
         "favorites": 209,
         "comments": 18,
         "shares": 4,
-        "views": 2410,
+        "views": 2413,
         "coins": 13
       },
       "metricAvailability": {
@@ -9146,7 +9184,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:10:40.068Z",
+      "collectedAt": "2026-11-10T08:38:22.698Z",
       "keyword": "视觉小说",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -9204,7 +9242,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1Vj4b6uEYL",
       "publishedAt": "2026-11-05T11:13:41.000Z",
-      "likes": 1970,
+      "likes": 2215,
       "kind": "video",
       "durationSeconds": 11,
       "author": {
@@ -9213,11 +9251,11 @@
         "url": "https://space.bilibili.com/25107064"
       },
       "metrics": {
-        "favorites": 904,
-        "comments": 16,
-        "shares": 25,
-        "views": 6408,
-        "coins": 29
+        "favorites": 992,
+        "comments": 19,
+        "shares": 27,
+        "views": 6809,
+        "coins": 35
       },
       "metricAvailability": {
         "favorites": "available",
@@ -9226,8 +9264,8 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:27.501Z",
-      "keyword": "樱之诗",
+      "collectedAt": "2026-11-10T08:35:02.798Z",
+      "keyword": "galgame",
       "reason": "没有找到明确作品名",
       "candidates": []
     },
@@ -10366,7 +10404,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1CL486ZEWK",
       "publishedAt": "2026-11-05T09:32:50.000Z",
-      "likes": 2693,
+      "likes": 3405,
       "kind": "video",
       "durationSeconds": 4218,
       "author": {
@@ -10375,11 +10413,11 @@
         "url": "https://space.bilibili.com/689826730"
       },
       "metrics": {
-        "favorites": 1671,
-        "comments": 43,
-        "shares": 19,
-        "views": 183954,
-        "coins": 47
+        "favorites": 2022,
+        "comments": 61,
+        "shares": 25,
+        "views": 227732,
+        "coins": 57
       },
       "metricAvailability": {
         "favorites": "available",
@@ -10388,7 +10426,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:06:48.379Z",
+      "collectedAt": "2026-11-10T08:34:23.193Z",
       "keyword": "galgame名场面",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -10407,7 +10445,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1LHxS6aEH2",
       "publishedAt": "2026-11-04T04:29:03.000Z",
-      "likes": 735,
+      "likes": 888,
       "kind": "video",
       "durationSeconds": 258,
       "author": {
@@ -10416,11 +10454,11 @@
         "url": "https://space.bilibili.com/3493283038758991"
       },
       "metrics": {
-        "favorites": 307,
-        "comments": 225,
-        "shares": 401,
-        "views": 30659,
-        "coins": 32
+        "favorites": 380,
+        "comments": 272,
+        "shares": 492,
+        "views": 37906,
+        "coins": 44
       },
       "metricAvailability": {
         "favorites": "available",
@@ -10429,7 +10467,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:06:59.552Z",
+      "collectedAt": "2026-11-10T08:34:32.171Z",
       "keyword": "galgame",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -10452,7 +10490,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1PZ4u6zEVY",
       "publishedAt": "2026-11-03T10:00:37.000Z",
-      "likes": 450,
+      "likes": 452,
       "kind": "video",
       "durationSeconds": 26,
       "author": {
@@ -10464,7 +10502,7 @@
         "favorites": 132,
         "comments": 32,
         "shares": 122,
-        "views": 19530,
+        "views": 19677,
         "coins": 6
       },
       "metricAvailability": {
@@ -10474,7 +10512,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:06.223Z",
+      "collectedAt": "2026-11-10T08:34:41.050Z",
       "keyword": "gal游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -10495,7 +10533,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1Hx436uE1V",
       "publishedAt": "2026-11-03T07:20:00.000Z",
-      "likes": 756,
+      "likes": 846,
       "kind": "video",
       "durationSeconds": 540,
       "author": {
@@ -10504,11 +10542,11 @@
         "url": "https://space.bilibili.com/436456538"
       },
       "metrics": {
-        "favorites": 1370,
-        "comments": 106,
-        "shares": 262,
-        "views": 21325,
-        "coins": 174
+        "favorites": 1531,
+        "comments": 110,
+        "shares": 291,
+        "views": 23684,
+        "coins": 189
       },
       "metricAvailability": {
         "favorites": "available",
@@ -10517,7 +10555,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:03.866Z",
+      "collectedAt": "2026-11-10T08:34:38.733Z",
       "keyword": "galgame",
       "reason": "涉及多个作品或名称有歧义",
       "candidates": [
@@ -10540,7 +10578,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1pB4M6YEu7",
       "publishedAt": "2026-11-03T04:34:46.000Z",
-      "likes": 533,
+      "likes": 539,
       "kind": "video",
       "durationSeconds": 143,
       "author": {
@@ -10549,11 +10587,11 @@
         "url": "https://space.bilibili.com/444053806"
       },
       "metrics": {
-        "favorites": 548,
-        "comments": 94,
+        "favorites": 558,
+        "comments": 95,
         "shares": 31,
-        "views": 8381,
-        "coins": 110
+        "views": 8665,
+        "coins": 112
       },
       "metricAvailability": {
         "favorites": "available",
@@ -10562,7 +10600,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:21.024Z",
+      "collectedAt": "2026-11-10T08:34:56.201Z",
       "keyword": "galgame",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -10583,7 +10621,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1KS4t6ZEDU",
       "publishedAt": "2026-11-05T12:23:05.000Z",
-      "likes": 437,
+      "likes": 451,
       "kind": "video",
       "durationSeconds": 220,
       "author": {
@@ -10592,11 +10630,11 @@
         "url": "https://space.bilibili.com/1517064"
       },
       "metrics": {
-        "favorites": 513,
-        "comments": 61,
-        "shares": 129,
-        "views": 8628,
-        "coins": 101
+        "favorites": 528,
+        "comments": 66,
+        "shares": 136,
+        "views": 8809,
+        "coins": 102
       },
       "metricAvailability": {
         "favorites": "available",
@@ -10605,7 +10643,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:19.950Z",
+      "collectedAt": "2026-11-10T08:34:55.113Z",
       "keyword": "视觉小说",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -10625,7 +10663,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1Ft4u6FEmY",
       "publishedAt": "2026-11-03T02:16:54.000Z",
-      "likes": 383,
+      "likes": 391,
       "kind": "video",
       "durationSeconds": 1017,
       "author": {
@@ -10634,11 +10672,11 @@
         "url": "https://space.bilibili.com/12442571"
       },
       "metrics": {
-        "favorites": 331,
-        "comments": 147,
+        "favorites": 337,
+        "comments": 148,
         "shares": 37,
-        "views": 7566,
-        "coins": 294
+        "views": 7730,
+        "coins": 300
       },
       "metricAvailability": {
         "favorites": "available",
@@ -10647,7 +10685,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:24.269Z",
+      "collectedAt": "2026-11-10T08:35:00.616Z",
       "keyword": "galgame",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -10663,7 +10701,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1QrxW6XERv",
       "publishedAt": "2026-11-01T10:15:00.000Z",
-      "likes": 671,
+      "likes": 752,
       "kind": "video",
       "durationSeconds": 34,
       "author": {
@@ -10672,11 +10710,11 @@
         "url": "https://space.bilibili.com/632301376"
       },
       "metrics": {
-        "favorites": 347,
-        "comments": 34,
-        "shares": 26,
-        "views": 4802,
-        "coins": 2
+        "favorites": 405,
+        "comments": 38,
+        "shares": 30,
+        "views": 5251,
+        "coins": 4
       },
       "metricAvailability": {
         "favorites": "available",
@@ -10685,7 +10723,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:47.939Z",
+      "collectedAt": "2026-11-10T08:35:21.010Z",
       "keyword": "galgame",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -10707,7 +10745,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1ss4P6dEZ6",
       "publishedAt": "2026-11-02T14:09:16.000Z",
-      "likes": 1213,
+      "likes": 1424,
       "kind": "video",
       "durationSeconds": 30,
       "author": {
@@ -10716,11 +10754,11 @@
         "url": "https://space.bilibili.com/45362212"
       },
       "metrics": {
-        "favorites": 408,
-        "comments": 39,
-        "shares": 15,
-        "views": 7002,
-        "coins": 43
+        "favorites": 467,
+        "comments": 42,
+        "shares": 18,
+        "views": 8105,
+        "coins": 45
       },
       "metricAvailability": {
         "favorites": "available",
@@ -10729,7 +10767,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:26.423Z",
+      "collectedAt": "2026-11-10T08:34:58.430Z",
       "keyword": "galgame",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -10793,7 +10831,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1wfxW63ERD",
       "publishedAt": "2026-11-03T03:30:00.000Z",
-      "likes": 1374,
+      "likes": 1620,
       "kind": "video",
       "durationSeconds": 66,
       "author": {
@@ -10802,11 +10840,11 @@
         "url": "https://space.bilibili.com/3707046625020305"
       },
       "metrics": {
-        "favorites": 749,
+        "favorites": 859,
         "comments": 18,
-        "shares": 7,
-        "views": 2927,
-        "coins": 27
+        "shares": 10,
+        "views": 3267,
+        "coins": 34
       },
       "metricAvailability": {
         "favorites": "available",
@@ -10815,7 +10853,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:08:15.804Z",
+      "collectedAt": "2026-11-10T08:35:48.515Z",
       "keyword": "gal游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -10836,7 +10874,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1g7xa6GEJX",
       "publishedAt": "2026-11-02T11:30:00.000Z",
-      "likes": 655,
+      "likes": 745,
       "kind": "video",
       "durationSeconds": 143,
       "author": {
@@ -10845,11 +10883,11 @@
         "url": "https://space.bilibili.com/383133804"
       },
       "metrics": {
-        "favorites": 283,
-        "comments": 21,
-        "shares": 16,
-        "views": 2417,
-        "coins": 95
+        "favorites": 319,
+        "comments": 28,
+        "shares": 21,
+        "views": 2680,
+        "coins": 114
       },
       "metricAvailability": {
         "favorites": "available",
@@ -10858,7 +10896,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:08:32.193Z",
+      "collectedAt": "2026-11-10T08:36:03.426Z",
       "keyword": "gal游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -10882,7 +10920,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1SS436QEj4",
       "publishedAt": "2026-11-05T04:00:00.000Z",
-      "likes": 466,
+      "likes": 469,
       "kind": "video",
       "durationSeconds": 1845,
       "author": {
@@ -10894,7 +10932,7 @@
         "favorites": 346,
         "comments": 22,
         "shares": 8,
-        "views": 20037,
+        "views": 20100,
         "coins": 132
       },
       "metricAvailability": {
@@ -10904,7 +10942,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:09:03.933Z",
+      "collectedAt": "2026-11-10T08:36:40.589Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -10924,7 +10962,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1T2xd6zE2M",
       "publishedAt": "2026-11-05T09:30:00.000Z",
-      "likes": 2491,
+      "likes": 2750,
       "kind": "video",
       "durationSeconds": 1622,
       "author": {
@@ -10933,10 +10971,10 @@
         "url": "https://space.bilibili.com/410877001"
       },
       "metrics": {
-        "favorites": 891,
-        "comments": 13,
-        "shares": 11,
-        "views": 29217,
+        "favorites": 1001,
+        "comments": 21,
+        "shares": 12,
+        "views": 80097,
         "coins": 20
       },
       "metricAvailability": {
@@ -10946,7 +10984,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:09:00.474Z",
+      "collectedAt": "2026-11-10T08:36:35.810Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -10964,7 +11002,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV17x4t6VErB",
       "publishedAt": "2026-11-05T04:28:25.000Z",
-      "likes": 479,
+      "likes": 480,
       "kind": "video",
       "durationSeconds": 2026,
       "author": {
@@ -10973,10 +11011,10 @@
         "url": "https://space.bilibili.com/18677260"
       },
       "metrics": {
-        "favorites": 221,
+        "favorites": 223,
         "comments": 16,
-        "shares": 2,
-        "views": 24818,
+        "shares": 3,
+        "views": 45557,
         "coins": 17
       },
       "metricAvailability": {
@@ -10986,7 +11024,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:09:01.548Z",
+      "collectedAt": "2026-11-10T08:36:36.903Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -11018,10 +11056,10 @@
         "url": "https://space.bilibili.com/213371"
       },
       "metrics": {
-        "favorites": 319,
+        "favorites": 318,
         "comments": 12,
         "shares": 4,
-        "views": 4108,
+        "views": 4129,
         "coins": 36
       },
       "metricAvailability": {
@@ -11031,7 +11069,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:09:16.966Z",
+      "collectedAt": "2026-11-10T08:36:56.002Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -11055,7 +11093,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1px4w67EBA",
       "publishedAt": "2026-11-02T10:51:39.000Z",
-      "likes": 474,
+      "likes": 486,
       "kind": "video",
       "durationSeconds": 15,
       "author": {
@@ -11064,10 +11102,10 @@
         "url": "https://space.bilibili.com/3546963263883902"
       },
       "metrics": {
-        "favorites": 71,
+        "favorites": 74,
         "comments": 42,
         "shares": 8,
-        "views": 3986,
+        "views": 4104,
         "coins": 29
       },
       "metricAvailability": {
@@ -11077,7 +11115,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:09:19.131Z",
+      "collectedAt": "2026-11-10T08:36:57.087Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -11101,7 +11139,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1zvxX6JEkL",
       "publishedAt": "2026-11-05T02:00:00.000Z",
-      "likes": 520,
+      "likes": 543,
       "kind": "video",
       "durationSeconds": 82,
       "author": {
@@ -11110,11 +11148,11 @@
         "url": "https://space.bilibili.com/642690823"
       },
       "metrics": {
-        "favorites": 108,
-        "comments": 42,
+        "favorites": 109,
+        "comments": 44,
         "shares": 20,
-        "views": 4009,
-        "coins": 204
+        "views": 4237,
+        "coins": 219
       },
       "metricAvailability": {
         "favorites": "available",
@@ -11123,7 +11161,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:09:18.057Z",
+      "collectedAt": "2026-11-10T08:36:54.908Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -11156,10 +11194,10 @@
         "url": "https://space.bilibili.com/67693530"
       },
       "metrics": {
-        "favorites": 58,
+        "favorites": 59,
         "comments": 9,
         "shares": 4,
-        "views": 2518,
+        "views": 2537,
         "coins": 3
       },
       "metricAvailability": {
@@ -11169,7 +11207,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:09:26.744Z",
+      "collectedAt": "2026-11-10T08:37:03.646Z",
       "keyword": "美少女游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -11193,7 +11231,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1ua4c6sEEe",
       "publishedAt": "2026-11-02T11:00:00.000Z",
-      "likes": 385,
+      "likes": 391,
       "kind": "video",
       "durationSeconds": 1179,
       "author": {
@@ -11202,11 +11240,11 @@
         "url": "https://space.bilibili.com/85559433"
       },
       "metrics": {
-        "favorites": 256,
+        "favorites": 257,
         "comments": 29,
         "shares": 15,
-        "views": 19789,
-        "coins": 115
+        "views": 20419,
+        "coins": 117
       },
       "metricAvailability": {
         "favorites": "available",
@@ -11215,7 +11253,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:10:05.977Z",
+      "collectedAt": "2026-11-10T08:37:43.623Z",
       "keyword": "视觉小说",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -11239,20 +11277,20 @@
       ],
       "url": "https://www.bilibili.com/video/BV1vsx76gEhj",
       "publishedAt": "2026-11-04T02:50:00.000Z",
-      "likes": 538,
+      "likes": 591,
       "kind": "video",
-      "durationSeconds": 76219,
+      "durationSeconds": 84334,
       "author": {
         "id": "296335474",
         "name": "爱讲故事的陈同学",
         "url": "https://space.bilibili.com/296335474"
       },
       "metrics": {
-        "favorites": 925,
-        "comments": 39,
-        "shares": 23,
-        "views": 13882,
-        "coins": 97
+        "favorites": 975,
+        "comments": 46,
+        "shares": 27,
+        "views": 19149,
+        "coins": 141
       },
       "metricAvailability": {
         "favorites": "available",
@@ -11261,7 +11299,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:10:10.517Z",
+      "collectedAt": "2026-11-10T08:37:44.716Z",
       "keyword": "视觉小说",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -11280,7 +11318,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1jrxt6uEE7",
       "publishedAt": "2026-11-01T16:29:59.000Z",
-      "likes": 466,
+      "likes": 488,
       "kind": "video",
       "durationSeconds": 278,
       "author": {
@@ -11289,11 +11327,11 @@
         "url": "https://space.bilibili.com/397453092"
       },
       "metrics": {
-        "favorites": 247,
-        "comments": 20,
-        "shares": 58,
-        "views": 2751,
-        "coins": 13
+        "favorites": 260,
+        "comments": 21,
+        "shares": 59,
+        "views": 2903,
+        "coins": 15
       },
       "metricAvailability": {
         "favorites": "available",
@@ -11302,8 +11340,8 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:10:34.470Z",
-      "keyword": "9-nine",
+      "collectedAt": "2026-11-10T08:38:13.401Z",
+      "keyword": "视觉小说",
       "reason": "没有找到明确作品名",
       "candidates": []
     },
@@ -11326,7 +11364,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1EWxd6sEA4",
       "publishedAt": "2026-11-04T15:01:34.000Z",
-      "likes": 437,
+      "likes": 447,
       "kind": "video",
       "durationSeconds": 8455,
       "author": {
@@ -11335,10 +11373,10 @@
         "url": "https://space.bilibili.com/271318"
       },
       "metrics": {
-        "favorites": 310,
+        "favorites": 318,
         "comments": 29,
-        "shares": 13,
-        "views": 2408,
+        "shares": 14,
+        "views": 2457,
         "coins": 58
       },
       "metricAvailability": {
@@ -11348,7 +11386,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:10:41.493Z",
+      "collectedAt": "2026-11-10T08:38:20.330Z",
       "keyword": "视觉小说",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -11948,7 +11986,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1pUxQ6QEGQ",
       "publishedAt": "2026-11-04T06:39:37.000Z",
-      "likes": 1144,
+      "likes": 1584,
       "kind": "video",
       "durationSeconds": 34,
       "author": {
@@ -11957,11 +11995,11 @@
         "url": "https://space.bilibili.com/173509842"
       },
       "metrics": {
-        "favorites": 1514,
-        "comments": 48,
-        "shares": 58,
-        "views": 129164,
-        "coins": 19
+        "favorites": 2016,
+        "comments": 71,
+        "shares": 88,
+        "views": 175777,
+        "coins": 21
       },
       "metricAvailability": {
         "favorites": "available",
@@ -11970,7 +12008,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:06:50.536Z",
+      "collectedAt": "2026-11-10T08:34:24.288Z",
       "keyword": "galgame",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -12039,7 +12077,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1kj4t6JE6r",
       "publishedAt": "2026-11-05T06:17:20.000Z",
-      "likes": 1289,
+      "likes": 1436,
       "kind": "video",
       "durationSeconds": 71,
       "author": {
@@ -12048,11 +12086,11 @@
         "url": "https://space.bilibili.com/398499399"
       },
       "metrics": {
-        "favorites": 699,
-        "comments": 35,
-        "shares": 37,
-        "views": 48903,
-        "coins": 6
+        "favorites": 784,
+        "comments": 37,
+        "shares": 42,
+        "views": 54923,
+        "coins": 10
       },
       "metricAvailability": {
         "favorites": "available",
@@ -12061,7 +12099,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:06:54.145Z",
+      "collectedAt": "2026-11-10T08:34:28.905Z",
       "keyword": "gal游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -12082,7 +12120,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1gtx46FEfM",
       "publishedAt": "2026-11-01T11:36:16.000Z",
-      "likes": 778,
+      "likes": 783,
       "kind": "video",
       "durationSeconds": 152,
       "author": {
@@ -12091,10 +12129,10 @@
         "url": "https://space.bilibili.com/2903441"
       },
       "metrics": {
-        "favorites": 1296,
+        "favorites": 1298,
         "comments": 8,
         "shares": 13,
-        "views": 38042,
+        "views": 38179,
         "coins": 49
       },
       "metricAvailability": {
@@ -12104,7 +12142,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:06:55.229Z",
+      "collectedAt": "2026-11-10T08:34:31.086Z",
       "keyword": "galgame",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -12128,7 +12166,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1gWxm6pEov",
       "publishedAt": "2026-11-04T03:00:00.000Z",
-      "likes": 367,
+      "likes": 377,
       "kind": "video",
       "durationSeconds": 256,
       "author": {
@@ -12137,11 +12175,11 @@
         "url": "https://space.bilibili.com/313767827"
       },
       "metrics": {
-        "favorites": 264,
-        "comments": 120,
-        "shares": 197,
-        "views": 11097,
-        "coins": 64
+        "favorites": 274,
+        "comments": 127,
+        "shares": 208,
+        "views": 11645,
+        "coins": 66
       },
       "metricAvailability": {
         "favorites": "available",
@@ -12150,48 +12188,8 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:15.415Z",
+      "collectedAt": "2026-11-10T08:34:50.321Z",
       "keyword": "视觉小说",
-      "reason": "没有找到明确作品名",
-      "candidates": []
-    },
-    {
-      "platform": "bilibili",
-      "id": "BV1XZx16nEhQ",
-      "title": "尼~尼~起床啦~",
-      "description": "二乃妹妹小恶魔模式",
-      "tags": [
-        "D.C.5",
-        "常坂二乃",
-        "galgame",
-        "D.C.4"
-      ],
-      "url": "https://www.bilibili.com/video/BV1XZx16nEhQ",
-      "publishedAt": "2026-11-04T00:20:00.000Z",
-      "likes": 399,
-      "kind": "video",
-      "durationSeconds": 200,
-      "author": {
-        "id": "289172847",
-        "name": "桜内音姫",
-        "url": "https://space.bilibili.com/289172847"
-      },
-      "metrics": {
-        "favorites": 496,
-        "comments": 27,
-        "shares": 39,
-        "views": 8188,
-        "coins": 25
-      },
-      "metricAvailability": {
-        "favorites": "available",
-        "comments": "available",
-        "shares": "available",
-        "views": "available",
-        "coins": "available"
-      },
-      "collectedAt": "2026-11-09T08:07:22.100Z",
-      "keyword": "galgame",
       "reason": "没有找到明确作品名",
       "candidates": []
     },
@@ -12214,7 +12212,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1oNxR62EvN",
       "publishedAt": "2026-11-04T10:37:19.000Z",
-      "likes": 530,
+      "likes": 542,
       "kind": "video",
       "durationSeconds": 72,
       "author": {
@@ -12223,11 +12221,11 @@
         "url": "https://space.bilibili.com/3546929195649784"
       },
       "metrics": {
-        "favorites": 162,
-        "comments": 74,
-        "shares": 56,
-        "views": 45605,
-        "coins": 18
+        "favorites": 170,
+        "comments": 77,
+        "shares": 60,
+        "views": 46607,
+        "coins": 20
       },
       "metricAvailability": {
         "favorites": "available",
@@ -12236,7 +12234,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:08:00.400Z",
+      "collectedAt": "2026-11-10T08:35:36.315Z",
       "keyword": "gal游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -12258,7 +12256,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1tFx96AErH",
       "publishedAt": "2026-11-05T07:00:00.000Z",
-      "likes": 485,
+      "likes": 538,
       "kind": "video",
       "durationSeconds": 75,
       "author": {
@@ -12267,11 +12265,11 @@
         "url": "https://space.bilibili.com/3546683386366311"
       },
       "metrics": {
-        "favorites": 289,
-        "comments": 248,
-        "shares": 219,
-        "views": 20241,
-        "coins": 143
+        "favorites": 305,
+        "comments": 275,
+        "shares": 245,
+        "views": 21651,
+        "coins": 167
       },
       "metricAvailability": {
         "favorites": "available",
@@ -12280,7 +12278,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:10:04.896Z",
+      "collectedAt": "2026-11-10T08:37:42.527Z",
       "keyword": "视觉小说",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -12301,7 +12299,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1FT4g6YEjk",
       "publishedAt": "2026-11-03T11:00:01.000Z",
-      "likes": 403,
+      "likes": 419,
       "kind": "video",
       "durationSeconds": 285,
       "author": {
@@ -12310,11 +12308,11 @@
         "url": "https://space.bilibili.com/1069221113"
       },
       "metrics": {
-        "favorites": 180,
-        "comments": 57,
+        "favorites": 189,
+        "comments": 58,
         "shares": 2,
-        "views": 2517,
-        "coins": 46
+        "views": 2635,
+        "coins": 47
       },
       "metricAvailability": {
         "favorites": "available",
@@ -12323,7 +12321,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:10:38.992Z",
+      "collectedAt": "2026-11-10T08:38:19.046Z",
       "keyword": "视觉小说",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -12579,7 +12577,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1zLxQ65EcY",
       "publishedAt": "2026-11-04T07:57:33.000Z",
-      "likes": 413,
+      "likes": 453,
       "kind": "video",
       "durationSeconds": 43,
       "author": {
@@ -12588,10 +12586,10 @@
         "url": "https://space.bilibili.com/1587321016"
       },
       "metrics": {
-        "favorites": 474,
+        "favorites": 547,
         "comments": 32,
-        "shares": 20,
-        "views": 24239,
+        "shares": 22,
+        "views": 27337,
         "coins": 8
       },
       "metricAvailability": {
@@ -12601,7 +12599,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:02.789Z",
+      "collectedAt": "2026-11-10T08:34:37.638Z",
       "keyword": "gal游戏",
       "reason": "没有找到明确作品名",
       "candidates": []
@@ -12625,7 +12623,7 @@
       ],
       "url": "https://www.bilibili.com/video/BV1RtxQ6KEuQ",
       "publishedAt": "2026-11-04T12:00:00.000Z",
-      "likes": 394,
+      "likes": 616,
       "kind": "video",
       "durationSeconds": 584,
       "author": {
@@ -12634,11 +12632,11 @@
         "url": "https://space.bilibili.com/3546725358766193"
       },
       "metrics": {
-        "favorites": 1010,
+        "favorites": 1324,
         "comments": 15,
-        "shares": 13,
-        "views": 12487,
-        "coins": 51
+        "shares": 14,
+        "views": 13778,
+        "coins": 68
       },
       "metricAvailability": {
         "favorites": "available",
@@ -12647,7 +12645,7 @@
         "views": "available",
         "coins": "available"
       },
-      "collectedAt": "2026-11-09T08:07:14.336Z",
+      "collectedAt": "2026-11-10T08:34:47.050Z",
       "keyword": "galgame",
       "reason": "没有找到明确作品名",
       "candidates": []
