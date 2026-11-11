@@ -49698,6 +49698,39 @@
       "path": "works/v20854/"
     },
     {
+      "id": "v62152",
+      "type": "work",
+      "name": "灵视异闻 FILE38 伊势人鱼物语",
+      "aliases": [
+        "パラノマサイト FILE38 伊勢人魚物語",
+        "灵视异闻 FILE38 伊势人鱼物语",
+        "パラノマサイト FILE38 伊勢人魚物語",
+        "PARANORMASIGHT FILE38: Ise Ningyo Monogatari",
+        "PARANORMASIGHT: The Mermaid's Curse",
+        "靈視異聞 FILE38 伊勢人魚物語"
+      ],
+      "image": "https://t.vndb.org/cv/38/124438.jpg",
+      "subtitle": "スクウェア・エニックス",
+      "path": "works/v62152/"
+    },
+    {
+      "id": "v19011",
+      "type": "work",
+      "name": "魔法少女",
+      "aliases": [
+        "魔法少女",
+        "魔法少女",
+        "Mahou Shoujo",
+        "Shinsetsu Mahou Shoujo",
+        "Mahosho",
+        "新説魔法少女",
+        "新说魔法少女"
+      ],
+      "image": "https://t.vndb.org/cv/96/79696.jpg",
+      "subtitle": "信じた馬鹿が俺だった",
+      "path": "works/v19011/"
+    },
+    {
       "id": "s722",
       "type": "staff",
       "name": "こぶいち",

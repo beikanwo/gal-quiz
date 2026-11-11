@@ -1,107 +1,35 @@
 {
-  "startedAt": "2026-11-09T10:24:43.727Z",
+  "startedAt": "2026-11-11T09:53:40.674Z",
   "mode": "shadow",
   "formalRankingChanged": false,
   "searchWindow": {
-    "start": "2026-11-04T10:24:43.727Z",
-    "end": "2026-11-09T10:24:44.727Z"
+    "start": "2026-11-05T16:00:00.000Z",
+    "end": "2026-11-11T09:53:41.674Z"
   },
   "platforms": {
     "douyin": {
       "status": "partial",
       "fieldVerificationStatus": "complete",
-      "lastAttemptAt": "2026-11-09T10:32:27.049Z",
-      "searches": 12,
+      "lastAttemptAt": "2026-11-11T10:01:19.436Z",
+      "searches": 11,
       "queries": [
         "galgame",
         "视觉小说",
         "冷门视觉小说",
         "galgame推荐",
         "游戏安利",
-        "常轨脱离Creative",
-        "天津罪",
-        "樱之诗",
-        "樱之刻",
+        "时空轮回",
+        "聚光灯下的青柠恋曲",
+        "千恋＊万花",
         "CLANNAD",
-        "ATRI",
-        "夏日口袋",
-        "千恋万花"
+        "濒死轮回的卿于馆中萌生的憎恶",
+        "不/存在的你，和我",
+        "濒死的骑士，于异世界中响彻的绝唱",
+        "魔女的夜宴"
       ],
       "searchCoverage": [
         {
           "keyword": "galgame",
-          "pages": 2,
-          "returned": 18,
-          "inWindow": 15,
-          "outsideWindow": 3,
-          "channel": "general"
-        },
-        {
-          "keyword": "视觉小说",
-          "pages": 2,
-          "returned": 15,
-          "inWindow": 14,
-          "outsideWindow": 1,
-          "channel": "general"
-        },
-        {
-          "keyword": "冷门视觉小说",
-          "pages": 2,
-          "returned": 2,
-          "inWindow": 1,
-          "outsideWindow": 1,
-          "channel": "general"
-        },
-        {
-          "keyword": "galgame推荐",
-          "pages": 2,
-          "returned": 15,
-          "inWindow": 13,
-          "outsideWindow": 2,
-          "channel": "general"
-        },
-        {
-          "keyword": "游戏安利",
-          "pages": 2,
-          "returned": 15,
-          "inWindow": 11,
-          "outsideWindow": 4,
-          "channel": "general"
-        },
-        {
-          "keyword": "常轨脱离Creative",
-          "pages": 2,
-          "returned": 7,
-          "inWindow": 5,
-          "outsideWindow": 2,
-          "channel": "general"
-        },
-        {
-          "keyword": "天津罪",
-          "pages": 2,
-          "returned": 8,
-          "inWindow": 7,
-          "outsideWindow": 1,
-          "channel": "general"
-        },
-        {
-          "keyword": "樱之诗",
-          "pages": 2,
-          "returned": 12,
-          "inWindow": 11,
-          "outsideWindow": 1,
-          "channel": "general"
-        },
-        {
-          "keyword": "樱之刻",
-          "pages": 2,
-          "returned": 10,
-          "inWindow": 9,
-          "outsideWindow": 1,
-          "channel": "general"
-        },
-        {
-          "keyword": "CLANNAD",
           "pages": 2,
           "returned": 18,
           "inWindow": 18,
@@ -109,38 +37,106 @@
           "channel": "general"
         },
         {
-          "keyword": "夏日口袋",
+          "keyword": "视觉小说",
           "pages": 2,
-          "returned": 15,
-          "inWindow": 15,
+          "returned": 14,
+          "inWindow": 12,
+          "outsideWindow": 2,
+          "channel": "general"
+        },
+        {
+          "keyword": "冷门视觉小说",
+          "pages": 2,
+          "returned": 1,
+          "inWindow": 1,
           "outsideWindow": 0,
           "channel": "general"
         },
         {
-          "keyword": "千恋万花",
+          "keyword": "galgame推荐",
+          "pages": 2,
+          "returned": 14,
+          "inWindow": 13,
+          "outsideWindow": 1,
+          "channel": "general"
+        },
+        {
+          "keyword": "游戏安利",
+          "pages": 2,
+          "returned": 9,
+          "inWindow": 9,
+          "outsideWindow": 0,
+          "channel": "general"
+        },
+        {
+          "keyword": "千恋＊万花",
           "pages": 2,
           "returned": 18,
-          "inWindow": 17,
+          "inWindow": 18,
+          "outsideWindow": 0,
+          "channel": "general"
+        },
+        {
+          "keyword": "CLANNAD",
+          "pages": 2,
+          "returned": 10,
+          "inWindow": 7,
+          "outsideWindow": 3,
+          "channel": "general"
+        },
+        {
+          "keyword": "濒死轮回的卿于馆中萌生的憎恶",
+          "pages": 2,
+          "returned": 5,
+          "inWindow": 5,
+          "outsideWindow": 0,
+          "channel": "general"
+        },
+        {
+          "keyword": "不/存在的你，和我",
+          "pages": 2,
+          "returned": 6,
+          "inWindow": 6,
+          "outsideWindow": 0,
+          "channel": "general"
+        },
+        {
+          "keyword": "濒死的骑士，于异世界中响彻的绝唱",
+          "pages": 2,
+          "returned": 1,
+          "inWindow": 1,
+          "outsideWindow": 0,
+          "channel": "general"
+        },
+        {
+          "keyword": "魔女的夜宴",
+          "pages": 2,
+          "returned": 5,
+          "inWindow": 4,
           "outsideWindow": 1,
           "channel": "general"
         }
       ],
       "pagesPerKeyword": 2,
       "window": {
-        "start": "2026-11-04T10:24:43.727Z",
-        "end": "2026-11-09T10:24:44.727Z"
+        "start": "2026-11-05T16:00:00.000Z",
+        "end": "2026-11-11T09:53:41.674Z"
       },
       "workResolution": {
-        "resolved": 2,
+        "resolved": 0,
         "failures": 0
       },
-      "inWindowCount": 123,
-      "identifiedCount": 41,
-      "identifiedWorks": 18,
+      "inWindowCount": 80,
+      "identifiedCount": 20,
+      "identifiedWorks": 11,
       "failures": [
         {
           "stage": "search",
-          "keyword": "ATRI"
+          "keyword": "时空轮回"
+        },
+        {
+          "stage": "search",
+          "keyword": "聚光灯下的青柠恋曲"
         },
         {
           "stage": "refresh",
@@ -164,15 +160,7 @@
         },
         {
           "stage": "refresh",
-          "id": "7705117795389805041"
-        },
-        {
-          "stage": "refresh",
           "id": "7705039253478270629"
-        },
-        {
-          "stage": "refresh",
-          "id": "7704959573006942885"
         },
         {
           "stage": "refresh",
@@ -188,39 +176,47 @@
         },
         {
           "stage": "refresh",
-          "id": "7704284113419216738"
+          "id": "7705995872182969253"
         },
         {
           "stage": "refresh",
-          "id": "7704237929036816548"
+          "id": "7705984753959592090"
         },
         {
           "stage": "refresh",
-          "id": "7703598804313876837"
+          "id": "7705861483393893562"
         },
         {
           "stage": "refresh",
-          "id": "7703983195985920074"
+          "id": "7705691447437069603"
         },
         {
           "stage": "refresh",
-          "id": "7704210062579654329"
+          "id": "7705794514786636367"
         },
         {
           "stage": "refresh",
-          "id": "7703963391979951291"
+          "id": "7705648383579774691"
         },
         {
           "stage": "refresh",
-          "id": "7704310784126248315"
+          "id": "7705726314275279737"
         },
         {
           "stage": "refresh",
-          "id": "7703964285352942949"
+          "id": "7705650761866373224"
         },
         {
           "stage": "refresh",
-          "id": "7703845508028939466"
+          "id": "7705721739440099210"
+        },
+        {
+          "stage": "refresh",
+          "id": "7705533335740692645"
+        },
+        {
+          "stage": "refresh",
+          "id": "7705818002210311258"
         }
       ],
       "sampleCount": 20,
@@ -234,18 +230,18 @@
         "coins": 0
       },
       "zeroValues": {
-        "favorites": 2,
-        "comments": 1,
-        "shares": 5,
+        "favorites": 0,
+        "comments": 2,
+        "shares": 1,
         "views": 0,
         "coins": 0
       },
-      "lastSuccessAt": "2026-11-09T10:32:27.049Z"
+      "lastSuccessAt": "2026-11-11T10:01:19.436Z"
     },
     "bilibili": {
       "status": "partial",
       "fieldVerificationStatus": "complete",
-      "lastAttemptAt": "2026-11-09T10:41:20.304Z",
+      "lastAttemptAt": "2026-11-11T10:11:14.160Z",
       "searches": 15,
       "queries": [
         "galgame",
@@ -253,14 +249,14 @@
         "冷门视觉小说",
         "galgame推荐",
         "游戏安利",
-        "常轨脱离Creative",
-        "天津罪",
-        "樱之诗",
-        "樱之刻",
+        "时空轮回",
+        "聚光灯下的青柠恋曲",
+        "千恋＊万花",
         "CLANNAD",
-        "ATRI",
-        "夏日口袋",
-        "千恋万花"
+        "濒死轮回的卿于馆中萌生的憎恶",
+        "不/存在的你，和我",
+        "濒死的骑士，于异世界中响彻的绝唱",
+        "魔女的夜宴"
       ],
       "searchCoverage": [
         {
@@ -284,50 +280,50 @@
           "pages": 2
         },
         {
-          "keyword": "常轨脱离Creative",
+          "keyword": "时空轮回",
+          "pages": 2
+        },
+        {
+          "keyword": "聚光灯下的青柠恋曲",
           "pages": 1
         },
         {
-          "keyword": "天津罪",
-          "pages": 1
-        },
-        {
-          "keyword": "樱之诗",
-          "pages": 1
-        },
-        {
-          "keyword": "樱之刻",
-          "pages": 1
+          "keyword": "千恋＊万花",
+          "pages": 2
         },
         {
           "keyword": "CLANNAD",
           "pages": 2
         },
         {
-          "keyword": "ATRI",
+          "keyword": "濒死轮回的卿于馆中萌生的憎恶",
+          "pages": 1
+        },
+        {
+          "keyword": "不/存在的你，和我",
           "pages": 2
         },
         {
-          "keyword": "夏日口袋",
-          "pages": 2
+          "keyword": "濒死的骑士，于异世界中响彻的绝唱",
+          "pages": 1
         },
         {
-          "keyword": "千恋万花",
+          "keyword": "魔女的夜宴",
           "pages": 2
         }
       ],
       "pagesPerKeyword": 2,
       "window": {
-        "start": "2026-11-04T10:24:43.727Z",
-        "end": "2026-11-09T10:24:44.727Z"
+        "start": "2026-11-05T16:00:00.000Z",
+        "end": "2026-11-11T09:53:41.674Z"
       },
       "workResolution": {
         "resolved": 2,
         "failures": 0
       },
-      "inWindowCount": 388,
-      "identifiedCount": 91,
-      "identifiedWorks": 36,
+      "inWindowCount": 406,
+      "identifiedCount": 74,
+      "identifiedWorks": 39,
       "failures": [
         {
           "stage": "search",
@@ -335,27 +331,15 @@
         },
         {
           "stage": "search",
-          "keyword": "常轨脱离Creative"
-        },
-        {
-          "stage": "search",
-          "keyword": "天津罪"
-        },
-        {
-          "stage": "search",
-          "keyword": "樱之诗"
-        },
-        {
-          "stage": "search",
-          "keyword": "樱之刻"
-        },
-        {
-          "stage": "search",
-          "keyword": "夏日口袋"
+          "keyword": "濒死轮回的卿于馆中萌生的憎恶"
         },
         {
           "stage": "refresh",
           "id": "BV1ib4E6JEiU"
+        },
+        {
+          "stage": "refresh",
+          "id": "BV1qAW76qEgS"
         }
       ],
       "sampleCount": 20,
@@ -369,18 +353,18 @@
         "coins": 20
       },
       "zeroValues": {
-        "favorites": 4,
-        "comments": 6,
-        "shares": 10,
+        "favorites": 6,
+        "comments": 9,
+        "shares": 11,
         "views": 0,
-        "coins": 6
+        "coins": 11
       },
-      "lastSuccessAt": "2026-11-09T10:41:20.304Z"
+      "lastSuccessAt": "2026-11-11T10:11:14.160Z"
     }
   },
-  "finishedAt": "2026-11-09T10:41:33.894Z",
-  "observedPosts": 312,
-  "identityPending": 1308,
+  "finishedAt": "2026-11-11T10:11:37.231Z",
+  "observedPosts": 367,
+  "identityPending": 1641,
   "trial": {
     "periods": [
       {
@@ -396,7 +380,7 @@
         "supplementUntil": "2026-11-12T16:00:00.000Z"
       }
     ],
-    "closed": 1,
+    "closed": 2,
     "finalized": 1,
     "target": 2
   }

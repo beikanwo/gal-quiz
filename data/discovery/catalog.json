@@ -601052,6 +601052,378 @@
           "fetchedAt": "2026-11-11T07:47:07.011Z"
         }
       }
+    },
+    "v62152": {
+      "id": "v62152",
+      "title": "灵视异闻 FILE38 伊势人鱼物语",
+      "original": "パラノマサイト FILE38 伊勢人魚物語",
+      "aliases": [
+        "灵视异闻 FILE38 伊势人鱼物语",
+        "パラノマサイト FILE38 伊勢人魚物語",
+        "PARANORMASIGHT FILE38: Ise Ningyo Monogatari",
+        "PARANORMASIGHT: The Mermaid's Curse",
+        "靈視異聞 FILE38 伊勢人魚物語"
+      ],
+      "released": "2026-02-19",
+      "languages": [
+        "en",
+        "ja",
+        "zh-Hans",
+        "zh-Hant"
+      ],
+      "minutes": 975,
+      "image": "https://t.vndb.org/cv/38/124438.jpg",
+      "cover": {
+        "id": "cv124438",
+        "url": "https://t.vndb.org/cv/38/124438.jpg",
+        "thumbnail": "https://t.vndb.org/cv.t/38/124438.jpg",
+        "sexual": 0,
+        "violence": 0,
+        "kind": "vn",
+        "source": "https://vndb.org/v62152"
+      },
+      "developers": [
+        {
+          "id": "p1455",
+          "name": "スクウェア・エニックス"
+        }
+      ],
+      "source": "https://vndb.org/v62152",
+      "updatedAt": "2026-11-11T09:53:40.877Z",
+      "detailComplete": true,
+      "originalDescription": "The remote island of Kameshima sits nestled in Ise bay.\nYuza Minakuchi is a young pearl diver who lives on the island and spends his days underwater gathering, together with his best friend Azami Kumoi. After he has a bewildering supernatural experience encountering another version of himself on the ocean floor, a series of curses start to befall the island...\nA girl of unknown origins, a treasure hunter from a foreign land and a mysterious housewife investigating a drowning. Paths cross and destinies collide as they come closer to the secret of the Mermaids of Ise, a legend that has been obscured by the fog of history for so long.",
+      "description": "伊势湾海面上有一座离岛──龟岛。\n居住在岛上的海女少年水口勇佐与挚友云居蓟在徒手潜水捕捞时，\n在海底遭遇了一件不可思议的怪事——看见了“另一个自己”。\n以这件怪事为开端，龟岛上接连降临多道诅咒。\n身分成谜的少女、来寻宝的外国人，以及调查浮尸的神秘主妇……\n各自的目的错综交织，最终导向埋藏于悠久历史中的人鱼之秘。",
+      "descriptionLanguage": "中文",
+      "descriptionSource": "https://www.kungal.com/galgame/4961",
+      "staff": [
+        {
+          "id": "s13987",
+          "name": "石山 貴也",
+          "role": "scenario",
+          "aliasId": 17607
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sf240966",
+          "url": "https://t.vndb.org/sf/66/240966.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/66/240966.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf240967",
+          "url": "https://t.vndb.org/sf/67/240967.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/67/240967.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf240968",
+          "url": "https://t.vndb.org/sf/68/240968.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/68/240968.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf240969",
+          "url": "https://t.vndb.org/sf/69/240969.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/69/240969.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf240970",
+          "url": "https://t.vndb.org/sf/70/240970.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/70/240970.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf240971",
+          "url": "https://t.vndb.org/sf/71/240971.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/71/240971.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Paranormasight:_The_Mermaid's_Curse",
+          "label": "Wikipedia (en)"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%91%E3%83%A9%E3%83%8E%E3%83%9E%E3%82%B5%E3%82%A4%E3%83%88_FILE38_%E4%BC%8A%E5%8B%A2%E4%BA%BA%E9%AD%9A%E7%89%A9%E8%AA%9E",
+          "label": "Wikipedia (ja)"
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q138013824",
+          "label": "Wikidata"
+        },
+        {
+          "url": "https://www.mobygames.com/game/255466/",
+          "label": "MobyGames"
+        },
+        {
+          "url": "https://www.igdb.com/games/paranormasight-the-mermaids-curse",
+          "label": "IGDB"
+        },
+        {
+          "url": "https://www.pcgamingwiki.com/wiki/Paranormasight:_The_Mermaid's_Curse",
+          "label": "PCGamingWiki"
+        }
+      ],
+      "vndbNames": [
+        "PARANORMASIGHT FILE38: Ise Ningyo Monogatari",
+        "パラノマサイト FILE38 伊勢人魚物語",
+        "PARANORMASIGHT: The Mermaid's Curse",
+        "灵视异闻 FILE38 伊势人鱼物语",
+        "靈視異聞 FILE38 伊勢人魚物語"
+      ],
+      "matchingAliases": [
+        "灵视异闻 FILE38 伊势人鱼物语",
+        "パラノマサイト FILE38 伊勢人魚物語",
+        "PARANORMASIGHT FILE38: Ise Ningyo Monogatari",
+        "PARANORMASIGHT: The Mermaid's Curse",
+        "靈視異聞 FILE38 伊勢人魚物語"
+      ],
+      "coverSourceFlags": {
+        "sexual": 0,
+        "violence": 0
+      },
+      "ratings": {
+        "vndb": {
+          "score": 7.81,
+          "scale": 10,
+          "votes": 290,
+          "metric": "贝叶斯评分",
+          "via": "原站",
+          "url": "https://vndb.org/v62152",
+          "fetchedAt": "2026-11-11T09:53:40.877Z"
+        },
+        "bangumi": {
+          "score": 7.3,
+          "votes": 504,
+          "scale": 10,
+          "metric": "站点评分",
+          "url": "https://bgm.tv/subject/625770",
+          "via": "KUN 评分快照",
+          "viaUrl": "https://www.kungal.com/galgame/4961",
+          "fetchedAt": "2026-11-11T10:09:38.921Z"
+        },
+        "erogamescape": {
+          "score": 81,
+          "votes": 49,
+          "scale": 100,
+          "metric": "站点评分",
+          "url": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=40296",
+          "via": "KUN 评分快照",
+          "viaUrl": "https://www.kungal.com/galgame/4961",
+          "fetchedAt": "2026-11-11T10:09:38.921Z"
+        }
+      },
+      "descriptionSourceName": "Bangumi（KUN 资料镜像）",
+      "descriptionMachine": false,
+      "communityNames": [
+        "パラノマサイト FILE38 伊勢人魚物語",
+        "PARANORMASIGHT FILE38: Ise Ningyo Monogatari",
+        "灵视异闻 FILE38 伊势人鱼物语",
+        "靈視異聞 FILE38 伊勢人魚物語"
+      ],
+      "communitySearchNames": [
+        "パラノマサイト FILE38 伊勢人魚物語",
+        "PARANORMASIGHT FILE38: Ise Ningyo Monogatari",
+        "灵视异闻 FILE38 伊势人鱼物语",
+        "靈視異聞 FILE38 伊勢人魚物語"
+      ],
+      "community": {
+        "kungal": {
+          "id": "4961",
+          "url": "https://www.kungal.com/galgame/4961"
+        },
+        "bangumi": {
+          "id": 625770,
+          "url": "https://bgm.tv/subject/625770"
+        }
+      }
+    },
+    "v19011": {
+      "id": "v19011",
+      "title": "魔法少女",
+      "original": "魔法少女",
+      "aliases": [
+        "魔法少女",
+        "Mahou Shoujo",
+        "Shinsetsu Mahou Shoujo",
+        "Mahosho",
+        "新説魔法少女",
+        "新说魔法少女"
+      ],
+      "released": "2012-08-31",
+      "languages": [
+        "en",
+        "es",
+        "ja",
+        "zh-Hans"
+      ],
+      "minutes": 3300,
+      "image": "https://t.vndb.org/cv/96/79696.jpg",
+      "cover": {
+        "id": "cv79696",
+        "url": "https://t.vndb.org/cv/96/79696.jpg",
+        "thumbnail": "https://t.vndb.org/cv.t/96/79696.jpg",
+        "sexual": 0,
+        "violence": 0,
+        "kind": "vn",
+        "source": "https://vndb.org/v19011"
+      },
+      "developers": [
+        {
+          "id": "p5960",
+          "name": "信じた馬鹿が俺だった"
+        }
+      ],
+      "source": "https://vndb.org/v19011",
+      "updatedAt": "2026-11-11T09:53:40.877Z",
+      "detailComplete": true,
+      "originalDescription": "One day monsters appear in Kakehashi City. The school Chiyoko and Haruka are in shakes like during an earthquake and the window panes shatter all at once. During the commotion, the two rush to the rooftop. They see bodies lying in the street and smoke in the distance.\n\nA strange talking cat approaches them and asks them to become 'warriors' in order to fight against 'Biomonsters'. Panicked, Chiyoko is first to agree. She receives a round gemstone-looking transformation device along with a rather painful needle in the back. She suddenly finds herself able to travel faster than the speed of sound. Together with Haruka they are barely able to fend off the Biomonsters.\n\nThe cat tells Chiyoko and Haruka they have to search for more students with the potential to become 'warriors' like them. Over the next few weeks they continue searching for members, however, Chiyoko's reputation as a dangerous person and her lack of common sense causes her to be misunderstood frequently. Beyond that, not everyone isn't so willing to risk their life. Why should they be? This isn't the army. No-one is there to force them to join, or to keep order.\n\nSome reach out to others. Some reach out to their friends anew. Others sit back and watch anxiously or with disapproval. Even as the threat of annihilation grows, their personal worries remain in the air.\n\nThe days ahead lay filled with turmoil, large and small.",
+      "description": "公历20××年5月。架桥町突然出现的异星生命体。\n能够与之对抗的，只有借助异星授予的道具变身的少女们。\n\n―――――――――――――――――\n游玩时间约40小时的模拟RPG。\n难度分为戏剧（简单）和真实（推荐）两种，\n比起旧作版更加容易上手。",
+      "descriptionLanguage": "中文",
+      "descriptionSource": "https://www.kungal.com/galgame/3889",
+      "staff": [
+        {
+          "id": "s21719",
+          "name": "TS",
+          "role": "scenario",
+          "aliasId": 26960
+        },
+        {
+          "id": "s21719",
+          "name": "TS",
+          "role": "art",
+          "aliasId": 26960
+        }
+      ],
+      "screenshots": [
+        {
+          "id": "sf195895",
+          "url": "https://t.vndb.org/sf/95/195895.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/95/195895.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf195896",
+          "url": "https://t.vndb.org/sf/96/195896.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/96/195896.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf195897",
+          "url": "https://t.vndb.org/sf/97/195897.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/97/195897.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf195899",
+          "url": "https://t.vndb.org/sf/99/195899.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/99/195899.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf196543",
+          "url": "https://t.vndb.org/sf/43/196543.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/43/196543.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        },
+        {
+          "id": "sf196548",
+          "url": "https://t.vndb.org/sf/48/196548.jpg",
+          "thumbnail": "https://t.vndb.org/sf.t/48/196548.jpg",
+          "spoiler": true,
+          "source": "VNDB",
+          "credit": "画面版权归游戏权利人所有"
+        }
+      ],
+      "links": [],
+      "vndbNames": [
+        "Mahou Shoujo",
+        "魔法少女",
+        "Shinsetsu Mahou Shoujo",
+        "Mahosho"
+      ],
+      "matchingAliases": [
+        "魔法少女",
+        "Mahou Shoujo",
+        "Shinsetsu Mahou Shoujo",
+        "Mahosho",
+        "新説魔法少女",
+        "新说魔法少女"
+      ],
+      "coverSourceFlags": {
+        "sexual": 0,
+        "violence": 0
+      },
+      "ratings": {
+        "vndb": {
+          "score": 8.22,
+          "scale": 10,
+          "votes": 130,
+          "metric": "贝叶斯评分",
+          "via": "原站",
+          "url": "https://vndb.org/v19011",
+          "fetchedAt": "2026-11-11T09:53:40.877Z"
+        },
+        "bangumi": {
+          "score": 8.1,
+          "votes": 31,
+          "scale": 10,
+          "metric": "站点评分",
+          "url": "https://bgm.tv/subject/244959",
+          "via": "KUN 评分快照",
+          "viaUrl": "https://www.kungal.com/galgame/3889",
+          "fetchedAt": "2026-11-11T10:09:42.271Z"
+        }
+      },
+      "communityNames": [
+        "新説魔法少女",
+        "Shinsetsu Mahou Shoujo",
+        "魔法少女",
+        "新说魔法少女"
+      ],
+      "communitySearchNames": [
+        "新説魔法少女",
+        "Shinsetsu Mahou Shoujo",
+        "魔法少女",
+        "新说魔法少女"
+      ],
+      "community": {
+        "kungal": {
+          "id": "3889",
+          "url": "https://www.kungal.com/galgame/3889"
+        },
+        "bangumi": {
+          "id": 244959,
+          "url": "https://bgm.tv/subject/244959"
+        }
+      },
+      "descriptionSourceName": "Bangumi（KUN 资料镜像）",
+      "descriptionMachine": true
     }
   },
   "staff": {
