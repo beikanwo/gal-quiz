@@ -3,6 +3,981 @@
   "anchorDate": "2026-11-01",
   "periods": [
     {
+      "id": "2026-11-11",
+      "start": "2026-11-05T16:00:00.000Z",
+      "end": "2026-11-10T16:00:00.000Z",
+      "endDate": "2026-11-11",
+      "minLikes": 500,
+      "platforms": {
+        "douyin": {
+          "status": "partial",
+          "periodId": "2026-11-11",
+          "start": "2026-11-05T16:00:00.000Z",
+          "end": "2026-11-10T16:00:00.000Z",
+          "minLikes": 500,
+          "collectedAt": "2026-11-11T07:54:19.557Z",
+          "lastSuccessAt": null,
+          "error": "抖音采集失败，可能需要有效 Cookie；请检查固定版本依赖与登录状态。",
+          "coverage": {
+            "keywords": [
+              "galgame",
+              "gal游戏",
+              "美少女游戏",
+              "视觉小说",
+              "galgame CG",
+              "galgame名场面"
+            ],
+            "queries": 4,
+            "pages": 12,
+            "failedQueries": [
+              "美少女游戏",
+              "galgame CG"
+            ],
+            "maxPagesPerQuery": 3,
+            "candidateCount": 86,
+            "qualifiedCount": 25
+          },
+          "ranking": [
+            {
+              "workId": "v22636",
+              "maxLikes": 100868,
+              "count": 2,
+              "evidence": [
+                {
+                  "platform": "douyin",
+                  "id": "7705691447437069603",
+                  "title": "乌有乡大意食精粥—癫版桃花源 #乌有乡 #galgame推荐 #galgame #galgame游戏 #大意失荆州",
+                  "description": "",
+                  "tags": [
+                    "乌有乡",
+                    "galgame推荐",
+                    "galgame",
+                    "galgame游戏",
+                    "大意失荆州"
+                  ],
+                  "kind": "video",
+                  "url": "https://www.douyin.com/video/7705691447437069603",
+                  "publishedAt": "2026-11-08T06:58:27+00:00",
+                  "likes": 100868,
+                  "author": {
+                    "id": "97485774948",
+                    "name": "小宅GAME",
+                    "url": "https://www.douyin.com/user/MS4wLjABAAAA1ZGDGudODDICjcIyqpCST7mzY-fgJhhceucobUSaYrA"
+                  },
+                  "durationSeconds": null,
+                  "metrics": {
+                    "favorites": 23253,
+                    "comments": 584,
+                    "shares": 30244,
+                    "views": null,
+                    "coins": null
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "unsupported",
+                    "coins": "unsupported"
+                  },
+                  "collectedAt": "2026-11-11T07:47:29.153597+00:00",
+                  "keyword": "galgame",
+                  "workId": "v22636",
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "乌有乡"
+                  ]
+                },
+                {
+                  "platform": "douyin",
+                  "id": "7706439061044464932",
+                  "title": "乌有乡大意食精粥—癫版桃花源（二） #乌有乡 #galgame #galgame推荐 #galgame游戏 #大意失荆州",
+                  "description": "",
+                  "tags": [
+                    "乌有乡",
+                    "galgame",
+                    "galgame推荐",
+                    "galgame游戏",
+                    "大意失荆州"
+                  ],
+                  "kind": "video",
+                  "url": "https://www.douyin.com/video/7706439061044464932",
+                  "publishedAt": "2026-11-10T07:19:33+00:00",
+                  "likes": 24574,
+                  "author": {
+                    "id": "97485774948",
+                    "name": "小宅GAME",
+                    "url": "https://www.douyin.com/user/MS4wLjABAAAA1ZGDGudODDICjcIyqpCST7mzY-fgJhhceucobUSaYrA"
+                  },
+                  "durationSeconds": null,
+                  "metrics": {
+                    "favorites": 5365,
+                    "comments": 89,
+                    "shares": 5255,
+                    "views": null,
+                    "coins": null
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "unsupported",
+                    "coins": "unsupported"
+                  },
+                  "collectedAt": "2026-11-11T07:49:34.440903+00:00",
+                  "keyword": "galgame名场面",
+                  "workId": "v22636",
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "乌有乡"
+                  ]
+                }
+              ]
+            },
+            {
+              "workId": "v66391",
+              "maxLikes": 53265,
+              "count": 1,
+              "evidence": [
+                {
+                  "platform": "douyin",
+                  "id": "7705320655902415993",
+                  "title": "【开发组插播咨询】展示gb独游男主：#爱人如养虫 #独立游戏 #视觉小说 #gb",
+                  "description": "",
+                  "tags": [
+                    "",
+                    "爱人如养虫",
+                    "独立游戏",
+                    "视觉小说",
+                    "gb"
+                  ],
+                  "kind": "image",
+                  "url": "https://www.douyin.com/note/7705320655902415993",
+                  "publishedAt": "2026-11-07T06:59:28+00:00",
+                  "likes": 53265,
+                  "author": {
+                    "id": "7661233173112914993",
+                    "name": "蔻蔻KOOKO",
+                    "url": "https://www.douyin.com/user/MS4wLjABAAAAOX3mwqFrsX0KvFiitut7vedeiLIVGtbd3BSh1F8FfTPuKUO3e_xDfsftBjTlMdXl"
+                  },
+                  "durationSeconds": null,
+                  "metrics": {
+                    "favorites": 3898,
+                    "comments": 796,
+                    "shares": 3509,
+                    "views": null,
+                    "coins": null
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "unsupported",
+                    "coins": "unsupported"
+                  },
+                  "collectedAt": "2026-11-11T07:48:37.499826+00:00",
+                  "keyword": "视觉小说",
+                  "workId": "v66391",
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "爱人如养虫"
+                  ]
+                }
+              ]
+            },
+            {
+              "workId": "v7738",
+              "maxLikes": 7690,
+              "count": 1,
+              "evidence": [
+                {
+                  "platform": "douyin",
+                  "id": "7705328372113160010",
+                  "title": "这里似乎发生过什么 #君与彼女与彼女之恋  #君彼女 #galgame",
+                  "description": "",
+                  "tags": [
+                    "君彼女",
+                    "galgame"
+                  ],
+                  "kind": "video",
+                  "url": "https://www.douyin.com/video/7705328372113160010",
+                  "publishedAt": "2026-11-07T07:29:25+00:00",
+                  "likes": 7690,
+                  "author": {
+                    "id": "96571226129",
+                    "name": "有点非",
+                    "url": "https://www.douyin.com/user/MS4wLjABAAAAIDwodMY3ESa0vpzDmcp35Rspwnea2VPuN_8nbsu81IY"
+                  },
+                  "durationSeconds": null,
+                  "metrics": {
+                    "favorites": 647,
+                    "comments": 52,
+                    "shares": 630,
+                    "views": null,
+                    "coins": null
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "unsupported",
+                    "coins": "unsupported"
+                  },
+                  "collectedAt": "2026-11-11T07:47:47.542378+00:00",
+                  "keyword": "gal游戏",
+                  "workId": "v7738",
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "君与彼女与彼女之恋"
+                  ]
+                }
+              ]
+            },
+            {
+              "workId": "v26581",
+              "maxLikes": 5779,
+              "count": 1,
+              "evidence": [
+                {
+                  "platform": "douyin",
+                  "id": "7705833222635413989",
+                  "title": "gal你赢了...#galgame #巧克甜恋",
+                  "description": "",
+                  "tags": [
+                    "galgame",
+                    "巧克甜恋"
+                  ],
+                  "kind": "image",
+                  "url": "https://www.douyin.com/note/7705833222635413989",
+                  "publishedAt": "2026-11-08T16:08:30+00:00",
+                  "likes": 5779,
+                  "author": {
+                    "id": "61956198795",
+                    "name": "asuka",
+                    "url": "https://www.douyin.com/user/MS4wLjABAAAAg3KwDbEcFOKCRu66xFqF-Ij3R0fw4GjIIwrdu7UL6x0"
+                  },
+                  "durationSeconds": null,
+                  "metrics": {
+                    "favorites": 933,
+                    "comments": 128,
+                    "shares": 5825,
+                    "views": null,
+                    "coins": null
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "unsupported",
+                    "coins": "unsupported"
+                  },
+                  "collectedAt": "2026-11-11T07:49:34.440932+00:00",
+                  "keyword": "galgame名场面",
+                  "workId": "v26581",
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "巧克甜恋"
+                  ]
+                }
+              ]
+            },
+            {
+              "workId": "v26796",
+              "maxLikes": 5008,
+              "count": 1,
+              "evidence": [
+                {
+                  "platform": "douyin",
+                  "id": "7705101697789860297",
+                  "title": "jill✨️｜对路西法的甜蜜惩罚❗️Obey Me新作❤️‍🔥 \n🎮游戏名：Obey Me! Sinner’s Choice: Lucifer\n🖥️平台：Steam\n🖤类型：乙女恋爱/暗黑奇幻/视觉小说 \n全语音有中文还是这样的画风芜湖~ \n#obeyme #恋爱游戏 #视觉小说 #steam #steam游戏",
+                  "description": "",
+                  "tags": [
+                    "obeyme",
+                    "恋爱游戏",
+                    "视觉小说",
+                    "steam",
+                    "steam游戏"
+                  ],
+                  "kind": "video",
+                  "url": "https://www.douyin.com/video/7705101697789860297",
+                  "publishedAt": "2026-11-07T09:49:00+00:00",
+                  "likes": 5008,
+                  "author": {
+                    "id": "1832234171763821",
+                    "name": "Jill姬儿",
+                    "url": "https://www.douyin.com/user/MS4wLjABAAAA11cTV7U_qQFTmav2ZuulmvBfcoU786AJHNcWV6gBc7bHWu11nikUvlWV5k0254RB"
+                  },
+                  "durationSeconds": null,
+                  "metrics": {
+                    "favorites": 1260,
+                    "comments": 321,
+                    "shares": 715,
+                    "views": null,
+                    "coins": null
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "unsupported",
+                    "coins": "unsupported"
+                  },
+                  "collectedAt": "2026-11-11T07:48:37.499814+00:00",
+                  "keyword": "视觉小说",
+                  "workId": "v26796",
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "Obey Me!"
+                  ]
+                }
+              ]
+            },
+            {
+              "workId": "v7771",
+              "maxLikes": 1695,
+              "count": 1,
+              "evidence": [
+                {
+                  "platform": "douyin",
+                  "id": "7705770300083834152",
+                  "title": "春希不语，只是一味的滑雪—白色相簿2CC共通线杂谈 #galgame#galgame推荐#二次元#游戏杂谈#白色相簿2",
+                  "description": "",
+                  "tags": [
+                    "galgame",
+                    "galgame推荐",
+                    "二次元",
+                    "游戏杂谈"
+                  ],
+                  "kind": "video",
+                  "url": "https://www.douyin.com/video/7705770300083834152",
+                  "publishedAt": "2026-11-08T12:04:27+00:00",
+                  "likes": 1695,
+                  "author": {
+                    "id": "7623326647144399921",
+                    "name": "nknkn",
+                    "url": "https://www.douyin.com/user/MS4wLjABAAAAMOhaWyiqCfTyKjnqiC_WaAtWFYHATggas_Ru099oTP4AT0buKZ-mmfk1k690gTHz"
+                  },
+                  "durationSeconds": null,
+                  "metrics": {
+                    "favorites": 231,
+                    "comments": 106,
+                    "shares": 291,
+                    "views": null,
+                    "coins": null
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "unsupported",
+                    "coins": "unsupported"
+                  },
+                  "collectedAt": "2026-11-11T07:47:47.542336+00:00",
+                  "keyword": "gal游戏",
+                  "workId": "v7771",
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "白色相簿2"
+                  ]
+                }
+              ]
+            },
+            {
+              "workId": "v4",
+              "maxLikes": 1274,
+              "count": 1,
+              "evidence": [
+                {
+                  "platform": "douyin",
+                  "id": "7705371390710922984",
+                  "title": "物是人非事事休，欲语泪先流。#galgame#galgame推荐#催泪#clannad",
+                  "description": "",
+                  "tags": [
+                    "galgame",
+                    "galgame推荐",
+                    "催泪",
+                    "clannad"
+                  ],
+                  "kind": "image",
+                  "url": "https://www.douyin.com/note/7705371390710922984",
+                  "publishedAt": "2026-11-07T10:16:21+00:00",
+                  "likes": 1274,
+                  "author": {
+                    "id": "3945502106991247",
+                    "name": "书生(世欠苍）",
+                    "url": "https://www.douyin.com/user/MS4wLjABAAAAC4ZZLKoVsiqw5LsRbX5WRGjvPcB4VxqgBGP_QkbzqpzTxjB5-AFuJc25LmadzZGd"
+                  },
+                  "durationSeconds": null,
+                  "metrics": {
+                    "favorites": 357,
+                    "comments": 102,
+                    "shares": 146,
+                    "views": null,
+                    "coins": null
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "unsupported",
+                    "coins": "unsupported"
+                  },
+                  "collectedAt": "2026-11-11T07:47:47.542367+00:00",
+                  "keyword": "gal游戏",
+                  "workId": "v4",
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "CLANNAD"
+                  ]
+                }
+              ]
+            },
+            {
+              "workId": "v19233",
+              "maxLikes": 796,
+              "count": 1,
+              "evidence": [
+                {
+                  "platform": "douyin",
+                  "id": "7706221661557325274",
+                  "title": "一觉醒来iOS成人上人了。#galgame #咔咔喵 #ios #死馆",
+                  "description": "",
+                  "tags": [
+                    "",
+                    "",
+                    "galgame",
+                    "咔咔喵",
+                    "ios",
+                    "死馆"
+                  ],
+                  "kind": "image",
+                  "url": "https://www.douyin.com/note/7706221661557325274",
+                  "publishedAt": "2026-11-09T17:15:50+00:00",
+                  "likes": 796,
+                  "author": {
+                    "id": "3951024646392144",
+                    "name": "绘绘理",
+                    "url": "https://www.douyin.com/user/MS4wLjABAAAANA63gfswvhz08-2ywsGVU-2G9BgvyiOvU9xuV3hfd9UwtwVppR6jk7VpVZbBAzzB"
+                  },
+                  "durationSeconds": null,
+                  "metrics": {
+                    "favorites": 90,
+                    "comments": 142,
+                    "shares": 136,
+                    "views": null,
+                    "coins": null
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "unsupported",
+                    "coins": "unsupported"
+                  },
+                  "collectedAt": "2026-11-11T07:47:47.542261+00:00",
+                  "keyword": "gal游戏",
+                  "workId": "v19233",
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "死馆"
+                  ]
+                }
+              ]
+            },
+            {
+              "workId": "v49859",
+              "maxLikes": 658,
+              "count": 1,
+              "evidence": [
+                {
+                  "platform": "douyin",
+                  "id": "7703934030957284642",
+                  "title": "电波实验性质的国产作品？#Galgame #不存在的你和我 #电波#国产Galgame",
+                  "description": "",
+                  "tags": [
+                    "Galgame",
+                    "不存在的你和我",
+                    "电波",
+                    "国产Galgame"
+                  ],
+                  "kind": "video",
+                  "url": "https://www.douyin.com/video/7703934030957284642",
+                  "publishedAt": "2026-11-06T09:00:00+00:00",
+                  "likes": 658,
+                  "author": {
+                    "id": "2367666037459844",
+                    "name": "罪恋Zolny",
+                    "url": "https://www.douyin.com/user/MS4wLjABAAAAd5I4EGpSlTZQE1wQGaiFbzOt0_D69md3-EVfvUybbmT8ILTkdKQv975gz7MHu4fS"
+                  },
+                  "durationSeconds": null,
+                  "metrics": {
+                    "favorites": 143,
+                    "comments": 25,
+                    "shares": 84,
+                    "views": null,
+                    "coins": null
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "unsupported",
+                    "coins": "unsupported"
+                  },
+                  "collectedAt": "2026-11-11T07:47:29.153682+00:00",
+                  "keyword": "galgame",
+                  "workId": "v49859",
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "不/存在的你，和我"
+                  ]
+                }
+              ]
+            },
+            {
+              "workId": "v49274",
+              "maxLikes": 625,
+              "count": 1,
+              "evidence": [
+                {
+                  "platform": "douyin",
+                  "id": "7704998278887011766",
+                  "title": "死馆2全cg.真是个大工程\n#全cg #galgame #死馆2",
+                  "description": "",
+                  "tags": [
+                    "",
+                    "",
+                    "全cg",
+                    "galgame",
+                    "死馆2"
+                  ],
+                  "kind": "image",
+                  "url": "https://www.douyin.com/note/7704998278887011766",
+                  "publishedAt": "2026-11-06T10:08:29+00:00",
+                  "likes": 625,
+                  "author": {
+                    "id": "3296791640938729",
+                    "name": "酒倾玄露醉瑶觞",
+                    "url": "https://www.douyin.com/user/MS4wLjABAAAA5Qo9YgstK21AmRf5EHku0tl-T3df0DrAIxTdc2pB3T2HVfE-GH3URNE3pkOFrDWx"
+                  },
+                  "durationSeconds": null,
+                  "metrics": {
+                    "favorites": 59,
+                    "comments": 103,
+                    "shares": 97,
+                    "views": null,
+                    "coins": null
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "unsupported",
+                    "coins": "unsupported"
+                  },
+                  "collectedAt": "2026-11-11T07:49:34.441002+00:00",
+                  "keyword": "galgame名场面",
+                  "workId": "v49274",
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "死馆2"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "bilibili": {
+          "status": "partial",
+          "periodId": "2026-11-11",
+          "start": "2026-11-05T16:00:00.000Z",
+          "end": "2026-11-10T16:00:00.000Z",
+          "minLikes": 350,
+          "collectedAt": "2026-11-11T08:15:14.262Z",
+          "lastSuccessAt": null,
+          "error": "B站有 1 条视频详情未通过核对。",
+          "coverage": {
+            "keywords": [
+              "galgame",
+              "gal游戏",
+              "美少女游戏",
+              "视觉小说",
+              "galgame CG",
+              "galgame名场面"
+            ],
+            "queries": 43,
+            "pages": 67,
+            "failedQueries": [
+              "galgame CG",
+              "galgame名场面",
+              "樱之诗",
+              "樱之刻",
+              "命运石之门",
+              "CLANNAD",
+              "夏日口袋",
+              "美好的每一天",
+              "近月少女的礼仪",
+              "苍之彼方的四重奏",
+              "缘之空",
+              "恋爱绮谭",
+              "恋爱借贷",
+              "恋爱我就借走了",
+              "恋爱喜剧突转",
+              "二人终末论",
+              "星空列车与白的旅行",
+              "星之终途",
+              "废村少女 ～魅惑迷离的笼之乡～",
+              "廃村少女 ～妖し惑ひの籠の郷～",
+              "CROSS†CHANNEL",
+              "壳之少女",
+              "殻ノ少女",
+              "恋爱，我就借走咯",
+              "恋愛、借りちゃいました",
+              "命运石之门",
+              "STEINS;GATE"
+            ],
+            "maxPagesPerQuery": 3,
+            "candidateCount": 770,
+            "qualifiedCount": 141
+          },
+          "ranking": [
+            {
+              "workId": "v2002",
+              "maxLikes": 53282,
+              "count": 1,
+              "evidence": [
+                {
+                  "platform": "bilibili",
+                  "id": "BV13oWJ6uE49",
+                  "title": "【失传媒体/已还原】全网首发！命运石之门经典梗图，完整出处考证",
+                  "description": "原本我还有找一些当年KFC论坛的活跃成员来多方验证真实性，但在考证过程中，了解到关于KFC所呈现的老一辈ACG爱好者跨越时间的故事，顿感验证该梗图的真实性貌似已经并不重要了\n至于有关现在的KIDFans Club，HIKARI-FIELD以及GloriaWorks之间曾经还有过什么故事，现在又是怎样的一种关系，我也无意多问多冒犯。对于我们来说是封神的梗图，是叹服的往事，而对于前辈们来说，只不过十多年前正年轻时每天所经历的日常",
+                  "tags": [
+                    "KIDFansClub",
+                    "梗图",
+                    "古早",
+                    "命运石之门",
+                    "ACG"
+                  ],
+                  "url": "https://www.bilibili.com/video/BV13oWJ6uE49",
+                  "publishedAt": "2026-11-08T09:31:13.000Z",
+                  "likes": 53282,
+                  "kind": "video",
+                  "durationSeconds": 231,
+                  "author": {
+                    "id": "479398638",
+                    "name": "我的悲伤是洛水做的",
+                    "url": "https://space.bilibili.com/479398638"
+                  },
+                  "metrics": {
+                    "favorites": 18834,
+                    "comments": 1634,
+                    "shares": 2790,
+                    "views": 855549,
+                    "coins": 3511
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "available",
+                    "coins": "available"
+                  },
+                  "collectedAt": "2026-11-11T08:04:16.926Z",
+                  "keyword": "命运石之门",
+                  "workId": "v2002",
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "命运石之门"
+                  ]
+                }
+              ]
+            },
+            {
+              "workId": "v66",
+              "maxLikes": 678,
+              "count": 1,
+              "evidence": [
+                {
+                  "platform": "bilibili",
+                  "id": "BV1Lj4J67Ew3",
+                  "title": "超值二次元游戏包！统统7元！不仅有被奈须蘑菇奉为“不可逾越之壁”的《CROSS†CHANNEL》，更有其《四海兄弟：故乡》首次进包均价12元！",
+                  "description": "HB十一月游戏包自取（四海兄弟：故乡等8款大作）：\nhttps://humblebundleinc.sjv.io/HBChoice9\nHB超值科幻射击游戏包自取：\nhttps://humblebundleinc.sjv.io/X4Aej5\nHB二次元Galgame游戏包自取：\nhttps://humblebundleinc.sjv.io/Jk6P1N",
+                  "tags": [
+                    "独立游戏",
+                    "单机游戏",
+                    "STEAM",
+                    "小游戏",
+                    "四海兄弟故乡",
+                    "推荐宝藏游戏",
+                    "交错频道",
+                    "Galgame",
+                    "二次元游戏",
+                    "游戏推荐"
+                  ],
+                  "url": "https://www.bilibili.com/video/BV1Lj4J67Ew3",
+                  "publishedAt": "2026-11-07T10:30:00.000Z",
+                  "likes": 678,
+                  "kind": "video",
+                  "durationSeconds": 101,
+                  "author": {
+                    "id": "15782465",
+                    "name": "steam游戏资讯",
+                    "url": "https://space.bilibili.com/15782465"
+                  },
+                  "metrics": {
+                    "favorites": 88,
+                    "comments": 23,
+                    "shares": 83,
+                    "views": 9274,
+                    "coins": 0
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "available",
+                    "coins": "available"
+                  },
+                  "collectedAt": "2026-11-11T07:55:14.421Z",
+                  "keyword": "CROSS†CHANNEL",
+                  "workId": "v66",
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "CROSS†CHANNEL",
+                    "交错†频道"
+                  ]
+                }
+              ]
+            },
+            {
+              "workId": "v92",
+              "maxLikes": 656,
+              "count": 1,
+              "evidence": [
+                {
+                  "platform": "bilibili",
+                  "id": "BV1qr4s6vECT",
+                  "title": "神作！《Muv-Luv Alternative》主题曲OP「未来への咆哮」【Hi-Res】",
+                  "description": "还原音乐最初的感动，体验身临其境的音质，神作！《Muv-Luv Alternative》主题曲OP「未来への咆哮」。欢迎一键三连加关注，欢迎点歌，仅限试听之用，侵删",
+                  "tags": [
+                    "电台新星征集令",
+                    "galgame",
+                    "试听",
+                    "动漫音乐",
+                    "ACG音乐",
+                    "音乐综合",
+                    "Muv-Luv",
+                    "高音质",
+                    "主题曲",
+                    "音乐"
+                  ],
+                  "url": "https://www.bilibili.com/video/BV1qr4s6vECT",
+                  "publishedAt": "2026-11-08T08:35:00.000Z",
+                  "likes": 656,
+                  "kind": "video",
+                  "durationSeconds": 285,
+                  "author": {
+                    "id": "327901592",
+                    "name": "seb塞巴",
+                    "url": "https://space.bilibili.com/327901592"
+                  },
+                  "metrics": {
+                    "favorites": 351,
+                    "comments": 69,
+                    "shares": 24,
+                    "views": 7370,
+                    "coins": 157
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "available",
+                    "coins": "available"
+                  },
+                  "collectedAt": "2026-11-11T07:55:28.990Z",
+                  "keyword": "galgame",
+                  "workId": "v92",
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "Muv-Luv Alternative"
+                  ]
+                }
+              ]
+            },
+            {
+              "workId": "v810",
+              "maxLikes": 604,
+              "count": 1,
+              "evidence": [
+                {
+                  "platform": "bilibili",
+                  "id": "BV1Sk4z6cEcZ",
+                  "title": "gal玩家刻进DNA里的一句话:时坂先生 你找到真正的我了吗？",
+                  "description": "冬子缀子没有惹任何人",
+                  "tags": [
+                    "galgame",
+                    "游戏杂谈",
+                    "哔哩专属夜电台",
+                    "IG社",
+                    "记录",
+                    "悬疑",
+                    "剧情",
+                    "GAL",
+                    "壳之少女"
+                  ],
+                  "url": "https://www.bilibili.com/video/BV1Sk4z6cEcZ",
+                  "publishedAt": "2026-11-06T13:56:25.000Z",
+                  "likes": 604,
+                  "kind": "video",
+                  "durationSeconds": 650,
+                  "author": {
+                    "id": "3493115824442104",
+                    "name": "瑶瑶永远喜欢gal",
+                    "url": "https://space.bilibili.com/3493115824442104"
+                  },
+                  "metrics": {
+                    "favorites": 245,
+                    "comments": 95,
+                    "shares": 27,
+                    "views": 6043,
+                    "coins": 310
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "available",
+                    "coins": "available"
+                  },
+                  "collectedAt": "2026-11-11T07:55:40.426Z",
+                  "keyword": "壳之少女",
+                  "workId": "v810",
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "壳之少女"
+                  ]
+                }
+              ]
+            },
+            {
+              "workId": "v25366",
+              "maxLikes": 494,
+              "count": 1,
+              "evidence": [
+                {
+                  "platform": "bilibili",
+                  "id": "BV1dCW46cEnG",
+                  "title": "【官方中文】『恋爱，我就借走咯』国际中文版PV宣传片（2K超高清重置版11月11日发售）",
+                  "description": "🎮Steam商店页面：https://store.steampowered.com/app/4845020/\n🏡小黑盒售卖全球CDKey：https://www.xiaoheihe.cn/app/topic/game/pc/4845020/\n🎉ASa Project（颜艺社）名作《恋爱，我就借走咯》官方中文版将于11月11日正式发售",
+                  "tags": [
+                    "官方",
+                    "二次元",
+                    "PV",
+                    "ASa Project",
+                    "颜艺社",
+                    "Steam",
+                    "官方中文",
+                    "视觉小说",
+                    "美少女游戏",
+                    "宣传片"
+                  ],
+                  "url": "https://www.bilibili.com/video/BV1dCW46cEnG",
+                  "publishedAt": "2026-11-09T04:21:37.000Z",
+                  "likes": 494,
+                  "kind": "video",
+                  "durationSeconds": 234,
+                  "author": {
+                    "id": "3632310624717268",
+                    "name": "HOOKSOFT公式",
+                    "url": "https://space.bilibili.com/3632310624717268"
+                  },
+                  "metrics": {
+                    "favorites": 111,
+                    "comments": 86,
+                    "shares": 123,
+                    "views": 4058,
+                    "coins": 96
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "available",
+                    "coins": "available"
+                  },
+                  "collectedAt": "2026-11-11T07:56:47.421Z",
+                  "keyword": "恋愛、借りちゃいました",
+                  "workId": "v25366",
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "恋爱，我就借走咯"
+                  ]
+                }
+              ]
+            },
+            {
+              "workId": "v19073",
+              "maxLikes": 369,
+              "count": 1,
+              "evidence": [
+                {
+                  "platform": "bilibili",
+                  "id": "BV1dgWg6UEfE",
+                  "title": "f1出旮旯给木了？",
+                  "description": "-",
+                  "tags": [
+                    "旮旯给木",
+                    "galgame",
+                    "诺里斯",
+                    "f1",
+                    "维斯塔潘",
+                    "千恋万花",
+                    "拉塞尔",
+                    "汉密尔顿",
+                    "阿隆索",
+                    "勒克莱尔"
+                  ],
+                  "url": "https://www.bilibili.com/video/BV1dgWg6UEfE",
+                  "publishedAt": "2026-11-10T07:12:46.000Z",
+                  "likes": 369,
+                  "kind": "video",
+                  "durationSeconds": 16,
+                  "author": {
+                    "id": "3546554472335864",
+                    "name": "夏勒克",
+                    "url": "https://space.bilibili.com/3546554472335864"
+                  },
+                  "metrics": {
+                    "favorites": 104,
+                    "comments": 38,
+                    "shares": 267,
+                    "views": 2979,
+                    "coins": 10
+                  },
+                  "metricAvailability": {
+                    "favorites": "available",
+                    "comments": "available",
+                    "shares": "available",
+                    "views": "available",
+                    "coins": "available"
+                  },
+                  "collectedAt": "2026-11-11T08:07:35.993Z",
+                  "keyword": "千恋＊万花",
+                  "workId": "v19073",
+                  "matchMethod": "explicit-title",
+                  "matchedNames": [
+                    "千恋＊万花",
+                    "千恋万花"
+                  ]
+                }
+              ]
+            }
+          ],
+          "identityReviewedAt": "2026-11-11T08:15:14.981Z"
+        }
+      }
+    },
+    {
       "id": "2026-11-06",
       "start": "2026-10-31T16:00:00.000Z",
       "end": "2026-11-05T16:00:00.000Z",
@@ -2104,177 +3079,44 @@
     }
   ],
   "lastAttempt": {
-    "at": "2026-11-10T08:42:51.511Z",
-    "periodId": "2026-11-06",
+    "at": "2026-11-11T08:15:14.275Z",
+    "periodId": "2026-11-11",
     "platforms": {
       "douyin": {
         "status": "partial",
         "error": "抖音采集失败，可能需要有效 Cookie；请检查固定版本依赖与登录状态。",
-        "collectedAt": "2026-11-10T08:34:21.249Z",
-        "fetched": 111,
-        "qualified": 38,
-        "matched": 13,
+        "collectedAt": "2026-11-11T07:54:19.557Z",
+        "fetched": 86,
+        "qualified": 25,
+        "matched": 11,
         "sample": [
           {
             "platform": "douyin",
-            "id": "7704696011432361600",
-            "title": "gal推荐《生命的备件》 #galgame #galgame推荐 #游戏推荐 #生命的备件 #催泪",
-            "description": "",
-            "tags": [
-              "galgame",
-              "galgame推荐",
-              "游戏推荐",
-              "生命的备件",
-              "催泪"
-            ],
-            "kind": "video",
-            "url": "https://www.douyin.com/video/7704696011432361600",
-            "publishedAt": "2026-11-05T14:35:32+00:00",
-            "likes": 13325,
-            "author": {
-              "id": "7665231454536582201",
-              "name": "推晃悠的心事",
-              "url": "https://www.douyin.com/user/MS4wLjABAAAAMG6P36tEXCKn-Fkq4buEseWC9lnubkR9AoudrkwgKuUem8i0HjNQo2IXkVEuqZny"
-            },
-            "durationSeconds": null,
-            "metrics": {
-              "favorites": 3184,
-              "comments": 150,
-              "shares": 1970,
-              "views": null,
-              "coins": null
-            },
-            "metricAvailability": {
-              "favorites": "available",
-              "comments": "available",
-              "shares": "available",
-              "views": "unsupported",
-              "coins": "unsupported"
-            },
-            "collectedAt": "2026-11-10T08:29:58.809451+00:00",
-            "keyword": "galgame名场面",
-            "workId": "v19513",
-            "matchMethod": "explicit-title",
-            "matchedNames": [
-              "生命的备件"
-            ]
-          },
-          {
-            "platform": "douyin",
-            "id": "7704339271122017961",
-            "title": "二十五年岁月流转，同一轮仓木山的明月，两种截然不同的美学表达\n#galgame #无颜之月 #仓木铃菜 #仓木水菜 #无颜之月重制版",
-            "description": "",
-            "tags": [
-              "galgame",
-              "无颜之月",
-              "仓木铃菜",
-              "仓木水菜",
-              "无颜之月重制版"
-            ],
-            "kind": "image",
-            "url": "https://www.douyin.com/note/7704339271122017961",
-            "publishedAt": "2026-11-04T15:31:13+00:00",
-            "likes": 1107,
-            "author": {
-              "id": "60484145395",
-              "name": "自私自利自我",
-              "url": "https://www.douyin.com/user/MS4wLjABAAAAa6RN5iFaLVAbf_ABZv1c80ROYoe2-olZEz5h8eeK4I0"
-            },
-            "durationSeconds": null,
-            "metrics": {
-              "favorites": 258,
-              "comments": 32,
-              "shares": 322,
-              "views": null,
-              "coins": null
-            },
-            "metricAvailability": {
-              "favorites": "available",
-              "comments": "available",
-              "shares": "available",
-              "views": "unsupported",
-              "coins": "unsupported"
-            },
-            "collectedAt": "2026-11-06T07:58:36.834855+00:00",
-            "keyword": "galgame",
-            "workId": "v240",
-            "matchMethod": "explicit-title",
-            "matchedNames": [
-              "无颜之月"
-            ]
-          },
-          {
-            "platform": "douyin",
-            "id": "7704157368889138021",
-            "title": "就算只是一夜的风花雪月……#恋狱月狂病 #ig社 #innocentgrey #雨宫初音 #galgame",
-            "description": "",
-            "tags": [
-              "",
-              "ig社",
-              "innocentgrey",
-              "雨宫初音",
-              "galgame"
-            ],
-            "kind": "image",
-            "url": "https://www.douyin.com/note/7704157368889138021",
-            "publishedAt": "2026-11-04T03:45:19+00:00",
-            "likes": 1908,
-            "author": {
-              "id": "2701912841398027",
-              "name": "心像",
-              "url": "https://www.douyin.com/user/MS4wLjABAAAAJ-TQw4Id4daxIKBDoVt20X4IgU1RyELG9tafNEklU-AGs5vN0xfb3MB5T3zIv2tF"
-            },
-            "durationSeconds": null,
-            "metrics": {
-              "favorites": 224,
-              "comments": 56,
-              "shares": 175,
-              "views": null,
-              "coins": null
-            },
-            "metricAvailability": {
-              "favorites": "available",
-              "comments": "available",
-              "shares": "available",
-              "views": "unsupported",
-              "coins": "unsupported"
-            },
-            "collectedAt": "2026-11-07T07:16:42.656489+00:00",
-            "keyword": "美少女游戏",
-            "workId": "v515",
-            "matchMethod": "explicit-title",
-            "matchedNames": [
-              "恋狱～月狂病～"
-            ]
-          },
-          {
-            "platform": "douyin",
-            "id": "7703269776990201295",
-            "title": "Galgame推荐。哪些是你认为此生必玩的作品？\n#游戏时长统计 #命运石之门 #Galgame #单机游戏 #steam游戏",
+            "id": "7706221661557325274",
+            "title": "一觉醒来iOS成人上人了。#galgame #咔咔喵 #ios #死馆",
             "description": "",
             "tags": [
               "",
               "",
-              "游戏时长统计",
-              "命运石之门",
               "galgame",
-              "单机游戏",
-              "steam游戏"
+              "咔咔喵",
+              "ios",
+              "死馆"
             ],
             "kind": "image",
-            "url": "https://www.douyin.com/note/7703269776990201295",
-            "publishedAt": "2026-11-01T18:21:03+00:00",
-            "likes": 3650,
+            "url": "https://www.douyin.com/note/7706221661557325274",
+            "publishedAt": "2026-11-09T17:15:50+00:00",
+            "likes": 796,
             "author": {
-              "id": "2381986229922928",
-              "name": "鬼神",
-              "url": "https://www.douyin.com/user/MS4wLjABAAAA0uQKYmFsHF9CeKb3RovjdwC2Qk1z4gtJa7VCQw3ihdbNd-pWwaeGQ6X5j294mk3i"
+              "id": "3951024646392144",
+              "name": "绘绘理",
+              "url": "https://www.douyin.com/user/MS4wLjABAAAANA63gfswvhz08-2ywsGVU-2G9BgvyiOvU9xuV3hfd9UwtwVppR6jk7VpVZbBAzzB"
             },
             "durationSeconds": null,
             "metrics": {
-              "favorites": 1665,
-              "comments": 201,
-              "shares": 662,
+              "favorites": 90,
+              "comments": 142,
+              "shares": 136,
               "views": null,
               "coins": null
             },
@@ -2285,40 +3127,40 @@
               "views": "unsupported",
               "coins": "unsupported"
             },
-            "collectedAt": "2026-11-08T07:27:31.918642+00:00",
+            "collectedAt": "2026-11-11T07:47:47.542261+00:00",
             "keyword": "gal游戏",
-            "workId": "v2002",
+            "workId": "v19233",
             "matchMethod": "explicit-title",
             "matchedNames": [
-              "命运石之门"
+              "死馆"
             ]
           },
           {
             "platform": "douyin",
-            "id": "7703104071817257595",
-            "title": "我不愿再失去任何东西了…#galgame推荐 #中二社 #eden #游戏推荐 #galgame",
+            "id": "7705691447437069603",
+            "title": "乌有乡大意食精粥—癫版桃花源 #乌有乡 #galgame推荐 #galgame #galgame游戏 #大意失荆州",
             "description": "",
             "tags": [
+              "乌有乡",
               "galgame推荐",
-              "中二社",
-              "eden",
-              "游戏推荐",
-              "galgame"
+              "galgame",
+              "galgame游戏",
+              "大意失荆州"
             ],
             "kind": "video",
-            "url": "https://www.douyin.com/video/7703104071817257595",
-            "publishedAt": "2026-11-01T07:37:59+00:00",
-            "likes": 6204,
+            "url": "https://www.douyin.com/video/7705691447437069603",
+            "publishedAt": "2026-11-08T06:58:27+00:00",
+            "likes": 100868,
             "author": {
-              "id": "4037050852718766",
-              "name": "真昼天下第一",
-              "url": "https://www.douyin.com/user/MS4wLjABAAAAYYMIAz-Jc3KYSk0_FhV0yJyJnR4-Ewb-XENlXmObHQePN82-EyF7NTgh9tDHeMLG"
+              "id": "97485774948",
+              "name": "小宅GAME",
+              "url": "https://www.douyin.com/user/MS4wLjABAAAA1ZGDGudODDICjcIyqpCST7mzY-fgJhhceucobUSaYrA"
             },
             "durationSeconds": null,
             "metrics": {
-              "favorites": 1310,
-              "comments": 153,
-              "shares": 523,
+              "favorites": 23253,
+              "comments": 584,
+              "shares": 30244,
               "views": null,
               "coins": null
             },
@@ -2329,12 +3171,139 @@
               "views": "unsupported",
               "coins": "unsupported"
             },
-            "collectedAt": "2026-11-10T08:28:55.246673+00:00",
-            "keyword": "美少女游戏",
-            "workId": "v2285",
+            "collectedAt": "2026-11-11T07:47:29.153597+00:00",
+            "keyword": "galgame",
+            "workId": "v22636",
             "matchMethod": "explicit-title",
             "matchedNames": [
-              "Eden"
+              "乌有乡"
+            ]
+          },
+          {
+            "platform": "douyin",
+            "id": "7705371390710922984",
+            "title": "物是人非事事休，欲语泪先流。#galgame#galgame推荐#催泪#clannad",
+            "description": "",
+            "tags": [
+              "galgame",
+              "galgame推荐",
+              "催泪",
+              "clannad"
+            ],
+            "kind": "image",
+            "url": "https://www.douyin.com/note/7705371390710922984",
+            "publishedAt": "2026-11-07T10:16:21+00:00",
+            "likes": 1274,
+            "author": {
+              "id": "3945502106991247",
+              "name": "书生(世欠苍）",
+              "url": "https://www.douyin.com/user/MS4wLjABAAAAC4ZZLKoVsiqw5LsRbX5WRGjvPcB4VxqgBGP_QkbzqpzTxjB5-AFuJc25LmadzZGd"
+            },
+            "durationSeconds": null,
+            "metrics": {
+              "favorites": 357,
+              "comments": 102,
+              "shares": 146,
+              "views": null,
+              "coins": null
+            },
+            "metricAvailability": {
+              "favorites": "available",
+              "comments": "available",
+              "shares": "available",
+              "views": "unsupported",
+              "coins": "unsupported"
+            },
+            "collectedAt": "2026-11-11T07:47:47.542367+00:00",
+            "keyword": "gal游戏",
+            "workId": "v4",
+            "matchMethod": "explicit-title",
+            "matchedNames": [
+              "CLANNAD"
+            ]
+          },
+          {
+            "platform": "douyin",
+            "id": "7705328372113160010",
+            "title": "这里似乎发生过什么 #君与彼女与彼女之恋  #君彼女 #galgame",
+            "description": "",
+            "tags": [
+              "君彼女",
+              "galgame"
+            ],
+            "kind": "video",
+            "url": "https://www.douyin.com/video/7705328372113160010",
+            "publishedAt": "2026-11-07T07:29:25+00:00",
+            "likes": 7690,
+            "author": {
+              "id": "96571226129",
+              "name": "有点非",
+              "url": "https://www.douyin.com/user/MS4wLjABAAAAIDwodMY3ESa0vpzDmcp35Rspwnea2VPuN_8nbsu81IY"
+            },
+            "durationSeconds": null,
+            "metrics": {
+              "favorites": 647,
+              "comments": 52,
+              "shares": 630,
+              "views": null,
+              "coins": null
+            },
+            "metricAvailability": {
+              "favorites": "available",
+              "comments": "available",
+              "shares": "available",
+              "views": "unsupported",
+              "coins": "unsupported"
+            },
+            "collectedAt": "2026-11-11T07:47:47.542378+00:00",
+            "keyword": "gal游戏",
+            "workId": "v7738",
+            "matchMethod": "explicit-title",
+            "matchedNames": [
+              "君与彼女与彼女之恋"
+            ]
+          },
+          {
+            "platform": "douyin",
+            "id": "7703934030957284642",
+            "title": "电波实验性质的国产作品？#Galgame #不存在的你和我 #电波#国产Galgame",
+            "description": "",
+            "tags": [
+              "Galgame",
+              "不存在的你和我",
+              "电波",
+              "国产Galgame"
+            ],
+            "kind": "video",
+            "url": "https://www.douyin.com/video/7703934030957284642",
+            "publishedAt": "2026-11-06T09:00:00+00:00",
+            "likes": 658,
+            "author": {
+              "id": "2367666037459844",
+              "name": "罪恋Zolny",
+              "url": "https://www.douyin.com/user/MS4wLjABAAAAd5I4EGpSlTZQE1wQGaiFbzOt0_D69md3-EVfvUybbmT8ILTkdKQv975gz7MHu4fS"
+            },
+            "durationSeconds": null,
+            "metrics": {
+              "favorites": 143,
+              "comments": 25,
+              "shares": 84,
+              "views": null,
+              "coins": null
+            },
+            "metricAvailability": {
+              "favorites": "available",
+              "comments": "available",
+              "shares": "available",
+              "views": "unsupported",
+              "coins": "unsupported"
+            },
+            "collectedAt": "2026-11-11T07:47:29.153682+00:00",
+            "keyword": "galgame",
+            "workId": "v49859",
+            "matchMethod": "explicit-title",
+            "matchedNames": [
+              "不/存在的你，和我"
             ]
           }
         ],
@@ -2350,51 +3319,52 @@
           "queries": 4,
           "pages": 12,
           "failedQueries": [
-            "视觉小说",
+            "美少女游戏",
             "galgame CG"
           ],
           "maxPagesPerQuery": 3,
-          "candidateCount": 111,
-          "qualifiedCount": 38
+          "candidateCount": 86,
+          "qualifiedCount": 25
         }
       },
       "bilibili": {
         "status": "partial",
-        "error": null,
-        "collectedAt": "2026-11-10T08:42:51.507Z",
-        "fetched": 304,
-        "qualified": 127,
-        "matched": 10,
+        "error": "B站有 1 条视频详情未通过核对。",
+        "collectedAt": "2026-11-11T08:15:14.262Z",
+        "fetched": 770,
+        "qualified": 141,
+        "matched": 7,
         "sample": [
           {
             "platform": "bilibili",
-            "id": "BV1FfxH6YEDm",
-            "title": "“如果您不是萝莉控，那肯定是位艺术家。”【Galgame《花鸟水月》试玩】",
-            "description": "出处：Steam游戏《花鸟水月》\n已在Steam发布试玩demo，欢迎大家来玩！\nhttps://store.steampowered.com/app/4660800/_/\n※配音\n芙洛（金发少女）：@忆辰Rebacca  \n感谢老师的配音~",
+            "id": "BV19h4z6BEvP",
+            "title": "废村少女🏃……还会再见面吗🧎没有你😥我怎么活啊😭【GalGame杂谈/廃村少女［弐］ 外伝 ～千艶万匣～】",
+            "description": "",
             "tags": [
-              "Steam",
-              "游戏试玩",
-              "GAL",
-              "可爱",
-              "大小姐",
-              "萝莉"
+              "廃村少女［弐］ 外伝 ～千艶万匣～",
+              "废村少女",
+              "笼女",
+              "GalGame",
+              "白毛",
+              "纯爱",
+              "后宫"
             ],
-            "url": "https://www.bilibili.com/video/BV1FfxH6YEDm",
-            "publishedAt": "2026-11-01T02:00:00.000Z",
-            "likes": 1803,
+            "url": "https://www.bilibili.com/video/BV19h4z6BEvP",
+            "publishedAt": "2026-11-07T12:15:00.000Z",
+            "likes": 930,
             "kind": "video",
-            "durationSeconds": 129,
+            "durationSeconds": 217,
             "author": {
-              "id": "3690990835599915",
-              "name": "Pygma山鬼工坊",
-              "url": "https://space.bilibili.com/3690990835599915"
+              "id": "15883143",
+              "name": "爱摸鱼的人潮",
+              "url": "https://space.bilibili.com/15883143"
             },
             "metrics": {
-              "favorites": 1986,
-              "comments": 125,
-              "shares": 274,
-              "views": 30990,
-              "coins": 130
+              "favorites": 278,
+              "comments": 114,
+              "shares": 42,
+              "views": 10232,
+              "coins": 197
             },
             "metricAvailability": {
               "favorites": "available",
@@ -2403,141 +3373,145 @@
               "views": "available",
               "coins": "available"
             },
-            "collectedAt": "2026-11-10T08:34:35.447Z",
-            "keyword": "gal游戏",
-            "workId": "v62906",
+            "collectedAt": "2026-11-11T07:55:07.318Z",
+            "keyword": "galgame",
+            "workId": "v38037",
             "matchMethod": "explicit-title",
             "matchedNames": [
-              "花鸟水月"
+              "废村少女"
             ]
           },
           {
             "platform": "bilibili",
-            "id": "BV11g486wEeQ",
-            "title": "国GAL新作《对我而言》pv公布",
-            "description": "“对我而言，哥哥就是我最爱的哥哥”\n《对我而言》PV公开\n\n新团队好活游戏制作，村里的第一个中专辍学生来了。\n欢迎支持摩点众筹： https://zhongchou.modian.com/item/160607.html\nsteam试玩demo已经上线： https://store.steampowered.com/app/4524870\n\n游戏将于2027年大年三十推出",
+            "id": "BV1Lj4J67Ew3",
+            "title": "超值二次元游戏包！统统7元！不仅有被奈须蘑菇奉为“不可逾越之壁”的《CROSS†CHANNEL》，更有其《四海兄弟：故乡》首次进包均价12元！",
+            "description": "HB十一月游戏包自取（四海兄弟：故乡等8款大作）：\nhttps://humblebundleinc.sjv.io/HBChoice9\nHB超值科幻射击游戏包自取：\nhttps://humblebundleinc.sjv.io/X4Aej5\nHB二次元Galgame游戏包自取：\nhttps://humblebundleinc.sjv.io/Jk6P1N",
             "tags": [
-              "好活游戏",
-              "galgame",
-              "对我而言",
-              "视觉小说",
-              "AVG",
-              "国产游戏",
-              "独立游戏"
-            ],
-            "url": "https://www.bilibili.com/video/BV11g486wEeQ",
-            "publishedAt": "2026-11-05T08:41:42.000Z",
-            "likes": 882,
-            "kind": "video",
-            "durationSeconds": 64,
-            "author": {
-              "id": "3747574286649626",
-              "name": "好活游戏",
-              "url": "https://space.bilibili.com/3747574286649626"
-            },
-            "metrics": {
-              "favorites": 1228,
-              "comments": 55,
-              "shares": 47,
-              "views": 14343,
-              "coins": 22
-            },
-            "metricAvailability": {
-              "favorites": "available",
-              "comments": "available",
-              "shares": "available",
-              "views": "available",
-              "coins": "available"
-            },
-            "collectedAt": "2026-11-10T08:34:44.335Z",
-            "keyword": "视觉小说",
-            "workId": "v69936",
-            "matchMethod": "explicit-title",
-            "matchedNames": [
-              "对我而言"
-            ]
-          },
-          {
-            "platform": "bilibili",
-            "id": "BV1vP4V6wEX7",
-            "title": "寄宿在美少女家，与她同居世界将迎来毁灭，你会如何抉择？",
-            "description": "果然日系的阴湿感还是更有那味",
-            "tags": [
-              "游戏杂谈",
-              "美少女",
-              "世界",
-              "搞笑",
-              "少女",
-              "#雨原玲奈",
-              "#rain98",
-              "#Lo-fi",
-              "隐紫",
-              "#steam"
-            ],
-            "url": "https://www.bilibili.com/video/BV1vP4V6wEX7",
-            "publishedAt": "2026-11-03T11:57:45.000Z",
-            "likes": 3467,
-            "kind": "video",
-            "durationSeconds": 310,
-            "author": {
-              "id": "3151252",
-              "name": "隐紫大人不会吐槽",
-              "url": "https://space.bilibili.com/3151252"
-            },
-            "metrics": {
-              "favorites": 3183,
-              "comments": 41,
-              "shares": 7,
-              "views": 128921,
-              "coins": 1947
-            },
-            "metricAvailability": {
-              "favorites": "available",
-              "comments": "available",
-              "shares": "available",
-              "views": "available",
-              "coins": "available"
-            },
-            "collectedAt": "2026-11-10T08:36:32.160Z",
-            "keyword": "美少女游戏",
-            "workId": "v69315",
-            "matchMethod": "explicit-title",
-            "matchedNames": [
-              "Rain98"
-            ]
-          },
-          {
-            "platform": "bilibili",
-            "id": "BV1jJxQ6rESz",
-            "title": "网恋奔现第一天，就被对象吃掉，是种什么体验？视觉小说 I Can Smell You From Here",
-            "description": "喜欢记得关注三连~谢谢支持！",
-            "tags": [
-              "整点电子榨菜",
-              "模拟恐怖",
-              "Steam",
               "独立游戏",
-              "游戏解说",
-              "恐怖游戏",
+              "单机游戏",
+              "STEAM",
+              "小游戏",
+              "四海兄弟故乡",
+              "推荐宝藏游戏",
+              "交错频道",
+              "Galgame",
+              "二次元游戏",
+              "游戏推荐"
+            ],
+            "url": "https://www.bilibili.com/video/BV1Lj4J67Ew3",
+            "publishedAt": "2026-11-07T10:30:00.000Z",
+            "likes": 678,
+            "kind": "video",
+            "durationSeconds": 101,
+            "author": {
+              "id": "15782465",
+              "name": "steam游戏资讯",
+              "url": "https://space.bilibili.com/15782465"
+            },
+            "metrics": {
+              "favorites": 88,
+              "comments": 23,
+              "shares": 83,
+              "views": 9274,
+              "coins": 0
+            },
+            "metricAvailability": {
+              "favorites": "available",
+              "comments": "available",
+              "shares": "available",
+              "views": "available",
+              "coins": "available"
+            },
+            "collectedAt": "2026-11-11T07:55:14.421Z",
+            "keyword": "CROSS†CHANNEL",
+            "workId": "v66",
+            "matchMethod": "explicit-title",
+            "matchedNames": [
+              "CROSS†CHANNEL",
+              "交错†频道"
+            ]
+          },
+          {
+            "platform": "bilibili",
+            "id": "BV1qr4s6vECT",
+            "title": "神作！《Muv-Luv Alternative》主题曲OP「未来への咆哮」【Hi-Res】",
+            "description": "还原音乐最初的感动，体验身临其境的音质，神作！《Muv-Luv Alternative》主题曲OP「未来への咆哮」。欢迎一键三连加关注，欢迎点歌，仅限试听之用，侵删",
+            "tags": [
+              "电台新星征集令",
+              "galgame",
+              "试听",
+              "动漫音乐",
+              "ACG音乐",
+              "音乐综合",
+              "Muv-Luv",
+              "高音质",
+              "主题曲",
+              "音乐"
+            ],
+            "url": "https://www.bilibili.com/video/BV1qr4s6vECT",
+            "publishedAt": "2026-11-08T08:35:00.000Z",
+            "likes": 656,
+            "kind": "video",
+            "durationSeconds": 285,
+            "author": {
+              "id": "327901592",
+              "name": "seb塞巴",
+              "url": "https://space.bilibili.com/327901592"
+            },
+            "metrics": {
+              "favorites": 351,
+              "comments": 69,
+              "shares": 24,
+              "views": 7370,
+              "coins": 157
+            },
+            "metricAvailability": {
+              "favorites": "available",
+              "comments": "available",
+              "shares": "available",
+              "views": "available",
+              "coins": "available"
+            },
+            "collectedAt": "2026-11-11T07:55:28.990Z",
+            "keyword": "galgame",
+            "workId": "v92",
+            "matchMethod": "explicit-title",
+            "matchedNames": [
+              "Muv-Luv Alternative"
+            ]
+          },
+          {
+            "platform": "bilibili",
+            "id": "BV1Sk4z6cEcZ",
+            "title": "gal玩家刻进DNA里的一句话:时坂先生 你找到真正的我了吗？",
+            "description": "冬子缀子没有惹任何人",
+            "tags": [
+              "galgame",
+              "游戏杂谈",
+              "哔哩专属夜电台",
+              "IG社",
+              "记录",
               "悬疑",
               "剧情",
-              "游戏"
+              "GAL",
+              "壳之少女"
             ],
-            "url": "https://www.bilibili.com/video/BV1jJxQ6rESz",
-            "publishedAt": "2026-11-04T10:15:00.000Z",
-            "likes": 2506,
+            "url": "https://www.bilibili.com/video/BV1Sk4z6cEcZ",
+            "publishedAt": "2026-11-06T13:56:25.000Z",
+            "likes": 604,
             "kind": "video",
-            "durationSeconds": 603,
+            "durationSeconds": 650,
             "author": {
-              "id": "785025",
-              "name": "阿力阿力栗",
-              "url": "https://space.bilibili.com/785025"
+              "id": "3493115824442104",
+              "name": "瑶瑶永远喜欢gal",
+              "url": "https://space.bilibili.com/3493115824442104"
             },
             "metrics": {
-              "favorites": 1058,
-              "comments": 63,
-              "shares": 18,
-              "views": 33396,
-              "coins": 226
+              "favorites": 245,
+              "comments": 95,
+              "shares": 27,
+              "views": 6043,
+              "coins": 310
             },
             "metricAvailability": {
               "favorites": "available",
@@ -2546,46 +3520,47 @@
               "views": "available",
               "coins": "available"
             },
-            "collectedAt": "2026-11-10T08:37:39.224Z",
-            "keyword": "视觉小说",
-            "workId": "v69304",
+            "collectedAt": "2026-11-11T07:55:40.426Z",
+            "keyword": "壳之少女",
+            "workId": "v810",
             "matchMethod": "explicit-title",
             "matchedNames": [
-              "I Can Smell You from Here"
+              "壳之少女"
             ]
           },
           {
             "platform": "bilibili",
-            "id": "BV1BZ4A65ETM",
-            "title": "搬进新公寓，迎接我的是粘人开朗的红毛幽灵少年《我回来了404号室》",
-            "description": "其实是红毛少年，不过作者画成正太了（\n游戏地址：https://novelgame.jp/games/show/15006",
+            "id": "BV1dCW46cEnG",
+            "title": "【官方中文】『恋爱，我就借走咯』国际中文版PV宣传片（2K超高清重置版11月11日发售）",
+            "description": "🎮Steam商店页面：https://store.steampowered.com/app/4845020/\n🏡小黑盒售卖全球CDKey：https://www.xiaoheihe.cn/app/topic/game/pc/4845020/\n🎉ASa Project（颜艺社）名作《恋爱，我就借走咯》官方中文版将于11月11日正式发售",
             "tags": [
-              "整点电子榨菜",
-              "电子榨菜",
+              "官方",
+              "二次元",
+              "PV",
+              "ASa Project",
+              "颜艺社",
+              "Steam",
+              "官方中文",
               "视觉小说",
-              "游戏实况",
-              "游戏解说",
-              "少年",
-              "正太",
-              "可爱",
-              "二次元"
+              "美少女游戏",
+              "宣传片"
             ],
-            "url": "https://www.bilibili.com/video/BV1BZ4A65ETM",
-            "publishedAt": "2026-11-02T15:46:23.000Z",
-            "likes": 2720,
+            "url": "https://www.bilibili.com/video/BV1dCW46cEnG",
+            "publishedAt": "2026-11-09T04:21:37.000Z",
+            "likes": 494,
             "kind": "video",
-            "durationSeconds": 5148,
+            "durationSeconds": 234,
             "author": {
-              "id": "533850221",
-              "name": "怜风daze",
-              "url": "https://space.bilibili.com/533850221"
+              "id": "3632310624717268",
+              "name": "HOOKSOFT公式",
+              "url": "https://space.bilibili.com/3632310624717268"
             },
             "metrics": {
-              "favorites": 3190,
-              "comments": 15,
-              "shares": 43,
-              "views": 31415,
-              "coins": 78
+              "favorites": 111,
+              "comments": 86,
+              "shares": 123,
+              "views": 4058,
+              "coins": 96
             },
             "metricAvailability": {
               "favorites": "available",
@@ -2594,10 +3569,13 @@
               "views": "available",
               "coins": "available"
             },
-            "collectedAt": "2026-11-10T08:37:40.318Z",
-            "keyword": "视觉小说",
-            "workId": "manual-tadaima-404",
-            "matchMethod": "reviewed"
+            "collectedAt": "2026-11-11T07:56:47.421Z",
+            "keyword": "恋愛、借りちゃいました",
+            "workId": "v25366",
+            "matchMethod": "explicit-title",
+            "matchedNames": [
+              "恋爱，我就借走咯"
+            ]
           }
         ],
         "coverage": {
@@ -2609,15 +3587,40 @@
             "galgame CG",
             "galgame名场面"
           ],
-          "queries": 8,
-          "pages": 16,
+          "queries": 43,
+          "pages": 67,
           "failedQueries": [
             "galgame CG",
-            "galgame名场面"
+            "galgame名场面",
+            "樱之诗",
+            "樱之刻",
+            "命运石之门",
+            "CLANNAD",
+            "夏日口袋",
+            "美好的每一天",
+            "近月少女的礼仪",
+            "苍之彼方的四重奏",
+            "缘之空",
+            "恋爱绮谭",
+            "恋爱借贷",
+            "恋爱我就借走了",
+            "恋爱喜剧突转",
+            "二人终末论",
+            "星空列车与白的旅行",
+            "星之终途",
+            "废村少女 ～魅惑迷离的笼之乡～",
+            "廃村少女 ～妖し惑ひの籠の郷～",
+            "CROSS†CHANNEL",
+            "壳之少女",
+            "殻ノ少女",
+            "恋爱，我就借走咯",
+            "恋愛、借りちゃいました",
+            "命运石之门",
+            "STEINS;GATE"
           ],
           "maxPagesPerQuery": 3,
-          "candidateCount": 304,
-          "qualifiedCount": 127
+          "candidateCount": 770,
+          "qualifiedCount": 141
         }
       }
     }

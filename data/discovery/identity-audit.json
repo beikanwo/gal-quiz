@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-11-07T04:39:56.121Z",
-  "checked": 41,
-  "retained": 40,
+  "checkedAt": "2026-11-11T08:15:14.981Z",
+  "checked": 67,
+  "retained": 66,
   "quarantined": [
     {
       "platform": "douyin",
@@ -133,6 +133,60 @@
       "reason": "用户确认是绫地宁宁的真人 COS 视频，作品标签仅说明角色出处，排除出游戏内容热度统计。",
       "candidates": [],
       "auditStatus": "excluded"
+    },
+    {
+      "platform": "bilibili",
+      "id": "BV19h4z6BEvP",
+      "title": "废村少女🏃……还会再见面吗🧎没有你😥我怎么活啊😭【GalGame杂谈/廃村少女［弐］ 外伝 ～千艶万匣～】",
+      "description": "",
+      "tags": [
+        "廃村少女［弐］ 外伝 ～千艶万匣～",
+        "废村少女",
+        "笼女",
+        "GalGame",
+        "白毛",
+        "纯爱",
+        "后宫"
+      ],
+      "url": "https://www.bilibili.com/video/BV19h4z6BEvP",
+      "publishedAt": "2026-11-07T12:15:00.000Z",
+      "likes": 930,
+      "kind": "video",
+      "durationSeconds": 217,
+      "author": {
+        "id": "15883143",
+        "name": "爱摸鱼的人潮",
+        "url": "https://space.bilibili.com/15883143"
+      },
+      "metrics": {
+        "favorites": 278,
+        "comments": 114,
+        "shares": 42,
+        "views": 10232,
+        "coins": 197
+      },
+      "metricAvailability": {
+        "favorites": "available",
+        "comments": "available",
+        "shares": "available",
+        "views": "available",
+        "coins": "available"
+      },
+      "collectedAt": "2026-11-11T07:55:07.318Z",
+      "keyword": "galgame",
+      "workId": "v38037",
+      "matchMethod": "explicit-title",
+      "matchedNames": [
+        "废村少女"
+      ],
+      "previousWorkId": "v38037",
+      "periodId": "2026-11-11",
+      "reason": "涉及多个作品或名称有歧义",
+      "candidates": [
+        "v38037",
+        "v66154"
+      ],
+      "auditStatus": "pending"
     }
   ]
 }
