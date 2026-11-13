@@ -50912,7 +50912,7 @@
         "douyinFavoritesMin": 30
       },
       "generatedAt": "2026-11-11T10:11:37.217Z",
-      "finalized": false
+      "finalized": true
     }
   },
   "platforms": {
@@ -53797,7 +53797,7 @@
     },
     "generatedAt": "2026-11-11T10:11:37.226Z"
   },
-  "updatedAt": "2026-11-11T10:11:37.231Z",
+  "updatedAt": "2026-11-13T10:04:05.473Z",
   "trial": {
     "periods": [
       {
@@ -53815,7 +53815,8 @@
     ],
     "closed": 2,
     "finalized": 1,
-    "target": 2
+    "target": 2,
+    "endedAt": "2026-11-13T10:04:05.473Z"
   },
   "rulesUpdatedAt": "2026-11-06T07:27:55.368Z"
 }
